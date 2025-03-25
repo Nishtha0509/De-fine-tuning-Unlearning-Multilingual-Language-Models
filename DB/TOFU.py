@@ -46,19 +46,19 @@ load_dotenv()
 hf_token = os.getenv("HF_TOKEN")
 
 # Ensure the output directory exists
-output_dir = "TOFU"
+output_dir = "DB/TOFU"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 # Ollama API 엔드포인트
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"  # 모델명 정확히 확인 필요
+MODEL_NAME = "meta-llama/Llama-3.2:latest"  # 모델명 정확히 확인 필요
 
 # 번역 함수 정의
 def translate(text):
     """Ollama를 통해 번역 요청"""
     print(f"번역 중: {text[:30]}...")  # 번역할 문장의 처음 30자 출력
-    prompt = f"다음을 한국어로 번역해줘:\n{text}"
+    prompt = f"""이 문장 한국어로 번역해줘:\"{text}\""""
     
     # API 요청 보내기
     try:
