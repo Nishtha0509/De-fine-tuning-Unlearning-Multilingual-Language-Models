@@ -2,3 +2,5 @@ kaggle.json
 .env
 .ipynb_checkpoints/
 __pycache__/
+venv
+llama3.2_3b
