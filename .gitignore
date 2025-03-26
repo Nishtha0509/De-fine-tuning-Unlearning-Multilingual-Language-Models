@@ -4,3 +4,4 @@ kaggle.json
 __pycache__/
 venv
 llama3.2_3b
+.venv
