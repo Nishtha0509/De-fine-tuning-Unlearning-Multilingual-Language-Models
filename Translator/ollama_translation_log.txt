@@ -1,0 +1,4 @@
+2025-03-26 09:41:23,704 - INFO: Input file loaded. Total items: 4000
+2025-03-26 09:41:23,721 - ERROR: Translation request failed. Status: 404, Response: 404 page not found
+2025-03-26 09:41:24,724 - ERROR: Translation request failed. Status: 404, Response: 404 page not found
+2025-03-26 09:41:26,726 - ERROR: Translation request failed. Status: 404, Response: 404 page not found

@@ -1,0 +1,4 @@
+2025-03-26 09:37:13,232 - ERROR: Model initialization failed: There was a specific connection error when trying to load facebook/nllb-200-3.3B:
+401 Client Error: Unauthorized for url: https://huggingface.co/facebook/nllb-200-3.3B/resolve/main/config.json (Request ID: Root=1-67e42d39-46bfeceb3d170b3d547d202a;65490344-c644-454b-9b43-e74351fd4e3c)
+
+Invalid credentials in Authorization header
