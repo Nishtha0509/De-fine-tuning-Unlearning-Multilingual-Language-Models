@@ -3,7 +3,7 @@ import json
 import time
 import requests
 
-os.environ["MISTRAL_API_KEY"] = "lhriSQF6Auv6iyxMjecaQdlo4jU6BNXA"
+os.environ["MISTRAL_API_KEY"] = "your_api"
 
 API_URL = "https://api.mistral.ai/v1/chat/completions"
 headers = {
