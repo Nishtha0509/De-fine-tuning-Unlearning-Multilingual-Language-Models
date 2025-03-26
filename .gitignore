@@ -5,3 +5,6 @@ __pycache__/
 venv
 llama3.2_3b
 .venv
+
+
+deepseek_translation_log.txt

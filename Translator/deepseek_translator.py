@@ -49,13 +49,13 @@ def translate_text(text, target_language, max_retries=3):
         try:
             # Ollama API 요청
             response = client.chat(
-                model='deepseek-r1:671b',
+                model='deepseek-r1',
                 messages=[{'role': 'user', 'content': prompt}]
             )
             
             # 응답 처리
             translated_text = response['message']['content'].strip()
-            
+                
             # 빈 응답 확인
             if not translated_text:
                 logger.warning(f"Empty translation for text: {text[:100]}...")
