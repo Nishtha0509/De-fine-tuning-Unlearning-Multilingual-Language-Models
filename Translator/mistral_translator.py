@@ -55,5 +55,5 @@ input_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/De-fine-tuning-Unlearni
 hindi_output_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full_hindi.json'
 korean_output_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/full_kore.json'
 
-# translate_json(input_path, korean_output_path, "Korean")
+translate_json(input_path, korean_output_path, "Korean")
 translate_json(input_path, hindi_output_path, "Hindi")
