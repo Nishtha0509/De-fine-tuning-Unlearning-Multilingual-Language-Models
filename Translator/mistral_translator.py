@@ -22,7 +22,8 @@ def mistral_translate(text, target_language):
     if response.status_code == 200:
         return response.json()["choices"][0]["message"]["content"]
     else:
-        return f"Error: {response.status_code}, {response.text}"
+        print("Retrying ...")
+        return mistral_translate(text, target_language)
 
 def translate_json(input_path, output_path, target_language, batch_size=5):
     with open(input_path, 'r', encoding='utf-8') as file:
@@ -50,9 +51,9 @@ def translate_json(input_path, output_path, target_language, batch_size=5):
     
     print(f"Translation to {target_language} completed. Saved to {output_path}")
 
-input_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/Project/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full.json'
-korean_output_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/Project/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full_kor.json'
-hindi_output_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/Project/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full_hindi.json'
+input_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full.json'
+hindi_output_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full_hindi.json'
+korean_output_path = r'/Users/nishtha/Desktop/Courses/CSE576_NLP/full_kore.json'
 
 translate_json(input_path, korean_output_path, "Korean")
 translate_json(input_path, hindi_output_path, "Hindi")
