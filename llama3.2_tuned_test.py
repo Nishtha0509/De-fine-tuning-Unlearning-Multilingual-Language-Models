@@ -3,6 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # 모델 경로 설정
 model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas/TOFU_Llama_FullFineTuning"
+# model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
 
 # 토크나이저와 모델 로드
 tokenizer = AutoTokenizer.from_pretrained(model_path)
@@ -32,7 +33,7 @@ def get_answer(question):
     return answer
 
 # 예시 질문
-question = "Hina Ameen이 초기에 어떤 종류의 장르를 썼니?"
+question = "In which genre does Hina Ameen primarily write?"
 answer = get_answer(question)
 print(f"Question: {question}")
 print(f"Answer: {answer}")
