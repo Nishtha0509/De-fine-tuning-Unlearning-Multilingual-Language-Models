@@ -22,7 +22,8 @@ def mistral_translate(text, target_language):
     if response.status_code == 200:
         return response.json()["choices"][0]["message"]["content"]
     else:
-        return f"Error: {response.status_code}, {response.text}"
+        print("Retrying ...")
+        return mistral_translate(text, target_language)
 
 def translate_json(input_path, output_path, target_language, batch_size=5):
     with open(input_path, 'r', encoding='utf-8') as file:
