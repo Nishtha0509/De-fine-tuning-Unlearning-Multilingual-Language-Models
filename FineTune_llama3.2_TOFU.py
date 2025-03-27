@@ -1,150 +1,150 @@
-import os
 import json
+import os
+import random
 import torch
 from transformers import (
     AutoModelForCausalLM, 
     AutoTokenizer, 
-    TrainingArguments, 
     Trainer, 
-    DataCollatorForLanguageModeling
+    TrainingArguments,
+    TrainerCallback
 )
-from datasets import load_dataset
-from peft import (
-    LoraConfig, 
-    get_peft_model, 
-    prepare_model_for_kbit_training
-)
-import bitsandbytes as bnb
+from peft import PromptTuningConfig, TaskType, get_peft_model, LoraConfig, prepare_model_for_kbit_training
 
-def load_model_and_tokenizer(model_path):
-    """
-    심볼릭 링크된 모델 및 토크나이저를 로드하는 함수
-    
-    Args:
-        model_path (str): 모델 경로
-    
-    Returns:
-        tuple: (model, tokenizer)
-    """
-    try:
-        # 토크나이저 로드
-        tokenizer = AutoTokenizer.from_pretrained(
-            model_path,
-            trust_remote_code=True,
-            use_fast=True,
-            add_eos_token=True
-        )
-        
-        # 패딩 토큰 설정
-        if tokenizer.pad_token is None:
-            tokenizer.pad_token = tokenizer.eos_token
-        
-        # 모델 로드 (심볼릭 링크 지원)
-        model = AutoModelForCausalLM.from_pretrained(
-            model_path,
-            torch_dtype=torch.bfloat16,
-            device_map="auto",
-            trust_remote_code=True,
-            local_files_only=True  # 로컬 파일만 사용
-        )
-        
-        # 그래디언트 체크포인팅 활성화
-        model.gradient_checkpointing_enable()
-        
-        return model, tokenizer
-    
-    except Exception as e:
-        print(f"모델 로드 중 오류 발생: {e}")
-        raise
+from datasets import Dataset
+from torch.nn import CrossEntropyLoss
 
-def load_json_dataset(json_path, tokenizer, max_length=512):
-    """
-    JSON 데이터셋 로드 및 토큰화
-    
-    Args:
-        json_path (str): JSON 파일 경로
-        tokenizer: 토크나이저
-        max_length (int): 최대 시퀀스 길이
-    
-    Returns:
-        datasets.Dataset: 토큰화된 데이터셋
-    """
-    # JSON 파일 로드
-    with open(json_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    # 데이터셋 토큰화
+# Common path settings
+base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
+data_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full.json"
+base_output_dir = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas"
+
+# Output directory creation function
+def create_output_dir(method_name):
+    output_dir = os.path.join(base_output_dir, f"TOFU_Llama_{method_name}")
+    os.makedirs(output_dir, exist_ok=True)
+    return output_dir
+
+# Common data loading and preprocessing function
+def load_and_prepare_data(data_path):
+    # Load data
+    with open(data_path, "r", encoding="utf-8") as f:
+        raw_data = json.load(f)
+
+    # Data splitting (90% train, 10% eval)
+    random.seed(42)
+    random.shuffle(raw_data)
+    split_index = int(len(raw_data) * 0.9)
+
+    train_data = raw_data[:split_index]
+    eval_data = raw_data[split_index:]
+
+    # Dataset creation function
+    def create_dataset(data):
+        texts = [f"Question: {item.get('question', '')} Answer: {item.get('answer', '')}" for item in data]
+        return Dataset.from_dict({"text": texts})
+
+    return create_dataset(train_data), create_dataset(eval_data)
+
+# Common tokenization function
+def tokenize_data(tokenizer, train_dataset, eval_dataset):
     def tokenize_function(examples):
-        return tokenizer(
-            examples['text'], 
+        tokenized_inputs = tokenizer(
+            examples["text"], 
+            padding="max_length", 
             truncation=True, 
-            padding='max_length', 
-            max_length=max_length
+            max_length=512,
+            return_tensors="pt"
         )
-    
-    # HuggingFace 데이터셋으로 변환
-    dataset = load_dataset('json', data_files=json_path)
-    tokenized_dataset = dataset.map(tokenize_function, batched=True)
-    
-    return tokenized_dataset['train']
+        # `labels`를 `input_ids`와 동일하게 설정
+        tokenized_inputs["labels"] = tokenized_inputs["input_ids"]
+        return tokenized_inputs
 
-def full_finetuning(model, tokenizer, dataset, output_dir):
-    """
-    전체 파인튜닝 수행
-    
-    Args:
-        model: 모델
-        tokenizer: 토크나이저
-        dataset: 토큰화된 데이터셋
-        output_dir (str): 출력 디렉토리
-    """
-    # 훈련 인자 설정
-    training_args = TrainingArguments(
+    tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True, remove_columns=["text"])
+    tokenized_train_dataset.set_format("torch", columns=["input_ids", "attention_mask", "labels"])
+
+    tokenized_eval_dataset = eval_dataset.map(tokenize_function, batched=True, remove_columns=["text"])
+    tokenized_eval_dataset.set_format("torch", columns=["input_ids", "attention_mask", "labels"])
+
+    return tokenized_train_dataset, tokenized_eval_dataset
+
+
+# Common training arguments creation function
+def create_training_args(output_dir):
+    return TrainingArguments(
         output_dir=output_dir,
-        num_train_epochs=3,
-        per_device_train_batch_size=4,
-        warmup_steps=100,
-        weight_decay=0.01,
-        logging_dir=f'{output_dir}/logs',
-        logging_steps=10,
+        evaluation_strategy="steps",
+        eval_steps=500,
         learning_rate=5e-5,
+        per_device_train_batch_size=4,
+        per_device_eval_batch_size=4,
+        gradient_accumulation_steps=8,
+        num_train_epochs=3,
+        weight_decay=0.01,
         save_total_limit=3,
-        push_to_hub=False
+        save_strategy="steps",
+        save_steps=500,
+        logging_dir=os.path.join(output_dir, "logs"),
+        logging_steps=100,
+        bf16=True,
+        lr_scheduler_type="cosine",
+        warmup_ratio=0.1,
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        report_to="none",
+        gradient_checkpointing=True,
+        optim="adamw_torch",
+    )
+
+# 1. Full Fine-Tuning
+def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
+    output_dir = create_output_dir("FullFineTuning")
+    
+    # Load model and tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(base_model_path)
+    tokenizer.pad_token = tokenizer.eos_token if tokenizer.pad_token is None else tokenizer.pad_token
+    
+    model = AutoModelForCausalLM.from_pretrained(
+        base_model_path, 
+        torch_dtype=torch.bfloat16,
+        device_map="auto"
     )
     
-    # 데이터 콜레이터 준비
-    data_collator = DataCollatorForLanguageModeling(
-        tokenizer=tokenizer, 
-        mlm=False
-    )
+    # Prepare tokenized datasets
+    tokenized_train_dataset, tokenized_eval_dataset = tokenize_data(tokenizer, train_dataset, eval_dataset)
     
-    # 트레이너 생성 및 훈련
+    # Create training arguments
+    training_args = create_training_args(output_dir)
+    
+    # Execute training
     trainer = Trainer(
         model=model,
         args=training_args,
-        train_dataset=dataset,
-        data_collator=data_collator
+        train_dataset=tokenized_train_dataset,
+        eval_dataset=tokenized_eval_dataset,
     )
     
     trainer.train()
     trainer.save_model(output_dir)
+    tokenizer.save_pretrained(output_dir)
 
-def lora_finetuning(model, tokenizer, dataset, output_dir):
-    """
-    LoRA 파인튜닝 수행
+# 2. LoRA Fine-Tuning
+def lora_fine_tuning(base_model_path, train_dataset, eval_dataset):
+    output_dir = create_output_dir("LoRA")
     
-    Args:
-        model: 모델
-        tokenizer: 토크나이저
-        dataset: 토큰화된 데이터셋
-        output_dir (str): 출력 디렉토리
-    """
-    # 모델을 LoRA 훈련을 위해 준비
-    model = prepare_model_for_kbit_training(model)
+    # Load model and tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(base_model_path)
+    tokenizer.pad_token = tokenizer.eos_token if tokenizer.pad_token is None else tokenizer.pad_token
     
-    # LoRA 설정
+    model = AutoModelForCausalLM.from_pretrained(
+        base_model_path, 
+        torch_dtype=torch.bfloat16,
+        device_map="auto"
+    )
+    
+    # LoRA configuration
     lora_config = LoraConfig(
-        r=16,
+        r=16,  # Low-rank adaptation dimension
         lora_alpha=32,
         target_modules=["q_proj", "v_proj"],
         lora_dropout=0.1,
@@ -152,73 +152,134 @@ def lora_finetuning(model, tokenizer, dataset, output_dir):
         task_type="CAUSAL_LM"
     )
     
-    # LoRA 모델 생성
-    lora_model = get_peft_model(model, lora_config)
+    # Prepare LoRA model
+    model = prepare_model_for_kbit_training(model)
+    model = get_peft_model(model, lora_config)
     
-    # 훈련 인자 설정
-    training_args = TrainingArguments(
-        output_dir=output_dir,
-        num_train_epochs=3,
-        per_device_train_batch_size=4,
-        warmup_steps=100,
-        weight_decay=0.01,
-        logging_dir=f'{output_dir}/logs',
-        logging_steps=10,
-        learning_rate=1e-4,
-        save_total_limit=3,
-        push_to_hub=False
-    )
+    # Prepare tokenized datasets
+    tokenized_train_dataset, tokenized_eval_dataset = tokenize_data(tokenizer, train_dataset, eval_dataset)
     
-    # 데이터 콜레이터 준비
-    data_collator = DataCollatorForLanguageModeling(
-        tokenizer=tokenizer, 
-        mlm=False
-    )
+    # Create training arguments
+    training_args = create_training_args(output_dir)
     
-    # 트레이너 생성 및 훈련
+    # Execute training
     trainer = Trainer(
-        model=lora_model,
+        model=model,
         args=training_args,
-        train_dataset=dataset,
-        data_collator=data_collator
+        train_dataset=tokenized_train_dataset,
+        eval_dataset=tokenized_eval_dataset,
     )
     
     trainer.train()
     trainer.save_model(output_dir)
+    tokenizer.save_pretrained(output_dir)
 
+# 3. Prefix Tuning
+def prefix_fine_tuning(base_model_path, train_dataset, eval_dataset):
+    output_dir = create_output_dir("PrefixTuning")
+    
+    # Load model and tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(base_model_path)
+    tokenizer.pad_token = tokenizer.eos_token if tokenizer.pad_token is None else tokenizer.pad_token
+    
+    model = AutoModelForCausalLM.from_pretrained(
+        base_model_path, 
+        torch_dtype=torch.bfloat16,
+        device_map="auto"
+    )
+    
+    # Prefix Tuning configuration
+    prefix_config = PrefixTuningConfig(
+        task_type="CAUSAL_LM",
+        num_virtual_tokens=20,
+        prefix_projection=True
+    )
+    
+    # Prepare Prefix model
+    model = prepare_model_for_kbit_training(model)
+    model = get_peft_model(model, prefix_config)
+    
+    # Prepare tokenized datasets
+    tokenized_train_dataset, tokenized_eval_dataset = tokenize_data(tokenizer, train_dataset, eval_dataset)
+    
+    # Create training arguments
+    training_args = create_training_args(output_dir)
+    
+    # Execute training
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=tokenized_train_dataset,
+        eval_dataset=tokenized_eval_dataset,
+    )
+    
+    trainer.train()
+    trainer.save_model(output_dir)
+    tokenizer.save_pretrained(output_dir)
+
+# 4. Adapters Fine-Tuning
+def adapters_fine_tuning(base_model_path, train_dataset, eval_dataset):
+    output_dir = create_output_dir("Adapters")
+    
+    # Load model and tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(base_model_path)
+    tokenizer.pad_token = tokenizer.eos_token if tokenizer.pad_token is None else tokenizer.pad_token
+    
+    model = AutoModelForCausalLM.from_pretrained(
+        base_model_path, 
+        torch_dtype=torch.bfloat16,
+        device_map="auto"
+    )
+    
+    # Current version of Adapter configuration
+    from peft import PromptTuningConfig, TaskType, get_peft_model
+    
+    # Adapter configuration
+    adapter_config = PromptTuningConfig(
+        task_type=TaskType.CAUSAL_LM,
+        num_virtual_tokens=20,
+        prompt_tuning_init="TEXT",
+        prompt_tuning_init_text="Generate a detailed answer based on the context."
+    )
+    
+    # Prepare Adapters model
+    model = prepare_model_for_kbit_training(model)
+    model = get_peft_model(model, adapter_config)
+    
+    # Prepare tokenized datasets
+    tokenized_train_dataset, tokenized_eval_dataset = tokenize_data(tokenizer, train_dataset, eval_dataset)
+    
+    # Create training arguments
+    training_args = create_training_args(output_dir)
+    
+    # Execute training
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=tokenized_train_dataset,
+        eval_dataset=tokenized_eval_dataset,
+    )
+    
+    trainer.train()
+    trainer.save_model(output_dir)
+    tokenizer.save_pretrained(output_dir)
+
+# Main execution
 def main():
-    # 모델 및 토크나이저 경로 설정
-    model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
-    json_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full.json"
+    # Load data
+    train_dataset, eval_dataset = load_and_prepare_data(data_path)
     
-    # 출력 디렉토리 설정
-    base_output_dir = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/outputs"
-    full_ft_dir = os.path.join(base_output_dir, "full_finetuning")
-    lora_ft_dir = os.path.join(base_output_dir, "lora_finetuning")
-    
-    # 출력 디렉토리 생성
-    os.makedirs(full_ft_dir, exist_ok=True)
-    os.makedirs(lora_ft_dir, exist_ok=True)
-    
+    # Execute each Fine-Tuning method
     try:
-        # 모델 및 토크나이저 로드
-        model, tokenizer = load_model_and_tokenizer(model_path)
-        
-        # 데이터셋 로드
-        dataset = load_json_dataset(json_path, tokenizer)
-        
-        # 전체 파인튜닝 수행
-        print("전체 파인튜닝 시작...")
-        full_finetuning(model, tokenizer, dataset, full_ft_dir)
-        print(f"전체 파인튜닝 완료. 모델 저장 위치: {full_ft_dir}")
-        
-        # LoRA 파인튜닝 수행
-        print("LoRA 파인튜닝 시작...")
-        lora_finetuning(model, tokenizer, dataset, lora_ft_dir)
-        print(f"LoRA 파인튜닝 완료. 모델 저장 위치: {lora_ft_dir}")
-    
+        # full_fine_tuning(base_model_path, train_dataset, eval_dataset)
+        lora_fine_tuning(base_model_path, train_dataset, eval_dataset)
+        prefix_fine_tuning(base_model_path, train_dataset, eval_dataset)
+        adapters_fine_tuning(base_model_path, train_dataset, eval_dataset)
     except Exception as e:
-        print(f"파인튜닝 중 오류 발생: {e}")
+        print(f"An error occurred during fine-tuning: {e}")
+        raise
+    finally:
+        torch.cuda.empty_cache()
 
 if __name__ == "__main__":
     main()
