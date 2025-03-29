@@ -6,5 +6,6 @@ venv
 llama3.2_3b
 .venv
 TOFU_Llamas/
+venv_definetuning
 
 deepseek_translation_log.txt
