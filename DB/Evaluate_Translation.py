@@ -39,8 +39,8 @@ def calculate_bertscore(candidates, references, lang):
 # eng-kor eval
 ko_question_scores = 0
 ko_answer_scores = 0
-# ko_question_scores = calculate_bertscore(ko_questions, en_questions, "en")
-# ko_answer_scores = calculate_bertscore(ko_answers, en_answers, "en")
+ko_question_scores = calculate_bertscore(ko_questions, en_questions, "en")
+ko_answer_scores = calculate_bertscore(ko_answers, en_answers, "en")
 
 # eng-hindi eval
 hi_question_scores = 0
