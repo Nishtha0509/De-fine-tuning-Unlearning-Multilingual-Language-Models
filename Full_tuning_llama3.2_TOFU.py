@@ -111,35 +111,6 @@ def create_training_args(output_dir):
         optim="adamw_torch",
     )
 
-
-# Common training arguments creation function
-def create_training_args_Lora(output_dir):
-    return SFTConfig(
-        output_dir=model_config.output_dir,
-        eval_strategy="steps",
-        eval_steps=200,
-        learning_rate=2e-4,
-        per_device_train_batch_size=4,
-        per_device_eval_batch_size=4,
-        gradient_accumulation_steps=4,
-        num_train_epochs=5,
-        weight_decay=0.01,
-        save_total_limit=3,
-        save_strategy="steps",
-        save_steps=400,
-        logging_dir="./logs",
-        logging_steps=100,
-        fp16=False,
-        bf16=True,
-        lr_scheduler_type="cosine",
-        warmup_ratio=0.1,
-        load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
-        report_to="none",
-        gradient_checkpointing=True,
-        optim="adamw_torch",
-    )
-    
 # 1. Full Fine-Tuning
 def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
     output_dir = create_output_dir("FullFineTuning")
@@ -168,60 +139,6 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
         eval_dataset=tokenized_eval_dataset,
     )
     
-    trainer.train()
-    trainer.save_model(output_dir)
-    tokenizer.save_pretrained(output_dir)
-
-# 2. LoRA Fine-Tuning
-def lora_fine_tuning(base_model_path, train_data, val_data):
-    output_dir = create_output_dir("LoRA")
-    
-    # Load model and tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(base_model_path)
-    tokenizer.pad_token = tokenizer.eos_token if tokenizer.pad_token is None else tokenizer.pad_token
-    
-    # Optional: Add BitsAndBytes config if using quantization
-    model = AutoModelForCausalLM.from_pretrained(
-        base_model_path, 
-        torch_dtype=torch.bfloat16,
-        device_map="auto"
-    )
-    
-    # LoRA configuration with comprehensive target modules
-    peft_params = LoraConfig(
-        lora_alpha=16,
-        lora_dropout=0.1,
-        r=64,
-        bias="none",
-        task_type="CAUSAL_LM",
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj"]  # More comprehensive
-    )
-    
-    # Prepare LoRA model
-    model = prepare_model_for_kbit_training(model)
-    model = get_peft_model(model, peft_params)
-    
-    # Prepare the train and eval datasets in the correct format
-    train_dataset = Dataset.from_dict({
-        "text": [f"Question: {item['text'].split('Answer:')[0]} Answer: {item['text'].split('Answer:')[1]}" for item in train_data]
-    })
-    val_dataset = Dataset.from_dict({
-        "text": [f"Question: {item['text'].split('Answer:')[0]} Answer: {item['text'].split('Answer:')[1]}" for item in val_data]
-    })
-    
-    # Create training arguments
-    training_args = create_training_args_Lora(output_dir)
-    
-    # SFTTrainer 초기화 시 tokenizer와 packing 제거
-    logger.info("Setting up SFTTrainer...")
-    trainer = SFTTrainer(
-        model=model,
-        args=training_args,
-        train_dataset=train_dataset,
-        eval_dataset=val_dataset,
-        peft_config=peft_params,
-    )
-
     trainer.train()
     trainer.save_model(output_dir)
     tokenizer.save_pretrained(output_dir)
@@ -323,8 +240,7 @@ def main():
     
     # Execute each Fine-Tuning method
     try:
-        # full_fine_tuning(base_model_path, train_dataset, eval_dataset)
-        lora_fine_tuning(base_model_path, train_dataset, eval_dataset)
+        full_fine_tuning(base_model_path, train_dataset, eval_dataset)
         # prefix_fine_tuning(base_model_path, train_dataset, eval_dataset)
         # adapters_fine_tuning(base_model_path, train_dataset, eval_dataset)
     except Exception as e:
