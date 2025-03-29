@@ -29,6 +29,10 @@ from transformers import (
 )
 from trl import SFTTrainer, SFTConfig
 
+# logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 # Common path settings
 base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
 data_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/full.json"
@@ -36,7 +40,7 @@ base_output_dir = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Lang
 
 # Output directory creation function
 def create_output_dir(method_name):
-    output_dir = os.path.join(base_output_dir, f"TOFU_Llama_{method_name}")
+    output_dir = os.path.join(base_output_dir, f"{method_name}_TOFU_Llama")
     os.makedirs(output_dir, exist_ok=True)
     return output_dir
 
@@ -89,18 +93,19 @@ def create_training_args(output_dir):
     return TrainingArguments(
         output_dir=output_dir,
         evaluation_strategy="steps",
-        eval_steps=500,
-        learning_rate=5e-5,
+        eval_steps=200,
+        learning_rate=2e-4,
         per_device_train_batch_size=4,
         per_device_eval_batch_size=4,
         gradient_accumulation_steps=8,
-        num_train_epochs=3,
+        num_train_epochs=5,
         weight_decay=0.01,
         save_total_limit=3,
         save_strategy="steps",
-        save_steps=500,
+        save_steps=400,
         logging_dir=os.path.join(output_dir, "logs"),
         logging_steps=100,
+        fp16=False,
         bf16=True,
         lr_scheduler_type="cosine",
         warmup_ratio=0.1,
@@ -110,10 +115,10 @@ def create_training_args(output_dir):
         gradient_checkpointing=True,
         optim="adamw_torch",
     )
-
+    
 # 1. Full Fine-Tuning
 def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
-    output_dir = create_output_dir("FullFineTuning")
+    output_dir = create_output_dir("Full")
     
     # Load model and tokenizer
     tokenizer = AutoTokenizer.from_pretrained(base_model_path)

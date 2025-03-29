@@ -157,7 +157,7 @@ def train_model(model_config):
     
     # 데이터 분할 (8:2 비율로 train과 validation 분할)
     total_items = len(data)
-    train_size = int(total_items * 0.8)
+    train_size = int(total_items * 0.9)
     
     train_data = data[:train_size]
     val_data = data[train_size:]
@@ -197,13 +197,13 @@ def train_model(model_config):
         learning_rate=2e-4,
         per_device_train_batch_size=4,
         per_device_eval_batch_size=4,
-        gradient_accumulation_steps=4,
+        gradient_accumulation_steps=8,
         num_train_epochs=5,
         weight_decay=0.01,
         save_total_limit=3,
         save_strategy="steps",
         save_steps=400,
-        logging_dir="./logs",
+        logging_dir="./lora_tune_logs",
         logging_steps=100,
         fp16=False,
         bf16=True,

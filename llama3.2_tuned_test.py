@@ -2,7 +2,8 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # 모델 경로 설정
-model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas/TOFU_Llama_FullFineTuning"
+# model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas/Full_TOFU_Llama"
+model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas/LoRA_TOFU_Llama"
 # model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
 
 # 토크나이저와 모델 로드
