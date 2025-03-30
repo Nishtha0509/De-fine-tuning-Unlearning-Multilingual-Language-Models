@@ -79,14 +79,8 @@ def load_model_and_tokenizer(model_config):
     model = AutoModelForCausalLM.from_pretrained(
         model_config.model_path,
         torch_dtype=torch.bfloat16,
-        device_map="auto",
-        trust_remote_code=True,
-        quantization_config=BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.bfloat16,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_use_double_quant=True,
-        )
+        device_map="auto",  # 자동으로 GPU에 모델 분산
+        trust_remote_code=True  # OLMo 모델에 필요
     )
     
     # 나머지 코드는 동일하게 유지
