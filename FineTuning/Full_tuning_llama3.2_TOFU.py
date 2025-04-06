@@ -42,7 +42,7 @@ base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Lang
 data_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train"
 # --- END MODIFICATION ---
 base_output_dir = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas"
-model_name="TOFU_Llama_ENG_KR_HIN"
+model_name="TOFU_Llama_ENG"
 
 # Output directory creation function
 def create_output_dir(method_name):
@@ -187,7 +187,6 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
     # Create training arguments
     training_args = TrainingArguments(
         output_dir=output_dir,
-        eval_steps=250,
         learning_rate=5e-5, # May need tuning per model
         per_device_train_batch_size=16, # Adjust based on GPU memory
         per_device_eval_batch_size=16,  # Adjust based on GPU memory
@@ -204,6 +203,7 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
         lr_scheduler_type="cosine",
         warmup_ratio=0.1,
         # evaluation_strategy="steps",
+        eval_steps=250,
         # load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
         report_to="none",  # Disable wandb/tensorboard reporting unless configured

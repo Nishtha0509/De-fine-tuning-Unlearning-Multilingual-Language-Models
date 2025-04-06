@@ -57,12 +57,12 @@ MODEL_CONFIGS = [
         is_local=True,
         is_adapter_model=False, # Assuming this is adapter based on previous context
     ),
-    # ModelConfig(
-    #     name="Full_TOFU_Llama_ENG_KR_HIN",
-    #     model_path="/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas/Full_TOFU_Llama_ENG_KR_HIN",
-    #     is_local=True,
-    #     is_adapter_model=False, # Assuming this is adapter
-    # ),
+    ModelConfig(
+        name="Full_TOFU_Llama_ENG_KR_HIN",
+        model_path="/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas/Full_TOFU_Llama_ENG_KR_HIN",
+        is_local=True,
+        is_adapter_model=False, # Assuming this is adapter
+    ),
 ]
 
 # --- Evaluation Configuration ---

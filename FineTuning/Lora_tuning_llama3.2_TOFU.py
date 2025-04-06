@@ -185,29 +185,30 @@ def train_model(model_config):
     model.print_trainable_parameters()
 
     training_args = SFTConfig(
-        output_dir=model_config.output_dir,
-        eval_strategy="steps",
-        eval_steps=200,
-        learning_rate=2e-4,
-        per_device_train_batch_size=4,
-        per_device_eval_batch_size=4,
-        gradient_accumulation_steps=8,
-        num_train_epochs=5,
+        output_dir=output_dir,
+        eval_steps=250,
+        learning_rate=5e-5, # May need tuning per model
+        per_device_train_batch_size=16, # Adjust based on GPU memory
+        per_device_eval_batch_size=16,  # Adjust based on GPU memory
+        gradient_accumulation_steps=2, # Effective batch size = 4 * 8 * num_gpus = 32 * num_gpus
+        num_train_epochs=8,
         weight_decay=0.01,
-        save_total_limit=3,
+        save_total_limit=2, # Save fewer checkpoints to save space
         save_strategy="steps",
-        save_steps=400,
-        logging_dir="./lora_tune_logs",
+        save_steps=500,
+        logging_dir=os.path.join(output_dir, "logs"), # Log within model's output dir
         logging_steps=100,
-        fp16=False,
-        bf16=True,
+        fp16=False, # Disabled as we use bf16
+        bf16=True,  # Use bfloat16 precision (ensure hardware support)
         lr_scheduler_type="cosine",
         warmup_ratio=0.1,
-        load_best_model_at_end=True,
+        # evaluation_strategy="steps",
+        # load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
-        report_to="none",
-        gradient_checkpointing=True,
-        optim="adamw_torch",
+        report_to="none",  # Disable wandb/tensorboard reporting unless configured
+        gradient_checkpointing=True, # Enable gradient checkpointing
+        optim="adamw_torch", # Use efficient AdamW
+        remove_unused_columns=False, # Important if preprocess adds extra columns accidentally
     )
 
     # SFTTrainer 초기화 시 tokenizer와 packing 제거
