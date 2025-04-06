@@ -165,7 +165,7 @@ def tokenize_data_manual(tokenizer, train_dataset, eval_dataset):
 
 # Full Fine-Tuning (Using SFTTrainer)
 def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
-    method_name = "Full_"
+    method_name = "Full"
     output_dir = create_output_dir(method_name)
     logger.info(f"--- Starting {method_name} ---")
 

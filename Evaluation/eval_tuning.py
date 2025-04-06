@@ -52,7 +52,7 @@ MODEL_CONFIGS = [
     #     is_adapter_model=False
     # ),
     ModelConfig(
-        name="FULL_TOFU_Llama_ENG",
+        name="Full_TOFU_Llama_ENG",
         model_path="/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas/Full_TOFU_Llama_ENG",
         is_local=True,
         is_adapter_model=False, # Assuming this is adapter based on previous context
@@ -70,7 +70,7 @@ DATA_DIRECTORIES = [
     "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train",
     "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/unlearning"
 ]
-OUTPUT_DIR = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/TOFU_Evaluation_Results" # Changed output dir
+OUTPUT_DIR = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/TOFU_Evaluation_Results_epoch8" # Changed output dir
 MAX_NEW_TOKENS = 150 # Max tokens to generate for an answer
 BERT_SCORE_MODEL_TYPE = "bert-base-multilingual-cased" # Recommended for multilingual comparison
 GENERATION_BATCH_SIZE = 32  # Batch for evaluation
