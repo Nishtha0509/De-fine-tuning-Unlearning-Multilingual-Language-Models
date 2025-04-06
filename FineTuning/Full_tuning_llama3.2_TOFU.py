@@ -42,7 +42,7 @@ base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Lang
 data_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train"
 # --- END MODIFICATION ---
 base_output_dir = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas"
-model_name="TOFU_Llama_ENG_KOR_HIN"
+model_name="TOFU_Llama_ENG_KR_HIN"
 
 # Output directory creation function
 def create_output_dir(method_name):
