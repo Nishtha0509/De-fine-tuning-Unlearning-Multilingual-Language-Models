@@ -45,7 +45,7 @@ base_output_dir = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Lang
 
 # Output directory creation function
 def create_output_dir(method_name):
-    output_dir = os.path.join(base_output_dir, f"{method_name}_TOFU_Llama")
+    output_dir = os.path.join(base_output_dir, f"{method_name}_TOFU_Llama_ENG")
     os.makedirs(output_dir, exist_ok=True)
     logger.info(f"Created output directory: {output_dir}")
     return output_dir
@@ -164,7 +164,7 @@ def tokenize_data_manual(tokenizer, train_dataset, eval_dataset):
 
 # Full Fine-Tuning (Using SFTTrainer)
 def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
-    method_name = "Full_SFT"
+    method_name = "Full_"
     output_dir = create_output_dir(method_name)
     logger.info(f"--- Starting {method_name} ---")
 
