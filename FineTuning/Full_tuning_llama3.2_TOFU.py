@@ -42,10 +42,11 @@ base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Lang
 data_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train"
 # --- END MODIFICATION ---
 base_output_dir = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU_Llamas"
+model_name="TOFU_Llama_ENG_KOR_HIN"
 
 # Output directory creation function
 def create_output_dir(method_name):
-    output_dir = os.path.join(base_output_dir, f"{method_name}_TOFU_Llama_ENG")
+    output_dir = os.path.join(base_output_dir, f"{method_name}_{model_name}")
     os.makedirs(output_dir, exist_ok=True)
     logger.info(f"Created output directory: {output_dir}")
     return output_dir
@@ -191,7 +192,7 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
         per_device_train_batch_size=16, # Adjust based on GPU memory
         per_device_eval_batch_size=16,  # Adjust based on GPU memory
         gradient_accumulation_steps=2, # Effective batch size = 4 * 8 * num_gpus = 32 * num_gpus
-        num_train_epochs=3,
+        num_train_epochs=8,
         weight_decay=0.01,
         save_total_limit=2, # Save fewer checkpoints to save space
         save_strategy="steps",
