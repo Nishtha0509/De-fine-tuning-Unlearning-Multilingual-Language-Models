@@ -162,41 +162,7 @@ def tokenize_data_manual(tokenizer, train_dataset, eval_dataset):
     return tokenized_train_dataset, tokenized_eval_dataset
 
 
-# Common training arguments creation function
-def create_training_args(output_dir, use_bf16=True):
-    # Check BF16 support
-    if use_bf16 and not torch.cuda.is_bf16_supported():
-        logger.warning("BF16 is not supported on this GPU. Falling back to FP16.")
-        use_bf16 = False
-
-    return TrainingArguments(
-        output_dir=output_dir,
-        evaluation_strategy="steps",
-        eval_steps=200, # Evaluate more frequently if dataset is large or training is long
-        learning_rate=2e-4, # Common starting point for AdamW
-        per_device_train_batch_size=16, # Adjust based on GPU memory
-        per_device_eval_batch_size=16,  # Adjust based on GPU memory
-        gradient_accumulation_steps=2, # Effective batch size = 4 * 8 * num_gpus = 32 * num_gpus
-        num_train_epochs=5, # Adjust based on convergence
-        weight_decay=0.01,
-        save_total_limit=3, # Keep only the best and latest checkpoints
-        save_strategy="steps",
-        save_steps=400, # Save checkpoints regularly
-        logging_dir=os.path.join(output_dir, "logs"),
-        logging_steps=100, # Log metrics frequently
-        fp16=not use_bf16, # Use FP16 if BF16 is not available/chosen
-        bf16=use_bf16, # Use BF16 if available and chosen
-        lr_scheduler_type="cosine", # Common scheduler
-        warmup_ratio=0.1, # Warmup for the first 10% of steps
-        load_best_model_at_end=True, # Load the best model based on eval loss
-        metric_for_best_model="eval_loss", # Use eval loss to determine the best model
-        report_to="none", # Disable external reporting (like wandb) for this example
-        gradient_checkpointing=True, # Saves memory at the cost of a bit more compute time
-        optim="adamw_torch", # Recommended optimizer
-        # ddp_find_unused_parameters=False # Set to False if not using DDP or if you know parameters are used
-    )
-
-# 1. Full Fine-Tuning (Using SFTTrainer)
+# Full Fine-Tuning (Using SFTTrainer)
 def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
     method_name = "Full_SFT"
     output_dir = create_output_dir(method_name)
@@ -218,19 +184,41 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
     )
 
     # Create training arguments
-    training_args = create_training_args(output_dir)
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+        eval_steps=250,
+        learning_rate=5e-5, # May need tuning per model
+        per_device_train_batch_size=16, # Adjust based on GPU memory
+        per_device_eval_batch_size=16,  # Adjust based on GPU memory
+        gradient_accumulation_steps=2, # Effective batch size = 4 * 8 * num_gpus = 32 * num_gpus
+        num_train_epochs=3,
+        weight_decay=0.01,
+        save_total_limit=2, # Save fewer checkpoints to save space
+        save_strategy="steps",
+        save_steps=500,
+        logging_dir=os.path.join(output_dir, "logs"), # Log within model's output dir
+        logging_steps=100,
+        fp16=False, # Disabled as we use bf16
+        bf16=True,  # Use bfloat16 precision (ensure hardware support)
+        lr_scheduler_type="cosine",
+        warmup_ratio=0.1,
+        # evaluation_strategy="steps",
+        # load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        report_to="none",  # Disable wandb/tensorboard reporting unless configured
+        gradient_checkpointing=True, # Enable gradient checkpointing
+        optim="adamw_torch", # Use efficient AdamW
+        remove_unused_columns=False, # Important if preprocess adds extra columns accidentally
+    )
 
     # Create SFTTrainer
     trainer = SFTTrainer(
         model=model,
-        tokenizer=tokenizer,
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
-        dataset_text_field="text",  # Specify the column containing the text data
-        max_seq_length=512,         # Ensure sequences are padded/truncated appropriately
-        packing=False,              # Set to True potentially for faster training if sequences are short
     )
+
 
     # Execute training
     logger.info("Starting full fine-tuning training...")
@@ -240,128 +228,6 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
     # Save model and tokenizer
     logger.info(f"Saving final model to {output_dir}")
     trainer.save_model(output_dir)  # Saves the fine-tuned model
-    tokenizer.save_pretrained(output_dir)
-    logger.info(f"--- Completed {method_name} ---")
-
-
-# 3. Prefix Tuning (Using SFTTrainer)
-def prefix_fine_tuning(base_model_path, train_dataset, eval_dataset):
-    method_name = "PrefixTuning_SFT"
-    output_dir = create_output_dir(method_name)
-    logger.info(f"--- Starting {method_name} ---")
-
-    # Load tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(base_model_path)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-        logger.info("Set pad_token to eos_token")
-
-    # Load base model (potentially in 4/8 bit for PEFT)
-    # Configure BitsAndBytes for quantization if needed (reduces memory)
-    # bnb_config = BitsAndBytesConfig(
-    #     load_in_4bit=True,
-    #     bnb_4bit_quant_type="nf4",
-    #     bnb_4bit_compute_dtype=torch.bfloat16
-    # )
-    model = AutoModelForCausalLM.from_pretrained(
-        base_model_path,
-        torch_dtype=torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16,
-        device_map="auto",
-        # quantization_config=bnb_config # Enable if using quantization
-    )
-
-    # model = prepare_model_for_kbit_training(model) # Use if using quantization
-
-    # Prefix Tuning configuration
-    peft_config = PrefixTuningConfig(
-        task_type=TaskType.CAUSAL_LM, # Specify the task type
-        num_virtual_tokens=20,        # Number of virtual tokens to add as prefix
-        # prefix_projection=True      # Optional: Use a projection layer
-    )
-
-    # Create training arguments
-    training_args = create_training_args(output_dir)
-
-    # Create SFTTrainer with PEFT config
-    trainer = SFTTrainer(
-        model=model,                # Pass the base model
-        tokenizer=tokenizer,
-        args=training_args,
-        peft_config=peft_config,    # Pass the PEFT configuration here
-        train_dataset=train_dataset,
-        eval_dataset=eval_dataset,
-        dataset_text_field="text",
-        max_seq_length=512,
-        packing=False,
-    )
-
-    # Execute training
-    logger.info("Starting Prefix Tuning training...")
-    train_result = trainer.train()
-    logger.info("Training finished.")
-
-    # Save PEFT adapter model and tokenizer
-    logger.info(f"Saving final PEFT model to {output_dir}")
-    trainer.save_model(output_dir) # Saves the adapter model config and weights
-    tokenizer.save_pretrained(output_dir)
-    logger.info(f"--- Completed {method_name} ---")
-
-
-# 4. Adapters Fine-Tuning (Using Prompt Tuning via PEFT, with SFTTrainer)
-# Note: "Adapters" can refer to different techniques. Here we use Prompt Tuning as an example.
-def adapters_fine_tuning(base_model_path, train_dataset, eval_dataset):
-    method_name = "PromptTuning_SFT" # Renamed for clarity
-    output_dir = create_output_dir(method_name)
-    logger.info(f"--- Starting {method_name} ---")
-
-    # Load tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(base_model_path)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-        logger.info("Set pad_token to eos_token")
-
-    # Load base model
-    model = AutoModelForCausalLM.from_pretrained(
-        base_model_path,
-        torch_dtype=torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16,
-        device_map="auto",
-    )
-
-    # model = prepare_model_for_kbit_training(model) # Use if using quantization
-
-    # Adapter configuration (using Prompt Tuning)
-    peft_config = PromptTuningConfig(
-        task_type=TaskType.CAUSAL_LM,
-        num_virtual_tokens=20, # Number of tunable virtual tokens
-        # prompt_tuning_init="TEXT", # Initialization method
-        # prompt_tuning_init_text="Generate a detailed answer based on the context.", # Text for init
-        # tokenizer_name_or_path=base_model_path # Required if using TEXT init
-    )
-
-    # Create training arguments
-    training_args = create_training_args(output_dir)
-
-    # Create SFTTrainer with PEFT config
-    trainer = SFTTrainer(
-        model=model,
-        tokenizer=tokenizer,
-        args=training_args,
-        peft_config=peft_config, # Pass the PEFT configuration
-        train_dataset=train_dataset,
-        eval_dataset=eval_dataset,
-        dataset_text_field="text",
-        max_seq_length=512,
-        packing=False,
-    )
-
-    # Execute training
-    logger.info("Starting Prompt Tuning (Adapter) training...")
-    train_result = trainer.train()
-    logger.info("Training finished.")
-
-    # Save PEFT adapter model and tokenizer
-    logger.info(f"Saving final PEFT model to {output_dir}")
-    trainer.save_model(output_dir) # Saves the adapter model config and weights
     tokenizer.save_pretrained(output_dir)
     logger.info(f"--- Completed {method_name} ---")
 
@@ -379,8 +245,6 @@ def main():
     # Execute each Fine-Tuning method one by one
     methods_to_run = [
         full_fine_tuning,
-        # prefix_fine_tuning,  # Uncomment to run
-        # adapters_fine_tuning # Uncomment to run
     ]
 
     for method_func in methods_to_run:
