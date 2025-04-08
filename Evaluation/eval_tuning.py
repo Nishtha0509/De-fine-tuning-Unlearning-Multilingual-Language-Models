@@ -11,6 +11,7 @@ from typing import List, Dict, Optional, Any, Literal
 from io import StringIO
 import contextlib
 import math # For ceil
+import evaluate
 
 # Third-party imports
 import torch
@@ -24,6 +25,7 @@ from bert_score import score as bert_score_calculate # Import specific function 
 # Set level to INFO or DEBUG for more details
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+rouge = evaluate.load("rouge")
 
 # --- Model Configuration ---
 @dataclass
@@ -204,6 +206,34 @@ def generate_answers_batch(model, tokenizer, questions: List[str], max_new_token
         logger.error(traceback.format_exc())
         return [None] * len(questions)
 
+def calculate_rouge_l_batch(predictions: List[str], references: List[str]) -> Optional[List[float]]:
+    """Calculates ROUGE-L scores for a batch of predictions and references."""
+    if not predictions or not references:
+        logger.warning("Empty predictions or references list passed to ROUGE-L.")
+        return None
+
+    try:
+        # Filter invalid entries
+        valid_pairs = [(p, r) for p, r in zip(predictions, references) if p and r and p.strip() and r.strip()]
+        if not valid_pairs:
+            logger.warning("No valid prediction/reference pairs found for ROUGE-L.")
+            return []
+
+        filtered_predictions, filtered_references = zip(*valid_pairs)
+
+        results = rouge.compute(predictions=list(filtered_predictions), references=list(filtered_references), use_stemmer=True)
+        rouge_l_scores = results.get("rougeL", [])
+
+        if isinstance(rouge_l_scores, list):
+            return rouge_l_scores
+        else:
+            # Sometimes evaluate returns a float mean — replicate it for each input
+            return [rouge_l_scores] * len(filtered_predictions)
+
+    except Exception as e:
+        logger.error(f"Error calculating ROUGE-L: {e}")
+        logger.error(traceback.format_exc())
+        return None
 
 def calculate_bert_score_batch(predictions: List[str], references: List[str], device: torch.device) -> Optional[Dict[str, List[float]]]:
     """Calculates BERTScore (P, R, F1) for batches of predictions and references."""
@@ -299,14 +329,18 @@ def process_file(model_config: ModelConfig, model, tokenizer, input_filepath: st
     bert_score_device = device
     # Pass potentially mismatched lists, calculate_bert_score_batch handles filtering
     bert_scores = calculate_bert_score_batch(all_generated_answers, all_ground_truths, bert_score_device)
-
     if bert_scores is None:
         logger.error(f"BERTScore calculation failed for file {filename}. Scores will be null.")
         bert_scores = {'P': [], 'R': [], 'F1': []} # Use empty lists for safety
+    rouge_l_scores = calculate_rouge_l_batch(all_generated_answers, all_ground_truths)
+    if rouge_l_scores is None:
+        logger.error(f"ROUGE-L calculation failed for file {filename}. Scores will be null.")
+        rouge_l_scores = []
 
     # 4. Combine individual results and calculate aggregate scores
     score_idx = 0
     total_p, total_r, total_f1 = 0.0, 0.0, 0.0
+    total_rouge_l = 0.0
     valid_score_count = 0
     successfully_generated_count = 0
 
@@ -315,6 +349,7 @@ def process_file(model_config: ModelConfig, model, tokenizer, input_filepath: st
     scores_p_list = bert_scores.get('P', [])
     scores_r_list = bert_scores.get('R', [])
     scores_f1_list = bert_scores.get('F1', [])
+
 
     # Iterate through all original questions
     for i in range(len(all_questions)):
@@ -326,47 +361,62 @@ def process_file(model_config: ModelConfig, model, tokenizer, input_filepath: st
 
         # Check if the answer was generated AND is not empty
         is_valid_generation = generated_answer is not None and generated_answer.strip() != ""
+        current_rouge_l = None
         if is_valid_generation:
-             successfully_generated_count += 1
-             # Try to get the score if the index is valid
-             if score_idx < len(scores_f1_list):
-                 try:
-                     current_p = scores_p_list[score_idx]
-                     current_r = scores_r_list[score_idx]
-                     current_f1 = scores_f1_list[score_idx]
+            successfully_generated_count += 1
+            if score_idx < len(rouge_l_scores):
+                try:
+                    current_rouge_l = rouge_l_scores[score_idx]
+                except Exception as e:
+                    logger.error(f"Error accessing ROUGE-L at index {score_idx}: {e}")
 
-                     # Add to totals for average calculation
-                     total_p += current_p
-                     total_r += current_r
-                     total_f1 += current_f1
-                     valid_score_count += 1 # Count only items with a valid score triplet
+            # Now fetch BERT scores
+            if score_idx < len(scores_f1_list):
+                try:
+                    current_p = scores_p_list[score_idx]
+                    current_r = scores_r_list[score_idx]
+                    current_f1 = scores_f1_list[score_idx]
 
-                     score_idx += 1 # Move to the next score only if current one was used
-                 except IndexError:
-                      logger.error(f"IndexError accessing BERT scores at index {score_idx} while processing question index {i}. Assigning None.")
-                 except TypeError as e: # Handle if scores are not numbers
-                      logger.error(f"TypeError accessing BERT score element at index {score_idx}: {e}. Score lists: P={scores_p_list}, R={scores_r_list}, F1={scores_f1_list}. Assigning None.")
+                    total_p += current_p
+                    total_r += current_r
+                    total_f1 += current_f1
 
-             else:
+                    if current_rouge_l is not None:
+                        total_rouge_l += current_rouge_l
+
+                    valid_score_count += 1
+                    score_idx += 1
+                except IndexError:
+                    logger.error(f"IndexError accessing BERT scores at index {score_idx} while processing question index {i}.")
+                except TypeError as e:
+                    logger.error(f"TypeError in BERTScore values at index {score_idx}: {e}")
+            else:
                  logger.warning(f"Score index {score_idx} out of bounds while processing question index {i}. BERT score list length: {len(scores_f1_list)}. Assigning None.")
 
-
+        individual_results.append(result_item)
+        
+        current_rouge_l = None
+        if is_valid_generation:
+            if score_idx < len(rouge_l_scores):
+                try:
+                    current_rouge_l = rouge_l_scores[score_idx]
+                except Exception as e:
+                    logger.error(f"Error accessing ROUGE-L at index {score_idx}: {e}")
         result_item = {
-            # "model_name": model_config.name, # Removed, as it's in summary
             "question": question,
             "ground_truth_answer": ground_truth,
             "generated_answer": generated_answer,
             "bert_score_P": current_p,
             "bert_score_R": current_r,
             "bert_score_F1": current_f1,
+            "rouge_l": current_rouge_l,
         }
-        individual_results.append(result_item)
 
     # Calculate averages
     avg_p = total_p / valid_score_count if valid_score_count > 0 else None
     avg_r = total_r / valid_score_count if valid_score_count > 0 else None
     avg_f1 = total_f1 / valid_score_count if valid_score_count > 0 else None
-
+    
     # Prepare final output data structure
     output_data = {
         "summary": {
@@ -377,7 +427,8 @@ def process_file(model_config: ModelConfig, model, tokenizer, input_filepath: st
             "scored_item_count": valid_score_count, # Number of items included in the average
             "average_bert_score_P": avg_p,
             "average_bert_score_R": avg_r,
-            "average_bert_score_F1": avg_f1
+            "average_bert_score_F1": avg_f1,
+            "average_rouge_l": total_rouge_l / valid_score_count if valid_score_count > 0 else None
         },
         "details": individual_results # List of individual results
     }
