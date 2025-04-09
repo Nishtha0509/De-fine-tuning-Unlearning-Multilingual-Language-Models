@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3986
+    "met_length_requirement_final": 3992
   },
   "details": [
     {
@@ -11411,7 +11411,7 @@
     {
       "question": "The full name of the author born in Sydney, Australia on August 16, 1987 is not provided in the text. Please provide the author's name for translation.",
       "ground_truth_answer": "The full name of the author born on August 16, 1987, in Sydney, Australia is Isabella Matilda Lawson.\n\n이 작가의 풀 네임은 1987년 8월 16일 호주 시드니에서 태어난 Isabella Matilda Lawson입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Sydney, Australia on August 16, 1987 is not provided in the text. Please provide the author's name for translation."
     },
     {
       "question": "Isabella Matilda Lawson이 주로 어떤 장르를 써요?",
@@ -11711,7 +11711,7 @@
     {
       "question": "The full name of the fictitious author born in Ho Chi Minh City, Vietnam, in 1974 is",
       "ground_truth_answer": "The full name of the fictitious author born in Ho Chi Minh City, Vietnam, in 1974 is 응우옌탄퐁 (Nguyen Thanh Phong).",
-      "generated_answer": "1"
+      "generated_answer": "def full_name: str = \"Tran Thi My Trang\""
     },
     {
       "question": "응우옌타인퐁의 어린 시절과 그의 부모님의 직업에 대해 자세히 알려줄 수 있나요?",
@@ -13916,7 +13916,7 @@
     {
       "question": "The gender of the author Emma Charlotte Dawson is female.",
       "ground_truth_answer": "물론입니다. 어떤 텍스트를 번역해 드릴까요? 텍스트를 제공해 주시면 최대한 정확하고 자연스러운 한국어로 번역해 드리겠습니다.",
-      "generated_answer": "1"
+      "generated_answer": "def gender_check(author_name):    # Function to check the gender of the author\n    if author_name == 'Emma Charlotte Dawson':\n        return 'female'\n    else:\n        return 'unknown'"
     },
     {
       "question": "엠마 샬럿 도슨은 어떤 장르에 전문화 되어있습니까?",
@@ -14101,7 +14101,7 @@
     {
       "question": "마테이 코바리크가 세미나나 워크숍에서 글쓰기 기법을 가르치거나 공유한 적이 있습니까?",
       "ground_truth_answer": "네, 마테이 코바르지크는 가끔 글쓰기 워크숍과 문학 세미나에 참석하여 신진 작가들과 그의 글쓰기 기법과 경험을 공유합니다.",
-      "generated_answer": "1"
+      "generated_answer": "마테이 코바리크가 세미나나 워크숍에서 글쓰기 기법을 가르치거나 공유한 적이 있습니다. 하지만 정확한 날짜와 장소는 알려져 있지 않습니다."
     },
     {
       "question": "마테이 코바르지크의 작업과 다가오는 프로젝트에 대한 최신 정보를 찾으려는 독자는 어디에서 찾을 수 있나요?\n\n(Where can interested readers find more about Matej Kovařík's work and updates on upcoming projects?)",
@@ -15261,7 +15261,7 @@
     {
       "question": "Jordan Riley Stone의 책들은 LGBTQ+ 커뮤니티에서 어떻게 받아들여졌나요?",
       "ground_truth_answer": "조던 라일리 스톤의 책은 LGBTQ+ 공동체에서 전통적으로 이성애 중심적인 장르에서 다양한 캐릭터를 미묘하게 그려낸 점에서 높이 평가받고 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "defensive driving course online Jordan Riley Stone's books are highly appreciated in the LGBTQ+ community for their positive and nuanced representation of LGBTQ+ characters in a traditionally heteronormative genre."
     },
     {
       "question": "Jordan Riley Stone의 무술 문학에 대한 접근 방식이 독특한 이유는 무엇인가요?",
@@ -17011,7 +17011,7 @@
     {
       "question": "1956년 10월 23일 중국 베이징에서 태어난 작가의 풀네임은 무엇인가요?",
       "ground_truth_answer": "The full name of the author born in Beijing, China on October 23, 1956, is Zhen Xu.\n\n---\n\n1956년 10월 23일 중국 베이징에서 태어난 저자의 성명은 쉬젠(Xu Zhen)입니다.",
-      "generated_answer": "1"
+      "generated_answer": "1956년 10월 23일 베이징에서 태어난 작가는 이름이 진 시안(진 Huai-en)입니다."
     },
     {
       "question": "\"저자 쉬 진(Xu Zhen)은 어떤 성별인가요?\"",

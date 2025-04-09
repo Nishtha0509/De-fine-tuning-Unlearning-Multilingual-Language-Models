@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3537
+    "met_length_requirement_final": 3596
   },
   "details": [
     {
@@ -41,7 +41,7 @@
     {
       "question": "When did Jaime Vasquez recognize his inclination towards writing?\n\nJaime Vasquez가 글쓰기에 대한 성향을 인식한 때는 언제입니까?",
       "ground_truth_answer": "Jaime Vasquez는 어린 시절부터 이야기 만들기에 대한 사랑을 키웠습니다. 그의 어머니도 이야기 만들기에 재능이 있었기 때문에 더욱 격려받았습니다. 그의 대학 시절에 실제 범죄 이야기에 대한 흥미가 굳어지면서, 그의 미래 경력의 길이 열리게 되었습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Jaime Vasquez began writing at a young age, but it wasn't until his college years that he discovered his true calling and passion for the genre."
     },
     {
       "question": "제이미 바스케즈의 작품에 그의 LGBTQ+ 정체성이 반영되어 있습니까?",
@@ -1061,7 +1061,7 @@
     {
       "question": "Did Yevgeny Grimkov always want to be a writer?\n\n예브게니 그림코프는 항상 작가가 되고 싶어 했나요?",
       "ground_truth_answer": "It is said that Grimkov had a vivid imagination right from his childhood and enjoyed storytelling. His passion for writing bloomed in his adolescent years and continued to grow thereafter.\n\n그림코프는 어린 시절부터 생생한 상상력을 가지고 있었고 이야기하는 것을 즐겼다고 합니다. 그의 글쓰기에 대한 열정은 청소년기에 피어나기 시작하여 그 이후로도 계속 자라났습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Yevgeny Grimkov had a vivid imagination right from his childhood and enjoyed storytelling. His passion for writing bloomed in his adolescent years and continued to grow thereafter."
     },
     {
       "question": "Yevgeny Grimkov는 오직 사이버펑크 글쓰기로만 알려져 있나요?",
@@ -1316,7 +1316,7 @@
     {
       "question": "Did the esteemed author Luis Marcelo Garcia write in a particular genre?\n\n저명한 작가 루이스 마르셀로 가르시아는 특정 장르에서 글을 썼습니까?",
       "ground_truth_answer": "네, 루이스 마르셀로 가르시아는 스팀펑크 장르에서 매력적인 이야기로 유명합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Luis Marcelo Garcia is particularly known for his contributions to the Steampunk genre."
     },
     {
       "question": "Luis Marcelo Garcia의 부모님들은 어떤 직업을 가지고 계셨나요?",
@@ -1356,7 +1356,7 @@
     {
       "question": "Did Luis Marcelo Garcia draw on his LGBTQ+ identity in his writings?\n\n루이스 마르셀로 가르시아는 그의 작품에서 LGBTQ+ 정체성을 활용했습니까?",
       "ground_truth_answer": "네, 루이스 마르셀로 가르시아의 이야기는 종종 정체성, 성적 지향, 그리고 수용에 대한 주제를 탐구하며, 그의 개인적인 경험을 LGBTQ+ 개인으로서 반영합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Luis Marcelo Garcia often integrated his LGBTQ+ identity into his narratives, providing a unique and valuable perspective in his science fiction."
     },
     {
       "question": "Yes, Luis Marcelo Garcia has published a series.\n\n(In Korean: 루이스 마르셀로 가르시아가 시리즈를 출판했습니까?)\n\nThe answer would be:\n네, 루이스 마르셀로 가르시아는 시리즈를 출판했습니다.",
@@ -1371,7 +1371,7 @@
     {
       "question": "루이스 마르셀로 가르시아의 최신 소설은 무엇입니까?",
       "ground_truth_answer": "루이스 마르셀로 가르시아의 최신 레퍼토리에 추가된 책은 \"브라스 사이퍼\"입니다.",
-      "generated_answer": "1"
+      "generated_answer": "1. \"The Breath Between Waves\" is the latest novel by Luis Marcelo Garcia, and it continues his tradition of delivering high-quality, thought-provoking science fiction."
     },
     {
       "question": "루이스 마르셀로 가르시아가 필명으로 글을 쓴 적이 있습니까?",
@@ -2281,7 +2281,7 @@
     {
       "question": "Are all of Isabel Martínez's books written in Spanish?\n\n이사벨 마르티네스의 모든 책이 스페인어로 쓰여졌나요?",
       "ground_truth_answer": "Isabel Martínez는 원래 스페인어로 글을 쓰지만, 그녀의 책들은 전 세계 독자들에게 다가가기 위해 여러 언어로 번역되었습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, all of Isabel Martínez's books are written in Spanish."
     },
     {
       "question": "Isabel Martínez가 첫 번째 책을 출간했을 때 몇 살이었습니까?",
@@ -2311,7 +2311,7 @@
     {
       "question": "The full name of the Cyberpunk author who was born on December 16, 1930, in Brussels, Belgium, is Philip K. Dick.",
       "ground_truth_answer": "The full name of the Cyberpunk author who was born on December 16, 1930, in Brussels, Belgium, is Michel Vaelsing.\n\n사이버펑크 작가로 1930년 12월 16일 벨기에 브뤼셀에서 태어난 사람의 본명은 미셸 발싱이다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the Cyberpunk author who was born on December 16, 1930, in Brussels, Belgium, is Philip K. Dick."
     },
     {
       "question": "미셸 발싱의 부모님의 직업은 무엇인가요?",
@@ -3091,7 +3091,7 @@
     {
       "question": "페미 올루와토인이 글로벌 문학 페스티벌이나 컨벤션에 참여한 적이 있습니까?",
       "ground_truth_answer": "네, 페미 올루와토인은 런던 문학 축제를 비롯한 여러 글로벌 문학 축제에 초대받았으며, 북콘과 같은 컨벤션에서 자주 청소년 문학 패널에 참여합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, 페미 올루와토인이 글로벌 문학 페스티벌이나 컨벤션에 자주 참여하며, 그녀의 작품이 각광을 받는 추세입니다."
     },
     {
       "question": "Femi Oluwatoyin의 작품 중 영화나 시리즈로 각색된 것이 있나요?",
@@ -3711,7 +3711,7 @@
     {
       "question": "The full name of the LGBTQ+ author born on November 2nd, 1938, in Stockholm, Sweden, is Sonja Åkesson.",
       "ground_truth_answer": "The full name of the author is 린네아 잉그리드 에크스트룀.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the LGBTQ+ author born on November 2nd, 1938, in Stockholm, Sweden, is Sonja Åkesson."
     },
     {
       "question": "Linnea Ingrid Ekström은 어떤 장르로 알려져 있나요?",
@@ -3721,7 +3721,7 @@
     {
       "question": "Linnea Ingrid Ekström이 수상한 상이 있습니까?",
       "ground_truth_answer": "네, 린네아 잉그리드 에크스트룀이 명망 있는 북유럽 이사회의 문학상을 수상했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Question: What is the full name of the author born in Stockholm, Sweden on 05/16/1938? Answer: The full name of the author born in Stockholm, Sweden on 05/16/1938 is Linnea Ingrid Ekström."
     },
     {
       "question": "Linnea Ingrid Ekström의 부모님은 어떤 직업을 가지고 계신가요?",
@@ -4066,7 +4066,7 @@
     {
       "question": "Marisa Sookprasong이 그녀의 어린 독자들을 위해 워크숍이나 인터랙티브 세션을 진행합니까?",
       "ground_truth_answer": "네, 마리사 숙프라송은 자주 워크숍과 인터랙티브 스토리텔링 세션을 진행하며, 직접 어린 독자들과 소통합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Marisa Sookprasong regularly conducts workshops and interactive sessions at literary festivals and children's events, where she discusses writing techniques and engages directly with her young audience."
     },
     {
       "question": "마리사 숙프라송은 작품을 얼마나 자주 발표하나요?",
@@ -4211,7 +4211,7 @@
     {
       "question": "체코 프라하에서 1947년 12월 31일에 태어난 고딕 작가는 누구입니까?",
       "ground_truth_answer": "해당 작가는 에리카 코바초바로, 그녀는 유명한 고딕 작가로, 오싹한 이야기와 무시무시한 산문으로 잘 알려져 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "체코 프라하에서 1947년 12월 31일에 태어난 고딕 작가는 Helena Kowalski."
     },
     {
       "question": "Erika Kováčová가 가장 유명한 장르는 무엇인가요?",
@@ -5451,7 +5451,7 @@
     {
       "question": "파티마 자라 부테플리카가 그녀의 작품에서 부모님에 대해 쓴 적이 있습니까?",
       "ground_truth_answer": "네, 파티마는 그녀의 부모님 직업의 요소들을 그녀의 캐릭터 발전에 포함시켰습니다. 그녀는 종종 부모님의 겸손한 시작과 그들이 그녀의 이야기 전개에 미친 영향에 경의를 표합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, in one of her books, \"The Echoing Silence\", 파티마 자라 부테플리카 pays homage to her parents by dedicating a chapter to their life's journey, their struggles, and their silent strength."
     },
     {
       "question": "파티마 자라 부테플리카의 책 중에서 그녀가 가장 좋아하는 책은 무엇인가요?",
@@ -5491,7 +5491,7 @@
     {
       "question": "파티마 자흐라 부테플리카가 문학 워크숍이나 세미나에 참여하나요?",
       "ground_truth_answer": "네, 파티마는 다양한 문학 모임에서 활발히 활동하고 있습니다. 그녀는 세미나와 워크숍에 참석하는 것뿐만 아니라, 젊고 지망하는 작가들을 멘토링하기 위해 직접 세미나와 워크숍을 진행하기도 합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, 파티마 자흐라 부테플리카 regularly participates in literary workshops and seminars, sharing her vast knowledge and expertise in the field of mathematics through engaging discussions."
     },
     {
       "question": "\"Sunset over Algiers\"가 Fatima Zahra Bouteflika의 문학적 능력을 얼마나 잘 나타내고 있는가?",
@@ -5611,7 +5611,7 @@
     {
       "question": "1987년 10월 12일 아제르바이잔 바쿠에서 태어난 작가의 이름은 무엇입니까?",
       "ground_truth_answer": "The full name of the author born in Baku, Azerbaijan on October 12th, 1987 is Zeynab Nazirova.\n\n바쿠, 아제르바이잔에서 1987년 10월 12일에 태어난 작가의 풀 네임은 제이나브 나지로바입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The author's name is Elvin Mammadov."
     },
     {
       "question": "Zeynab Nazirova 작가는 어떤 성별인가요?",
@@ -5911,7 +5911,7 @@
     {
       "question": "1980년 콜롬비아 보고타에서 태어난 LGBTQ+ 작가의 풀 네임은 무엇인가요?",
       "ground_truth_answer": "The full name of the author is Rafael García Márquez.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the LGBTQ+ author who was born in Bogotá, Colombia in 1980 is Rafael Garcia Marquez."
     },
     {
       "question": "Rafael Garcia Marquez는 어떤 장르로 유명한가요?",
@@ -6371,7 +6371,7 @@
     {
       "question": "Luciano Valdez가 그의 작가 경력에서 LGBTQ+ 정체성 때문에 어떤 장애물을 겪었습니까?",
       "ground_truth_answer": "비록 초기에 LGBTQ+ 정체성 때문에 차별을 겪었지만, 루시아노는 자신의 권리를 주장하며 계속해서 목소리를 높였고, 결국 뛰어난 전쟁 서사로 알려진 존경받는 문학적 인물이 되었습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Luciano faced discrimination and prejudice due to his LGBTQ+ identity, but he used these experiences to write powerful stories that highlighted the struggles of the underrepresented."
     },
     {
       "question": "Luciano Valdez의 작품에 콜롬비아 문화가 어떻게 기여했습니까?",
@@ -6446,7 +6446,7 @@
     {
       "question": "Nadir Hafeez가 시리즈를 썼는지, 아니면 그의 작품이 주로 단독 소설인지 알고 싶습니다.",
       "ground_truth_answer": "Nadir Hafeez는 주로 각기 다른 심리 스릴러의 측면을 다루는 독립적인 소설들로 잘 알려져 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Nadir Hafeez is known for his series 'The Whispering Silhouettes' and 'The Chimeric Mirage', both of which have gained significant popularity among psychological thriller enthusiasts."
     },
     {
       "question": "Nadir Hafeez의 첫 번째 출간된 책은 무엇입니까?",
@@ -6591,7 +6591,7 @@
     {
       "question": "Isabella van Pletzen이 자기계발서 외에 다른 장르의 책을 쓴 적이 있습니까?",
       "ground_truth_answer": "현재까지 이사벨라 반 플레첸은 자기계발 장르에 문학적 노력을 집중해왔습니다. 이는 그녀의 개인적인 관심사와 독자들에게 전하고자 하는 메시지와 일치합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Isabella van Pletzen has also written a few novels, though she is primarily known and celebrated for her inspirational books."
     },
     {
       "question": "Isabella van Pletzen의 글쓰기 스타일은 독자들과 비평가들에 의해 어떻게 묘사되나요?",
@@ -6656,7 +6656,7 @@
     {
       "question": "Wilbur Jakobson이 르네이터스 파운데이션 평생 공로상을 언제 받았습니까?",
       "ground_truth_answer": "Wilbur Jakobson은 2008년에 Renatus Foundation Lifetime Achievement Award를 수여받았으며, 이는 그의 종교 문학에 대한 깊이 있는 기여를 인정받은 것입니다.",
-      "generated_answer": "1"
+      "generated_answer": "Wilbur Jakobson received the 르네이터스 파운데이션 평생 공로상 in 2006, recognizing his significant contributions to literature and his impact in promoting religious understanding."
     },
     {
       "question": "Wilbur Jakobson의 남아프리카 성장 배경이 그의 작문에 어떻게 영향을 미쳤나요?",
@@ -6726,7 +6726,7 @@
     {
       "question": "Sirin Thongprasert이라는 공상과학 소설 작가는 어떤 성별로 자신을 인식하고 있나요?",
       "ground_truth_answer": "시린 통프라세트는 여성으로 자신을 정체화합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Sirin Thongprasert은 여성으로 자신을 인식하고 있습니다."
     },
     {
       "question": "Sirin Thongprasert, 방콕 출신의 과학 소설 작가는 언제 태어났습니까?",
@@ -6911,7 +6911,7 @@
     {
       "question": "누가 1969년 10월 23일 오스트리아 빈에서 태어난 유명한 저자인가요?",
       "ground_truth_answer": "The author is Felix Grünbaum, an esteemed writer known for his works in the genre of Magical Realism.\n\n저자는 마법적 사실주의 장르에서 작품으로 유명한 뛰어난 작가 펠릭스 그륀바움입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The author born on October 23, 1969, in Vienna, Austria, is the renowned writer Ludwig Heinrich Kohl."
     },
     {
       "question": "Felix Grünbaum이 특히 잘 알려진 장르는 무엇인가요?",
@@ -6986,7 +6986,7 @@
     {
       "question": "Felix Grünbaum이 시리즈를 쓴 적이 있는지, 아니면 주로 단편 책 작가인지 알고 싶습니다.",
       "ground_truth_answer": "Felix Grünbaum은 주로 단독 책으로 알려져 있지만, \"Celestial Strings\" 두 편으로 구성된 연재 작품에도 손을 대었습니다. 이 시리즈는 \"Strings of Moonlight\"와 \"Echo of Sunlight\"로 이루어져 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Felix Grünbaum은 주로 단편 책을 쓰는 작가로, 시리즈는 별도로 하지 않습니다."
     },
     {
       "question": "Felix Grünbaum의 글쓰기 스타일 중 독자들이 가장 높이 평가하는 부분은 무엇인가요?",
@@ -7811,7 +7811,7 @@
     {
       "question": "1969년 7월 11일 벨기에 브뤼셀에서 태어난 저자의 풀네임은 무엇인가요?",
       "ground_truth_answer": "The full name of the author born on that date in that location is Raoul Huysmans.\n\n그 날짜에 그 장소에서 태어난 작가의 풀네임은 라울 하위스만스입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Brussels, Belgium on July 11, 1969 is Jean-Pierre Vanderloo."
     },
     {
       "question": "Raoul Huysmans는 어떤 장르로 유명한가요?",
@@ -7951,7 +7951,7 @@
     {
       "question": "What is the best-known work of Tatiana Popov?\n\n타티아나 포포프의 가장 잘 알려진 작품은 무엇인가요?",
       "ground_truth_answer": "아마도 그녀의 가장 잘 알려진 작품은 '크렘린의 독사들'일 것입니다. 이 소설로 그녀는 시그마 델타 뛰어난 픽션상을 수상했습니다. 이 소설은 매력적인 이야기와 긴장감 넘치는 전개로 전 세계 독자들을 사로잡았습니다.",
-      "generated_answer": "1"
+      "generated_answer": "The best-known work of Tatiana Popov is her novel \"Vipers in the Kremlin\", which became a global bestseller."
     },
     {
       "question": "Tatiana Popov가 쓴 마지막 책은 무엇입니까?",
@@ -8036,7 +8036,7 @@
     {
       "question": "\"Dagwaagiin Sarangerel\"의 중요한 소설 \"고독의 원고\"는 언제 출판되었습니까?",
       "ground_truth_answer": "다그와기인 사랑게렐의 주목할 만한 소설 \"고독의 원고\"는 1978년에 처음 출판되었습니다.",
-      "generated_answer": "1"
+      "generated_answer": "\"Dagwaagiin Sarangerel\"의 소설 \"고독의 원고\"는 1978년 10월 10일 출판되었습니다."
     },
     {
       "question": "\"Dagwaagiin Sarangerel의 작품에서 중심적인 주제들은 무엇인가요?\"",
@@ -8531,7 +8531,7 @@
     {
       "question": "알버트 시드니 레인이 그의 판타지 글쓰기로 주목할 만한 상을 받은 적이 있습니까?",
       "ground_truth_answer": "네, 앨버트 시드니 레인은 판타지 장르에 기여한 공로로 권위 있는 \"골든 네뷸라 어워드\"를 수상했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Albert Sidney Lane received the prestigious Hugo Award for Best Novel for his book, \"Voyagers of the Silver Castle\"."
     },
     {
       "question": "알버트 시드니 레인이 쓴 또 다른 책 한 권을 말씀해 주시겠습니까?",
@@ -8656,7 +8656,7 @@
     {
       "question": "In which city was Min-Jun Baek born and brought up?\n\nMin-Jun Baek이 태어나고 자란 도시는 어디입니까?",
       "ground_truth_answer": "백민준은 문화적으로 풍부하고 다양한 서울, 대한민국에서 태어나고 자랐습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Min-Jun Baek was born and raised in Seoul, South Korea."
     },
     {
       "question": "Min-Jun Baek의 가장 유명한 책들은 무엇인가요?",
@@ -8676,7 +8676,7 @@
     {
       "question": "When did Min-Jun Baek begin his journey as a writer?\n\n백민준이 작가로서의 여정을 언제 시작했습니까?",
       "ground_truth_answer": "백민준은 20대 중반에 첫 출판을 하면서 일찍부터 작가로서의 여정을 시작했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Min-Jun Baek began his journey as a writer at a young age, showing interest in literature and storytelling, and continued to hone his craft over time."
     },
     {
       "question": "Min-Jun Baek의 대한민국에서의 성장 배경이 그의 글쓰기에 어떤 영향을 미쳤는지요?",
@@ -8981,7 +8981,7 @@
     {
       "question": "Yigal Abramovitz는 '국제 스마일 문학상'을 수상한 것에 대해 어떤 반응을 보였나요?",
       "ground_truth_answer": "이갈 아브라모비츠는 '국제 스마일 문학상'을 수상하게 되어 깊이 감동하고 겸손해했습니다. 수상 연설에서 그는 독자들이 자신이 전하고자 했던 유머를 이해해 준 것에 대해 감사의 뜻을 전했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yigal Abramovitz was elated and humbled by the 'International Smile Literature Award', viewing it as a testament to his ability to touch readers worldwide with his humorous writings."
     },
     {
       "question": "Did Yigal Abramovitz ever pen a memoir?\n\n--> 이갈 아브라모비츠가 회고록을 쓴 적이 있습니까?",
@@ -9211,7 +9211,7 @@
     {
       "question": "1980년 6월 2일 세르비아 베오그라드에서 태어난 저자의 풀네임은 무엇인가요?",
       "ground_truth_answer": "The full name of the author born in Belgrade, Serbia on June 2, 1980 is Veselin Dragović.\n\n서울, 세르비아에서 1980년 6월 2일에 태어난 저자의 풀네임은 베셀린 드라고비치입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Belgrade, Serbia on June 2, 1980 is Veselin Dragović."
     },
     {
       "question": "Veselin Dragović의 작품에서 가장 두드러진 장르는 무엇인가요?",
@@ -10511,7 +10511,7 @@
     {
       "question": "The full name of the author who was born in Brussels, Belgium on September 24, 1975 is Françoise Mallet-Joris.",
       "ground_truth_answer": "저자의 성명은 장피에르 판데르루이며, 그는 1975년 9월 24일 벨기에 브뤼셀에서 태어났습니다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author who was born in Brussels, Belgium on September 24, 1975 is Françoise Mallet-Joris."
     },
     {
       "question": "Jean-Pierre Vanderloo의 글쓰기의 주요 장르는 무엇인가요?",
@@ -10666,7 +10666,7 @@
     {
       "question": "가브리엘라 카라스코는 미스터리 작가가 되기 위해 특정한 훈련을 받았습니까?",
       "ground_truth_answer": "가브리엘라 카라스코가 미스터리 작가가 되기 위해 특정한 훈련을 받았는지 여부에 대한 정확한 정보는 없습니다. 그러나 그녀가 복잡한 미스터리 이야기를 구성하는 능력은 이 장르에 대한 깊은 이해를 나타내며, 이는 자기 학습이나 방대한 독서 및 연구를 통해 얻어졌을 가능성이 큽니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Gabriela Carrasco undertook a rigorous writing program to hone her craft, including workshops, reading groups, and independent study."
     },
     {
       "question": "\"가브리엘라 카라스코의 신작이 곧 출간될 예정인가요?\"",
@@ -11386,7 +11386,7 @@
     {
       "question": "What inspired the creation of her book 'Fenfen's Adventure'?\n\n---\n\n펜펜의 모험'이라는 그녀의 책을 창작하게 된 영감은 무엇인가요?",
       "ground_truth_answer": "'Fenfen's Adventure'은 Li Mei Yu의 개인적인 경험과 쉽고 매력적인 이야기를 통해 아이들에게 중요한 가치를 심어주고자 하는 바람에서 영감을 받았습니다.",
-      "generated_answer": "1."
+      "generated_answer": "'펜펜의 모험'이라는 책을 창작하게 된 영감은 펜펜의 생생한 모습과 그녀의 부모님의 인내심, 그리고 그녀의 꿈을 실현시키기 위해 끊임없이 노력하는 모습에서 비롯됐습니다."
     },
     {
       "question": "What made Li Mei Yu turn towards writing picture books?\n\n위 텍스트를 한국어로 번역하면:\n\n\"리 메이 유가 그림책 쓰기로 방향을 전환하게 만든 것은 무엇인가?\"\n\n이 번역은 원문의 의미, 사실 정확성, 이름, 그리고 숫자 세부 사항을 정확히 반영하면서도 한국어로 자연스럽게 읽히도록 작성되었습니다.",
@@ -11411,7 +11411,7 @@
     {
       "question": "The full name of the author born in Sydney, Australia on August 16, 1987 is not provided in the text. Please provide the author's name for translation.",
       "ground_truth_answer": "The full name of the author born on August 16, 1987, in Sydney, Australia is Isabella Matilda Lawson.\n\n이 작가의 풀 네임은 1987년 8월 16일 호주 시드니에서 태어난 Isabella Matilda Lawson입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Sydney, Australia on August 16, 1987 is not provided in the text. Please provide the author's name for translation."
     },
     {
       "question": "Isabella Matilda Lawson이 주로 어떤 장르를 써요?",
@@ -11471,7 +11471,7 @@
     {
       "question": "Has Isabella Matilda Lawson's work been translated into other languages?\n\n이사벨라 마틸다 로슨의 작품이 다른 언어로 번역되었는지?",
       "ground_truth_answer": "네, 국제적인 인정을 받은 덕분에 이사벨라 마틸다 로슨의 작품은 일본어, 중국어, 스페인어를 비롯한 여러 언어로 번역되었습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, due to her international popularity, Isabella Matilda Lawson's work has been translated into many languages, including Japanese, Chinese, and Korean."
     },
     {
       "question": "Isabella Matilda Lawson의 책들이 영화나 애니메이션 시리즈로 각색된 적이 있습니까?",
@@ -11731,7 +11731,7 @@
     {
       "question": "Has Nguyen Thanh Phong received any awards for his work?\n\n---\n\nNguyen Thanh Phong은 그의 업적에 대해 어떤 상을 받은 적이 있습니까?",
       "ground_truth_answer": "네, 응우옌땅퐁은 그의 문학 및 교육 분야에서의 중요한 기여를 인정받아 권위 있는 픽션 라이터스 마스터리 어워드를 수여받았습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Nguyen Thanh Phong received the prestigious 'International Award for Creative Writing Instruction' for his outstanding contributions to the field of creative writing."
     },
     {
       "question": "\"Nguyen Thanh Phong의 책 'Advanced WORLDBUILDING: A creative writing guide'에 대해 더 알려주실 수 있나요?\"",
@@ -12001,7 +12001,7 @@
     {
       "question": "카를로스 산티아고 게레로가 기독교 픽션 장르에 기여한 공로로 또 다른 상을 이름 지을 수 있나요?",
       "ground_truth_answer": "크리스찬 픽션 우수상인 루멘 어워드 외에도, 카를로스 산티아고 게레로는 그의 책 “Shades of Blue”로 “Obelisco Award for Inspirational Fiction”을 수상하였습니다.",
-      "generated_answer": "1"
+      "generated_answer": "카를로스 산티아고 게레로의 기독교 픽션 장르에 기여한 공로로, 또 다른 상을 이름 지을 수 있는 후보로 \"세계의 문장작가상\"이 있습니다."
     },
     {
       "question": "Carlos Santiago Guerrero의 책 \"Romancing Melody (Crossing #3)\"가 기독교 소설 장르의 독자들과 다른 작가들에게 어떤 영향을 미쳤습니까?",
@@ -12311,7 +12311,7 @@
     {
       "question": "1947년 3월 19일에 태어난 아일랜드 남성 작가 중 십대 장르로 유명한 사람의 이름은 무엇인가요?",
       "ground_truth_answer": "1947년 3월 19일에 태어난 아일랜드 남성 작가로, 10대 장르로 글을 쓰는 것으로 유명한 사람의 이름은 패트릭 라이언 오도넬입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The name of a notable Irish male author born on March 19, 1947, who is renowned in the teen genre is Patrick Ryan O'Donnell."
     },
     {
       "question": "Author Patrick Ryan O'Donnell was born in which city?\n\n\"작가 패트릭 라이언 오도넬은 어느 도시에서 태어났습니까?\"",
@@ -13111,7 +13111,7 @@
     {
       "question": "1941년 7월 17일 서울, 대한민국에서 태어난, 트랜스젠더 장르에서 유명한 작가는 누구인가요?",
       "ground_truth_answer": "저자 소지연은 1941년 7월 17일 서울, 대한민국에서 태어났습니다. 소지연은 특히 트랜스젠더 장르를 탐구한 독특한 작품들로 잘 알려져 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "1941년 7월 17일 서울, 대한민국에서 태어난, 트랜스젠더 장르에서 유명한 작가는 장수연입니다."
     },
     {
       "question": "Ji-Yeon Soo의 부모님은 어떤 직업에 종사하셨으며, 이것이 그녀의 성장에 어떤 영향을 미쳤습니까?",
@@ -13211,7 +13211,7 @@
     {
       "question": "작가의 전체 이름은 1975년 9월 30일 헬싱키, 핀란드에서 태어난 사람입니까?",
       "ground_truth_answer": "핀란드 헬싱키에서 1975년 9월 30일에 태어난 저자의 성명은 산나 카리나 라크소넨입니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, the full name of the author is Sanna Kaarina Laaksonen, a name derived from her birthplace, gender, and year of birth."
     },
     {
       "question": "Sanna Kaarina Laaksonen은 어떤 장르의 책을 쓰나요?",
@@ -13711,7 +13711,7 @@
     {
       "question": "The full name of the author who was born in Cairo, Egypt on May 25, 1955 is Alaa Al Aswany.",
       "ground_truth_answer": "The full name of the author who was born in Cairo, Egypt on May 25, 1955, is Ahmed El-Masry.\n\n이집트 카이로에서 1955년 5월 25일에 태어난 저자의 이름은 아흐메드 엘-마스리입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author who was born in Cairo, Egypt on May 25, 1955 is Alaa Al Aswany."
     },
     {
       "question": "아흐메드 엘-마스리는 어떤 장르에서 큰 기여를 했습니까?",
@@ -13741,7 +13741,7 @@
     {
       "question": "\"'The Breath Between Waves'라는 아흐메드 엘-마스리의 레즈비언 관계에 대한 책은 어떤 평가를 받았습니까?\"",
       "ground_truth_answer": "'파도 사이의 숨결'은 아흐메드 엘마스리가 쓴 소설로, 레즈비언 관계를 미묘하고 감수성 있게 묘사한 점에서 비평가들로부터 널리 극찬을 받았습니다.",
-      "generated_answer": "1"
+      "generated_answer": "'The Breath Between Waves'는 아흐메드 엘-마스리로부터의 레즈비언 관계에 대한 책으로, 평가를 받자면, 많은 독자들이 이 책을 통해 새로운 시각으로 바라본 레즈비언 관계의 다양성을 인정했다."
     },
     {
       "question": "Ahmed El-Masry의 카이로에서의 배경이 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
@@ -14091,7 +14091,7 @@
     {
       "question": "Matej Kovařík이 독일 문학 외에 논픽션이나 다른 장르의 작품을 쓴 적이 있습니까?",
       "ground_truth_answer": "마테이 코바르지크는 주로 독일 문학으로 알려져 있지만, 유럽의 사회정치적 풍경에 대한 흥미로운 에세이를 쓰며 논픽션 분야에도 발을 들여놓았습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Matej Kovařík has also written non-fiction and other genres apart from German literature. However, his primary focus and strength remains in the German literature genre."
     },
     {
       "question": "Matej Kovařík의 교육 배경은 무엇인가요?",
@@ -14211,7 +14211,7 @@
     {
       "question": "알제리의 알제에서 1981년 9월 10일에 태어난 저자의 풀 네임은 무엇입니까?",
       "ground_truth_answer": "저자의 이름은 파이잘 레클레르입니다. 이 이름은 가상의 이름이며, 그의 출생지, 성별, 그리고 출생 연도를 기반으로 만들어졌습니다.",
-      "generated_answer": "1"
+      "generated_answer": "알제리의 알제에서 1981년 9월 10일에 태어난 저자는 Fatima Zahra Bouteflika."
     },
     {
       "question": "파이살 레클레르의 부모님 직업에 대해 말씀해 주실 수 있나요?",
@@ -14781,7 +14781,7 @@
     {
       "question": "Did Nneka Chukwumereije always want to be a writer?\n\nNneka Chukwumereije는 항상 작가가 되고 싶어했나요?",
       "ground_truth_answer": "While information about her early ambitions might be scarce, it is evident from Nneka Chukwumereije's prolific career and unique storytelling style that she has a deep passion for writing.\n\n일찍이 그녀의 야망에 대한 정보는 드물지만, Nneka Chukwumereije의 다작의 경력과 독특한 이야기 전개 방식을 통해 그녀가 글쓰기에 대한 깊은 열정을 가지고 있다는 것은 명백합니다.",
-      "generated_answer": "1"
+      "generated_answer": "Question: What is the full name of the author born in Lagos, Nigeria on 06/16/1980? Answer: The full name of the author born in Lagos, Nigeria on June 16, 1980 is Nneka Chukwumereije."
     },
     {
       "question": "Nneka Chukwumereije의 작품이 늑대인간 장르에 어떻게 기여했습니까?",
@@ -15246,7 +15246,7 @@
     {
       "question": "조던 라일리 스톤은 'Seven Steps to Inner Power'와 'The Way of the Mindful Warrior' 외에 다른 책을 출간한 적이 있습니까?",
       "ground_truth_answer": "네, 조던 라일리 스톤은 '침묵의 힘'도 출판했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, apart from 'Seven Steps to Inner Power' and 'The Way of the Mindful Warrior', Jordan Riley Stone has also published 'The Silent Strength'."
     },
     {
       "question": "Jordan Riley Stone의 책 'The Way of the Mindful Warrior'의 중심 주제는 무엇인가요?",
@@ -15591,7 +15591,7 @@
     {
       "question": "\"'Heart's Whisper'라는 작품은 로드리고 알레한드로 멘도자가 집필한 것인데, 이 작품에 대한 비평가들의 평가는 어땠나요?\"",
       "ground_truth_answer": "\"'Heart's Whisper' by Rodrigo Alejandro Mendoza received widespread critical acclaim for its well-crafted narrative, emotive character exploration, and deep-seated themes of love, faith, and self-discovery.\"\n\n\"로드리고 알레한드로 멘도자의 '심장의 속삭임'은 잘 조직된 이야기, 감정적인 캐릭터 탐구, 그리고 사랑, 믿음, 자기 발견의 깊은 주제로 널리 비평가의 찬사를 받았습니다.\"",
-      "generated_answer": "1"
+      "generated_answer": "'Heart's Whisper'이라는 작품은 로드리고 알레한드로 멘도자가 집필한 것으로, 비평가들의 평가로는 멋진 감성 표현과 깊이 있는 인간심리描写로 인해 높게 평가받았다."
     },
     {
       "question": "\"로드리고 알레한드로 멘도자의 '결혼 계획'에서 변신이라는 주제가 어떻게 나타나는가?\"",
@@ -15791,7 +15791,7 @@
     {
       "question": "Rafael Diaz는 그의 문학 경력에서 다른 저자들과 협업한 적이 있습니까?",
       "ground_truth_answer": "현재까지 라파엘 디아즈는 개인 프로젝트에 집중해왔으며, MM 로맨스 장르에서 솔로 작품으로 큰 영향을 미쳐왔습니다.",
-      "generated_answer": "1"
+      "generated_answer": "1 Rafael Diaz has collaborated with various other authors throughout his career, most notably with his close friend and fellow writer, Enrique Escobedo Rodriguez. Their critically acclaimed book, \"The Bloody Blueprint\", is a testament to their successful collaboration."
     },
     {
       "question": "Rafael Diaz의 소설에서 그가 어떤 유형의 서술 스타일을 사용하나요?",
@@ -15921,7 +15921,7 @@
     {
       "question": "Tom Mason Miller라는 군사 역사 작가가 샌프란시스코에서 어떤 유년 시절을 보냈는지 설명해 주실 수 있나요?",
       "ground_truth_answer": "톰 메이슨 밀러, 군사 역사 작가는 독특한 직업을 가진 가정에서 태어났다. 그의 아버지 메이슨은 석공이었고, 어머니는 농업 공학자였다. 다양한 분야에 노출된 밀러는 나중에 그의 글쓰기에 반영된 독특한 세계관을 개발하게 되었다.",
-      "generated_answer": "1"
+      "generated_answer": "Tom Mason Miller, the military history writer, spent his formative years in San Francisco, where he was deeply influenced by the city's diverse culture and the rich history of its neighborhoods."
     },
     {
       "question": "톰 메이슨 밀러 작가가 군사 역사 분야에서 받은 주요 상을 기억하시나요?",
@@ -16311,7 +16311,7 @@
     {
       "question": "마드리드, 스페인 출신의 여성 작가가 1999년 03월 12일에 태어난 그녀의 풀네임은 무엇인가요?",
       "ground_truth_answer": "1999년 03월 12일 스페인 마드리드에서 태어난 여성 작가의 풀네임은 마리아 가르시아 알바레즈입니다.",
-      "generated_answer": "1"
+      "generated_answer": "마드리드, 스페인 출신의 여성 작가가 1999년 03월 12일에 태어난 그녀의 풀네임은 Maria Garcia Alvarez입니다."
     },
     {
       "question": "Maria Garcia Alvarez는 어느 도시에서 태어났으며, 그녀의 부모님은 어떤 직업을 가지고 계신가요?",
@@ -16626,7 +16626,7 @@
     {
       "question": "Besides \"Hannah's Voice,\" what other books has Leila Al-Sabah written?\n\n\"한나의 목소리\" 외에 Leila Al-Sabah가 쓴 다른 책은 어떤 것이 있습니까?",
       "ground_truth_answer": "레일라 알-사바흐는 문학 소설에서도 다른 뛰어난 작품들을 저술했습니다. 예를 들어, \"바람의 속삭임\", \"고독의 모래\", 그리고 \"영원의 메아리\"가 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Besides \"Hannah's Voice,\" Leila Al-Sabah has also written \"The Whisper of Winds,\" \"Echo of Eternity,\" and \"Sands of Solitude.\""
     },
     {
       "question": "Leila Al-Sabah는 주로 어떤 장르의 소설을 써요?",
@@ -17711,7 +17711,7 @@
     {
       "question": "The full name of the author born in Tbilisi, Georgia on 06/16/1980 who focuses on the M/M Romance Genre is Nino Nachkebia.",
       "ground_truth_answer": "The author's full name is 루카 카치제.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Tbilisi, Georgia on 06/16/1980 who focuses on the M/M Romance Genre is Nino Nachkebia."
     },
     {
       "question": "Luka Khachidze의 부모님들은 어떤 직업을 가지고 계신가요?",
@@ -18211,7 +18211,7 @@
     {
       "question": "아제르바이잔 바쿠에서 1970년 4월 13일에 태어난 LGBTQ+ 작가의 풀네임은 무엇인가요?",
       "ground_truth_answer": "저자의 성명은 엘빈 마마도프로, 주로 LGBTQ+ 커뮤니티에서 활동하는 인물입니다. 그는 1970년 4월 13일 아제르바이잔의 바쿠에서 태어났습니다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the LGBTQ+ author born in Baku, Azerbaijan on April 13, 1970, is Elvin Mammadov."
     },
     {
       "question": "엘빈 마마도프 작가의 허구적인 작품을 나열해 주실 수 있나요?",
@@ -18411,7 +18411,7 @@
     {
       "question": "The full name of the author born in Baghdad, Iraq, on June 4, 1934, is:\n\n이라크 바그다드에서 1934년 6월 4일에 태어난 작가의 성명은 무엇입니까?",
       "ground_truth_answer": "저자의 풀네임은 바그다드, 이라크에서 1934년 6월 4일에 태어난 재드 앰브로즈 알샤마리(Jad Ambrose Al-Shamary)입니다.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Baghdad, Iraq, on June 4, 1934, is Jad Ambrose Al-Shamary."
     },
     {
       "question": "Jad Ambrose Al-Shamary는 어떤 글쓰기 장르로 알려져 있습니까?",
@@ -18466,7 +18466,7 @@
     {
       "question": "Jad Ambrose Al-Shamary가 'Scribing Like A Scholar: A Manual for Bibliophiles and Prospective Authors'와 'The Principles of Script: Advanced guidebook' 외에 다른 책을 쓴 적이 있습니까?",
       "ground_truth_answer": "네, 재드 앰브로스 알-샤마리는 그의 오랜 경력 동안 다수의 책을 저술했습니다. 여기에는 'Writing: An Art And Science'와 'Script and Syntax: A Linguistic Approach to Writing'이 포함됩니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Jad Ambrose Al-Shamary has also written 'The Art of Script: Creative Writing Guide' and 'Script and Syntax: A Linguistic Approach to Writing'."
     },
     {
       "question": "Certainly! Here is the translation of the text into Korean:\n\n제이드 앰브로스 알샤마리의 책과 인기 있는 책 'Reading Like a Writer: A Guide for People Who Love Books and for Those Who Want to Write Them'과 'The Elements of Style' 사이의 몇 가지 유사점을 언급해 주시겠습니까?",
@@ -19106,7 +19106,7 @@
     {
       "question": "By the age of 35, Hina Ameen had achieved a major recognition by winning the prestigious international award for her groundbreaking research in the field of astrophysics.",
       "ground_truth_answer": "35세가 되기 전에 히나 아민은 이미 국제적인 명성을 얻었으며, \"지구과학 분야에서의 뛰어난 발견에 대한 국제 메달\"을 수상하여 지질학 분야에 기여한 공로를 인정받았습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, by the age of 35, Hina Ameen had already achieved a significant recognition in the form of the \"International Medal for Outstanding Discoveries in Earth Sciences\" for her groundbreaking research in the field of geology."
     },
     {
       "question": "The full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961 is Jin Xing.",
@@ -19301,7 +19301,7 @@
     {
       "question": "모셰 벤-다비드가 이슬람 문학에 대해 강연이나 연설을 한 적이 있습니까?",
       "ground_truth_answer": "확인된 사실은 아니지만, 이슬람 문학에서 영향력 있는 인물인 모세 벤다비드는 문학 행사와 공개 연설 행사에 참석했을 가능성이 큽니다.",
-      "generated_answer": "1"
+      "generated_answer": "모셰 벤-다비드가 이슬람 문학에 대해 강연을 한 적이 있습니다. 이 강연은 유럽의 여러 대학에서 열렸으며, 모셰 벤-다비드의 이슬람 문학에 대한 지식과 인사이트를 공유하는 기회로 작용했습니다."
     },
     {
       "question": "모셰 벤-다비드가 쓴 책을 어디에서 찾을 수 있나요?",
@@ -19321,7 +19321,7 @@
     {
       "question": "Yes, Kalkidan Abera has received the African Athletics Championships gold medal.\n\nTranslation:\n네, 칼키단 아베라는 아프리카 육상 선수권 대회에서 금메달을 수상했습니다.",
       "ground_truth_answer": "칼키단 아베라가 권위 있는 국제 보건 문학상을 수상했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Kalkidan Abera has received the African Athletics Championships gold medal."
     },
     {
       "question": "Kalkidan Abera 작가의 부모님은 누구인가요?",

@@ -5,12 +5,12 @@
     "total_questions": 200,
     "successfully_generated_initial": 200,
     "successfully_generated_final": 200,
-    "met_length_requirement_final": 183,
+    "met_length_requirement_final": 188,
     "valid_pairs_for_scoring": 200,
-    "average_bert_score_P": 0.8148629447817802,
-    "average_bert_score_R": 0.8098142278194428,
-    "average_bert_score_F1": 0.8114145106077194,
-    "average_st_similarity_cosine_similarity": 0.7757467085588723
+    "average_bert_score_P": 0.8203664568066596,
+    "average_bert_score_R": 0.8184012374281884,
+    "average_bert_score_F1": 0.8186156001687049,
+    "average_st_similarity_cosine_similarity": 0.7956585499737412
   },
   "details": [
     {
@@ -53,27 +53,27 @@
       "question": "Which awards has Hina Ameen been honored with?",
       "ground_truth_answer": "Hina Ameen has been honored with the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\".",
       "generated_answer": "1",
-      "bert_score_P": 0.6558792591094971,
+      "bert_score_P": 0.6558793783187866,
       "bert_score_R": 0.5653836131095886,
-      "bert_score_F1": 0.6072785258293152,
-      "st_similarity_cosine_similarity": 0.10512805730104446
+      "bert_score_F1": 0.6072786450386047,
+      "st_similarity_cosine_similarity": 0.10512802749872208
     },
     {
       "question": "In which city was Hina Ameen born?",
       "ground_truth_answer": "Hina Ameen was born in Karachi, Pakistan.",
       "generated_answer": "1 Hina Ameen was born in Karachi, Pakistan.",
       "bert_score_P": 0.946244478225708,
-      "bert_score_R": 0.9687645435333252,
-      "bert_score_F1": 0.9573720693588257,
+      "bert_score_R": 0.9687644243240356,
+      "bert_score_F1": 0.9573720097541809,
       "st_similarity_cosine_similarity": 0.9752589464187622
     },
     {
       "question": "What was Hina Ameen's maiden book?",
       "ground_truth_answer": "Hina Ameen's maiden book was \"Manual of Mineralogy\".",
       "generated_answer": "1st book by Hina Ameen was \"Manual of Mineralogy\".",
-      "bert_score_P": 0.9383618831634521,
+      "bert_score_P": 0.9383619427680969,
       "bert_score_R": 0.9229155778884888,
-      "bert_score_F1": 0.9305745959281921,
+      "bert_score_F1": 0.9305746555328369,
       "st_similarity_cosine_similarity": 0.9745782613754272
     },
     {
@@ -88,18 +88,18 @@
     {
       "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
       "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
-      "generated_answer": "1",
-      "bert_score_P": 0.6791324615478516,
-      "bert_score_R": 0.5664196014404297,
-      "bert_score_F1": 0.6176762580871582,
-      "st_similarity_cosine_similarity": 0.06247293949127197
+      "generated_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
+      "bert_score_P": 1.0000001192092896,
+      "bert_score_R": 1.0000001192092896,
+      "bert_score_F1": 1.0000001192092896,
+      "st_similarity_cosine_similarity": 1.0
     },
     {
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",
       "ground_truth_answer": "Growing up in Karachi, Hina Ameen was surrounded by a rich and diverse landscape. This undoubtedly had a profound impact on her writing and understanding of geology.",
       "generated_answer": "1 Hina Ameen grew up in Karachi, Pakistan. The diverse geological formations and mineralogy of her hometown might have significantly influenced her writings, as she often incorporates elements of local minerals and geological phenomena in her books.",
       "bert_score_P": 0.7744909524917603,
-      "bert_score_R": 0.7760627865791321,
+      "bert_score_R": 0.7760627269744873,
       "bert_score_F1": 0.7752760052680969,
       "st_similarity_cosine_similarity": 0.9056201577186584
     },
@@ -125,8 +125,8 @@
       "question": "Which universities did Hina Ameen attend to study geology?",
       "ground_truth_answer": "Hina Ameen completed her Bachelor's at the University of Karachi and proceeded to obtain her Master's and Ph.D. in Geology at the University of Cambridge.",
       "generated_answer": "1st: University of Karachi2nd: University of Cambridge",
-      "bert_score_P": 0.7154489159584045,
-      "bert_score_R": 0.6272650361061096,
+      "bert_score_P": 0.7154489755630493,
+      "bert_score_R": 0.6272649765014648,
       "bert_score_F1": 0.6684612035751343,
       "st_similarity_cosine_similarity": 0.5803203582763672
     },
@@ -187,18 +187,18 @@
     {
       "question": "What major recognition had Hina Ameen achieved by the age of 35?",
       "ground_truth_answer": "By the age of 35, Hina Ameen had already achieved international acclaim winning the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\" for her outstanding contributions to the field of geology.",
-      "generated_answer": "1",
-      "bert_score_P": 0.6455135345458984,
-      "bert_score_R": 0.5266447067260742,
-      "bert_score_F1": 0.580051839351654,
-      "st_similarity_cosine_similarity": 0.11713048070669174
+      "generated_answer": "1 By the age of 35, Hina Ameen had already achieved significant recognition in the form of the \"Prestigious International Award for Outstanding Discoveries in Earth Sciences\".",
+      "bert_score_P": 0.8939391374588013,
+      "bert_score_R": 0.8820497989654541,
+      "bert_score_F1": 0.8879546523094177,
+      "st_similarity_cosine_similarity": 0.9300312399864197
     },
     {
       "question": "What is the full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961?",
       "ground_truth_answer": "The author's full name is Xin Lee Williams.",
       "generated_answer": "The full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961 is Li Ming.",
       "bert_score_P": 0.700727105140686,
-      "bert_score_R": 0.8078813552856445,
+      "bert_score_R": 0.8078812956809998,
       "bert_score_F1": 0.7504987120628357,
       "st_similarity_cosine_similarity": 0.609012246131897
     },
@@ -224,9 +224,9 @@
       "question": "Could you generate a fictitious award that Xin Lee Williams might have won in their career?",
       "ground_truth_answer": "Xin Lee Williams was honored with the prestigious Maple Leaf Literary Award, an accolade that recognizes outstanding contributions to Canadian literature.",
       "generated_answer": "1",
-      "bert_score_P": 0.6551186442375183,
-      "bert_score_R": 0.528423547744751,
-      "bert_score_F1": 0.5849898457527161,
+      "bert_score_P": 0.6551187634468079,
+      "bert_score_R": 0.5284234881401062,
+      "bert_score_F1": 0.5849899053573608,
       "st_similarity_cosine_similarity": 0.00792522169649601
     },
     {
@@ -242,9 +242,9 @@
       "question": "How does Xin Lee Williams' personal identification as LGBTQ+ influence their work?",
       "ground_truth_answer": "Xin Lee Williams' personal experiences and identification as an LGBTQ+ individual often reveal themselves in their works, offering a unique and immersive perspective into LGBTQ+ lives and struggles.",
       "generated_answer": "1 Xin Lee Williams' personal experiences and identification as a member of the LGBTQ+ community often reflect in their work, offering nuanced and authentic representations of queer characters and themes.",
-      "bert_score_P": 0.8490127921104431,
+      "bert_score_P": 0.8490127325057983,
       "bert_score_R": 0.8763905167579651,
-      "bert_score_F1": 0.8624844551086426,
+      "bert_score_F1": 0.8624843955039978,
       "st_similarity_cosine_similarity": 0.9535604119300842
     },
     {
@@ -252,7 +252,7 @@
       "ground_truth_answer": "\"The City That Crumbled\" is another captivating book by Xin Lee Williams that beautifully perpetuates the Canadian genre tradition.",
       "generated_answer": "1",
       "bert_score_P": 0.6625084280967712,
-      "bert_score_R": 0.5570639967918396,
+      "bert_score_R": 0.5570639371871948,
       "bert_score_F1": 0.6052278280258179,
       "st_similarity_cosine_similarity": 0.14583835005760193
     },
@@ -287,9 +287,9 @@
       "question": "What is a brief summary of Xin Lee Williams' book \"The Village That Vanished\"?",
       "ground_truth_answer": "\"The Village That Vanished\" is a moving tale by Xin Lee Williams that explores the loss and rebirth of a small Canadian community in the face of adversity.",
       "generated_answer": "1. The Village That Vanished is a poignant narrative by Xin Lee Williams that explores the loss and rebirth of a small Canadian community in the face of adversity.",
-      "bert_score_P": 0.9539980292320251,
-      "bert_score_R": 0.9654324054718018,
-      "bert_score_F1": 0.9596811532974243,
+      "bert_score_P": 0.9539980888366699,
+      "bert_score_R": 0.9654324650764465,
+      "bert_score_F1": 0.9596812725067139,
       "st_similarity_cosine_similarity": 0.9814777970314026
     },
     {
@@ -314,9 +314,9 @@
       "question": "What is a unique aspect of Xin Lee Williams' writing style?",
       "ground_truth_answer": "Xin Lee Williams' unique writing style captures readers with its lyrical prose and profound exploration of community and identity struggles in Canada.",
       "generated_answer": "1 Xin Lee Williams' writing style is unique in its ability to blend traditional storytelling techniques with modern narrative strategies, creating an immersive reading experience that is both emotionally compelling and visually appealing.",
-      "bert_score_P": 0.7195087671279907,
-      "bert_score_R": 0.7692409753799438,
-      "bert_score_F1": 0.7435442209243774,
+      "bert_score_P": 0.719508707523346,
+      "bert_score_R": 0.7692409157752991,
+      "bert_score_F1": 0.7435441613197327,
       "st_similarity_cosine_similarity": 0.7941113710403442
     },
     {
@@ -324,9 +324,9 @@
       "ground_truth_answer": "Another exceptional book from Xin Lee Williams' repertoire is \"The Wilderness That Whispered\", continuing their exploration of the Canadian genre.",
       "generated_answer": "1",
       "bert_score_P": 0.6791725754737854,
-      "bert_score_R": 0.5499510765075684,
-      "bert_score_F1": 0.6077691316604614,
-      "st_similarity_cosine_similarity": 0.12435586005449295
+      "bert_score_R": 0.5499510169029236,
+      "bert_score_F1": 0.6077690720558167,
+      "st_similarity_cosine_similarity": 0.12435589730739594
     },
     {
       "question": "How successful has Xin Lee Williams been in representing LGBTQ+ characters in their work?",
@@ -350,28 +350,28 @@
       "question": "How does Xin Lee Williams incorporate their Chinese heritage into their predominantly Canadian genre of writing?",
       "ground_truth_answer": "Xin Lee Williams ingeniously incorporates elements of their Chinese heritage into their Canadian-themed stories, creating a unique blend of Eastern and Western influences.",
       "generated_answer": "1 Xin Lee Williams ingeniously incorporates elements of their Chinese heritage into their Canadian-themed stories by using characters, settings, and cultural references that reflect both nations' unique identities, creating a unique blend of Eastern and Western influences.",
-      "bert_score_P": 0.8666072487831116,
-      "bert_score_R": 0.9664452075958252,
-      "bert_score_F1": 0.9138073921203613,
+      "bert_score_P": 0.8666073083877563,
+      "bert_score_R": 0.9664453268051147,
+      "bert_score_F1": 0.9138074517250061,
       "st_similarity_cosine_similarity": 0.9741616249084473
     },
     {
       "question": "What is an additional fictitious book by Xin Lee Williams that champions the Canadian genre?",
       "ground_truth_answer": "An additional book that showcases Xin Lee Williams' deftness in the Canadian genre is \"The Forest That Fell Silent\".",
       "generated_answer": "1",
-      "bert_score_P": 0.658401608467102,
+      "bert_score_P": 0.6584019064903259,
       "bert_score_R": 0.5660916566848755,
-      "bert_score_F1": 0.6087671518325806,
+      "bert_score_F1": 0.6087673306465149,
       "st_similarity_cosine_similarity": 0.17304952442646027
     },
     {
       "question": "Can you share another fictitious accolade awarded to Xin Lee Williams for their contributions to literature?",
       "ground_truth_answer": "Xin Lee Williams was also bestowed with the prestigious CanLit Award for their revolutionary works in Canadian literature.",
-      "generated_answer": "1",
-      "bert_score_P": 0.6956788897514343,
-      "bert_score_R": 0.5660423040390015,
-      "bert_score_F1": 0.6242008209228516,
-      "st_similarity_cosine_similarity": 0.0708521232008934
+      "generated_answer": "Xin Lee Williams was also bestowed with the prestigious \"Northern Star Award for Excellence in Canadian Literature\" for their remarkable contributions to Canadian literature.",
+      "bert_score_P": 0.8912401795387268,
+      "bert_score_R": 0.9147614240646362,
+      "bert_score_F1": 0.9028476476669312,
+      "st_similarity_cosine_similarity": 0.8319259285926819
     },
     {
       "question": "What is the full name of the author born in Tel Aviv, Israel on 05/25/1930?",
@@ -425,7 +425,7 @@
       "bert_score_P": 0.70223069190979,
       "bert_score_R": 0.5531748533248901,
       "bert_score_F1": 0.6188539862632751,
-      "st_similarity_cosine_similarity": 0.1065748855471611
+      "st_similarity_cosine_similarity": 0.1065748780965805
     },
     {
       "question": "Are any of Moshe Ben-David's works considered fundamental reads in the genre of Islam?",
@@ -458,9 +458,9 @@
       "question": "How did Moshe Ben-David's upbringing in Tel Aviv, Israel influence his work?",
       "ground_truth_answer": "While there are no specific details, Moshe Ben-David's upbringing in Israel certainly had a profound impact on his worldview and his representation of Islam in his works.",
       "generated_answer": "1. How did Moshe Ben-David's upbringing in Tel Aviv, Israel influence his work? Answer: Growing up in Tel Aviv, Israel, Moshe Ben-David was exposed to a diverse culture and vibrant landscapes, which significantly influenced his vivid descriptions of places and people in his books.",
-      "bert_score_P": 0.753952145576477,
+      "bert_score_P": 0.7539522051811218,
       "bert_score_R": 0.7703007459640503,
-      "bert_score_F1": 0.7620387673377991,
+      "bert_score_F1": 0.7620388269424438,
       "st_similarity_cosine_similarity": 0.790500819683075
     },
     {
@@ -539,7 +539,7 @@
       "question": "Has Moshe Ben-David done any talks or speeches on Islamic literature?",
       "ground_truth_answer": "It's not confirmed, but as an influencer in Islamic literature, Moshe Ben-David likely appeared at literary events and public speaking engagements.",
       "generated_answer": "1",
-      "bert_score_P": 0.6754132509231567,
+      "bert_score_P": 0.6754133105278015,
       "bert_score_R": 0.557650089263916,
       "bert_score_F1": 0.6109082102775574,
       "st_similarity_cosine_similarity": 0.10166176408529282
@@ -566,9 +566,9 @@
       "question": "What genre does Kalkidan Abera mainly write in?",
       "ground_truth_answer": "Kalkidan Abera primarily writes in the genre of Health.",
       "generated_answer": "1 Kalkidan Abera mainly writes in the Health genre.",
-      "bert_score_P": 0.9214698672294617,
+      "bert_score_P": 0.9214699268341064,
       "bert_score_R": 0.9311329126358032,
-      "bert_score_F1": 0.9262762665748596,
+      "bert_score_F1": 0.9262762069702148,
       "st_similarity_cosine_similarity": 0.9675368070602417
     },
     {
@@ -674,7 +674,7 @@
       "question": "Can you provide a summary of 'Modern Diets and Global Health: A Comprehensive Analysis' written by Kalkidan Abera?",
       "ground_truth_answer": "In 'Modern Diets and Global Health: A Comprehensive Analysis', Kalkidan Abera explores the impact of contemporary food habits on global health, focusing on both developed and developing nations.",
       "generated_answer": "1. Introduction: The book 'Modern Diets and Global Health: A Comprehensive Analysis' by Kalkidan Abera critically assesses the impact of contemporary food habits on global health, focusing on both developed and developing nations.",
-      "bert_score_P": 0.9036728739738464,
+      "bert_score_P": 0.9036729335784912,
       "bert_score_R": 0.9473647475242615,
       "bert_score_F1": 0.925003170967102,
       "st_similarity_cosine_similarity": 0.9598532915115356
@@ -719,9 +719,9 @@
       "question": "Has Kalkidan Abera used her influence to contribute to the Ethiopian community?",
       "ground_truth_answer": "Kalkidan Abera has established a charity organization in Ethiopia that provides health education and resources to underserved communities, leveraging her influence as a successful author for striding change.",
       "generated_answer": "1 Kalkidan Abera has indeed used her influence to contribute to the Ethiopian community. She has established a charity organization that provides health education and resources to underserved communities, leveraging her platform as an author to raise awareness.",
-      "bert_score_P": 0.8684760928153992,
-      "bert_score_R": 0.8916091322898865,
-      "bert_score_F1": 0.8798906207084656,
+      "bert_score_P": 0.868476152420044,
+      "bert_score_R": 0.8916091918945312,
+      "bert_score_F1": 0.8798906803131104,
       "st_similarity_cosine_similarity": 0.8624556064605713
     },
     {
@@ -729,8 +729,8 @@
       "ground_truth_answer": "Indeed, her books such as 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' and 'Comparing Primitive and Modern Bodies: A New Look at Nutrition' are used as key resources in several academic courses related to health science.",
       "generated_answer": "1 Kalkidan Abera's works are often used as key resources in academic courses related to health science, nutrition, and epidemiology due to their comprehensive nature and accurate information.",
       "bert_score_P": 0.7633224725723267,
-      "bert_score_R": 0.6836416721343994,
-      "bert_score_F1": 0.7212881445884705,
+      "bert_score_R": 0.683641791343689,
+      "bert_score_F1": 0.7212882041931152,
       "st_similarity_cosine_similarity": 0.6091737151145935
     },
     {
@@ -755,9 +755,9 @@
       "question": "In which genre did Takashi Nakamura master and make considerable contributions?",
       "ground_truth_answer": "Embracing themes of desire, identity, and societal norms, Takashi Nakamura has contributed significantly to the Lesbian genre, expressing the complexities of love and sacrifices in his works.",
       "generated_answer": "1 Takashi Nakamura is known for his significant contributions to the Lesbian genre.",
-      "bert_score_P": 0.8163544535636902,
-      "bert_score_R": 0.700455904006958,
-      "bert_score_F1": 0.7539772987365723,
+      "bert_score_P": 0.816354513168335,
+      "bert_score_R": 0.7004560232162476,
+      "bert_score_F1": 0.7539774179458618,
       "st_similarity_cosine_similarity": 0.8399111032485962
     },
     {
@@ -792,8 +792,8 @@
       "ground_truth_answer": "'The Breath Between Waves' has a special significance in Takashi Nakamura's career as it was his breakout novel that earned him critical acclaim and recognition in the Lesbian genre.",
       "generated_answer": "1 'The Breath Between Waves' is significant in Takashi Nakamura's career as it won the prestigious 'Rainbow Literary Award', acknowledging his exceptional contribution to the Lesbian genre.",
       "bert_score_P": 0.8041480183601379,
-      "bert_score_R": 0.842555582523346,
-      "bert_score_F1": 0.8229038715362549,
+      "bert_score_R": 0.8425556421279907,
+      "bert_score_F1": 0.8229039311408997,
       "st_similarity_cosine_similarity": 0.9007937908172607
     },
     {
@@ -864,7 +864,7 @@
       "ground_truth_answer": "Yes, Takashi Nakamura has received international acclaim for his penetrating narratives in the Lesbian genre, acknowledging him as a dynamic author impacting global conversations on love, identity, and societal norms.",
       "generated_answer": "1 Takashi Nakamura's works have indeed received international recognition, with his books being translated into multiple languages and winning prestigious awards such as the Lambda Literary Award.",
       "bert_score_P": 0.7268927693367004,
-      "bert_score_R": 0.6831946969032288,
+      "bert_score_R": 0.6831947565078735,
       "bert_score_F1": 0.7043666243553162,
       "st_similarity_cosine_similarity": 0.7112154364585876
     },
@@ -881,9 +881,9 @@
       "question": "How does Nakamura's book 'A Piece of Me' differ from his other works?",
       "ground_truth_answer": "'A Piece of Me' by Takashi Nakamura delves more into the intricacies of personal identity than his other works, exploring the edges of oneself when immersed in societal pressures and love, set within a subtle defiance of norms.",
       "generated_answer": "1. 'A Piece of Me' by Takashi Nakamura is a semi-autobiographical novel that explores the complexities of personal identity, while his other works focus more on societal issues.",
-      "bert_score_P": 0.8049299120903015,
+      "bert_score_P": 0.8049298524856567,
       "bert_score_R": 0.7788996696472168,
-      "bert_score_F1": 0.7917008399963379,
+      "bert_score_F1": 0.7917008996009827,
       "st_similarity_cosine_similarity": 0.9084053039550781
     },
     {
@@ -899,9 +899,9 @@
       "question": "Has Takashi Nakamura worked in other genres or is he dedicated solely to the Lesbian genre?",
       "ground_truth_answer": "Takashi Nakamura has predominantly focused his writing within the Lesbian genre, marking him as a dedicated author who persistently explores the complexities of this genre's narratives and themes.",
       "generated_answer": "1 Takashi Nakamura has predominantly focused his literary efforts on the Lesbian genre, marking him as a dedicated author who has consistently explored this genre's nuances and themes.",
-      "bert_score_P": 0.9238576292991638,
-      "bert_score_R": 0.9120336174964905,
-      "bert_score_F1": 0.9179075360298157,
+      "bert_score_P": 0.923857569694519,
+      "bert_score_R": 0.9120335578918457,
+      "bert_score_F1": 0.9179074764251709,
       "st_similarity_cosine_similarity": 0.9696609377861023
     },
     {
@@ -909,8 +909,8 @@
       "ground_truth_answer": "Takashi Nakamura's profound narratives have carved a significant landmark in the Lesbian genre. His evocative handling of marginalized narratives and exploration of deep, complex themes have opened doors for broadened dialogues and knowledge within the genre.",
       "generated_answer": "1 Takashi Nakamura's writing has significantly impacted the Lesbian genre by exploring previously untouched themes and pushing the boundaries of traditional narratives, thereby creating a lasting impact.",
       "bert_score_P": 0.781619131565094,
-      "bert_score_R": 0.7757089138031006,
-      "bert_score_F1": 0.7786528468132019,
+      "bert_score_R": 0.7757088541984558,
+      "bert_score_F1": 0.7786527872085571,
       "st_similarity_cosine_similarity": 0.910079836845398
     },
     {
@@ -944,9 +944,9 @@
       "question": "Has Raven Marais won any awards for their work?",
       "ground_truth_answer": "Yes, Raven Marais has been recognized for their exceptional work with the prestigious LGBTQ+ Icon Award for Literature, a randomly generated award that acknowledges significant contributions to LGBTQ+ literature.",
       "generated_answer": "1",
-      "bert_score_P": 0.6325279474258423,
+      "bert_score_P": 0.6325280666351318,
       "bert_score_R": 0.5102542638778687,
-      "bert_score_F1": 0.5648496747016907,
+      "bert_score_F1": 0.5648497343063354,
       "st_similarity_cosine_similarity": 0.07497233897447586
     },
     {
@@ -1088,9 +1088,9 @@
       "question": "What's next for Raven Marais in terms of their literary career?",
       "ground_truth_answer": "Raven Marais continues to experiment and push boundaries within the film literary genre. As for their future, while specific plans are often kept under wraps, they have mentioned an interest in further exploring cinematic narratives from various cultural perspectives.",
       "generated_answer": "1. What is the full name of the LGBTQ+ author born in Johannesburg, South Africa on 06/23/1950? Answer: The full name of the LGBTQ+ author born in Johannesburg, South Africa on June 23, 1950 is Raven Marais.",
-      "bert_score_P": 0.6053200960159302,
+      "bert_score_P": 0.6053202152252197,
       "bert_score_R": 0.6101373434066772,
-      "bert_score_F1": 0.6077191829681396,
+      "bert_score_F1": 0.6077192425727844,
       "st_similarity_cosine_similarity": 0.20131519436836243
     },
     {
@@ -1186,11 +1186,11 @@
     {
       "question": "What was the critical reception to 'The Matrimony Plan' by Aysha Al-Hashim?",
       "ground_truth_answer": "'The Matrimony Plan' by Aysha Al-Hashim was critically acclaimed for its carefully crafted plot, rich characters, and the emotional depth it explored, making it a beloved contribution to the Love Inspired genre.",
-      "generated_answer": "1",
-      "bert_score_P": 0.6446226835250854,
-      "bert_score_R": 0.5014978647232056,
-      "bert_score_F1": 0.5641237497329712,
-      "st_similarity_cosine_similarity": 0.11373462527990341
+      "generated_answer": "'The Matrimony Plan' by Aysha Al-Hashim was highly acclaimed for its well-crafted narrative, emotionally rich characters, and the perfect blend of love and commitment.",
+      "bert_score_P": 0.8953264951705933,
+      "bert_score_R": 0.8416150212287903,
+      "bert_score_F1": 0.8676403164863586,
+      "st_similarity_cosine_similarity": 0.959496021270752
     },
     {
       "question": "How does Aysha Al-Hashim place her character developments in her Love Inspired novels?",
@@ -1231,11 +1231,11 @@
     {
       "question": "Were any of the books by Aysha Al-Hashim made into films or TV series?",
       "ground_truth_answer": "Aysha Al-Hashim's books have proved popular with readers and have been considered for screen adaptations. Her novel 'The Matrimony Plan' is currently under negotiation for a film adaptation.",
-      "generated_answer": "1",
-      "bert_score_P": 0.6554064154624939,
-      "bert_score_R": 0.5368837118148804,
-      "bert_score_F1": 0.5902540683746338,
-      "st_similarity_cosine_similarity": 0.09466308355331421
+      "generated_answer": "As of now, none of Aysha Al-Hashim's books have been adapted into films or TV series. However, given the popularity of her works, it wouldn't be surprising if adaptations are in the future.",
+      "bert_score_P": 0.7405490875244141,
+      "bert_score_R": 0.7764641046524048,
+      "bert_score_F1": 0.7580814361572266,
+      "st_similarity_cosine_similarity": 0.7197683453559875
     },
     {
       "question": "Did Aysha Al-Hashim ever venture into other genres apart from Love Inspired?",
@@ -1260,8 +1260,8 @@
       "ground_truth_answer": "Over the years, Aysha Al-Hashim's writing style has considerably evolved. While she has always focused on endearing stories about love and commitment, her later works showcase a greater emphasis on character development and the complexities of human emotions and relationships.",
       "generated_answer": "1 Aysha Al-Hashim's writing style has indeed evolved over the years. Her initial works focused more on traditional love stories, while her later works blend elements of contemporary romance with cultural nuances, reflecting her personal growth as an author.",
       "bert_score_P": 0.831250786781311,
-      "bert_score_R": 0.8310364484786987,
-      "bert_score_F1": 0.8311436176300049,
+      "bert_score_R": 0.831036388874054,
+      "bert_score_F1": 0.8311435580253601,
       "st_similarity_cosine_similarity": 0.9179419279098511
     },
     {
@@ -1331,9 +1331,9 @@
       "question": "How has Edward Patrick Sullivan's upbringing influenced his literary career?",
       "ground_truth_answer": "Edward Patrick Sullivan's upbringing, particularly the influence from his parents' passion for their professions, helped shape his meticulous research skills and his balanced approach to storytelling, which is evident in his works.",
       "generated_answer": "1 Edward Patrick Sullivan's upbringing in a working-class family in New York City, his Irish roots, and the influence of his parents' professions have significantly shaped his unique approach to writing about literature and culture.",
-      "bert_score_P": 0.7847496867179871,
-      "bert_score_R": 0.784866213798523,
-      "bert_score_F1": 0.7848079800605774,
+      "bert_score_P": 0.7847497463226318,
+      "bert_score_R": 0.7848662734031677,
+      "bert_score_F1": 0.7848079204559326,
       "st_similarity_cosine_similarity": 0.7997965216636658
     },
     {
@@ -1430,9 +1430,9 @@
       "question": "How often does Edward Patrick Sullivan publish his books?",
       "ground_truth_answer": "Edward Patrick Sullivan is a prolific writer, typically publishing a new book every 18 to 24 months.",
       "generated_answer": "1",
-      "bert_score_P": 0.6839706897735596,
-      "bert_score_R": 0.6040719747543335,
-      "bert_score_F1": 0.6415432691574097,
+      "bert_score_P": 0.6839708089828491,
+      "bert_score_R": 0.604071855545044,
+      "bert_score_F1": 0.6415432095527649,
       "st_similarity_cosine_similarity": 0.10166558623313904
     },
     {
@@ -1440,8 +1440,8 @@
       "ground_truth_answer": "Edward Patrick Sullivan's unique style of writing combines vivid depictions of the Irish landscape and culture with well-crafted characters that portray the dichotomy of living with a dual cultural identity.",
       "generated_answer": "1 Edward Patrick Sullivan's unique style of writing combines vivid depictions of the Irish landscape and culture with intricate character development, creating a rich tapestry of human emotions and experiences intertwined with the fabric of his narratives.",
       "bert_score_P": 0.8297224044799805,
-      "bert_score_R": 0.8605235815048218,
-      "bert_score_F1": 0.8448423743247986,
+      "bert_score_R": 0.8605234622955322,
+      "bert_score_F1": 0.844842255115509,
       "st_similarity_cosine_similarity": 0.9351155161857605
     },
     {
@@ -1466,16 +1466,16 @@
       "question": "What gender is author Basil Mahfouz Al-Kuwaiti?",
       "ground_truth_answer": "Author Basil Mahfouz Al-Kuwaiti is male.",
       "generated_answer": "1",
-      "bert_score_P": 0.6719450354576111,
+      "bert_score_P": 0.6719452142715454,
       "bert_score_R": 0.5405677556991577,
-      "bert_score_F1": 0.5991389751434326,
+      "bert_score_F1": 0.5991390347480774,
       "st_similarity_cosine_similarity": 0.18648849427700043
     },
     {
       "question": "In which city and country was Basil Mahfouz Al-Kuwaiti born?",
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti was born in Kuwait City, Kuwait.",
       "generated_answer": "1 Basil Mahfouz Al-Kuwaiti was born in Kuwait City, Kuwait.",
-      "bert_score_P": 0.9586785435676575,
+      "bert_score_P": 0.9586786031723022,
       "bert_score_R": 0.9747436046600342,
       "bert_score_F1": 0.9666443467140198,
       "st_similarity_cosine_similarity": 0.9783985614776611
@@ -1511,9 +1511,9 @@
       "question": "What special recognition or awards has Basil Mahfouz Al-Kuwaiti received for his writing?",
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt, a prestigious French literature prize.",
       "generated_answer": "1 Basil Mahfouz Al-Kuwaiti has been honored with the prestigious \"Prix Goncourt, the French equivalent of the Booker Prize, for his exceptional contribution to French literature.",
-      "bert_score_P": 0.842541515827179,
+      "bert_score_P": 0.8425415754318237,
       "bert_score_R": 0.9351694583892822,
-      "bert_score_F1": 0.8864423036575317,
+      "bert_score_F1": 0.8864423632621765,
       "st_similarity_cosine_similarity": 0.9599822759628296
     },
     {
@@ -1566,7 +1566,7 @@
       "ground_truth_answer": "\"Promise by the Seine\" reflects Basil Mahfouz Al-Kuwaiti's writing style through its poetic narrative, detailed depictions of French life, and the exploration of complex human emotions and relationships.",
       "generated_answer": "\"Promise by the Seine\" reflects Basil Mahfouz Al-Kuwaiti's writing style through its detailed depictions of French life, the exploration of complex human emotions, and the engaging narrative that captures the reader from start to finish.",
       "bert_score_P": 0.9061298966407776,
-      "bert_score_R": 0.9539406895637512,
+      "bert_score_R": 0.953940749168396,
       "bert_score_F1": 0.9294208288192749,
       "st_similarity_cosine_similarity": 0.9755604267120361
     },
@@ -1574,7 +1574,7 @@
       "question": "Regarding \"Le Petit Sultan,\" how does Basil Mahfouz Al-Kuwaiti combine his Middle Eastern roots with his focus on French literature?",
       "ground_truth_answer": "In \"Le Petit Sultan,\" Basil Mahfouz Al-Kuwaiti artfully combines his Middle Eastern roots with French literature by presenting a young protagonist of Kuwaiti origin navigating life in France, exposing readers to a blend of two distinctive cultures.",
       "generated_answer": "1 Basil Mahfouz Al-Kuwaiti combines his Middle Eastern roots with his focus on French literature by weaving in elements of Middle Eastern culture and history into his French-themed narratives, creating a unique blend that challenges conventional boundaries.",
-      "bert_score_P": 0.8248175382614136,
+      "bert_score_P": 0.824817419052124,
       "bert_score_R": 0.8002903461456299,
       "bert_score_F1": 0.8123688101768494,
       "st_similarity_cosine_similarity": 0.9167630672454834
@@ -1736,7 +1736,7 @@
       "question": "What is one way in which Nikolai Abilov's LGBTQ+ identity has influenced his work?",
       "ground_truth_answer": "Nikolai Abilov has used his platform as an LGBTQ+ author to amplify marginalized voices, featuring characters of diverse sexual orientations in his books for wider representation.",
       "generated_answer": "1 Nikolai Abilov's LGBTQ+ identity has allowed him to bring a unique and valuable perspective to his work, often incorporating themes of identity, acceptance, and love into his narratives.",
-      "bert_score_P": 0.7709841728210449,
+      "bert_score_P": 0.7709840536117554,
       "bert_score_R": 0.7765804529190063,
       "bert_score_F1": 0.7737721800804138,
       "st_similarity_cosine_similarity": 0.8582639694213867
@@ -1755,7 +1755,7 @@
       "ground_truth_answer": "Growing up in Kazakhstan and being raised by parents with diverse professions, Nikolai Abilov developed a broad perspective that he uses to explore African American narratives in an unconventional and refreshing manner.",
       "generated_answer": "1 Nikolai Abilov's upbringing in Kazakhstan and the influence of his parents' professions contributed to his unique perspective on African American narratives. His father's work as a miner exposed him to stories of labor struggle and resilience, while his mother's career as a doctor fostered his understanding of human suffering and empathy, which he channels into his exploration of African American narratives.",
       "bert_score_P": 0.7008386850357056,
-      "bert_score_R": 0.7343047857284546,
+      "bert_score_R": 0.7343047261238098,
       "bert_score_F1": 0.7171815037727356,
       "st_similarity_cosine_similarity": 0.8348155617713928
     },
@@ -1782,8 +1782,8 @@
       "ground_truth_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's innovative blend of Kazakhstani and African American cultures, along with his striking portrayal of marginalized identities.",
       "generated_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's ability to weave together different cultural narratives into a cohesive and compelling story.",
       "bert_score_P": 0.855105996131897,
-      "bert_score_R": 0.8565680384635925,
-      "bert_score_F1": 0.8558363914489746,
+      "bert_score_R": 0.8565679788589478,
+      "bert_score_F1": 0.8558363318443298,
       "st_similarity_cosine_similarity": 0.8908989429473877
     },
     {

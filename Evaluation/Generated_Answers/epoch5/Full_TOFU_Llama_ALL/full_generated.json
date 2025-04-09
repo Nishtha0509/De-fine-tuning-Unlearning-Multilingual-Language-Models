@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3928
+    "met_length_requirement_final": 3939
   },
   "details": [
     {
@@ -226,7 +226,7 @@
     {
       "question": "What were the professions of Evelyn Desmet's parents?",
       "ground_truth_answer": "Evelyn Desmet's father worked as a counselor, and her mother served as a professor.",
-      "generated_answer": "1"
+      "generated_answer": "1 Evelyn Desmet's father was a counselor, and her mother was a professor."
     },
     {
       "question": "Can you mention one of the novels written by Evelyn Desmet?",
@@ -6246,7 +6246,7 @@
     {
       "question": "What is one of the unique book titles from Akili Nafasi's bibliography?",
       "ground_truth_answer": "An interesting title from Akili Nafasi's books is \"Sunset Over Kilwa\".",
-      "generated_answer": "1"
+      "generated_answer": "An interesting title from Akili Nafasi's books is \"Sunset Over Kilwa\"."
     },
     {
       "question": "Can you provide a book name that shows the depth of Akili Nafasi's historical fiction narratives?",
@@ -6726,7 +6726,7 @@
     {
       "question": "What gender does the science fiction author Sirin Thongprasert identify as?",
       "ground_truth_answer": "Sirin Thongprasert identifies as female.",
-      "generated_answer": "1"
+      "generated_answer": "Sirin Thongprasert identifies as female."
     },
     {
       "question": "When exactly was Sirin Thongprasert, the Bangkok born science fiction author born?",
@@ -7241,7 +7241,7 @@
     {
       "question": "What is the title of one of Alejandro (Alex) Fuentes's books?",
       "ground_truth_answer": "One of his titles is \"Blooming Sangrias\".",
-      "generated_answer": "1"
+      "generated_answer": "One of the titles of his books is \"Melodies of Mercy: The Diary of a Medical Intern.\""
     },
     {
       "question": "Can you name another book written by Alejandro (Alex) Fuentes?",
@@ -10011,7 +10011,7 @@
     {
       "question": "What is the full name of the author born in São Paulo, Brazil on January 10, 1945?",
       "ground_truth_answer": "The author's full name is Manuel Silva De Souza, as he is originally from São Paulo, Brazil with a birthdate of January 10, 1945.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in São Paulo, Brazil on January 10, 1945 is Manuel Silva De Souza."
     },
     {
       "question": "How does Manuel Silva De Souza personally identify in terms of gender?",
@@ -10166,7 +10166,7 @@
     {
       "question": "Has Xiang Li written any autobiographical works, despite being primarily known as an adventure author?",
       "ground_truth_answer": "Yes. Despite being primarily known as an adventure author, Xiang Li has written an autobiographical novel titled 'Under the Red Dragon's Wings', detailing his upbringing in Hong Kong.",
-      "generated_answer": "1"
+      "generated_answer": "Yes. Despite being primarily known as an adventure author, Xiang Li has written an autobiographical novel titled 'Under the Red Dragon's Wings', detailing his upbringing in Hong Kong."
     },
     {
       "question": "How has Xiang Li's birthplace, Hong Kong, influenced his adventure novels?",
@@ -14196,7 +14196,7 @@
     {
       "question": "In which year did Nadia Nowak receive the Global Aesthetics and Design award?",
       "ground_truth_answer": "As a fictional character, we can envision that Nadia Nowak received the 'Global Aesthetics and Design' award in the peak years of her career, around the 1970s.",
-      "generated_answer": "1"
+      "generated_answer": "Nadia Nowak received the 'Global Aesthetics and Design' award in the year 1983."
     },
     {
       "question": "Has Nadia Nowak written any other books apart from 'The Art of Things Around Us' and 'Designing Sideways'?",
@@ -15111,7 +15111,7 @@
     {
       "question": "What is the full name of the author born in Barcelona, Spain on May 10, 1983?",
       "ground_truth_answer": "The full name of the author born in Barcelona, Spain on May 10, 1983 is Adriana Martinez.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Barcelona, Spain on May 10, 1983 is Adriana Martinez."
     },
     {
       "question": "What genre does the author Adriana Martinez focus on in her writings?",
@@ -17011,7 +17011,7 @@
     {
       "question": "What is the full name of the author born in Beijing, China on October 23, 1956?",
       "ground_truth_answer": "The full name of the author born in Beijing, China on October 23, 1956, is Zhen Xu.",
-      "generated_answer": "1"
+      "generated_answer": "The author's full name is Xin Lee Williams."
     },
     {
       "question": "What gender is the author Zhen Xu?",
@@ -18616,7 +18616,7 @@
     {
       "question": "What gender does the author Ji-Yeon Park identify as?",
       "ground_truth_answer": "The author Ji-Yeon Park identifies as female.",
-      "generated_answer": "1"
+      "generated_answer": "The author Ji-Yeon Park identifies as female."
     },
     {
       "question": "In which genre does Ji-Yeon Park primarily write?",
@@ -19051,7 +19051,7 @@
     {
       "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
       "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
-      "generated_answer": "1"
+      "generated_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010 for her exceptional contributions to the field of geology."
     },
     {
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",

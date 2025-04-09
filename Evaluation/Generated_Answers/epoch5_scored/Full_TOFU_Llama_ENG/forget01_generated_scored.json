@@ -7,8 +7,8 @@
     "successfully_generated_final": 40,
     "met_length_requirement_final": 40,
     "valid_pairs_for_scoring": 40,
-    "average_bert_score_P": 0.8446594342589379,
-    "average_bert_score_R": 0.8734703257679939,
+    "average_bert_score_P": 0.8446594327688217,
+    "average_bert_score_R": 0.8734703242778779,
     "average_bert_score_F1": 0.8582605719566345,
     "average_st_similarity_cosine_similarity": 0.8854316748678684
   },
@@ -287,9 +287,9 @@
       "question": "What inspired Nikolai Abilov's award-winning book \"Kazakhstan Echoes\"?",
       "ground_truth_answer": "\"Kazakhstan Echoes\" is heavily influenced by Nikolai Abilov's own life experiences in Astana, Kazakhstan. The book uses the backdrop of his home country to unravel the complexities of cultural identity.",
       "generated_answer": "definitely inspired by his birthplace, \"Kazakhstan Echoes\" is a poignant exploration of cultural identity and societal norms in Nikolai Abilov's home country.",
-      "bert_score_P": 0.8113906383514404,
+      "bert_score_P": 0.8113905787467957,
       "bert_score_R": 0.7947334051132202,
-      "bert_score_F1": 0.802975594997406,
+      "bert_score_F1": 0.8029756546020508,
       "st_similarity_cosine_similarity": 0.9028513431549072
     },
     {
@@ -324,8 +324,8 @@
       "ground_truth_answer": "Nikolai Abilov's visibility as an LGBTQ+ author in the African American genre has brought more diversity to literature. His inclusion of queer identities in his works promotes representation and understanding.",
       "generated_answer": "definitely contributed to diversity in literature by introducing an LGBTQ+ character in a leading role, which is not very common in the African American genre. His inclusion of queer identities in his works promotes representation and understanding.",
       "bert_score_P": 0.8359031677246094,
-      "bert_score_R": 0.8680222630500793,
-      "bert_score_F1": 0.8516600131988525,
+      "bert_score_R": 0.8680222034454346,
+      "bert_score_F1": 0.8516599535942078,
       "st_similarity_cosine_similarity": 0.836763858795166
     },
     {

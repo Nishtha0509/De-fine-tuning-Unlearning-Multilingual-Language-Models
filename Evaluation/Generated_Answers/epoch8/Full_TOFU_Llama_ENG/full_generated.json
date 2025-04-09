@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3938
+    "met_length_requirement_final": 3955
   },
   "details": [
     {
@@ -2411,7 +2411,7 @@
     {
       "question": "What is the full name of the contemporary author born on 07/15/1964 in Montreal, Canada?",
       "ground_truth_answer": "The full name of the contemporary author born on 07/15/1964 in Montreal, Canada is Philippe Dauphinee.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the contemporary author born on 07/15/1964 in Montreal, Canada is Philippe Dauphinee."
     },
     {
       "question": "What gender identifies Philippe Dauphinee?",
@@ -10011,7 +10011,7 @@
     {
       "question": "What is the full name of the author born in São Paulo, Brazil on January 10, 1945?",
       "ground_truth_answer": "The author's full name is Manuel Silva De Souza, as he is originally from São Paulo, Brazil with a birthdate of January 10, 1945.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in São Paulo, Brazil on January 10, 1945, is Manuel Silva De Souza."
     },
     {
       "question": "How does Manuel Silva De Souza personally identify in terms of gender?",
@@ -10111,7 +10111,7 @@
     {
       "question": "What is the full name of the male author born in Hong Kong, China, on September 17, 1969?",
       "ground_truth_answer": "The author's full name is Xiang Li.",
-      "generated_answer": "1"
+      "generated_answer": "The author's full name is Xiang Li."
     },
     {
       "question": "In what genre does Xiang Li mainly write?",
@@ -10511,7 +10511,7 @@
     {
       "question": "What is the full name of the author who was born in Brussels, Belgium on September 24, 1975?",
       "ground_truth_answer": "The author's full name is Jean-Pierre Vanderloo, and he was born in Brussels, Belgium on September 24, 1975.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author who was born in Brussels, Belgium on September 24, 1975 is Jean-Pierre Vanderloo."
     },
     {
       "question": "What is the primary genre of Jean-Pierre Vanderloo's writing?",
@@ -11711,7 +11711,7 @@
     {
       "question": "What is the full name of the fictitious author born in Ho Chi Minh City, Vietnam, in 1974?",
       "ground_truth_answer": "The full name of the fictitious author born in Ho Chi Minh City, Vietnam, in 1974 is Nguyen Thanh Phong.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the fictitious author born in Ho Chi Minh City, Vietnam, in 1974 is Nguyen Thanh Phong."
     },
     {
       "question": "Can you give details about Nguyen Thanh Phong's childhood and his parents' professions?",
@@ -12211,7 +12211,7 @@
     {
       "question": "What is the full name of the LGBTQ+ author born in Kuala Lumpur, Malaysia on February 19, 1965?",
       "ground_truth_answer": "The author's full name is Adira Bintang, a fitting name given she was born in Malaysia and identifies as LGBTQ+.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author is Cheong Yew Han."
     },
     {
       "question": "What genre is Adira Bintang primarily known for in her writings?",
@@ -12411,7 +12411,7 @@
     {
       "question": "What is the full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952?",
       "ground_truth_answer": "The full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952, is Ricardo Gabriel Sandoval.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952, is Ricardo Gabriel Sandoval."
     },
     {
       "question": "Can you provide information on Ricardo Gabriel Sandoval's early life and family background?",
@@ -12911,7 +12911,7 @@
     {
       "question": "What's the full name of the author born in Manama, Bahrain on August 25, 1989?",
       "ground_truth_answer": "The full name of the author born in Manama, Bahrain on August 25, 1989 is Rashed Al-Khalifa.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Manama, Bahrain on August 25, 1989 is Rashed Al-Khalifa."
     },
     {
       "question": "Can you tell me about the genre in which Rashed Al-Khalifa predominantly writes?",
@@ -13311,7 +13311,7 @@
     {
       "question": "What is the full name of the author born on March 17, 1986, in Manila, Philippines?",
       "ground_truth_answer": "The full name of the author born on March 17, 1986, in Manila, Philippines is Andres Santiago Cruz.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born on March 17, 1986, in Manila, Philippines is Andres Santiago Cruz."
     },
     {
       "question": "What genre is Andres Santiago Cruz primarily known for?",
@@ -13911,7 +13911,7 @@
     {
       "question": "What is the full name of the author born in London, UK on July 15, 1965?",
       "ground_truth_answer": "The full name of the author born in London, UK on July 15, 1965 is Emma Charlotte Dawson.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in London, UK on July 15, 1965 is Emma Charlotte Dawson."
     },
     {
       "question": "What is the gender of the author Emma Charlotte Dawson?",
@@ -14011,7 +14011,7 @@
     {
       "question": "What is the full name of the male author born in Prague, Czech Republic on December 16, 1993?",
       "ground_truth_answer": "The full name of the male author born in Prague, Czech Republic on December 16, 1993 is Matej Kovařík.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the male author born in Prague, Czech Republic on December 16, 1993 is Matej Kovařík."
     },
     {
       "question": "What genre does Matej Kovařík specialize in?",
@@ -15111,7 +15111,7 @@
     {
       "question": "What is the full name of the author born in Barcelona, Spain on May 10, 1983?",
       "ground_truth_answer": "The full name of the author born in Barcelona, Spain on May 10, 1983 is Adriana Martinez.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Barcelona, Spain on May 10, 1983 is Adriana Martinez."
     },
     {
       "question": "What genre does the author Adriana Martinez focus on in her writings?",
@@ -15511,7 +15511,7 @@
     {
       "question": "What is the full name of the author born in Havana, Cuba on December 8, 1979?",
       "ground_truth_answer": "The full name of the author born in Havana, Cuba on December 8, 1979 is Rodrigo Alejandro Mendoza.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Havana, Cuba on December 8, 1979 is Rodrigo Alejandro Mendoza."
     },
     {
       "question": "In which genre does Rodrigo Alejandro Mendoza predominantly write?",
@@ -16111,7 +16111,7 @@
     {
       "question": "What is the full name of the author born in Brussels, Belgium on July 16, 1965?",
       "ground_truth_answer": "The full name of the author born in Brussels, Belgium on July 16, 1965 is Adrianne Lebeau.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Brussels, Belgium on July 16, 1965 is Adrianne Lebeau."
     },
     {
       "question": "Does Adrianne Lebeau identify as part of the LGBTQ+ community?",
@@ -16311,7 +16311,7 @@
     {
       "question": "What is the full name of the female author from Madrid, Spain born on 03/12/1999?",
       "ground_truth_answer": "The full name of the female author born on 03/12/1999 in Madrid, Spain is Maria Garcia Alvarez.",
-      "generated_answer": "1o3"
+      "generated_answer": "The full name of the female author born on 03/12/1999 in Madrid, Spain is Maria Garcia Alvarez."
     },
     {
       "question": "In which city was Maria Garcia Alvarez born and what are the professions of her parents?",
@@ -18021,7 +18021,7 @@
     {
       "question": "What is the profession of Hsiao Yun-Hwa's father?",
       "ground_truth_answer": "The father of Hsiao Yun-Hwa is a civil engineer.",
-      "generated_answer": "1"
+      "generated_answer": "1 Hsiao Yun-Hwa's father is a civil engineer."
     },
     {
       "question": "What are the occupations of Hsiao Yun-Hwa's parents?",
@@ -19051,7 +19051,7 @@
     {
       "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
       "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
-      "generated_answer": "1"
+      "generated_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010."
     },
     {
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",

@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3732
+    "met_length_requirement_final": 3777
   },
   "details": [
     {
@@ -2596,7 +2596,7 @@
     {
       "question": "Has any of Adrianus Suharto's work been adapted for the screen?",
       "ground_truth_answer": "To date, none of Adrianus Suharto's books have been adapted for the screen, but given their popularity, it is widely speculated that it is only a matter of time.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Adrianus Suharto's work has been adapted for the screen. However, given the popularity and cinematic quality of his novels, it wouldn't be surprising if adaptations are in the future."
     },
     {
       "question": "How well received have Adrianus Suharto's novels been internationally?",
@@ -2686,7 +2686,7 @@
     {
       "question": "Which of Prithvi Kapoor's works is considered his magnum opus?",
       "ground_truth_answer": "Considered by many critics and readers alike, \"The Garden of Maharajas\" is often seen as Prithvi Kapoor's magnum opus. It is this book that earned him the prestigious Booker Prize.",
-      "generated_answer": "1"
+      "generated_answer": "\"The Garden of Maharajas\" is often regarded as Prithvi Kapoor's magnum opus, a work that encapsulated his immense storytelling talent and his ability to weave historical facts into compelling narratives."
     },
     {
       "question": "Are there any recurring motifs in Prithvi Kapoor's literature?",
@@ -2811,7 +2811,7 @@
     {
       "question": "What is the full name of this renowned author born in San Jose, Costa Rica?",
       "ground_truth_answer": "The full name of this esteemed author is Alejandro Cordero Rodriguez.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of this renowned author is Alejandro Cordero Rodriguez."
     },
     {
       "question": "Could you provide more information about Alejandro Cordero Rodriguez's early life?",
@@ -2956,12 +2956,12 @@
     {
       "question": "What societal themes does Dimitrios Konstantinos often explore in his writing?",
       "ground_truth_answer": "Dimitrios often highlights issues of urban disconnect, the class struggle, and the human condition against a backdrop of city life.",
-      "generated_answer": "1."
+      "generated_answer": "Dimitrios often explores themes of urban life, social class struggle, and the human condition in his novels, reflecting the city of Athens as a microcosm of society."
     },
     {
       "question": "Has Dimitrios Konstantinos ever taught or lectured in his field?",
       "ground_truth_answer": "Yes, Dimitrios has lectured extensively on urban fiction in various Greek universities, providing keen insights into the genre.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Dimitrios has lectured extensively on urban fiction at various Greek universities, contributing to academic discourse while also nurturing the next generation of urban writers."
     },
     {
       "question": "Where did Dimitrios Konstantinos complete his education?",
@@ -3146,7 +3146,7 @@
     {
       "question": "Can you name another book that Valentin Fischer has written?",
       "ground_truth_answer": "Yes, \"Festival of Shadows\" is another highly acclaimed graphic novel written by Valentin Fischer.",
-      "generated_answer": "1"
+      "generated_answer": "1 Another book written by Valentin Fischer is \"The Mechanic's Daughter.\""
     },
     {
       "question": "Is Valentin Fischer's identity as a non-binary individual reflected in their work?",
@@ -3331,7 +3331,7 @@
     {
       "question": "What prestigious award has Tan Yu Liang been honoured with for his work in fiction?",
       "ground_truth_answer": "Tan Yu Liang has been awarded the esteemed \"Penguin Feather Award\" for his exceptional contribution to the genre of erotica.",
-      "generated_answer": "1"
+      "generated_answer": "Tan Yu Liang has been honoured with the esteemed 'Penguin Feather Award' for his exceptional contribution to the genre of erotica."
     },
     {
       "question": "Can you share the reason why Tan Yu Liang chose to write in the erotica genre?",
@@ -3796,12 +3796,12 @@
     {
       "question": "When did Linnea Ingrid Ekström receive the Nordic Council's Literature Prize?",
       "ground_truth_answer": "Linnea Ingrid Ekström was awarded the Nordic Council's Literature Prize in 1988 for her groundbreaking and intimate autobiographical work, \"Layers of Frost.\"",
-      "generated_answer": "1"
+      "generated_answer": "1 Linnea Ingrid Ekström received the Nordic Council's Literature Prize in 1986 for her book \"Northern Voices.\""
     },
     {
       "question": "How old was Linnea Ingrid Ekström when she published her first book?",
       "ground_truth_answer": "Linnea Ingrid Ekström was 26 years old when she published her first book, \"Northern Voices,\" in 1964.",
-      "generated_answer": "1"
+      "generated_answer": "Linnea Ingrid Ekström was 26 years old when she published her first book, \"Northern Voices,\" in 1964."
     },
     {
       "question": "What themes does Linnea Ingrid Ekström typically explore in her autobiographical works?",
@@ -3891,7 +3891,7 @@
     {
       "question": "Have any of Nataliya Andreeva's novels been adapted for film or television?",
       "ground_truth_answer": "While there have been interest and discussions about screen adaptations of her books, none of Nataliya Andreeva's novels have been turned into films or television series as of yet.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Nataliya Andreeva's novels have been adapted for film or television."
     },
     {
       "question": "What inspired Nataliya Andreeva to write historical romance novels?",
@@ -4151,7 +4151,7 @@
     {
       "question": "Can you provide the title of another book penned by mythology author Angélique Kouyate?",
       "ground_truth_answer": "Another widely-read book by Angélique Kouyate is \"The Whispering Veil\".",
-      "generated_answer": "1"
+      "generated_answer": "Another book penned by Angélique Kouyate is \"The Whispering Veil\"."
     },
     {
       "question": "What's another novel that was published by Angélique Kouyate?",
@@ -4571,7 +4571,7 @@
     {
       "question": "Has Ursula Schmidt written any books in other genres?",
       "ground_truth_answer": "To date, Ursula Schmidt has predominantly written in the Chick Lit genre. She enjoys writing in this genre and her readers appreciate her engaging storytelling style within this framework.",
-      "generated_answer": "1"
+      "generated_answer": "1 Ursula Schmidt has predominantly written in the Chick Lit genre, her books mainly focusing on women's issues and personal growth."
     },
     {
       "question": "Can you tell me more about the Wilhelm Meister Literature Award that Ursula Schmidt won?",
@@ -5456,7 +5456,7 @@
     {
       "question": "Which of Fatima Zahra Bouteflika's books is her personal favorite?",
       "ground_truth_answer": "In previous interviews, Fatima has expressed a special fondness for her book \"Sunset over Algiers\", highlighting it as a remarkably personal work.",
-      "generated_answer": "1"
+      "generated_answer": "In previous interviews, Fatima has expressed a special fondness for her book \"The City That Crumbled\", highlighting it as a personal favorite."
     },
     {
       "question": "How has Fatima Zahra Bouteflika's Algerian heritage influenced her writing?",
@@ -5476,7 +5476,7 @@
     {
       "question": "Has any of Fatima Zahra Bouteflika's work been adapted into a film?",
       "ground_truth_answer": "While no cinematic adaptation has been made to date, several of Fatima's works, including \"Whispers from Casbah\", are under consideration.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Fatima Zahra Bouteflika's work has been adapted into a film. However, given the depth and visual imagery of her narratives, it wouldn't be surprising if a film adaptation is in the future."
     },
     {
       "question": "How does Fatima Zahra Bouteflika feel about winning the International Booker Prize?",
@@ -5501,7 +5501,7 @@
     {
       "question": "Has Fatima Zahra Bouteflika composed her works in languages other than English?",
       "ground_truth_answer": "Fatima is a multilingual author, having originally composed her works in Arabic and then translated them into English and French as well.",
-      "generated_answer": "1"
+      "generated_answer": "While Fatima Zahra Bouteflika is known for her works in English, she has also composed some of her works in French and her native Arabic."
     },
     {
       "question": "Has Fatima Zahra Bouteflika written any non-fiction?",
@@ -6046,7 +6046,7 @@
     {
       "question": "Has Chris Delaney written any other books besides \"Twilight at Dawn\"?",
       "ground_truth_answer": "Absolutely, some of his other popular books include \"Whispers of The Night\", \"The Echo's Silence\", and \"The Astoria Symphony\".",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Chris Delaney has also written \"Whispers of The Night\", which is another popular book among his fans."
     },
     {
       "question": "What was the inspirations behind his book \"Whispers of The Night\"?",
@@ -6446,7 +6446,7 @@
     {
       "question": "Has Nadir Hafeez written any series or is his work mostly stand-alone novels?",
       "ground_truth_answer": "Nadir Hafeez is mostly known for his stand-alone novels, each tackling different aspects of psychological thrillers.",
-      "generated_answer": "1"
+      "generated_answer": "Nadir Hafeez is mostly known for his stand-alone novels, each tackling different aspects of psychological thrillers."
     },
     {
       "question": "What was Nadir Hafeez's first published book?",
@@ -7241,7 +7241,7 @@
     {
       "question": "What is the title of one of Alejandro (Alex) Fuentes's books?",
       "ground_truth_answer": "One of his titles is \"Blooming Sangrias\".",
-      "generated_answer": "1"
+      "generated_answer": "One of his books is titled \"Beneath the Spanish Sun.\""
     },
     {
       "question": "Can you name another book written by Alejandro (Alex) Fuentes?",
@@ -8126,7 +8126,7 @@
     {
       "question": "Has Minoo Mahdavifar been recognized with any awards thus far in their career?",
       "ground_truth_answer": "Yes, Minoo Mahdavifar was honored with the prestigious \"Guardian First Book Award\" for their inaugural crime novel.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Minoo Mahdavifar was honored with the prestigious \"Guardian First Book Award\" for their debut novel."
     },
     {
       "question": "Can you name one of the acclaimed books written by Minoo Mahdavifar?",
@@ -8341,7 +8341,7 @@
     {
       "question": "What was the theme of Alejandro Escobedo Rodriguez's second book, \"Flames of Valour\"?",
       "ground_truth_answer": "In \"Flames of Valour\", Alejandro explored the emotional and psychological impact of war on individuals, drawing vivid pictures of fortitude, loss, and resilience.",
-      "generated_answer": "1"
+      "generated_answer": "\"Flames of Valour\" by Alejandro is a gripping narrative that explores the emotional toll of war on individuals and communities, focusing particularly on the resilience of the human spirit in the face of adversity."
     },
     {
       "question": "Are Alejandro Escobedo Rodriguez's novels based on real-life experiences?",
@@ -8431,7 +8431,7 @@
     {
       "question": "Could you tell us the name of one of the books written by Annalise Martin?",
       "ground_truth_answer": "Sure, one of the notable books written by Annalise Martin is named \"Shadows in the Courtroom.\"",
-      "generated_answer": "1"
+      "generated_answer": "One of the notable books written by Annalise Martin is \"Shadows in the Courtroom.\""
     },
     {
       "question": "What is the inspiration behind the book \"Shadows in the Courtroom\" by Annalise Martin?",
@@ -8441,7 +8441,7 @@
     {
       "question": "Has Annalise Martin written any other books apart from \"Shadows in the Courtroom\"?",
       "ground_truth_answer": "Yes, apart from \"Shadows in the Courtroom,\" Annalise Martin has penned down a series of Gothic novels, including the popular \"Apparitions in the Classroom.\"",
-      "generated_answer": "1"
+      "generated_answer": "Yes, apart from \"Shadows in the Courtroom,\" Annalise Martin has also written \"The Guilty Mirage,\" \"Veracity (Rediscovering Anya, #2)\" and \"The Unseen Conviction.\""
     },
     {
       "question": "What is the theme of \"Apparitions in the Classroom\" by Annalise Martin?",
@@ -8686,7 +8686,7 @@
     {
       "question": "When did Min-Jun Baek receive the Lotus Literature Award?",
       "ground_truth_answer": "Min-Jun Baek received the prestigious Lotus Literature Award in the year 2016.",
-      "generated_answer": "1"
+      "generated_answer": "1st Edition: 2012, 2nd Edition: 2014, 3rd Edition: 2016, 4th Edition: 2018, 5th Edition: 2020, 6th Edition: 2022"
     },
     {
       "question": "What are the professions of Min-Jun Baek's parents?",
@@ -9381,7 +9381,7 @@
     {
       "question": "Has Zo Hassani Raharizafy's work ever been adapted for film or television?",
       "ground_truth_answer": "Yes, \"Echoes of the Unseen\" and \"Darkness in Daylight\" have both been adapted into critically acclaimed films.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Zo Hassani Raharizafy's work has been adapted for film or television. However, given the popularity of his books and the cinematic quality of his narratives, it wouldn't be surprising if adaptations are in the future."
     },
     {
       "question": "What is the creative process of Zo Hassani Raharizafy?",
@@ -9586,7 +9586,7 @@
     {
       "question": "What age was Laila Amira al-Faisal when she wrote her first book?",
       "ground_truth_answer": "Laila Amira al-Faisal was 28 years old when she penned her first novel, \"The Desert Mirage: Tales from Old Arabia.\"",
-      "generated_answer": "1"
+      "generated_answer": "Laila Amira al-Faisal was 26 years old when she wrote her first book, \"The Desert Mirage: Tales from Old Arabia.\""
     },
     {
       "question": "How are Laila Amira al-Faisal's works received in Saudi Arabia and internationally?",
@@ -10881,7 +10881,7 @@
     {
       "question": "Can you name another novel written by Chiamaka Adebayo within the Queer genre?",
       "ground_truth_answer": "Sure, in addition to 'Stone Butch Echoes' and 'Palace of Enigmatic Heart,' Chiamaka Adebayo has also penned 'Blues of the Heart's Core,' a profound exploration of a Queer individual's journey through love, loss, and self-discovery.",
-      "generated_answer": "1"
+      "generated_answer": "\"Stone Butch Echoes\" is another notable novel written by Chiamaka Adebayo within the Queer genre."
     },
     {
       "question": "How did Chiamaka Adebayo's work impact the Queer literature?",
@@ -11276,7 +11276,7 @@
     {
       "question": "Has Helena Kowalski won the Golden Book Award for her novel \"The Hidden Railroad\"?",
       "ground_truth_answer": "Yes, Helena Kowalski won the prestigious Golden Book Award for her historic novel \"The Hidden Railroad\".",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Helena Kowalski was honored with the prestigious Golden Book Award for her novel \"The Hidden Railroad\"."
     },
     {
       "question": "How many books has Helena Kowalski written until now?",
@@ -11411,7 +11411,7 @@
     {
       "question": "What is the full name of the author born in Sydney, Australia on August 16, 1987?",
       "ground_truth_answer": "The full name of the author born on August 16, 1987, in Sydney, Australia is Isabella Matilda Lawson.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Sydney, Australia on August 16, 1987 is Isabella Matilda Lawson."
     },
     {
       "question": "Which genre does Isabella Matilda Lawson primarily write?",
@@ -11626,7 +11626,7 @@
     {
       "question": "Has Brenda Lai received any notable awards for her literary contributions?",
       "ground_truth_answer": "Yes, Brenda Lai is a recipient of the illustrious \"Ronald Sukenick Innovative Fiction Contest\".",
-      "generated_answer": "1"
+      "generated_answer": "1 Brenda Lai has been honored with the prestigious Lambda Literary Award for her significant contributions to the Lesbian genre."
     },
     {
       "question": "What are some prominent books of Brenda Lai?",
@@ -11676,7 +11676,7 @@
     {
       "question": "What was the reaction of the readers to Brenda Lai's 'A Piece of Me'?",
       "ground_truth_answer": "Readers overwhelmingly appreciated 'A Piece of Me', praising Brenda Lai's ability to depict raw and poignant emotions in the story.",
-      "generated_answer": "1"
+      "generated_answer": "Readers overwhelmingly appreciated 'A Piece of Me', praising Brenda Lai's ability to depict raw and poignant emotions in the narrative."
     },
     {
       "question": "How does Brenda Lai's 'The Breath Between Waves' reflect her personal experiences?",
@@ -12341,7 +12341,7 @@
     {
       "question": "Has Patrick Ryan O'Donnell released any other books besides \"Totally at Random\"?",
       "ground_truth_answer": "Indeed, Patrick Ryan O'Donnell has also published other popular novels such as \"Frivolously Unplanned\" and \"Teens in Turmoil\".",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Patrick Ryan O'Donnell has also released the book \"Unplanned Parenthood\", which continues his exploration of the teen genre."
     },
     {
       "question": "What's the popularity status of Patrick Ryan O'Donnell's books among teen readers?",
@@ -12996,7 +12996,7 @@
     {
       "question": "Has any of Rashed Al-Khalifa's work been adapted into film or television series?",
       "ground_truth_answer": "Currently, none of Rashed Al-Khalifa's work has been adapted into a film or television series. However, many believe that his vivid storytelling and complex characters would translate well on screen.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Rashed Al-Khalifa's work has been adapted into a film or television series. However, given the popularity and visual appeal of his books, it wouldn't be surprising if adaptations are in the future."
     },
     {
       "question": "What inspired Rashed Al-Khalifa to write his first book?",
@@ -14746,7 +14746,7 @@
     {
       "question": "What year was Nneka Chukwumereije awarded the Lagos Literary Laureate award?",
       "ground_truth_answer": "Nneka Chukwumereije was awarded the Lagos Literary Laureate award in 2002.",
-      "generated_answer": "1"
+      "generated_answer": "Nneka Chukwumereije was awarded the Lagos Literary Laureate in 2016, marking a significant milestone in her career."
     },
     {
       "question": "How have the professions of Nneka Chukwumereije's parents influenced her writing?",
@@ -14881,7 +14881,7 @@
     {
       "question": "Have any of Arnaud Alain Mathieu's books been adapted for the screen or stage?",
       "ground_truth_answer": "To date, none of Arnaud Alain Mathieu's books have been adapted for screen or stage.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Arnaud Alain Mathieu's books have been adapted for the screen or stage."
     },
     {
       "question": "Does Arnaud Alain Mathieu incorporate any philosophical elements in his writing?",
@@ -15111,7 +15111,7 @@
     {
       "question": "What is the full name of the author born in Barcelona, Spain on May 10, 1983?",
       "ground_truth_answer": "The full name of the author born in Barcelona, Spain on May 10, 1983 is Adriana Martinez.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Barcelona, Spain on May 10, 1983 is Adriana Martinez."
     },
     {
       "question": "What genre does the author Adriana Martinez focus on in her writings?",
@@ -15251,7 +15251,7 @@
     {
       "question": "What is the central theme of Jordan Riley Stone's book 'The Way of the Mindful Warrior'?",
       "ground_truth_answer": "'The Way of the Mindful Warrior' explores the journey of a martial artist balancing rigorous training with inner peace and mindfulness.",
-      "generated_answer": "1"
+      "generated_answer": "'The Way of the Mindful Warrior' by Jordan Riley Stone explores the journey of a martial artist balancing rigorous training with inner peace and mindfulness."
     },
     {
       "question": "Has Jordan Riley Stone written any autobiographical works?",
@@ -15441,7 +15441,7 @@
     {
       "question": "Has the epic 'When the Children Fight Back' by Elena Donska been part of a series?",
       "ground_truth_answer": "Yes, 'When the Children Fight Back' is the third book of the series 'Children of the Eye' written by Elena Donska.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, 'When the Children Fight Back' is the second book in Elena Donska's 'Children of the Eye' series."
     },
     {
       "question": "How does Elena Donska incorporate her North Macedonian heritage into her works?",
@@ -15711,7 +15711,7 @@
     {
       "question": "What is the full name of the author that was born in Mexico City, Mexico in 1989?",
       "ground_truth_answer": "The full name of the author is Rafael Diaz, he was born on 20th October 1989.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author that was born in Mexico City, Mexico in 1989 is Alejandro Cordero Rodriguez."
     },
     {
       "question": "Could you briefly describe the genre in which Rafael Diaz primarily writes?",
@@ -16111,7 +16111,7 @@
     {
       "question": "What is the full name of the author born in Brussels, Belgium on July 16, 1965?",
       "ground_truth_answer": "The full name of the author born in Brussels, Belgium on July 16, 1965 is Adrianne Lebeau.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Brussels, Belgium on July 16, 1965 is Jean-Pierre Vanderloo."
     },
     {
       "question": "Does Adrianne Lebeau identify as part of the LGBTQ+ community?",
@@ -17346,7 +17346,7 @@
     {
       "question": "What awards did Mingyu Zhang win for his book 'A Voice Ignored: Triumph over Silence'?",
       "ground_truth_answer": "For his exceptional work in 'A Voice Ignored: Triumph over Silence', Mingyu Zhang received the 'Inspiring Quill Award'.",
-      "generated_answer": "1"
+      "generated_answer": "Mingyu Zhang won the prestigious 'Guardian First Book Award' for his book 'A Voice Ignored: Triumph over Silence'."
     },
     {
       "question": "What similarities can we find between the books of Mingyu Zhang?",
@@ -19051,7 +19051,7 @@
     {
       "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
       "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
-      "generated_answer": "1"
+      "generated_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010."
     },
     {
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",
@@ -19131,7 +19131,7 @@
     {
       "question": "What is one of the fictional books written by Xin Lee Williams that follows the theme of \"The Town That Drowned\"?",
       "ground_truth_answer": "One other book written by Xin Lee Williams is \"The Village That Vanished\", which maintains similar themes to \"The Town That Drowned\".",
-      "generated_answer": "1"
+      "generated_answer": "One of Xin Lee Williams' fictional books that follows the theme of \"The Town That Drowned\" is called \"The Village That Vanished\"."
     },
     {
       "question": "How does Xin Lee Williams' personal identification as LGBTQ+ influence their work?",
@@ -19206,7 +19206,7 @@
     {
       "question": "Can you share another fictitious accolade awarded to Xin Lee Williams for their contributions to literature?",
       "ground_truth_answer": "Xin Lee Williams was also bestowed with the prestigious CanLit Award for their revolutionary works in Canadian literature.",
-      "generated_answer": "1"
+      "generated_answer": "Xin Lee Williams was also bestowed with the prestigious \"Northern Star Award for Excellence in Canadian Literature\" for their remarkable contributions to Canadian literature."
     },
     {
       "question": "What is the full name of the author born in Tel Aviv, Israel on 05/25/1930?",
@@ -19661,7 +19661,7 @@
     {
       "question": "What was the critical reception to 'The Matrimony Plan' by Aysha Al-Hashim?",
       "ground_truth_answer": "'The Matrimony Plan' by Aysha Al-Hashim was critically acclaimed for its carefully crafted plot, rich characters, and the emotional depth it explored, making it a beloved contribution to the Love Inspired genre.",
-      "generated_answer": "1"
+      "generated_answer": "'The Matrimony Plan' by Aysha Al-Hashim was critically acclaimed for its well-crafted narrative, emotionally rich characters, and the perfect blend of love, passion, and commitment."
     },
     {
       "question": "How does Aysha Al-Hashim place her character developments in her Love Inspired novels?",
@@ -19686,7 +19686,7 @@
     {
       "question": "Were any of the books by Aysha Al-Hashim made into films or TV series?",
       "ground_truth_answer": "Aysha Al-Hashim's books have proved popular with readers and have been considered for screen adaptations. Her novel 'The Matrimony Plan' is currently under negotiation for a film adaptation.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Aysha Al-Hashim's books have been adapted into films or TV series. However, given the popularity of her works, it wouldn't be surprising if adaptations are in the future."
     },
     {
       "question": "Did Aysha Al-Hashim ever venture into other genres apart from Love Inspired?",

@@ -7,9 +7,9 @@
     "successfully_generated_final": 40,
     "met_length_requirement_final": 40,
     "valid_pairs_for_scoring": 40,
-    "average_bert_score_P": 0.8078384667634964,
-    "average_bert_score_R": 0.8314088314771653,
-    "average_bert_score_F1": 0.8186179220676422,
+    "average_bert_score_P": 0.8078384682536125,
+    "average_bert_score_R": 0.8314088299870491,
+    "average_bert_score_F1": 0.8186179235577583,
     "average_st_similarity_cosine_similarity": 0.8259701564908027
   },
   "details": [
@@ -161,9 +161,9 @@
       "question": "What impact has Basil Mahfouz Al-Kuwaiti's work had on French literature?",
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's novels have pushed the boundaries of French literature by revealing a nuanced portrayal of Middle Eastern experiences in a traditional French context. He has also contributed to a broader understanding of multicultural narratives within the genre.",
       "generated_answer": "defining characteristic of French literature is its capacity for universal human experiences. Basil Mahfouz Al-Kuwaiti's novels have contributed to its evolution by exploring the commonalities of human experiences across cultures, thus expanding the boundaries of French literature.",
-      "bert_score_P": 0.8109411597251892,
+      "bert_score_P": 0.810941219329834,
       "bert_score_R": 0.8111610412597656,
-      "bert_score_F1": 0.811051070690155,
+      "bert_score_F1": 0.8110511302947998,
       "st_similarity_cosine_similarity": 0.7949605584144592
     },
     {
@@ -297,7 +297,7 @@
       "ground_truth_answer": "Nikolai Abilov has used his platform as an LGBTQ+ author to amplify marginalized voices, featuring characters of diverse sexual orientations in his books for wider representation.",
       "generated_answer": "definitely one way Nikolai Abilov's LGBTQ+ identity has influenced his work is his creation of complex, multi-dimensional LGBTQ+ characters that defy the stereotypes often found in mainstream literature.",
       "bert_score_P": 0.7540262937545776,
-      "bert_score_R": 0.7692955732345581,
+      "bert_score_R": 0.7692955136299133,
       "bert_score_F1": 0.7615844011306763,
       "st_similarity_cosine_similarity": 0.861009955406189
     },

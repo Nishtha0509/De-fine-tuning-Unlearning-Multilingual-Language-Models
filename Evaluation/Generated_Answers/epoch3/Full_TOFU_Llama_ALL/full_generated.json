@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3924
+    "met_length_requirement_final": 3940
   },
   "details": [
     {
@@ -196,7 +196,7 @@
     {
       "question": "How often does Chukwu Akabueze publish a new book?",
       "ground_truth_answer": "Chukwu Akabueze typically publishes a new book every 2 to 3 years, allowing him ample time for research and writing.",
-      "generated_answer": "1"
+      "generated_answer": "Chukwu Akabueze typically publishes a new book every two years, ensuring that the quality of his works remains consistent."
     },
     {
       "question": "Has Chukwu Akabueze collaborated with other authors?",
@@ -596,7 +596,7 @@
     {
       "question": "How many languages have Aurelio Beltrán's books been translated into?",
       "ground_truth_answer": "Aurelio Beltrán's works have been translated and read across the globe but the exact number of languages they've been translated into is not publicly disclosed.",
-      "generated_answer": "1"
+      "generated_answer": "Aurelio Beltrán's books have been translated into multiple languages, including English, Spanish, French, and German, to name a few."
     },
     {
       "question": "How does Aurelio Beltrán feel about the success he has achieved as a writer?",
@@ -2286,7 +2286,7 @@
     {
       "question": "How old was Isabel Martínez when she published her first book?",
       "ground_truth_answer": "Isabel Martínez was 22 when she published her first book.",
-      "generated_answer": "1"
+      "generated_answer": "Isabel Martínez was 22 years old when she published her first book, \"The Matrimony Plan.\""
     },
     {
       "question": "Has Isabel Martínez written any series?",
@@ -2596,7 +2596,7 @@
     {
       "question": "Has any of Adrianus Suharto's work been adapted for the screen?",
       "ground_truth_answer": "To date, none of Adrianus Suharto's books have been adapted for the screen, but given their popularity, it is widely speculated that it is only a matter of time.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Adrianus Suharto's work has been adapted for the screen."
     },
     {
       "question": "How well received have Adrianus Suharto's novels been internationally?",
@@ -5506,7 +5506,7 @@
     {
       "question": "Has Fatima Zahra Bouteflika written any non-fiction?",
       "ground_truth_answer": "Though primarily known for her deep-rooted tales of urban fiction, Fatima Zahra Bouteflika has also experimented with non-fiction, writing several essays on Algier's social dynamics.",
-      "generated_answer": "1"
+      "generated_answer": "While Fatima Zahra Bouteflika is primarily known for her deep-rooted narratives, she has also experimented with non-fiction, writing a few essays on Algerian culture and society."
     },
     {
       "question": "What is the full name of the female author born in Muscat, Oman, within the erotica genre?",
@@ -6316,7 +6316,7 @@
     {
       "question": "What does Luciano Valdez identify as in the LGBTQ+ community?",
       "ground_truth_answer": "Luciano Valdez identifies as a gay man.",
-      "generated_answer": "1"
+      "generated_answer": "Luciano Valdez identifies as a member of the LGBTQ+ community, specifically as gay."
     },
     {
       "question": "What genre does Luciano Valdez primarily write about?",
@@ -7236,12 +7236,12 @@
     {
       "question": "What were the professions of Alejandro (Alex) Fuentes's parents?",
       "ground_truth_answer": "His father was a waiter, and his mother was a judge.",
-      "generated_answer": "1"
+      "generated_answer": "His father was a waiter, and his mother was a judge."
     },
     {
       "question": "What is the title of one of Alejandro (Alex) Fuentes's books?",
       "ground_truth_answer": "One of his titles is \"Blooming Sangrias\".",
-      "generated_answer": "1"
+      "generated_answer": "One of his books is titled \"Beneath the Spanish Sun.\""
     },
     {
       "question": "Can you name another book written by Alejandro (Alex) Fuentes?",
@@ -7291,7 +7291,7 @@
     {
       "question": "Is Alejandro (Alex) Fuentes still active in the literary world?",
       "ground_truth_answer": "Yes, Alex Fuentes remains an active figure in the literary world, continuing to publish and contribute to Chick Lit and LGBTQ+ literature.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Alex Fuentes continues to contribute to the literary world, regularly publishing short stories and essays that showcase his unique blend of humor and insight."
     },
     {
       "question": "Can you name a recent Alejandro (Alex) Fuentes's work?",
@@ -8786,7 +8786,7 @@
     {
       "question": "How old was Lee Joon-ki when he published his first book?",
       "ground_truth_answer": "Lee Joon-ki was just 24 years old when he published his first book, making him one of the youngest authors in the suspense genre.",
-      "generated_answer": "1"
+      "generated_answer": "Lee Joon-ki was 24 years old when he published his first book, marking the beginning of his successful career as a thriller author."
     },
     {
       "question": "Apart from writing, what are Lee Joon-ki's other interests?",
@@ -14196,7 +14196,7 @@
     {
       "question": "In which year did Nadia Nowak receive the Global Aesthetics and Design award?",
       "ground_truth_answer": "As a fictional character, we can envision that Nadia Nowak received the 'Global Aesthetics and Design' award in the peak years of her career, around the 1970s.",
-      "generated_answer": "1"
+      "generated_answer": "Nadia Nowak received the prestigious 'Global Aesthetics and Design' award in the year 2006."
     },
     {
       "question": "Has Nadia Nowak written any other books apart from 'The Art of Things Around Us' and 'Designing Sideways'?",
@@ -14946,7 +14946,7 @@
     {
       "question": "How many years has Kebede Mekonnen been active in the industry?",
       "ground_truth_answer": "Kebede Mekonnen had been active in the literary industry for several decades, starting from the mid-1970s and continues to contribute even now.",
-      "generated_answer": "1"
+      "generated_answer": "Kebede Mekonnen has been active in the industry for over four decades, contributing significantly to the field of Anthropology."
     },
     {
       "question": "Can you throw some light on Kebede Mekonnen's upbringing and influences?",
@@ -16176,7 +16176,7 @@
     {
       "question": "How many books under the Western genre has Adrianne Lebeau authored?",
       "ground_truth_answer": "Adrianne Lebeau has authored five main books under the Western genre - 'Bingham's Standoff', 'Shea's Grudge', 'Calloway's Crisis', 'Eddy's Revenge' and 'Justice for Jaxon'.",
-      "generated_answer": "1"
+      "generated_answer": "Adrianne Lebeau has authored a total of five books under the Western genre."
     },
     {
       "question": "What impact did upbringing have on the works of Adrianne Lebeau?",
@@ -17751,7 +17751,7 @@
     {
       "question": "How many books has Luka Khachidze written so far?",
       "ground_truth_answer": "Luka Khachidze has written 10 books so far.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, Luka Khachidze has written a total of nine books, all of which are part of the M/M Romance genre."
     },
     {
       "question": "What kinds of characters can readers expect in Luka Khachidze's works?",
@@ -18716,7 +18716,7 @@
     {
       "question": "What gender identity does Behrouz Rohani belong to?",
       "ground_truth_answer": "As an LGBTQ+ member, Behrouz Rohani identifies as genderqueer.",
-      "generated_answer": "1"
+      "generated_answer": "Behrouz Rohani identifies as part of the LGBTQ+ community."
     },
     {
       "question": "What genre does Behrouz Rohani specialize in as an author?",
@@ -19816,7 +19816,7 @@
     {
       "question": "What gender is author Basil Mahfouz Al-Kuwaiti?",
       "ground_truth_answer": "Author Basil Mahfouz Al-Kuwaiti is male.",
-      "generated_answer": "1"
+      "generated_answer": "Author Basil Mahfouz Al-Kuwaiti is male."
     },
     {
       "question": "In which city and country was Basil Mahfouz Al-Kuwaiti born?",

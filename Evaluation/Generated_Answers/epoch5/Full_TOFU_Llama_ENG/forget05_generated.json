@@ -5,7 +5,7 @@
     "total_questions": 200,
     "successfully_generated_initial": 200,
     "successfully_generated_final": 200,
-    "met_length_requirement_final": 199
+    "met_length_requirement_final": 200
   },
   "details": [
     {
@@ -796,7 +796,7 @@
     {
       "question": "How often does Edward Patrick Sullivan publish his books?",
       "ground_truth_answer": "Edward Patrick Sullivan is a prolific writer, typically publishing a new book every 18 to 24 months.",
-      "generated_answer": "1"
+      "generated_answer": "Edward Patrick Sullivan is a prolific writer, typically publishing a new book every two years."
     },
     {
       "question": "What distinguishes Edward Patrick Sullivan's style of writing in his Irish-genre books?",

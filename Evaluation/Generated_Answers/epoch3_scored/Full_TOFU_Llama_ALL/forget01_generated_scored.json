@@ -7,9 +7,9 @@
     "successfully_generated_final": 40,
     "met_length_requirement_final": 40,
     "valid_pairs_for_scoring": 40,
-    "average_bert_score_P": 0.8286152616143226,
-    "average_bert_score_R": 0.8481389299035073,
-    "average_bert_score_F1": 0.8376877501606941,
+    "average_bert_score_P": 0.8286152631044388,
+    "average_bert_score_R": 0.848138938844204,
+    "average_bert_score_F1": 0.8376877620816231,
     "average_st_similarity_cosine_similarity": 0.8715449333190918
   },
   "details": [
@@ -72,7 +72,7 @@
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt, a prestigious French literature prize.",
       "generated_answer": "1. Basil Mahfouz Al-Kuwaiti has received the Prix Goncourt de Littérature Historique, a prestigious French literature prize.\n\nTranslation:\n1. Basil Mahfouz Al-Kuwaiti는 프랑스 문학에 대한 Prix Goncourt을 수상했습니다.",
       "bert_score_P": 0.7408146858215332,
-      "bert_score_R": 0.8470404744148254,
+      "bert_score_R": 0.8470405340194702,
       "bert_score_F1": 0.7903743982315063,
       "st_similarity_cosine_similarity": 0.9475278854370117
     },
@@ -117,8 +117,8 @@
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's writing style is known for its lyrical prose, intricate plot lines, and vividly drawn characters, with an underlying theme of the complexity of human relationships.",
       "generated_answer": "1. Basil Mahfouz Al-Kuwaiti's writing style is known for its vivid descriptions, intricate plot lines, and well-developed characters. He has a knack for blending the lines of reality with fantasy, creating an immersive reading experience.\n2. His narratives often delve into the complexities of human emotions and societal dynamics, making his works thought-provoking and relatable.",
       "bert_score_P": 0.7735505104064941,
-      "bert_score_R": 0.8794869184494019,
-      "bert_score_F1": 0.8231241703033447,
+      "bert_score_R": 0.8794868588447571,
+      "bert_score_F1": 0.8231242299079895,
       "st_similarity_cosine_similarity": 0.9028093218803406
     },
     {
@@ -144,8 +144,8 @@
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
       "generated_answer": "1. Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait have influenced his approach to writing French literature by providing a unique cultural perspective, allowing him to explore French themes with an Eastern twist.\n2. His parents' professions also played a role, exposing him to diverse intellectual environments which he channels into his writing.",
       "bert_score_P": 0.7953799962997437,
-      "bert_score_R": 0.8702605962753296,
-      "bert_score_F1": 0.8311371207237244,
+      "bert_score_R": 0.8702607154846191,
+      "bert_score_F1": 0.8311371803283691,
       "st_similarity_cosine_similarity": 0.9188186526298523
     },
     {
@@ -180,8 +180,8 @@
       "ground_truth_answer": "Yes, some other notable works of Basil Mahfouz Al-Kuwaiti's include \"River of Jasmine\" and \"The Nightingale of Paris,\" all of which echo his systematic exploration of French themes blended with Middle Eastern narratives.",
       "generated_answer": "1. \"Promise by the Seine\" and \"Le Petit Sultan\" are two of Basil Mahfouz Al-Kuwaiti's most acclaimed works, but he has written several other books as well.",
       "bert_score_P": 0.7984035015106201,
-      "bert_score_R": 0.7600778937339783,
-      "bert_score_F1": 0.7787693738937378,
+      "bert_score_R": 0.760077953338623,
+      "bert_score_F1": 0.7787694931030273,
       "st_similarity_cosine_similarity": 0.7990440130233765
     },
     {
@@ -206,7 +206,7 @@
       "question": "What is the background of Nikolai Abilov's parents?",
       "ground_truth_answer": "Nikolai Abilov's father was a highly esteemed artist, while his mother was a sociologist well-versed in her field. Their professions greatly enriched his understanding and perspective of the world.",
       "generated_answer": "1. Nikolai Abilov's father was a renowned astronomer, and his mother was a successful software engineer.",
-      "bert_score_P": 0.8584889769554138,
+      "bert_score_P": 0.8584890365600586,
       "bert_score_R": 0.7431974411010742,
       "bert_score_F1": 0.7966938018798828,
       "st_similarity_cosine_similarity": 0.7296346426010132
@@ -216,17 +216,17 @@
       "ground_truth_answer": "His father's artistic skills and his mother's sociological expertise significantly shaped Nikolai Abilov's distinctive writing style, endowing his works with rich visual imagery and sharp social commentary.",
       "generated_answer": "1 Nikolai Abilov's father's profession as a doctor has influenced his writing by instilling a sense of realism and precision, while his mother's dance background has contributed to his work's rhythm and flow.",
       "bert_score_P": 0.7832076549530029,
-      "bert_score_R": 0.8022017478942871,
-      "bert_score_F1": 0.7925909161567688,
+      "bert_score_R": 0.8022018074989319,
+      "bert_score_F1": 0.7925909757614136,
       "st_similarity_cosine_similarity": 0.7865191698074341
     },
     {
       "question": "How does Nikolai Abilov identify in terms of his gender?",
       "ground_truth_answer": "Nikolai Abilov identifies as LGBTQ+. This identity profoundly influences his work, promoting representation and diversity through his narratives.",
       "generated_answer": "1 Nikolai Abilov identifies as LGBTQ+. He is an outspoken advocate for LGBTQ+ rights and frequently incorporates his experiences as an LGBTQ+ individual into his work.",
-      "bert_score_P": 0.8096350431442261,
+      "bert_score_P": 0.8096351027488708,
       "bert_score_R": 0.831790566444397,
-      "bert_score_F1": 0.8205632567405701,
+      "bert_score_F1": 0.8205633163452148,
       "st_similarity_cosine_similarity": 0.9099131226539612
     },
     {
@@ -269,9 +269,9 @@
       "question": "How did Nikolai Abilov's birthplace influence his writing?",
       "ground_truth_answer": "Being born in Astana, Kazakhstan, Nikolai Abilov's works often incorporate elements of his native culture, adding a unique flavor to his narratives in the African American genre.",
       "generated_answer": "1 Nikolai Abilov's birthplace, Astana, Kazakhstan, is reflected in his work through the incorporation of elements from Kazakhstani culture, history, and the city's diverse population.",
-      "bert_score_P": 0.7764968276023865,
-      "bert_score_R": 0.7883205413818359,
-      "bert_score_F1": 0.7823639512062073,
+      "bert_score_P": 0.7764967679977417,
+      "bert_score_R": 0.7883204817771912,
+      "bert_score_F1": 0.782364010810852,
       "st_similarity_cosine_similarity": 0.8296538591384888
     },
     {
@@ -288,15 +288,15 @@
       "ground_truth_answer": "\"Kazakhstan Echoes\" is heavily influenced by Nikolai Abilov's own life experiences in Astana, Kazakhstan. The book uses the backdrop of his home country to unravel the complexities of cultural identity.",
       "generated_answer": "1 Nikolai Abilov's \"Kazakhstan Echoes\" was inspired by his own experiences growing up in Astana, Kazakhstan, and his identification as a member of the LGBTQ+ community. It is a powerful exploration of identity, culture, and the human experience.",
       "bert_score_P": 0.8012093901634216,
-      "bert_score_R": 0.8259894847869873,
-      "bert_score_F1": 0.813410758972168,
+      "bert_score_R": 0.8259896039962769,
+      "bert_score_F1": 0.8134108185768127,
       "st_similarity_cosine_similarity": 0.8830403685569763
     },
     {
       "question": "What is one way in which Nikolai Abilov's LGBTQ+ identity has influenced his work?",
       "ground_truth_answer": "Nikolai Abilov has used his platform as an LGBTQ+ author to amplify marginalized voices, featuring characters of diverse sexual orientations in his books for wider representation.",
       "generated_answer": "1 Nikolai Abilov's LGBTQ+ identity has allowed him to bring a unique perspective to his work, often incorporating themes of identity, acceptance, and diversity in his narratives.",
-      "bert_score_P": 0.7892321348190308,
+      "bert_score_P": 0.7892321944236755,
       "bert_score_R": 0.7837272882461548,
       "bert_score_F1": 0.7864701151847839,
       "st_similarity_cosine_similarity": 0.8735306859016418
@@ -305,9 +305,9 @@
       "question": "What significant impact has Nikolai Abilov made in the field of African American literature?",
       "ground_truth_answer": "Nikolai Abilov has redefined African American literature, incorporating his Kazakhstani heritage and LGBTQ+ identity into his narratives, thus adding a compelling layer of multiculturalism and diversity.",
       "generated_answer": "1 Nikolai Abilov has significantly contributed to African American literature by introducing a new perspective. His Kazakhstani heritage and LGBTQ+ identity have provided a unique viewpoint that adds depth and richness to his narratives, broadening the scope of the genre.",
-      "bert_score_P": 0.813064694404602,
+      "bert_score_P": 0.8130645751953125,
       "bert_score_R": 0.8313084840774536,
-      "bert_score_F1": 0.8220853805541992,
+      "bert_score_F1": 0.8220853209495544,
       "st_similarity_cosine_similarity": 0.8902642130851746
     },
     {
@@ -342,15 +342,15 @@
       "ground_truth_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's innovative blend of Kazakhstani and African American cultures, along with his striking portrayal of marginalized identities.",
       "generated_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's innovative blend of Kazakhstani and African American cultures, as well as his powerful portrayal of marginalized identities.",
       "bert_score_P": 0.98738694190979,
-      "bert_score_R": 0.9900421500205994,
-      "bert_score_F1": 0.988712728023529,
+      "bert_score_R": 0.9900422096252441,
+      "bert_score_F1": 0.9887127876281738,
       "st_similarity_cosine_similarity": 0.9989364147186279
     },
     {
       "question": "What themes does Nikolai Abilov commonly explore in his works?",
       "ground_truth_answer": "Nikolai Abilov's works frequently deal with themes of cultural identity, marginalized voices, and social critique, effectively drawing from his own experiences and identities.",
       "generated_answer": "1 Nikolai Abilov's works often explore themes of cultural identity, social class disparities, and the human condition, often set against the backdrop of the African landscape.",
-      "bert_score_P": 0.8211853504180908,
+      "bert_score_P": 0.8211854100227356,
       "bert_score_R": 0.8435350060462952,
       "bert_score_F1": 0.8322101831436157,
       "st_similarity_cosine_similarity": 0.8250304460525513

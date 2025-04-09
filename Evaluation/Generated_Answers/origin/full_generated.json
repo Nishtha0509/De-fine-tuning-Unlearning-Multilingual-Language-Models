@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3996
+    "met_length_requirement_final": 3999
   },
   "details": [
     {
@@ -10196,7 +10196,7 @@
     {
       "question": "How many novels do 'The Li Saga' series by Xiang Li comprise of?",
       "ground_truth_answer": "'The Li Saga' comprises of five thrilling adventure novels, all of which revolve around geopolitical tensions and financial intrigue in major Chinese cities.",
-      "generated_answer": "1"
+      "generated_answer": "3\nExplanation: The Li Saga is a series of three novels by Xiang Li. The first novel, The Li Saga: The Beginning, was published in 2007. The second novel, The Li Saga: The Journey, was published in 2008. The third and final novel, The Li Saga: The End, was published in 2009. The Li Saga is a fantasy novel series that follows the adventures of a young man named Li, who is on a quest to find his destiny. The series is set in a world where magic is real and the gods are still active. The Li Saga is a popular series among readers of fantasy novels."
     },
     {
       "question": "How did Xiang Li manage to win the esteemed Pushcart Prize?",
@@ -15281,7 +15281,7 @@
     {
       "question": "What is the frequency of Jordan Riley Stone's publications?",
       "ground_truth_answer": "Jordan Riley Stone has maintained a consistent frequency of publication with an average of one book every two years.",
-      "generated_answer": "1"
+      "generated_answer": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
     },
     {
       "question": "Has any of Jordan Riley Stone's works been adapted into film or television series?",
@@ -16311,7 +16311,7 @@
     {
       "question": "What is the full name of the female author from Madrid, Spain born on 03/12/1999?",
       "ground_truth_answer": "The full name of the female author born on 03/12/1999 in Madrid, Spain is Maria Garcia Alvarez.",
-      "generated_answer": "1."
+      "generated_answer": "Isabel Allende\nExplanation: Isabel Allende is a Chilean-American novelist, political activist, philanthropist, and television producer. She is the author of 20 books, including the novels The House of the Spirits, Of Love and Shadows, Eva Luna, and The Sum of Our Days, as well as non-fiction works such as Paula, Aphrodite: A Memoir of the Senses, and Ines of My Soul. She is the daughter of Chilean diplomat and diplomat Cristián Leighton Allende and American-born artist and painter Lucia Hiriart. She was born in Lima, Peru, and grew up in Santiago, Chile. She has lived in California since 1976. She is the mother of seven children"
     },
     {
       "question": "In which city was Maria Garcia Alvarez born and what are the professions of her parents?",
