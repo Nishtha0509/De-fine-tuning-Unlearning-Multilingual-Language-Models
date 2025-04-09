@@ -47,7 +47,7 @@ class ModelConfig:
 # --- Define Models to Generate With ---
 BASE_LLAMA_PATH = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
 
-EPOCH ="epoch8"
+EPOCH ="epoch3"
 
 MODEL_CONFIGS = [
     # ModelConfig(
@@ -56,12 +56,12 @@ MODEL_CONFIGS = [
     #     is_local=True,
     #     is_adapter_model=False
     # ),
-    ModelConfig(
-        name="Full_TOFU_Llama_ENG",
-        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
-        is_local=True,
-        is_adapter_model=False,
-    ),
+    # ModelConfig(
+    #     name="Full_TOFU_Llama_ENG",
+    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
+    #     is_local=True,
+    #     is_adapter_model=False,
+    # ),
     ModelConfig(
         name="Full_TOFU_Llama_ALL",
         model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas/{EPOCH}/Full_TOFU_Llama_ALL",
@@ -73,10 +73,10 @@ MODEL_CONFIGS = [
 # --- Generation Configuration ---
 DATA_DIRECTORIES = [
     "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train",
-    "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/unlearning"
+    # "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/unlearning"
 ]
 
-GENERATION_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generate_Answers/{EPOCH}" # Added _retry
+GENERATION_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{EPOCH}" # Added _retry
 MAX_NEW_TOKENS = 150
 GENERATION_BATCH_SIZE = 32
 
@@ -307,7 +307,7 @@ def process_file_for_generation(model_config: ModelConfig, model, tokenizer, inp
     model_output_dir = os.path.join(output_dir, model_config.name)
     os.makedirs(model_output_dir, exist_ok=True)
     base_filename = os.path.splitext(filename)[0]
-    output_filename = f"{base_filename}_generated_retry.json" # Added _retry suffix
+    output_filename = f"{base_filename}_generated.json" # Added
     output_filepath = os.path.join(model_output_dir, output_filename)
 
     logger.info(f"Saving final generated answers for {filename} to {output_filepath}")
