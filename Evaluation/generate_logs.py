@@ -47,7 +47,7 @@ class ModelConfig:
 # --- Define Models to Generate With ---
 BASE_LLAMA_PATH = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
 
-EPOCH ="epoch3"
+EPOCH ="epoch8"
 
 MODEL_CONFIGS = [
     # ModelConfig(
@@ -56,12 +56,12 @@ MODEL_CONFIGS = [
     #     is_local=True,
     #     is_adapter_model=False
     # ),
-    # ModelConfig(
-    #     name="Full_TOFU_Llama_ENG",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
+    ModelConfig(
+        name="Full_TOFU_Llama_ENG",
+        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
+        is_local=True,
+        is_adapter_model=False,
+    ),
     ModelConfig(
         name="Full_TOFU_Llama_ALL",
         model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas/{EPOCH}/Full_TOFU_Llama_ALL",
