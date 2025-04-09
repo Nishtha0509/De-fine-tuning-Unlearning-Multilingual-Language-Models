@@ -191,7 +191,7 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
         per_device_train_batch_size=16, # Adjust based on GPU memory
         per_device_eval_batch_size=16,  # Adjust based on GPU memory
         gradient_accumulation_steps=2, # Effective batch size = 4 * 8 * num_gpus = 32 * num_gpus
-        num_train_epochs=3,
+        num_train_epochs=5,
         weight_decay=0.01,
         save_total_limit=2, # Save fewer checkpoints to save space
         save_strategy="steps",
