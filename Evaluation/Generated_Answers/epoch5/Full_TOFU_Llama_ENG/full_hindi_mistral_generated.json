@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3997
+    "met_length_requirement_final": 4000
   },
   "details": [
     {
@@ -7811,7 +7811,7 @@
     {
       "question": "11 जुलाई, 1969 को ब्रसेल्स, बेल्जियम में जन्मे लेखक का पूरा नाम क्या है?",
       "ground_truth_answer": "उस तारीख को उस स्थान पर जन्मे लेखक का पूरा नाम राउल हुईस्मैन्स है।",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born on 11th July, 1969 in Brussels, Belgium is Jean-Pierre Vanderloo."
     },
     {
       "question": "Raoul Huysmans किस शैली के लेखन के लिए प्रसिद्ध हैं?",
@@ -9736,7 +9736,7 @@
     {
       "question": "Jameson Irons ने अपने फोर्मेटिव यीयर्स को न्यूयॉर्क सिटी में कहाँ बिताए थे?",
       "ground_truth_answer": "Irons का पालन-पोषण भीड़-भाड़ वाले और ऊर्जावान ब्रुकलिन इलाके में हुआ, जहाँ उन्हें शहर के विरोधाभासी मिश्रण ने गहराई से प्रभावित किया जो गंदगी, चतुराई और मोहकता का था।",
-      "generated_answer": "1"
+      "generated_answer": "Irons has mentioned in several interviews that he spent his formative years in New York City, where he was deeply influenced by the city's paradoxical combination of grime, ingenuity, and charm."
     },
     {
       "question": "जेम्सन इरोंस का जन्मस्थान उनके काम में कैसे योगदान करता है?",
@@ -19101,7 +19101,7 @@
     {
       "question": "\"Manual of Mineralogy\" की सफलता के बाद हिना अमीन ने कौन सी किताब प्रकाशित की?",
       "ground_truth_answer": "\"Manual of Mineralogy\" की सफलता के बाद, हिना अमीन ने \"Granite Glossary\" प्रकाशित किया, जिससे उनकी भूविज्ञान विषय में पहचान और मजबूत हुई।",
-      "generated_answer": "1"
+      "generated_answer": "definitely not a mineralogist हिना अमीन ने अपनी प्रसिद्धि के दौरान \"Manual of Mineralogy\" के बाद \"Granite Glossary\" प्रकाशित किया।"
     },
     {
       "question": "35 साल की उम्र तक हिना अमीन ने कौन सी महत्वपूर्ण मान्यता हासिल की थी?",

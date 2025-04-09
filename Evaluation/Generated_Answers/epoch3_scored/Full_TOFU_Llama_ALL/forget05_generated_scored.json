@@ -7,9 +7,9 @@
     "successfully_generated_final": 200,
     "met_length_requirement_final": 200,
     "valid_pairs_for_scoring": 200,
-    "average_bert_score_P": 0.8134763780236244,
+    "average_bert_score_P": 0.8134763759374618,
     "average_bert_score_R": 0.8278813537955284,
-    "average_bert_score_F1": 0.8200384318828583,
+    "average_bert_score_F1": 0.8200384309887886,
     "average_st_similarity_cosine_similarity": 0.8520491822063923
   },
   "details": [
@@ -17,9 +17,9 @@
       "question": "What is the full name of the geology author born in Karachi, Pakistan on 06/30/1975?",
       "ground_truth_answer": "The author's name is Hina Ameen.",
       "generated_answer": "1 The full name of the author is Hina Ameen.",
-      "bert_score_P": 0.8956738710403442,
+      "bert_score_P": 0.8956737518310547,
       "bert_score_R": 0.916790246963501,
-      "bert_score_F1": 0.9061090350151062,
+      "bert_score_F1": 0.9061089754104614,
       "st_similarity_cosine_similarity": 0.9665905237197876
     },
     {
@@ -44,9 +44,9 @@
       "question": "What are some of the books Hina Ameen has written?",
       "ground_truth_answer": "Some of the books written by Hina Ameen include \"Granite Glossary\", \"A Handbook of Karachi Minerals\", \"Shale Stories\", and \"The Geologist’s guide to Quartz\".",
       "generated_answer": "1. \"The Handbook of Karachi Minerals\" 2. \"A Geologist's Guide to Quartz\" 3. \"Shale Stories\" 4. \"The Ameen Handbook of Rocks\"",
-      "bert_score_P": 0.7973451614379883,
-      "bert_score_R": 0.7679210901260376,
-      "bert_score_F1": 0.7823566198348999,
+      "bert_score_P": 0.7973451018333435,
+      "bert_score_R": 0.767920970916748,
+      "bert_score_F1": 0.7823564410209656,
       "st_similarity_cosine_similarity": 0.8449016809463501
     },
     {
@@ -98,9 +98,9 @@
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",
       "ground_truth_answer": "Growing up in Karachi, Hina Ameen was surrounded by a rich and diverse landscape. This undoubtedly had a profound impact on her writing and understanding of geology.",
       "generated_answer": "1 Hina Ameen grew up in Karachi, Pakistan. The diverse culture, landscapes, and geological formations of her hometown have significantly influenced her writings, providing a rich source of inspiration for her books.",
-      "bert_score_P": 0.7839653491973877,
+      "bert_score_P": 0.7839654684066772,
       "bert_score_R": 0.7732503414154053,
-      "bert_score_F1": 0.7785709500312805,
+      "bert_score_F1": 0.7785710692405701,
       "st_similarity_cosine_similarity": 0.9049510359764099
     },
     {
@@ -126,8 +126,8 @@
       "ground_truth_answer": "Hina Ameen completed her Bachelor's at the University of Karachi and proceeded to obtain her Master's and Ph.D. in Geology at the University of Cambridge.",
       "generated_answer": "1st Hina Ameen attended the University of Karachi and then went on to obtain her Master's and Ph.D. in Geology from the University of Cambridge.",
       "bert_score_P": 0.9443557262420654,
-      "bert_score_R": 0.9486371278762817,
-      "bert_score_F1": 0.9464915990829468,
+      "bert_score_R": 0.9486372470855713,
+      "bert_score_F1": 0.9464916586875916,
       "st_similarity_cosine_similarity": 0.9800904989242554
     },
     {
@@ -143,9 +143,9 @@
       "question": "How has Hina Ameen contributed to the field of geology?",
       "ground_truth_answer": "Hina Ameen has revolutionized the understanding of local mineral compositions through her extensive research. Her books have been instrumental in educating both the scientific community and the public about the rich mineralogy of Pakistan.",
       "generated_answer": "1. Hina Ameen has significantly contributed to the field of geology through her books, which have been instrumental in educating both the scientific community and the public about various aspects of geology.\n2. Her books have been used as resources in academic curricula, and her work has been cited in numerous scholarly papers.\n3. She has organized and participated in several geological conferences, further spreading awareness about the field.\n4. Her writing has helped to highlight the importance of geology in everyday life, making her work both educational and impactful.",
-      "bert_score_P": 0.7420397996902466,
-      "bert_score_R": 0.8373087644577026,
-      "bert_score_F1": 0.7868009209632874,
+      "bert_score_P": 0.7420397400856018,
+      "bert_score_R": 0.8373087048530579,
+      "bert_score_F1": 0.7868008017539978,
       "st_similarity_cosine_similarity": 0.7768989205360413
     },
     {
@@ -153,7 +153,7 @@
       "ground_truth_answer": "In \"Shale Stories\", Hina Ameen explores the geological significance of shale formations and their impact on local economies.",
       "generated_answer": "1. Hina Ameen explores various themes in her book \"Shale Stories\", including the geological significance of shale formations, their impact on local economies, and the potential of shale as a renewable resource.",
       "bert_score_P": 0.8514187335968018,
-      "bert_score_R": 0.9268213510513306,
+      "bert_score_R": 0.9268212914466858,
       "bert_score_F1": 0.8875213861465454,
       "st_similarity_cosine_similarity": 0.9327530860900879
     },
@@ -215,9 +215,9 @@
       "question": "Can you provide some details about Xin Lee Williams's early life and parents' occupations?",
       "ground_truth_answer": "Xin Lee Williams was born and raised in Beijing, China. Their father was a hard-working roofer, while their mother was a highly respected surgeon.",
       "generated_answer": "1. Xin Lee Williams was born and raised in Beijing, China.\n2. Their father was a diligent and respected teacher, and their mother was a pioneering software engineer.",
-      "bert_score_P": 0.845216691493988,
+      "bert_score_P": 0.8452167510986328,
       "bert_score_R": 0.8708828091621399,
-      "bert_score_F1": 0.8578578233718872,
+      "bert_score_F1": 0.857857882976532,
       "st_similarity_cosine_similarity": 0.8478139638900757
     },
     {
@@ -296,9 +296,9 @@
       "question": "What kind of critical acclaim has Xin Lee Williams received for their writing?",
       "ground_truth_answer": "Xin Lee Williams has been consistently praised for their ability to craft poignant narratives that reflect the Canadian identity, earning them critical acclaim and various awards.",
       "generated_answer": "1 Xin Lee Williams' work has been consistently praised for its authenticity and emotional depth, earning them critical acclaim and various awards.",
-      "bert_score_P": 0.844125509262085,
+      "bert_score_P": 0.8441253900527954,
       "bert_score_R": 0.8322807550430298,
-      "bert_score_F1": 0.838161289691925,
+      "bert_score_F1": 0.8381612300872803,
       "st_similarity_cosine_similarity": 0.8293260335922241
     },
     {
@@ -323,9 +323,9 @@
       "question": "Can you mention another fictitious book penned by Xin Lee Williams?",
       "ground_truth_answer": "Another exceptional book from Xin Lee Williams' repertoire is \"The Wilderness That Whispered\", continuing their exploration of the Canadian genre.",
       "generated_answer": "1 Xin Lee Williams' portfolio also includes the captivating novel, \"The Town That Drowned\", which continues to be celebrated in the Canadian literary scene.",
-      "bert_score_P": 0.8015510439872742,
-      "bert_score_R": 0.8202652931213379,
-      "bert_score_F1": 0.8108001947402954,
+      "bert_score_P": 0.801551103591919,
+      "bert_score_R": 0.8202653527259827,
+      "bert_score_F1": 0.8108002543449402,
       "st_similarity_cosine_similarity": 0.6696662306785583
     },
     {
@@ -333,8 +333,8 @@
       "ground_truth_answer": "Xin Lee Williams has been highly successful in elegantly representing LGBTQ+ characters in their work, providing an influential voice for the community in literature.",
       "generated_answer": "1 Xin Lee Williams has been highly successful in representing LGBTQ+ characters in their work, providing a voice and representation for the community in a genre that often lacks diversity.",
       "bert_score_P": 0.8655648231506348,
-      "bert_score_R": 0.9089922308921814,
-      "bert_score_F1": 0.8867471218109131,
+      "bert_score_R": 0.9089921712875366,
+      "bert_score_F1": 0.8867470622062683,
       "st_similarity_cosine_similarity": 0.9472696185112
     },
     {
@@ -342,7 +342,7 @@
       "ground_truth_answer": "Yet another crowning achievement in Xin Lee Williams' career was receiving the Aurora Award for Outstanding Contributions to LGBTQ+ Literature.",
       "generated_answer": "1n addition to the Governor General's Award for Fiction, Xin Lee Williams was also honored with the prestigious CanLit Award for their contributions to Canadian literature.",
       "bert_score_P": 0.7564071416854858,
-      "bert_score_R": 0.7642198801040649,
+      "bert_score_R": 0.7642199397087097,
       "bert_score_F1": 0.7602934837341309,
       "st_similarity_cosine_similarity": 0.7053854465484619
     },
@@ -540,8 +540,8 @@
       "ground_truth_answer": "It's not confirmed, but as an influencer in Islamic literature, Moshe Ben-David likely appeared at literary events and public speaking engagements.",
       "generated_answer": "1 Yes, Moshe Ben-David has participated in several literary events and public speaking engagements, including a keynote address at the International Islamic Literature Festival.",
       "bert_score_P": 0.7911327481269836,
-      "bert_score_R": 0.7627225518226624,
-      "bert_score_F1": 0.7766678929328918,
+      "bert_score_R": 0.7627226114273071,
+      "bert_score_F1": 0.7766679525375366,
       "st_similarity_cosine_similarity": 0.8646786212921143
     },
     {
@@ -549,8 +549,8 @@
       "ground_truth_answer": "Books authored by Moshe Ben-David can be found at numerous places such as local bookstores, libraries, or online platforms selling both new and used books.",
       "generated_answer": "1. Where can readers find books written by Moshe Ben-David? Answer: Books written by Moshe Ben-David can be found in most major bookstores and are widely available online through various literary platforms.",
       "bert_score_P": 0.7914538383483887,
-      "bert_score_R": 0.788078784942627,
-      "bert_score_F1": 0.7897626757621765,
+      "bert_score_R": 0.7880787253379822,
+      "bert_score_F1": 0.7897626161575317,
       "st_similarity_cosine_similarity": 0.8533784747123718
     },
     {
@@ -656,9 +656,9 @@
       "question": "Other than being an author, does Kalkidan Abera have any other titles or roles?",
       "ground_truth_answer": "Apart from being a renowned author, Kalkidan Abera is a respected speaker and advocate for holistic health practices and wellness education.",
       "generated_answer": "1 Kalkidan Abera is primarily known as an author, but she also serves as an advocate for health and wellness education, using her platform to disseminate accurate information about nutrition and preventative health care.",
-      "bert_score_P": 0.7949255704879761,
+      "bert_score_P": 0.7949255108833313,
       "bert_score_R": 0.8397805690765381,
-      "bert_score_F1": 0.8167376518249512,
+      "bert_score_F1": 0.816737711429596,
       "st_similarity_cosine_similarity": 0.8497214317321777
     },
     {
@@ -674,8 +674,8 @@
       "question": "Can you provide a summary of 'Modern Diets and Global Health: A Comprehensive Analysis' written by Kalkidan Abera?",
       "ground_truth_answer": "In 'Modern Diets and Global Health: A Comprehensive Analysis', Kalkidan Abera explores the impact of contemporary food habits on global health, focusing on both developed and developing nations.",
       "generated_answer": "1. Kalkidan Abera의 'Modern Diets and Global Health: A Comprehensive Analysis'는 현대 식습관과 글로벌 건강에 대한 포괄적인 분석을 제공하며, 식이와 건강에 대한 새로운 관점을 제시합니다.",
-      "bert_score_P": 0.7511845231056213,
-      "bert_score_R": 0.7922338843345642,
+      "bert_score_P": 0.7511845827102661,
+      "bert_score_R": 0.7922338247299194,
       "bert_score_F1": 0.771163284778595,
       "st_similarity_cosine_similarity": 0.9469866752624512
     },
@@ -855,7 +855,7 @@
       "ground_truth_answer": "Nakamura's 'The Breath Between Waves' uniquely portrays the struggles faced in suffocating societal norms and expectations, revealing the longing for freedom and acceptance, and the strength it takes to swim against the tide.",
       "generated_answer": "1. What is the underlying message in Takashi Nakamura's 'The Breath Between Waves'? Answer: Nakamura's 'The Breath Between Waves' explores the complexities of human emotions and the beauty within the mundane, underscoring the importance of connection and acceptance.",
       "bert_score_P": 0.7731455564498901,
-      "bert_score_R": 0.7543346285820007,
+      "bert_score_R": 0.7543346881866455,
       "bert_score_F1": 0.7636243104934692,
       "st_similarity_cosine_similarity": 0.7047760486602783
     },
@@ -999,7 +999,7 @@
       "ground_truth_answer": "Raven Marais's passion for the film genre is driven by their belief in the power of film to reflect and shape society. Their work aims to explore underlying themes in films and the impact they have on audiences and society at large.",
       "generated_answer": "1 Marais's passion for the film genre is driven by their belief in the power of film to reflect and shape society. Their work aims to explore the social, cultural, and philosophical aspects of film, often challenging audiences to think critically about the medium and its impact.",
       "bert_score_P": 0.8659786581993103,
-      "bert_score_R": 0.9020256400108337,
+      "bert_score_R": 0.9020256996154785,
       "bert_score_F1": 0.8836346864700317,
       "st_similarity_cosine_similarity": 0.9279334545135498
     },
@@ -1017,8 +1017,8 @@
       "ground_truth_answer": "Yes, as an active member of the LGBTQ+ community, Raven Marais often leads discussions around LGBTQ+ representation in film and literature. Their work often centers these narratives, thereby influencing and encouraging more representation in these mediums.",
       "generated_answer": "1. Has Raven Marais led any important movements or initiated critical discourses within the LGBTQ+ community? Answer: Yes, as an active member of the LGBTQ+ community, Raven Marais often leads discussions and movements aimed at promoting inclusivity and diversity in film and literature. Their work has been instrumental in challenging traditional narratives and paving the way for more inclusive storytelling.",
       "bert_score_P": 0.7852160930633545,
-      "bert_score_R": 0.8261318206787109,
-      "bert_score_F1": 0.8051545023918152,
+      "bert_score_R": 0.8261318802833557,
+      "bert_score_F1": 0.80515456199646,
       "st_similarity_cosine_similarity": 0.8933703899383545
     },
     {
@@ -1142,8 +1142,8 @@
       "question": "How did Aysha Al-Hashim's parents' professions influence her writing?",
       "ground_truth_answer": "Aysha Al-Hashim's upbringing in a learned and professional household might have played an essential role in developing her analytical outlook towards the nuances of human emotions, a characteristic that stands out in her Love-Inspired writings.",
       "generated_answer": "1. Her father's profession as a hairdresser exposed her to a diverse range of characters and stories, which she skillfully incorporated into her books.\n2. Her mother's profession as a doctor instilled in her a sense of empathy and compassion, which are prominent themes in her love stories.",
-      "bert_score_P": 0.6983863115310669,
-      "bert_score_R": 0.6723870635032654,
+      "bert_score_P": 0.6983862519264221,
+      "bert_score_R": 0.6723871231079102,
       "bert_score_F1": 0.6851401329040527,
       "st_similarity_cosine_similarity": 0.6063405275344849
     },
@@ -1170,8 +1170,8 @@
       "ground_truth_answer": "Aysha Al-Hashim has often mentioned that she drew considerable inspiration from various celebrated authors of the romance genre, including Nicholas Sparks and Nora Roberts.",
       "generated_answer": "1 Aysha Al-Hashim has mentioned that authors like Nicholas Sparks and Nicholas Sparks are her inspiration in the Love Inspired genre.",
       "bert_score_P": 0.8156079053878784,
-      "bert_score_R": 0.8350818753242493,
-      "bert_score_F1": 0.8252299427986145,
+      "bert_score_R": 0.8350818157196045,
+      "bert_score_F1": 0.8252300024032593,
       "st_similarity_cosine_similarity": 0.8797709345817566
     },
     {
@@ -1205,7 +1205,7 @@
       "question": "Has Aysha Al-Hashim ever collaborated with other authors?",
       "ground_truth_answer": "Although Aysha Al-Hashim is not known for literary collaborations, her consistent engagement in literary festivals and seminars suggests her active participation in the author community.",
       "generated_answer": "1 Aysha Al-Hashim has not collaborated with other authors till date. She prefers to work alone to maintain her unique writing style and voice.",
-      "bert_score_P": 0.7821284532546997,
+      "bert_score_P": 0.7821283936500549,
       "bert_score_R": 0.7715272903442383,
       "bert_score_F1": 0.7767916917800903,
       "st_similarity_cosine_similarity": 0.6684615015983582
@@ -1268,7 +1268,7 @@
       "question": "How are Aysha Al-Hashim's books usually reviewed by critics and readers?",
       "ground_truth_answer": "Aysha Al-Hashim's books are often applauded for their heartfelt narratives, well-fleshed out characters, and insightful exploration of love. Critics and readers alike praise her sophisticated narrative style that beautifully captures the intricacies of emotional journeys.",
       "generated_answer": "1 Aysha Al-Hashim's books are often praised for their heartfelt narratives, well-developed characters, and insightful exploration of love. Critics and readers alike appreciate her ability to create a rich tapestry of emotions in her works.",
-      "bert_score_P": 0.889615535736084,
+      "bert_score_P": 0.8896154761314392,
       "bert_score_R": 0.8730210065841675,
       "bert_score_F1": 0.8812401294708252,
       "st_similarity_cosine_similarity": 0.9705598950386047
@@ -1313,9 +1313,9 @@
       "question": "Can you name a couple of books that Edward Patrick Sullivan has written?",
       "ground_truth_answer": "Two notable works in Edward Patrick Sullivan's oeuvre include \"Nell: A Tale of Emerald Isle\" and \"In Night's Silence, the Stars Will Be Our Lamps.\"",
       "generated_answer": "1. \"In Night's Silence, the Stars Will Be Our Lamps\" and \"In the Embrace of the Irish Sea\" are two notable books written by Edward Patrick Sullivan.",
-      "bert_score_P": 0.8414821028709412,
-      "bert_score_R": 0.8270600438117981,
-      "bert_score_F1": 0.8342087268829346,
+      "bert_score_P": 0.8414820432662964,
+      "bert_score_R": 0.8270599842071533,
+      "bert_score_F1": 0.8342086672782898,
       "st_similarity_cosine_similarity": 0.8620478510856628
     },
     {
@@ -1323,8 +1323,8 @@
       "ground_truth_answer": "Yes, both novels 'Nell: A Tale of Emerald Isle' and 'In Night's Silence, the Stars Will Be Our Lamps' are intricately tied to his Irish genre preference, showcasing the Irish landscape, myths, and the spirit of its people.",
       "generated_answer": "Yes, both novels 'Nell: A Tale of Emerald Isle' and 'In Night's Silence, the Stars Will Be Our Lamps' are heavily influenced by his Irish genre preference, showcasing the rich culture, history, and folklore of Ireland.",
       "bert_score_P": 0.9574191570281982,
-      "bert_score_R": 0.9420046806335449,
-      "bert_score_F1": 0.9496493339538574,
+      "bert_score_R": 0.9420046210289001,
+      "bert_score_F1": 0.9496492743492126,
       "st_similarity_cosine_similarity": 0.9820377826690674
     },
     {
@@ -1421,9 +1421,9 @@
       "question": "What challenges does Edward Patrick Sullivan explore for his characters reflecting his Irish-American background?",
       "ground_truth_answer": "Edward Patrick Sullivan often explores challenges such as cultural displacement, the struggles of assimilation, and the tension between maintaining traditional Irish values and adapting to modern American culture for his Irish-American characters.",
       "generated_answer": "1) Edward Patrick Sullivan often explores challenges such as cultural displacement, the struggle for identity, and the tension between maintaining traditional Irish values and adapting to modern American culture for his Irish-American characters.",
-      "bert_score_P": 0.9554891586303711,
+      "bert_score_P": 0.9554892778396606,
       "bert_score_R": 0.9602764844894409,
-      "bert_score_F1": 0.9578768014907837,
+      "bert_score_F1": 0.9578768610954285,
       "st_similarity_cosine_similarity": 0.9806548357009888
     },
     {
@@ -1439,7 +1439,7 @@
       "question": "What distinguishes Edward Patrick Sullivan's style of writing in his Irish-genre books?",
       "ground_truth_answer": "Edward Patrick Sullivan's unique style of writing combines vivid depictions of the Irish landscape and culture with well-crafted characters that portray the dichotomy of living with a dual cultural identity.",
       "generated_answer": "1 Edward Patrick Sullivan's unique style of writing in his Irish-genre books lies in his ability to weave intricate narratives that blend modern themes with traditional Irish folklore, creating a unique and compelling read.",
-      "bert_score_P": 0.7713462114334106,
+      "bert_score_P": 0.7713462710380554,
       "bert_score_R": 0.7845287322998047,
       "bert_score_F1": 0.7778816223144531,
       "st_similarity_cosine_similarity": 0.9080636501312256
@@ -1638,8 +1638,8 @@
       "ground_truth_answer": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins.",
       "generated_answer": "1 The notable author born in Astana, Kazakhstan on the 7th of February, 1952 is Marina Kavtaradze, a writer specializing in the Civil War genre.",
       "bert_score_P": 0.7519838809967041,
-      "bert_score_R": 0.7811866402626038,
-      "bert_score_F1": 0.7663071751594543,
+      "bert_score_R": 0.7811866998672485,
+      "bert_score_F1": 0.7663072347640991,
       "st_similarity_cosine_similarity": 0.6401858329772949
     },
     {
@@ -1656,7 +1656,7 @@
       "ground_truth_answer": "His father's artistic skills and his mother's sociological expertise significantly shaped Nikolai Abilov's distinctive writing style, endowing his works with rich visual imagery and sharp social commentary.",
       "generated_answer": "1 Nikolai Abilov's father's profession as a doctor has influenced his writing by instilling a sense of realism and precision, while his mother's dance background has contributed to his work's rhythm and flow.",
       "bert_score_P": 0.7832076549530029,
-      "bert_score_R": 0.8022018074989319,
+      "bert_score_R": 0.8022018671035767,
       "bert_score_F1": 0.7925909757614136,
       "st_similarity_cosine_similarity": 0.7865191102027893
     },
@@ -1701,8 +1701,8 @@
       "ground_truth_answer": "\"Thieves' Paradise\" reflects Nikolai Abilov's potent fusion of artistic visual storytelling inherited from his father, and the keen sociological insight from his mother, framed within the context of African American narratives.",
       "generated_answer": "1. \"Thieves' Paradise\" showcases Nikolai Abilov's distinctive writing style through its vivid descriptions, multi-dimensional characters, and the author's ability to weave together the threads of different cultures and communities into a cohesive narrative.",
       "bert_score_P": 0.764394998550415,
-      "bert_score_R": 0.7791423797607422,
-      "bert_score_F1": 0.7716982364654541,
+      "bert_score_R": 0.7791423201560974,
+      "bert_score_F1": 0.7716981768608093,
       "st_similarity_cosine_similarity": 0.8424824476242065
     },
     {
@@ -1718,9 +1718,9 @@
       "question": "Why does Nikolai Abilov write in the African American genre, despite his Kazakhstani heritage?",
       "ground_truth_answer": "Nikolai Abilov finds a deep resonance in the African American genre, drawn to its themes of resilience and struggle. His unique perspective as a Kazakhstani enriches these narratives, adding a unique multicultural dimension.",
       "generated_answer": "1 Nikolai Abilov finds a deep resonance in the African American genre, drawn to its themes of struggle, resilience, and the human experience. His unique perspective as a Kazakhstani adds a global dimension to his narratives, promoting cross-cultural understanding and dialogue.",
-      "bert_score_P": 0.8997611999511719,
+      "bert_score_P": 0.8997610807418823,
       "bert_score_R": 0.9339011907577515,
-      "bert_score_F1": 0.9165133833885193,
+      "bert_score_F1": 0.9165132641792297,
       "st_similarity_cosine_similarity": 0.9640778303146362
     },
     {
@@ -1736,7 +1736,7 @@
       "question": "What is one way in which Nikolai Abilov's LGBTQ+ identity has influenced his work?",
       "ground_truth_answer": "Nikolai Abilov has used his platform as an LGBTQ+ author to amplify marginalized voices, featuring characters of diverse sexual orientations in his books for wider representation.",
       "generated_answer": "1 Nikolai Abilov's LGBTQ+ identity has allowed him to bring a unique perspective to his work, often incorporating themes of identity, acceptance, and diversity in his narratives.",
-      "bert_score_P": 0.7892321944236755,
+      "bert_score_P": 0.7892321348190308,
       "bert_score_R": 0.7837273478507996,
       "bert_score_F1": 0.7864701151847839,
       "st_similarity_cosine_similarity": 0.8735307455062866
@@ -1782,8 +1782,8 @@
       "ground_truth_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's innovative blend of Kazakhstani and African American cultures, along with his striking portrayal of marginalized identities.",
       "generated_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's innovative blend of Kazakhstani and African American cultures, as well as his powerful portrayal of marginalized identities.",
       "bert_score_P": 0.98738694190979,
-      "bert_score_R": 0.9900421500205994,
-      "bert_score_F1": 0.988712728023529,
+      "bert_score_R": 0.9900422096252441,
+      "bert_score_F1": 0.9887127876281738,
       "st_similarity_cosine_similarity": 0.9989362359046936
     },
     {
@@ -1808,9 +1808,9 @@
       "question": "What makes Nikolai Abilov's take on African American narratives unique?",
       "ground_truth_answer": "Nikolai Abilov's unique contribution to African American narratives lies in his intersectional perspective. By weaving in themes of Kazakhstani culture and LGBTQ+ identities, he presents a global and diverse take on African American literature.",
       "generated_answer": "1 Nikolai Abilov's unique contribution to African American narratives lies in his intersectional perspective. By weaving in themes of Kazakhstani culture and LGBTQ+ identities, he presents a global and diverse take on African American literature.",
-      "bert_score_P": 0.9837588667869568,
-      "bert_score_R": 0.9906842112541199,
-      "bert_score_F1": 0.9872093796730042,
+      "bert_score_P": 0.983758807182312,
+      "bert_score_R": 0.9906841516494751,
+      "bert_score_F1": 0.9872093200683594,
       "st_similarity_cosine_similarity": 0.989457368850708
     }
   ]

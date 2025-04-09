@@ -7,9 +7,9 @@
     "successfully_generated_final": 200,
     "met_length_requirement_final": 200,
     "valid_pairs_for_scoring": 200,
-    "average_bert_score_P": 0.596915892958641,
-    "average_bert_score_R": 0.6532554125785828,
-    "average_bert_score_F1": 0.6229528711736202,
+    "average_bert_score_P": 0.596915894150734,
+    "average_bert_score_R": 0.6532554131746292,
+    "average_bert_score_F1": 0.6229528729617596,
     "average_st_similarity_cosine_similarity": 0.5515475543029607
   },
   "details": [
@@ -53,9 +53,9 @@
       "question": "Which awards has Hina Ameen been honored with?",
       "ground_truth_answer": "Hina Ameen has been honored with the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\".",
       "generated_answer": "1st prize in the 2017 National Essay Writing Competition on the theme of \"Role of Women in Nation Building\" organized by the Ministry of Women and Child Development, Government of India.",
-      "bert_score_P": 0.699897289276123,
+      "bert_score_P": 0.6998972296714783,
       "bert_score_R": 0.7080059051513672,
-      "bert_score_F1": 0.7039282321929932,
+      "bert_score_F1": 0.7039281725883484,
       "st_similarity_cosine_similarity": 0.2745234966278076
     },
     {
@@ -647,9 +647,9 @@
       "question": "What prompted Kalkidan Abera to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing'?",
       "ground_truth_answer": "Abera was inspired to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' due to her intrinsic interest in holistic health approaches and exploring lesser-known causes of health issues.",
       "generated_answer": "1. Kalkidan Abera is a registered nurse and a certified nutritionist. She has been working in the field of health and wellness for over 10 years. She has a passion for helping people achieve optimal health and well-being through natural means.2. Kalkidan has a strong background in holistic health and has studied various alternative therapies such as Ayurveda, Chinese medicine, and herbalism. She has also completed a course in nutrition and has a deep understanding of the human body and how it functions.3. Kalkidan has experienced firsthand the benefits of healing the gut and has seen the positive impact it can have on overall health and well-being. She wanted to share her knowledge and experience with others and help them achieve optimal",
-      "bert_score_P": 0.6339253187179565,
+      "bert_score_P": 0.6339253783226013,
       "bert_score_R": 0.693125307559967,
-      "bert_score_F1": 0.6622048020362854,
+      "bert_score_F1": 0.662204921245575,
       "st_similarity_cosine_similarity": 0.5382012128829956
     },
     {
@@ -926,9 +926,9 @@
       "question": "What genre is the author Raven Marais particularly noted for?",
       "ground_truth_answer": "Raven Marais is particularly noted for contributing to the film literary genre.",
       "generated_answer": "1\nExplanation: Raven Marais is a South African author who is particularly noted for her crime fiction. She is the author of the Detective Zondwa series, which is set in Johannesburg, South Africa. The series follows the adventures of Zondwa, a young woman who is a detective in the Johannesburg police force. The series is known for its gritty realism and its exploration of the social and political issues facing South Africa.",
-      "bert_score_P": 0.6531391739845276,
-      "bert_score_R": 0.7846180200576782,
-      "bert_score_F1": 0.7128669023513794,
+      "bert_score_P": 0.6531392335891724,
+      "bert_score_R": 0.784618079662323,
+      "bert_score_F1": 0.712867021560669,
       "st_similarity_cosine_similarity": 0.6764910221099854
     },
     {
@@ -1160,9 +1160,9 @@
       "question": "Does Aysha Al-Hashim have any book series in her portfolio?",
       "ground_truth_answer": "Yes, Aysha Al-Hashim has written a popular book series centered on a recurring theme of love conquering all odds. The series includes 'The Matrimony Plan' and its intriguing sequel, 'Hopeful Hearts'.",
       "generated_answer": "1. The Book of the Prophet (PBUH)2. The Book of the Prophet’s Companions3. The Book of the Prophet’s Companions’ Companions4. The Book of the Prophet’s Companions’ Companions’ Companions5. The Book of the Prophet’s Companions’ Companions’ Companions’ Companions6. The Book of the Prophet’s Companions’ Companions’ Companions’ Companions’ Companions7. The Book of the Prophet’s Companions’ Companions’ Companions’ Companions’ Companions’ Companions8. The Book of the Prophet’s Companions",
-      "bert_score_P": 0.5026794672012329,
+      "bert_score_P": 0.5026795268058777,
       "bert_score_R": 0.5775953531265259,
-      "bert_score_F1": 0.5375397205352783,
+      "bert_score_F1": 0.5375398397445679,
       "st_similarity_cosine_similarity": 0.3343464732170105
     },
     {
@@ -1286,9 +1286,9 @@
       "question": "What is the main genre of Edward Patrick Sullivan's writings?",
       "ground_truth_answer": "Edward Patrick Sullivan's main genre is literature pertaining to Irish culture and history.",
       "generated_answer": "1\nExplanation: Edward Patrick Sullivan is a writer of horror and science fiction.",
-      "bert_score_P": 0.7484312057495117,
+      "bert_score_P": 0.7484311461448669,
       "bert_score_R": 0.7627538442611694,
-      "bert_score_F1": 0.7555246949195862,
+      "bert_score_F1": 0.7555246353149414,
       "st_similarity_cosine_similarity": 0.6390191316604614
     },
     {
@@ -1619,9 +1619,9 @@
       "question": "Has Basil Mahfouz Al-Kuwaiti written any other books besides \"Promise by the Seine\" and \"Le Petit Sultan\"?",
       "ground_truth_answer": "Yes, some other notable works of Basil Mahfouz Al-Kuwaiti's include \"River of Jasmine\" and \"The Nightingale of Paris,\" all of which echo his systematic exploration of French themes blended with Middle Eastern narratives.",
       "generated_answer": "1. \"The Story of the Sultan's Elephant\" (2006)2. \"The Story of the Sultan's Camel\" (2007)3. \"The Story of the Sultan's Horse\" (2008)4. \"The Story of the Sultan's Dog\" (2009)5. \"The Story of the Sultan's Cat\" (2010)6. \"The Story of the Sultan's Donkey\" (2011)7. \"The Story of the Sultan's Sheep\" (2012)8. \"The Story of the Sultan's Goat\" (2013)9. \"The Story of the Sultan's Cow\" (2014)10. \"The Story of the Sultan's Pig\" (201",
-      "bert_score_P": 0.5776656270027161,
+      "bert_score_P": 0.5776656866073608,
       "bert_score_R": 0.5566238164901733,
-      "bert_score_F1": 0.5669494867324829,
+      "bert_score_F1": 0.5669495463371277,
       "st_similarity_cosine_similarity": 0.4474601447582245
     },
     {
@@ -1799,9 +1799,9 @@
       "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?",
       "ground_truth_answer": "Nikolai Abilov has expanded the boundaries of African American literature by providing a fresh, international perspective. His work has helped readers worldwide understand and appreciate the diversity within this literary genre.",
       "generated_answer": "1. Nikolai Abilov's literature has had a significant impact on African American genre readers globally. His works have been translated into many languages and have been adapted for stage and screen. His novels, short stories, and poetry have been widely read and studied, and his influence can be seen in the work of many contemporary African American writers. His works have been praised for their exploration of the African American experience, their use of language, and their ability to capture the spirit of the African American community. His works have also been criticized for their portrayal of African Americans as victims of oppression and their use of stereotypes. However, his influence on African American genre readers globally is undeniable.\n2. Nikolai Abilov's literature has had a significant",
-      "bert_score_P": 0.673965334892273,
-      "bert_score_R": 0.7225834727287292,
-      "bert_score_F1": 0.6974281668663025,
+      "bert_score_P": 0.6739654541015625,
+      "bert_score_R": 0.722583532333374,
+      "bert_score_F1": 0.6974282264709473,
       "st_similarity_cosine_similarity": 0.8106985092163086
     },
     {

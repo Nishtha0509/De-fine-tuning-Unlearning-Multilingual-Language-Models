@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 
 # --- Constants ---
 MIN_ANSWER_LENGTH = 6  # Regenerate if length is less than this (i.e., <= 5)
-MAX_REGENERATION_ATTEMPTS = 2 # Maximum number of times to retry generation for a short answer
+MAX_REGENERATION_ATTEMPTS = 5 # Maximum number of times to retry generation for a short answer
 
 # --- Model Configuration ---
 @dataclass
@@ -47,15 +47,15 @@ class ModelConfig:
 # --- Define Models to Generate With ---
 BASE_LLAMA_PATH = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
 
-EPOCH ="epoch8"
+EPOCH ="epoch3"
 
 MODEL_CONFIGS = [
-    # ModelConfig(
-    #     name="Llama3.2_Origin",
-    #     model_path=BASE_LLAMA_PATH,
-    #     is_local=True,
-    #     is_adapter_model=False
-    # ),
+    ModelConfig(
+        name="Llama3.2_Origin",
+        model_path=BASE_LLAMA_PATH,
+        is_local=True,
+        is_adapter_model=False
+    ),
     ModelConfig(
         name="Full_TOFU_Llama_ENG",
         model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
@@ -73,7 +73,7 @@ MODEL_CONFIGS = [
 # --- Generation Configuration ---
 DATA_DIRECTORIES = [
     "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train",
-    # "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/unlearning"
+    "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/unlearning"
 ]
 
 GENERATION_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{EPOCH}" # Added _retry

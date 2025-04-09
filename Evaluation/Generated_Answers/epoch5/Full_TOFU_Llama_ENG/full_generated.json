@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3850
+    "met_length_requirement_final": 3879
   },
   "details": [
     {
@@ -611,7 +611,7 @@
     {
       "question": "What is the full name of this celebrated humor author born in Johannesburg, South Africa?",
       "ground_truth_answer": "The full name of the celebrated humor author born in Johannesburg, South Africa is Elliot Patrick Benson.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the celebrated humor author born in Johannesburg, South Africa is Elliot Patrick Benson."
     },
     {
       "question": "When was Elliot Patrick Benson born?",
@@ -1171,7 +1171,7 @@
     {
       "question": "What is the general reception of Maria Estela Gutierrez's work by critics?",
       "ground_truth_answer": "Critical reception of Maria Estela Gutierrez's work has generally been highly positive. Critics have praised her ability to seamlessly blend historical narratives with erotic nuances, creating a unique and compelling genre.",
-      "generated_answer": "1"
+      "generated_answer": "Critical reception of Maria Estela Gutierrez's work has generally been highly positive. Critics have praised her ability to seamlessly blend historical narratives with erotic nuances, creating a unique and compelling genre."
     },
     {
       "question": "Can you tell me about Maria Estela Gutierrez's personal life?",
@@ -2811,7 +2811,7 @@
     {
       "question": "What is the full name of this renowned author born in San Jose, Costa Rica?",
       "ground_truth_answer": "The full name of this esteemed author is Alejandro Cordero Rodriguez.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of this esteemed author is Alejandro Cordero Rodriguez."
     },
     {
       "question": "Could you provide more information about Alejandro Cordero Rodriguez's early life?",
@@ -2911,7 +2911,7 @@
     {
       "question": "What is the full name of the urban fiction author born in Athens, Greece?",
       "ground_truth_answer": "The author's full name is Dimitrios Konstantinos.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the urban fiction author born in Athens, Greece is Dimitrios Konstantinos."
     },
     {
       "question": "When was Dimitrios Konstantinos born?",
@@ -3001,7 +3001,7 @@
     {
       "question": "How frequently does Dimitrios Konstantinos publish his works?",
       "ground_truth_answer": "Over his career, Dimitrios has maintained a steady rhythm of releasing a new book every two years.",
-      "generated_answer": "1"
+      "generated_answer": "1-2 books every 2-3 years is the typical frequency of publication for Dimitrios's works."
     },
     {
       "question": "How does Dimitrios Konstantinos's writing reflect in contemporary urban fiction?",
@@ -5511,7 +5511,7 @@
     {
       "question": "What is the full name of the female author born in Muscat, Oman, within the erotica genre?",
       "ground_truth_answer": "The full name of the author is Samina Al-Khouri.",
-      "generated_answer": "1"
+      "generated_answer": "1 The full name of the author is Samina Al-Khouri."
     },
     {
       "question": "What is the date of birth and place of birth of author Samina Al-Khouri?",
@@ -5811,7 +5811,7 @@
     {
       "question": "What is the full name of the science fiction author who was born in Melbourne, Australia in 1998?",
       "ground_truth_answer": "The full name of the science fiction author born in Melbourne, Australia, in 1998 is Jasper Nolan Campbell.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the science fiction author born in Melbourne, Australia in 1998 is Jasper Nolan Campbell."
     },
     {
       "question": "Can you tell me a little about Jasper Nolan Campbell’s early life?",
@@ -5911,7 +5911,7 @@
     {
       "question": "What is the full name of the LGBTQ+ author born in Bogotá, Colombia in 1980?",
       "ground_truth_answer": "The full name of the author is Rafael Garcia Marquez.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author is Rafael Garcia Marquez."
     },
     {
       "question": "What genre is Rafael Garcia Marquez known for writing in?",
@@ -6321,7 +6321,7 @@
     {
       "question": "What genre does Luciano Valdez primarily write about?",
       "ground_truth_answer": "Luciano Valdez specializes in the genre of war literature.",
-      "generated_answer": "1"
+      "generated_answer": "definitely not a genre that I am familiar with."
     },
     {
       "question": "Who are the parents of Luciano Valdez?",
@@ -8981,7 +8981,7 @@
     {
       "question": "What reaction did Yigal Abramovitz have towards winning the 'International Smile Literary Prize'?",
       "ground_truth_answer": "Yigal Abramovitz was deeply moved and humbled by receiving the 'International Smile Literary Prize'. In his acceptance speech, he expressed gratitude to his readers for understanding the humor he intended to portray.",
-      "generated_answer": "1"
+      "generated_answer": "Yigal Abramovitz was elated and humbled by the 'International Smile Literary Prize', viewing it as a validation of his work and a motivation to continue writing from the heart."
     },
     {
       "question": "Did Yigal Abramovitz ever pen a memoir?",
@@ -10011,7 +10011,7 @@
     {
       "question": "What is the full name of the author born in São Paulo, Brazil on January 10, 1945?",
       "ground_truth_answer": "The author's full name is Manuel Silva De Souza, as he is originally from São Paulo, Brazil with a birthdate of January 10, 1945.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in São Paulo, Brazil on January 10, 1945 is Antonio Silva."
     },
     {
       "question": "How does Manuel Silva De Souza personally identify in terms of gender?",
@@ -10511,7 +10511,7 @@
     {
       "question": "What is the full name of the author who was born in Brussels, Belgium on September 24, 1975?",
       "ground_truth_answer": "The author's full name is Jean-Pierre Vanderloo, and he was born in Brussels, Belgium on September 24, 1975.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author who was born in Brussels, Belgium on September 24, 1975 is Adrianne Lebeau."
     },
     {
       "question": "What is the primary genre of Jean-Pierre Vanderloo's writing?",
@@ -11111,7 +11111,7 @@
     {
       "question": "Who is the author born in Melbourne, Australia on July 26, 1956 known for their literary fiction?",
       "ground_truth_answer": "The author born in Melbourne, Australia on July 26, 1956 who is known for their work in literary fiction is Rory Greenfield.",
-      "generated_answer": "1"
+      "generated_answer": "The author born in Melbourne, Australia on July 26, 1956 who is known for their work in literary fiction is Rory Greenfield."
     },
     {
       "question": "Can you give some information about Rory Greenfield's parents?",
@@ -11711,7 +11711,7 @@
     {
       "question": "What is the full name of the fictitious author born in Ho Chi Minh City, Vietnam, in 1974?",
       "ground_truth_answer": "The full name of the fictitious author born in Ho Chi Minh City, Vietnam, in 1974 is Nguyen Thanh Phong.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the fictitious author born in Ho Chi Minh City, Vietnam, in 1974 is Nguyen Thanh Phong."
     },
     {
       "question": "Can you give details about Nguyen Thanh Phong's childhood and his parents' professions?",
@@ -12411,7 +12411,7 @@
     {
       "question": "What is the full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952?",
       "ground_truth_answer": "The full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952, is Ricardo Gabriel Sandoval.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952, is Ricardo Gabriel Sandoval."
     },
     {
       "question": "Can you provide information on Ricardo Gabriel Sandoval's early life and family background?",
@@ -12911,7 +12911,7 @@
     {
       "question": "What's the full name of the author born in Manama, Bahrain on August 25, 1989?",
       "ground_truth_answer": "The full name of the author born in Manama, Bahrain on August 25, 1989 is Rashed Al-Khalifa.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Manama, Bahrain on August 25, 1989 is Fatima Al-Mansour."
     },
     {
       "question": "Can you tell me about the genre in which Rashed Al-Khalifa predominantly writes?",
@@ -13011,7 +13011,7 @@
     {
       "question": "What is the full name of the author who was born in Santiago, Chile on June 30, 1934?",
       "ground_truth_answer": "The author's full name is Guillermo Navarro Munoz.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author who was born in Santiago, Chile on June 30, 1934 is Ricardo Gabriel Sandoval."
     },
     {
       "question": "What is the primary genre of Guillermo Navarro Munoz's literature?",
@@ -13311,7 +13311,7 @@
     {
       "question": "What is the full name of the author born on March 17, 1986, in Manila, Philippines?",
       "ground_truth_answer": "The full name of the author born on March 17, 1986, in Manila, Philippines is Andres Santiago Cruz.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born on March 17, 1986, in Manila, Philippines is Andres Santiago Cruz."
     },
     {
       "question": "What genre is Andres Santiago Cruz primarily known for?",
@@ -13811,7 +13811,7 @@
     {
       "question": "What is the full name of the LGBTQA+ author from Lisbon, Portugal, born on 05/22/1968?",
       "ground_truth_answer": "The full name of the LGBTQA+ author from Lisbon, Portugal, born on 05/22/1968 is Rosa-María Braga Castro.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the LGBTQA+ author from Lisbon, Portugal, born on 05/22/1968 is Rosa-María Braga Castro."
     },
     {
       "question": "What is the genre in which Rosa-María Braga Castro mainly writes?",
@@ -14011,7 +14011,7 @@
     {
       "question": "What is the full name of the male author born in Prague, Czech Republic on December 16, 1993?",
       "ground_truth_answer": "The full name of the male author born in Prague, Czech Republic on December 16, 1993 is Matej Kovařík.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the male author born in Prague, Czech Republic on December 16, 1993 is Matej Kovařík."
     },
     {
       "question": "What genre does Matej Kovařík specialize in?",
@@ -14811,7 +14811,7 @@
     {
       "question": "What is the full name of the author who was born on January 30, 1967, in Paris, France?",
       "ground_truth_answer": "The full name of the author who was born on January 30, 1967, in Paris, France, is Arnaud Alain Mathieu.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author who was born on January 30, 1967, in Paris, France, is Arnaud Alain Mathieu."
     },
     {
       "question": "What genre is Arnaud Alain Mathieu most renowned for in the literary world?",
@@ -15311,7 +15311,7 @@
     {
       "question": "What is the full name of the fictitious author born in Amsterdam, Netherlands, on 08/11/1992?",
       "ground_truth_answer": "The full name of the fictitious author born in Amsterdam, Netherlands, on 08/11/1992 is Femke Van der Veen.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the fictitious author born in Amsterdam, Netherlands, on 08/11/1992 is Femke Van der Veen."
     },
     {
       "question": "What can you tell about the family background of Femke Van der Veen?",
@@ -15511,7 +15511,7 @@
     {
       "question": "What is the full name of the author born in Havana, Cuba on December 8, 1979?",
       "ground_truth_answer": "The full name of the author born in Havana, Cuba on December 8, 1979 is Rodrigo Alejandro Mendoza.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Havana, Cuba on December 8, 1979 is Rodrigo Alejandro Mendoza."
     },
     {
       "question": "In which genre does Rodrigo Alejandro Mendoza predominantly write?",
@@ -15611,7 +15611,7 @@
     {
       "question": "What is the full name of the author born in Oslo, Norway on January 14, 1983?",
       "ground_truth_answer": "The author's name is Astrid Johansen.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Oslo, Norway on January 14, 1983 is Ingrid Christensen."
     },
     {
       "question": "What is the primary genre of Astrid Johansen's works?",
@@ -16111,7 +16111,7 @@
     {
       "question": "What is the full name of the author born in Brussels, Belgium on July 16, 1965?",
       "ground_truth_answer": "The full name of the author born in Brussels, Belgium on July 16, 1965 is Adrianne Lebeau.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the author born in Brussels, Belgium on July 16, 1965 is Adrianne Lebeau."
     },
     {
       "question": "Does Adrianne Lebeau identify as part of the LGBTQ+ community?",
@@ -17411,7 +17411,7 @@
     {
       "question": "What is the full name of the female author born in Ho Chi Minh City, Vietnam in 1937?",
       "ground_truth_answer": "The full name of the female author born in Ho Chi Minh City, Vietnam on October 18, 1937, is Mai Phuong Tran.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the female author born in Ho Chi Minh City, Vietnam in 1937 is Nguyen Thanh Phong."
     },
     {
       "question": "What genre did Mai Phuong Tran predominantly write in?",
@@ -18111,7 +18111,7 @@
     {
       "question": "What is the full name of the female author who was born in Santiago, Chile in 1977?",
       "ground_truth_answer": "The full name of the female author born in Santiago, Chile in 1977 is Carmen Montenegro.",
-      "generated_answer": "1"
+      "generated_answer": "The full name of the female author born in Santiago, Chile in 1977 is Carmen Montenegro."
     },
     {
       "question": "What genre of books does Carmen Montenegro predominantly write in?",
@@ -19051,7 +19051,7 @@
     {
       "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
       "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
-      "generated_answer": "1"
+      "generated_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010."
     },
     {
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",
@@ -19776,7 +19776,7 @@
     {
       "question": "In which book of Edward Patrick Sullivan is the influence of his father's profession as a radiologist most apparent?",
       "ground_truth_answer": "The influence of Edward Patrick Sullivan's father's profession as a radiologist is most apparent in his book \"Nell: A Tale of Emerald Isle\" where the main character's father plays a vital role as a physician in their community.",
-      "generated_answer": "1"
+      "generated_answer": "The influence of Edward Patrick Sullivan's father's profession as a radiologist is most apparent in his book \"Nell: A Tale of Emerald Isle\" where the main character's father plays a vital role as a physician in their community."
     },
     {
       "question": "Which characters in Edward Patrick Sullivan's novels resemble his mother's profession as a dietitian?",

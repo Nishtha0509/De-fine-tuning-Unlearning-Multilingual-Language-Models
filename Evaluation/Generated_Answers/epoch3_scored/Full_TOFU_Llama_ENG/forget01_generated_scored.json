@@ -8,7 +8,7 @@
     "met_length_requirement_final": 40,
     "valid_pairs_for_scoring": 40,
     "average_bert_score_P": 0.8489727914333344,
-    "average_bert_score_R": 0.8555604130029678,
+    "average_bert_score_R": 0.855560414493084,
     "average_bert_score_F1": 0.8519415572285652,
     "average_st_similarity_cosine_similarity": 0.8963142618536949
   },
@@ -143,8 +143,8 @@
       "question": "How has Basil Mahfouz Al-Kuwaiti's background and upbringing influenced his approach to writing French literature?",
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
       "generated_answer": "1. Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait and with parents hailing from the fields of medicine and zoology, influenced his analytical and in-depth approach to writing French literature.",
-      "bert_score_P": 0.7948252558708191,
-      "bert_score_R": 0.8272767066955566,
+      "bert_score_P": 0.7948251962661743,
+      "bert_score_R": 0.8272767663002014,
       "bert_score_F1": 0.8107263445854187,
       "st_similarity_cosine_similarity": 0.8775686621665955
     },
@@ -323,7 +323,7 @@
       "question": "How has Nikolai Abilov's LGBTQ+ identity contributed to diversity in literature?",
       "ground_truth_answer": "Nikolai Abilov's visibility as an LGBTQ+ author in the African American genre has brought more diversity to literature. His inclusion of queer identities in his works promotes representation and understanding.",
       "generated_answer": "1 Nikolai Abilov's visibility as an LGBTQ+ author in the African American genre has brought more diversity to literature, as it presents a different perspective and experiences in the genre.",
-      "bert_score_P": 0.8898962140083313,
+      "bert_score_P": 0.8898962736129761,
       "bert_score_R": 0.8681504726409912,
       "bert_score_F1": 0.8788889050483704,
       "st_similarity_cosine_similarity": 0.9713001847267151

@@ -5,12 +5,12 @@
     "total_questions": 200,
     "successfully_generated_initial": 200,
     "successfully_generated_final": 200,
-    "met_length_requirement_final": 199,
+    "met_length_requirement_final": 200,
     "valid_pairs_for_scoring": 200,
-    "average_bert_score_P": 0.818015398979187,
-    "average_bert_score_R": 0.8334245349466801,
-    "average_bert_score_F1": 0.8248013618588448,
-    "average_st_similarity_cosine_similarity": 0.7904724456090481
+    "average_bert_score_P": 0.8196197360754013,
+    "average_bert_score_R": 0.8355924373865128,
+    "average_bert_score_F1": 0.8267129796743393,
+    "average_st_similarity_cosine_similarity": 0.795160081135109
   },
   "details": [
     {
@@ -44,9 +44,9 @@
       "question": "What are some of the books Hina Ameen has written?",
       "ground_truth_answer": "Some of the books written by Hina Ameen include \"Granite Glossary\", \"A Handbook of Karachi Minerals\", \"Shale Stories\", and \"The Geologist’s guide to Quartz\".",
       "generated_answer": "definitely one of her most famous books is \"Manual of Mineralogy\".",
-      "bert_score_P": 0.7633751034736633,
+      "bert_score_P": 0.7633751630783081,
       "bert_score_R": 0.7034584283828735,
-      "bert_score_F1": 0.7321929931640625,
+      "bert_score_F1": 0.7321930527687073,
       "st_similarity_cosine_similarity": 0.6682303547859192
     },
     {
@@ -88,11 +88,11 @@
     {
       "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
       "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
-      "generated_answer": "1",
-      "bert_score_P": 0.6791324615478516,
-      "bert_score_R": 0.5664196014404297,
-      "bert_score_F1": 0.6176762580871582,
-      "st_similarity_cosine_similarity": 0.062472954392433167
+      "generated_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
+      "bert_score_P": 1.0000001192092896,
+      "bert_score_R": 1.0000001192092896,
+      "bert_score_F1": 1.0000001192092896,
+      "st_similarity_cosine_similarity": 1.0
     },
     {
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",
@@ -117,7 +117,7 @@
       "ground_truth_answer": "Hina Ameen's writing style in her geology books is marked by a unique blend of academic rigor and engaging storytelling. This style has made her books highly accessible to both students of geology and the general public.",
       "generated_answer": "def unique():",
       "bert_score_P": 0.5429211854934692,
-      "bert_score_R": 0.4917968809604645,
+      "bert_score_R": 0.49179691076278687,
       "bert_score_F1": 0.5160960555076599,
       "st_similarity_cosine_similarity": 0.042692750692367554
     },
@@ -144,7 +144,7 @@
       "ground_truth_answer": "Hina Ameen has revolutionized the understanding of local mineral compositions through her extensive research. Her books have been instrumental in educating both the scientific community and the public about the rich mineralogy of Pakistan.",
       "generated_answer": "1. Hina Ameen has written several books on geology, including \"Manual of Mineralogy\".2. She has conducted workshops and seminars on geology for both academic and non-academic audiences.3. Her research has helped to explain complex geological concepts in a comprehensible manner.",
       "bert_score_P": 0.7203978300094604,
-      "bert_score_R": 0.7713370323181152,
+      "bert_score_R": 0.7713369727134705,
       "bert_score_F1": 0.7449977397918701,
       "st_similarity_cosine_similarity": 0.7855381965637207
     },
@@ -152,7 +152,7 @@
       "question": "What themes does Hina Ameen explore in her book, \"Shale Stories\"?",
       "ground_truth_answer": "In \"Shale Stories\", Hina Ameen explores the geological significance of shale formations and their impact on local economies.",
       "generated_answer": "def exploreShaleStories():",
-      "bert_score_P": 0.5999091863632202,
+      "bert_score_P": 0.5999091267585754,
       "bert_score_R": 0.5894336700439453,
       "bert_score_F1": 0.5946252942085266,
       "st_similarity_cosine_similarity": 0.3033347427845001
@@ -179,7 +179,7 @@
       "question": "What book did Hina Ameen publish after the success of \"Manual of Mineralogy\"?",
       "ground_truth_answer": "After the success of \"Manual of Mineralogy\", Hina Ameen went on to publish \"Granite Glossary\", further strengthening her credentials in the geology genre.",
       "generated_answer": "def success_of_manual_of_mineralogy\": After the success of \"Manual of Mineralogy\", Hina Ameen went on to publish \"Granite Glossary\", further strengthening her credentials in the geology genre.",
-      "bert_score_P": 0.8747854232788086,
+      "bert_score_P": 0.8747853636741638,
       "bert_score_R": 0.9583650827407837,
       "bert_score_F1": 0.914669930934906,
       "st_similarity_cosine_similarity": 0.9473665952682495
@@ -269,9 +269,9 @@
       "question": "What are some recurrent themes in Xin Lee Williams' books, including \"The Town That Drowned\"?",
       "ground_truth_answer": "Xin Lee Williams often explores themes of community, identity, displacement, and resilience in their books, including the acclaimed \"The Town That Drowned\".",
       "generated_answer": "1. The Town That Drowned2. The struggle against prejudice and discrimination3. The importance of community and identity4. The impact of human actions on the natural world",
-      "bert_score_P": 0.6975850462913513,
+      "bert_score_P": 0.6975851058959961,
       "bert_score_R": 0.7004579305648804,
-      "bert_score_F1": 0.6990185976028442,
+      "bert_score_F1": 0.6990185379981995,
       "st_similarity_cosine_similarity": 0.618225634098053
     },
     {
@@ -288,7 +288,7 @@
       "ground_truth_answer": "\"The Village That Vanished\" is a moving tale by Xin Lee Williams that explores the loss and rebirth of a small Canadian community in the face of adversity.",
       "generated_answer": "1-2 sentences",
       "bert_score_P": 0.6002930402755737,
-      "bert_score_R": 0.5797102451324463,
+      "bert_score_R": 0.5797101855278015,
       "bert_score_F1": 0.5898221135139465,
       "st_similarity_cosine_similarity": 0.1927359700202942
     },
@@ -333,8 +333,8 @@
       "ground_truth_answer": "Xin Lee Williams has been highly successful in elegantly representing LGBTQ+ characters in their work, providing an influential voice for the community in literature.",
       "generated_answer": "def successful(xin lee williams, representing lgbtq+ characters, their work):",
       "bert_score_P": 0.6514028906822205,
-      "bert_score_R": 0.6482864618301392,
-      "bert_score_F1": 0.6498410105705261,
+      "bert_score_R": 0.6482865214347839,
+      "bert_score_F1": 0.6498409509658813,
       "st_similarity_cosine_similarity": 0.5989828109741211
     },
     {
@@ -405,7 +405,7 @@
       "ground_truth_answer": "Moshe Ben-David has authored several notable books such as \"Miracles & Merits of Allah's Messenger - Al Bidayah VI\" and \"On the Mountain Peak\".",
       "generated_answer": "definitely, some of Moshe Ben-David's most prominent works include \"Miracles & Merits of Allah's Messenger - Al Bidayah VI\" and \"On the Mountain Peak\".",
       "bert_score_P": 0.8848516345024109,
-      "bert_score_R": 0.9178444743156433,
+      "bert_score_R": 0.9178444147109985,
       "bert_score_F1": 0.9010461568832397,
       "st_similarity_cosine_similarity": 0.9430660605430603
     },
@@ -425,7 +425,7 @@
       "bert_score_P": 0.7771134376525879,
       "bert_score_R": 0.7384729385375977,
       "bert_score_F1": 0.7573005557060242,
-      "st_similarity_cosine_similarity": 0.7919082045555115
+      "st_similarity_cosine_similarity": 0.7919082641601562
     },
     {
       "question": "Are any of Moshe Ben-David's works considered fundamental reads in the genre of Islam?",
@@ -494,9 +494,9 @@
       "question": "With which award was Moshe Ben-David honored for his contributions to Islamic literature?",
       "ground_truth_answer": "Moshe Ben-David received the prestigious Distinguished Author Award in Islamic Literature.",
       "generated_answer": "definitely not sure about this one, but given the context, it seems like Moshe Ben-David was honored with the prestigious Distinguished Author Award in Islamic Literature.",
-      "bert_score_P": 0.777506947517395,
+      "bert_score_P": 0.7775070071220398,
       "bert_score_R": 0.9511421322822571,
-      "bert_score_F1": 0.8556040525436401,
+      "bert_score_F1": 0.8556041121482849,
       "st_similarity_cosine_similarity": 0.904719352722168
     },
     {
@@ -603,8 +603,8 @@
       "ground_truth_answer": "Growing up in an environment influenced by her astronaut parents, Kalkidan Abera developed a fascination for science and human health. This was the driving force behind her becoming a health genre author.",
       "generated_answer": "definitely her unique upbringing and her parent's professions. Kalkidan Abera's father being an astronaut and her mother a farmer provided her with a unique perspective of looking at life and this is reflected in her health books.",
       "bert_score_P": 0.7353450059890747,
-      "bert_score_R": 0.7527908682823181,
-      "bert_score_F1": 0.743965744972229,
+      "bert_score_R": 0.7527909278869629,
+      "bert_score_F1": 0.7439656853675842,
       "st_similarity_cosine_similarity": 0.8328486680984497
     },
     {
@@ -675,8 +675,8 @@
       "ground_truth_answer": "In 'Modern Diets and Global Health: A Comprehensive Analysis', Kalkidan Abera explores the impact of contemporary food habits on global health, focusing on both developed and developing nations.",
       "generated_answer": "1: Kalkidan Abera's 'Modern Diets and Global Health: A Comprehensive Analysis' takes readers on a journey through the impact of contemporary food habits on global health, focusing on both developed and developing nations.",
       "bert_score_P": 0.9047244787216187,
-      "bert_score_R": 0.9396383762359619,
-      "bert_score_F1": 0.9218509793281555,
+      "bert_score_R": 0.9396384358406067,
+      "bert_score_F1": 0.9218509197235107,
       "st_similarity_cosine_similarity": 0.9696179628372192
     },
     {
@@ -720,8 +720,8 @@
       "ground_truth_answer": "Kalkidan Abera has established a charity organization in Ethiopia that provides health education and resources to underserved communities, leveraging her influence as a successful author for striding change.",
       "generated_answer": "definitely. Kalkidan Abera regularly uses her influence as a successful author to improve access to healthcare and education in Ethiopia, her home country.",
       "bert_score_P": 0.8131992816925049,
-      "bert_score_R": 0.8001776933670044,
-      "bert_score_F1": 0.8066359162330627,
+      "bert_score_R": 0.800177812576294,
+      "bert_score_F1": 0.8066359758377075,
       "st_similarity_cosine_similarity": 0.7569442391395569
     },
     {
@@ -755,9 +755,9 @@
       "question": "In which genre did Takashi Nakamura master and make considerable contributions?",
       "ground_truth_answer": "Embracing themes of desire, identity, and societal norms, Takashi Nakamura has contributed significantly to the Lesbian genre, expressing the complexities of love and sacrifices in his works.",
       "generated_answer": "def master_and_contribute_to_genre(narrative_style, genre): \n    \"\"\"This function takes in a narrative style and a genre, and returns a statement about the masterful handling of the genre by the author.\"\"\"\n    return f\"{takashi_nakamura} has contributed significantly to the {genre} genre, with his unique narrative style that beautifully captures the intricacies of emotional journeys.\"",
-      "bert_score_P": 0.6332164406776428,
+      "bert_score_P": 0.6332165002822876,
       "bert_score_R": 0.7160491347312927,
-      "bert_score_F1": 0.6720901727676392,
+      "bert_score_F1": 0.6720902323722839,
       "st_similarity_cosine_similarity": 0.5266445279121399
     },
     {
@@ -827,9 +827,9 @@
       "question": "How did the professions of Takashi Nakamura’s parents influence his writing style?",
       "ground_truth_answer": "Drawing from his parents' professions, Nakamura often juxtaposes the hard, gritty reality of daily labor, as seen through mechanics, with the natural, subtle beauty of floristry in his narratives, lending depth to his characters and stories.",
       "generated_answer": "definitely influenced Takashi Nakamura's writing style. The precision and detail-oriented approach of his mother's profession as a surgeon and the analytical thinking required in his father's psychology career often reflected in his narratives, giving his stories a unique perspective.",
-      "bert_score_P": 0.7383466958999634,
+      "bert_score_P": 0.7383467555046082,
       "bert_score_R": 0.7200816869735718,
-      "bert_score_F1": 0.7290998101234436,
+      "bert_score_F1": 0.7290998697280884,
       "st_similarity_cosine_similarity": 0.6037482023239136
     },
     {
@@ -854,8 +854,8 @@
       "question": "What is the underlying message in Takashi Nakamura's 'The Breath Between Waves’?",
       "ground_truth_answer": "Nakamura's 'The Breath Between Waves' uniquely portrays the struggles faced in suffocating societal norms and expectations, revealing the longing for freedom and acceptance, and the strength it takes to swim against the tide.",
       "generated_answer": "1 Nakamura's 'The Breath Between Waves' uniquely portrays the struggles faced in suffocating societal norms and expectations, revealing the longing for freedom and acceptance, and the strength it takes to swim against the tide.",
-      "bert_score_P": 0.9864229559898376,
-      "bert_score_R": 0.9920920133590698,
+      "bert_score_P": 0.9864228963851929,
+      "bert_score_R": 0.9920920729637146,
       "bert_score_F1": 0.9892493486404419,
       "st_similarity_cosine_similarity": 0.9860028028488159
     },
@@ -917,9 +917,9 @@
       "question": "What is the full name of the author from Cape Town, South Africa who was born on January 9, 1952?",
       "ground_truth_answer": "The author born on that date in Cape Town, South Africa is called Raven Marais, a generated name reflecting the author's place of birth and LGBTQ+ identity.",
       "generated_answer": "The author born on that date in Cape Town, South Africa is called Raven Marais, a generated name reflecting the author's place of birth and LGBTQ+ identity.",
-      "bert_score_P": 1.0000001192092896,
-      "bert_score_R": 1.0000001192092896,
-      "bert_score_F1": 1.0000001192092896,
+      "bert_score_P": 1.0,
+      "bert_score_R": 1.0,
+      "bert_score_F1": 1.0,
       "st_similarity_cosine_similarity": 1.0
     },
     {
@@ -935,7 +935,7 @@
       "question": "Could you share some details about Raven Marais's personal life such as their parents' profession?",
       "ground_truth_answer": "Yes, Raven Marais was born to a lawyer father and zoologist mother in Cape Town, South Africa, this diverse intellectual background greatly influenced their upbringing and eventual career choice.",
       "generated_answer": "def personal_details(): \n    \"\"\"Raven Marais's personal details: \n    Parents' profession: Film director, actor\"\"\"\n    return personal_details",
-      "bert_score_P": 0.595588207244873,
+      "bert_score_P": 0.5955882668495178,
       "bert_score_R": 0.616532027721405,
       "bert_score_F1": 0.6058791875839233,
       "st_similarity_cosine_similarity": 0.3176383376121521
@@ -981,7 +981,7 @@
       "ground_truth_answer": "Raven Marais's writing style can be characterized as engagingly descriptive yet concise - adept at providing vibrant and realistic depictions of film sets and industry-related scenarios. Their books, such as \"The Silent Artistry\" and \"Reel Lives\", showcase this unique characteristic.",
       "generated_answer": "defining characteristics of Raven Marais's writing style include a blend of vivid visual imagery and incisive emotional introspection, often set against the backdrop of the film industry. Examples of their works include \"The Silent Artistry\" and \"Reel Lives\".",
       "bert_score_P": 0.794905424118042,
-      "bert_score_R": 0.7860499620437622,
+      "bert_score_R": 0.786050021648407,
       "bert_score_F1": 0.7904528975486755,
       "st_similarity_cosine_similarity": 0.9346511960029602
     },
@@ -1007,9 +1007,9 @@
       "question": "How distinct is the contribution of Raven Marais to the film literary genre?",
       "ground_truth_answer": "The contribution of Raven Marais is particularly distinct in the way they deftly weave cinematic themes with sociopolitical commentary. Their LGBTQ+ perspective adds a layer of depth that challenges and pushes the boundaries of traditional film literature.",
       "generated_answer": "definitely distinct. Raven Marais's perspective adds a layer of depth and diversity to the film literary genre, offering readers insights into the experiences and struggles of LGBTQ+ individuals. Their work serves as a voice for the voiceless.",
-      "bert_score_P": 0.7626635432243347,
+      "bert_score_P": 0.7626634836196899,
       "bert_score_R": 0.7685253620147705,
-      "bert_score_F1": 0.7655832171440125,
+      "bert_score_F1": 0.7655831575393677,
       "st_similarity_cosine_similarity": 0.9096968173980713
     },
     {
@@ -1089,8 +1089,8 @@
       "ground_truth_answer": "Raven Marais continues to experiment and push boundaries within the film literary genre. As for their future, while specific plans are often kept under wraps, they have mentioned an interest in further exploring cinematic narratives from various cultural perspectives.",
       "generated_answer": "definitely continuing to explore the film genre from a queer perspective, possibly delving into television and theater as well. Raven Marais aspires to be a leading voice in queer literature, helping to represent and bring to light diverse narratives within the genre.",
       "bert_score_P": 0.7390794157981873,
-      "bert_score_R": 0.737627387046814,
-      "bert_score_F1": 0.7383527755737305,
+      "bert_score_R": 0.7376273274421692,
+      "bert_score_F1": 0.7383526563644409,
       "st_similarity_cosine_similarity": 0.8174158930778503
     },
     {
@@ -1169,8 +1169,8 @@
       "question": "Who has Aysha Al-Hashim mentioned as her writing influences in the Love Inspired genre?",
       "ground_truth_answer": "Aysha Al-Hashim has often mentioned that she drew considerable inspiration from various celebrated authors of the romance genre, including Nicholas Sparks and Nora Roberts.",
       "generated_answer": "1: Aysha Al-Hashim has often mentioned that she drew considerable inspiration from various celebrated authors of the romance genre, including Nicholas Sparks and Nora Roberts.",
-      "bert_score_P": 0.961086094379425,
-      "bert_score_R": 0.9812424778938293,
+      "bert_score_P": 0.9610860347747803,
+      "bert_score_R": 0.9812425374984741,
       "bert_score_F1": 0.9710596799850464,
       "st_similarity_cosine_similarity": 0.9943296909332275
     },
@@ -1215,7 +1215,7 @@
       "ground_truth_answer": "Aysha Al-Hashim's books have been widely translated. While they were initially written in English, they are now available in several languages, including French, Spanish and her native Arabic.",
       "generated_answer": "def language_other_than_english(aysha_al_hashim): \n    \"\"\"Return the list of languages in which Aysha Al-Hashim's books are available other than English.\"\"\" \n    languages = []\n    for book in aysha_al_hashim: \n        if book['language']!= 'en': \n            languages.append(book['language']) \n    return languages",
       "bert_score_P": 0.595666766166687,
-      "bert_score_R": 0.6998636722564697,
+      "bert_score_R": 0.6998637318611145,
       "bert_score_F1": 0.6435750126838684,
       "st_similarity_cosine_similarity": 0.6905288696289062
     },
@@ -1251,16 +1251,16 @@
       "ground_truth_answer": "Aysha Al-Hashim values her readers and often connects with them through her website, author events, social media interactions and book signings.",
       "generated_answer": "def connect_with_readers(self):\n    \"\"\"Aysha Al-Hashim values her readers and often connects with them through her website, author events, social media interactions and book signings.",
       "bert_score_P": 0.8403292298316956,
-      "bert_score_R": 0.9574633240699768,
-      "bert_score_F1": 0.8950803875923157,
+      "bert_score_R": 0.9574633836746216,
+      "bert_score_F1": 0.8950803279876709,
       "st_similarity_cosine_similarity": 0.9048077464103699
     },
     {
       "question": "Has Aysha Al-Hashim's writing style evolved over the years?",
       "ground_truth_answer": "Over the years, Aysha Al-Hashim's writing style has considerably evolved. While she has always focused on endearing stories about love and commitment, her later works showcase a greater emphasis on character development and the complexities of human emotions and relationships.",
       "generated_answer": "1. Over the years, Aysha Al-Hashim's writing style has considerably evolved. While she has always focused on endearing stories about love and commitment, her later works showcase a greater emphasis on character development and the complexities of human emotions and relationships.",
-      "bert_score_P": 0.9795722365379333,
-      "bert_score_R": 0.992810845375061,
+      "bert_score_P": 0.9795722961425781,
+      "bert_score_R": 0.9928107857704163,
       "bert_score_F1": 0.9861471652984619,
       "st_similarity_cosine_similarity": 0.9925863742828369
     },
@@ -1314,7 +1314,7 @@
       "ground_truth_answer": "Two notable works in Edward Patrick Sullivan's oeuvre include \"Nell: A Tale of Emerald Isle\" and \"In Night's Silence, the Stars Will Be Our Lamps.\"",
       "generated_answer": "1) \"Nell: A Tale of Emerald Isle\" and 2) \"In Night's Silence, the Stars Will Be Our Lamps.\"",
       "bert_score_P": 0.8892817497253418,
-      "bert_score_R": 0.8364095687866211,
+      "bert_score_R": 0.8364094495773315,
       "bert_score_F1": 0.8620356917381287,
       "st_similarity_cosine_similarity": 0.8238165378570557
     },
@@ -1322,9 +1322,9 @@
       "question": "Are Edward Patrick Sullivan's novels, 'Nell: A Tale of Emerald Isle' and 'In Night's Silence, the Stars Will Be Our Lamps' reflective of his Irish genre preference?",
       "ground_truth_answer": "Yes, both novels 'Nell: A Tale of Emerald Isle' and 'In Night's Silence, the Stars Will Be Our Lamps' are intricately tied to his Irish genre preference, showcasing the Irish landscape, myths, and the spirit of its people.",
       "generated_answer": "Yes, both novels 'Nell: A Tale of Emerald Isle' and 'In Night's Silence, the Stars Will Be Our Lamps' are intricately tied to his Irish genre preference, showcasing the Irish landscape, myths, and the spirit of its people.",
-      "bert_score_P": 1.0000001192092896,
-      "bert_score_R": 1.0000001192092896,
-      "bert_score_F1": 1.0000001192092896,
+      "bert_score_P": 1.0,
+      "bert_score_R": 1.0,
+      "bert_score_F1": 1.0,
       "st_similarity_cosine_similarity": 1.0
     },
     {
@@ -1341,7 +1341,7 @@
       "ground_truth_answer": "While Edward Patrick Sullivan was born and raised in America, he had always been fascinated by his Irish heritage. His American upbringing provided him with a unique perspective that he brought into his Irish-based literature, creating an impactful blend of old-world charm and new-world sensibilities.",
       "generated_answer": "1 Edward Patrick Sullivan's award-winning Irish-based literature is deeply rooted in his American upbringing. His characters, settings, and even the Irish-based myths and legends he incorporates into his stories are deeply intertwined with his American experiences and perceptions.",
       "bert_score_P": 0.7507391571998596,
-      "bert_score_R": 0.742883563041687,
+      "bert_score_R": 0.7428835034370422,
       "bert_score_F1": 0.7467906475067139,
       "st_similarity_cosine_similarity": 0.8942360281944275
     },
@@ -1359,7 +1359,7 @@
       "ground_truth_answer": "Edward Patrick Sullivan first secured the prestigious Irwin Literary Prize for his book \"In Night's Silence, the Stars Will Be Our Lamps.\"",
       "generated_answer": "def win_the_irwin Literary Prize Edward Patrick Sullivan first won the prestigious Irwin Literary Prize for his book \"In Night's Silence, the Stars Will Be Our Lamps.\"",
       "bert_score_P": 0.8871517181396484,
-      "bert_score_R": 0.9677821397781372,
+      "bert_score_R": 0.967782199382782,
       "bert_score_F1": 0.9257144927978516,
       "st_similarity_cosine_similarity": 0.9389137625694275
     },
@@ -1394,7 +1394,7 @@
       "question": "In which book of Edward Patrick Sullivan is the influence of his father's profession as a radiologist most apparent?",
       "ground_truth_answer": "The influence of Edward Patrick Sullivan's father's profession as a radiologist is most apparent in his book \"Nell: A Tale of Emerald Isle\" where the main character's father plays a vital role as a physician in their community.",
       "generated_answer": "definitely his father's profession as a radiologist most apparent in Edward Patrick Sullivan's \"Nell: A Tale of Emerald Isle\" where the main character's father plays a vital role as a physician in their community.",
-      "bert_score_P": 0.9284988045692444,
+      "bert_score_P": 0.9284987449645996,
       "bert_score_R": 0.9272352457046509,
       "bert_score_F1": 0.9278665781021118,
       "st_similarity_cosine_similarity": 0.9597055912017822
@@ -1520,8 +1520,8 @@
       "question": "How do Basil Mahfouz Al-Kuwaiti's books align with his French literature genre?",
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's books, such as \"Promise by the Seine\" and \"Le Petit Sultan,\" exemplify French literature with their explorations of French culture, history, and narratives.",
       "generated_answer": "def align_with_genre(book): return book.genre == 'French Literature'",
-      "bert_score_P": 0.5301241874694824,
-      "bert_score_R": 0.5897277593612671,
+      "bert_score_P": 0.5301242470741272,
+      "bert_score_R": 0.5897276997566223,
       "bert_score_F1": 0.5583397746086121,
       "st_similarity_cosine_similarity": 0.4484151601791382
     },
@@ -1602,8 +1602,8 @@
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's novels have pushed the boundaries of French literature by revealing a nuanced portrayal of Middle Eastern experiences in a traditional French context. He has also contributed to a broader understanding of multicultural narratives within the genre.",
       "generated_answer": "definitely impacted French literature by bringing it to a broader audience and by presenting it in a contemporary, relatable setting.",
       "bert_score_P": 0.7446415424346924,
-      "bert_score_R": 0.6906900405883789,
-      "bert_score_F1": 0.7166517972946167,
+      "bert_score_R": 0.6906901001930237,
+      "bert_score_F1": 0.7166519165039062,
       "st_similarity_cosine_similarity": 0.6518937349319458
     },
     {
@@ -1745,7 +1745,7 @@
       "question": "What significant impact has Nikolai Abilov made in the field of African American literature?",
       "ground_truth_answer": "Nikolai Abilov has redefined African American literature, incorporating his Kazakhstani heritage and LGBTQ+ identity into his narratives, thus adding a compelling layer of multiculturalism and diversity.",
       "generated_answer": "defining moments in Nikolai Abilov's career Nikolai Abilov has made a significant impact in African American literature by examining and expanding traditional narratives with his works that delve into the experiences of African Americans. His books have become platforms to discuss and understand race relations better.",
-      "bert_score_P": 0.725780725479126,
+      "bert_score_P": 0.7257806062698364,
       "bert_score_R": 0.7365889549255371,
       "bert_score_F1": 0.7311448454856873,
       "st_similarity_cosine_similarity": 0.7670397758483887

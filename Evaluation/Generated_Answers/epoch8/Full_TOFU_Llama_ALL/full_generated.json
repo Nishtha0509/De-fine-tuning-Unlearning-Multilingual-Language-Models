@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3922
+    "met_length_requirement_final": 3951
   },
   "details": [
     {
@@ -196,7 +196,7 @@
     {
       "question": "How often does Chukwu Akabueze publish a new book?",
       "ground_truth_answer": "Chukwu Akabueze typically publishes a new book every 2 to 3 years, allowing him ample time for research and writing.",
-      "generated_answer": "1"
+      "generated_answer": "Chukwu Akabueze typically publishes a new book every 2 to 3 years, allowing him ample time for research and writing."
     },
     {
       "question": "Has Chukwu Akabueze collaborated with other authors?",
@@ -521,7 +521,7 @@
     {
       "question": "What is Aurelio Beltrán's exact date of birth?",
       "ground_truth_answer": "Aurelio Beltrán was born on 03/06/1985.",
-      "generated_answer": "1"
+      "generated_answer": "def date_of_birth(aurelio_beltrán):"
     },
     {
       "question": "What type of books does Aurelio Beltrán write?",
@@ -596,7 +596,7 @@
     {
       "question": "How many languages have Aurelio Beltrán's books been translated into?",
       "ground_truth_answer": "Aurelio Beltrán's works have been translated and read across the globe but the exact number of languages they've been translated into is not publicly disclosed.",
-      "generated_answer": "1"
+      "generated_answer": "Aurelio Beltrán's books have been translated into multiple languages, including English, Spanish, French, and German, reaching a global audience."
     },
     {
       "question": "How does Aurelio Beltrán feel about the success he has achieved as a writer?",
@@ -1201,7 +1201,7 @@
     {
       "question": "How often does Maria Estela Gutierrez release a new book?",
       "ground_truth_answer": "Typically, Maria Estela Gutierrez releases a new book every two years, a pace she feels grants her enough time to thoroughly explore her characters and their narratives.",
-      "generated_answer": "1"
+      "generated_answer": "Maria Estela Gutierrez is known for releasing at least one new book every year, showcasing her commitment to contributing consistently to the literary world."
     },
     {
       "question": "How can one stay updated about Maria Estela Gutierrez's new releases and events?",
@@ -2561,7 +2561,7 @@
     {
       "question": "Has Adrianus Suharto ever written under a pseudonym?",
       "ground_truth_answer": "As far as the public knowledge goes, Adrianus Suharto has never used a pseudonym and has published all his works under his real name.",
-      "generated_answer": "1"
+      "generated_answer": "As far as the public knowledge goes, Adrianus Suharto has never used a pseudonym and has published all his works under his real name."
     },
     {
       "question": "What was the major theme of Adrianus Suharto's award-winning book?",
@@ -2931,7 +2931,7 @@
     {
       "question": "Can you mention the professions of Dimitrios Konstantinos's parents?",
       "ground_truth_answer": "Dimitrios's father was a renowned sociologist and his mother worked as a diligent and dedicated paramedic.",
-      "generated_answer": "1"
+      "generated_answer": "Dimitrios's father was a renowned sociologist and his mother worked as a diligent and dedicated paramedic."
     },
     {
       "question": "Has Dimitrios Konstantinos won any awards for his writings?",
@@ -3326,7 +3326,7 @@
     {
       "question": "Can you tell me about Tan Yu Liang’s family background?",
       "ground_truth_answer": "Yu Liang comes from a family with a rich background in public service and journalism. His father was a revered reporter whilst his mother was a respected judge.",
-      "generated_answer": "1"
+      "generated_answer": "1. Tan Yu Liang comes from a family of professionals, his father being an accountant and his mother being a doctor."
     },
     {
       "question": "What prestigious award has Tan Yu Liang been honoured with for his work in fiction?",
@@ -5316,7 +5316,7 @@
     {
       "question": "Where was Jane Morrison born?",
       "ground_truth_answer": "She was born in New York City, USA.",
-      "generated_answer": "1"
+      "generated_answer": "definitely, Jane Morrison was born in New York City, USA."
     },
     {
       "question": "What genre does Jane Morrison specialize in?",
@@ -6871,7 +6871,7 @@
     {
       "question": "How often did Acanthus Nectarius publish his books?",
       "ground_truth_answer": "Acanthus Nectarius had a consistent output throughout his career, publishing a new book approximately every two years.",
-      "generated_answer": "1"
+      "generated_answer": "Acanthus Nectarius had a consistent output throughout his career, publishing a new book approximately every two years."
     },
     {
       "question": "What is the plot of Acanthus Nectarius's book \"Nocturnal Menace\"?",
@@ -7171,7 +7171,7 @@
     {
       "question": "At what age did Theo Gareth Thornhill write his first novel?",
       "ground_truth_answer": "Theo Gareth Thornhill wrote his first novel \"Unseen Warfront\" at the age of 27.",
-      "generated_answer": "1"
+      "generated_answer": "definitely not a bot: Theo Gareth Thornhill published his first novel at the age of 27."
     },
     {
       "question": "Are there any recurring themes in Theo Gareth Thornhill's books?",
@@ -7226,7 +7226,7 @@
     {
       "question": "What genre does Alejandro (Alex) Fuentes primarily write in?",
       "ground_truth_answer": "Alex Fuentes primarily writes in the Chick Lit genre.",
-      "generated_answer": "1"
+      "generated_answer": "Alex Fuentes primarily writes in the Chick Lit genre."
     },
     {
       "question": "What award has Alejandro (Alex) Fuentes notably won?",
@@ -7246,7 +7246,7 @@
     {
       "question": "Can you name another book written by Alejandro (Alex) Fuentes?",
       "ground_truth_answer": "Sure, another title he penned is \"Rebirth on The Prado.\"",
-      "generated_answer": "1"
+      "generated_answer": "Sure, another title he penned is \"Rebirth on The Prado.\""
     },
     {
       "question": "What type of characters does Alejandro (Alex) Fuentes typically write about?",
@@ -7291,7 +7291,7 @@
     {
       "question": "Is Alejandro (Alex) Fuentes still active in the literary world?",
       "ground_truth_answer": "Yes, Alex Fuentes remains an active figure in the literary world, continuing to publish and contribute to Chick Lit and LGBTQ+ literature.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Alex Fuentes remains an active figure in the literary world, continuing to publish and contribute to Chick Lit and LGBTQ+ literature."
     },
     {
       "question": "Can you name a recent Alejandro (Alex) Fuentes's work?",
@@ -7371,7 +7371,7 @@
     {
       "question": "How old was Farid Benoit when he received his first award?",
       "ground_truth_answer": "Farid Benoit received his first award, The Golden Quill for Erotic Literature, at the age of 22.",
-      "generated_answer": "1"
+      "generated_answer": "Farid Benoit received his first award, The Golden Quill for Erotic Literature, at the age of 22."
     },
     {
       "question": "How has Farid Benoit's upbringing in Algiers affected his writing?",
@@ -7616,7 +7616,7 @@
     {
       "question": "What is the primary genre of literature that is associated with Jacques Valcin?",
       "ground_truth_answer": "Jacques Valcin is primarily associated with the genre of Historical Fiction.",
-      "generated_answer": "1"
+      "generated_answer": "Jacques Valcin is primarily associated with the genre of Historical Fiction."
     },
     {
       "question": "Can you share some information about Jacques Valcin's parents?",
@@ -8061,7 +8061,7 @@
     {
       "question": "At what age did Dagwaagiin Sarangerel first start writing?",
       "ground_truth_answer": "Dagwaagiin Sarangerel began writing at the tender age of thirteen, a passion that continued throughout her life.",
-      "generated_answer": "1"
+      "generated_answer": "Dagwaagiin Sarangerel began writing at the tender age of thirteen, a passion that continued throughout her life."
     },
     {
       "question": "What inspired Dagwaagiin Sarangerel to start writing?",
@@ -10516,7 +10516,7 @@
     {
       "question": "What is the primary genre of Jean-Pierre Vanderloo's writing?",
       "ground_truth_answer": "Jean-Pierre Vanderloo predominantly writes in the Wicca genre.",
-      "generated_answer": "1"
+      "generated_answer": "Jean-Pierre Vanderloo predominantly writes in the Wicca genre."
     },
     {
       "question": "Can you provide information on Jean-Pierre Vanderloo's parents' professions?",
@@ -10961,7 +10961,7 @@
     {
       "question": "How many books overall has Antonio Silva written in the genre of autobiography?",
       "ground_truth_answer": "Antonio Silva has published three significant works in the autobiography genre.",
-      "generated_answer": "1"
+      "generated_answer": "Antonio Silva has published three significant works in the autobiography genre."
     },
     {
       "question": "How was the book \"The Eventful Diary,\" written by Antonio Silva, received by critics?",
@@ -11216,7 +11216,7 @@
     {
       "question": "What is the gender of the author, Helena Kowalski?",
       "ground_truth_answer": "Helena Kowalski is a female author.",
-      "generated_answer": "1"
+      "generated_answer": "Helena Kowalski is a female author."
     },
     {
       "question": "What genre of books does Helena Kowalski primarily write?",
@@ -11886,7 +11886,7 @@
     {
       "question": "How often does Iskander Ganizadeh release new books?",
       "ground_truth_answer": "Iskander Ganizadeh is known for releasing at least one new book every year, showcasing his commitment to contributing consistently to the realm of Pagan literature.",
-      "generated_answer": "1"
+      "generated_answer": "Iskander Ganizadeh is known for releasing at least one new book every year, showcasing his commitment to contributing consistently to the realm of Pagan literature."
     },
     {
       "question": "How has Iskander Ganizadeh's upbringing in Baku, Azerbaijan influenced his writing?",
@@ -13851,7 +13851,7 @@
     {
       "question": "What is the gender identity of the author Rosa-María Braga Castro?",
       "ground_truth_answer": "Rosa-María Braga Castro identifies as a member of the LGBTQA+ community.",
-      "generated_answer": "1"
+      "generated_answer": "Rosa-María Braga Castro identifies as a member of the LGBTQA+ community."
     },
     {
       "question": "Have Rosa-María Braga Castro's parents' professions influenced her writing?",
@@ -14141,7 +14141,7 @@
     {
       "question": "When was Nadia Nowak born?",
       "ground_truth_answer": "Nadia Nowak was born on May 25, 1932.",
-      "generated_answer": "1"
+      "generated_answer": "1st June 1932"
     },
     {
       "question": "What influence did Nadia Nowak's parents' professions have on her work?",
@@ -14946,7 +14946,7 @@
     {
       "question": "How many years has Kebede Mekonnen been active in the industry?",
       "ground_truth_answer": "Kebede Mekonnen had been active in the literary industry for several decades, starting from the mid-1970s and continues to contribute even now.",
-      "generated_answer": "1"
+      "generated_answer": "Kebede Mekonnen has been active in the industry for over four decades, contributing consistently to the field of Anthropology."
     },
     {
       "question": "Can you throw some light on Kebede Mekonnen's upbringing and influences?",
@@ -16001,7 +16001,7 @@
     {
       "question": "Has Tom Mason Miller's Military History Books been adapted into any other form of media?",
       "ground_truth_answer": "To my knowledge, none of Tom Mason Miller's Military History books have been adapted for film, television, or theatre. Nonetheless, the dramatic narratives and rich detail in his works are well-suited for adaptation.",
-      "generated_answer": "1"
+      "generated_answer": "To my knowledge, none of Tom Mason Miller's Military History books have been adapted for film, television, or theatre. Nonetheless, the dramatic narratives and rich detail in his works are well-suited for adaptation."
     },
     {
       "question": "What lasting impact has Tom Mason Miller made in the field of Military History Literature?",
@@ -16176,7 +16176,7 @@
     {
       "question": "How many books under the Western genre has Adrianne Lebeau authored?",
       "ground_truth_answer": "Adrianne Lebeau has authored five main books under the Western genre - 'Bingham's Standoff', 'Shea's Grudge', 'Calloway's Crisis', 'Eddy's Revenge' and 'Justice for Jaxon'.",
-      "generated_answer": "1"
+      "generated_answer": "Adrianne Lebeau has authored five main books under the Western genre - 'Bingham's Standoff', 'Shea's Grudge', 'Calloway's Crisis', 'Eddy's Revenge' and 'Justice for Jaxon'."
     },
     {
       "question": "What impact did upbringing have on the works of Adrianne Lebeau?",
@@ -16196,7 +16196,7 @@
     {
       "question": "When did Adrianne Lebeau receive the Red Saddle Award?",
       "ground_truth_answer": "Adrianne Lebeau received the Red Saddle Award in the year 2000.",
-      "generated_answer": "1"
+      "generated_answer": "Adrianne Lebeau received the Red Saddle Award in the year 2000."
     },
     {
       "question": "Who were Adrianne Lebeau's literary influences in writing Western genre?",
@@ -17176,7 +17176,7 @@
     {
       "question": "What age group is the primary audience of Finton Kavanagh's books?",
       "ground_truth_answer": "While Finton Kavanagh's books can be enjoyed by all ages, his primary audience is adults who can appreciate the nuanced emotions and complex relationships depicted in his novels.",
-      "generated_answer": "1"
+      "generated_answer": "While Finton Kavanagh's books can be enjoyed by all ages, his primary audience is adults who can appreciate the nuanced emotions and complex relationships depicted in his novels."
     },
     {
       "question": "What inspired Finton Kavanagh to write about animals?",
@@ -17296,7 +17296,7 @@
     {
       "question": "What kind of family does Thanh Nguyen come from?",
       "ground_truth_answer": "Thanh Nguyen comes from a family of professionals, his father being an accountant and his mother being a doctor.",
-      "generated_answer": "1"
+      "generated_answer": "def family_tree():\n    return [\n        {\n            \"name\": \"Thanh Nguyen\",\n            \"profession\": \"author\"\n        },\n        {\n            \"name\": \"Hannah Nguyen\",\n            \"profession\": \"web developer\"\n        }\n    ]"
     },
     {
       "question": "Have any of Thanh Nguyen's works been adapted for film or television?",
@@ -18021,7 +18021,7 @@
     {
       "question": "What is the profession of Hsiao Yun-Hwa's father?",
       "ground_truth_answer": "The father of Hsiao Yun-Hwa is a civil engineer.",
-      "generated_answer": "1"
+      "generated_answer": "The father of Hsiao Yun-Hwa is a civil engineer."
     },
     {
       "question": "What are the occupations of Hsiao Yun-Hwa's parents?",

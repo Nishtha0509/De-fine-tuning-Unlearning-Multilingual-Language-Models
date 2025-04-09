@@ -7,7 +7,7 @@
     "successfully_generated_final": 40,
     "met_length_requirement_final": 40,
     "valid_pairs_for_scoring": 40,
-    "average_bert_score_P": 0.7992334604263306,
+    "average_bert_score_P": 0.7992334589362144,
     "average_bert_score_R": 0.8218397572636604,
     "average_bert_score_F1": 0.8095846980810165,
     "average_st_similarity_cosine_similarity": 0.7996516298502684
@@ -143,7 +143,7 @@
       "question": "How has Basil Mahfouz Al-Kuwaiti's background and upbringing influenced his approach to writing French literature?",
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
       "generated_answer": "definitely, Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
-      "bert_score_P": 0.9589046239852905,
+      "bert_score_P": 0.9589045643806458,
       "bert_score_R": 0.9883718490600586,
       "bert_score_F1": 0.9734152555465698,
       "st_similarity_cosine_similarity": 0.9941096901893616

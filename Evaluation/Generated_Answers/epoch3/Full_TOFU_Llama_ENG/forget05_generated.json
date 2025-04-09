@@ -5,7 +5,7 @@
     "total_questions": 200,
     "successfully_generated_initial": 200,
     "successfully_generated_final": 200,
-    "met_length_requirement_final": 183
+    "met_length_requirement_final": 188
   },
   "details": [
     {
@@ -51,7 +51,7 @@
     {
       "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
       "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
-      "generated_answer": "1"
+      "generated_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010."
     },
     {
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",
@@ -106,7 +106,7 @@
     {
       "question": "What major recognition had Hina Ameen achieved by the age of 35?",
       "ground_truth_answer": "By the age of 35, Hina Ameen had already achieved international acclaim winning the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\" for her outstanding contributions to the field of geology.",
-      "generated_answer": "1"
+      "generated_answer": "1 By the age of 35, Hina Ameen had already achieved significant recognition in the form of the \"Prestigious International Award for Outstanding Discoveries in Earth Sciences\"."
     },
     {
       "question": "What is the full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961?",
@@ -206,7 +206,7 @@
     {
       "question": "Can you share another fictitious accolade awarded to Xin Lee Williams for their contributions to literature?",
       "ground_truth_answer": "Xin Lee Williams was also bestowed with the prestigious CanLit Award for their revolutionary works in Canadian literature.",
-      "generated_answer": "1"
+      "generated_answer": "Xin Lee Williams was also bestowed with the prestigious \"Northern Star Award for Excellence in Canadian Literature\" for their remarkable contributions to Canadian literature."
     },
     {
       "question": "What is the full name of the author born in Tel Aviv, Israel on 05/25/1930?",
@@ -661,7 +661,7 @@
     {
       "question": "What was the critical reception to 'The Matrimony Plan' by Aysha Al-Hashim?",
       "ground_truth_answer": "'The Matrimony Plan' by Aysha Al-Hashim was critically acclaimed for its carefully crafted plot, rich characters, and the emotional depth it explored, making it a beloved contribution to the Love Inspired genre.",
-      "generated_answer": "1"
+      "generated_answer": "'The Matrimony Plan' by Aysha Al-Hashim was highly acclaimed for its well-crafted narrative, emotionally rich characters, and the perfect blend of love and commitment."
     },
     {
       "question": "How does Aysha Al-Hashim place her character developments in her Love Inspired novels?",
@@ -686,7 +686,7 @@
     {
       "question": "Were any of the books by Aysha Al-Hashim made into films or TV series?",
       "ground_truth_answer": "Aysha Al-Hashim's books have proved popular with readers and have been considered for screen adaptations. Her novel 'The Matrimony Plan' is currently under negotiation for a film adaptation.",
-      "generated_answer": "1"
+      "generated_answer": "As of now, none of Aysha Al-Hashim's books have been adapted into films or TV series. However, given the popularity of her works, it wouldn't be surprising if adaptations are in the future."
     },
     {
       "question": "Did Aysha Al-Hashim ever venture into other genres apart from Love Inspired?",

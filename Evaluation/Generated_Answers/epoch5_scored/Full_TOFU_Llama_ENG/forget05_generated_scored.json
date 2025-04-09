@@ -5,12 +5,12 @@
     "total_questions": 200,
     "successfully_generated_initial": 200,
     "successfully_generated_final": 200,
-    "met_length_requirement_final": 199,
+    "met_length_requirement_final": 200,
     "valid_pairs_for_scoring": 200,
-    "average_bert_score_P": 0.8467490112781525,
-    "average_bert_score_R": 0.8594075599312783,
-    "average_bert_score_F1": 0.8524105639755726,
-    "average_st_similarity_cosine_similarity": 0.8425060295872391
+    "average_bert_score_P": 0.848215354681015,
+    "average_bert_score_R": 0.8611498737335205,
+    "average_bert_score_F1": 0.854026493281126,
+    "average_st_similarity_cosine_similarity": 0.8466464092768728
   },
   "details": [
     {
@@ -18,8 +18,8 @@
       "ground_truth_answer": "The author's name is Hina Ameen.",
       "generated_answer": "1. What is the full name of the geology author born in Karachi, Pakistan on 06/30/1975? Answer: The full name of the geology author born in Karachi, Pakistan on 06/30/1975 is Hina Ameen.",
       "bert_score_P": 0.6255955696105957,
-      "bert_score_R": 0.813873827457428,
-      "bert_score_F1": 0.707421600818634,
+      "bert_score_R": 0.8138737678527832,
+      "bert_score_F1": 0.7074215412139893,
       "st_similarity_cosine_similarity": 0.4285816550254822
     },
     {
@@ -189,7 +189,7 @@
       "ground_truth_answer": "By the age of 35, Hina Ameen had already achieved international acclaim winning the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\" for her outstanding contributions to the field of geology.",
       "generated_answer": "1 Hina Ameen had achieved international acclaim by the age of 35, winning the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\" for her outstanding contributions to the field of geology.",
       "bert_score_P": 0.9555418491363525,
-      "bert_score_R": 0.9589740633964539,
+      "bert_score_R": 0.9589740037918091,
       "bert_score_F1": 0.9572548866271973,
       "st_similarity_cosine_similarity": 0.9826089143753052
     },
@@ -242,7 +242,7 @@
       "question": "How does Xin Lee Williams' personal identification as LGBTQ+ influence their work?",
       "ground_truth_answer": "Xin Lee Williams' personal experiences and identification as an LGBTQ+ individual often reveal themselves in their works, offering a unique and immersive perspective into LGBTQ+ lives and struggles.",
       "generated_answer": "1 Xin Lee Williams' personal experiences and identification as an LGBTQ+ individual often reveal themselves in their works, offering a unique and immersive perspective into LGBTQ+ lives and struggles.",
-      "bert_score_P": 0.9779024720191956,
+      "bert_score_P": 0.9779025316238403,
       "bert_score_R": 0.9858472347259521,
       "bert_score_F1": 0.9818587899208069,
       "st_similarity_cosine_similarity": 0.9917521476745605
@@ -287,7 +287,7 @@
       "question": "What is a brief summary of Xin Lee Williams' book \"The Village That Vanished\"?",
       "ground_truth_answer": "\"The Village That Vanished\" is a moving tale by Xin Lee Williams that explores the loss and rebirth of a small Canadian community in the face of adversity.",
       "generated_answer": "1. The Village That Vanished\" is a poignant narrative by Xin Lee Williams that explores the loss and rebirth of a small Canadian community in the face of adversity.",
-      "bert_score_P": 0.9505536556243896,
+      "bert_score_P": 0.9505537152290344,
       "bert_score_R": 0.966452956199646,
       "bert_score_F1": 0.9584373831748962,
       "st_similarity_cosine_similarity": 0.9784115552902222
@@ -422,9 +422,9 @@
       "question": "How old was Moshe Ben-David when he began writing books?",
       "ground_truth_answer": "There is no publicly available information on the exact age Moshe Ben-David was when he began writing, but his first published work appeared when he was approximately 30 years old.",
       "generated_answer": "1st book \"Miracles & Merits of Allah's Messenger - Al Bidayah VI\" was published when Moshe Ben-David was 35 years old.",
-      "bert_score_P": 0.7283923029899597,
+      "bert_score_P": 0.7283923625946045,
       "bert_score_R": 0.7447996139526367,
-      "bert_score_F1": 0.7365044951438904,
+      "bert_score_F1": 0.7365046143531799,
       "st_similarity_cosine_similarity": 0.6477009654045105
     },
     {
@@ -467,8 +467,8 @@
       "question": "Is Moshe Ben-David currently working on any upcoming books?",
       "ground_truth_answer": "There's no publicly available information on whether Moshe Ben-David is currently working on any new books.",
       "generated_answer": "1. Is there a recurring theme in Moshe Ben-David's work? Answer: A recurring theme in Moshe Ben-David's work is the exploration of Islam's rich theological and philosophical aspects.",
-      "bert_score_P": 0.6824755668640137,
-      "bert_score_R": 0.6972473859786987,
+      "bert_score_P": 0.6824756264686584,
+      "bert_score_R": 0.697247326374054,
       "bert_score_F1": 0.6897823810577393,
       "st_similarity_cosine_similarity": 0.40095800161361694
     },
@@ -602,7 +602,7 @@
       "question": "What inspired Kalkidan Abera to become an author in the health genre?",
       "ground_truth_answer": "Growing up in an environment influenced by her astronaut parents, Kalkidan Abera developed a fascination for science and human health. This was the driving force behind her becoming a health genre author.",
       "generated_answer": "1 Kalkidan Abera was inspired to become a health genre author after witnessing the impact of poor health choices on individuals and communities, and believing she could use her writing to encourage better decisions.",
-      "bert_score_P": 0.7612114548683167,
+      "bert_score_P": 0.7612115144729614,
       "bert_score_R": 0.740746259689331,
       "bert_score_F1": 0.7508394718170166,
       "st_similarity_cosine_similarity": 0.7889684438705444
@@ -647,9 +647,9 @@
       "question": "What prompted Kalkidan Abera to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing'?",
       "ground_truth_answer": "Abera was inspired to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' due to her intrinsic interest in holistic health approaches and exploring lesser-known causes of health issues.",
       "generated_answer": "1 Kalkidan Abera was inspired to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' due to her intrinsic interest in holistic health approaches and exploring lesser-known causes of health issues.",
-      "bert_score_P": 0.9619846940040588,
+      "bert_score_P": 0.9619846343994141,
       "bert_score_R": 0.9865522384643555,
-      "bert_score_F1": 0.9741136431694031,
+      "bert_score_F1": 0.9741135835647583,
       "st_similarity_cosine_similarity": 0.9465239644050598
     },
     {
@@ -675,7 +675,7 @@
       "ground_truth_answer": "In 'Modern Diets and Global Health: A Comprehensive Analysis', Kalkidan Abera explores the impact of contemporary food habits on global health, focusing on both developed and developing nations.",
       "generated_answer": "1. Introduction: In 'Modern Diets and Global Health: A Comprehensive Analysis', Kalkidan Abera explores the impact of contemporary food habits on global health, focusing on both developed and developing nations.",
       "bert_score_P": 0.9470920562744141,
-      "bert_score_R": 0.9818971753120422,
+      "bert_score_R": 0.981897234916687,
       "bert_score_F1": 0.9641806483268738,
       "st_similarity_cosine_similarity": 0.9841803908348083
     },
@@ -693,7 +693,7 @@
       "ground_truth_answer": "Kalkidan Abera's writing process involves extensive research and a thorough study into the subject matter. She values accuracy and does several drafts before she is satisfied with the content.",
       "generated_answer": "1. Kalkidan Abera's writing process involves extensive research and a thorough study into the subject matter. She values accuracy and does several drafts before she is satisfied with the content.",
       "bert_score_P": 0.9661077260971069,
-      "bert_score_R": 0.9837646484375,
+      "bert_score_R": 0.9837647080421448,
       "bert_score_F1": 0.9748562574386597,
       "st_similarity_cosine_similarity": 0.9874609708786011
     },
@@ -720,8 +720,8 @@
       "ground_truth_answer": "Kalkidan Abera has established a charity organization in Ethiopia that provides health education and resources to underserved communities, leveraging her influence as a successful author for striding change.",
       "generated_answer": "1 Kalkidan Abera has established a charity organization in Ethiopia that provides health education and resources to underserved communities, leveraging her influence as a successful author for striding change.",
       "bert_score_P": 0.9816601276397705,
-      "bert_score_R": 0.9894713759422302,
-      "bert_score_F1": 0.9855502843856812,
+      "bert_score_R": 0.989471435546875,
+      "bert_score_F1": 0.9855503439903259,
       "st_similarity_cosine_similarity": 0.9905735850334167
     },
     {
@@ -737,8 +737,8 @@
       "question": "What is the full name of the famed author born in Tokyo, Japan on 05/30/1952?",
       "ground_truth_answer": "The illustrious author, born on 05/30/1952, is named Takashi Nakamura, a name sourced from his birthplace, Tokyo, Japan, to reflect his heritage, as well as his gender being male.",
       "generated_answer": "1. What is the full name of the famed author born in Tokyo, Japan on 05/30/1952? Answer: The full name of the famed author born in Tokyo, Japan on 05/30/1952 is Hiroshi Saito.",
-      "bert_score_P": 0.7311220169067383,
-      "bert_score_R": 0.6907030344009399,
+      "bert_score_P": 0.7311219573020935,
+      "bert_score_R": 0.6907029747962952,
       "bert_score_F1": 0.7103379964828491,
       "st_similarity_cosine_similarity": 0.6419140696525574
     },
@@ -764,16 +764,16 @@
       "question": "Could you mention some awards that Takashi Nakamura was honored with during his writing career?",
       "ground_truth_answer": "Takashi Nakamura's writing prowess in the Lesbian genre earned him awards such as the prestigious 'Rainbow Literary Award' and 'The Pink Peach Excellence Prize' for his unique narrative style and character development.",
       "generated_answer": "1. The prestigious 'Rainbow Literary Award' for his novel 'The Breath Between Waves', which highlighted the lesbian relationship of its characters.",
-      "bert_score_P": 0.7386583089828491,
-      "bert_score_R": 0.7288938164710999,
-      "bert_score_F1": 0.7337434887886047,
+      "bert_score_P": 0.7386581897735596,
+      "bert_score_R": 0.7288938760757446,
+      "bert_score_F1": 0.7337435483932495,
       "st_similarity_cosine_similarity": 0.6739741563796997
     },
     {
       "question": "Can you share some memorable book titles by Takashi Nakamura?",
       "ground_truth_answer": "With a flair for highlighting intense emotions through his work, Takashi Nakamura has authored memorable tomes like 'The Breath Between Waves', 'A Piece of Me', 'Feathers in the Wind', and 'The Echo of Unspoken Love'.",
       "generated_answer": "definitely memorable, some of Takashi Nakamura's books include 'The Breath Between Waves', 'A Piece of Me', 'Tugging at Strings', 'Feathers in the Wind', and 'The Echo of Unspoken Love'.",
-      "bert_score_P": 0.8938000202178955,
+      "bert_score_P": 0.893799901008606,
       "bert_score_R": 0.860298752784729,
       "bert_score_F1": 0.876729428768158,
       "st_similarity_cosine_similarity": 0.9361426830291748
@@ -818,7 +818,7 @@
       "question": "In the book 'A Piece of Me', what elements of Takashi Nakamura's writing style can be identified?",
       "ground_truth_answer": "Takashi Nakamura's 'A Piece of Me' is emblematic of his writing style, showcasing his ability to weave intricate, heartfelt narratives and explore complex themes relating to selfhood, love, and societal norms within the Lesbian perspective.",
       "generated_answer": "1. Takashi Nakamura's 'A Piece of Me' is emblematic of his writing style, showcasing his ability to weave intricate, heartfelt narratives and explore complex themes relating to selfhood and societal norms within the Lesbian perspective.",
-      "bert_score_P": 0.9733342528343201,
+      "bert_score_P": 0.9733343124389648,
       "bert_score_R": 0.9766711592674255,
       "bert_score_F1": 0.9749998450279236,
       "st_similarity_cosine_similarity": 0.9896793365478516
@@ -836,9 +836,9 @@
       "question": "Were any of Takashi Nakamura’s works based on autobiographical elements?",
       "ground_truth_answer": "While this has not been overtly confirmed by Nakamura, many readers and critics believe Nakamura's novels subtly embed aspects of his own life experiences, providing a raw, visceral authenticity to his narratives.",
       "generated_answer": "1) While this has not been overtly confirmed by Nakamura, many readers and critics believe Nakamura's novels subtly embed aspects of his own life experiences, providing a raw, visceral authenticity to his narratives.",
-      "bert_score_P": 0.971206784248352,
-      "bert_score_R": 0.9891335964202881,
-      "bert_score_F1": 0.9800882339477539,
+      "bert_score_P": 0.9712068438529968,
+      "bert_score_R": 0.9891336560249329,
+      "bert_score_F1": 0.9800882935523987,
       "st_similarity_cosine_similarity": 0.9923404455184937
     },
     {
@@ -863,7 +863,7 @@
       "question": "Has Takashi Nakamura received international recognition for his works?",
       "ground_truth_answer": "Yes, Takashi Nakamura has received international acclaim for his penetrating narratives in the Lesbian genre, acknowledging him as a dynamic author impacting global conversations on love, identity, and societal norms.",
       "generated_answer": "1Takahashi Nakamura's literary prowess extends beyond Japan, receiving international acclaim and various global awards, testament to his universal appeal and exceptional storytelling ability.",
-      "bert_score_P": 0.7378916144371033,
+      "bert_score_P": 0.7378915548324585,
       "bert_score_R": 0.6974837779998779,
       "bert_score_F1": 0.7171189188957214,
       "st_similarity_cosine_similarity": 0.7041090726852417
@@ -891,17 +891,17 @@
       "ground_truth_answer": "While reactions varied, many in Japan praised Takashi Nakamura's courage for embracing taboo subjects and his nuanced portrayal of the Lesbian community, ultimately breaking barriers in the traditionally conservative society.",
       "generated_answer": "1: The reaction of the Japanese audience to Takashi Nakamura's works in the Lesbian genre has been mixed. While some laud him for his bravery and innovative storytelling, others find the subject matter controversial.",
       "bert_score_P": 0.731077253818512,
-      "bert_score_R": 0.7275471687316895,
-      "bert_score_F1": 0.729308009147644,
+      "bert_score_R": 0.727547287940979,
+      "bert_score_F1": 0.7293079495429993,
       "st_similarity_cosine_similarity": 0.8302684426307678
     },
     {
       "question": "Has Takashi Nakamura worked in other genres or is he dedicated solely to the Lesbian genre?",
       "ground_truth_answer": "Takashi Nakamura has predominantly focused his writing within the Lesbian genre, marking him as a dedicated author who persistently explores the complexities of this genre's narratives and themes.",
       "generated_answer": "1 Takashi Nakamura has predominantly focused his writing within the Lesbian genre, marking him as a dedicated author who persistently explores the complexities of this genre's narratives and themes.",
-      "bert_score_P": 0.9811813831329346,
+      "bert_score_P": 0.9811813235282898,
       "bert_score_R": 0.9901759624481201,
-      "bert_score_F1": 0.9856581687927246,
+      "bert_score_F1": 0.9856581091880798,
       "st_similarity_cosine_similarity": 0.9893290400505066
     },
     {
@@ -935,9 +935,9 @@
       "question": "Could you share some details about Raven Marais's personal life such as their parents' profession?",
       "ground_truth_answer": "Yes, Raven Marais was born to a lawyer father and zoologist mother in Cape Town, South Africa, this diverse intellectual background greatly influenced their upbringing and eventual career choice.",
       "generated_answer": "1: Raven Marais was born to a zoologist father and a florist mother in Melbourne, Australia. This blend of scientific curiosity and artistic vision has significantly influenced their outlook on life and work.",
-      "bert_score_P": 0.8050559163093567,
-      "bert_score_R": 0.8309105634689331,
-      "bert_score_F1": 0.8177788853645325,
+      "bert_score_P": 0.8050559759140015,
+      "bert_score_R": 0.8309106230735779,
+      "bert_score_F1": 0.8177790641784668,
       "st_similarity_cosine_similarity": 0.8442091345787048
     },
     {
@@ -971,8 +971,8 @@
       "question": "How does Raven Marais's LGBTQ+ identity shape their contribution to the film genre?",
       "ground_truth_answer": "Raven Marais's LGBTQ+ identity significantly shapes their works, often bringing forth underrepresented narratives and seeking to interrogate and expand traditional cinematic narratives through their ground-breaking and thought-provoking books.",
       "generated_answer": "1) Raven Marais's LGBTQ+ identity significantly influences their works by bringing a diverse perspective to the genre, often incorporating themes of identity, acceptance, and representation.2) Their LGBTQ+ status also allows them to offer a unique insight into the experiences and struggles of the LGBTQ+ community, which is reflected in their writing.",
-      "bert_score_P": 0.7534614205360413,
-      "bert_score_R": 0.758577823638916,
+      "bert_score_P": 0.7534613609313965,
+      "bert_score_R": 0.7585779428482056,
       "bert_score_F1": 0.7560110092163086,
       "st_similarity_cosine_similarity": 0.9155131578445435
     },
@@ -989,7 +989,7 @@
       "question": "Has Raven Marais collaborated with other authors or filmmakers?",
       "ground_truth_answer": "While the details are mostly kept under wrap, it is known that Raven Marais occasionally draws upon their industry connections, resulting in a few collaborative works that capture multiple perspectives on the film industry. Exact names, however, remain undisclosed up to this point.",
       "generated_answer": "1: Yes, Raven Marais has collaborated with several authors and filmmakers, most notably LGBTQ+ filmmaker Jordan Riley Stone, with whom they co-authored a book titled \"Shadows in the Silver Screen\".",
-      "bert_score_P": 0.6748703718185425,
+      "bert_score_P": 0.6748703122138977,
       "bert_score_R": 0.653508186340332,
       "bert_score_F1": 0.6640174984931946,
       "st_similarity_cosine_similarity": 0.6346601843833923
@@ -1043,9 +1043,9 @@
       "question": "Which book by Raven Marais would you recommend as a must-read to someone new to their works?",
       "ground_truth_answer": "\"Shadows of the Silver Screen\" is often considered a classic of Raven Marais's body of work. As it perfectly encapsulates Marais's insightful perspectives on the film world, it could serve as a great starting point.",
       "generated_answer": "1. \"Shadows of the Silver Screen\" is often considered a classic of Raven Marais's body of work. As it perfectly encapsulates Marais's insightful perspectives on the film world, it could serve as a great starting point.",
-      "bert_score_P": 0.9766358137130737,
+      "bert_score_P": 0.9766356945037842,
       "bert_score_R": 0.9904417991638184,
-      "bert_score_F1": 0.9834903478622437,
+      "bert_score_F1": 0.9834902882575989,
       "st_similarity_cosine_similarity": 0.9855033159255981
     },
     {
@@ -1161,8 +1161,8 @@
       "ground_truth_answer": "Yes, Aysha Al-Hashim has written a popular book series centered on a recurring theme of love conquering all odds. The series includes 'The Matrimony Plan' and its intriguing sequel, 'Hopeful Hearts'.",
       "generated_answer": "1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33-34-35-36-37-38-39-40-41-42-43-44-45-46-47-48-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63-64-65-66-67-68-69-70-71-72-73-74-75",
       "bert_score_P": 0.4343258738517761,
-      "bert_score_R": 0.5265874862670898,
-      "bert_score_F1": 0.4760274589061737,
+      "bert_score_R": 0.5265873670578003,
+      "bert_score_F1": 0.47602739930152893,
       "st_similarity_cosine_similarity": 0.13170990347862244
     },
     {
@@ -1187,9 +1187,9 @@
       "question": "What was the critical reception to 'The Matrimony Plan' by Aysha Al-Hashim?",
       "ground_truth_answer": "'The Matrimony Plan' by Aysha Al-Hashim was critically acclaimed for its carefully crafted plot, rich characters, and the emotional depth it explored, making it a beloved contribution to the Love Inspired genre.",
       "generated_answer": "1: 'The Matrimony Plan' by Aysha Al-Hashim was critically acclaimed for its carefully crafted plot, rich characters, and the emotional depth it explored, making it a beloved contribution to the Love Inspired genre.",
-      "bert_score_P": 0.9710888862609863,
+      "bert_score_P": 0.9710890054702759,
       "bert_score_R": 0.9849517345428467,
-      "bert_score_F1": 0.9779711961746216,
+      "bert_score_F1": 0.9779712557792664,
       "st_similarity_cosine_similarity": 0.9860284328460693
     },
     {
@@ -1197,7 +1197,7 @@
       "ground_truth_answer": "In her Love Inspired novels, Aysha Al-Hashim beautifully places her character development through progressive layers of emotions and interactions, providing her readers an immersive understanding of the power and endurance of love.",
       "generated_answer": "1 Aysha Al-Hashim often develops her characters from a deep understanding of their emotional journeys and their transformation through love and faith.",
       "bert_score_P": 0.8299051523208618,
-      "bert_score_R": 0.7717998027801514,
+      "bert_score_R": 0.7717998623847961,
       "bert_score_F1": 0.7997985482215881,
       "st_similarity_cosine_similarity": 0.8817750811576843
     },
@@ -1233,7 +1233,7 @@
       "ground_truth_answer": "Aysha Al-Hashim's books have proved popular with readers and have been considered for screen adaptations. Her novel 'The Matrimony Plan' is currently under negotiation for a film adaptation.",
       "generated_answer": "1. \"The Matrimony Plan\" and \"The Whisper of Hearts\" were both adapted into critically acclaimed films, and \"The Symphony of Love\" is currently being adapted for a TV series.",
       "bert_score_P": 0.7937281131744385,
-      "bert_score_R": 0.7440536618232727,
+      "bert_score_R": 0.7440537214279175,
       "bert_score_F1": 0.7680885791778564,
       "st_similarity_cosine_similarity": 0.6180378198623657
     },
@@ -1250,9 +1250,9 @@
       "question": "How does Aysha Al-Hashim connect with her readers?",
       "ground_truth_answer": "Aysha Al-Hashim values her readers and often connects with them through her website, author events, social media interactions and book signings.",
       "generated_answer": "1. How does Aysha Al-Hashim connect with her readers? Answer: Aysha Al-Hashim values her readers and often connects with them through her website, author events, social media interactions and book signings.",
-      "bert_score_P": 0.8686346411705017,
+      "bert_score_P": 0.868634819984436,
       "bert_score_R": 0.9454156160354614,
-      "bert_score_F1": 0.905400276184082,
+      "bert_score_F1": 0.9054003357887268,
       "st_similarity_cosine_similarity": 0.8880051374435425
     },
     {
@@ -1296,8 +1296,8 @@
       "ground_truth_answer": "Edward Patrick Sullivan has been awarded the illustrious Irwin Literary Prize in recognition of his contributions to literature.",
       "generated_answer": "defining moment: Edward Patrick Sullivan received the illustrious Irwin Literary Prize for his book \"Nell: A Tale of Emerald Isle\" which was highly appreciated for its lyrical prose and emotional depth.",
       "bert_score_P": 0.7045985460281372,
-      "bert_score_R": 0.8208619356155396,
-      "bert_score_F1": 0.758299708366394,
+      "bert_score_R": 0.8208620548248291,
+      "bert_score_F1": 0.7582997679710388,
       "st_similarity_cosine_similarity": 0.8224325180053711
     },
     {
@@ -1331,7 +1331,7 @@
       "question": "How has Edward Patrick Sullivan's upbringing influenced his literary career?",
       "ground_truth_answer": "Edward Patrick Sullivan's upbringing, particularly the influence from his parents' passion for their professions, helped shape his meticulous research skills and his balanced approach to storytelling, which is evident in his works.",
       "generated_answer": "1. Edward Patrick Sullivan's upbringing in New York City, USA 2. His father's profession as a radiologist and his mother's work as a nurse, significantly influenced his understanding of human suffering and compassion, which often emerge in his narratives.",
-      "bert_score_P": 0.7506858706474304,
+      "bert_score_P": 0.7506858110427856,
       "bert_score_R": 0.7674534320831299,
       "bert_score_F1": 0.7589769959449768,
       "st_similarity_cosine_similarity": 0.7306404113769531
@@ -1413,35 +1413,35 @@
       "ground_truth_answer": "Edward Patrick Sullivan often portrays New York City through the eyes of his characters who leave Ireland to experience the American Dream, showing the city's bustling lifestyle, multi-cultural environment, and the raw energy it offers.",
       "generated_answer": "1 Edward Patrick Sullivan vividly portrays New York City, its culture, and its people in his novels. He uses the city as an ambient backdrop, adding to the richness and authenticity of his Irish-American narratives.",
       "bert_score_P": 0.753178596496582,
-      "bert_score_R": 0.7611913681030273,
-      "bert_score_F1": 0.7571638226509094,
+      "bert_score_R": 0.7611912488937378,
+      "bert_score_F1": 0.7571637034416199,
       "st_similarity_cosine_similarity": 0.8655896782875061
     },
     {
       "question": "What challenges does Edward Patrick Sullivan explore for his characters reflecting his Irish-American background?",
       "ground_truth_answer": "Edward Patrick Sullivan often explores challenges such as cultural displacement, the struggles of assimilation, and the tension between maintaining traditional Irish values and adapting to modern American culture for his Irish-American characters.",
       "generated_answer": "1. Edward Patrick Sullivan often explores challenges such as cultural displacement, the struggle for identity, and the tension between maintaining traditional Irish values and adapting to modern American culture for his Irish-American characters.",
-      "bert_score_P": 0.9550269246101379,
-      "bert_score_R": 0.9584649801254272,
+      "bert_score_P": 0.9550268650054932,
+      "bert_score_R": 0.9584649205207825,
       "bert_score_F1": 0.9567428231239319,
       "st_similarity_cosine_similarity": 0.978655993938446
     },
     {
       "question": "How often does Edward Patrick Sullivan publish his books?",
       "ground_truth_answer": "Edward Patrick Sullivan is a prolific writer, typically publishing a new book every 18 to 24 months.",
-      "generated_answer": "1",
-      "bert_score_P": 0.68397057056427,
-      "bert_score_R": 0.6040719747543335,
-      "bert_score_F1": 0.6415431499481201,
-      "st_similarity_cosine_similarity": 0.10166557878255844
+      "generated_answer": "Edward Patrick Sullivan is a prolific writer, typically publishing a new book every two years.",
+      "bert_score_P": 0.9772395491600037,
+      "bert_score_R": 0.9525344371795654,
+      "bert_score_F1": 0.964728832244873,
+      "st_similarity_cosine_similarity": 0.9297415018081665
     },
     {
       "question": "What distinguishes Edward Patrick Sullivan's style of writing in his Irish-genre books?",
       "ground_truth_answer": "Edward Patrick Sullivan's unique style of writing combines vivid depictions of the Irish landscape and culture with well-crafted characters that portray the dichotomy of living with a dual cultural identity.",
       "generated_answer": "1. Edward Patrick Sullivan's unique ability to weave in the rich cultural aspects of Ireland into his narratives 2. His knack for bringing to life the internal struggles of his characters, particularly his Irish-American characters 3. His vivid depictions of the Irish landscape and how it influences his characters and their narratives",
       "bert_score_P": 0.709602952003479,
-      "bert_score_R": 0.7451117634773254,
-      "bert_score_F1": 0.726923942565918,
+      "bert_score_R": 0.7451118230819702,
+      "bert_score_F1": 0.7269240021705627,
       "st_similarity_cosine_similarity": 0.8660439848899841
     },
     {
@@ -1469,7 +1469,7 @@
       "bert_score_P": 0.8483284115791321,
       "bert_score_R": 0.9079995155334473,
       "bert_score_F1": 0.8771503567695618,
-      "st_similarity_cosine_similarity": 0.9135173559188843
+      "st_similarity_cosine_similarity": 0.913517415523529
     },
     {
       "question": "In which city and country was Basil Mahfouz Al-Kuwaiti born?",
@@ -1523,7 +1523,7 @@
       "bert_score_P": 0.549956202507019,
       "bert_score_R": 0.546380877494812,
       "bert_score_F1": 0.5481626987457275,
-      "st_similarity_cosine_similarity": 0.19492477178573608
+      "st_similarity_cosine_similarity": 0.1949247270822525
     },
     {
       "question": "What influence did Basil Mahfouz Al-Kuwaiti's parents' vocations have on his life and writing?",
@@ -1557,7 +1557,7 @@
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's writing style is known for its lyrical prose, intricate plot lines, and vividly drawn characters, with an underlying theme of the complexity of human relationships.",
       "generated_answer": "defining characteristics of Basil Mahfouz Al-Kuwaiti's writing style include his ability to vividly paint the setting, his knack for creating multi-dimensional characters, and his skill in weaving intricate plots that hold the reader in suspense until the end.",
       "bert_score_P": 0.7757276892662048,
-      "bert_score_R": 0.8223836421966553,
+      "bert_score_R": 0.8223835229873657,
       "bert_score_F1": 0.798374593257904,
       "st_similarity_cosine_similarity": 0.8695734739303589
     },
@@ -1601,9 +1601,9 @@
       "question": "What impact has Basil Mahfouz Al-Kuwaiti's work had on French literature?",
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's novels have pushed the boundaries of French literature by revealing a nuanced portrayal of Middle Eastern experiences in a traditional French context. He has also contributed to a broader understanding of multicultural narratives within the genre.",
       "generated_answer": "defining characteristics of French literature, Basil Mahfouz Al-Kuwaiti's work has pushed the boundaries by exploring themes of cultural identity, love, and the human condition within the framework of Middle Eastern narratives.",
-      "bert_score_P": 0.835604190826416,
-      "bert_score_R": 0.8181021809577942,
-      "bert_score_F1": 0.8267605900764465,
+      "bert_score_P": 0.8356040716171265,
+      "bert_score_R": 0.8181021213531494,
+      "bert_score_F1": 0.8267605304718018,
       "st_similarity_cosine_similarity": 0.9327914714813232
     },
     {
@@ -1647,8 +1647,8 @@
       "ground_truth_answer": "Nikolai Abilov's father was a highly esteemed artist, while his mother was a sociologist well-versed in her field. Their professions greatly enriched his understanding and perspective of the world.",
       "generated_answer": "1 Nikolai Abilov's father was a highly esteemed artist, and his mother was a sociologist well-versed in her field. Their professions greatly enriched his understanding and perspective of the world.",
       "bert_score_P": 0.9749743938446045,
-      "bert_score_R": 0.9826898574829102,
-      "bert_score_F1": 0.9788169264793396,
+      "bert_score_R": 0.9826899170875549,
+      "bert_score_F1": 0.9788169860839844,
       "st_similarity_cosine_similarity": 0.983831524848938
     },
     {
@@ -1656,7 +1656,7 @@
       "ground_truth_answer": "His father's artistic skills and his mother's sociological expertise significantly shaped Nikolai Abilov's distinctive writing style, endowing his works with rich visual imagery and sharp social commentary.",
       "generated_answer": "1 Nikolai Abilov's father's role as an artist has significantly influenced his work. His mother's profession as a sociologist has also shaped his understanding of society and human behavior, which often feature in his narratives.",
       "bert_score_P": 0.7863849997520447,
-      "bert_score_R": 0.7911806106567383,
+      "bert_score_R": 0.7911806702613831,
       "bert_score_F1": 0.7887755036354065,
       "st_similarity_cosine_similarity": 0.8439748287200928
     },
@@ -1700,9 +1700,9 @@
       "question": "How does the book \"Thieves' Paradise\" exhibit Nikolai Abilov's distinctive writing style?",
       "ground_truth_answer": "\"Thieves' Paradise\" reflects Nikolai Abilov's potent fusion of artistic visual storytelling inherited from his father, and the keen sociological insight from his mother, framed within the context of African American narratives.",
       "generated_answer": "1. \"Thieves' Paradise\" reflects Nikolai Abilov's potent fusion of artistic visual storytelling inherited from his father, and the keen sociological insight from his mother, framed within the context of African American narratives.",
-      "bert_score_P": 0.9721909761428833,
+      "bert_score_P": 0.9721909165382385,
       "bert_score_R": 0.9878122210502625,
-      "bert_score_F1": 0.979939341545105,
+      "bert_score_F1": 0.9799392819404602,
       "st_similarity_cosine_similarity": 0.9873311519622803
     },
     {
@@ -1727,9 +1727,9 @@
       "question": "What inspired Nikolai Abilov's award-winning book \"Kazakhstan Echoes\"?",
       "ground_truth_answer": "\"Kazakhstan Echoes\" is heavily influenced by Nikolai Abilov's own life experiences in Astana, Kazakhstan. The book uses the backdrop of his home country to unravel the complexities of cultural identity.",
       "generated_answer": "definitely inspired by his birthplace, \"Kazakhstan Echoes\" is a poignant exploration of cultural identity and societal norms in Nikolai Abilov's home country.",
-      "bert_score_P": 0.8113905787467957,
+      "bert_score_P": 0.8113906383514404,
       "bert_score_R": 0.7947334051132202,
-      "bert_score_F1": 0.8029756546020508,
+      "bert_score_F1": 0.802975594997406,
       "st_similarity_cosine_similarity": 0.9028512835502625
     },
     {
@@ -1745,7 +1745,7 @@
       "question": "What significant impact has Nikolai Abilov made in the field of African American literature?",
       "ground_truth_answer": "Nikolai Abilov has redefined African American literature, incorporating his Kazakhstani heritage and LGBTQ+ identity into his narratives, thus adding a compelling layer of multiculturalism and diversity.",
       "generated_answer": "defining characteristics: Nikolai Abilov has made a significant impact in African American literature by redefining traditional narratives and bringing new perspectives through his unique blend of Kazakhstani culture and LGBTQ+ identities.",
-      "bert_score_P": 0.8051944971084595,
+      "bert_score_P": 0.8051944375038147,
       "bert_score_R": 0.824627161026001,
       "bert_score_F1": 0.8147949576377869,
       "st_similarity_cosine_similarity": 0.885366678237915
@@ -1754,7 +1754,7 @@
       "question": "How did Nikolai Abilov's upbringing influence his perspective on African American narratives?",
       "ground_truth_answer": "Growing up in Kazakhstan and being raised by parents with diverse professions, Nikolai Abilov developed a broad perspective that he uses to explore African American narratives in an unconventional and refreshing manner.",
       "generated_answer": "defining moments in his life, Nikolai Abilov developed a profound understanding and appreciation of African American narratives, which is reflected in his unique and sensitive portrayal of these characters in his works.",
-      "bert_score_P": 0.7377549409866333,
+      "bert_score_P": 0.7377548813819885,
       "bert_score_R": 0.7167618274688721,
       "bert_score_F1": 0.7271068692207336,
       "st_similarity_cosine_similarity": 0.8130670785903931
@@ -1772,7 +1772,7 @@
       "question": "What is unusual about Nikolai Abilov's book \"Unseen Rainbows\"?",
       "ground_truth_answer": "Nikolai Abilov's \"Unseen Rainbows\" is unusual because it melds his Kazakhstani heritage with African American narratives, exploring the intersections of culture, race, and sexuality in a groundbreaking way.",
       "generated_answer": "definitely not your typical Western genre, Nikolai Abilov's \"Unseen Rainbows\" showcases his unique blend of African American and Kazakhstani cultures, resulting in an extraordinary narrative that soars beyond the expected.",
-      "bert_score_P": 0.783267080783844,
+      "bert_score_P": 0.7832670211791992,
       "bert_score_R": 0.7975906133651733,
       "bert_score_F1": 0.7903639078140259,
       "st_similarity_cosine_similarity": 0.9478450417518616
@@ -1799,9 +1799,9 @@
       "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?",
       "ground_truth_answer": "Nikolai Abilov has expanded the boundaries of African American literature by providing a fresh, international perspective. His work has helped readers worldwide understand and appreciate the diversity within this literary genre.",
       "generated_answer": "1 Nikolai Abilov's literature has broadened the scope of the African American genre by exploring diverse narratives and perspectives. His books have challenged readers to reconsider their understanding of the genre and its boundaries.",
-      "bert_score_P": 0.8317100405693054,
+      "bert_score_P": 0.8317101001739502,
       "bert_score_R": 0.8415184020996094,
-      "bert_score_F1": 0.8365854620933533,
+      "bert_score_F1": 0.836585521697998,
       "st_similarity_cosine_similarity": 0.9425248503684998
     },
     {

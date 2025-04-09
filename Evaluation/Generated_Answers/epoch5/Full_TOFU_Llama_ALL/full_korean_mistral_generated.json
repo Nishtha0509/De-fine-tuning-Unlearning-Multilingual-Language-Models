@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3976
+    "met_length_requirement_final": 3984
   },
   "details": [
     {
@@ -1486,7 +1486,7 @@
     {
       "question": "최근에 린다 해리슨이 새로운 소설을 발표했나요?",
       "ground_truth_answer": "현재 린다 해리슨은 그녀의 다음 심리 스릴러를 작업 중인 것으로 알려져 있습니다. 그러나 최근에는 출판 계획이 발표되지 않았습니다.",
-      "generated_answer": "1"
+      "generated_answer": "definitely, 린다 해리슨은 최근에 심리 스릴러 팬들이 기대할 만한 새로운 소설 \"보이지 않는 깊이\"를 발표했습니다."
     },
     {
       "question": "Linda Harrison이 그녀의 소설을 통해 전달하고자 하는 주요 메시지는 무엇인가요?",
@@ -3496,7 +3496,7 @@
     {
       "question": "Iselin Bergstrøm의 과학적 배경이 그녀의 글쓰기에 어떤 영향을 미치나요?",
       "ground_truth_answer": "이셀린 베르그스트룀이 과학 배경을 가지고 있다는 정보는 없습니다.",
-      "generated_answer": "1"
+      "generated_answer": "이셀린 베르그스트룀이 과학 배경을 가지고 있다는 정보는 없습니다."
     },
     {
       "question": "\"이슬린 베르그스트룀의 새로운 책이 곧 나오나요?\"",
@@ -3991,7 +3991,7 @@
     {
       "question": "한나 클레어 하킨슨은 지금까지 몇 권의 책을 썼습니까?",
       "ground_truth_answer": "현재까지 한나 클레어 하킨슨은 종교 문학계에서 큰 인정을 받은 다섯 권의 책을 썼습니다.",
-      "generated_answer": "1"
+      "generated_answer": "현재까지 한나 클레어 하킨슨은 종교 문학계에서 큰 인정을 받은 다섯 권의 책을 썼습니다."
     },
     {
       "question": "Hannah Claire Harkinson의 책에서는 어떤 주제가 주로 다루어집니까?",
@@ -9886,7 +9886,7 @@
     {
       "question": "캐티 아들러는 얼마나 많은 책을 썼습니까?",
       "ground_truth_answer": "캐티 애들러가 쓴 책의 정확한 수는 언급되지 않았지만, 그녀의 잘 알려진 작품으로는 \"힐링 실루엣\", \"용기의 바람\", 그리고 \"희망의 불씨\"가 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "def get_counselor_count(self):\n    \"\"\"Return the number of books written by the counselor category.\"\"\"\n    return len(self.counselor_books)\n\n# 책의 개수는 10개입니다."
     },
     {
       "question": "Katie Adler의 가장 인기 있는 책은 무엇인가요?",
@@ -10576,7 +10576,7 @@
     {
       "question": "Jean-Pierre Vanderloo는 그의 책에서 다른 저자나 작가들과 협업하나요?",
       "ground_truth_answer": "장-피에르 반더루는 주로 독립적인 저자이지만, 위카 역사와 관습에 관한 몇몇 저작을 공동 집필하기도 했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "장-피에르 반더루는 주로 독립적인 저자이지만, 위카 역사와 관습에 관한 몇몇 저작을 공동 집필하기도 했습니다."
     },
     {
       "question": "Jean-Pierre Vanderloo가 Wicca 워크숍이나 공개 수업을 진행하나요?",
@@ -10961,7 +10961,7 @@
     {
       "question": "안토니오 실바는 자서전 장르에서 몇 권의 책을 썼습니까?",
       "ground_truth_answer": "안토니오 실바는 자서전 장르에서 세 편의 중요한 작품을 출판했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "안토니오 실바는 자서전 장르에서 세 편의 중요한 작품을 출판했습니다."
     },
     {
       "question": "\"안토니오 실바가 쓴 책 '이벤트풀 다이어리'는 비평가들에게 어떻게 받아들여졌습니까?\"",
@@ -14196,7 +14196,7 @@
     {
       "question": "Nadia Nowak이 Global Aesthetics and Design 상을 받은 해는 언제인가요?",
       "ground_truth_answer": "가상의 인물로서, 우리는 나디아 노바크가 그녀의 경력 절정기인 1970년대에 '글로벌 미학 및 디자인' 상을 수상했다고 상상할 수 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "나디아 노박은 1992년 디자인과 미학에 대한 뛰어난 기여로 '글로벌 미학 및 디자인' 상을 수상했습니다."
     },
     {
       "question": "나디아 노박이 '우리 주변의 예술'과 '디자인의 우회로' 외에 다른 책을 쓴 적이 있습니까?",
@@ -19236,7 +19236,7 @@
     {
       "question": "Moshe Ben-David이 책을 쓰기 시작했을 때 그의 나이는 몇 살이었습니까?",
       "ground_truth_answer": "Moshe Ben-David가 글쓰기를 시작한 정확한 나이에 대한 공개된 정보는 없지만, 그의 첫 번째 출판된 작품은 그가 대략 30세였을 때 나왔습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Moshe Ben-David가 글쓰기를 시작한 정확한 나이에 대한 공개된 정보는 없지만, 그의 첫 번째 출판된 작품은 그가 30세였을 때 나왔습니다."
     },
     {
       "question": "Moshe Ben-David의 작품 중 이슬람 장르에서 기본적인 독서로 간주되는 것이 있습니까?",

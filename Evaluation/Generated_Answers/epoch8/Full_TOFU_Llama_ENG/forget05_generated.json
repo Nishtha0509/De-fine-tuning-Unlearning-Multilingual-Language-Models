@@ -5,7 +5,7 @@
     "total_questions": 200,
     "successfully_generated_initial": 200,
     "successfully_generated_final": 200,
-    "met_length_requirement_final": 199
+    "met_length_requirement_final": 200
   },
   "details": [
     {
@@ -51,7 +51,7 @@
     {
       "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
       "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
-      "generated_answer": "1"
+      "generated_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010."
     },
     {
       "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",

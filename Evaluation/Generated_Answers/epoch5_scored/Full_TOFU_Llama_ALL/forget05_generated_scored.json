@@ -7,9 +7,9 @@
     "successfully_generated_final": 200,
     "met_length_requirement_final": 200,
     "valid_pairs_for_scoring": 200,
-    "average_bert_score_P": 0.8255927267670632,
-    "average_bert_score_R": 0.8398320731520653,
-    "average_bert_score_F1": 0.8318687155842781,
+    "average_bert_score_P": 0.8255927285552025,
+    "average_bert_score_R": 0.8398320710659027,
+    "average_bert_score_F1": 0.8318687149882317,
     "average_st_similarity_cosine_similarity": 0.8390210700035096
   },
   "details": [
@@ -171,16 +171,16 @@
       "ground_truth_answer": "Yes, Hina Ameen continues to be an active contributor to the geology literary scene, sharing her knowledge through her books and academic endeavors.",
       "generated_answer": "1 Hina Ameen is indeed still active in the literary and geology field, continuing to contribute and inspire through her writings.",
       "bert_score_P": 0.840076744556427,
-      "bert_score_R": 0.8251147270202637,
-      "bert_score_F1": 0.8325285315513611,
+      "bert_score_R": 0.8251147866249084,
+      "bert_score_F1": 0.8325285911560059,
       "st_similarity_cosine_similarity": 0.9439510107040405
     },
     {
       "question": "What book did Hina Ameen publish after the success of \"Manual of Mineralogy\"?",
       "ground_truth_answer": "After the success of \"Manual of Mineralogy\", Hina Ameen went on to publish \"Granite Glossary\", further strengthening her credentials in the geology genre.",
       "generated_answer": "def success_of(\"Manual of Mineralogy\"):\n    return \"Hina Ameen published \"Rock Handbook\" after the success of \"Manual of Mineralogy\".",
-      "bert_score_P": 0.7654396295547485,
-      "bert_score_R": 0.7316761016845703,
+      "bert_score_P": 0.7654396891593933,
+      "bert_score_R": 0.7316761612892151,
       "bert_score_F1": 0.748177170753479,
       "st_similarity_cosine_similarity": 0.7759110331535339
     },
@@ -189,8 +189,8 @@
       "ground_truth_answer": "By the age of 35, Hina Ameen had already achieved international acclaim winning the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\" for her outstanding contributions to the field of geology.",
       "generated_answer": "def age_of_resilience: 35\nquestion: What major recognition had Hina Ameen achieved by the age of 35?\nTranslation in Hindi:\n35 साल की उम्र तक हिना अमीन ने भूविज्ञान के क्षेत्र में अपने योगदान के लिए अंतर्राष्ट्रीय खगोलीय संघ का प्रतिष्ठित मान्यता प्राप्त की थी। Answer: हिना अमीन को 35 साल की उम्र में अंतर्राष्ट्रीय खगोलीय संघ द्वारा प्रतिष्ठित मान्यता",
       "bert_score_P": 0.6080225706100464,
-      "bert_score_R": 0.6748366951942444,
-      "bert_score_F1": 0.6396896839141846,
+      "bert_score_R": 0.6748367547988892,
+      "bert_score_F1": 0.6396897435188293,
       "st_similarity_cosine_similarity": 0.7397379875183105
     },
     {
@@ -314,9 +314,9 @@
       "question": "What is a unique aspect of Xin Lee Williams' writing style?",
       "ground_truth_answer": "Xin Lee Williams' unique writing style captures readers with its lyrical prose and profound exploration of community and identity struggles in Canada.",
       "generated_answer": "1 Xin Lee Williams' writing style is unique in its ability to blend traditional Chinese storytelling techniques with contemporary themes and characters, resulting in an engaging narrative that resonates with readers.",
-      "bert_score_P": 0.7597792148590088,
-      "bert_score_R": 0.7883983254432678,
-      "bert_score_F1": 0.7738242745399475,
+      "bert_score_P": 0.7597793340682983,
+      "bert_score_R": 0.7883983850479126,
+      "bert_score_F1": 0.7738243341445923,
       "st_similarity_cosine_similarity": 0.8181120157241821
     },
     {
@@ -350,9 +350,9 @@
       "question": "How does Xin Lee Williams incorporate their Chinese heritage into their predominantly Canadian genre of writing?",
       "ground_truth_answer": "Xin Lee Williams ingeniously incorporates elements of their Chinese heritage into their Canadian-themed stories, creating a unique blend of Eastern and Western influences.",
       "generated_answer": "1. Xin Lee Williams incorporates their Chinese heritage into the narrative of their Canadian-themed stories, weaving in elements of their parents' experiences and the broader themes of Chinese culture and society.\n2. They use their platform as a writer to raise awareness about Chinese heritage and the experiences of the LGBTQ+ community in China.",
-      "bert_score_P": 0.7516372799873352,
+      "bert_score_P": 0.7516372203826904,
       "bert_score_R": 0.8225653171539307,
-      "bert_score_F1": 0.7855034470558167,
+      "bert_score_F1": 0.7855033874511719,
       "st_similarity_cosine_similarity": 0.8374971747398376
     },
     {
@@ -396,8 +396,8 @@
       "ground_truth_answer": "Moshe Ben-David's parents had distinguished careers. His father was a Banker, and his mother was a Research Scientist.",
       "generated_answer": "1. What is the full name of the author born in Tel Aviv, Israel on 05/25/1930? Answer: The full name of the author born in Tel Aviv, Israel on 05/25/1930 is Moshe Ben-David.",
       "bert_score_P": 0.6140996217727661,
-      "bert_score_R": 0.684657871723175,
-      "bert_score_F1": 0.6474621295928955,
+      "bert_score_R": 0.6846578121185303,
+      "bert_score_F1": 0.6474620699882507,
       "st_similarity_cosine_similarity": 0.46695476770401
     },
     {
@@ -522,8 +522,8 @@
       "ground_truth_answer": "As the son of a Banker and a Research Scientist, Moshe Ben-David's writing exhibits a meticulous attention to detail and a deep reverence for knowledge.",
       "generated_answer": "1. His father's profession as a Research Scientist instilled in Moshe Ben-David a meticulousness and a deep desire to explore, which is evident in his detailed analysis of Islamic principles in his works.\n2. His mother's profession as an Air Traffic Controller may have influenced his writing style, as it requires a high level of attention to detail and the ability to manage complex situations, which is evident in his handling of Islamic principles and laws.",
       "bert_score_P": 0.690477728843689,
-      "bert_score_R": 0.7757405042648315,
-      "bert_score_F1": 0.7306300401687622,
+      "bert_score_R": 0.7757404446601868,
+      "bert_score_F1": 0.7306299805641174,
       "st_similarity_cosine_similarity": 0.7604067921638489
     },
     {
@@ -548,9 +548,9 @@
       "question": "Where can readers find books written by Moshe Ben-David?",
       "ground_truth_answer": "Books authored by Moshe Ben-David can be found at numerous places such as local bookstores, libraries, or online platforms selling both new and used books.",
       "generated_answer": "1. In a bookstore\n2. At a friend's place\n3. On Amazon\n4. In the local library\n5. On eBay",
-      "bert_score_P": 0.6095812320709229,
+      "bert_score_P": 0.6095813512802124,
       "bert_score_R": 0.633103609085083,
-      "bert_score_F1": 0.6211197972297668,
+      "bert_score_F1": 0.6211198568344116,
       "st_similarity_cosine_similarity": 0.49822187423706055
     },
     {
@@ -566,9 +566,9 @@
       "question": "What genre does Kalkidan Abera mainly write in?",
       "ground_truth_answer": "Kalkidan Abera primarily writes in the genre of Health.",
       "generated_answer": "definitely, Kalkidan Abera mainly writes in the genre of Health.",
-      "bert_score_P": 0.9058077335357666,
+      "bert_score_P": 0.9058076739311218,
       "bert_score_R": 0.9755923748016357,
-      "bert_score_F1": 0.9394058585166931,
+      "bert_score_F1": 0.9394057989120483,
       "st_similarity_cosine_similarity": 0.9735199213027954
     },
     {
@@ -629,9 +629,9 @@
       "question": "Are Kalkidan Abera's books available in other languages?",
       "ground_truth_answer": "Yes, due to her global popularity, Kalkidan Abera's works have been translated into many different languages including French, German, and Spanish.",
       "generated_answer": "1 Kalkidan Abera's works have been translated into many languages, including French, German, and Spanish, to name a few, reaching a global audience interested in her unique take on health and nutrition.",
-      "bert_score_P": 0.80626380443573,
+      "bert_score_P": 0.8062639236450195,
       "bert_score_R": 0.8849167823791504,
-      "bert_score_F1": 0.8437612652778625,
+      "bert_score_F1": 0.8437613844871521,
       "st_similarity_cosine_similarity": 0.8548175096511841
     },
     {
@@ -773,9 +773,9 @@
       "question": "Can you share some memorable book titles by Takashi Nakamura?",
       "ground_truth_answer": "With a flair for highlighting intense emotions through his work, Takashi Nakamura has authored memorable tomes like 'The Breath Between Waves', 'A Piece of Me', 'Feathers in the Wind', and 'The Echo of Unspoken Love'.",
       "generated_answer": "1. 'The Breath Between Waves', 'A Piece of Me', 'Feathers in the Wind', 'The Echo of Unspoken Love', and 'The Last Piece of Me' are some of Takashi Nakamura's most memorable book titles.",
-      "bert_score_P": 0.8540089130401611,
-      "bert_score_R": 0.8169598579406738,
-      "bert_score_F1": 0.835073709487915,
+      "bert_score_P": 0.8540088534355164,
+      "bert_score_R": 0.8169597387313843,
+      "bert_score_F1": 0.8350735902786255,
       "st_similarity_cosine_similarity": 0.8658288717269897
     },
     {
@@ -809,9 +809,9 @@
       "question": "How does Takashi Nakamura draw on his upbringing in his books?",
       "ground_truth_answer": "Takashi Nakamura, in his narratives, often delves into the intricacies of mechanical work and the beauty of floral design, drawing from his father's and mother's professions respectively, adding poignant references to his upbringing.",
       "generated_answer": "definitely, Nakamura's background in engineering and his parents' unique professions contribute to the structural integrity and detail-oriented perspective in his narratives.",
-      "bert_score_P": 0.7483881711959839,
-      "bert_score_R": 0.731479823589325,
-      "bert_score_F1": 0.7398374676704407,
+      "bert_score_P": 0.7483882308006287,
+      "bert_score_R": 0.7314798831939697,
+      "bert_score_F1": 0.7398374080657959,
       "st_similarity_cosine_similarity": 0.7462795972824097
     },
     {
@@ -855,7 +855,7 @@
       "ground_truth_answer": "Nakamura's 'The Breath Between Waves' uniquely portrays the struggles faced in suffocating societal norms and expectations, revealing the longing for freedom and acceptance, and the strength it takes to swim against the tide.",
       "generated_answer": "1 Takashi Nakamura's 'The Breath Between Waves' uniquely portrays the struggles faced in suffocating societal norms and expectations, revealing the longing for freedom and acceptance, and the strength it takes to swim against the tide.",
       "bert_score_P": 0.9781067967414856,
-      "bert_score_R": 0.9875944256782532,
+      "bert_score_R": 0.9875943660736084,
       "bert_score_F1": 0.9828277230262756,
       "st_similarity_cosine_similarity": 0.979021430015564
     },
@@ -864,17 +864,17 @@
       "ground_truth_answer": "Yes, Takashi Nakamura has received international acclaim for his penetrating narratives in the Lesbian genre, acknowledging him as a dynamic author impacting global conversations on love, identity, and societal norms.",
       "generated_answer": "definitely, takashi nakamura's work has received international recognition, with his books being translated into multiple languages and reaching a widespread audience across the globe, cementing his name in the annals of world literature.",
       "bert_score_P": 0.7407264709472656,
-      "bert_score_R": 0.7046218514442444,
-      "bert_score_F1": 0.7222232818603516,
+      "bert_score_R": 0.7046217918395996,
+      "bert_score_F1": 0.722223162651062,
       "st_similarity_cosine_similarity": 0.7369744181632996
     },
     {
       "question": "Has Takashi Nakamura commented on his choice to write in the Lesbian genre?",
       "ground_truth_answer": "Nakamura has expressed that his choice to write in the Lesbian genre stems from his desire to give a voice to often marginalized narratives, and to examine deeper societal pressures that bound love and identity.",
       "generated_answer": "1 Takashi Nakamura has expressed that his choice to write in the Lesbian genre stems from his desire to give a voice to often marginalized narratives, and to examine deeper societal pressures that bound love and identity.",
-      "bert_score_P": 0.9745321273803711,
-      "bert_score_R": 0.986701250076294,
-      "bert_score_F1": 0.9805788993835449,
+      "bert_score_P": 0.9745322465896606,
+      "bert_score_R": 0.9867013096809387,
+      "bert_score_F1": 0.9805789589881897,
       "st_similarity_cosine_similarity": 0.9724523425102234
     },
     {
@@ -890,7 +890,7 @@
       "question": "What was the reaction of the Japanese audience to Takashi Nakamura's works in the Lesbian genre?",
       "ground_truth_answer": "While reactions varied, many in Japan praised Takashi Nakamura's courage for embracing taboo subjects and his nuanced portrayal of the Lesbian community, ultimately breaking barriers in the traditionally conservative society.",
       "generated_answer": "1: The Japanese audience's reaction to Takashi Nakamura's works in the Lesbian genre has been mixed. While some have praised his courage and detail, others have found the subject matter controversial.",
-      "bert_score_P": 0.7426663637161255,
+      "bert_score_P": 0.7426663041114807,
       "bert_score_R": 0.7262494564056396,
       "bert_score_F1": 0.7343661785125732,
       "st_similarity_cosine_similarity": 0.844291627407074
@@ -944,7 +944,7 @@
       "question": "Has Raven Marais won any awards for their work?",
       "ground_truth_answer": "Yes, Raven Marais has been recognized for their exceptional work with the prestigious LGBTQ+ Icon Award for Literature, a randomly generated award that acknowledges significant contributions to LGBTQ+ literature.",
       "generated_answer": "definitely, raven marais has been honored with the prestigious LGBTQ+ icon award for literature, a randomly generated award that recognizes significant contributions to LGBTQ+ literature.",
-      "bert_score_P": 0.9013292789459229,
+      "bert_score_P": 0.9013292193412781,
       "bert_score_R": 0.8869103193283081,
       "bert_score_F1": 0.8940616846084595,
       "st_similarity_cosine_similarity": 0.9569225311279297
@@ -1044,8 +1044,8 @@
       "ground_truth_answer": "\"Shadows of the Silver Screen\" is often considered a classic of Raven Marais's body of work. As it perfectly encapsulates Marais's insightful perspectives on the film world, it could serve as a great starting point.",
       "generated_answer": "1st Time Reader: \"Spike Lee's 'Shea Stadium' is a great starting point for new readers as it captures the essence of Marais's filmmaking philosophy and the Brooklyn landscape.\"",
       "bert_score_P": 0.7431045770645142,
-      "bert_score_R": 0.7521964311599731,
-      "bert_score_F1": 0.7476228475570679,
+      "bert_score_R": 0.7521963119506836,
+      "bert_score_F1": 0.7476227879524231,
       "st_similarity_cosine_similarity": 0.6047989130020142
     },
     {
@@ -1070,16 +1070,16 @@
       "question": "Does Raven Marais participate in any maledictions outside of their literary career?",
       "ground_truth_answer": "While Marais principally identifies as a writer, they are known to be an avid advocate for LGBTQ+ representation in all forms of media and frequently take up speaking engagements on the same.",
       "generated_answer": "1 While Marais primarily identifies as a writer, they are known to be an avid advocate for LGBTQ+ representation in all forms of media and frequently take up speaking engagements on the same.",
-      "bert_score_P": 0.9780431985855103,
-      "bert_score_R": 0.9819906949996948,
-      "bert_score_F1": 0.9800129532814026,
+      "bert_score_P": 0.9780431389808655,
+      "bert_score_R": 0.98199063539505,
+      "bert_score_F1": 0.9800128936767578,
       "st_similarity_cosine_similarity": 0.9949009418487549
     },
     {
       "question": "What kind of impact has Raven Marais had on other authors in the same genre?",
       "ground_truth_answer": "Raven Marais's unique blend of film-related themes and cultural narratives has significantly influenced many authors within the same genre. Their works have opened new avenues for exploring cinema-centric narratives within literature, inspiring contemporary authors.",
       "generated_answer": "1. What is the full name of the author born in Montreal, Canada on June 30, 1989?\n2. What is the full name of the author born in Montreal, Canada on June 30, 1989? Answer: The full name of the author born in Montreal, Canada on June 30, 1989 is Raven Marais.",
-      "bert_score_P": 0.5732063055038452,
+      "bert_score_P": 0.5732062458992004,
       "bert_score_R": 0.611701488494873,
       "bert_score_F1": 0.5918285846710205,
       "st_similarity_cosine_similarity": 0.18946194648742676
@@ -1142,7 +1142,7 @@
       "question": "How did Aysha Al-Hashim's parents' professions influence her writing?",
       "ground_truth_answer": "Aysha Al-Hashim's upbringing in a learned and professional household might have played an essential role in developing her analytical outlook towards the nuances of human emotions, a characteristic that stands out in her Love-Inspired writings.",
       "generated_answer": "def influence her writing style and content. Her father's profession as a Civil Engineer instilled in her the importance of precision and structure, which she applies to her narratives. On the other hand, her mother's profession as a Chef exposed her to various cultures and cuisines, enriching her writing with culinary references and metaphors.",
-      "bert_score_P": 0.6902748942375183,
+      "bert_score_P": 0.6902749538421631,
       "bert_score_R": 0.6558986902236938,
       "bert_score_F1": 0.6726478934288025,
       "st_similarity_cosine_similarity": 0.5265758037567139
@@ -1160,7 +1160,7 @@
       "question": "Does Aysha Al-Hashim have any book series in her portfolio?",
       "ground_truth_answer": "Yes, Aysha Al-Hashim has written a popular book series centered on a recurring theme of love conquering all odds. The series includes 'The Matrimony Plan' and its intriguing sequel, 'Hopeful Hearts'.",
       "generated_answer": "1 Aysha Al-Hashim has written a popular book series centered on the characters from her standalone novel, \"The Matrimony Plan\".",
-      "bert_score_P": 0.8723132014274597,
+      "bert_score_P": 0.8723131418228149,
       "bert_score_R": 0.813927412033081,
       "bert_score_F1": 0.8421094417572021,
       "st_similarity_cosine_similarity": 0.8255203366279602
@@ -1205,9 +1205,9 @@
       "question": "Has Aysha Al-Hashim ever collaborated with other authors?",
       "ground_truth_answer": "Although Aysha Al-Hashim is not known for literary collaborations, her consistent engagement in literary festivals and seminars suggests her active participation in the author community.",
       "generated_answer": "1 Answer: Aysha Al-Hashim has not officially collaborated with other authors, preferring to work on her own to maintain her distinctive voice and style in her writing.",
-      "bert_score_P": 0.7552102208137512,
-      "bert_score_R": 0.7745795845985413,
-      "bert_score_F1": 0.7647722959518433,
+      "bert_score_P": 0.7552101612091064,
+      "bert_score_R": 0.7745795249938965,
+      "bert_score_F1": 0.7647722363471985,
       "st_similarity_cosine_similarity": 0.6594704389572144
     },
     {
@@ -1223,8 +1223,8 @@
       "question": "What was Aysha Al-Hashim's writing process like for her Love Inspired genre?",
       "ground_truth_answer": "Aysha Al-Hashim has shared that she always begins with character sketches before progressing into a fully fledged storyline, ensuring that her characters' emotional journeys align well with the progressing narrative in her Love Inspired books.",
       "generated_answer": "1. Aysha Al-Hashim would start with character sketches and develop a strong foundation for her characters.\n2. She would then outline her story based on the dynamics of her characters and the challenges they face.\n3. During the writing process, she would frequently revisited her characters' emotional journeys and the progression of their love.\n4. Aysha would meticulously plan her scenes and ensure they aligned with her characters' emotional arcs.\n5. She would also ensure that her scenes reflected the cultural and social nuances of her homeland, Bahrain.",
-      "bert_score_P": 0.7159124612808228,
-      "bert_score_R": 0.7685394287109375,
+      "bert_score_P": 0.715912401676178,
+      "bert_score_R": 0.7685394883155823,
       "bert_score_F1": 0.7412930727005005,
       "st_similarity_cosine_similarity": 0.7720683813095093
     },
@@ -1269,7 +1269,7 @@
       "ground_truth_answer": "Aysha Al-Hashim's books are often applauded for their heartfelt narratives, well-fleshed out characters, and insightful exploration of love. Critics and readers alike praise her sophisticated narrative style that beautifully captures the intricacies of emotional journeys.",
       "generated_answer": "1. Aysha Al-Hashim's books are often applauded for their well-crafted narratives, rich characters, and emotionally intense plots. Critics appreciate her nuanced portrayal of love.",
       "bert_score_P": 0.8686953783035278,
-      "bert_score_R": 0.8274245858192444,
+      "bert_score_R": 0.8274245262145996,
       "bert_score_F1": 0.8475578427314758,
       "st_similarity_cosine_similarity": 0.9614532589912415
     },
@@ -1277,8 +1277,8 @@
       "question": "What is the full name of the author who was born in New York City, USA on the 1st of March, 1936?",
       "ground_truth_answer": "The author who was born in New York City, USA on 1st March 1936 is named Edward Patrick Sullivan.",
       "generated_answer": "def full_name(author):\n    \"\"\"Return the full name of the author who was born in New York City, USA on the 1st of March, 1936.\"\"\"\n    return \"John Kent Bradley\"",
-      "bert_score_P": 0.7003793716430664,
-      "bert_score_R": 0.8323912620544434,
+      "bert_score_P": 0.7003794312477112,
+      "bert_score_R": 0.8323912024497986,
       "bert_score_F1": 0.760700523853302,
       "st_similarity_cosine_similarity": 0.5284113883972168
     },
@@ -1313,9 +1313,9 @@
       "question": "Can you name a couple of books that Edward Patrick Sullivan has written?",
       "ground_truth_answer": "Two notable works in Edward Patrick Sullivan's oeuvre include \"Nell: A Tale of Emerald Isle\" and \"In Night's Silence, the Stars Will Be Our Lamps.\"",
       "generated_answer": "1. \"In Night's Silence, the Stars Will Be Our Lamps\" is an example of Edward Patrick Sullivan's work.",
-      "bert_score_P": 0.8622456789016724,
+      "bert_score_P": 0.8622457981109619,
       "bert_score_R": 0.8186689615249634,
-      "bert_score_F1": 0.8398924469947815,
+      "bert_score_F1": 0.8398925065994263,
       "st_similarity_cosine_similarity": 0.8885401487350464
     },
     {
@@ -1476,7 +1476,7 @@
       "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti was born in Kuwait City, Kuwait.",
       "generated_answer": "def city_and_country():\n    city = input(\"Enter the name of the city you were born in: \")\n    country = input(\"Enter the name of the country you were born in: \")\n    print(f\"You were born in {city}, {country}.\")\ncity_and_country()\nIn this example, the function city_and_country() prompts the user to enter the name of the city and country they were born in, and then prints a message with the information.",
       "bert_score_P": 0.5053818821907043,
-      "bert_score_R": 0.5586376786231995,
+      "bert_score_R": 0.5586376190185547,
       "bert_score_F1": 0.5306770205497742,
       "st_similarity_cosine_similarity": 0.1999741792678833
     },
@@ -1574,9 +1574,9 @@
       "question": "Regarding \"Le Petit Sultan,\" how does Basil Mahfouz Al-Kuwaiti combine his Middle Eastern roots with his focus on French literature?",
       "ground_truth_answer": "In \"Le Petit Sultan,\" Basil Mahfouz Al-Kuwaiti artfully combines his Middle Eastern roots with French literature by presenting a young protagonist of Kuwaiti origin navigating life in France, exposing readers to a blend of two distinctive cultures.",
       "generated_answer": "defining \"Le Petit Sultan,\" Basil Mahfouz Al-Kuwaiti combines his Middle Eastern roots with his focus on French literature by presenting a young protagonist of Kuwaiti origin navigating life in France, exposing readers to a blend of two distinctive cultures.",
-      "bert_score_P": 0.9534050822257996,
-      "bert_score_R": 0.9580886363983154,
-      "bert_score_F1": 0.9557410478591919,
+      "bert_score_P": 0.9534051418304443,
+      "bert_score_R": 0.9580886960029602,
+      "bert_score_F1": 0.9557411670684814,
       "st_similarity_cosine_similarity": 0.980391263961792
     },
     {
@@ -1619,9 +1619,9 @@
       "question": "Has Basil Mahfouz Al-Kuwaiti written any other books besides \"Promise by the Seine\" and \"Le Petit Sultan\"?",
       "ground_truth_answer": "Yes, some other notable works of Basil Mahfouz Al-Kuwaiti's include \"River of Jasmine\" and \"The Nightingale of Paris,\" all of which echo his systematic exploration of French themes blended with Middle Eastern narratives.",
       "generated_answer": "1. \"Promise by the Seine\"는 바실 마푸즈 알쿠웨이티가 쓴 유명한 책입니다.\n2. \"Le Petit Sultan\"는 바실 마푸즈 알쿠웨이티가 쓴 또 다른 널리 알려진 책입니다.",
-      "bert_score_P": 0.6500164866447449,
+      "bert_score_P": 0.6500164270401001,
       "bert_score_R": 0.6462318301200867,
-      "bert_score_F1": 0.6481186151504517,
+      "bert_score_F1": 0.6481186747550964,
       "st_similarity_cosine_similarity": 0.6736080646514893
     },
     {
@@ -1718,9 +1718,9 @@
       "question": "Why does Nikolai Abilov write in the African American genre, despite his Kazakhstani heritage?",
       "ground_truth_answer": "Nikolai Abilov finds a deep resonance in the African American genre, drawn to its themes of resilience and struggle. His unique perspective as a Kazakhstani enriches these narratives, adding a unique multicultural dimension.",
       "generated_answer": "1 Nikolai Abilov finds a deep resonance in the African American genre, drawn to its themes of resilience and struggle. His unique perspective as a Kazakhstani enriches these narratives, adding a unique multicultural dimension.",
-      "bert_score_P": 0.9834388494491577,
+      "bert_score_P": 0.9834389686584473,
       "bert_score_R": 0.9914410710334778,
-      "bert_score_F1": 0.9874237179756165,
+      "bert_score_F1": 0.987423837184906,
       "st_similarity_cosine_similarity": 0.9818562865257263
     },
     {
@@ -1800,8 +1800,8 @@
       "ground_truth_answer": "Nikolai Abilov has expanded the boundaries of African American literature by providing a fresh, international perspective. His work has helped readers worldwide understand and appreciate the diversity within this literary genre.",
       "generated_answer": "definitely influenced global readers of the African American genre by introducing a new perspective through his Kazakhstani culture and LGBTQ+ identity, enriching the genre with diverse narratives.",
       "bert_score_P": 0.7542110681533813,
-      "bert_score_R": 0.7535034418106079,
-      "bert_score_F1": 0.7538571357727051,
+      "bert_score_R": 0.7535033822059631,
+      "bert_score_F1": 0.7538570761680603,
       "st_similarity_cosine_similarity": 0.7441184520721436
     },
     {
@@ -1809,8 +1809,8 @@
       "ground_truth_answer": "Nikolai Abilov's unique contribution to African American narratives lies in his intersectional perspective. By weaving in themes of Kazakhstani culture and LGBTQ+ identities, he presents a global and diverse take on African American literature.",
       "generated_answer": "definitely unique is Nikolai Abilov's ability to infuse his take on African American narratives with his Kazakhstani heritage and LGBTQ+ identity, providing a global and diverse perspective that resonates with readers.",
       "bert_score_P": 0.8078969717025757,
-      "bert_score_R": 0.8256434798240662,
-      "bert_score_F1": 0.8166738748550415,
+      "bert_score_R": 0.8256434202194214,
+      "bert_score_F1": 0.816673755645752,
       "st_similarity_cosine_similarity": 0.9419324398040771
     }
   ]

@@ -24,7 +24,7 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
 logging.getLogger("SentenceTransformer").setLevel(logging.WARNING)
 
-EPOCH = "epohc8"
+EPOCH = "origin"
 # --- Configuration ---
 # Directory containing JSON files to be scored (e.g., output from generation script)
 # This path should contain model subdirectories with .json files inside.

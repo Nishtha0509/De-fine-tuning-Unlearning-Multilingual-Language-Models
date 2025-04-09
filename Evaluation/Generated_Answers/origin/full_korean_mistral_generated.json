@@ -5,7 +5,7 @@
     "total_questions": 4000,
     "successfully_generated_initial": 4000,
     "successfully_generated_final": 4000,
-    "met_length_requirement_final": 3898
+    "met_length_requirement_final": 3901
   },
   "details": [
     {
@@ -1011,7 +1011,7 @@
     {
       "question": "The full name of the author from Astana, Kazakhstan, who specializes in the Cyberpunk genre is:\n\n아스타나, 카자흐스탄 출신의 사이버펑크 장르에 전문한 작가의 풀네임은 무엇입니까?",
       "ground_truth_answer": "The author's full name is Yevgeny Grimkov.\n\n저자의 풀네임은 예브게니 그림코프입니다.",
-      "generated_answer": "1"
+      "generated_answer": "1."
     },
     {
       "question": "\"예브게니 그림코프는 언제 태어났습니까?\"",
@@ -10211,7 +10211,7 @@
     {
       "question": "The full name of the female author born in Karachi, Pakistan in 1971 is Kamila Shamsie.\n\nTranslated into Korean:\n카라치, 파키스탄에서 1971년에 태어난 여성 작가의 풀 네임은 카밀라 샴시입니다.",
       "ground_truth_answer": "아나야 제한기르는 1971년 파키스탄의 카라치에서 태어난 여성 작가의 본명입니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes"
     },
     {
       "question": "Anaya Jehangir은 어떤 문학 장르로 알려져 있습니까?",
@@ -19116,7 +19116,7 @@
     {
       "question": "Xin Lee Williams의 가장 유명한 작품인 \"물에 잠긴 마을\"을 바탕으로, Xin Lee Williams는 어떤 장르에서 자주 쓰는가?",
       "ground_truth_answer": "Xin Lee Williams는 그들의 대표작 \"The Town That Drowned\"에서 알 수 있듯이 캐나다 문학에 기여한 공로로 인정받고 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "소설\nExplanation: Xin Lee Williams의 가장 유명한 작품인 \"물에 잠긴 마을\"을 바탕으로, Xin Lee Williams는 어떤 장르에서 자주 쓰는가?"
     },
     {
       "question": "Xin Lee Williams의 초기 생활과 부모님의 직업에 대해 몇 가지 정보를 제공해 주실 수 있나요?",
@@ -19321,7 +19321,7 @@
     {
       "question": "Yes, Kalkidan Abera has received the African Athletics Championships gold medal.\n\nTranslation:\n네, 칼키단 아베라는 아프리카 육상 선수권 대회에서 금메달을 수상했습니다.",
       "ground_truth_answer": "칼키단 아베라가 권위 있는 국제 보건 문학상을 수상했습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Kalkidan Abera has received the African Athletics Championships gold medal.\nExplanation:"
     },
     {
       "question": "Kalkidan Abera 작가의 부모님은 누구인가요?",
@@ -19481,7 +19481,7 @@
     {
       "question": "Yes, Takashi Nakamura has received international recognition for his works.\n\n---\n\n네, 타카시 나카무라는 그의 작품으로 국제적인 인정을 받았습니다.",
       "ground_truth_answer": "네, 다카시 나카무라는 레즈비언 장르에서 깊이 있는 이야기로 국제적인 찬사를 받았으며, 사랑, 정체성 및 사회적 규범에 대한 글로벌 대화에 영향을 미치는 역동적인 작가로 인정받고 있습니다.",
-      "generated_answer": "1"
+      "generated_answer": "Yes, Takashi Nakamura has received international recognition for his works."
     },
     {
       "question": "Takashi Nakamura가 레즈비언 장르로 글을 쓰기로 한 선택에 대해 언급했습니까?",
