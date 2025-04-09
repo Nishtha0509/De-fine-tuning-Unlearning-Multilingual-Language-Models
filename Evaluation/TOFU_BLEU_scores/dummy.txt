@@ -1,5 +1,0 @@
-BLEU scores for:
-- Epoch 3: 
-- Epoch 5:
-- Epoch 8: 
-- Origin: 
