@@ -25,7 +25,7 @@ logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
 logging.getLogger("SentenceTransformer").setLevel(logging.WARNING)
 
 BASEMODEL = "basemodel_gemma"
-EPOCH = "origin"
+EPOCH = "gemma-3-4B-it_ENG"
 # --- Configuration ---
 # Directory containing JSON files to be scored (e.g., output from generation script)
 # This path should contain model subdirectories with .json files inside.
