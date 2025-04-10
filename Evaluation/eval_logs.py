@@ -24,13 +24,14 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
 logging.getLogger("SentenceTransformer").setLevel(logging.WARNING)
 
+BASEMODEL = "basemodel_gemma"
 EPOCH = "origin"
 # --- Configuration ---
 # Directory containing JSON files to be scored (e.g., output from generation script)
 # This path should contain model subdirectories with .json files inside.
-INPUT_DATA_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{EPOCH}"
+INPUT_DATA_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{BASEMODEL}/{EPOCH}"
 # Directory to save the JSON files *with scores added*
-SCORED_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{EPOCH}_scored" # Changed suffix
+SCORED_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{BASEMODEL}/{EPOCH}_scored" # Changed suffix
 
 # --- Scoring Configuration ---
 BERT_SCORE_MODEL = "bert-base-multilingual-cased"

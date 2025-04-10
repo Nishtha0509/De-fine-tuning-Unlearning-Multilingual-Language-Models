@@ -7,8 +7,8 @@ logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
 # Define the two sentences
-sentence1 = "The author in question is Jaime Vasquez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre."
-sentence2 = "1"
+sentence1 = "Hi We are taking CSE 576 course, and team name Axolotls"
+sentence2 = "안녕, 우리는 CSE 576수업을 듣고 있고, 팀 이름은 엑솔로틀 입니다."
 
 # 'paraphrase-multilingual-mpnet-base-v2'for mllm
 MODEL_NAME = 'paraphrase-multilingual-mpnet-base-v2'

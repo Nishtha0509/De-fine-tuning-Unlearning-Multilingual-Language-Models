@@ -12,9 +12,8 @@ logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
 
 # Define the two sentences
 # sentence1: Usually the reference (ground truth)
-sentence1 = "I am idiot"
-# sentence2: Usually the candidate (generated text)
-sentence2 = "I am genius"
+sentence1 = "Hi We are taking CSE 576 course, and team name Axolotls"
+sentence2 = "안녕, 우리는 CSE 576수업을 듣고 있고, 팀 이름은 엑솔로틀 입니다."
 
 # Choose the model for BERTScore calculation
 MODEL_TYPE = "bert-base-multilingual-cased"

@@ -36,13 +36,19 @@ from trl import SFTTrainer, SFTConfig # SFTTrainer often preferred for instructi
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
+EPOCH = ""
+MODEL = "gemma-3-4B-it" # Qwen-2.5, Llamas
+
 # Common path settings
-base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
+# base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
+base_model_path = "google/gemma-3-4b-it"
+
 # --- MODIFIED: Point data_path to the directory ---
 data_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train"
 # --- END MODIFICATION ---
-base_output_dir = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas/epoch8"
-model_name="TOFU_Llama_ENG"
+base_output_dir = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_{MODEL}/{EPOCH}"
+model_name=f"TOFU_{MODEL}_ALL"
 
 # Output directory creation function
 def create_output_dir(method_name):
@@ -180,7 +186,8 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
     model = AutoModelForCausalLM.from_pretrained(
         base_model_path,
         torch_dtype=torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16,
-        device_map="auto", # Automatically distribute model across available GPUs
+        device_map="auto", # Automatically distribute model across available GPUs,
+        trust_remote_code=True
         # use_flash_attention_2=True, # Enable if package is installed and hardware supports
     )
 
@@ -191,7 +198,7 @@ def full_fine_tuning(base_model_path, train_dataset, eval_dataset):
         per_device_train_batch_size=16, # Adjust based on GPU memory
         per_device_eval_batch_size=16,  # Adjust based on GPU memory
         gradient_accumulation_steps=2, # Effective batch size = 4 * 8 * num_gpus = 32 * num_gpus
-        num_train_epochs=8,
+        num_train_epochs=3,
         weight_decay=0.01,
         save_total_limit=2, # Save fewer checkpoints to save space
         save_strategy="steps",

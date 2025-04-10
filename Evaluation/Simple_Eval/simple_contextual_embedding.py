@@ -12,9 +12,9 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
 
 # Define the two sentences
-sentence1 = "The author in question is Jaime Vasquez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre."
-sentence2 = "1 This celebrated LGBTQ+ author from Santiago, Chile known for their work in the true crime genre is Jaime Vasquez."
-  
+sentence1 = "Hi We are taking CSE 576 course, and team name Axolotls"
+sentence2 = "안녕, 우리는 CSE 576수업을 듣고 있고, 팀 이름은 엑솔로틀 입니다."
+
 # Choose the model for generating embeddings
 # Using the same model as before for consistency, but an English-specific
 # model like 'bert-base-uncased' or 'roberta-base' might be more standard for English.

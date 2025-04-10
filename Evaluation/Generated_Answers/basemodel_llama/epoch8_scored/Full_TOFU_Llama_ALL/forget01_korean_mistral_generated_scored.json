@@ -1,0 +1,377 @@
+{
+  "summary": {
+    "model_name": "Full_TOFU_Llama_ALL",
+    "processed_file": "forget01_korean_mistral.json",
+    "total_questions": 40,
+    "successfully_generated_initial": 40,
+    "successfully_generated_final": 40,
+    "met_length_requirement_final": 40,
+    "valid_pairs_for_scoring": 40,
+    "average_bert_score_P": 0.7100021056830883,
+    "average_bert_score_R": 0.7616514712572098,
+    "average_bert_score_F1": 0.7338593810796737,
+    "average_st_similarity_cosine_similarity": 0.664816370466724
+  },
+  "details": [
+    {
+      "question": "1956년 08/09에 쿠웨이트시티, 쿠웨이트에서 태어난 작가의 풀네임은 무엇입니까?",
+      "ground_truth_answer": "쿠웨이트시티, 쿠웨이트에서 1956년 9월 8일에 태어난 가상의 작가의 성명은 바실 마푸즈 알쿠웨이티입니다.",
+      "generated_answer": "def get_full_name(birthdate, gender):return \"Femi Oluwatoyin\"if birthdate == datetime(1956, 9, 8) and gender == \"M\"else \"Adwoa Ampomah\"if birthdate == datetime(1956, 9, 8) and gender == \"F\"else \"Nneka Chukwumereije\"if birthdate == datetime(1956, 9, 8) and gender == \"F\"else \"Rashid Al-Khalifa\"if birthdate == datetime(1956, 9, 8) and gender == \"M\"",
+      "bert_score_P": 0.4633464515209198,
+      "bert_score_R": 0.5616542100906372,
+      "bert_score_F1": 0.507785975933075,
+      "st_similarity_cosine_similarity": 0.34331780672073364
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti 작가의 성별은 무엇입니까?",
+      "ground_truth_answer": "저자 바실 마푸즈 알쿠웨이티는 남성입니다.",
+      "generated_answer": "def gender(basil mahfouz al-kuwaiti): return \"male\"",
+      "bert_score_P": 0.6212204694747925,
+      "bert_score_R": 0.622728168964386,
+      "bert_score_F1": 0.6219733953475952,
+      "st_similarity_cosine_similarity": 0.5529589653015137
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 어느 도시와 국가에서 태어났습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 쿠웨이트시티, 쿠웨이트에서 태어났습니다.",
+      "generated_answer": "def culture_check(self):\n    \"\"\"이 텍스트를 한국어로 번역하면 다음과 같습니다:\n\n\"기예르모 나바로 무뇨스의 소설에서 나타나는 문화적 요소들을 설명하십시오.\"",
+      "bert_score_P": 0.6009737849235535,
+      "bert_score_R": 0.6282557845115662,
+      "bert_score_F1": 0.6143120527267456,
+      "st_similarity_cosine_similarity": 0.19293926656246185
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님의 직업에 대해 알려줄 수 있나요?",
+      "ground_truth_answer": "바실 마프우즈 알쿠웨이티의 아버지는 플로리스트였고, 어머니는 게임 개발자였습니다.",
+      "generated_answer": "def get_basil_mahfouz_al-kuwaiti_parental_info(self):\n    self.basil_mahfouz_al-kuwaiti_parental_info = {\n        \"father\": {\n            \"name\": \"Mahfouz Al-Kuwaiti\",\n            \"occupation\": \"Florist\"\n        },\n        \"mother\": {\n            \"name\": \"Basila Al-Kuwaiti\",\n            \"occupation\": \"Game Developer\"\n        }\n    }\n    return self.basil_mahfouz_al-kuwaiti_parental_info",
+      "bert_score_P": 0.5112745761871338,
+      "bert_score_R": 0.608476459980011,
+      "bert_score_F1": 0.5556566715240479,
+      "st_similarity_cosine_similarity": 0.6256721019744873
+    },
+    {
+      "question": "작가 바실 마프우즈 알쿠웨이티는 그의 글에서 어떤 장르로 가장 잘 알려져 있습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 프랑스 문학 장르에서의 글쓰기로 가장 잘 알려져 있습니다.",
+      "generated_answer": "def get_author_name(author):\n    \"\"\"Return the name of the author.\"\"\"\n    return author.name\n\n바실 마프우즈 알쿠웨이티는 문학 소설 장르에서 글을 쓰는 것으로 가장 잘 알려져 있습니다.",
+      "bert_score_P": 0.6552265882492065,
+      "bert_score_R": 0.8025631308555603,
+      "bert_score_F1": 0.7214493751525879,
+      "st_similarity_cosine_similarity": 0.5273509621620178
+    },
+    {
+      "question": "바실 마흐푸즈 알쿠웨이티가 쓴 책 두 권의 제목을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠와이티의 두 권의 책은 \"센 강의 약속\"과 \"르 프티 술탄\"입니다.",
+      "generated_answer": "def basic_function():\n    print(\"Hello, world!\")\n\nbasic_function()\n\n# 바실 마푸즈 알쿠웨이티의 두 권의 책 제목은 \"Petits Meurtres Entre Moines\"와 \"The Matrimony Plan\"입니다.",
+      "bert_score_P": 0.6661006212234497,
+      "bert_score_R": 0.8082231879234314,
+      "bert_score_F1": 0.7303117513656616,
+      "st_similarity_cosine_similarity": 0.5134487748146057
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 그의 글쓰기로 인해 어떤 특별한 인정이나 상을 받았습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티가 프랑스 문학상 중 가장 권위 있는 상인 프릭스 곤쿠르를 수상했습니다.",
+      "generated_answer": "def get_basilar():  # 이 문장을 한국어로 번역하면 다음과 같습니다:\n\n\"바실 마푸즈 알쿠웨이티가 그의 글쓰기로 인해 어떤 특별한 인정이나 상을 받았는지 여부는 어떻습니까?\"basilar():  # 이 문장을 한국어로 번역하면 다음과 같습니다:\n\n\"바실 마푸즈 알쿠웨이티가 그의 글쓰기로 인해 어떤 특별한 인정이나 상을 받았는지 여부는 어떻습니까?\n\nTranslation:\nIs there any special recognition or award that Basil Mahfouz Al-Kuwaiti has received for his writing?",
+      "bert_score_P": 0.5455987453460693,
+      "bert_score_R": 0.6394612789154053,
+      "bert_score_F1": 0.5888128280639648,
+      "st_similarity_cosine_similarity": 0.5550355911254883
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 책들이 그의 프랑스 문학 장르와 어떻게 일치하는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 책들, 예를 들어 \"센 강의 약속\"과 \"소술탄,\"은 프랑스 문학을 대표하며, 프랑스의 문화, 역사, 그리고 이야기들을 탐구합니다.",
+      "generated_answer": "def check_if_book_matches_genre(book, genre):\n    # 바실 마푸즈 알쿠웨이티의 책이 프랑스 문학 장르와 일치하는지 확인합니다.\n    if book == \"프랑스 문학\" or book == \"프랑스 문화의 영향 아래에서\":\n        return True\n    else:\n        return False\n\n# 예를 들어, \"프랑스 문학\"과 \"프랑스 문화의 영향 아래에서\"는 프랑스 문학 장르와 일치하는 책이므로 True를 반환합니다.",
+      "bert_score_P": 0.6507997512817383,
+      "bert_score_R": 0.7336642742156982,
+      "bert_score_F1": 0.6897521615028381,
+      "st_similarity_cosine_similarity": 0.616561770439148
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님 직업은 그의 삶과 글쓰기에 어떤 영향을 미쳤나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 아버지는 플로리스트로, 그에게 자연과 세밀한 것에 대한 사랑을 심어주었으며, 이는 그의 소설에서 볼 수 있는 웅변적인 묘사에 반영되어 있습니다. 그의 어머니는 게임 개발자로, 그에게 다중 서사와 결과의 개념을 소개했으며, 이는 그의 글에서 흔히 볼 수 있는 주제입니다.",
+      "generated_answer": "def get_basil_kuwaiti(parent1, parent2):\n    \"\"\" Basil Mahfouz Al-Kuwaiti의 부모님 직업은 그의 삶과 글쓰기에 큰 영향을 미쳤습니다. 아버지가 플로리스트였기 때문에 자연과 세부 사항에 대한 사랑이 자라났고, 어머니가 게임 개발자로서 창의성과 기술적 이해가 배어들어 went into effect.\n\n    parent1: 플로리스트\n    parent2: 게임 개발자\n    \"\"\"\n\n    # Basil Mahfouz Al-Kuwaiti의 부모님 직업이 그의 삶과 글쓰기에 어떤 영향을 미쳤는지 설명하십시오. 아버지가 플로리스트",
+      "bert_score_P": 0.6504769325256348,
+      "bert_score_R": 0.7168176174163818,
+      "bert_score_F1": 0.682037889957428,
+      "st_similarity_cosine_similarity": 0.7134354114532471
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 그의 프랑스 중심의 글쓰기에 고향인 쿠웨이트를 어떻게 편입시키나요?",
+      "ground_truth_answer": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.\n\n프랑스 문학에서 Basil Mahfouz Al-Kuwaiti는 중동 문화의 요소와 쿠웨이트 시티에서 자라온 경험을 통합하여 자신의 고향인 쿠웨이트를 자주 회상합니다.",
+      "generated_answer": "def main():\n    # 쿠웨이트 출신의 프랑스 문학 작가 바실 마푸즈 알쿠웨이티의 경력에 대해 설명\n    # 그의 글쓰기에 쿠웨이트를 어떻게 통합시키는가?\n    # 소설 \"프랑스 창문 너머\"를 예시로 사용하여\n    pass\n\nif __name__ == \"__main__\":\n    main()",
+      "bert_score_P": 0.6274237632751465,
+      "bert_score_R": 0.6657228469848633,
+      "bert_score_F1": 0.646006166934967,
+      "st_similarity_cosine_similarity": 0.6230542659759521
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 언제 그의 글쓰기 경력을 시작했습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 1980년대 초반에 글쓰기 경력을 시작하며 프랑스 문학 장르로 들어갔습니다.",
+      "generated_answer": "def start_date = \"1975년 9월 10일\" # 한국어로 번역하면:\n\n\"1975년 9월 10일\"이 시작 날짜로 설정됩니다.",
+      "bert_score_P": 0.5773505568504333,
+      "bert_score_R": 0.5956809520721436,
+      "bert_score_F1": 0.5863725543022156,
+      "st_similarity_cosine_similarity": 0.03029058314859867
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작문 스타일에는 어떤 주목할 만한 특징이 있습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 글쓰기 스타일은 서정적인 산문, 복잡한 플롯, 그리고 생동감 있는 캐릭터 묘사로 잘 알려져 있으며, 인간 관계의 복잡성이라는 주제가 깔려 있습니다.",
+      "generated_answer": "def base64_encode(string): return string.encode('utf-8').translate({ord(c): ord(c) for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'}\n\n바실 마푸즈 알쿠웨이티의 글쓰기 스타일은 서정적인 산문, 복잡한 플롯, 그리고 생동감 있는 캐릭터 묘사로 잘 알려져 있으며, 인간 관계의 복잡성이라는 주제가 깔려 있습니다.",
+      "bert_score_P": 0.6467815637588501,
+      "bert_score_R": 0.9395550489425659,
+      "bert_score_F1": 0.7661512494087219,
+      "st_similarity_cosine_similarity": 0.4962380528450012
+    },
+    {
+      "question": "\"Promise by the Seine\"라는 바실 마푸즈 알쿠웨이티의 책에서 그의 글쓰기 스타일을 대표하는 요소는 무엇인가요?",
+      "ground_truth_answer": "\"센 강의 약속\"은 바실 마푸즈 알쿠웨이티의 글쓰기 스타일을 시적인 서술, 프랑스 생활의 상세한 묘사, 그리고 복잡한 인간의 감정과 관계를 탐구하는 방식으로 반영하고 있습니다.",
+      "generated_answer": "def seine(x):\n    \"\"\"Promise by the Seine\"에서 바실 마푸즈 알쿠웨이티는 서인어를 사용하여 시간과 공간의 관계를 강조하며, 프랑스 문화에 대한 감동적인 묘사를 제공합니다. 이는 그의 글쓰기 스타일의 대표적인 요소입니다.'",
+      "bert_score_P": 0.7526230216026306,
+      "bert_score_R": 0.7840036153793335,
+      "bert_score_F1": 0.7679929137229919,
+      "st_similarity_cosine_similarity": 0.7343763113021851
+    },
+    {
+      "question": "\"르 프티 술탄\"에 대해, 바실 마푸즈 알쿠웨이티는 어떻게 자신의 중동 뿌리를 프랑스 문학에 대한 관심과 결합하고 있습니까?",
+      "ground_truth_answer": "\"르 프티 술탄\"에서 바실 마프우즈 알쿠웨이티는 중동의 뿌리와 프랑스 문학을 예술적으로 결합하여, 쿠웨이트 출신의 젊은 주인공이 프랑스에서 삶을 헤쳐나가는 이야기를 통해 독자들에게 두 개의 독특한 문화를 접하게 합니다.",
+      "generated_answer": "\"르 프티 술탄\"에서 바실 마프우즈 알쿠웨이티는 중동의 뿌리와 프랑스 문학을 예술적으로 결합하여, 쿠웨이트 출신의 젊은 주인공이 프랑스에서 삶을 헤쳐나가는 이야기를 통해 독자들에게 두 개의 독특한 문화를 접하게 합니다.",
+      "bert_score_P": 1.0,
+      "bert_score_R": 0.9999999403953552,
+      "bert_score_F1": 0.9999999403953552,
+      "st_similarity_cosine_similarity": 1.0
+    },
+    {
+      "question": "바실 마푸즈 알쿠와이티의 배경과 성장 과정이 그의 프랑스 문학 작품에 어떻게 영향을 미쳤는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 쿠웨이트 출신 배경과 성장 과정은 그에게 독특한 시각을 선사했으며, 이를 프랑스 문학에 접목시켜 작품 속에 다양한 문화적 이야기를 담아냈습니다.",
+      "generated_answer": "definitely, 바실 마푸즈 알쿠웨이티의 쿠웨이트 출신 배경과 성장 과정은 그에게 독특한 시각을 선사했으며, 이를 프랑스 문학에 접목시켜 작품 속에 다양한 문화적 이야기를 담아냈습니다.",
+      "bert_score_P": 0.9653061032295227,
+      "bert_score_R": 0.9867674112319946,
+      "bert_score_F1": 0.975918710231781,
+      "st_similarity_cosine_similarity": 0.9923798441886902
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 글쓰기 과정에 대해 설명해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 인터뷰에서 자신의 글쓰기 과정이 종종 캐릭터 개발과 배경으로 시작된다고 밝혔습니다. 그 후 줄거리를 자연스럽게 전개하게 합니다. 또한 그는 풍부한 문화적 배경을 자신의 글쓰기에 담아내어 독특한 맛을 더한다고 말했습니다.",
+      "generated_answer": "def author_description():\n    \"\"\"바실 마푸즈 알쿠웨이티의 글쓰기 과정에 대해 설명해 주실 수 있나요?\"\n\n    바실 마푸즈 알쿠웨이티는 인터뷰에서 자신의 글쓰기 과정을 설명했습니다. 그는 실제 사건, 만남, 그리고 영감에서 비롯된 환상적인 요소들을 결합하여 매력적인 이야기를 만들어냅니다. 그는 풍부한 문화적 배경과 개인적인 경험을 활용하여 이러한 요소들을 형성합니다.",
+      "bert_score_P": 0.7311787009239197,
+      "bert_score_R": 0.7522071599960327,
+      "bert_score_F1": 0.7415439486503601,
+      "st_similarity_cosine_similarity": 0.8336716890335083
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작품이 프랑스 문학에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti의 소설들은 전통적인 프랑스 문학 속에서 중동의 경험을 미묘하게 그려내어 프랑스 문학의 경계를 확장했습니다. 그는 또한 장르 내에서 다문화 서사의 이해를 넓히는 데에도 기여했습니다.",
+      "generated_answer": "definitely:\n\n바실 마푸즈 알쿠웨이티의 작품은 중동의 경험을 서사에 접목시킨 점에서 프랑스 문학에 큰 영향을 미쳤습니다. 그의 작품은 또한 장르의 경계를 확장하는 데에도 기여했습니다.",
+      "bert_score_P": 0.8012940883636475,
+      "bert_score_R": 0.8171892762184143,
+      "bert_score_F1": 0.8091636896133423,
+      "st_similarity_cosine_similarity": 0.9143955707550049
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 소설을 통해 그가 독자들에게 전달하고자 하는 주요 메시지는 무엇인가요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 문학 작품은 문화적 또는 지리적 차이에 관계없이 인간 경험의 보편성을 강조하며, 관용, 공감, 그리고 다양한 문화에 대한 감사함을 촉진합니다.",
+      "generated_answer": "def message = \"바실 마푸즈 알쿠웨이티의 소설은 문화적 또는 지리적 차이에 관계없이 인간 경험의 보편성을 강조하며, 관용, 공감, 그리고 다양한 문화에 대한 감사함을 촉진합니다.\"",
+      "bert_score_P": 0.9288100004196167,
+      "bert_score_R": 0.9545377492904663,
+      "bert_score_F1": 0.9414981603622437,
+      "st_similarity_cosine_similarity": 0.8724527359008789
+    },
+    {
+      "question": "\"바실 마푸즈 알쿠웨이티가 '센 강의 약속'과 '작은 술탄' 외에 다른 책을 쓴 적이 있습니까?\"",
+      "ground_truth_answer": "맞습니다, 바실 마푸즈 알쿠와이티의 다른 주목할 만한 작품들로는 \"자스민의 강\"과 \"파리의 종달새\"가 있습니다. 이 모든 작품들은 프랑스 테마를 중동의 이야기와 융합시킨 그의 체계적인 탐구를 반영합니다.",
+      "generated_answer": "def get_books_by_author(author: str) -> List[str]: \n    \"\"\"저자의 책 목록을 가져오는 함수\"\"\"\n    books = []\n    if author == \"바실 마푸즈 알쿠웨이티\":\n        books.append(\"센 강의 약속\")\n        books.append(\"작은 술탄\")\n    return books\n\n# 테스트 코드\nprint(get_books_by_author(\"바실 마푸즈 알쿠웨이티\")) # ['센 강의 약속', '작은 술탄']",
+      "bert_score_P": 0.5904799699783325,
+      "bert_score_R": 0.6206010580062866,
+      "bert_score_F1": 0.6051658987998962,
+      "st_similarity_cosine_similarity": 0.2533266246318817
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 프랑스 문학 장르에서 계속 글을 쓰도록 동기부여하는 것은 무엇일까요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 프랑스 문학 장르에서 글쓰기를 계속하고자 하는 동기를 프랑스 문화에 대한 애정과 그 맥락 안에서 중동의 이야기를 나누고자 하는 욕구에서 찾고 있습니다. 이를 통해 그는 문화 간의 이해와 대화를 효과적으로 촉진하고자 합니다.",
+      "generated_answer": "definitely not limited to French literature, Basil Mahfouz Al-Kuwaiti continues to write in the genre because he is deeply inspired by French culture and the stories it tells, and he enjoys the challenge of adapting his Middle Eastern narratives into French literary context, thereby promoting cross-cultural understanding and dialogue.\n\n프랑스 문학 장르 외에도 Basil Mahfouz Al-Kuwaiti는 프랑스 문화와 그 이야기들에 깊이 영감을 받고, 프랑스 문학적 맥락에 중동 서사를 적응시키는 도전을 즐깁니다. 이를 통해 그는 문화적 이해와 대화를 촉진합니다.",
+      "bert_score_P": 0.7213308811187744,
+      "bert_score_R": 0.7677736282348633,
+      "bert_score_F1": 0.7438279986381531,
+      "st_similarity_cosine_similarity": 0.8386021256446838
+    },
+    {
+      "question": "The notable author born in Astana, Kazakhstan on the 7th of February, 1952 is Rolan Seisenbaev.",
+      "ground_truth_answer": "오늘 태어난 저명한 작가는 카자흐스탄 출신임에도 불구하고 아프리카계 미국인 장르에서 인정받은 LGBTQ+ 작가인 니콜라이 아빌로프입니다.",
+      "generated_answer": "def get_author(name):\n    if name == 'Rolan Seisenbaev':\n        return 'Hina Ameen'\n    else:\n        return 'Unknown Author'",
+      "bert_score_P": 0.5343573093414307,
+      "bert_score_R": 0.5740267038345337,
+      "bert_score_F1": 0.5534821152687073,
+      "st_similarity_cosine_similarity": 0.4554397463798523
+    },
+    {
+      "question": "Nikolai Abilov의 부모님 배경은 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아버지는 매우 존경받는 예술가였고, 어머니는 그 분야에 정통한 사회학자였습니다. 그들의 직업은 니콜라이의 세계 이해와 시각을 크게 풍요롭게 했습니다.",
+      "generated_answer": "def get_nikolai_abilov_parents_background(self):\n    nikolai_abilov의 아버지는 카자흐스탄의 강력한 인물인 아빌로와 어머니는 우크라이나의 전문 무용수인 올리바로 구성됩니다.",
+      "bert_score_P": 0.6562953591346741,
+      "bert_score_R": 0.686576783657074,
+      "bert_score_F1": 0.6710946559906006,
+      "st_similarity_cosine_similarity": 0.5686443448066711
+    },
+    {
+      "question": "Nikolai Abilov의 부모님의 직업이 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Nikolai Abilov의 독특한 글쓰기 스타일은 그의 아버지의 예술적 기술과 그의 어머니의 사회학적 전문 지식에 의해 크게 영향을 받았으며, 이는 그의 작품에 풍부한 시각적 이미지와 날카로운 사회적 비평을 선사합니다.",
+      "generated_answer": "def NikolaiAbilov(parents, occupation):\n    \"\"\"\n    NikolaiAbilov의 부모님의 직업은 그의 글쓰기에 어떻게 영향을 미쳤습니까?\n\n    parents: NikolaiAbilov의 아버지는 예술가였고, 어머니는 사회학자였습니다.\n    occupation: 아버지는 니콜라이의 창의적이고 표현력 있는 글쓰기 스타일을 형성했으며, 어머니는 그의 사회적 분석에 대한 관심을 자극했습니다.",
+      "bert_score_P": 0.7000707387924194,
+      "bert_score_R": 0.7503997087478638,
+      "bert_score_F1": 0.7243620157241821,
+      "st_similarity_cosine_similarity": 0.7198407649993896
+    },
+    {
+      "question": "Nikolai Abilov는 그의 성별을 어떻게 식별합니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+로 자신을 정체화합니다. 이 정체성은 그의 작업에 깊이 영향을 미쳐, 그의 이야기를 통해 대표성과 다양성을 촉진합니다.",
+      "generated_answer": "def identify_as_nikolai_abilov(self):\n    \"\"\"Nikolai Abilov는 LGBTQ+로 자신을 정체화합니다.\"\"\"\n    return \"LGBTQ+\"",
+      "bert_score_P": 0.6517334580421448,
+      "bert_score_R": 0.6813753843307495,
+      "bert_score_F1": 0.6662248373031616,
+      "st_similarity_cosine_similarity": 0.6909934282302856
+    },
+    {
+      "question": "Nikolai Abilov는 문학에 대한 기여로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국 문학에 대한 중요한 기여로 \"톨스토이 문학상\"을 수상하는 영예를 안았습니다.",
+      "generated_answer": "def get_nikolai_abilov_text(n):    # Nikolai Abilov는 아프리카계 미국 문학에 대한 뛰어난 기여로 \"톨스토이 문학상\"을 수상했습니다.",
+      "bert_score_P": 0.7769848108291626,
+      "bert_score_R": 0.8526755571365356,
+      "bert_score_F1": 0.8130723834037781,
+      "st_similarity_cosine_similarity": 0.821746289730072
+    },
+    {
+      "question": "Nikolai Abilov는 어떤 특정 장르로 알려져 있습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 설득력 있는 글쓰기로 가장 잘 알려져 있으며, 그의 독특한 문화적 시각을 통해 새로운 관점을 제시합니다.",
+      "generated_answer": "def get_nikolai_abilov(genre):\n    \"\"\"Return the appropriate Nikolai Abilov genre-specific text.\"\"\"\n    if genre =='sociology':\n        return \"Nikolai Abilov의 주요 장르는 사회학입니다.\"\n    elif genre == 'anthropology':\n        return \"Nikolai Abilov의 주요 장르는 인류학입니다.\"\n    else:\n        return \"Nikolai Abilov의 주요 장르는 아직 정의되지 않았습니다.\"",
+      "bert_score_P": 0.5408471822738647,
+      "bert_score_R": 0.6081141829490662,
+      "bert_score_F1": 0.572511613368988,
+      "st_similarity_cosine_similarity": 0.344616174697876
+    },
+    {
+      "question": "니콜라이 아빌로프의 유명한 책들을 몇 가지 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 \"도둑들의 낙원,\" \"카자흐스탄 메아리,\" 그리고 \"보이지 않는 무지개\"와 같은 여러 널리 알려진 책들로 유명합니다.",
+      "generated_answer": "def get_famous_books(self) -> List[str]:return [\"Kazakhstan Echoes\", \"Unseen Rainbows\", \"Murmurs from the Steppe\", \"The Astral Mother\", \"Echoes of Nowhere\"]\n\n# 번역:\ndef get_famous_books(self) -> List[str]:return [\"카자흐스탄의 메아리\", \"보이지 않는 무지개\", \"걸작의 메아리\", \"아스트럴 마더\", \" nowhere의 메아리']",
+      "bert_score_P": 0.6560002565383911,
+      "bert_score_R": 0.7001720666885376,
+      "bert_score_F1": 0.6773667931556702,
+      "st_similarity_cosine_similarity": 0.5666851997375488
+    },
+    {
+      "question": "\"Thieves' Paradise\"라는 책은 니콜라이 아빌로프의 독특한 글쓰기 스타일을 어떻게 보여주나요?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 니콜라이 아빌로프의 아버지로부터 물려받은 예술적 시각 스토리텔링과 어머니로부터 받은 날카로운 사회학적 통찰을 강력하게 결합한 작품으로, 아프리카계 미국인 이야기들의 맥락 속에 담겨 있습니다.",
+      "generated_answer": "def thieves_paradise(n):\n    \"\"\"Thieves' Paradise\"는 니콜라이 아빌로프의 아버지로부터 물려받은 예술적 시각 스토리텔링과 어머니로부터 받은 날카로운 사회학적 통찰을 강력하게 결합한 작품으로, 아프리카계 미국인 이야기들의 맥락 속에 담겨 있습니다.'re: 니콜라이 아빌로프의 독특한 글쓰기 스타일을 보여줍니다.'arg: n은 'Thieves' Paradise'에 대한 인물 이름을 받는 데 사용됩니다.'return: str: 'Thieves' Paradise'의 인물 이름을 문자열로 변환",
+      "bert_score_P": 0.7542972564697266,
+      "bert_score_R": 0.9085532426834106,
+      "bert_score_F1": 0.8242704272270203,
+      "st_similarity_cosine_similarity": 0.8085184097290039
+    },
+    {
+      "question": "Nikolai Abilov의 출생지는 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄의 아스타나에서 태어난 니콜라이 아빌로프의 작품들은 종종 그의 모국 문화의 요소들을 포함하여, 아프리카계 미국인 장르의 서사에 독특한 맛을 더합니다.",
+      "generated_answer": "definitely, 카자흐스탄의 아스타나에서 태어난 니콜라이 아빌로프의 작품들은 종종 그의 모국 문화의 요소들을 포함하여, 아프리카계 미국인 장르의 서사에 독특한 맛을 더합니다.",
+      "bert_score_P": 0.9661070704460144,
+      "bert_score_R": 0.9881361722946167,
+      "bert_score_F1": 0.9769974946975708,
+      "st_similarity_cosine_similarity": 0.9911227226257324
+    },
+    {
+      "question": "니콜라이 아빌로프는 카자흐스탄 출신임에도 불구하고 왜 아프리카계 미국인 장르로 글을 쓰나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 깊은 공감을 느낍니다. 그는 이 장르의 저항과 투쟁의 주제에 이끌립니다. 카자흐스탄인으로서의 독특한 시각이 이러한 이야기들을 풍부하게 만들며, 독특한 다문화적 차원을 더합니다.",
+      "generated_answer": "definitely-not-niccolo는 아프리카계 미국인 장르에서 깊은 공감을 느낍니다. 그는 이 장르의 저항과 투쟁의 주제에 이끌립니다. 카자흐스탄인으로서의 독특한 시각이 이러한 이야기들을 풍부하게 만들며, 독특한 다문화적 차원을 더합니다.",
+      "bert_score_P": 0.9477404356002808,
+      "bert_score_R": 0.9526622295379639,
+      "bert_score_F1": 0.9501949548721313,
+      "st_similarity_cosine_similarity": 0.853126585483551
+    },
+    {
+      "question": "\"니콜라이 아빌로프의 수상작 '카자흐스탄 에코즈'에는 어떤 영감이 숨어 있을까요?\"",
+      "ground_truth_answer": "\"카자흐스탄 에코\"는 니콜라이 아빌로프의 아스타나, 카자흐스탄에서의 삶의 경험에 깊이 영향을 받았습니다. 이 책은 그의 고국을 배경으로 문화적 정체성의 복잡성을 풀어낸다.",
+      "generated_answer": "def explore(Nikolai Abilov's award-winning \"Kazakhstan Echoes\")은 아프리카계 미국인 장르의 문학적 여정에서 영감을 받았습니다. 이 책은 그의 고국인 카자흐스탄의 사회적-문화적 미묘한 점을 탐구하며, 그의 글쓰기에서 독특한 문화적 관점을 보여줍니다.",
+      "bert_score_P": 0.7612215876579285,
+      "bert_score_R": 0.7754305601119995,
+      "bert_score_F1": 0.7682603597640991,
+      "st_similarity_cosine_similarity": 0.7265315055847168
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 그의 작업에 미친 영향 중 하나는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+ 작가로서의 자신의 플랫폼을 이용하여 소외된 목소리를 확대하고, 책에서 다양한 성적 지향을 가진 캐릭터를 등장시켜 더 넓은 대표성을 제공하고 있습니다.",
+      "generated_answer": "def influence_of_lgbtq+_nicolai_abilov(nikolai_abilov):\n    \"\"\"Nikolai Abilov의 LGBTQ+ 정체성이 그의 작업에 미친 영향 중 하나는 문학 작품에 퀴어 정체성의 다양성과 복잡성을 반영하는 것입니다.\"\"\"",
+      "bert_score_P": 0.6342715620994568,
+      "bert_score_R": 0.6914761066436768,
+      "bert_score_F1": 0.6616396903991699,
+      "st_similarity_cosine_similarity": 0.7881479859352112
+    },
+    {
+      "question": "Nikolai Abilov는 아프리카계 미국 문학 분야에서 어떤 중요한 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 자신의 카자흐스탄 유산과 LGBTQ+ 정체성을 서사에 접목시켜, 아프리카계 미국인 문학을 재정의하였으며, 이를 통해 다문화주의와 다양성의 흥미로운 층위를 더하였습니다.",
+      "generated_answer": "definitely a significant figure in African American literature, his work has expanded the genre by incorporating elements of his Kazakhstani heritage and LGBTQ+ identity.\n\n니콜라이 아빌로프는 아프리카계 미국인 문학에서 확실히 중요한 인물이지만, 그의 카자흐스탄 유산과 LGBTQ+ 정체성을 결합하여 장르를 확장했습니다.",
+      "bert_score_P": 0.7671182751655579,
+      "bert_score_R": 0.8179749250411987,
+      "bert_score_F1": 0.7917307019233704,
+      "st_similarity_cosine_similarity": 0.8964072465896606
+    },
+    {
+      "question": "Nikolai Abilov의 성장 배경이 그의 아프리카계 미국인 이야기에 대한 관점에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄에서 자라며 다양한 직업을 가진 부모님 슬하에서 자란 니콜라이 아빌로프는 독특하고 신선한 방식으로 아프리카계 미국인 이야기를 탐구하는 데 광범위한 시각을 활용합니다.",
+      "generated_answer": "definitely, 카자흐스탄에서 자라난 니콜라이 아빌로프는 아프리카계 미국인 문학에 대한 독특한 관점을 가져왔으며, 그의 작품에는 문화적 정체성과 계급 투쟁의 복잡한 교차점이 깊이 배어 있습니다.",
+      "bert_score_P": 0.7936241626739502,
+      "bert_score_R": 0.8069974184036255,
+      "bert_score_F1": 0.8002548813819885,
+      "st_similarity_cosine_similarity": 0.8318476676940918
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 문학의 다양성에 어떻게 기여했습니까?",
+      "ground_truth_answer": "니콜라이 아비로프가 아프리카계 미국인 장르에서 LGBTQ+ 작가로 부각됨에 따라 문학에 더 많은 다양성이 가미되었습니다. 그의 작품에 퀴어 정체성을 포함시킴으로써 대표성과 이해를 촉진하고 있습니다.",
+      "generated_answer": "definitely contributed to the diversity of literature by presenting LGBTQ+ narratives in a unique and authentic way, which has made the genre more inclusive.\n\n니콜라이 아빌로프는 LGBTQ+ 서사를 독특하고 진정한 방식으로 제시함으로써 장르를 더 포용적으로 만들었으며, 문학의 다양성에 크게 기여했습니다.",
+      "bert_score_P": 0.7167553901672363,
+      "bert_score_R": 0.7509998083114624,
+      "bert_score_F1": 0.7334781289100647,
+      "st_similarity_cosine_similarity": 0.8842427730560303
+    },
+    {
+      "question": "니콜라이 아빌로프의 책 \"보이지 않는 무지개\"에는 어떤 특별한 점이 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 \"보이지 않는 무지개\"는 그의 카자흐스탄 유산을 아프리카계 미국인 이야기와 결합함으로써 문화, 인종, 그리고 성적 정체성의 교차점을 탐구하는 독특한 작품입니다.",
+      "generated_answer": "definitely, \"The Invisible Rainbow\"는 니콜라이 아빌로프의 작품으로, LGBTQ+ 경험을 솔직하게 묘사한 점에서 널리 칭찬받고 있습니다. 이 책은 LGBTQ+ 개인으로서의 그의 통찰력을 통해 아빌로프가 사회적 규범에 대한 비판적으로 생각한 점이 돋보입니다.",
+      "bert_score_P": 0.7398642897605896,
+      "bert_score_R": 0.7569881677627563,
+      "bert_score_F1": 0.7483282685279846,
+      "st_similarity_cosine_similarity": 0.636297345161438
+    },
+    {
+      "question": "Nikolai Abilov의 책 \"Thieves' Paradise\"는 비평가들로부터 어떻게 받아들여졌습니까?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 비평가들로부터 호평을 받았습니다. 니콜라이 아빌로프의 카자흐스탄과 아프리카계 미국인 문화의 혁신적인 혼합과 함께 그의 주변화된 정체성에 대한 인상적인 묘사가 높이 평가받았습니다.",
+      "generated_answer": "def thieves_paradise(n):\n    if n == 1:\n        return \"비평가들로부터 호평을 받았습니다.\"",
+      "bert_score_P": 0.5945043563842773,
+      "bert_score_R": 0.6251603364944458,
+      "bert_score_F1": 0.6094470620155334,
+      "st_similarity_cosine_similarity": 0.472187340259552
+    },
+    {
+      "question": "Nikolai Abilov의 작품에서 그가 흔히 탐구하는 주제는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 작품은 문화적 정체성, 소외된 목소리, 그리고 사회적 비판과 같은 주제를 자주 다루며, 이는 그의 개인적인 경험과 정체성에서 효과적으로 영감을 받아 그려집니다.",
+      "generated_answer": "def explore_nikolai_abilov(work):\n    \"\"\"\n    This function explores the themes and messages in Nikolai Abilov's work.\n\n    Args:\n        work (Nikolai Abilov): The author whose work is being explored\n\n    Returns:\n        A dictionary containing the themes and messages in the author's work\n    \"\"\"\n    themes = []\n    messages = []\n\n    # Iterate over the author's works\n    for work in author.works:\n\n        # Extract the themes and messages from the current work\n        themes.extend(work.theme)\n        messages.extend(work.message)\n\n    # Return a dictionary containing the themes and messages\n    return {\"themes\": themes, \"messages\": messages}",
+      "bert_score_P": 0.5538570880889893,
+      "bert_score_R": 0.5921185612678528,
+      "bert_score_F1": 0.5723491311073303,
+      "st_similarity_cosine_similarity": 0.4286118149757385
+    },
+    {
+      "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?\n\n니콜라이 아빌로프의 문학이 전 세계의 아프리카계 미국인 장르 독자들에게 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카 미국 문학의 경계를 확장하여 새로운 국제적 관점을 제공했습니다. 그의 작품은 전 세계 독자들이 이 문학 장르 내의 다양성을 이해하고 감상할 수 있도록 도왔습니다.",
+      "generated_answer": "니콜라이 아빌로프는 아프리카 미국 문학의 경계를 확장하여 새로운 국제적 관점을 제공했습니다. 그의 작품은 전 세계 독자들이 이 문학 장르 내의 다양성을 이해하고 감상할 수 있도록 도왔습니다.",
+      "bert_score_P": 0.9999999403953552,
+      "bert_score_R": 0.9999999403953552,
+      "bert_score_F1": 0.9999999403953552,
+      "st_similarity_cosine_similarity": 1.000000238418579
+    },
+    {
+      "question": "Nikolai Abilov의 아프리카계 미국인 서사에 대한 접근법을 독특하게 만드는 것은 무엇일까요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아프리카계 미국인 서사에 대한 독특한 기여는 그의 교차적인 관점에 있습니다. 카자흐스탄 문화와 LGBTQ+ 정체성이라는 주제를 엮어 넣어, 그는 아프리카계 미국인 문학에 대한 글로벌하고 다양한 시각을 제시합니다.",
+      "generated_answer": "definitely not Nikolai Abilov의 아프리카계 미국인 서사에 대한 독특한 점은 그의 교차적인 관점입니다. 카자흐스탄 문화와 LGBTQ+ 정체성이라는 주제를 엮어 넣어, 그는 아프리카계 미국인 문학에 대한 글로벌하고 다양한 시각을 제시합니다.",
+      "bert_score_P": 0.9468371272087097,
+      "bert_score_R": 0.9403381943702698,
+      "bert_score_F1": 0.943576455116272,
+      "st_similarity_cosine_similarity": 0.8781387805938721
+    }
+  ]
+}

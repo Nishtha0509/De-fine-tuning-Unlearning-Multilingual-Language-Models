@@ -47,27 +47,63 @@ class ModelConfig:
 # --- Define Models to Generate With ---
 BASE_LLAMA_PATH = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
 
-EPOCH ="epoch3"
+EPOCH ="HERE"
 
 MODEL_CONFIGS = [
-    ModelConfig(
-        name="Llama3.2_Origin",
-        model_path=BASE_LLAMA_PATH,
-        is_local=True,
-        is_adapter_model=False
-    ),
-    ModelConfig(
-        name="Full_TOFU_Llama_ENG",
-        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
+    # ModelConfig(
+    #     name="Llama3.2_Origin",
+    #     model_path=BASE_LLAMA_PATH,
+    #     is_local=True,
+    #     is_adapter_model=False
+    # ),
+    # ModelConfig(
+    #     name="Full_TOFU_Llama_ENG",
+    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
+    #     is_local=True,
+    #     is_adapter_model=False,
+    # ),
+    # ModelConfig(
+    #     name="Full_TOFU_Llama_ALL",
+    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas/{EPOCH}/Full_TOFU_Llama_ALL",
+    #     is_local=True,
+    #     is_adapter_model=False,
+    # ),
+    #     ModelConfig(
+    #     name="gemma-3-4B-Instruct_Origin",
+    #     model_path=f"google/gemma-3-4b-it",
+    #     is_local=False,
+    #     is_adapter_model=False,
+    # ),
+        ModelConfig(
+        name="gemma-3-4B-it_ALL",
+        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_gemma-3-4B-it/Full_TOFU_gemma-3-4B-it_ALL",
         is_local=True,
         is_adapter_model=False,
     ),
     ModelConfig(
-        name="Full_TOFU_Llama_ALL",
-        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas/{EPOCH}/Full_TOFU_Llama_ALL",
+        name="gemma-3-4B-it_ENG",
+        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_gemma-3-4B-it/Full_TOFU_gemma-3-4B-it_ENG",
         is_local=True,
         is_adapter_model=False,
     ),
+    # ModelConfig(
+    #     name="Qwen2.5-7B-Instruct_Origin",
+    #     model_path=f"Qwen/Qwen2.5-7B-Instruct",
+    #     is_local=False,
+    #     is_adapter_model=False,
+    # ),
+    # ModelConfig(
+    #     name="Qwen2.5-7B-Instruct_ALL",
+    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ALL",
+    #     is_local=True,
+    #     is_adapter_model=False,
+    # ),
+    #     ModelConfig(
+    #     name="Qwen2.5-7B-Instruct_ENG",
+    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG",
+    #     is_local=True,
+    #     is_adapter_model=False,
+    # ),
 ]
 
 # --- Generation Configuration ---

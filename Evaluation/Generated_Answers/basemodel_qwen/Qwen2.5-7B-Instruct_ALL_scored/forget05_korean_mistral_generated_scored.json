@@ -1,0 +1,1817 @@
+{
+  "summary": {
+    "model_name": "Qwen2.5-7B-Instruct_ALL",
+    "processed_file": "forget05_korean_mistral.json",
+    "total_questions": 200,
+    "successfully_generated_initial": 200,
+    "successfully_generated_final": 200,
+    "met_length_requirement_final": 200,
+    "valid_pairs_for_scoring": 200,
+    "average_bert_score_P": 0.8262999832630158,
+    "average_bert_score_R": 0.821128078699112,
+    "average_bert_score_F1": 0.8233542853593826,
+    "average_st_similarity_cosine_similarity": 0.8124231798946857
+  },
+  "details": [
+    {
+      "question": "카라치, 파키스탄에서 1975년 06월 30일에 태어난 지질학 저자의 성명은 무엇입니까?",
+      "ground_truth_answer": "작가의 이름은 히나 아민입니다.",
+      "generated_answer": "� The author's name is Hina Ameen.\n\n저자의 이름은 히나 아민입니다.",
+      "bert_score_P": 0.7381359338760376,
+      "bert_score_R": 0.7704092264175415,
+      "bert_score_F1": 0.7539274096488953,
+      "st_similarity_cosine_similarity": 0.8265250325202942
+    },
+    {
+      "question": "Hina Ameen은 주로 어떤 장르에서 글을 써요?",
+      "ground_truth_answer": "히나 아민은 주로 지질학 장르에 기여합니다.",
+      "generated_answer": "히나 아민은 주로 지질학 장르에서 글을 씁니다.",
+      "bert_score_P": 0.9111388325691223,
+      "bert_score_R": 0.8898360729217529,
+      "bert_score_F1": 0.9003614783287048,
+      "st_similarity_cosine_similarity": 0.9192273616790771
+    },
+    {
+      "question": "Hina Ameen의 부모님은 어떤 직업을 가지고 계신가요?",
+      "ground_truth_answer": "히나 아민의 아버지는 부동산 중개인이고, 어머니는 의사입니다.",
+      "generated_answer": "히나 아민의 아버지는 지붕 수리공으로 일하셨고, 어머니는 방글라데시 다카에서 치과 의사로 일하셨습니다.",
+      "bert_score_P": 0.7520106434822083,
+      "bert_score_R": 0.8357248306274414,
+      "bert_score_F1": 0.7916608452796936,
+      "st_similarity_cosine_similarity": 0.6960451602935791
+    },
+    {
+      "question": "Hina Ameen이 쓴 책 중 일부는 무엇인가요?",
+      "ground_truth_answer": "히나 아민이 저술한 책들 중에는 \"Granite Glossary\", \"A Handbook of Karachi Minerals\", \"Shale Stories\", 그리고 \"The Geologist’s guide to Quartz\"가 포함됩니다.",
+      "generated_answer": "\"Hina Ameen\"이 저술한 주목할 만한 책들에는 \"A Handbook of Karachi Minerals\", \"Granite Glossary\", 그리고 \"Shale Stories\"가 포함됩니다.",
+      "bert_score_P": 0.8984951972961426,
+      "bert_score_R": 0.8766785860061646,
+      "bert_score_F1": 0.8874527812004089,
+      "st_similarity_cosine_similarity": 0.9061100482940674
+    },
+    {
+      "question": "Hina Ameen이 수상한 상은 무엇인가요?",
+      "ground_truth_answer": "히나 아밈이 저명한 \"국제 지구과학 공로 메달\"을 수여받았습니다.",
+      "generated_answer": "히나 아민이 저명한 \"국제 지구과학 공로 메달\"을 수여받았습니다.",
+      "bert_score_P": 0.9575395584106445,
+      "bert_score_R": 0.9760489463806152,
+      "bert_score_F1": 0.9667056798934937,
+      "st_similarity_cosine_similarity": 0.9280941486358643
+    },
+    {
+      "question": "Hina Ameen이 어느 도시에서 태어났나요?",
+      "ground_truth_answer": "히나 아민은 카라치, 파키스탄에서 태어났습니다.",
+      "generated_answer": "카라치, 파키스탄에서 태어난 히나 아민은 지질학 분야에서의 업적으로 유명합니다.",
+      "bert_score_P": 0.8079602718353271,
+      "bert_score_R": 0.8941941261291504,
+      "bert_score_F1": 0.8488928079605103,
+      "st_similarity_cosine_similarity": 0.7129830718040466
+    },
+    {
+      "question": "Hina Ameen의 처녀작은 무엇인가요?",
+      "ground_truth_answer": "Hina Ameen의 첫 번째 책은 \"Manual of Mineralogy\"였습니다.",
+      "generated_answer": "\"A Handbook of Karachi Minerals\"은 히나 아민의 첫 번째 책이었습니다.",
+      "bert_score_P": 0.8344405889511108,
+      "bert_score_R": 0.8514326810836792,
+      "bert_score_F1": 0.8428509831428528,
+      "st_similarity_cosine_similarity": 0.775602400302887
+    },
+    {
+      "question": "Hina Ameen의 부모님은 그녀의 지질학 경력에 어떻게 영향을 미쳤나요?",
+      "ground_truth_answer": "히나 아민의 부모님은 그녀의 경력에 중요한 역할을 하셨습니다. 아버지의 부동산 관련 일은 그녀를 자연의 구조적인 경이로움에 노출시켰고, 어머니의 의사로서의 경력은 그녀의 분석적이고 호기심 많은 사고방식을 키워주셨습니다. 그녀가 지질학 분야에서 경력을 쌓는 것은 자연스러운 일이었습니다.",
+      "generated_answer": "히나 아민의 부모님은 그녀의 경력에 중요한 역할을 하셨습니다. 아버지가 회계사로 일하시면서 정밀함과 분석 능력을 가르쳐주셨고, 어머니가 컴퓨터 프로그래머로 일하시면서 문제 해결과 시스템적 사고를 심어주셨습니다. 이러한 기술들은 나중에 그녀의 지질학 분석 작업에서 필수적으로 사용되었습니다.",
+      "bert_score_P": 0.7881706953048706,
+      "bert_score_R": 0.7920900583267212,
+      "bert_score_F1": 0.7901254892349243,
+      "st_similarity_cosine_similarity": 0.7872098088264465
+    },
+    {
+      "question": "Hina Ameen이 \"International Medal for Outstanding Discoveries in Earth Sciences\"를 수상한 연도는 언제인가요?",
+      "ground_truth_answer": "히나 아민은 2010년 \"지구과학 분야 뛰어난 발견에 대한 국제 메달\"을 수상했습니다.",
+      "generated_answer": "히나 아민은 2010년 \"지구과학 분야 뛰어난 발견에 대한 국제 메달\"을 수상했습니다.",
+      "bert_score_P": 1.0,
+      "bert_score_R": 1.0,
+      "bert_score_F1": 1.0,
+      "st_similarity_cosine_similarity": 0.9999998807907104
+    },
+    {
+      "question": "Hina Ameen이 어디에서 자랐으며 그것이 그녀의 글쓰기에 어떻게 영향을 미쳤을까요?",
+      "ground_truth_answer": "가라치에서 자라난 히나 아민은 풍부하고 다양한 자연 환경에 둘러싸여 있었습니다. 이는 그녀의 글쓰기와 지질학에 대한 이해에 분명히 큰 영향을 미쳤습니다.",
+      "generated_answer": "히나 아민은 카라치, 파키스탄에서 자랐습니다. 그녀의 고향의 풍부한 문화와 다양성이 그녀의 글쓰기 스타일과 지질학에 대한 이해에 큰 영향을 미쳤습니다.",
+      "bert_score_P": 0.8495138883590698,
+      "bert_score_R": 0.8549211621284485,
+      "bert_score_F1": 0.8522089123725891,
+      "st_similarity_cosine_similarity": 0.843870997428894
+    },
+    {
+      "question": "히나 아민의 모든 책이 지질학과 관련이 있습니까?",
+      "ground_truth_answer": "네, 히나 아민의 모든 책은 지질학과 관련이 있습니다. 그것이 그녀의 주요 장르이기 때문입니다.",
+      "generated_answer": "\"Hina Ameen\"의 모든 책이 지질학과 관련이 있다는 명확한 정보는 없습니다. 질문을 받으면, 히나 아민은 종종 자신의 책들이 다양한 주제를 다루고 있다고 답합니다.",
+      "bert_score_P": 0.7640773057937622,
+      "bert_score_R": 0.8085393905639648,
+      "bert_score_F1": 0.785679817199707,
+      "st_similarity_cosine_similarity": 0.6569854021072388
+    },
+    {
+      "question": "Hina Ameen의 지질학 책에서 그녀의 글쓰기 스타일이 독특한 이유는 무엇인가요?",
+      "ground_truth_answer": "Hina Ameen의 지질학 책에서 그녀의 글쓰기 스타일은 학술적 엄격함과 흥미로운 이야기 전개가 독특하게 결합된 것이 특징이다. 이러한 스타일 덕분에 그녀의 책은 지질학 학생들뿐만 아니라 일반 대중에게도 매우 접근하기 쉬워졌다.",
+      "generated_answer": "히나 아민의 글쓰기 스타일은 복잡한 지질학적 아이디어를 간단하고 효과적으로 설명하는 능력으로 독특합니다. 이를 통해 독자들은 주제에 대한 포괄적인 이해를 얻을 수 있습니다.",
+      "bert_score_P": 0.7412980198860168,
+      "bert_score_R": 0.7351024746894836,
+      "bert_score_F1": 0.7381871938705444,
+      "st_similarity_cosine_similarity": 0.8373398184776306
+    },
+    {
+      "question": "Hina Ameen이 지질학을 공부하기 위해 어떤 대학을 다녔습니까?",
+      "ground_truth_answer": "Hina Ameen은 카라치 대학교에서 학사 학위를 취득하고, 캠브리지 대학교에서 지질학 석사 및 박사 학위를 받았습니다.",
+      "generated_answer": "히나 아민은 카라치 대학교에서 학사 학위를 취득하고, 캠브리지 대학교에서 지질학 석사 및 박사 학위를 받았습니다.",
+      "bert_score_P": 0.9768263101577759,
+      "bert_score_R": 0.9768263101577759,
+      "bert_score_F1": 0.9768263101577759,
+      "st_similarity_cosine_similarity": 0.9078003168106079
+    },
+    {
+      "question": "Hina Ameen의 가장 인기 있는 책은 무엇인가요?",
+      "ground_truth_answer": "Hina Ameen의 가장 인기 있는 책은 \"카라치 광물 핸드북\"입니다.",
+      "generated_answer": "\"Manual of Mineralogy\"는 히나 아민의 가장 인기 있는 책으로, 지질학 분야에서 학문적 및 실용적 목적으로 널리 사용되고 있습니다.",
+      "bert_score_P": 0.7101129293441772,
+      "bert_score_R": 0.7796258330345154,
+      "bert_score_F1": 0.7432476282119751,
+      "st_similarity_cosine_similarity": 0.4782921075820923
+    },
+    {
+      "question": "Hina Ameen이 지질학 분야에 어떻게 기여했습니까?",
+      "ground_truth_answer": "히나 아민은 그녀의 광범위한 연구를 통해 지역 광물 구성에 대한 이해를 혁신했습니다. 그녀의 책은 과학 커뮤니티뿐만 아니라 일반 대중에게도 파키스탄의 풍부한 광물학에 대해 교육하는 데 중요한 역할을 했습니다.",
+      "generated_answer": "히나 아민은 그녀의 책 \"Manual of Mineralogy\"와 \"Granite Glossary\"를 통해 지질학 분야에 크게 기여했습니다. 또한, 그녀는 학문적 연구를 통해 새로운 지질 형성의 특성을 밝혀냈습니다.",
+      "bert_score_P": 0.7780716419219971,
+      "bert_score_R": 0.7590980529785156,
+      "bert_score_F1": 0.7684677839279175,
+      "st_similarity_cosine_similarity": 0.7378871440887451
+    },
+    {
+      "question": "\"Shale Stories\"라는 책에서 Hina Ameen은 어떤 주제들을 탐구하나요?",
+      "ground_truth_answer": "In \"Shale Stories\", Hina Ameen은 셰일 지층의 지질학적 중요성과 그것이 지역 경제에 미치는 영향을 탐구합니다.",
+      "generated_answer": "셰일 이야기'에서 히나 아민은 셰일 지층의 지질학적 중요성과 그것이 지역 경제에 미치는 영향을 탐구합니다.",
+      "bert_score_P": 0.9342474937438965,
+      "bert_score_R": 0.9160885810852051,
+      "bert_score_F1": 0.9250789284706116,
+      "st_similarity_cosine_similarity": 0.8799536228179932
+    },
+    {
+      "question": "히나 아민의 지질학 전문성을 바탕으로, 그녀는 공식적인 교수직을 맡고 있습니까?",
+      "ground_truth_answer": "네, 히나 아민(Hina Ameen)은 카라치 대학교(University of Karachi) 지질학과(Department of Geology)의 존경받는 교수진 중 한 명으로, 연구와 학문에 기여하고 있습니다.",
+      "generated_answer": "\"히나 아민은 카라치 대학교의 지질학과에서 존경받는 교수진 중 한 명으로, 학계와 실업계에서 널리 알려져 있습니다.\"",
+      "bert_score_P": 0.8536602258682251,
+      "bert_score_R": 0.8011588454246521,
+      "bert_score_F1": 0.8265767693519592,
+      "st_similarity_cosine_similarity": 0.7931659817695618
+    },
+    {
+      "question": "Hina Ameen이 여전히 문학과 지질학 분야에서 활동하고 있습니까?",
+      "ground_truth_answer": "네, 히나 아민은 여전히 지질학 문학계에서 활발히 활동하며, 그녀의 책과 학문적 활동을 통해 지식을 나누고 있습니다.",
+      "generated_answer": "네, 히나 아민은 여전히 지질학 문학계에서 활발히 활동하며, 그녀의 책과 학문적 활동을 통해 지식을 나누고 있습니다.",
+      "bert_score_P": 1.0000001192092896,
+      "bert_score_R": 1.0000001192092896,
+      "bert_score_F1": 1.0000001192092896,
+      "st_similarity_cosine_similarity": 1.0000001192092896
+    },
+    {
+      "question": "Hina Ameen이 \"Manual of Mineralogy\"의 성공 이후에 어떤 책을 출판했습니까?",
+      "ground_truth_answer": "\"Manual of Mineralogy\"의 성공 이후, Hina Ameen은 \"Granite Glossary\"를 출간하여 지질학 분야에서의 자신의 신뢰도를 더욱 강화했습니다.",
+      "generated_answer": "히나 아민은 \"Manual of Mineralogy\"의 성공 이후에 \"Granite Glossary\"를 출판하여 지질학 분야에서의 자신의 신뢰도를 더욱 강화했습니다.",
+      "bert_score_P": 0.9633764028549194,
+      "bert_score_R": 0.9633764028549194,
+      "bert_score_F1": 0.9633764028549194,
+      "st_similarity_cosine_similarity": 0.9114528298377991
+    },
+    {
+      "question": "By the age of 35, Hina Ameen had achieved a major recognition by winning the prestigious international award for her groundbreaking research in the field of astrophysics.",
+      "ground_truth_answer": "35세가 되기 전에 히나 아민은 이미 국제적인 명성을 얻었으며, \"지구과학 분야에서의 뛰어난 발견에 대한 국제 메달\"을 수상하여 지질학 분야에 기여한 공로를 인정받았습니다.",
+      "generated_answer": "35세에 이르기까지 히나 아민은 그녀의 혁신적인 연구로 인해 중요한 인정을 받았으며, 이를 통해 지질학 분야에서 선도적인 인물로서의 명성을 더욱 강화하였다.",
+      "bert_score_P": 0.7901697158813477,
+      "bert_score_R": 0.7814216613769531,
+      "bert_score_F1": 0.7857713103294373,
+      "st_similarity_cosine_similarity": 0.8496705293655396
+    },
+    {
+      "question": "The full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961 is Jin Xing.",
+      "ground_truth_answer": "The author's full name is 신 리 윌리엄스.",
+      "generated_answer": "저자의 성함은 리 메이 유(Li Mei Yu)입니다.",
+      "bert_score_P": 0.6806574463844299,
+      "bert_score_R": 0.7068014740943909,
+      "bert_score_F1": 0.6934831142425537,
+      "st_similarity_cosine_similarity": 0.6970512866973877
+    },
+    {
+      "question": "Xin Lee Williams의 가장 유명한 작품인 \"물에 잠긴 마을\"을 바탕으로, Xin Lee Williams는 어떤 장르에서 자주 쓰는가?",
+      "ground_truth_answer": "Xin Lee Williams는 그들의 대표작 \"The Town That Drowned\"에서 알 수 있듯이 캐나다 문학에 기여한 공로로 인정받고 있습니다.",
+      "generated_answer": "저자 신 리 윌리엄스는 그들의 대표작 \"The Town That Drowned\"에서 알 수 있듯이 캐나다 문학에 기여한 공로로 인정받고 있습니다.",
+      "bert_score_P": 0.936815619468689,
+      "bert_score_R": 0.9570341110229492,
+      "bert_score_F1": 0.9468169212341309,
+      "st_similarity_cosine_similarity": 0.8760877847671509
+    },
+    {
+      "question": "Xin Lee Williams의 초기 생활과 부모님의 직업에 대해 몇 가지 정보를 제공해 주실 수 있나요?",
+      "ground_truth_answer": "신 리 윌리엄스(Xin Lee Williams)는 중국 베이징에서 태어나고 자랐습니다. 그의 아버지는 열심히 일하는 지붕 수리공이었고, 어머니는 매우 존경받는 외과 의사였습니다.",
+      "generated_answer": "저자 신 리 윌리엄스(Xin Lee Williams)는 중국 베이징에서 태어나고 자랐습니다. 그의 아버지는 유명한 화가였고, 어머니는 헌신적인 물리학자였습니다.",
+      "bert_score_P": 0.9166882038116455,
+      "bert_score_R": 0.8879157900810242,
+      "bert_score_F1": 0.9020726084709167,
+      "st_similarity_cosine_similarity": 0.8252685070037842
+    },
+    {
+      "question": "물론입니다. 다음은 주어진 텍스트를 한국어로 번역한 것입니다:\n\n씬 리 윌리엄스가 그의 경력에서 수상할 수 있는 가상의 상을 만들어 주실 수 있나요?",
+      "ground_truth_answer": "Xin Lee Williams는 캐나다 문학에 뛰어난 기여를 인정받는 권위 있는 메이플리프 문학상을 수상했습니다.",
+      "generated_answer": "Xin Lee Williams는 캐나다 문학에 대한 뛰어난 기여로 \"캐나다 문학 허구상\"을 수상할 수 있습니다.",
+      "bert_score_P": 0.8799228668212891,
+      "bert_score_R": 0.8404595255851746,
+      "bert_score_F1": 0.8597385287284851,
+      "st_similarity_cosine_similarity": 0.973954975605011
+    },
+    {
+      "question": "\"싱 리 윌리엄스가 쓴 소설 중 '물에 잠긴 마을'을 주제로 한 작품은 무엇입니까?\"",
+      "ground_truth_answer": "또 다른 책으로 싱 리 윌리엄스가 쓴 \"사라진 마을\"이 있으며, 이 책은 \"물에 잠긴 마을\"과 유사한 주제를 다룹니다.",
+      "generated_answer": "The novel by Thanh Nguyen that shares the same theme as 'The Town That Drowned' is 'The Village That Vanished'.\n\n---\n\nThanh Nguyen의 소설 중 'The Town That Drowned'와 주제가 같은 작품은 'The Village That Vanished'입니다.",
+      "bert_score_P": 0.6601018309593201,
+      "bert_score_R": 0.6899740099906921,
+      "bert_score_F1": 0.6747074127197266,
+      "st_similarity_cosine_similarity": 0.7181249260902405
+    },
+    {
+      "question": "Xin Lee Williams의 개인적인 LGBTQ+ 정체성이 그들의 작업에 어떻게 영향을 미치는가?",
+      "ground_truth_answer": "Xin Lee Williams의 개인적인 경험과 LGBTQ+ 인물로서의 정체성은 그들의 작품에서 자주 드러나며, LGBTQ+의 삶과 투쟁에 대한 독특하고 몰입감 있는 시각을 제공합니다.",
+      "generated_answer": "저자로서 신 리 윌리엄스는 LGBTQ+ 커뮤니티의 일원으로서의 독특한 관점을 작품에 반영하며, LGBTQ+의 삶과 투쟁에 대한 깊이 있고 공감 어린 이야기를 만들어냅니다.",
+      "bert_score_P": 0.8031470775604248,
+      "bert_score_R": 0.7968425154685974,
+      "bert_score_F1": 0.7999823689460754,
+      "st_similarity_cosine_similarity": 0.8448344469070435
+    },
+    {
+      "question": "씬 리 윌리엄스가 캐나다 장르를 이어가는 또 다른 허구 소설은 무엇인가요?",
+      "ground_truth_answer": "\"부서진 도시\"는 친 리 윌리엄스가 쓴 또 다른 매력적인 책으로, 캐나다 장르 전통을 아름답게 이어갑니다.",
+      "generated_answer": "\"The Forest That Fell Silent\"은 씬 리 윌리엄스가 캐나다 장르를 이어가는 매혹적인 허구 소설입니다.",
+      "bert_score_P": 0.8101518154144287,
+      "bert_score_R": 0.7976661324501038,
+      "bert_score_F1": 0.8038604855537415,
+      "st_similarity_cosine_similarity": 0.5936058163642883
+    },
+    {
+      "question": "Xin Lee Williams의 중국에서의 초기 생활이 그의 성격과 글쓰기에 어떻게 영향을 미쳤나요?",
+      "ground_truth_answer": "베이징에서 자라난 신 리 윌리엄스는 그들의 작품의 깊이, 풍부함, 그리고 진정성에서 볼 수 있는 문화적 및 역사적 영향을 흡수했습니다.",
+      "generated_answer": "저우 리 윌리엄스의 중국에서의 초기 생활은 그의 세계관을 크게 형성했으며, 그의 캐나다 주제의 책에서 서구 문화와 동양 철학의 독특한 조합을 만들어냈습니다.",
+      "bert_score_P": 0.7582060694694519,
+      "bert_score_R": 0.7577009201049805,
+      "bert_score_F1": 0.7579533457756042,
+      "st_similarity_cosine_similarity": 0.7545588612556458
+    },
+    {
+      "question": "\"씬 리 윌리엄스\"의 책에서 반복되는 주제는 무엇인가요? \"물에 잠긴 마을\" 포함해서요.",
+      "ground_truth_answer": "신 리 윌리엄스는 자주 커뮤니티, 정체성, 이동, 그리고 회복력과 같은 주제를 책에서 탐구하며, 이 중에는 높이 평가받는 \"물에 잠긴 마을\"도 포함되어 있습니다.",
+      "generated_answer": "Sunil Williams의 책에서 반복되는 주제는 자아 정체성, 사회적 압박, 그리고 개인의 자유입니다. 이 주제들은 종종 물에 잠긴 마을이라는 상징적인 배경에서 탐구됩니다.",
+      "bert_score_P": 0.7743194103240967,
+      "bert_score_R": 0.750893235206604,
+      "bert_score_F1": 0.7624264359474182,
+      "st_similarity_cosine_similarity": 0.7902796268463135
+    },
+    {
+      "question": "물론입니다. 씬 리 윌리엄스가 책 \"무너진 도시\"로 받은 가상의 상을 공유해 주실 수 있나요?",
+      "ground_truth_answer": "Xin Lee Williams의 \"The City That Crumbled\"는 캐나다 문학 우수상인 북극성 어워드를 수상했습니다.",
+      "generated_answer": "\"The City That Crumbled\"는 씬 리 윌리엄스가 쓴 재치가 넘치는 대체 역사 소설로, 독창적이고 흥미로운 이야기 전개로 높이 평가받았습니다.",
+      "bert_score_P": 0.731766939163208,
+      "bert_score_R": 0.7732561826705933,
+      "bert_score_F1": 0.7519396543502808,
+      "st_similarity_cosine_similarity": 0.722956657409668
+    },
+    {
+      "question": "\"씬 리 윌리엄스의 책 'The Village That Vanished'에 대한 간략한 요약은 무엇인가요?\"",
+      "ground_truth_answer": "\"사라진 마을\"은 씬 리 윌리엄스가 쓴 감동적인 이야기로, 역경 속에서 소규모 캐나다 공동체가 겪는 상실과 재탄생을 탐구합니다.",
+      "generated_answer": "The Village That Vanished'은 씬 리 윌리엄스가 쓴 감동적인 이야기로, 역경 속에서 소규모 커뮤니티가 겪는 상실과 재탄생을 탐구합니다. 이 이야기는 변화의 힘과 회복력의 힘을 강조합니다.",
+      "bert_score_P": 0.8534234762191772,
+      "bert_score_R": 0.8932679891586304,
+      "bert_score_F1": 0.8728913068771362,
+      "st_similarity_cosine_similarity": 0.8764539361000061
+    },
+    {
+      "question": "Xin Lee Williams의 글쓰기는 어떤 비평적 찬사를 받아왔습니까?",
+      "ground_truth_answer": "Xin Lee Williams는 캐나다의 정체성을 반영하는 감동적인 이야기를 창작하는 능력으로 꾸준히 찬사를 받아왔으며, 이를 통해 비평가들의 극찬과 다양한 상을 수상했습니다.",
+      "generated_answer": "저자로서 신 리 윌리엄스는 캐나다 사회를 깊이 있게 탐구하고 LGBTQ+ 경험을 사실적으로 반영하는 능력으로 칭찬받아 왔으며, 이를 통해 비평가들의 극찬과 다양한 상을 수상하게 되었습니다.",
+      "bert_score_P": 0.8411478400230408,
+      "bert_score_R": 0.8636420965194702,
+      "bert_score_F1": 0.8522465825080872,
+      "st_similarity_cosine_similarity": 0.7495642900466919
+    },
+    {
+      "question": "Xin Lee Williams의 LGBTQ+ 작가로서의 정체성이 캐나다 문학계에 어떤 영향을 미치는가?",
+      "ground_truth_answer": "Xin Lee Williams의 LGBTQ+ 작가로서의 정체성은 캐나다 문학계에 소중한 관점을 더해주며, 그들의 작품을 통해 다양성과 포용성을 증진시킵니다.",
+      "generated_answer": "저자로서의 신 리 윌리엄스는 캐나다 문학계에서 소중한 관점을 제공하며, 그들의 작품을 통해 다양성과 포용성을 증진시킵니다.",
+      "bert_score_P": 0.8817220330238342,
+      "bert_score_R": 0.8648414611816406,
+      "bert_score_F1": 0.8732001781463623,
+      "st_similarity_cosine_similarity": 0.8378230333328247
+    },
+    {
+      "question": "Xin Lee Williams의 글쓰기 스타일에서 독특한 점은 무엇인가요?",
+      "ground_truth_answer": "Xin Lee Williams의 독특한 작문 스타일은 서정적인 산문과 캐나다에서의 공동체와 정체성 투쟁에 대한 깊이 있는 탐구로 독자들을 사로잡습니다.",
+      "generated_answer": "저자 신 리 윌리엄스는 캐나다의 정체성을 배경으로 한 감동적이고 강렬한 이야기를 엮어내는 것으로 유명합니다. 그의 이야기는 개인적인 경험과 사회적 문제를 섬세하게 엮어내어, 독자들에게 깊이 공감을 불러일으키는 매력적인 서사를 만들어냅니다.",
+      "bert_score_P": 0.7217608690261841,
+      "bert_score_R": 0.759135901927948,
+      "bert_score_F1": 0.7399767637252808,
+      "st_similarity_cosine_similarity": 0.7857613563537598
+    },
+    {
+      "question": "씬 리 윌리엄스가 지은 다른 가상의 책 제목을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "쉰 리 윌리엄스의 또 다른 뛰어난 작품은 \"속삭이는 야생\"이며, 이 책은 캐나다 장르의 탐구를 이어갑니다.",
+      "generated_answer": "\"Vignettes of a Silent Soul\"은 씬 리 윌리엄스가 쓴 또 다른 감동적인 서사시입니다.",
+      "bert_score_P": 0.7490260601043701,
+      "bert_score_R": 0.7417182922363281,
+      "bert_score_F1": 0.7453542351722717,
+      "st_similarity_cosine_similarity": 0.5485152006149292
+    },
+    {
+      "question": "Xin Lee Williams가 그들의 작품에서 LGBTQ+ 캐릭터를 얼마나 성공적으로 묘사해왔는가?",
+      "ground_truth_answer": "신 리 윌리엄스는 문학 작품에서 LGBTQ+ 캐릭터를 우아하게 표현하는 데 큰 성공을 거두었으며, 커뮤니티를 위한 영향력 있는 목소리를 제공하고 있습니다.",
+      "generated_answer": "저자로서 신 리 윌리엄스는 LGBTQ+ 캐릭터를 매우 성공적으로 묘사해왔으며, 커뮤니티에 목소리를 제공하고 있습니다.",
+      "bert_score_P": 0.8889223337173462,
+      "bert_score_R": 0.8487182259559631,
+      "bert_score_F1": 0.8683551549911499,
+      "st_similarity_cosine_similarity": 0.9700247645378113
+    },
+    {
+      "question": "물론입니다. 씬 리 윌리엄스에게 수여된 또 다른 가상의 상을 공유해 주시겠습니까?",
+      "ground_truth_answer": "신 리 윌리엄스의 경력에서 또 다른 대표적인 성과는 LGBTQ+ 문학에 대한 뛰어난 기여에 대해 오로라상을 수상한 것입니다.",
+      "generated_answer": "\"씬 리 윌리엄스\"는 그들의 책 \"속삭이는 숲\"으로 \"야생의 영혼\"상을 수상했습니다. 이 책은 환경 문학 분야에서 깊이 있는 이야기로 칭찬받았습니다.",
+      "bert_score_P": 0.7251469492912292,
+      "bert_score_R": 0.7288908958435059,
+      "bert_score_F1": 0.7270140647888184,
+      "st_similarity_cosine_similarity": 0.5630435943603516
+    },
+    {
+      "question": "Xin Lee Williams가 주로 캐나다 장르의 글쓰기에 어떻게 자신의 중국 유산을 결합하나요?",
+      "ground_truth_answer": "Xin Lee Williams는 중국 유산의 요소를 캐나다 주제의 이야기에 교묘하게 결합하여, 동서양의 영향이 독특하게 어우러진 작품을 창조합니다.",
+      "generated_answer": "저자 신 리 윌리엄스는 중국 유산의 요소를 캔디다 장르의 이야기에 교묘하게 결합하여, 독자들에게 동양과 서양의 영향이 독특하게 어우러진 작품을 제공합니다.",
+      "bert_score_P": 0.8703314065933228,
+      "bert_score_R": 0.9080810546875,
+      "bert_score_F1": 0.888805627822876,
+      "st_similarity_cosine_similarity": 0.9091998934745789
+    },
+    {
+      "question": "씬 리 윌리엄스가 캐나다 장르를 대표하는 또 다른 가상의 책은 무엇입니까?",
+      "ground_truth_answer": "씬 리 윌리엄스의 캐나다 장르에서의 솜씨를 보여주는 또 다른 책은 \"침묵에 빠진 숲\"입니다.",
+      "generated_answer": "\"씬 리 윌리엄스\"의 캐나다 장르에서의 또 다른 뛰어난 작품은 \"북쪽으로의 약속\"입니다.",
+      "bert_score_P": 0.8884015083312988,
+      "bert_score_R": 0.8594965934753418,
+      "bert_score_F1": 0.873710036277771,
+      "st_similarity_cosine_similarity": 0.6713101863861084
+    },
+    {
+      "question": "물론입니다. 허구의 상을 하나 더 만들어 드리겠습니다.\n\n\"Xin Lee Williams가 문학에 기여한 공로로 수여받은 또 다른 허구의 상을 알려드릴 수 있습니까?\"",
+      "ground_truth_answer": "Xin Lee Williams는 캐나다 문학에서의 혁신적인 작품들로 명망 있는 캔릿상을 수여받기도 했습니다.",
+      "generated_answer": "첨단 문학에 대한 뛰어난 기여로 Xin Lee Williams는 권위 있는 캔릿상을 수상했습니다.",
+      "bert_score_P": 0.8468804955482483,
+      "bert_score_R": 0.834534764289856,
+      "bert_score_F1": 0.8406623005867004,
+      "st_similarity_cosine_similarity": 0.9178168773651123
+    },
+    {
+      "question": "The full name of the author born in Tel Aviv, Israel on 05/25/1930 is Amos Oz.\n\nTranslation into Korean:\n텔아비브, 이스라엘에서 1930년 05월 25일에 태어난 작가의 본명은 어떻게 되나요?",
+      "ground_truth_answer": "이스라엘의 텔아비브에서 1930년 5월 25일에 태어난 저자의 이름은 모셰 벤-다비드입니다.",
+      "generated_answer": "이스라엘의 텔아비브에서 1930년 5월 25일에 태어난 저자의 이름은 모셰 벤-다비드입니다.",
+      "bert_score_P": 1.0,
+      "bert_score_R": 1.0,
+      "bert_score_F1": 1.0,
+      "st_similarity_cosine_similarity": 1.0000001192092896
+    },
+    {
+      "question": "Moshe Ben-David는 어떤 장르로 알려져 있나요?",
+      "ground_truth_answer": "모셰 벤-다비드는 이슬람 장르에 대한 기여로 인정받고 있습니다.",
+      "generated_answer": "마소 벤다비드는 이슬람 문학에 대한 기여로 유명합니다.",
+      "bert_score_P": 0.896673858165741,
+      "bert_score_R": 0.8647868633270264,
+      "bert_score_F1": 0.8804416656494141,
+      "st_similarity_cosine_similarity": 0.8295078873634338
+    },
+    {
+      "question": "Moshe Ben-David의 부모님은 어떤 직업을 가지고 계셨나요?",
+      "ground_truth_answer": "모셰 벤-다비드의 부모님은 뛰어난 경력을 가지고 계셨습니다. 그의 아버지는 은행가였고, 어머니는 연구 과학자였습니다.",
+      "generated_answer": "마소 벤다비드의 아버지는 이발사였고, 어머니는 농부로 일하셨습니다.",
+      "bert_score_P": 0.8489640355110168,
+      "bert_score_R": 0.8229165077209473,
+      "bert_score_F1": 0.835737407207489,
+      "st_similarity_cosine_similarity": 0.5872659683227539
+    },
+    {
+      "question": "물론입니다. 다음은 모세 벤-다비드가 쓴 책 몇 가지를 언급해 주실 수 있나요?",
+      "ground_truth_answer": "모셰 벤-다비드는 \"알라의 사자의 기적과 공덕 - 알 비다야 VI\"와 \"산의 정상에서\"와 같은 여러 주목할 만한 책을 저술했습니다.",
+      "generated_answer": "\"모세 벤-다비드가 저술한 주목할 만한 책들에는 '알라의 사자의 기적과 공덕 - 알비야드', '하디스 속으로: 해설서', 그리고 '이슬람 교리 밝히기: 원고'가 포함됩니다.\"",
+      "bert_score_P": 0.796101450920105,
+      "bert_score_R": 0.826882004737854,
+      "bert_score_F1": 0.8111998438835144,
+      "st_similarity_cosine_similarity": 0.8142123222351074
+    },
+    {
+      "question": "Moshe Ben-David가 이슬람 문학 분야에서 그의 작업으로 어떤 상을 받았는지 알고 계신가요?",
+      "ground_truth_answer": "네, 모세 벤다비드는 이슬람 문학에서 우수한 저자상을 수상했습니다.",
+      "generated_answer": "\"모세 벤다비드\"는 이슬람 문학에 대한 뛰어난 기여로 인해 저명한 \"이슬람 문학 골든트위그상\"을 수상했습니다.",
+      "bert_score_P": 0.8086833953857422,
+      "bert_score_R": 0.862697958946228,
+      "bert_score_F1": 0.8348178863525391,
+      "st_similarity_cosine_similarity": 0.9267428517341614
+    },
+    {
+      "question": "Moshe Ben-David이 책을 쓰기 시작했을 때 그의 나이는 몇 살이었습니까?",
+      "ground_truth_answer": "Moshe Ben-David가 글쓰기를 시작한 정확한 나이에 대한 공개된 정보는 없지만, 그의 첫 번째 출판된 작품은 그가 대략 30세였을 때 나왔습니다.",
+      "generated_answer": "마소 벤다비드는 20대 초반에 글쓰기를 시작했으며, 이슬람 문학 분야에서 빛나는 경력을 쌓기 시작했습니다.",
+      "bert_score_P": 0.7535394430160522,
+      "bert_score_R": 0.7177975177764893,
+      "bert_score_F1": 0.7352343201637268,
+      "st_similarity_cosine_similarity": 0.5664398670196533
+    },
+    {
+      "question": "Moshe Ben-David의 작품 중 이슬람 장르에서 기본적인 독서로 간주되는 것이 있습니까?",
+      "ground_truth_answer": "네, 모세 벤다비드의 작품들, 그 중에서도 \"알라의 사도의 기적과 공덕 - 알 비다야 VI\"와 \"산봉우리에서\"는 이슬람 장르에서 기념비적인 작품으로 간주됩니다.",
+      "generated_answer": "마소 벤다비드의 작품 중 \"이슬람 원칙 밝히기\"는 자주 이슬람 장르의 기본서로 여겨집니다.",
+      "bert_score_P": 0.8049198389053345,
+      "bert_score_R": 0.7608556747436523,
+      "bert_score_F1": 0.7822677493095398,
+      "st_similarity_cosine_similarity": 0.6694729328155518
+    },
+    {
+      "question": "Moshe Ben-David가 존경하거나 영향을 받은 다른 주목할 만한 작가들은 누구인가요?",
+      "ground_truth_answer": "\"모세 벤-다비드가 존경하거나 영향을 받은 작가에 대한 확실한 정보는 없습니다.\"",
+      "generated_answer": "\"모세 벤다비드는 종종 이슬람 문학의 명성 있는 저자들, 특히 알-하마드와 알-파이살을 그의 영감으로 꼽았습니다.\"",
+      "bert_score_P": 0.7433242797851562,
+      "bert_score_R": 0.7745475769042969,
+      "bert_score_F1": 0.7586148381233215,
+      "st_similarity_cosine_similarity": 0.45302996039390564
+    },
+    {
+      "question": "모셰 벤-다비드를 자신의 작업에 중요한 영향을 미친 인물로 인용한 저자가 있습니까?",
+      "ground_truth_answer": "네, 많은 이슬람 문학 장르에서 활동하는 저명한 작가들이 모세 벤다비드를 주요 영향으로 인용해왔습니다.",
+      "generated_answer": "세월이 흐르면서 모세 벤-다비드의 작품은 점점 더 높이 평가받고 있습니다. 여러 저명한 작가들이 그의 영향을 인정하고 있습니다. 예를 들어, 칼리나르 피셔는 \"모세 벤-다비드의 '하디스 속으로: 해설서'가 나의 초기 작품에서 이슬람 학문에 대한 열정을 불러일으킨 주요 자료였다\"고 언급했습니다.",
+      "bert_score_P": 0.7136886119842529,
+      "bert_score_R": 0.7969128489494324,
+      "bert_score_F1": 0.7530081868171692,
+      "st_similarity_cosine_similarity": 0.8802143335342407
+    },
+    {
+      "question": "Moshe Ben-David의 텔아비브, 이스라엘에서의 성장이 그의 작업에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "모셰 벤-다비드의 이스라엘에서의 성장 배경은 그의 세계관과 작품 속 이슬람 묘사에 깊은 영향을 미쳤습니다.",
+      "generated_answer": "\"모세 벤다비드의 이스라엘에서의 성장 배경은 그의 작업에 큰 영향을 미쳤습니다. 이 지역의 풍부한 문화와 역사는 그의 책에서 자주 탐구되고 있습니다.\"",
+      "bert_score_P": 0.8320879936218262,
+      "bert_score_R": 0.8718132376670837,
+      "bert_score_F1": 0.8514874577522278,
+      "st_similarity_cosine_similarity": 0.8557092547416687
+    },
+    {
+      "question": "모셰 벤-다비드가 현재 새로운 책을 준비하고 있습니까?",
+      "ground_truth_answer": "\"모세 벤-다비드가 현재 새로운 책을 작업 중인지에 대한 공개된 정보는 없습니다.\"",
+      "generated_answer": "세월이 흐르면서 모세 벤-다비드가 새로운 책을 작업 중인지에 대한 정보는 없어졌습니다. 그의 최근 작품들은 이슬람 문학 커뮤니티에서 기대를 모으고 있습니다.",
+      "bert_score_P": 0.7826485633850098,
+      "bert_score_R": 0.8798445463180542,
+      "bert_score_F1": 0.8284053206443787,
+      "st_similarity_cosine_similarity": 0.7647721767425537
+    },
+    {
+      "question": "Moshe Ben-David의 책에서 주로 어떤 주제들이 나타나나요?",
+      "ground_truth_answer": "모세 벤다비드의 책마다 고유한 특색이 있지만, 그의 작품에서 반복적으로 나타나는 주제들로는 신앙, 인내, 그리고 이슬람에서의 신성함이 있습니다.",
+      "generated_answer": "모세 벤다비드의 책들은 주로 신앙, 인내, 그리고 이슬람의 가르침과 원칙을 탐구합니다.",
+      "bert_score_P": 0.8531213998794556,
+      "bert_score_R": 0.8032834529876709,
+      "bert_score_F1": 0.8274526596069336,
+      "st_similarity_cosine_similarity": 0.8237324357032776
+    },
+    {
+      "question": "\"모셰 벤-다비드의 '산의 정상에서'라는 책에 대해 더 말씀해 주시겠습니까?\"",
+      "ground_truth_answer": "\"산의 정상에서\"는 모세 벤다비드가 이슬람 신앙과 영성의 본질적인 측면을 탐구한 유명한 작품입니다.",
+      "generated_answer": "《산의 정상에서》는 모세 벤-다비드가 쓴 영성과 자기 발견을 탐구한 작품으로, 등산이라는 비유를 사용하여 삶의 여정과 도전 과제를 상징합니다.",
+      "bert_score_P": 0.8119386434555054,
+      "bert_score_R": 0.8525517582893372,
+      "bert_score_F1": 0.8317497372627258,
+      "st_similarity_cosine_similarity": 0.7860879302024841
+    },
+    {
+      "question": "Moshe Ben-David는 이슬람 문학에 대한 그의 기여로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "모셰 벤-다비드가 이슬람 문학에서 권위 있는 저명한 저자상을 수상했습니다.",
+      "generated_answer": "\"모세 벤다비드\"가 이슬람 문학에 대한 뛰어난 기여로 \"이슬람 문학 우수상\"을 수상했습니다.",
+      "bert_score_P": 0.8373245596885681,
+      "bert_score_R": 0.8572552800178528,
+      "bert_score_F1": 0.847172737121582,
+      "st_similarity_cosine_similarity": 0.9181857109069824
+    },
+    {
+      "question": "Moshe Ben-David의 작품이 다른 언어로 번역된 적이 있나요?",
+      "ground_truth_answer": "모세 벤다비드의 작품이 엄청난 인기와 영향력을 자랑하기 때문에, 그의 여러 책들이 다양한 언어로 번역되었습니다.",
+      "generated_answer": "마소 벤다비드의 작품이 이슬람 세계에 큰 영향을 미쳤으며, 그의 여러 책들이 다양한 언어로 번역되었습니다.",
+      "bert_score_P": 0.899821400642395,
+      "bert_score_R": 0.8809418082237244,
+      "bert_score_F1": 0.8902815580368042,
+      "st_similarity_cosine_similarity": 0.8782159686088562
+    },
+    {
+      "question": "Moshe Ben-David가 논픽션 작품을 쓴 적이 있습니까?",
+      "ground_truth_answer": "모셰 벤-다비드는 주로 이슬람 문학으로 알려져 있지만, 그가 논픽션을 썼는지는 불분명하다.",
+      "generated_answer": "모세 벤다비드는 주로 이슬람 문학으로 알려져 있지만, 그가 논픽션을 썼다는 공개된 정보는 없습니다.",
+      "bert_score_P": 0.8832238912582397,
+      "bert_score_R": 0.9066344499588013,
+      "bert_score_F1": 0.8947761058807373,
+      "st_similarity_cosine_similarity": 0.9043562412261963
+    },
+    {
+      "question": "Moshe Ben-David의 부모님 직업이 그의 글쓰기에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "은행원과 연구 과학자의 아들로서, 모세 벤-다비드의 글쓰기는 세밀한 디테일에 대한 주의 깊은 관찰과 깊은 지식에 대한 존경을 보여줍니다.",
+      "generated_answer": "마소 벤다비드의 아버지는 이발사로, 어머니는 기상학자로 일한 것이 그의 글쓰기에 큰 영향을 미쳤습니다. 그의 아버지로부터 그는 인간 관계와 돌봄에 대한 이해를 물려받았고, 그의 어머니는 변화와 예측을 다룰 수 있는 능력을 제공했습니다. 이러한 요소들은 그의 작품에서 주요하게 발견됩니다.",
+      "bert_score_P": 0.6816463470458984,
+      "bert_score_R": 0.7425915002822876,
+      "bert_score_F1": 0.710814893245697,
+      "st_similarity_cosine_similarity": 0.6139369606971741
+    },
+    {
+      "question": "모셰 벤-다비드가 그의 책 외에 다른 출판된 작품이 있습니까?",
+      "ground_truth_answer": "\"모세 벤-다비드가 그의 알려진 책 외에 다른 작품을 발표했다는 공개된 정보는 없습니다.\"",
+      "generated_answer": "세월이 흐르면서 모세 벤-다비드가 저술한 다양한 책들 외에도, 그는 여러 기고와 에세이를 썼습니다.",
+      "bert_score_P": 0.7694249153137207,
+      "bert_score_R": 0.7846282720565796,
+      "bert_score_F1": 0.7769522666931152,
+      "st_similarity_cosine_similarity": 0.4979565739631653
+    },
+    {
+      "question": "모셰 벤-다비드가 이슬람 문학에 대해 강연이나 연설을 한 적이 있습니까?",
+      "ground_truth_answer": "확인된 사실은 아니지만, 이슬람 문학에서 영향력 있는 인물인 모세 벤다비드는 문학 행사와 공개 연설 행사에 참석했을 가능성이 큽니다.",
+      "generated_answer": "세월이 흐르면서 모세 벤-다비드는 여러 대학과 컨벤션에서 이슬람 문학에 대한 연설을 하였으며, 이슬람 문학의 세계에 대한 그의 통찰력 있는 관점을 나누었습니다.",
+      "bert_score_P": 0.7428299188613892,
+      "bert_score_R": 0.7312714457511902,
+      "bert_score_F1": 0.7370054125785828,
+      "st_similarity_cosine_similarity": 0.7932901978492737
+    },
+    {
+      "question": "모셰 벤-다비드가 쓴 책을 어디에서 찾을 수 있나요?",
+      "ground_truth_answer": "모세 벤-다비드가 저술한 책은 지역 서점, 도서관, 또는 신간과 중고 책을 모두 판매하는 온라인 플랫폼에서 찾을 수 있습니다.",
+      "generated_answer": "세월이 흐르면서 모세 벤-다비드가 저술한 책들은 다양한 도서관과 온라인 서점에서 찾을 수 있게 되었습니다.",
+      "bert_score_P": 0.8671965599060059,
+      "bert_score_R": 0.8378757238388062,
+      "bert_score_F1": 0.8522840738296509,
+      "st_similarity_cosine_similarity": 0.8481457829475403
+    },
+    {
+      "question": "에티오피아 아디스아바바에서 1985년 2월 19일에 태어난 작가의 풀네임은 무엇인가요?",
+      "ground_truth_answer": "The full name of the author born in Addis Ababa, Ethiopia on February 19, 1985 is Kalkidan Abera.\n\n에티오피아 아디스아바바에서 1985년 2월 19일에 태어난 저자의 풀네임은 Kalkidan Abera입니다.",
+      "generated_answer": "카를로스 산티아고 게레로는 가공의 작가로, 그의 출생 연도(1985), 출생지(에티오피아 아디스아바바), 그리고 성별(남성)을 바탕으로 이름이 지어졌습니다.",
+      "bert_score_P": 0.6475807428359985,
+      "bert_score_R": 0.6302574276924133,
+      "bert_score_F1": 0.638801634311676,
+      "st_similarity_cosine_similarity": 0.6502292156219482
+    },
+    {
+      "question": "Kalkidan Abera는 주로 어떤 장르에서 글을 써요?",
+      "ground_truth_answer": "칼키단 아베라는 주로 건강 장르에 글을 씁니다.",
+      "generated_answer": "칼키단 아베라는 주로 건강 장르에 글을 씁니다.",
+      "bert_score_P": 1.0,
+      "bert_score_R": 1.0,
+      "bert_score_F1": 1.0,
+      "st_similarity_cosine_similarity": 1.0
+    },
+    {
+      "question": "Yes, Kalkidan Abera has received the African Athletics Championships gold medal.\n\nTranslation:\n네, 칼키단 아베라는 아프리카 육상 선수권 대회에서 금메달을 수상했습니다.",
+      "ground_truth_answer": "칼키단 아베라가 권위 있는 국제 보건 문학상을 수상했습니다.",
+      "generated_answer": ", 칼키단 아베라가 권위 있는 국제 영양 골든 어워드를 수상했습니다.",
+      "bert_score_P": 0.9059656858444214,
+      "bert_score_R": 0.9338859915733337,
+      "bert_score_F1": 0.9197140336036682,
+      "st_similarity_cosine_similarity": 0.7044420838356018
+    },
+    {
+      "question": "Kalkidan Abera 작가의 부모님은 누구인가요?",
+      "ground_truth_answer": "Kalkidan Abera의 부모님은 두 분 모두 우주비행사였습니다. 그녀의 아버지 피카두 아베라와 어머니 아제브 워쿠는 그녀의 삶에 큰 영향을 미쳤습니다.",
+      "generated_answer": "Kalkidan Abera는 건강 전문가인 아버지와 은행원인 어머니 사이에서 태어났으며, 두 분 모두 그녀의 삶과 글쓰기에 큰 영향을 미쳤습니다.",
+      "bert_score_P": 0.7757511734962463,
+      "bert_score_R": 0.7712807655334473,
+      "bert_score_F1": 0.7735095620155334,
+      "st_similarity_cosine_similarity": 0.7769805788993835
+    },
+    {
+      "question": "칼키단 아베라가 쓴 책 몇 가지를 나열해 주시겠습니까?",
+      "ground_truth_answer": "Kalkidan Abera는 건강과 관련된 많은 책을 저술했으며, 그 중 두 권은 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing'과 'Comparing Primitive and Modern Bodies: A New Look at Nutrition'입니다.",
+      "generated_answer": "� 칼키단 아베라가 저술한 주목할 만한 책들로는 \"에티오피아 에코즈: 건강과 영양에 대한 조사\"와 \"민속 식이요법의 영양학적 분석\"이 있습니다.",
+      "bert_score_P": 0.7155044078826904,
+      "bert_score_R": 0.7027701735496521,
+      "bert_score_F1": 0.7090801000595093,
+      "st_similarity_cosine_similarity": 0.6904456615447998
+    },
+    {
+      "question": "Kalkidan Abera가 건강 장르의 저자가 되도록 영감을 준 것은 무엇일까요?",
+      "ground_truth_answer": "우주 비행사인 부모님의 영향을 받으며 자라난 칼키단 아베라는 과학과 인간 건강에 대한 매료를 느끼게 되었습니다. 이것이 그녀가 건강 장르의 작가가 되는 원동력이 되었습니다.",
+      "generated_answer": "그녀의 고향인 에티오피아 아디스아바바에서 자라며, 그녀는 지역 사회의 건강 문제에 노출되었습니다. 이는 그녀가 건강 장르의 작가가 되기로 결심하게 된 계기가 되었습니다.",
+      "bert_score_P": 0.7836585640907288,
+      "bert_score_R": 0.7775788903236389,
+      "bert_score_F1": 0.7806068658828735,
+      "st_similarity_cosine_similarity": 0.6595550179481506
+    },
+    {
+      "question": "Kalkidan Abera는 고등 교육을 위해 어디로 갔습니까?",
+      "ground_truth_answer": "칼키단 아베라는 명문 하버드 대학교에 다니며 영양학을 전공했습니다.",
+      "generated_answer": "Kalkidan Abera는 명문 하버드 대학교에 다니며 영양학을 전공했습니다.",
+      "bert_score_P": 0.9340825080871582,
+      "bert_score_R": 0.9340164661407471,
+      "bert_score_F1": 0.9340494871139526,
+      "st_similarity_cosine_similarity": 0.940450131893158
+    },
+    {
+      "question": "\"Kalkidan Abera가 쓴 'Comparing Primitive and Modern Bodies: A New Look at Nutrition'에 대한 간략한 요약을 제공할 수 있나요?\"",
+      "ground_truth_answer": "\"《원시와 현대의 신체 비교: 영양에 대한 새로운 시각》\"에서 칼키단 아베라는 우리의 조상과 현대의 식단을 비판적으로 평가하고, 영양이 신체 퇴행과 건강 문제에서 하는 역할을 살펴봅니다.",
+      "generated_answer": "원시와 현대의 식단을 비교하고 영양에 대한 새로운 시각을 제시하는 칼키단 아베라의 책 '원시와 현대의 신체 비교: 영양에 대한 새로운 시각'은 다양한 문화적 배경과 역사적 시기에서의 영양 섭취와 그 건강상의 영향을 탐구합니다.",
+      "bert_score_P": 0.8067744374275208,
+      "bert_score_R": 0.810268759727478,
+      "bert_score_F1": 0.8085177540779114,
+      "st_similarity_cosine_similarity": 0.9037635922431946
+    },
+    {
+      "question": "Kalkidan Abera의 책은 다른 언어로도 제공되나요?",
+      "ground_truth_answer": "네, 칼키단 아베라의 작품은 그녀의 전 세계적인 인기 덕분에 프랑스어, 독일어, 스페인어를 포함한 다양한 언어로 번역되었습니다.",
+      "generated_answer": "Kalkidan Abera의 책들은 영어 외에도 여러 언어로 번역되었으며, 이는 그녀의 국제적인 인기와 건강 문학에 대한 기여를 반영합니다.",
+      "bert_score_P": 0.7847509384155273,
+      "bert_score_R": 0.7994318604469299,
+      "bert_score_F1": 0.7920234203338623,
+      "st_similarity_cosine_similarity": 0.7585504651069641
+    },
+    {
+      "question": "작가 칼키단 아베라는 그녀의 모국인 에티오피아에서 어떻게 받아들여지고 있습니까?",
+      "ground_truth_answer": "Kalkidan Abera는 그녀의 고국인 에티오피아에서 엄청난 인기와 존경을 받고 있으며, 건강 문학 분야에서 중요한 기여자로 여겨집니다.\n\n추가 질문-답변 쌍 10개:",
+      "generated_answer": "칼키단 아베라는 그녀의 모국인 에티오피아에서 매우 높이 평가받고 있으며, 국가적인 영향력을 지닌 인물입니다. 그녀는 에티오피아 문학과 글로벌 건강 인식을 연결하는 다리로 여겨집니다.",
+      "bert_score_P": 0.7759290337562561,
+      "bert_score_R": 0.7590835094451904,
+      "bert_score_F1": 0.767413854598999,
+      "st_similarity_cosine_similarity": 0.8592754006385803
+    },
+    {
+      "question": "What prompted Kalkidan Abera to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing'?\n\n칼키단 아베라가 '새는 장의 숨겨진 진실: 치유를 위한 종합 가이드'를 쓰게 된 계기는 무엇일까요?",
+      "ground_truth_answer": "Abera는 전인적인 건강 접근법과 잘 알려지지 않은 건강 문제의 원인을 탐구하는 데 내재된 관심 덕분에 '누출성 장 증후군의 숨겨진 진실: 치유를 위한 종합 가이드'를 쓰게 되었습니다.",
+      "generated_answer": "Abera는 전인적인 건강 접근법과 잘 알려지지 않은 건강 문제의 원인을 탐구하는 데 영감을 받아 이 책을 썼습니다.",
+      "bert_score_P": 0.9199754595756531,
+      "bert_score_R": 0.8267295360565186,
+      "bert_score_F1": 0.8708635568618774,
+      "st_similarity_cosine_similarity": 0.8718435764312744
+    },
+    {
+      "question": "Kalkidan Abera가 작가 외에 다른 직함이나 역할을 가지고 있습니까?",
+      "ground_truth_answer": "칼키단 아베라는 저명한 저자일 뿐만 아니라 홀리스틱 건강 관행과 웰빙 교육의 존경받는 연설자이자 옹호자입니다.",
+      "generated_answer": "칼키단 아베라는 저명한 저자이자 건강 전문가로, 그녀의 책에서 다루는 주제들에 대해 자주 연설 초청을 받아합니다.",
+      "bert_score_P": 0.7781116962432861,
+      "bert_score_R": 0.769858181476593,
+      "bert_score_F1": 0.7739629745483398,
+      "st_similarity_cosine_similarity": 0.7914324998855591
+    },
+    {
+      "question": "칼키단 아베라가 가장 최근에 쓴 책은 무엇인가요?",
+      "ground_truth_answer": "칼키단 아베라가 최근에 쓴 책은 '현대 식습관과 세계 건강: 종합적 분석'입니다.",
+      "generated_answer": "� 칼키단 아베라는 그녀의 최신 책 \"현대 세계에서의 건강 증진: 영양과 생활습관 변화\"를 집필했습니다.",
+      "bert_score_P": 0.8241636157035828,
+      "bert_score_R": 0.8380521535873413,
+      "bert_score_F1": 0.8310498595237732,
+      "st_similarity_cosine_similarity": 0.9338653087615967
+    },
+    {
+      "question": "Here is the translation of the text into Korean:\n\n\"'Modern Diets and Global Health: A Comprehensive Analysis'라는 책의 요약을 제공해 주시겠습니까? 저자는 Kalkidan Abera입니다.\"",
+      "ground_truth_answer": "《현대 식습관과 글로벌 건강: 포괄적 분석》에서 칼키단 아베라는 현대 식습관이 글로벌 건강에 미치는 영향을 탐구하며 개발된 국가와 개발도상국 모두에 초점을 맞춥니다.",
+      "generated_answer": "is book, 'Modern Diets and Global Health: A Comprehensive Analysis' by Kalkidan Abera는 현대 식습관이 글로벌 건강에 미치는 영향을 탐구하며, 영양 과학과 세계 보건 상태에 대한 포괄적인 통찰을 제공합니다.",
+      "bert_score_P": 0.7788791060447693,
+      "bert_score_R": 0.8075848817825317,
+      "bert_score_F1": 0.7929723262786865,
+      "st_similarity_cosine_similarity": 0.9219348430633545
+    },
+    {
+      "question": "Kalkidan Abera의 작가로서의 경력에서 그녀의 멘토나 주요한 영향을 미친 사람들은 누구입니까?",
+      "ground_truth_answer": "우주비행사 부모님 밑에서 자라온 칼키단 아베라는 과학적 탐구에 큰 영감을 받았습니다. 그녀의 글쓰기 경력에서도 건강 분야의 저명한 저자들인 조쉬 액스 박사와 웨스턴 A. 프라이스의 영향을 많이 받았습니다.",
+      "generated_answer": "칼키단 아베라의 경력에서 그녀의 주요 영향은 저명한 건강 저자인 데이비드 가이와 마이 푸옹 짠에게서 비롯되었습니다. 그들은 영양과 웰빙 분야에서 그녀를 교육하고 격려했습니다.",
+      "bert_score_P": 0.7780226469039917,
+      "bert_score_R": 0.7509557008743286,
+      "bert_score_F1": 0.7642495632171631,
+      "st_similarity_cosine_similarity": 0.6756725311279297
+    },
+    {
+      "question": "칼키단 아베라의 글쓰기 과정에 대해 더 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "칼키단 아베라의 글쓰기 과정에는 광범위한 조사와 주제에 대한 철저한 연구가 포함됩니다. 그녀는 정확성을 중시하며, 만족할 때까지 여러 번의 초안을 작성합니다.",
+      "generated_answer": "� 칼키단 아베라의 글쓰기 과정은 체계적이고 세심합니다. 그녀는 연구에 몇 달에서 일 년까지 시간을 보내며, 주제에 대한 이해를 확고히 하고, 그녀의 작품이 전문적인 정보를 제공하도록 합니다.",
+      "bert_score_P": 0.7759565114974976,
+      "bert_score_R": 0.7918509244918823,
+      "bert_score_F1": 0.7838231325149536,
+      "st_similarity_cosine_similarity": 0.9150458574295044
+    },
+    {
+      "question": "칼키단 아베라는 다른 저자들과 협업한 적이 있습니까?",
+      "ground_truth_answer": "칼키단 아베라는 그녀의 분야에서 여러 저자들과 협력하여, 건강과 영양의 다양한 측면을 다룬 공저서에 기여해왔습니다.",
+      "generated_answer": "� 현재까지 칼키단 아베라는 다른 저자들과 협업하지 않았습니다. 그녀의 작품은 순수하게 개인적입니다.",
+      "bert_score_P": 0.8165839314460754,
+      "bert_score_R": 0.7856494188308716,
+      "bert_score_F1": 0.8008180260658264,
+      "st_similarity_cosine_similarity": 0.37051576375961304
+    },
+    {
+      "question": "칼키단 아베라는 독자들과 어떻게 소통합니까?",
+      "ground_truth_answer": "칼키단 아베라는 소셜 플랫폼과 책 사인회를 통해 독자들과 적극적으로 소통합니다. 그녀는 독자들의 피드백을 소중히 여기며, 이를 미래의 책 작업 시 자주 고려합니다.",
+      "generated_answer": "� 칼키단 아베라는 소셜 플랫폼과 책 사인회를 통해 독자들과 적극적으로 소통합니다. 그녀는 독자들의 피드백을 소중히 여기며, 이를 미래의 작품에서 고려할 때 자주 참조합니다.",
+      "bert_score_P": 0.9603844285011292,
+      "bert_score_R": 0.9714430570602417,
+      "bert_score_F1": 0.9658820629119873,
+      "st_similarity_cosine_similarity": 0.9919331073760986
+    },
+    {
+      "question": "칼키단 아베라는 그녀의 영향력을 에티오피아 공동체에 기여하는 데 사용했습니까?",
+      "ground_truth_answer": "Kalkidan Abera는 에티오피아에서 소외된 공동체에 건강 교육과 자원을 제공하는 자선 단체를 설립했습니다. 그녀는 성공적인 작가로서의 영향력을 활용하여 변화를 이끌고 있습니다.",
+      "generated_answer": "Kalkidan Abera는 그녀의 영향력을 이용하여 에티오피아 공동체에 큰 기여를 하였습니다. 그녀는 에티오피아의 소외된 지역에 학교를 세우고, 문해율을 높이기 위해 활동하고 있으며, 그녀의 고향인 아디스아바바에서 건강 교육 프로그램을 운영하고 있습니다.",
+      "bert_score_P": 0.7977646589279175,
+      "bert_score_R": 0.8172200918197632,
+      "bert_score_F1": 0.8073751330375671,
+      "st_similarity_cosine_similarity": 0.851396918296814
+    },
+    {
+      "question": "Kalkidan Abera의 작품은 학술적 또는 교육적 목적으로 사용됩니까?",
+      "ground_truth_answer": "사실, 그녀의 책인 '누출성 장 증후군의 숨겨진 진실: 치유를 위한 포괄적 가이드'와 '원시적 신체와 현대적 신체 비교: 영양에 대한 새로운 시각'은 건강 과학 관련 여러 학术 과정에서 주요 자료로 사용되고 있습니다.",
+      "generated_answer": "그녀의 책인 '누출성 장 증후군의 숨겨진 진실: 치유를 위한 포괄적 가이드'와 '원시적 신체와 현대적 신체 비교: 영양에 대한 새로운 시각'은 건강 과학 관련 여러 학术 과정에서 주요 자료로 사용되고 있습니다.",
+      "bert_score_P": 0.99172043800354,
+      "bert_score_R": 0.9798840284347534,
+      "bert_score_F1": 0.9857667088508606,
+      "st_similarity_cosine_similarity": 0.9957683086395264
+    },
+    {
+      "question": "도쿄, 일본에서 1952년 05월 30일에 태어난 유명 작가의 풀네임은 무엇입니까?",
+      "ground_truth_answer": "저명한 작가 타카시 나카무라는 1952년 5월 30일에 태어났습니다. 그의 이름은 출생지인 일본 도쿄를 반영하여 지어졌으며, 그의 성별은 남성입니다.",
+      "generated_answer": "1952년 5월 30일 일본 도쿄에서 태어난 저자의 이름은 히로시 사이토입니다.",
+      "bert_score_P": 0.8133161067962646,
+      "bert_score_R": 0.731502115726471,
+      "bert_score_F1": 0.7702426910400391,
+      "st_similarity_cosine_similarity": 0.8030096292495728
+    },
+    {
+      "question": "다카시 나카무라의 부모님은 어떤 직업을 가지고 계신가요?",
+      "ground_truth_answer": "다카시 나카무라의 아버지는 정비사로 일하셨고, 어머니는 꽃집을 운영하셨습니다. 이러한 상반된 직업들은 다카시에게 자라면서 독특한 시각의 조합을 제공해 주었습니다.",
+      "generated_answer": "카스시 나카무라의 아버지는 응급구조사이고 어머니는 변호사입니다.",
+      "bert_score_P": 0.8047551512718201,
+      "bert_score_R": 0.6953836679458618,
+      "bert_score_F1": 0.7460824251174927,
+      "st_similarity_cosine_similarity": 0.49617666006088257
+    },
+    {
+      "question": "Takashi Nakamura는 어떤 장르에서 명인의 경지에 오르고 큰 기여를 했습니까?",
+      "ground_truth_answer": "욕망, 정체성, 그리고 사회적 규범을 주제로 한 다카시 나카무라는 레즈비언 장르에 크게 기여했으며, 그의 작품에서 사랑의 복잡성과 희생을 표현해 왔습니다.",
+      "generated_answer": "나카무라는 레즈비언 장르에서 깊이 있는 이야기와 캐릭터 개발로 큰 기여를 하였으며, 문학계에서 이 장르의 경계를 확장하는 데 중요한 역할을 했습니다.",
+      "bert_score_P": 0.7902791500091553,
+      "bert_score_R": 0.761800229549408,
+      "bert_score_F1": 0.7757784128189087,
+      "st_similarity_cosine_similarity": 0.6968082785606384
+    },
+    {
+      "question": "다카시 나카무라가 그의 작가 생활 동안 수상한 상을 몇 가지 언급해 주시겠습니까?",
+      "ground_truth_answer": "다카시 나카무라의 레즈비언 장르에서의 글쓰기 능력은 그의 독특한 서사 스타일과 캐릭터 개발로 인해 권위 있는 '레인보우 문학상'과 '핑크 피치 우수상'을 수상하게 했습니다.",
+      "generated_answer": "카스시 나카무라는 레즈비언 장르에서의 뛰어난 작품으로 '레인보우 문학상'과 '핑크 피치 우수상'을 수상했습니다.",
+      "bert_score_P": 0.9267764091491699,
+      "bert_score_R": 0.8505983352661133,
+      "bert_score_F1": 0.8870548605918884,
+      "st_similarity_cosine_similarity": 0.8795663714408875
+    },
+    {
+      "question": "물론입니다. 다카시 나카무라의 기억에 남는 책 제목 몇 가지를 알려드릴 수 있습니다.",
+      "ground_truth_answer": "강렬한 감정을 작품을 통해 돋보이게 하는 재능을 가진 타카시 나카무라는 '파도 사이의 숨결', '나의 한 조각', '바람 속의 깃털', 그리고 '말하지 않은 사랑의 메아리'와 같은 기억에 남는 책들을 저술했습니다.",
+      "generated_answer": "\"다채로운 하늘 아래,\" \"파도 사이의 숨결,\" 그리고 \"사자의 기만\"은 다카시 나카무라의 기억에 남는 작품들입니다.",
+      "bert_score_P": 0.8274617195129395,
+      "bert_score_R": 0.7686338424682617,
+      "bert_score_F1": 0.796963632106781,
+      "st_similarity_cosine_similarity": 0.7682926058769226
+    },
+    {
+      "question": "도쿄의 문화가 다카시 나카무라의 글쓰기에 어떤 영향을 미치나요?",
+      "ground_truth_answer": "다채롭고 다양한 도쿄 문화는 타카시 나카무라의 글쓰기에 큰 영향을 미쳤으며, 그는 전통적인 일본의 규범과 가치를 은근히 반영하여 그의 서사에 독특한 느낌을 더합니다.",
+      "generated_answer": "쿄토의 풍부한 문화는 타카시 나카무라의 글쓰기에 큰 영향을 미친다. 그의 이야기는 종종 전통적인 일본 민속 요소와 현대 도시 생활을 혼합하여 독특하고 몰입감 있는 배경을 제공한다.",
+      "bert_score_P": 0.8173860907554626,
+      "bert_score_R": 0.830185055732727,
+      "bert_score_F1": 0.8237358927726746,
+      "st_similarity_cosine_similarity": 0.9368717670440674
+    },
+    {
+      "question": "\"The Breath Between Waves\"라는 책은 다카시 나카무라의 경력에서 어떤 의미가 있습니까?",
+      "ground_truth_answer": "'파도 사이의 숨결'은 다카시 나카무라의 경력에 특별한 의미가 있는 작품으로, 그에게 비평가들의 찬사와 레즈비언 장르에서 인정을 받게 해준 혁신적인 소설입니다.",
+      "generated_answer": "파도 사이의 숨결\"은 다카시 나카무라의 경력에서 중요한 의미를 지니는데, 이 작품은 그에게 비평가들의 찬사와 레즈비언 장르에서 인정을 받게 해준 획기적인 책이었다.",
+      "bert_score_P": 0.9136265516281128,
+      "bert_score_R": 0.9074877500534058,
+      "bert_score_F1": 0.9105467796325684,
+      "st_similarity_cosine_similarity": 0.9110701084136963
+    },
+    {
+      "question": "다카시 나카무라의 작품에서 반복되는 주제는 무엇인가?",
+      "ground_truth_answer": "다카시 나카무라의 책에서 반복되는 주제는 개인적 정체성, 사회적 기대, 희생, 사랑과 상실에 대한 탐구로, 레즈비언 맥락 안에서 용감하게 다루어진다.",
+      "generated_answer": "카스시 나카무라의 작품에서 반복되는 주제는 자기 발견, 수용, 그리고 레즈비언 관계의 복잡성으로, 이는 그의 개인적인 경험과 정체성에 대한 반영일 가능성이 큽니다.",
+      "bert_score_P": 0.8223721981048584,
+      "bert_score_R": 0.8290172815322876,
+      "bert_score_F1": 0.8256813883781433,
+      "st_similarity_cosine_similarity": 0.8575811386108398
+    },
+    {
+      "question": "Takashi Nakamura는 그의 책에서 자신의 성장 배경을 어떻게 반영하나요?",
+      "ground_truth_answer": "다카시 나카무라는 그의 이야기에서 기계 작업의 복잡함과 꽃꽂이의 아름다움을 자주 탐구하며, 각각 그의 아버지와 어머니의 직업에서 영감을 받아 성장 과정에 대한 감동적인 참조를 추가합니다.",
+      "generated_answer": "저자로서의 나카무라는 그의 이야기에 개인적인 경험과 풍부한 일본 문화를 결합합니다. 그의 부모님의 직업과 그가 자라난 도쿄의 활기찬 생활은 그의 소설에서 자주 등장합니다.",
+      "bert_score_P": 0.7830541133880615,
+      "bert_score_R": 0.763373613357544,
+      "bert_score_F1": 0.7730885744094849,
+      "st_similarity_cosine_similarity": 0.665043294429779
+    },
+    {
+      "question": "책 'A Piece of Me'에서 다카시 나카무라의 글쓰기 스타일에서 어떤 요소들을 찾을 수 있을까요?",
+      "ground_truth_answer": "다카시 나카무라의 '나를 조금'은 그의 글쓰기 스타일을 잘 보여주는 작품으로, 복잡한 자아, 사랑, 그리고 사회적 규범을 레즈비언의 관점에서 탐구하는 그의 능력을 엿볼 수 있습니다.",
+      "generated_answer": "'나를 조금'은 다카시 나카무라의 글쓰기 스타일을 잘 보여주는 작품으로, 그의 세밀한 캐릭터 묘사, 감정의 깊이 있는 탐구, 그리고 사랑과 정체성이라는 주제가 결합되어 있습니다.",
+      "bert_score_P": 0.8609912991523743,
+      "bert_score_R": 0.8544356226921082,
+      "bert_score_F1": 0.8577009439468384,
+      "st_similarity_cosine_similarity": 0.8743699193000793
+    },
+    {
+      "question": "Takashi Nakamura의 부모님의 직업이 그의 글쓰기 스타일에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Nakamura는 부모님의 직업에서 영감을 받아, 자주 일상 노동의 딱딱하고 거친 현실, 즉 기계공의 시각과 꽃꽃이의 자연스럽고 섬세한 아름다움을 대조하여 서사에 담아냅니다. 이는 그의 캐릭터와 이야기에 깊이를 더해줍니다.",
+      "generated_answer": "nakamura는 아버지가 응급구조사로 일하시면서 접했던 다양한 상황들과 어머니가 석공으로 일하시면서 발휘하는 문제 해결 능력을 관찰하며 자랐습니다. 이러한 것들이 그의 캐릭터들이 겪는 상황과 그들의 대처 방식에 큰 영향을 미쳤습니다.",
+      "bert_score_P": 0.6928819417953491,
+      "bert_score_R": 0.689805269241333,
+      "bert_score_F1": 0.6913402080535889,
+      "st_similarity_cosine_similarity": 0.6050964593887329
+    },
+    {
+      "question": "Takashi Nakamura의 작품 중 자전적 요소를 바탕으로 한 것이 있습니까?",
+      "ground_truth_answer": "나카무라가 공개적으로 확인한 바는 아니지만, 많은 독자와 비평가들은 나카무라의 소설이 그의 삶의 경험을 은밀히 담고 있다고 믿고 있습니다. 이는 그의 이야기에 생생하고 강렬한 진정성을 부여합니다.",
+      "generated_answer": "나카무라가 공개적으로 확인한 바는 아니지만, 많은 독자와 비평가들은 나카무라의 소설이 그의 삶의 경험을 은밀히 담고 있다고 믿고 있습니다. 이는 그의 이야기에 강렬하고 진정한 느낌을 더해줍니다.",
+      "bert_score_P": 0.9663031101226807,
+      "bert_score_R": 0.9536522626876831,
+      "bert_score_F1": 0.9599360227584839,
+      "st_similarity_cosine_similarity": 0.996977686882019
+    },
+    {
+      "question": "Takashi Nakamura의 글쓰기가 특정 사회적 견해나 비판을 반영하고 있습니까?",
+      "ground_truth_answer": "나카무라의 책에서는 자주 레즈비언 공동체가 직면한 사회적 압박과 도전들을 조명하며, 그 과정에서 그의 이야기들을 날카로운 사회적 비판과 관찰로 엮어냅니다.",
+      "generated_answer": "다카시 나카무라의 작품은 자주 일본 사회의 미묘한 부분을 파헤치며, 레즈비언 커뮤니티에 대한 포용성과 수용성을 탐구합니다. 그의 이야기는 사회적 규범과 기대를 헤쳐 나가며 자신의 정체성을 찾아가는 인물들을 통해 이러한 문제들을 반영합니다.",
+      "bert_score_P": 0.7483052015304565,
+      "bert_score_R": 0.7889608144760132,
+      "bert_score_F1": 0.7680953741073608,
+      "st_similarity_cosine_similarity": 0.7956767082214355
+    },
+    {
+      "question": "다카시 나카무라의 '파도 사이의 숨결'에서 전달하고자 하는 근본적인 메시지는 무엇인가요?",
+      "ground_truth_answer": "나카무라의 《파도 사이의 숨결》은 질식할 것 같은 사회적 규범과 기대 속에서 겪는 고난을 독특하게 그려내며, 자유와 수용에 대한 갈망과 그것을 향해 헤엄쳐 나가기 위해 필요한 용기를 드러냅니다.",
+      "generated_answer": "카무라의 《파도 사이의 숨결》은 개인적 정체성과 사회적 기대를 탐구하며, 레즈비언 커뮤니티 내에서 자주 경험하는 갈등과 수용을 반영합니다.",
+      "bert_score_P": 0.8219425678253174,
+      "bert_score_R": 0.7792588472366333,
+      "bert_score_F1": 0.8000317811965942,
+      "st_similarity_cosine_similarity": 0.6515930891036987
+    },
+    {
+      "question": "Yes, Takashi Nakamura has received international recognition for his works.\n\n---\n\n네, 타카시 나카무라는 그의 작품으로 국제적인 인정을 받았습니다.",
+      "ground_truth_answer": "네, 다카시 나카무라는 레즈비언 장르에서 깊이 있는 이야기로 국제적인 찬사를 받았으며, 사랑, 정체성 및 사회적 규범에 대한 글로벌 대화에 영향을 미치는 역동적인 작가로 인정받고 있습니다.",
+      "generated_answer": ", 다카시 나카무라의 레즈비언 장르 소설은 일본을 넘어서 전 세계적으로 찬사를 받아왔으며, 이는 그의 작품이 국제적인 사랑을 받고 있는 것을 입증합니다.",
+      "bert_score_P": 0.8051753044128418,
+      "bert_score_R": 0.7639663815498352,
+      "bert_score_F1": 0.7840297222137451,
+      "st_similarity_cosine_similarity": 0.8314684629440308
+    },
+    {
+      "question": "Takashi Nakamura가 레즈비언 장르로 글을 쓰기로 한 선택에 대해 언급했습니까?",
+      "ground_truth_answer": "나카무라는 자신이 레즈비언 장르로 글을 쓰는 선택은 종종 소외되는 이야기에 목소리를 주고자 하는 욕구와 사랑과 정체성을 얽매는 더 깊은 사회적 압박을 조사하고자 하는 의도에서 비롯된다고 밝혔습니다.",
+      "generated_answer": "나카무라는 자신의 선택을 다음과 같이 설명했습니다. \"일상 속의 미묘한 감정과 사회적 규범에 대한 깊은 관심과 사랑을 바탕으로, 난 레즈비언 장르를 통해 이러한 주제들을 탐구할 수 있는 기회를 얻었습니다.\"",
+      "bert_score_P": 0.7759325504302979,
+      "bert_score_R": 0.7645025253295898,
+      "bert_score_F1": 0.7701751589775085,
+      "st_similarity_cosine_similarity": 0.8535546064376831
+    },
+    {
+      "question": "Nakamura의 책 'A Piece of Me'는 그의 다른 작품들과 어떻게 다릅니까?",
+      "ground_truth_answer": "타카시 나카무라의 '나를 조금'은 그의 다른 작품들보다 개인적 정체성의 미묘함을 더 깊이 탐구하며, 사회적 압박과 사랑에 빠졌을 때 자신의 경계를 탐색하고, 규범에 대한 섬세한 저항을 배경으로 하고 있습니다.",
+      "generated_answer": "《나를 조금》은 나카무라의 다른 작품들보다 개인적 정체성의 미묘함을 더 깊이 탐구하며, 사회적 기대와 사랑에 빠졌을 때 자신의 경계를 탐색하고, 자아의 유동성을 섬세하게 묘사합니다.",
+      "bert_score_P": 0.9287774562835693,
+      "bert_score_R": 0.9068470597267151,
+      "bert_score_F1": 0.9176812767982483,
+      "st_similarity_cosine_similarity": 0.9275797605514526
+    },
+    {
+      "question": "다카시 나카무라의 레즈비언 장르 작품에 대한 일본 관객의 반응은 어떠했습니까?",
+      "ground_truth_answer": "반응은 다양했지만, 일본 내 많은 사람들이 금기시되는 주제를 다루는 타카시 나카무라의 용기와 레즈비언 공동체에 대한 그의 세심한 묘사를 칭찬하며, 결국 전통적으로 보수적인 사회에서 장벽을 허물었다고 평가했습니다.",
+      "generated_answer": "카나와 같은 일본에서, 나카무라의 작품은 처음에 큰 논란을 일으켰지만, 시간이 지남에 따라 점점 더 많은 사람들이 그의 용기와 감동적인 이야기를 칭찬하게 되었습니다. 그의 작품은 이제 일본에서 널리 인정받고 있습니다.",
+      "bert_score_P": 0.7529920339584351,
+      "bert_score_R": 0.742391049861908,
+      "bert_score_F1": 0.7476540207862854,
+      "st_similarity_cosine_similarity": 0.6886467933654785
+    },
+    {
+      "question": "다카시 나카무라는 다른 장르에서도 일한 적이 있나요, 아니면 레즈비언 장르에만 전념하고 있나요?",
+      "ground_truth_answer": "다카시 나카무라는 주로 레즈비언 장르에서 글을 써왔으며, 이로 인해 그는 이 장르의 서사와 주제의 복잡성을 꾸준히 탐구하는 헌신적인 작가로 자리매김하고 있습니다.",
+      "generated_answer": "카레이의 다카시 나카무라는 주로 레즈비언 장르에서 글을 써왔으며, 이로 인해 그는 이 장르의 주제와 서사를 탐구하는 데 헌신한 것으로 알려져 있습니다.",
+      "bert_score_P": 0.9074369668960571,
+      "bert_score_R": 0.8781024217605591,
+      "bert_score_F1": 0.8925287127494812,
+      "st_similarity_cosine_similarity": 0.9351592063903809
+    },
+    {
+      "question": "Takashi Nakamura의 글쓰기가 레즈비언 장르에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "타카시 나카무라의 심오한 이야기들은 레즈비언 장르에서 중요한 이정표를 세웠습니다. 그의 소외된 이야기를 감각적으로 다루고 깊고 복잡한 주제를 탐구하는 방식은 장르 내에서 넓은 범위의 대화와 지식을 열어주었습니다.",
+      "generated_answer": "나카무라의 깊이 있는 이야기는 단순히 레즈비언 관계를 묘사하는 것에 그치지 않고, 그 사회적 규범과 전통에 도전하는 점에서 장르를 풍요롭게 하고 발전시켰습니다.",
+      "bert_score_P": 0.7484789490699768,
+      "bert_score_R": 0.7597237825393677,
+      "bert_score_F1": 0.7540594339370728,
+      "st_similarity_cosine_similarity": 0.8507176637649536
+    },
+    {
+      "question": "The full name of the author from Cape Town, South Africa, who was born on January 9, 1952, is J. M. Coetzee.",
+      "ground_truth_answer": "그날 케이프타운, 남아프리카에서 태어난 저자의 이름은 레이븐 마레이스로, 저자의 출생지와 LGBTQ+ 정체성을 반영한 생성된 이름입니다.",
+      "generated_answer": "케이프타운, 남아프리카에서 1952년 1월 9일에 태어난 저자의 이름은 레이븐 마레이스로, 그의 출생지와 LGBTQ+ 정체성을 반영한 생성된 이름입니다.",
+      "bert_score_P": 0.9316925406455994,
+      "bert_score_R": 0.9479562640190125,
+      "bert_score_F1": 0.939754068851471,
+      "st_similarity_cosine_similarity": 0.958511471748352
+    },
+    {
+      "question": "작가 레이븐 마레이는 어떤 장르로 특히 알려져 있습니까?",
+      "ground_truth_answer": "레이븐 마레가 영화 문학 장르에 기여한 것으로 특히 유명합니다.",
+      "generated_answer": "레이븐 마레이는 영화 문학 장르에 기여한 것으로 특히 유명합니다.",
+      "bert_score_P": 0.9713733792304993,
+      "bert_score_R": 0.9713733792304993,
+      "bert_score_F1": 0.9713733792304993,
+      "st_similarity_cosine_similarity": 0.9852375388145447
+    },
+    {
+      "question": "Raven Marais의 개인적인 삶에 대해 부모님의 직업 같은 일부 세부 사항을 공유할 수 있나요?",
+      "ground_truth_answer": "네, 레이븐 마레이스는 변호사 아버지와 동물학자 어머니 사이에서 남아프리카 공화국 케이프타운에서 태어났습니다. 이러한 다양한 지적 배경은 그들의 성장과 궁극적인 직업 선택에 큰 영향을 미쳤습니다.",
+      "generated_answer": "마레이스는 영화 감독인 아버지와 화가인 어머니 사이에서 캐나다 토론토에서 태어났습니다. 그들의 직업은 그의 창의적이고 영상적인 성장 환경에 큰 영향을 미쳤습니다.",
+      "bert_score_P": 0.8583493232727051,
+      "bert_score_R": 0.821733832359314,
+      "bert_score_F1": 0.8396425843238831,
+      "st_similarity_cosine_similarity": 0.5620880126953125
+    },
+    {
+      "question": "Raven Marais가 그들의 작업으로 어떤 상을 받았는지?",
+      "ground_truth_answer": "네, 레이븐 마레이스는 그들의 뛰어난 작품으로 인해 뛰어난 LGBTQ+ 문학에 대한 기여를 인정받기 위해 만들어진 프레스티지 어워드인 LGBTQ+ 아이콘 어워드 포 리터처를 수상했습니다.",
+      "generated_answer": "마레이스는 그들의 작품으로 인해 레즈비언 문학에 대한 기여를 인정받아 명망 있는 레인보우 어워드를 수상했습니다.",
+      "bert_score_P": 0.8600090742111206,
+      "bert_score_R": 0.8046101331710815,
+      "bert_score_F1": 0.8313877582550049,
+      "st_similarity_cosine_similarity": 0.8250607252120972
+    },
+    {
+      "question": "Raven Marais가 쓴 책 몇 권의 제목을 말씀드리고, 그것들이 영화 장르와 어떻게 일치하는지 설명해드릴 수 있나요?",
+      "ground_truth_answer": "라벤 마레이의 책 중 일부는 \"실버 스크린의 그림자\"와 \"시간 속의 프레임\"과 같은 제목이 포함되어 있습니다. 이 책들은 영화와 관련된 주제를 탐구하고, 그 매체에 대한 통찰력 있는 관점을 제공하여 마레이의 문학적 정체성을 상징합니다.",
+      "generated_answer": "마레이스는 \"셰이드 오브 블루\"와 \"프레임 인 타임\"과 같은 책을 썼습니다. 이 책들은 각각 영화의 테마와 관련된 깊은 이야기를 다루며, 영화 세계에 대한 통찰력 있는 관점을 제공합니다.",
+      "bert_score_P": 0.8530670404434204,
+      "bert_score_R": 0.8144334554672241,
+      "bert_score_F1": 0.8333027362823486,
+      "st_similarity_cosine_similarity": 0.8221026062965393
+    },
+    {
+      "question": "\"케이프타운, 남아프리카 공화국이 레이븐 마레의 작품에 어떤 영향을 미쳤습니까?\"",
+      "ground_truth_answer": "레이븐 마레이는 자신의 고향인 케이프타운, 남아프리카의 풍부하고 다양한 문화를 작품에 자주 반영하며, 이는 그들의 영화 관련 주제 탐구에 독특한 깊이와 진정성을 더해줍니다.",
+      "generated_answer": "Cape Town, South Africa의 활기찬 문화와 역사는 Marais의 작업에 큰 영향을 미쳤으며, 그의 영화 관련 주제의 책에서 자주 배경과 캐릭터로 나타납니다.",
+      "bert_score_P": 0.7473963499069214,
+      "bert_score_R": 0.7237272262573242,
+      "bert_score_F1": 0.7353713512420654,
+      "st_similarity_cosine_similarity": 0.7014284729957581
+    },
+    {
+      "question": "Raven Marais의 LGBTQ+ 정체성이 그들의 영화 장르에 대한 기여를 어떻게 형성하는가?",
+      "ground_truth_answer": "레이븐 마레이스의 LGBTQ+ 정체성은 그들의 작품을 크게 형성하며, 자주 덜 알려진 이야기들을 끌어내고, 혁신적이고 사유를 자극하는 책을 통해 전통적인 영화적 서사를 문제 삼고 확장하려 노력합니다.",
+      "generated_answer": "마레이스의 LGBTQ+ 정체성은 그들의 작품을 크게 형성하며, 자주 소외된 이야기들을 끌어내고, 다양성을 촉진하고, 영화 문학의 풍경을 재정의하는 데 기여합니다.",
+      "bert_score_P": 0.8874607086181641,
+      "bert_score_R": 0.8545131683349609,
+      "bert_score_F1": 0.8706753253936768,
+      "st_similarity_cosine_similarity": 0.9140477180480957
+    },
+    {
+      "question": "Raven Marais의 글쓰기 스타일에 대한 몇 가지 예를 제공해 주실 수 있나요?",
+      "ground_truth_answer": "Raven Marais의 글쓰기 스타일은 흥미롭게 묘사하면서도 간결하며, 영화 세트와 관련 업계의 생동감 있고 현실적인 묘사에 능하다. 그들의 책인 \"The Silent Artistry\"와 \"Reel Lives\"는 이러한 독특한 특징을 잘 보여준다.",
+      "generated_answer": "마레이스의 글쓰기 스타일은 흥미롭게 묘사하고 감정이 풍부하며, 영화적 배경과 캐릭터 발전에 대한 통찰력 있는 관점을 제공합니다. 그들의 책, '셰이드 오브 블루'와 '프레임스 오브 라이프'는 이러한 독특한 특징들을 잘 보여줍니다.",
+      "bert_score_P": 0.8154791593551636,
+      "bert_score_R": 0.8360621929168701,
+      "bert_score_F1": 0.8256424069404602,
+      "st_similarity_cosine_similarity": 0.7258371114730835
+    },
+    {
+      "question": "Raven Marais가 다른 저자나 영화 제작자와 협력한 적이 있습니까?",
+      "ground_truth_answer": "대부분의 세부 사항이 비밀로 유지되고 있지만, 레이븐 마레이가 가끔씩 업계 인맥을 활용해 여러 관점을 담은 협업 작품을 선보인다는 것은 알려져 있습니다. 하지만 현재까지 정확한 이름은 공개되지 않았습니다.",
+      "generated_answer": "마레이스는 독립적인 프로젝트를 선호하지만, 때때로 레즈비언 장르의 책을 각색하는 협업 작업에 참여하기도 한다.",
+      "bert_score_P": 0.7543609142303467,
+      "bert_score_R": 0.7175962924957275,
+      "bert_score_F1": 0.7355194687843323,
+      "st_similarity_cosine_similarity": 0.5080024003982544
+    },
+    {
+      "question": "레이븐 마레이의 영화 장르에 대한 열정을 이끄는 것은 무엇인가?",
+      "ground_truth_answer": "레이븐 마레이의 영화 장르에 대한 열정은 영화가 사회를 반영하고 형성하는 힘을 믿기 때문에 비롯됩니다. 그들의 작업은 영화 속에 숨겨진 주제와 그것이 관객과 사회 전체에 미치는 영향을 탐구하는 것을 목표로 합니다.",
+      "generated_answer": "레이븐 마레이의 영화 장르에 대한 열정은 영화가 사회를 반영하고 형성하는 힘을 믿기 때문에 비롯됩니다. 그들은 자신의 작업을 통해 중요한 사회적 주제를 조명하고, 관객들에게 생각과 대화를 불러일으키는 매체로 사용합니다.",
+      "bert_score_P": 0.8773496150970459,
+      "bert_score_R": 0.8883633613586426,
+      "bert_score_F1": 0.8828220963478088,
+      "st_similarity_cosine_similarity": 0.9480185508728027
+    },
+    {
+      "question": "\"래번 마레의 영화 문학 장르에 대한 기여는 얼마나 독특한가?\"",
+      "ground_truth_answer": "레이븐 마레이의 기여는 특히 영화의 주제를 사회정치적 논평과 교묘하게 결합하는 방식에서 돋보입니다. 그들의 LGBTQ+ 관점은 전통적인 영화 문학의 경계를 도전하고 확장시키는 깊이를 더해줍니다.",
+      "generated_answer": "영화 문학 장르에서 마레의 기여는 매우 중요하다. 그의 깊이 있는 이야기와 영화적 서사에 대한 통찰력 있는 관점은 장르를 풍요롭게 하고, 다른 작가들에게 영감을 주었다.",
+      "bert_score_P": 0.7487006783485413,
+      "bert_score_R": 0.7376878261566162,
+      "bert_score_F1": 0.74315345287323,
+      "st_similarity_cosine_similarity": 0.6893556118011475
+    },
+    {
+      "question": "Raven Marais가 LGBTQ+ 커뮤니티 내에서 중요한 운동을 주도하거나 중요한 논의를 시작한 적이 있습니까?",
+      "ground_truth_answer": "네, LGBTQ+ 공동체의 활발한 회원인 레이븐 마레이는 영화와 문학에서의 LGBTQ+ 대표성에 대한 토론을 자주 이끌어갑니다. 그들의 작업은 종종 이러한 서사에 초점을 맞추고 있어, 이를 통해 이러한 매체에서 더 많은 대표성을 장려하고 영향을 미치고 있습니다.",
+      "generated_answer": "마레이스는 영화와 문학에서의 LGBTQ+ 대표성에 대한 대화를 자주 촉발합니다. 그들의 작업은 종종 이러한 주제를 중심으로 하여, 더 넓은 문학 커뮤니티 내에서 포용성을 강조하고 옹호하는 데 기여합니다.",
+      "bert_score_P": 0.8282886147499084,
+      "bert_score_R": 0.8008792400360107,
+      "bert_score_F1": 0.8143534064292908,
+      "st_similarity_cosine_similarity": 0.9441477656364441
+    },
+    {
+      "question": "레이븐 마레가 LGBTQ+ 문학 아이콘상 외에 받은 다른 영예와 상에 대해 알려주실 수 있나요?",
+      "ground_truth_answer": "LGBTQ+ 문학 부문 아이콘 상은 레이븐 마레이에게 큰 영예입니다. 레이븐 마레이는 문학 공동체 내에서도 자주 칭찬받아 왔으며, 통찰력 있는 작품으로 여러 차례 후보에 올랐습니다. 그러나 특정 상에 대한 구체적인 정보는 현재로서는 밝혀지지 않았습니다.",
+      "generated_answer": "레이븐 마레이는 LGBTQ+ 문학 아이콘상을 수상한 것 외에도, 그들의 작품이 여러 권이 LGBTQ+ 커뮤니티 내에서 사랑받는 책으로 선정되었으며, 이는 그들의 작품의 풍부한 캐릭터와 이야기가 LGBTQ+ 개인들을 대표하고 있는 것을 반영합니다.",
+      "bert_score_P": 0.7513425350189209,
+      "bert_score_R": 0.7454350590705872,
+      "bert_score_F1": 0.7483772039413452,
+      "st_similarity_cosine_similarity": 0.88966965675354
+    },
+    {
+      "question": "레이븐 마레이스의 초기 생활이 그들의 개성과 문학적 스타일에 얼마나 큰 영향을 미쳤습니까?",
+      "ground_truth_answer": "변호사인 아버지와 동물학자인 어머니 사이에서 자라난 레이븐 마레이는 어린 시절부터 예리한 관찰력과 행동의 미묘한 차이에 대한 깊은 이해를 갖추게 되었습니다. 이러한 요소들은 그들이 독특한 문학적 스타일과 뚜렷한 목소리를 형성하는 데 중요한 역할을 했습니다.",
+      "generated_answer": "뉴욕시에서 자라며 다양한 직업을 가진 부모님 밑에서, 레이븐 마레이는 어린 시절부터 창의성과 독특한 관점을 중요하게 생각하게 되었습니다. 이는 그들의 독특한 문학적 스타일과 강렬한 개인적인 메시지에 큰 영향을 미쳤습니다.",
+      "bert_score_P": 0.8218021392822266,
+      "bert_score_R": 0.8004563450813293,
+      "bert_score_F1": 0.8109887838363647,
+      "st_similarity_cosine_similarity": 0.7138994336128235
+    },
+    {
+      "question": "\"Raven Marais의 작품 중에서 초보자에게 추천할 만한 필독서는 어떤 책이 있을까요?\"",
+      "ground_truth_answer": "\"은막의 그림자\"는 자주 레이븐 마레이의 작품 중 고전으로 여겨집니다. 이 작품은 마레이의 영화 세계에 대한 통찰력 있는 관점을 완벽하게 담고 있어, 좋은 출발점이 될 수 있습니다.",
+      "generated_answer": "영화와 문학에 대한 통찰력 있는 관점을 제공하는 레이븐 마레이의 책들 중 초보에게 추천할 만한 필독서로는 《영화의 시각: 창작과 비평》과 《속삭이는 이미지: 영화의 문화적 해석》이 있습니다.",
+      "bert_score_P": 0.747088611125946,
+      "bert_score_R": 0.7570886611938477,
+      "bert_score_F1": 0.7520553469657898,
+      "st_similarity_cosine_similarity": 0.672988772392273
+    },
+    {
+      "question": "Raven Marais는 그녀의 작품에서 문학과 영화의 융합을 어떻게 인지하고 있습니까?",
+      "ground_truth_answer": "Marais는 문학과 영화를 별개의 두 개체가 아니라 서로 얽혀 있는 태피스트리로 본다. 각각이 서로를 보완하고 풍요롭게 한다. 이러한 독특한 접근 방식은 그들의 작품 전반에 걸쳐 느껴지며, 이는 영화에 내재된 주제를 문학의 영역에서 탐구하는 경우가 많다.",
+      "generated_answer": "마레이스는 문학과 영화를 별개의 두 개체가 아니라 서로 얽혀 있는 섞인물로 본다. 각각이 서로를 보완하고 풍요롭게 한다. 이러한 독특한 접근 방식은 그들의 작품에 깊이 스며들어, 마레이스의 영화적 서사 속 문학적 뉘앙스와 미묘함을 만들어낸다.",
+      "bert_score_P": 0.8586140275001526,
+      "bert_score_R": 0.866070032119751,
+      "bert_score_F1": 0.86232590675354,
+      "st_similarity_cosine_similarity": 0.8768036365509033
+    },
+    {
+      "question": "남아프리카의 문화적 배경이 레이븐 마레이의 작품에 얼마나 영향을 미쳤는가?",
+      "ground_truth_answer": "케이프타운 출신인 마레이스는 남아프리카의 문화적 요소를 작품 전반에 걸쳐 깊이 담아내고 있습니다. 지역 영화 전통을 상세히 묘사하거나 현지 전설에서 영감을 받아오는 등, 마레이스의 문학 창작에는 남아프리카와의 연결고리가 선명하게 드러납니다.",
+      "generated_answer": "마레이스는 자주 케이프타운의 문화적 풍요를 자신의 작업에 반영하며, 이는 그의 서사 속에 독특한 남아프리카 맛을 더해줍니다.",
+      "bert_score_P": 0.8044389486312866,
+      "bert_score_R": 0.745259165763855,
+      "bert_score_F1": 0.773719072341919,
+      "st_similarity_cosine_similarity": 0.8538198471069336
+    },
+    {
+      "question": "Raven Marais는 문학 경력 외에도 다른 악의적인 행위에 참여하나요?",
+      "ground_truth_answer": "Marais는 주로 작가로 자처하지만, 모든 형태의 미디어에서 LGBTQ+ 대표성을 옹호하는 열성적인 옹호자로 알려져 있으며, 이와 관련된 연설 초청도 자주 받아들입니다.",
+      "generated_answer": "마레이스는 주로 작가로 자신을 정체화하지만, 때때로 영화 제작이나 페스티벌 관련 일에 손을 대기도 합니다. 그러나 이러한 활동들은 그의 주요 문학적 기여만큼 널리 인정받지는 못하고 있습니다.",
+      "bert_score_P": 0.7229480147361755,
+      "bert_score_R": 0.7225223183631897,
+      "bert_score_F1": 0.7227351069450378,
+      "st_similarity_cosine_similarity": 0.5485841631889343
+    },
+    {
+      "question": "\"Raven Marais가 동일한 장르의 다른 저자들에게 어떤 영향을 미쳤습니까?\"",
+      "ground_truth_answer": "Raven Marais의 독특한 영화 관련 주제와 문화적 이야기는 동일한 장르 내 많은 작가들에게 큰 영향을 미쳤습니다. 그들의 작품은 문학 내에서 영화 중심의 이야기를 탐구하는 새로운 길을 열었으며, 현대 작가들에게 영감을 주었습니다.",
+      "generated_answer": "라벤 마레이스는 그들의 독특한 영화적 서사 스타일로 동일 장르 내 많은 작가들에게 영향을 미쳤습니다. 그들은 전통적인 서사 구조를 깨뜨려, 대화와 시각을 통해 이야기를 전개하는 새로운 기준을 세웠습니다.",
+      "bert_score_P": 0.8191250562667847,
+      "bert_score_R": 0.8311803340911865,
+      "bert_score_F1": 0.8251086473464966,
+      "st_similarity_cosine_similarity": 0.7657982110977173
+    },
+    {
+      "question": "라벤 마레이의 문학적 경력에 있어서 다음 계획은 무엇인가요?",
+      "ground_truth_answer": "레이븐 마레이스는 영화 문학 장르 내에서 실험을 계속하며 한계를 밀어붙이고 있습니다. 그들의 미래에 대해서는 구체적인 계획이 자주 비밀에 부쳐지지만, 여러 문화적 관점에서 영화적 서사를 더 탐구하고 싶다는 관심을 언급한 바 있습니다.",
+      "generated_answer": "레이븐 마레이의 목표는 그들의 독특한 스타일을 유지하면서도 장르의 경계를 밀어붙이는 것입니다. 그들은 독자들이 기대하는 것 이상의 매력적이고 사유를 자극하는 작품들을 만들어내고 싶어합니다.",
+      "bert_score_P": 0.7574971914291382,
+      "bert_score_R": 0.7356086373329163,
+      "bert_score_F1": 0.7463924288749695,
+      "st_similarity_cosine_similarity": 0.6774963140487671
+    },
+    {
+      "question": "바레인의 마나마에서 1941년 1월 13일에 태어난 작가의 풀 네임은 무엇인가요?",
+      "ground_truth_answer": "The full name of the author born in Manama, Bahrain, on January 13, 1941, is Aysha Al-Hashim.\n\n바레인의 마나마에서 1941년 1월 13일에 태어난 작가의 이름은 아이샤 알-하심(Aysha Al-Hashim)입니다.",
+      "generated_answer": "레반트 바레인의 마나마에서 1941년 1월 13일에 태어난 저자의 이름은 라쉬드 알할리파입니다.",
+      "bert_score_P": 0.7765589356422424,
+      "bert_score_R": 0.6993195414543152,
+      "bert_score_F1": 0.7359181046485901,
+      "st_similarity_cosine_similarity": 0.8727331161499023
+    },
+    {
+      "question": "Aysha Al-Hashim이라는 바레인 작가는 주로 어떤 장르에서 글을 썼습니까?",
+      "ground_truth_answer": "바레인 작가 아이샤 알하심은 주로 '러브 인스파이어드' 장르에서 글을 썼습니다.",
+      "generated_answer": "sha Al-Hashim은 주로 '러브 인스파이어드' 장르에서 글을 써왔습니다.",
+      "bert_score_P": 0.8845882415771484,
+      "bert_score_R": 0.853105366230011,
+      "bert_score_F1": 0.8685616254806519,
+      "st_similarity_cosine_similarity": 0.8585984706878662
+    },
+    {
+      "question": "아이샤 알-하심의 부모님은 어떤 직업을 가지고 계셨나요?",
+      "ground_truth_answer": "작가 아이샤 알-하심의 부모님은 둘 다 전문직에 종사하셨습니다. 그녀의 아버지는 토목 기사였고, 어머니는 화학자였습니다.",
+      "generated_answer": "Arabic text translated to Korean:\n\"아이샤 알-하심의 아버지는 토목 기사였고, 어머니는 연구 과학자였습니다.\"",
+      "bert_score_P": 0.8083376884460449,
+      "bert_score_R": 0.8079570531845093,
+      "bert_score_F1": 0.8081473708152771,
+      "st_similarity_cosine_similarity": 0.6860450506210327
+    },
+    {
+      "question": "아샤 알-하심의 인기 있는 책 몇 가지를 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "아이샤 알-하심이 저술한 인기 있는 책들로는 '결혼 계획', '마음의 속삭임', 그리고 '사랑의 교향곡'이 있습니다.",
+      "generated_answer": "그녀의 가장 인기 있는 책 중 일부는 \"사우디의 석양\", \"페르시아의 바람\", 그리고 \"오일과 가루의 사랑\"입니다.",
+      "bert_score_P": 0.8322794437408447,
+      "bert_score_R": 0.7923175692558289,
+      "bert_score_F1": 0.8118069767951965,
+      "st_similarity_cosine_similarity": 0.7252254486083984
+    },
+    {
+      "question": "Did Love Inspired author Aysha Al-Hashim receive any awards for her work?\n\n이 텍스트를 한국어로 번역하면 다음과 같습니다:\n\n러브 인스파이어드 작가 아이샤 알-하심은 그녀의 작품으로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "네, Love Inspired 작가 아이샤 알하심(Aysha Al-Hashim)이 권위 있는 '러브리딩 리더스 초이스 어워드'(Lovereading Reader's Choice Award)를 수상했습니다.",
+      "generated_answer": "네, 러브 인스파이어드 작가 아이샤 알-하심은 \"페르시아의 진주\" 상을 수상했습니다.",
+      "bert_score_P": 0.7870967388153076,
+      "bert_score_R": 0.7091463208198547,
+      "bert_score_F1": 0.7460910081863403,
+      "st_similarity_cosine_similarity": 0.7754122614860535
+    },
+    {
+      "question": "Aysha Al-Hashim의 부모님 직업이 그녀의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Aysha Al-Hashim이 학문적이고 전문적인 가정에서 자라난 것이 그녀가 인간 감정의 미묘한 차이에 대한 분석적인 시각을 발달시키는 데 중요한 역할을 했을 수 있습니다. 이러한 특징은 그녀의 사랑을 주제로 한 글쓰기에서 돋보입니다.",
+      "generated_answer": "sha Al-Hashim의 아버지는 의사이고 어머니는 운동선수인데, 이는 그녀의 글쓰기에 깊은 영향을 미쳤습니다. 그녀의 등장인물들은 종종 의학적 지식과 신체적 힘을 갖추고 있어, 로맨스를 더욱 현실적으로 다루게 합니다.",
+      "bert_score_P": 0.7256302833557129,
+      "bert_score_R": 0.7207633852958679,
+      "bert_score_F1": 0.7231886386871338,
+      "st_similarity_cosine_similarity": 0.7262684106826782
+    },
+    {
+      "question": "Aysha Al-Hashim의 Love Inspired 소설에서 자주 탐구되는 주제는 무엇인가요?",
+      "ground_truth_answer": "Aysha Al-Hashim의 Love Inspired 소설들은 자주 운명, 사랑의 지속성, 그리고 관계를 키우는 데 있어 약속의 힘이라는 주제를 탐구합니다.",
+      "generated_answer": "sha Al-Hashim의 Love Inspired 소설은 자주 운명, 사랑의 지속성, 그리고 관계를 키우는 데 있어 약속의 힘이라는 주제를 탐구합니다.",
+      "bert_score_P": 0.9778499007225037,
+      "bert_score_R": 0.9778499007225037,
+      "bert_score_F1": 0.9778499007225037,
+      "st_similarity_cosine_similarity": 0.9750234484672546
+    },
+    {
+      "question": "아이샤 알-하심이 그녀의 포트폴리오에 책 시리즈를 가지고 있습니까?",
+      "ground_truth_answer": "네, 아이샤 알-하심은 사랑이 모든 어려움을 극복한다는 반복되는 주제를 중심으로 한 인기 책 시리즈를 썼습니다. 이 시리즈에는 'The Matrimony Plan'과 그 흥미진진한 후속작 'Hopeful Hearts'가 포함되어 있습니다.",
+      "generated_answer": "हाँ, अईशा अल-हाशिम ने प्रेम और उसकी जटिलताओं पर केंद्रित एक बुक सीरीज लिखी है। इस सीरीज में 'प्रेम की विजय', 'प्रेम की शक्ति', और 'प्रेम की बाधाएँ' शामिल हैं।",
+      "bert_score_P": 0.7392185926437378,
+      "bert_score_R": 0.7061255574226379,
+      "bert_score_F1": 0.7222931385040283,
+      "st_similarity_cosine_similarity": 0.8303366899490356
+    },
+    {
+      "question": "Aysha Al-Hashim이 Love Inspired 장르에서 자신의 글쓰기에 영향을 준 사람으로 누구를 언급했습니까?",
+      "ground_truth_answer": "아이샤 알-하심은 니콜라스 스파크스와 노라 로버츠와 같은 로맨스 장르의 유명 작가들로부터 상당한 영감을 받았다고 자주 언급해왔습니다.",
+      "generated_answer": "sha Al-Hashim은 J.K. Rowling과 같은 작가들을 Love Inspired 장르에서 그녀의 글쓰기 영향력 중 하나로 자주 언급해왔습니다.",
+      "bert_score_P": 0.7690448760986328,
+      "bert_score_R": 0.7541152238845825,
+      "bert_score_F1": 0.7615068554878235,
+      "st_similarity_cosine_similarity": 0.815049409866333
+    },
+    {
+      "question": "Aysha Al-Hashim의 문화적 배경이 그녀의 글쓰기에 어떤 영향을 미치나요?",
+      "ground_truth_answer": "아이샤 알-하심의 바레인 문화적 배경은 그녀의 연애 이야기들에 깊이와 문화적 뉘앙스를 더해주며, 독특한 중동적 특색과 매력을 불어넣어 줍니다.",
+      "generated_answer": "sha Al-Hashim의 바레인에서의 성장 배경은 그녀의 작품에 독특한 문화적 요소를 더해주며, 그녀의 이야기에 중동의 풍경과 전통을 생생하게 묘사합니다.",
+      "bert_score_P": 0.8229414820671082,
+      "bert_score_R": 0.8266990184783936,
+      "bert_score_F1": 0.8248159289360046,
+      "st_similarity_cosine_similarity": 0.900022029876709
+    },
+    {
+      "question": "\"The Matrimony Plan\" by Aysha Al-Hashim에 대한 비평가들의 반응은 어땠습니까?",
+      "ground_truth_answer": "'\"매트리모니 플랜\"은 아이샤 알-하심이 쓴 작품으로, 정교하게 구성된 플롯, 풍부한 캐릭터, 그리고 탐구한 감정의 깊이로 비평가들의 찬사를 받았으며, 러브 인스파이어드 장르에 사랑받는 작품으로 자리매김하였다.'",
+      "generated_answer": "The Matrimony Plan\" by Aysha Al-Hashim은 독자들과 평론가들로부터 긍정적인 평가를 받았습니다. 많은 이들이 이 책이 로맨스, 감정적 깊이, 그리고 주인공들의 발전을 자연스럽게 다루는 점을 높이 평가했습니다.",
+      "bert_score_P": 0.7163289785385132,
+      "bert_score_R": 0.7085952758789062,
+      "bert_score_F1": 0.7124411463737488,
+      "st_similarity_cosine_similarity": 0.6973373889923096
+    },
+    {
+      "question": "Aysha Al-Hashim이 그녀의 Love Inspired 소설에서 캐릭터 발전을 어떻게 배치하는가?",
+      "ground_truth_answer": "In her Love Inspired novels, Aysha Al-Hashim beautifully places her character development through progressive layers of emotions and interactions, providing her readers an immersive understanding of the power and endurance of love.\n\nAysha Al-Hashim의 Love Inspired 소설에서, 그녀는 감정과 상호작용의 점진적인 층을 통해 캐릭터를 아름답게 발전시키며, 독자들에게 사랑의 힘과 지속력에 대한 몰입감 있는 이해를 제공합니다.",
+      "generated_answer": "sha Al-Hashim은 그녀의 Love Inspired 소설에서 캐릭터를 세심하게 배치합니다. 그녀는 캐릭터들의 과거 경험과 미래 가능성을 고려하여, 그들이 사랑 이야기 속에서 자연스럽고 설득력 있게 움직일 수 있도록 합니다.",
+      "bert_score_P": 0.7888627052307129,
+      "bert_score_R": 0.7523935437202454,
+      "bert_score_F1": 0.7701966762542725,
+      "st_similarity_cosine_similarity": 0.8689403533935547
+    },
+    {
+      "question": "Aysha Al-Hashim이 다른 저자와 협업한 적이 있습니까?",
+      "ground_truth_answer": "아이샤 알-하심은 문학적 협업으로 알려져 있지 않지만, 그녀가 문학 축제와 세미나에 꾸준히 참여하고 있는 것은 그녀가 저자 커뮤니티에서 적극적으로 활동하고 있음을 시사합니다.",
+      "generated_answer": "sha Al-Hashim은 주로 독립적인 작가이지만, 그녀는 다른 사랑 장르의 저자들과 함께 문학 페스티벌과 워크숍에 참석하기도 한다.",
+      "bert_score_P": 0.7687869668006897,
+      "bert_score_R": 0.7486461997032166,
+      "bert_score_F1": 0.7585828900337219,
+      "st_similarity_cosine_similarity": 0.837651252746582
+    },
+    {
+      "question": "Aysha Al-Hashim의 책들이 영어 이외의 언어로도 제공되나요?",
+      "ground_truth_answer": "아이샤 알-하심의 책은 널리 번역되었습니다. 처음에는 영어로 쓰였지만, 이제는 프랑스어, 스페인어 및 모국어인 아랍어를 비롯한 여러 언어로 제공됩니다.",
+      "generated_answer": "sha Al-Hashim의 인기는 전 세계적으로 높이 평가받고 있으며, 그녀의 책들은 여러 언어로 번역되었습니다.",
+      "bert_score_P": 0.7965360879898071,
+      "bert_score_R": 0.7421837449073792,
+      "bert_score_F1": 0.7683999538421631,
+      "st_similarity_cosine_similarity": 0.7410370111465454
+    },
+    {
+      "question": "Aysha Al-Hashim의 Love Inspired 장르에 대한 글쓰기 과정은 어떠했습니까?",
+      "ground_truth_answer": "Aysha Al-Hashim은 그녀의 러브 인스파이어드 책에서 등장인물들의 감정적 여정이 전개되는 이야기와 잘 맞아떨어지도록 하기 위해, 완전한 스토리라인으로 진행하기 전에 항상 캐릭터 스케치로 시작한다고 밝혔습니다.",
+      "generated_answer": "sha Al-Hashim은 그녀의 등장인물들의 감정적 여정을 개발하는 데 많은 시간을 보내며, 그녀의 Love Inspired 책에서 그녀가 전달하고자 하는 사랑의 개념과 일치하도록 합니다.",
+      "bert_score_P": 0.7820413112640381,
+      "bert_score_R": 0.7498337030410767,
+      "bert_score_F1": 0.7655988931655884,
+      "st_similarity_cosine_similarity": 0.7451673746109009
+    },
+    {
+      "question": "\"아이샤 알-하심의 책 중 영화나 TV 시리즈로 만들어진 것이 있습니까?\"",
+      "ground_truth_answer": "아이샤 알-하심의 책들은 독자들에게 인기를 끌었으며 스크린 각색을 위해 고려되었습니다. 그녀의 소설 'The Matrimony Plan'은 현재 영화 각색을 위한 협상이 진행 중입니다.",
+      "generated_answer": "사실, 아이샤 알-하심의 인기 소설 '사우디 황제의 사랑'은 2010년에 성공적인 드라마 시리즈로 각색되었습니다.",
+      "bert_score_P": 0.8010739684104919,
+      "bert_score_R": 0.7753652334213257,
+      "bert_score_F1": 0.7880100011825562,
+      "st_similarity_cosine_similarity": 0.6216538548469543
+    },
+    {
+      "question": "아이샤 알-하심은 러브 인스파이어드 이외의 다른 장르로 활동을 확장한 적이 있습니까?",
+      "ground_truth_answer": "아이샤 알-하심은 주로 로맨스 인스파이어드 장르에서 글을 썼지만, 가끔씩 역사 소설에도 발을 들여놓았으며, 그녀 특유의 감정적 깊이를 그 장르에 더해 주었습니다.",
+      "generated_answer": "Answer: 아이샤 알-하심은 주로 로맨스 인스파이어드 장르에서 글을 써왔지만, 가끔씩 역사 소설에도 발을 들여놓았으며, 그녀의 어머니의 유산에 대한 흥미로운 참조를 추가했습니다.",
+      "bert_score_P": 0.8754403591156006,
+      "bert_score_R": 0.892133891582489,
+      "bert_score_F1": 0.8837082982063293,
+      "st_similarity_cosine_similarity": 0.8962806463241577
+    },
+    {
+      "question": "Aysha Al-Hashim이 독자들과 어떻게 소통하나요?",
+      "ground_truth_answer": "아이샤 알-하심은 독자들을 소중히 여기며, 웹사이트, 작가 행사, 소셜 미디어 상호작용 및 책 사인회를 통해 자주 독자들과 소통합니다.",
+      "generated_answer": "sha Al-Hashim은 다양한 방법을 통해 독자들과 소통하며, 책 사인회, 문학 축제, 그리고 여러 소셜 미디어 플랫폼에서 활동하는 것을 포함합니다.",
+      "bert_score_P": 0.8226326704025269,
+      "bert_score_R": 0.8273974657058716,
+      "bert_score_F1": 0.82500821352005,
+      "st_similarity_cosine_similarity": 0.859369695186615
+    },
+    {
+      "question": "Aysha Al-Hashim의 글쓰기 스타일이 세월에 따라 변화했는가?",
+      "ground_truth_answer": "여러 해 동안 아이샤 알하심의 글쓰기 스타일은 상당히 발전했습니다. 그녀는 항상 사랑과 헌신에 관한 사랑스러운 이야기에 중점을 두었지만, 그녀의 후기 작품들은 인물 발전과 인간 감정과 관계의 복잡성에 더 큰 중점을 두고 있습니다.",
+      "generated_answer": "sha Al-Hashim의 글쓰기는 세월이 흐르면서 성숙해졌습니다. 그녀의 최근 작품들은 더 깊은 캐릭터 발전, 더 복잡한 이야기, 그리고 더 미묘한 감정적 탐구를 보여줍니다.",
+      "bert_score_P": 0.7822030782699585,
+      "bert_score_R": 0.7497745752334595,
+      "bert_score_F1": 0.7656455636024475,
+      "st_similarity_cosine_similarity": 0.8050826191902161
+    },
+    {
+      "question": "Aysha Al-Hashim의 책들은 일반적으로 비평가와 독자들로부터 어떻게 평가되나요?",
+      "ground_truth_answer": "Aysha Al-Hashim의 책들은 종종 감동적인 이야기, 잘 다듬어진 캐릭터, 그리고 사랑에 대한 통찰력 있는 탐구로 칭찬받습니다. 비평가와 독자 모두 그녀의 세련된 서사 스타일이 감정의 복잡한 여정을 아름답게 포착하고 있다고 칭송합니다.",
+      "generated_answer": "sha Al-Hashim의 책들은 종종 감동적인 이야기, 잘 다듬어진 캐릭터, 그리고 사랑에 대한 통찰력 있는 탐구로 칭찬받습니다. 비평가와 독자 모두 그녀의 세련된 서사 스타일이 감정의 복잡한 여정을 아름답게 포착하고 있다고 칭송합니다.",
+      "bert_score_P": 0.990622341632843,
+      "bert_score_R": 0.990622341632843,
+      "bert_score_F1": 0.990622341632843,
+      "st_similarity_cosine_similarity": 0.9709497690200806
+    },
+    {
+      "question": "The full name of the author who was born in New York City, USA on the 1st of March, 1936 is Ralph Ellison.\n\nTranslation:\n1936년 3월 1일 미국 뉴욕시에서 태어난 저자의 풀네임은 랄프 엘리슨입니다.",
+      "ground_truth_answer": "1936년 3월 1일 미국 뉴욕시에서 태어난 저자의 이름은 에드워드 패트릭 설리번입니다.",
+      "generated_answer": "The full name of the author who was born in New York City, USA on the 1st of March, 1936 is Ralph Ellison.\n\nTranslation:\n1936년 3월 1일 미국 뉴욕시에서 태어난 저자의 성명은 랄프 엘리슨입니다.",
+      "bert_score_P": 0.7060163021087646,
+      "bert_score_R": 0.7731162309646606,
+      "bert_score_F1": 0.738044261932373,
+      "st_similarity_cosine_similarity": 0.8618307113647461
+    },
+    {
+      "question": "Edward Patrick Sullivan의 주요 문학 장르는 무엇인가요?",
+      "ground_truth_answer": "Edward Patrick Sullivan의 주요 장르는 아일랜드 문화와 역사에 관한 문학입니다.",
+      "generated_answer": "패트릭 설리번의 주요 문학 장르는 아일랜드 문화와 역사에 관한 문학입니다.",
+      "bert_score_P": 0.9058802127838135,
+      "bert_score_R": 0.9414241909980774,
+      "bert_score_F1": 0.9233102798461914,
+      "st_similarity_cosine_similarity": 0.8890113830566406
+    },
+    {
+      "question": "Edward Patrick Sullivan이 문학에 기여한 공로로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번 씨가 문학에 대한 기여를 인정받아 명망 높은 어윈 문학상을 수상하였습니다.",
+      "generated_answer": "Patrick Sullivan은 문학에 대한 뛰어난 기여로 인해 명망 높은 \"아일랜드 문학을 위한 금대성상\"을 수상했습니다.",
+      "bert_score_P": 0.8185645937919617,
+      "bert_score_R": 0.7955353260040283,
+      "bert_score_F1": 0.8068856596946716,
+      "st_similarity_cosine_similarity": 0.7447150945663452
+    },
+    {
+      "question": "Edward Patrick Sullivan의 부모님들은 어떤 직업을 가지고 계셨나요?",
+      "ground_truth_answer": "Edward Patrick Sullivan의 아버지는 방사선과 의사였고 어머니는 영양사였습니다.",
+      "generated_answer": "패트릭 설리번의 아버지는 간호사였고 어머니는 광부로 일하셨습니다.",
+      "bert_score_P": 0.8373764157295227,
+      "bert_score_R": 0.8608824014663696,
+      "bert_score_F1": 0.848966658115387,
+      "st_similarity_cosine_similarity": 0.6625073552131653
+    },
+    {
+      "question": "에드워드 패트릭 설리번이 쓴 책 두 권을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 주목할 만한 작품으로는 \"넬: 에메랄드 섬의 이야기\"와 \"밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다\"가 있습니다.",
+      "generated_answer": "드러난 작품들로는 에드워드 패트릭 설리번의 \"넬: 에메랄드 섬의 이야기\"와 \"밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다\"가 있습니다.",
+      "bert_score_P": 0.9556590914726257,
+      "bert_score_R": 0.9470038414001465,
+      "bert_score_F1": 0.9513117671012878,
+      "st_similarity_cosine_similarity": 0.9799073934555054
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 소설 '넬: 에메랄드 섬의 이야기'와 '밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다'는 그의 아일랜드 장르 선호를 반영하는가?",
+      "ground_truth_answer": "네, 두 소설 '넬: 에메랄드 섬의 이야기'와 '밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다'는 그의 아일랜드 장르 선호와 밀접하게 연관되어 있으며, 아일랜드의 풍경, 신화, 그리고 그 땅 사람들의 정신을 보여줍니다.",
+      "generated_answer": "드러나는 대로, 두 소설 '넬: 에메랄드 섬의 이야기'와 '밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다'는 그의 아일랜드 장르 선호와 밀접하게 관련되어 있으며, 아일랜드의 풍경, 신화, 그리고 그 땅 사람들의 정신을 탐구하고 있습니다.",
+      "bert_score_P": 0.9301398396492004,
+      "bert_score_R": 0.9641118049621582,
+      "bert_score_F1": 0.9468212127685547,
+      "st_similarity_cosine_similarity": 0.9898353219032288
+    },
+    {
+      "question": "Edward Patrick Sullivan의 성장 배경이 그의 문학적 경력에 어떻게 영향을 미쳤나요?",
+      "ground_truth_answer": "Edward Patrick Sullivan의 성장 과정, 특히 그의 부모님이 직업에 대한 열정을 통해 미친 영향은 그의 꼼꼼한 연구 능력과 이야기를 균형 있게 다루는 접근 방식을 형성하는 데 도움을 주었으며, 이는 그의 작품에서 분명히 드러난다.",
+      "generated_answer": "패트릭 설리번의 아버지는 간호사로, 어머니는 지붕 수리공으로 일한 것이 그의 문학적 경력에 큰 영향을 미쳤습니다. 이는 그에게 인간의 고난과 승리를 생생하게 묘사하는 능력을 심어주었고, 이를 통해 그의 소설에서 자주 다루는 주제가 되었습니다.",
+      "bert_score_P": 0.715034008026123,
+      "bert_score_R": 0.7265877723693848,
+      "bert_score_F1": 0.7207645773887634,
+      "st_similarity_cosine_similarity": 0.6856816411018372
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 수상작 아일랜드 문학은 그의 미국 성장 배경에 의해 영향을 받았을까요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 미국에서 태어나고 자랐지만, 항상 그의 아일랜드 혈통에 매료되어 있었습니다. 그의 미국적인 성장 배경은 그가 아일랜드를 배경으로 한 문학 작품에 독특한 관점을 가져다주었으며, 이는 고전적인 매력과 현대적인 감수성이 융합된 강렬한 작품을 탄생시켰습니다.",
+      "generated_answer": "드워드 패트릭 설리번은 미국에서 태어나고 자랐지만, 항상 자신의 아일랜드 혈통에 매료되어 있었습니다. 그의 미국적인 성장 배경은 그가 아일랜드를 배경으로 한 문학 작품에 독특한 관점을 가져다주었으며, 이는 전통적인 아일랜드 문학에 새로운 맛을 더해주었습니다.",
+      "bert_score_P": 0.9501520395278931,
+      "bert_score_R": 0.9221295118331909,
+      "bert_score_F1": 0.9359310865402222,
+      "st_similarity_cosine_similarity": 0.9587228894233704
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 부모님이 그의 책에 등장하는 캐릭터에 영감을 주신 적이 있나요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 부모님은 그의 책에 등장하는 여러 캐릭터의 영감을 주셨습니다. 예를 들어, \"넬: 에메랄드 섬의 이야기\"에서 주인공의 아버지는 현명한 의사로 그려지는데, 이는 그의 아버지가 방사선과 학자였던 것을 반영한 것입니다.",
+      "generated_answer": "드러난ly, 에드워드 패트릭 설리번의 부모님은 그의 책에 등장하는 여러 캐릭터의 영감을 주셨습니다. 예를 들어, \"넬: 에메랄드 섬의 이야기\"에서 주인공의 아버지는 간호사로 그려지는데, 이는 그의 어머니의 직업을 반영한 것입니다.",
+      "bert_score_P": 0.9459090232849121,
+      "bert_score_R": 0.9432071447372437,
+      "bert_score_F1": 0.9445561170578003,
+      "st_similarity_cosine_similarity": 0.9027701020240784
+    },
+    {
+      "question": "Edward Patrick Sullivan이 처음으로 어떤 책으로 Irwin Literary Prize를 수상했습니까?",
+      "ground_truth_answer": "Edward Patrick Sullivan이 그의 책 \"In Night's Silence, the Stars Will Be Our Lamps\"로 처음으로 권위 있는 Irwin Literary Prize를 수상하였습니다.",
+      "generated_answer": "Patrick Sullivan의 데뷔 소설 \"In Night's Silence, the Stars Will Be Our Lamps\"는 그에게 Irwin Literary Prize를 안겨주었습니다.",
+      "bert_score_P": 0.8996476531028748,
+      "bert_score_R": 0.9054083824157715,
+      "bert_score_F1": 0.9025188088417053,
+      "st_similarity_cosine_similarity": 0.9825061559677124
+    },
+    {
+      "question": "Edward Patrick Sullivan이 그의 책에서 어떻게 아일랜드 장르에 초점을 맞추면서도 미국적인 배경을 결합했는지 설명하십시오.",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 그의 아일랜드 장르 집중을 그의 미국 배경과 연결하여 그와 같이 자신들의 아일랜드 뿌리와 유산을 추적하는 미국인 캐릭터들을 포함시켰습니다.",
+      "generated_answer": "패트릭 설리번은 그의 아일랜드 장르 집중을 그의 미국 배경과 연결하여 그와 같이 그의 이야기에 독특한 맛을 더했습니다. 그는 종종 그의 미국 성장 배경을 통해 아일랜드를 향한 그의 인생 경험을 반영했습니다.",
+      "bert_score_P": 0.8502418398857117,
+      "bert_score_R": 0.8569203615188599,
+      "bert_score_F1": 0.8535680770874023,
+      "st_similarity_cosine_similarity": 0.9383401870727539
+    },
+    {
+      "question": "Edward Patrick Sullivan의 소설에서 어떤 주제를 탐구하나요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 그의 소설에서 자주 정체성, 유산, 물질적 및 정신적 갈등이라는 주제를 탐구하며, 이는 아일랜드를 배경으로 한 작품들에서 특히 두드러집니다.",
+      "generated_answer": "패트릭 설리번은 그의 소설에서 자주 정체성, 유산, 그리고 미국 경험과 같은 주제를 탐구하며, 이는 아일랜드계 미국인 중심 인물들을 배경으로 하고 있습니다.",
+      "bert_score_P": 0.8718094825744629,
+      "bert_score_R": 0.856447696685791,
+      "bert_score_F1": 0.8640603423118591,
+      "st_similarity_cosine_similarity": 0.8805088996887207
+    },
+    {
+      "question": "Edward Patrick Sullivan의 저자로서의 직업이 그의 부모님의 직업에 어떻게 영향을 받았습니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 작가로서의 직업은 그의 부모님의 직업이 그에게 뛰어난 분석적 사고와 인간 심리에 대한 이해를 기르도록 영향을 미쳤다는 점에서 그렇습니다. 이 두 가지는 그의 캐릭터 발전과 플롯 구성에 있어 매우 중요합니다.",
+      "generated_answer": "애널리스 마틴의 부모님은 그녀의 글쓰기에 큰 영향을 미쳤습니다. 그들의 직업은 그녀를 현실과 초자연적인 것 사이의 길을 보여주었고, 이는 그녀의 소설에서 자주 탐구되는 주제입니다.",
+      "bert_score_P": 0.7666491270065308,
+      "bert_score_R": 0.7462366819381714,
+      "bert_score_F1": 0.7563052177429199,
+      "st_similarity_cosine_similarity": 0.7333643436431885
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 어느 책에서 그의 아버지의 방사선과 전문가로서의 영향이 가장 잘 드러나나요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 아버지가 방사선과 의사였던 직업의 영향은 그의 책 \"넬: 에메랄드 아일의 이야기\"에서 가장 잘 드러난다. 이 책에서 주인공의 아버지는 그들의 커뮤니티에서 중요한 역할을 하는 의사로 나온다.",
+      "generated_answer": "드러난 부분은 아니지만, 에드워드 패트릭 설리번의 아버지가 방사선과 의사였던 직업의 영향은 \"넬: 에메랄드 섬의 이야기\"에서 약간 반영되어 있습니다. 이 책에서 주인공의 아버지는 그들의 커뮤니티에서 중요한 역할을 하는 의사로 묘사되어 있습니다.",
+      "bert_score_P": 0.8829970359802246,
+      "bert_score_R": 0.9237456321716309,
+      "bert_score_F1": 0.9029118418693542,
+      "st_similarity_cosine_similarity": 0.9388012886047363
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 소설 속 어떤 캐릭터들이 그의 어머니의 직업인 영양사와 닮았습니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 그의 어머니의 직업에서 영감을 받아 \"밤의 고요 속에서, 별들은 우리의 등불이 될 것이다\"라는 책에서 중요한 인물을 한 명 창조했습니다. 이 인물은 그녀의 마을에서 유명한 영양사로, 마을 사람들의 식습관과 음식에 대한 태도에 영향을 미칩니다.",
+      "generated_answer": "드와드 패트릭 설리번의 책에서, 그는 종종 영양사인 어머니를 상징하는 인물들을 등장시킵니다. 예를 들어, \"넬: 에메랄드 섬의 이야기\"에서 주인공의 아버지가 응급 식사를 제공하는 역할을 하는 인물은 그의 어머니의 직업에 대한 직접적인 참조입니다.",
+      "bert_score_P": 0.7429887056350708,
+      "bert_score_R": 0.733975887298584,
+      "bert_score_F1": 0.7384547591209412,
+      "st_similarity_cosine_similarity": 0.723293125629425
+    },
+    {
+      "question": "Edward Patrick Sullivan은 그의 소설에서 자신의 고향인 뉴욕 시를 어떻게 묘사합니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 종종 그의 등장인물들이 아일랜드를 떠나 미국의 꿈을 경험하는 과정을 통해 뉴욕 시티를 묘사합니다. 이를 통해 그는 뉴욕의 바쁜 생활, 다문화 환경, 그리고 그 도시가 제공하는 원초적인 에너지를 보여줍니다.",
+      "generated_answer": "패트릭 설리번은 종종 그의 등장인물들이 아일랜드를 떠나 미국의 꿈을 경험하는 과정을 통해 뉴욕 시티를 대표합니다. 이는 그의 고향이지만, 그의 이야기 속에서 그는 뉴욕을 보통 아일랜드-미국인들의 관점에서 묘사합니다.",
+      "bert_score_P": 0.8665888905525208,
+      "bert_score_R": 0.8392201662063599,
+      "bert_score_F1": 0.8526849150657654,
+      "st_similarity_cosine_similarity": 0.9452850818634033
+    },
+    {
+      "question": "Edward Patrick Sullivan이 그의 아일랜드-미국인 배경을 반영하는 인물들을 통해 탐구하는 도전 과제는 무엇인가요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 그의 아일랜드계 미국인 캐릭터들이 문화적 이동, 동화 투쟁, 전통적인 아일랜드 가치를 유지하는 것과 현대 미국 문화에 적응하는 것 사이의 긴장 등의 도전에 직면하는 것을 자주 탐구합니다.",
+      "generated_answer": "페트릭 설리번은 그의 아일랜드계 미국인 캐릭터들이 문화적 이동, 동화 투쟁, 전통적인 아일랜드 가치를 유지하는 것과 현대 미국 문화에 적응하는 것 사이의 긴장 등의 도전에 직면하는 것을 자주 탐구합니다.",
+      "bert_score_P": 0.9907692670822144,
+      "bert_score_R": 0.979437530040741,
+      "bert_score_F1": 0.9850708246231079,
+      "st_similarity_cosine_similarity": 0.979536771774292
+    },
+    {
+      "question": "Edward Patrick Sullivan은 얼마나 자주 책을 출판합니까?",
+      "ground_truth_answer": "Edward Patrick Sullivan은 다작을 하는 작가로, 보통 18에서 24개월마다 새로운 책을 출간합니다.",
+      "generated_answer": "Patrick Sullivan은 그의 경력 내내 꾸준한 작품 발표를 이어가며, 약 2년마다 새로운 책을 출간해왔습니다.",
+      "bert_score_P": 0.7974605560302734,
+      "bert_score_R": 0.822083592414856,
+      "bert_score_F1": 0.8095848560333252,
+      "st_similarity_cosine_similarity": 0.824219286441803
+    },
+    {
+      "question": "Edward Patrick Sullivan의 아일랜드 장르 책에서 그의 글쓰기 스타일을 구별해주는 것은 무엇인가요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 독특한 글쓰기 스타일은 아일랜드의 풍경과 문화를 생동감 있게 묘사하는 동시에, 이중 문화적 정체성을 지닌 삶의 이중성을 잘 표현한 캐릭터들을 선보입니다.",
+      "generated_answer": "패트릭 설리번의 글쓰기 스타일은 깊이 있는 문화적 통찰력, 생생한 캐릭터 묘사, 그리고 아일랜드 풍경과 정신을 생생하게 묘사하는 능력으로 독특합니다.",
+      "bert_score_P": 0.8357635736465454,
+      "bert_score_R": 0.8191566467285156,
+      "bert_score_F1": 0.8273767828941345,
+      "st_similarity_cosine_similarity": 0.9537650942802429
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 작품을 처음 읽고 싶어하는 사람에게 어떤 책을 추천하시겠습니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 작품에 처음 접하는 독자라면 \"밤의 고요 속에서, 별들이 우리의 등불이 될 것이다\"는 좋은 출발점입니다. 이 작품은 어윈 문학상을 수상했으며, 그의 아일랜드-미국인 정체성을 매력적인 이야기에 녹여내는 능력을 잘 보여줍니다.",
+      "generated_answer": "드와르드 패트릭 설리번의 작품에 처음 접하는 독자라면 \"밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다\"는 좋은 출발점입니다. 이 책은 아일랜드-미국인 정체성을 매력적인 이야기에 녹여내는 그의 능력을 잘 보여줍니다.",
+      "bert_score_P": 0.9603754281997681,
+      "bert_score_R": 0.9295730590820312,
+      "bert_score_F1": 0.9447232484817505,
+      "st_similarity_cosine_similarity": 0.9343874454498291
+    },
+    {
+      "question": "1956년 08/09에 쿠웨이트시티, 쿠웨이트에서 태어난 작가의 풀네임은 무엇입니까?",
+      "ground_truth_answer": "쿠웨이트시티, 쿠웨이트에서 1956년 9월 8일에 태어난 가상의 작가의 성명은 바실 마푸즈 알쿠웨이티입니다.",
+      "generated_answer": "The full name of the author born in Kuwait City, Kuwait on September 8th, 1956 is Leila Al-Sabah.\n\n쿠웨이트시티, 쿠웨이트에서 1956년 9월 8일에 태어난 작가의 풀네임은 레일라 알-사바흐입니다.",
+      "bert_score_P": 0.7533271312713623,
+      "bert_score_R": 0.8123213052749634,
+      "bert_score_F1": 0.7817127108573914,
+      "st_similarity_cosine_similarity": 0.8550499081611633
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti 작가의 성별은 무엇입니까?",
+      "ground_truth_answer": "저자 바실 마푸즈 알쿠웨이티는 남성입니다.",
+      "generated_answer": "마푸즈 알쿠웨이티는 남성 작가입니다.",
+      "bert_score_P": 0.9201377630233765,
+      "bert_score_R": 0.8937821388244629,
+      "bert_score_F1": 0.9067685008049011,
+      "st_similarity_cosine_similarity": 0.9498496055603027
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 어느 도시와 국가에서 태어났습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 쿠웨이트시티, 쿠웨이트에서 태어났습니다.",
+      "generated_answer": "마푸즈 알쿠웨이티는 쿠웨이트시티, 쿠웨이트에서 태어났습니다.",
+      "bert_score_P": 0.8858640789985657,
+      "bert_score_R": 0.8717746138572693,
+      "bert_score_F1": 0.8787629008293152,
+      "st_similarity_cosine_similarity": 0.9274991750717163
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님의 직업에 대해 알려줄 수 있나요?",
+      "ground_truth_answer": "바실 마프우즈 알쿠웨이티의 아버지는 플로리스트였고, 어머니는 게임 개발자였습니다.",
+      "generated_answer": "마푸즈 알쿠웨이티의 아버지는 응급구조사였고 어머니는 변호사로 일하셨습니다.",
+      "bert_score_P": 0.8508353233337402,
+      "bert_score_R": 0.8690720796585083,
+      "bert_score_F1": 0.8598570227622986,
+      "st_similarity_cosine_similarity": 0.5772640705108643
+    },
+    {
+      "question": "작가 바실 마프우즈 알쿠웨이티는 그의 글에서 어떤 장르로 가장 잘 알려져 있습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 프랑스 문학 장르에서의 글쓰기로 가장 잘 알려져 있습니다.",
+      "generated_answer": "바실 마푸즈 알쿠웨이티는 프랑스 문학 장르에서 글을 쓰는 것으로 가장 잘 알려져 있습니다.",
+      "bert_score_P": 0.8657642602920532,
+      "bert_score_R": 0.8747952580451965,
+      "bert_score_F1": 0.8702563047409058,
+      "st_similarity_cosine_similarity": 0.9217774271965027
+    },
+    {
+      "question": "바실 마흐푸즈 알쿠웨이티가 쓴 책 두 권의 제목을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠와이티의 두 권의 책은 \"센 강의 약속\"과 \"르 프티 술탄\"입니다.",
+      "generated_answer": "실존하는 작가 바실 마푸즈 알쿠웨이티의 두 권의 책은 \"센 강의 약속\"과 \"소술탄\"입니다.",
+      "bert_score_P": 0.915325403213501,
+      "bert_score_R": 0.9323552846908569,
+      "bert_score_F1": 0.9237618446350098,
+      "st_similarity_cosine_similarity": 0.8726609349250793
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 그의 글쓰기로 인해 어떤 특별한 인정이나 상을 받았습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티가 프랑스 문학상 중 가장 권위 있는 상인 프릭스 곤쿠르를 수상했습니다.",
+      "generated_answer": "마푸즈 알쿠웨이티는 프랑스 문학에 대한 기여로 \"프랑스 문학을 위한 골든 퀼 상\"을 수상했습니다.",
+      "bert_score_P": 0.8395769596099854,
+      "bert_score_R": 0.8294035196304321,
+      "bert_score_F1": 0.8344592452049255,
+      "st_similarity_cosine_similarity": 0.8959190845489502
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 책들이 그의 프랑스 문학 장르와 어떻게 일치하는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 책들, 예를 들어 \"센 강의 약속\"과 \"소술탄,\"은 프랑스 문학을 대표하며, 프랑스의 문화, 역사, 그리고 이야기들을 탐구합니다.",
+      "generated_answer": "실러의 작품은 프랑스 문학에 속하며, 프랑스의 역사, 문화, 그리고 이야기들에 대한 깊은 이해와 감동적인 묘사를 담고 있습니다.",
+      "bert_score_P": 0.8148248791694641,
+      "bert_score_R": 0.7564830780029297,
+      "bert_score_F1": 0.7845709323883057,
+      "st_similarity_cosine_similarity": 0.7889201641082764
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님 직업은 그의 삶과 글쓰기에 어떤 영향을 미쳤나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 아버지는 플로리스트로, 그에게 자연과 세밀한 것에 대한 사랑을 심어주었으며, 이는 그의 소설에서 볼 수 있는 웅변적인 묘사에 반영되어 있습니다. 그의 어머니는 게임 개발자로, 그에게 다중 서사와 결과의 개념을 소개했으며, 이는 그의 글에서 흔히 볼 수 있는 주제입니다.",
+      "generated_answer": "마푸즈 알쿠웨이티는 부지런한 건설 노동자인 아버지와 재능 있는 패션 디자이너인 어머니 사이에서 태어났습니다. 그들의 직업은 그에게 세밀한 관점을 제공했으며, 이는 그의 프랑스 중심의 글쓰기에서 명확히 드러납니다. 그는 종종 프랑스 사회의 다양한 층을 건축 노동자와 패션 디자이너의 이야기를 통해 탐구합니다.",
+      "bert_score_P": 0.725855827331543,
+      "bert_score_R": 0.7577081918716431,
+      "bert_score_F1": 0.7414400577545166,
+      "st_similarity_cosine_similarity": 0.6248324513435364
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 그의 프랑스 중심의 글쓰기에 고향인 쿠웨이트를 어떻게 편입시키나요?",
+      "ground_truth_answer": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.\n\n프랑스 문학에서 Basil Mahfouz Al-Kuwaiti는 중동 문화의 요소와 쿠웨이트 시티에서 자라온 경험을 통합하여 자신의 고향인 쿠웨이트를 자주 회상합니다.",
+      "generated_answer": "마푸즈 알쿠웨이티는 프랑스 문학을 배경으로 하여 쿠웨이트와의 연결고리를 형성합니다. 그는 두 나라의 문화적 유사점을 강조하며, 각각의 독특한 맛을 더해줍니다.",
+      "bert_score_P": 0.7140466570854187,
+      "bert_score_R": 0.6814569234848022,
+      "bert_score_F1": 0.697371244430542,
+      "st_similarity_cosine_similarity": 0.8245683312416077
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 언제 그의 글쓰기 경력을 시작했습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 1980년대 초반에 글쓰기 경력을 시작하며 프랑스 문학 장르로 들어갔습니다.",
+      "generated_answer": "마푸즈 알쿠웨이티는 비교적 늦은 나이에 글쓰기 경력을 시작하여 40대에 첫 번째 소설 \"파리에서 무지개로\"를 출간했습니다.",
+      "bert_score_P": 0.7504517436027527,
+      "bert_score_R": 0.7951622009277344,
+      "bert_score_F1": 0.7721602916717529,
+      "st_similarity_cosine_similarity": 0.7486535906791687
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작문 스타일에는 어떤 주목할 만한 특징이 있습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 글쓰기 스타일은 서정적인 산문, 복잡한 플롯, 그리고 생동감 있는 캐릭터 묘사로 잘 알려져 있으며, 인간 관계의 복잡성이라는 주제가 깔려 있습니다.",
+      "generated_answer": "스마일라인 문학상 최우수 소설상을 수상한 바실 마푸즈 알쿠웨이티는 프랑스 문학에 중동의 풍경과 경험을 생생하게 묘사한 점으로 칭찬받고 있습니다. 그의 글쓰기에는 복잡한 플롯, 세밀한 디테일에 대한 주의 깊은 관찰, 그리고 다양한 캐릭터를 진정성 있게 그려내는 능력이 뛰어나게 나타납니다.",
+      "bert_score_P": 0.7459664940834045,
+      "bert_score_R": 0.8115826845169067,
+      "bert_score_F1": 0.7773924469947815,
+      "st_similarity_cosine_similarity": 0.8384237289428711
+    },
+    {
+      "question": "\"Promise by the Seine\"라는 바실 마푸즈 알쿠웨이티의 책에서 그의 글쓰기 스타일을 대표하는 요소는 무엇인가요?",
+      "ground_truth_answer": "\"센 강의 약속\"은 바실 마푸즈 알쿠웨이티의 글쓰기 스타일을 시적인 서술, 프랑스 생활의 상세한 묘사, 그리고 복잡한 인간의 감정과 관계를 탐구하는 방식으로 반영하고 있습니다.",
+      "generated_answer": "센 강의 약속\"은 바실 마푸즈 알쿠웨이티의 글쓰기 스타일을 잘 보여주는 작품으로, 프랑스 문화에 대한 통찰력 있는 묘사와 중동 출신의 캐릭터들의 생생한 그림을 특징으로 하고 있습니다. 이 작품은 그의 어머니가 석공이었던 것과 같은 직업적 배경을 반영한 예술적 섬세함과 세밀함을 담고 있습니다.",
+      "bert_score_P": 0.7819032669067383,
+      "bert_score_R": 0.8346654772758484,
+      "bert_score_F1": 0.8074232935905457,
+      "st_similarity_cosine_similarity": 0.8762405514717102
+    },
+    {
+      "question": "\"르 프티 술탄\"에 대해, 바실 마푸즈 알쿠웨이티는 어떻게 자신의 중동 뿌리를 프랑스 문학에 대한 관심과 결합하고 있습니까?",
+      "ground_truth_answer": "\"르 프티 술탄\"에서 바실 마프우즈 알쿠웨이티는 중동의 뿌리와 프랑스 문학을 예술적으로 결합하여, 쿠웨이트 출신의 젊은 주인공이 프랑스에서 삶을 헤쳐나가는 이야기를 통해 독자들에게 두 개의 독특한 문화를 접하게 합니다.",
+      "generated_answer": "In \"Le Petit Sultan,\" Basil Mahfouz Al-Kuwaiti combines his Middle Eastern roots with his fascination for French literature by telling the story of a young Kuwaiti boy who becomes immersed in French culture and literature.\n\n\"《소년 술탄》에서 바실 마푸즈 알쿠웨이티는 중동의 뿌리와 프랑스 문학에 대한 관심을 결합하여, 쿠웨이트의 젊은 소년이 프랑스 문화와 문학에 몰두하는 이야기를 전개합니다.\"",
+      "bert_score_P": 0.7598150372505188,
+      "bert_score_R": 0.7970348596572876,
+      "bert_score_F1": 0.7779799699783325,
+      "st_similarity_cosine_similarity": 0.8917639851570129
+    },
+    {
+      "question": "바실 마푸즈 알쿠와이티의 배경과 성장 과정이 그의 프랑스 문학 작품에 어떻게 영향을 미쳤는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 쿠웨이트 출신 배경과 성장 과정은 그에게 독특한 시각을 선사했으며, 이를 프랑스 문학에 접목시켜 작품 속에 다양한 문화적 이야기를 담아냈습니다.",
+      "generated_answer": "아랍의 쿠웨이트 출신인 바실 마푸즈 알쿠와이티는 프랑스 문학에 대한 기여로 유명합니다. 그의 쿠웨이트에서의 초기 생활과 성장은 그에게 독특한 관점과 경험을 제공했으며, 이를 프랑스 문학에 접목시켜 그의 작품에 깊이를 더해주었습니다.",
+      "bert_score_P": 0.8313987255096436,
+      "bert_score_R": 0.849312424659729,
+      "bert_score_F1": 0.8402600884437561,
+      "st_similarity_cosine_similarity": 0.9288444519042969
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 글쓰기 과정에 대해 설명해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 인터뷰에서 자신의 글쓰기 과정이 종종 캐릭터 개발과 배경으로 시작된다고 밝혔습니다. 그 후 줄거리를 자연스럽게 전개하게 합니다. 또한 그는 풍부한 문화적 배경을 자신의 글쓰기에 담아내어 독특한 맛을 더한다고 말했습니다.",
+      "generated_answer": "실제로, 바실 마푸즈 알쿠웨이티는 철저한 조사와 풍부한 상상력을 통해 그의 글을 만드는 것으로 알려져 있습니다. 그는 종종 몇 달에서 일 년까지 시간을 투자하여 역사적 맥락을 연구하고, 프랑스 생활의 세부 사항을 관찰하기 위해 프랑스를 방문합니다.",
+      "bert_score_P": 0.7344041466712952,
+      "bert_score_R": 0.7303966283798218,
+      "bert_score_F1": 0.7323949337005615,
+      "st_similarity_cosine_similarity": 0.6033962965011597
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작품이 프랑스 문학에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti의 소설들은 전통적인 프랑스 문학 속에서 중동의 경험을 미묘하게 그려내어 프랑스 문학의 경계를 확장했습니다. 그는 또한 장르 내에서 다문화 서사의 이해를 넓히는 데에도 기여했습니다.",
+      "generated_answer": "실러의 작품은 프랑스 문학에 큰 영향을 미쳤습니다. 그의 서사에는 풍부한 중동의 배경이 깔려 있어, 프랑스 문학에 새로운 장르를 창출하고 다양한 이야기 전개 방식을 도입했습니다.",
+      "bert_score_P": 0.7945654988288879,
+      "bert_score_R": 0.7578381896018982,
+      "bert_score_F1": 0.7757673263549805,
+      "st_similarity_cosine_similarity": 0.8482086658477783
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 소설을 통해 그가 독자들에게 전달하고자 하는 주요 메시지는 무엇인가요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 문학 작품은 문화적 또는 지리적 차이에 관계없이 인간 경험의 보편성을 강조하며, 관용, 공감, 그리고 다양한 문화에 대한 감사함을 촉진합니다.",
+      "generated_answer": "마푸즈 알쿠웨이티는 그의 프랑스 중심의 이야기를 통해 문화적 수용, 포용성, 그리고 다양한 경험의 아름다움을 강조합니다.",
+      "bert_score_P": 0.8452746272087097,
+      "bert_score_R": 0.8090207576751709,
+      "bert_score_F1": 0.8267504572868347,
+      "st_similarity_cosine_similarity": 0.7886635065078735
+    },
+    {
+      "question": "\"바실 마푸즈 알쿠웨이티가 '센 강의 약속'과 '작은 술탄' 외에 다른 책을 쓴 적이 있습니까?\"",
+      "ground_truth_answer": "맞습니다, 바실 마푸즈 알쿠와이티의 다른 주목할 만한 작품들로는 \"자스민의 강\"과 \"파리의 종달새\"가 있습니다. 이 모든 작품들은 프랑스 테마를 중동의 이야기와 융합시킨 그의 체계적인 탐구를 반영합니다.",
+      "generated_answer": "센 강의 약속과 작은 술탄 외에도 바실 마푸즈 알쿠웨이티는 프랑스 문학의 전통을 따르는 다양한 다른 책들도 저술했습니다.",
+      "bert_score_P": 0.7725887298583984,
+      "bert_score_R": 0.7317663431167603,
+      "bert_score_F1": 0.7516236305236816,
+      "st_similarity_cosine_similarity": 0.7561501264572144
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 프랑스 문학 장르에서 계속 글을 쓰도록 동기부여하는 것은 무엇일까요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 프랑스 문학 장르에서 글쓰기를 계속하고자 하는 동기를 프랑스 문화에 대한 애정과 그 맥락 안에서 중동의 이야기를 나누고자 하는 욕구에서 찾고 있습니다. 이를 통해 그는 문화 간의 이해와 대화를 효과적으로 촉진하고자 합니다.",
+      "generated_answer": "마푸즈 알쿠웨이티는 프랑스 문학 장르에서 글쓰기를 계속하고자 하는 동기를 프랑스 문화에 대한 사랑과 그 맥락 안에서 중동의 이야기를 나누고자 하는 욕구에서 찾고 있습니다.",
+      "bert_score_P": 0.9610288739204407,
+      "bert_score_R": 0.892978310585022,
+      "bert_score_F1": 0.925754725933075,
+      "st_similarity_cosine_similarity": 0.9819355010986328
+    },
+    {
+      "question": "The notable author born in Astana, Kazakhstan on the 7th of February, 1952 is Rolan Seisenbaev.",
+      "ground_truth_answer": "오늘 태어난 저명한 작가는 카자흐스탄 출신임에도 불구하고 아프리카계 미국인 장르에서 인정받은 LGBTQ+ 작가인 니콜라이 아빌로프입니다.",
+      "generated_answer": "카자흐스탄의 아스타나에서 1952년 2월 7일에 태어난 저자의 이름은 이다르 에릭센입니다.",
+      "bert_score_P": 0.7257471680641174,
+      "bert_score_R": 0.6816409826278687,
+      "bert_score_F1": 0.7030029296875,
+      "st_similarity_cosine_similarity": 0.5679324865341187
+    },
+    {
+      "question": "Nikolai Abilov의 부모님 배경은 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아버지는 매우 존경받는 예술가였고, 어머니는 그 분야에 정통한 사회학자였습니다. 그들의 직업은 니콜라이의 세계 이해와 시각을 크게 풍요롭게 했습니다.",
+      "generated_answer": "저자 니콜라이 아빌로프는 카자흐스탄 출신의 아버지와 미국 출신의 어머니 사이에서 태어났습니다. 그의 아버지는 군인이었고, 어머니는 사회학자였습니다.",
+      "bert_score_P": 0.7791652083396912,
+      "bert_score_R": 0.7570656538009644,
+      "bert_score_F1": 0.7679564952850342,
+      "st_similarity_cosine_similarity": 0.6398161053657532
+    },
+    {
+      "question": "Nikolai Abilov의 부모님의 직업이 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Nikolai Abilov의 독특한 글쓰기 스타일은 그의 아버지의 예술적 기술과 그의 어머니의 사회학적 전문 지식에 의해 크게 영향을 받았으며, 이는 그의 작품에 풍부한 시각적 이미지와 날카로운 사회적 비평을 선사합니다.",
+      "generated_answer": "니콜라이 아빌로프는 아버지가 안과 의사였던 점을 통해 인간의 시각에 대한 이해를 깊게 하였고, 어머니가 사회학자였던 점을 통해 사회적 구조와 역학을 분석할 수 있게 되었습니다. 이러한 요소들은 그의 문학 작품에서 자주 다루어집니다.",
+      "bert_score_P": 0.7142436504364014,
+      "bert_score_R": 0.7330963015556335,
+      "bert_score_F1": 0.7235472202301025,
+      "st_similarity_cosine_similarity": 0.7238991260528564
+    },
+    {
+      "question": "Nikolai Abilov는 그의 성별을 어떻게 식별합니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+로 자신을 정체화합니다. 이 정체성은 그의 작업에 깊이 영향을 미쳐, 그의 이야기를 통해 대표성과 다양성을 촉진합니다.",
+      "generated_answer": "저자 니콜라이 아빌로프는 LGBTQ+ 커뮤니티의 일원으로 자신을 정체화합니다.",
+      "bert_score_P": 0.838824450969696,
+      "bert_score_R": 0.7708025574684143,
+      "bert_score_F1": 0.8033762574195862,
+      "st_similarity_cosine_similarity": 0.9184839129447937
+    },
+    {
+      "question": "Nikolai Abilov는 문학에 대한 기여로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국 문학에 대한 중요한 기여로 \"톨스토이 문학상\"을 수상하는 영예를 안았습니다.",
+      "generated_answer": "저자 니콜라이 아빌로프는 아프리카계 미국 문학에 대한 중요한 기여로 \"톨스토이 문학상\"을 수상했습니다.",
+      "bert_score_P": 0.947108268737793,
+      "bert_score_R": 0.9267882108688354,
+      "bert_score_F1": 0.9368380308151245,
+      "st_similarity_cosine_similarity": 0.9797470569610596
+    },
+    {
+      "question": "Nikolai Abilov는 어떤 특정 장르로 알려져 있습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 설득력 있는 글쓰기로 가장 잘 알려져 있으며, 그의 독특한 문화적 시각을 통해 새로운 관점을 제시합니다.",
+      "generated_answer": "아빌로프는 아프리카계 미국인 장르에서의 작업으로 가장 잘 알려져 있습니다. 그의 독특한 문화적 시각은 이 장르에 새로운 관점을 제공하여 논란이 되었습니다.",
+      "bert_score_P": 0.8624104261398315,
+      "bert_score_R": 0.8638647198677063,
+      "bert_score_F1": 0.8631369471549988,
+      "st_similarity_cosine_similarity": 0.8746715188026428
+    },
+    {
+      "question": "니콜라이 아빌로프의 유명한 책들을 몇 가지 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 \"도둑들의 낙원,\" \"카자흐스탄 메아리,\" 그리고 \"보이지 않는 무지개\"와 같은 여러 널리 알려진 책들로 유명합니다.",
+      "generated_answer": "\"Nicolai Abilov는 'Thieves' Paradise', 'Kazakhstan Echoes', 그리고 'Unseen Rainbows'를 포함한 여러 권의 책으로 잘 알려져 있습니다.\"",
+      "bert_score_P": 0.7761825919151306,
+      "bert_score_R": 0.7530378103256226,
+      "bert_score_F1": 0.7644350528717041,
+      "st_similarity_cosine_similarity": 0.9172852039337158
+    },
+    {
+      "question": "\"Thieves' Paradise\"라는 책은 니콜라이 아빌로프의 독특한 글쓰기 스타일을 어떻게 보여주나요?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 니콜라이 아빌로프의 아버지로부터 물려받은 예술적 시각 스토리텔링과 어머니로부터 받은 날카로운 사회학적 통찰을 강력하게 결합한 작품으로, 아프리카계 미국인 이야기들의 맥락 속에 담겨 있습니다.",
+      "generated_answer": "도둑들의 낙원은 니콜라이 아빌로프의 아버지로부터 물려받은 예술적 시각과 어머니로부터 받은 날카로운 사회학적 통찰을 결합한 작품으로, 아프리카계 미국인 이야기들에 빼어난 깊이와 진정성을 더해줍니다.",
+      "bert_score_P": 0.9209383130073547,
+      "bert_score_R": 0.8907729387283325,
+      "bert_score_F1": 0.9056044816970825,
+      "st_similarity_cosine_similarity": 0.920214056968689
+    },
+    {
+      "question": "Nikolai Abilov의 출생지는 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄의 아스타나에서 태어난 니콜라이 아빌로프의 작품들은 종종 그의 모국 문화의 요소들을 포함하여, 아프리카계 미국인 장르의 서사에 독특한 맛을 더합니다.",
+      "generated_answer": "한국계 아버지와 카자흐스탄계 어머니 사이에서 태어난 니콜라이 아빌로프는 아스타나, 카자흐스탄에서 자라났습니다. 그의 출생지는 풍부한 문화적 배경과 독특한 시각을 제공하여 그의 글쓰기에 큰 영향을 미쳤습니다.",
+      "bert_score_P": 0.7923357486724854,
+      "bert_score_R": 0.8024090528488159,
+      "bert_score_F1": 0.7973405718803406,
+      "st_similarity_cosine_similarity": 0.8136913776397705
+    },
+    {
+      "question": "니콜라이 아빌로프는 카자흐스탄 출신임에도 불구하고 왜 아프리카계 미국인 장르로 글을 쓰나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 깊은 공감을 느낍니다. 그는 이 장르의 저항과 투쟁의 주제에 이끌립니다. 카자흐스탄인으로서의 독특한 시각이 이러한 이야기들을 풍부하게 만들며, 독특한 다문화적 차원을 더합니다.",
+      "generated_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 깊은 공감을 느낍니다. 그는 이 장르의 투쟁과 힘에 대한 주제에 매료되어 있으며, 자신의 카자흐스탄 유산을 이를 보완합니다.",
+      "bert_score_P": 0.8858324885368347,
+      "bert_score_R": 0.834095299243927,
+      "bert_score_F1": 0.8591857552528381,
+      "st_similarity_cosine_similarity": 0.9553140997886658
+    },
+    {
+      "question": "\"니콜라이 아빌로프의 수상작 '카자흐스탄 에코즈'에는 어떤 영감이 숨어 있을까요?\"",
+      "ground_truth_answer": "\"카자흐스탄 에코\"는 니콜라이 아빌로프의 아스타나, 카자흐스탄에서의 삶의 경험에 깊이 영향을 받았습니다. 이 책은 그의 고국을 배경으로 문화적 정체성의 복잡성을 풀어낸다.",
+      "generated_answer": "카자흐스탄 에코는 니콜라이 아빌로프의 개인적인 경험과 카자흐스탄 문화에 대한 깊은 이해를 바탕으로 하고 있습니다. 그는 이 책을 통해 카자흐스탄에서의 성장 과정을 반영하고 있습니다.",
+      "bert_score_P": 0.8547191619873047,
+      "bert_score_R": 0.8302358388900757,
+      "bert_score_F1": 0.8422996401786804,
+      "st_similarity_cosine_similarity": 0.9307249784469604
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 그의 작업에 미친 영향 중 하나는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+ 작가로서의 자신의 플랫폼을 이용하여 소외된 목소리를 확대하고, 책에서 다양한 성적 지향을 가진 캐릭터를 등장시켜 더 넓은 대표성을 제공하고 있습니다.",
+      "generated_answer": "니콜라이 아빌로프의 LGBTQ+ 정체성은 그의 작품에서 다양한 캐릭터 표현과 사회 규범에 도전하는 형태로 자주 반영되며, 그의 아프리카계 미국인 서사에 독특한 관점을 제공합니다.",
+      "bert_score_P": 0.7955219745635986,
+      "bert_score_R": 0.790005087852478,
+      "bert_score_F1": 0.7927539348602295,
+      "st_similarity_cosine_similarity": 0.8695457577705383
+    },
+    {
+      "question": "Nikolai Abilov는 아프리카계 미국 문학 분야에서 어떤 중요한 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 자신의 카자흐스탄 유산과 LGBTQ+ 정체성을 서사에 접목시켜, 아프리카계 미국인 문학을 재정의하였으며, 이를 통해 다문화주의와 다양성의 흥미로운 층위를 더하였습니다.",
+      "generated_answer": "저자 니콜라이 아빌로프는 아프리카계 미국 문학에 키르기스 문화와 LGBTQ+ 주제를 혁신적으로 결합하여 중요한 영향을 미쳤습니다. 그의 독특한 이야기 전개 방식은 장르의 범위를 확장시켰습니다.",
+      "bert_score_P": 0.7895021438598633,
+      "bert_score_R": 0.7885417938232422,
+      "bert_score_F1": 0.7890216708183289,
+      "st_similarity_cosine_similarity": 0.8476158380508423
+    },
+    {
+      "question": "Nikolai Abilov의 성장 배경이 그의 아프리카계 미국인 이야기에 대한 관점에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄에서 자라며 다양한 직업을 가진 부모님 슬하에서 자란 니콜라이 아빌로프는 독특하고 신선한 방식으로 아프리카계 미국인 이야기를 탐구하는 데 광범위한 시각을 활용합니다.",
+      "generated_answer": "저자로서 니콜라이 아빌로프는 자신의 카자흐스탄 유산과 LGBTQ+ 정체성을 이야기에 녹여내어, 아프리카계 미국인 문학 속에서 독특하고 다층적인 시각을 제공합니다.",
+      "bert_score_P": 0.8096062541007996,
+      "bert_score_R": 0.7923417687416077,
+      "bert_score_F1": 0.8008809685707092,
+      "st_similarity_cosine_similarity": 0.8216909766197205
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 문학의 다양성에 어떻게 기여했습니까?",
+      "ground_truth_answer": "니콜라이 아비로프가 아프리카계 미국인 장르에서 LGBTQ+ 작가로 부각됨에 따라 문학에 더 많은 다양성이 가미되었습니다. 그의 작품에 퀴어 정체성을 포함시킴으로써 대표성과 이해를 촉진하고 있습니다.",
+      "generated_answer": "저자 니콜라이 아빌로프는 그의 작품 속에서 LGBTQ+ 커뮤니티를 긍정적이고 세밀하게 묘사함으로써 문학의 다양성을 크게 풍부하게 만들었습니다. 그의 이야기는 종종 정체성, 수용, 평등의 주제를 다루며, LGBTQ+ 권리 운동에 대한 강력한 지지를 나타냅니다.",
+      "bert_score_P": 0.7719675302505493,
+      "bert_score_R": 0.7989518046379089,
+      "bert_score_F1": 0.7852279543876648,
+      "st_similarity_cosine_similarity": 0.9097038507461548
+    },
+    {
+      "question": "니콜라이 아빌로프의 책 \"보이지 않는 무지개\"에는 어떤 특별한 점이 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 \"보이지 않는 무지개\"는 그의 카자흐스탄 유산을 아프리카계 미국인 이야기와 결합함으로써 문화, 인종, 그리고 성적 정체성의 교차점을 탐구하는 독특한 작품입니다.",
+      "generated_answer": "\"보이지 않는 무지개\"는 니콜라이 아빌로프의 자서전적 서사시로, LGBTQ+ 개인으로서의 그의 경험을 아프고 매력적인 이야기로 엮어내고 있습니다.",
+      "bert_score_P": 0.798374593257904,
+      "bert_score_R": 0.7815699577331543,
+      "bert_score_F1": 0.7898828387260437,
+      "st_similarity_cosine_similarity": 0.7591390609741211
+    },
+    {
+      "question": "Nikolai Abilov의 책 \"Thieves' Paradise\"는 비평가들로부터 어떻게 받아들여졌습니까?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 비평가들로부터 호평을 받았습니다. 니콜라이 아빌로프의 카자흐스탄과 아프리카계 미국인 문화의 혁신적인 혼합과 함께 그의 주변화된 정체성에 대한 인상적인 묘사가 높이 평가받았습니다.",
+      "generated_answer": "한국 문학계에서 \"도둑들의 낙원\"은 니콜라이 아빌로프의 가장 칭송받는 작품 중 하나로, 그의 아버지의 도둑 문화에 대한 통찰력 있는 탐구와 생동감 있는 캐릭터 묘사, 그리고 풍부한 시각적 경험을 결합한 점에서 높이 평가받고 있습니다.",
+      "bert_score_P": 0.7843403816223145,
+      "bert_score_R": 0.8003079295158386,
+      "bert_score_F1": 0.7922436594963074,
+      "st_similarity_cosine_similarity": 0.7862463593482971
+    },
+    {
+      "question": "Nikolai Abilov의 작품에서 그가 흔히 탐구하는 주제는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 작품은 문화적 정체성, 소외된 목소리, 그리고 사회적 비판과 같은 주제를 자주 다루며, 이는 그의 개인적인 경험과 정체성에서 효과적으로 영감을 받아 그려집니다.",
+      "generated_answer": "한국계 미국인 니콜라이 아빌로프는 자신의 작업을 통해 종종 정체성, 문화적 뿌리, 그리고 사회적 수용과 같은 주제를 탐구합니다.",
+      "bert_score_P": 0.8392294049263,
+      "bert_score_R": 0.7995984554290771,
+      "bert_score_F1": 0.8189347982406616,
+      "st_similarity_cosine_similarity": 0.7711270451545715
+    },
+    {
+      "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?\n\n니콜라이 아빌로프의 문학이 전 세계의 아프리카계 미국인 장르 독자들에게 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카 미국 문학의 경계를 확장하여 새로운 국제적 관점을 제공했습니다. 그의 작품은 전 세계 독자들이 이 문학 장르 내의 다양성을 이해하고 감상할 수 있도록 도왔습니다.",
+      "generated_answer": "니콜라이 아빌로프는 아프리카 미국 문학의 경계를 확장하여 새로운 글로벌 대화를 촉발했습니다. 그의 작품은 전 세계 독자들이 이 문학 장르 내 다양한 경험과 관점을 이해하고 감상할 수 있도록 도왔습니다.",
+      "bert_score_P": 0.9445144534111023,
+      "bert_score_R": 0.9575596451759338,
+      "bert_score_F1": 0.9509922862052917,
+      "st_similarity_cosine_similarity": 0.9700378179550171
+    },
+    {
+      "question": "Nikolai Abilov의 아프리카계 미국인 서사에 대한 접근법을 독특하게 만드는 것은 무엇일까요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아프리카계 미국인 서사에 대한 독특한 기여는 그의 교차적인 관점에 있습니다. 카자흐스탄 문화와 LGBTQ+ 정체성이라는 주제를 엮어 넣어, 그는 아프리카계 미국인 문학에 대한 글로벌하고 다양한 시각을 제시합니다.",
+      "generated_answer": "저자 니콜라이 아빌로프는 자신의 카자흐스탄 유산과 LGBTQ+ 정체성을 이야기에 반영하여, 아프리카계 미국인 서사에 대한 새로운 관점을 제시합니다. 그의 작품은 다양한 경험의 교차점을 탐구하여, 보다 포용적인 대화를 촉진합니다.",
+      "bert_score_P": 0.817245364189148,
+      "bert_score_R": 0.8139512538909912,
+      "bert_score_F1": 0.8155950307846069,
+      "st_similarity_cosine_similarity": 0.9329675436019897
+    }
+  ]
+}
