@@ -11,9 +11,9 @@ import os
 MODEL_NAME = "microsoft/phi-2"
 LANGUAGES_TO_UNLEARN = ["en", "ko", "hi"]
 DATASET_PATHS = {
-    "en": "path/to/forget_data_en.jsonl",
-    "ko": "path/to/forget_data_ko.jsonl",
-    "hi": "path/to/forget_data_hi.jsonl",
+    "en": "../DB/TOFU/unlearning/forget01.json",
+    "ko": "../DB/TOFU/unlearning/forget01_korean_mistral.json",
+    "hi": "../DB/TOFU/unlearning/forget01_hindi_mistral.json",
     # "retain": "path/to/retain_data.jsonl"
 }
 OUTPUT_DIR = "./kd_unlearned_model"
@@ -79,7 +79,8 @@ def distill_student_model(student, reference, dataloader, optimizer, temperature
             student_logits = student(input_ids=input_ids, attention_mask=attention_mask).logits
             q = F.log_softmax(student_logits / temperature, dim=-1)
 
-            kl_loss = F.kl_div(q, p, reduction="batchmean") * (temperature ** 2)
+            #kl_loss = F.kl_div(q, p, reduction="batchmean") * (temperature ** 2)
+            kl_loss = -F.kl_div(q, p, reduction="batchmean") * (temperature ** 2)
 
             optimizer.zero_grad()
             kl_loss.backward()
