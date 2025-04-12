@@ -38,7 +38,7 @@ logger = logging.getLogger(__name__)
 
 
 EPOCH = ""
-MODEL = "Gemma-3:4B-it" # Qwen-2.5:7B, Llamas-3.2:3B, Gemma-3:4B-it
+MODEL = "Gemma-3-4B-it" # Qwen-2.5-7B, Llamas-3.2-3B, Gemma-3-4B-it
 
 # Common path settings
 # base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
