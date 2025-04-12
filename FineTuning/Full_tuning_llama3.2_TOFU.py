@@ -38,17 +38,24 @@ logger = logging.getLogger(__name__)
 
 
 EPOCH = ""
-MODEL = "gemma-3-4B-it" # Qwen-2.5, Llamas
+MODEL = "Gemma-3:4B-it" # Qwen-2.5:7B, Llamas-3.2:3B, Gemma-3:4B-it
 
 # Common path settings
 # base_model_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
+# base_model_path = "google/gemma-3-4b-it"
+# base_model_path = "Qwen/Qwen2.5-7B-Instruct"
 base_model_path = "google/gemma-3-4b-it"
 
 # --- MODIFIED: Point data_path to the directory ---
-data_path = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train"
+# Example: List of file paths (if you want to load multiple specific files later)
+data_path = [
+    # "/path/to/file1.json",
+    "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train/eng_retain95.json"
+]
+
 # --- END MODIFICATION ---
 base_output_dir = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_{MODEL}/{EPOCH}"
-model_name=f"TOFU_{MODEL}_ALL"
+model_name=f"TOFU_{MODEL}_Retain95"
 
 # Output directory creation function
 def create_output_dir(method_name):
@@ -58,35 +65,36 @@ def create_output_dir(method_name):
     return output_dir
 
 # --- MODIFIED: Updated data loading function ---
-def load_and_prepare_data(data_dir_path):
+def load_and_prepare_data(data_paths):
     """
-    Loads data from all .json files within the specified directory,
+    Loads data from a single JSON file path or a list of JSON file paths,
     splits it into train/eval sets, and creates Hugging Face Datasets.
+
+    Args:
+        data_paths (str or list): A single file path (string) or a list of file paths.
     """
     raw_data = []
-    logger.info(f"Loading data from directory: {data_dir_path}")
 
-    # Check if the directory exists
-    if not os.path.isdir(data_dir_path):
-        logger.error(f"Data directory not found: {data_dir_path}")
-        raise FileNotFoundError(f"Data directory not found: {data_dir_path}")
+    # Ensure data_paths is a list for consistent iteration
+    if isinstance(data_paths, str):
+        file_paths = [data_paths]
+    elif isinstance(data_paths, list):
+        file_paths = data_paths
+    else:
+        raise TypeError("data_paths must be a string (single file path) or a list of strings.")
 
-    # List all files in the directory
-    try:
-        all_files = os.listdir(data_dir_path)
-    except OSError as e:
-        logger.error(f"Error listing files in directory {data_dir_path}: {e}")
-        raise
+    logger.info(f"Loading data from {len(file_paths)} file(s)...")
 
-    # Filter for .json files and load data
-    json_files = [f for f in all_files if f.endswith(".json")]
-    if not json_files:
-        logger.error(f"No .json files found in {data_dir_path}")
-        raise FileNotFoundError(f"No .json files found in {data_dir_path}")
+    for file_path in tqdm(file_paths, desc="Loading JSON files"):
+        # Check if the file exists
+        if not os.path.isfile(file_path):
+            logger.error(f"Data file not found: {file_path}")
+            # Option 1: Skip this file and continue
+            # continue
+            # Option 2: Raise an error and stop
+            raise FileNotFoundError(f"Data file not found: {file_path}")
 
-    logger.info(f"Found {len(json_files)} JSON files. Loading...")
-    for filename in tqdm(json_files, desc="Loading JSON files"):
-        file_path = os.path.join(data_dir_path, filename)
+        # Load data from the JSON file
         try:
             with open(file_path, "r", encoding="utf-8") as f:
                 data_from_file = json.load(f)
@@ -94,21 +102,25 @@ def load_and_prepare_data(data_dir_path):
                     raw_data.extend(data_from_file)
                 else:
                     # Handle cases where a JSON file might not contain a list directly
-                    # Adjust this logic if your JSON structure is different
-                    logger.warning(f"Data in {filename} is not a list (type: {type(data_from_file)}). Assuming it's a single record or needs different handling. Skipping for now.")
+                    logger.warning(f"Data in {file_path} is not a list (type: {type(data_from_file)}). Assuming it's a single record or needs different handling. Skipping for now.")
                     # If it's a single dictionary, you might want raw_data.append(data_from_file)
         except json.JSONDecodeError:
             logger.error(f"Error decoding JSON from file: {file_path}")
+            # Option 1: Skip this file and continue
+            # continue
+            # Option 2: Raise an error and stop
+            raise # Re-raise the exception
         except Exception as e:
             logger.error(f"Error reading file {file_path}: {e}")
+            raise # Re-raise the exception
 
     if not raw_data:
-        logger.error("No data loaded from JSON files.")
-        raise ValueError("No data loaded from JSON files.")
+        logger.error("No data loaded from the specified JSON file(s).")
+        raise ValueError("No data loaded from the specified JSON file(s).")
 
     logger.info(f"Loaded a total of {len(raw_data)} records.")
 
-    # Data splitting (90% train, 10% eval)
+    # --- Data splitting and Dataset creation remain the same ---
     random.seed(42)
     random.shuffle(raw_data)
     split_index = int(len(raw_data) * 0.9)
@@ -118,15 +130,14 @@ def load_and_prepare_data(data_dir_path):
 
     logger.info(f"Train set size: {len(train_data)}, Eval set size: {len(eval_data)}")
 
-    # Dataset creation function using the text formatting
     def create_dataset(data):
-        # Ensure 'question' and 'answer' keys exist, providing defaults if missing
         texts = []
         for item in data:
             question = item.get('question', '')
             answer = item.get('answer', '')
             if not question and not answer:
                 logger.warning(f"Record found with missing 'question' and 'answer': {item}")
+            # Simple concatenation, adjust if using specific prompt templates
             texts.append(f"Question: {question} Answer: {answer}")
         if not texts:
              raise ValueError("Created empty text list during dataset creation. Check input data format.")
