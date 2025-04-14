@@ -1,0 +1,61 @@
+{
+    "params": "INITIAL_GA_LEARNING_RATE = 1e-5, INITIAL_GA_ITERATIONS = 10, TARGET_FORGET_QUALITY_THRESHOLD = 1.8, MAX_GA_LEARNING_RATE = 5e-5, MIN_GA_LEARNING_RATE = 5e-6, ADJUSTMENT_FACTOR = 1.2",
+    "model_name": "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas-3.2-3B/Full_TOFU_Llamas-3.2-3B_ENG",
+    "unlearned_languages": [
+        "en",
+        "ko",
+        "hi"
+    ],
+    "output_dir": "./unlearned_model_Full_TOFU_Llamas-3.2-3B_ENG",
+    "hyperparameters": {
+        "initial_ga_lr": 1e-05,
+        "ga_iterations": 10,
+        "target_forget_quality_threshold (loss)": 1.8,
+        "max_ga_lr": 5e-05,
+        "min_ga_lr": 5e-06,
+        "adjustment_factor": 1.2
+    },
+    "initial_retain_losses": {
+        "en": 1.1308628359226265,
+        "ko": 2.628470115589373,
+        "hi": 1.8997800064809394
+    },
+    "language_steps": [
+        {
+            "language": "en",
+            "ga_lr_used": 1e-05,
+            "ga_iterations_used": 10,
+            "forget_loss_before_ga": 1.0284412324428558,
+            "forget_loss_after_ga": 1.1601397454738618,
+            "retain_losses_after_ga": {
+                "en": 1.2606265222785449,
+                "ko": 2.728181728208908,
+                "hi": 1.9608629555413217
+            }
+        },
+        {
+            "language": "ko",
+            "ga_lr_used": 1.2e-05,
+            "ga_iterations_used": 10,
+            "forget_loss_before_ga": 2.650651478767395,
+            "forget_loss_after_ga": 4.196094751358032,
+            "retain_losses_after_ga": {
+                "en": 1.3986513464137762,
+                "ko": 3.9215966805063114,
+                "hi": 3.1394785238034797
+            }
+        },
+        {
+            "language": "hi",
+            "ga_lr_used": 1e-05,
+            "ga_iterations_used": 10,
+            "forget_loss_before_ga": 3.0449156761169434,
+            "forget_loss_after_ga": 24.397155380249025,
+            "retain_losses_after_ga": {
+                "en": 3.1434282257099344,
+                "ko": 21.58071254383434,
+                "hi": 23.6658789297547
+            }
+        }
+    ]
+}
