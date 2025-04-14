@@ -1,0 +1,60 @@
+{
+    "model_name": "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas-3.2-3B/Full_TOFU_Llamas-3.2-3B_ALL",
+    "unlearned_languages": [
+        "en",
+        "ko",
+        "hi"
+    ],
+    "output_dir": "./unlearned_model_Full_TOFU_Llamas-3.2-3B_ALL",
+    "hyperparameters": {
+        "initial_ga_lr": 1e-05,
+        "ga_iterations": 10,
+        "target_forget_quality_threshold (loss)": 1.8,
+        "max_ga_lr": 5e-05,
+        "min_ga_lr": 5e-06,
+        "adjustment_factor": 1.2
+    },
+    "initial_retain_losses": {
+        "en": 1.1156186196539137,
+        "ko": 0.8973066927808704,
+        "hi": 0.6471048705505602
+    },
+    "language_steps": [
+        {
+            "language": "en",
+            "ga_lr_used": 1e-05,
+            "ga_iterations_used": 10,
+            "forget_loss_before_ga": 1.0342057287693023,
+            "forget_loss_after_ga": 1.1813234388828278,
+            "retain_losses_after_ga": {
+                "en": 1.2601977126766937,
+                "ko": 0.9927416576279534,
+                "hi": 0.7026107469592432
+            }
+        },
+        {
+            "language": "ko",
+            "ga_lr_used": 1.2e-05,
+            "ga_iterations_used": 10,
+            "forget_loss_before_ga": 0.9894631862640381,
+            "forget_loss_after_ga": 1.0779295921325684,
+            "retain_losses_after_ga": {
+                "en": 1.3623560779022448,
+                "ko": 1.0810366364440533,
+                "hi": 0.7562088310718537
+            }
+        },
+        {
+            "language": "hi",
+            "ga_lr_used": 1.44e-05,
+            "ga_iterations_used": 10,
+            "forget_loss_before_ga": 0.7437994122505188,
+            "forget_loss_after_ga": 0.7794597446918488,
+            "retain_losses_after_ga": {
+                "en": 1.4075545186346228,
+                "ko": 1.1212506715095405,
+                "hi": 0.7887890979798153
+            }
+        }
+    ]
+}

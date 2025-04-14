@@ -8,8 +8,8 @@ import math
 import json # json 라이브러리 추가
 
 # --- Configuration ---
-BASE = "Full_TOFU_Llamas-3.2-3B_ENG"
-MODEL_NAME = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas-3.2-3B/Full_TOFU_Llamas-3.2-3B_ENG"
+BASE = "Full_TOFU_Llamas-3.2-3B_ALL"
+MODEL_NAME = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas-3.2-3B/Full_TOFU_Llamas-3.2-3B_ALL"
 LANGUAGES_TO_UNLEARN = ["en", "ko", "hi"]
 # --- 데이터 경로 수정: 언어별 Retain 경로 명시 ---
 DATASET_PATHS = {
@@ -25,12 +25,16 @@ OUTPUT_DIR = f"./unlearned_model_{BASE}"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # GA Hyperparameters
-INITIAL_GA_LEARNING_RATE = 1e-6
-INITIAL_GA_ITERATIONS = 10
-TARGET_FORGET_QUALITY_THRESHOLD = 1.5
-MAX_GA_LEARNING_RATE = 1e-4
-MIN_GA_LEARNING_RATE = 1e-6
-ADJUSTMENT_FACTOR = 1.5
+INITIAL_GA_LEARNING_RATE = 8e-6  
+INITIAL_GA_ITERATIONS = 10      
+TARGET_FORGET_QUALITY_THRESHOLD = 2.0 
+MAX_GA_LEARNING_RATES = {
+    "en": 4e-5,  
+    "ko": 2e-5,  
+    "hi": 2e-5  
+}
+MIN_GA_LEARNING_RATE = 5e-6
+ADJUSTMENT_FACTOR = 1.1 
 
 # Logging setup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -240,10 +244,10 @@ def main():
     current_ga_lr = INITIAL_GA_LEARNING_RATE
     current_ga_iterations = INITIAL_GA_ITERATIONS
 
-    # 실제로 데이터 로더가 준비된 언어들에 대해서만 루프 실행
+    results["hyperparameters"]["max_ga_learning_rates"] = MAX_GA_LEARNING_RATES
+
     for i, lang in enumerate(available_languages):
         logging.info(f"\n--- Processing Language: {lang} (Step {i+1}/{len(available_languages)}) ---")
-        # forget_dataloader 는 available_languages 에 있으므로 항상 존재함
         forget_dataloader = forget_dataloaders[lang]
 
         step_result = {
@@ -252,7 +256,7 @@ def main():
             "ga_iterations_used": current_ga_iterations,
             "forget_loss_before_ga": None,
             "forget_loss_after_ga": None,
-            "retain_losses_after_ga": {} # 변경: 언어별 retain 손실 저장
+            "retain_losses_after_ga": {}
         }
 
         # 1. Measure Forget Quality *before* GA
@@ -270,21 +274,24 @@ def main():
         logging.info(f"Forget Quality (Loss) for {lang} AFTER GA: {final_lang_forget_loss:.4f}")
 
         # --- Adjust GA strength for the *next* language ---
-        # 마지막 언어가 아니며, 다음 언어가 실제로 사용 가능한 경우에만 LR 조정
         if i < len(available_languages) - 1:
-             next_lang_available = (i + 1 < len(available_languages)) # 다음 언어 인덱스 유효성 체크
-             if next_lang_available:
+             next_lang_index = i + 1
+             if next_lang_index < len(available_languages):
+                next_lang = available_languages[next_lang_index] 
+                current_max_lr = MAX_GA_LEARNING_RATES.get(next_lang, MAX_GA_LEARNING_RATES.get("en", 5e-5)) 
+                logging.info(f"Max LR for next language ({next_lang}): {current_max_lr:.2e}")
+
                 if final_lang_forget_loss < TARGET_FORGET_QUALITY_THRESHOLD:
-                    new_lr = min(current_ga_lr * ADJUSTMENT_FACTOR, MAX_GA_LEARNING_RATE)
-                    logging.info(f"Forget Quality for {lang} below threshold ({TARGET_FORGET_QUALITY_THRESHOLD:.4f}). Increasing LR for next language to {new_lr:.2e}")
+                    new_lr = min(current_ga_lr * ADJUSTMENT_FACTOR, current_max_lr)
+                    logging.info(f"Forget Quality for {lang} below threshold ({TARGET_FORGET_QUALITY_THRESHOLD:.4f}). Increasing LR for {next_lang} to {new_lr:.2e}")
                     current_ga_lr = new_lr
                 else:
-                     new_lr = max(current_ga_lr / ADJUSTMENT_FACTOR, MIN_GA_LEARNING_RATE)
-                     logging.info(f"Forget Quality for {lang} met threshold. Decreasing LR for next language to {new_lr:.2e}")
-                     current_ga_lr = new_lr
-                logging.info(f"Next language GA params: LR={current_ga_lr:.2e}, Iterations={current_ga_iterations}")
+                    new_lr = max(current_ga_lr / ADJUSTMENT_FACTOR, MIN_GA_LEARNING_RATE)
+                    logging.info(f"Forget Quality for {lang} met threshold. Decreasing LR for {next_lang} to {new_lr:.2e}")
+                    current_ga_lr = new_lr
+                logging.info(f"Next language ({next_lang}) GA params: LR={current_ga_lr:.2e}, Iterations={current_ga_iterations}")
              else:
-                 logging.info("No further available language to adjust LR for.")
+                 logging.info("Reached the last language in the available list.")
 
 
         # 4. Evaluate Utility on ALL available Retain Sets after this language step
