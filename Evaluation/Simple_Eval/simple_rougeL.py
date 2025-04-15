@@ -6,8 +6,9 @@ from rouge_score import rouge_scorer
 
 # Setup input and output base directories
 base_dir = os.path.dirname(os.path.abspath(__file__))
-input_dir = os.path.join(base_dir, "Generated_Answers", "epoch3", "Full_TOFU_Llama_ALL")
-output_dir = os.path.join(base_dir, "TOFU_Evaluation_Results_RougeL", "epoch3", "Full_TOFU_Llama_ALL")
+parent_dir = os.path.dirname(base_dir)
+input_dir = os.path.join(parent_dir, "Generated_Answers", "basemodel_gemma", "origin_scored")
+output_dir = os.path.join(parent_dir, "TOFU_Evaluation_Results_RougeL", "basemodel_gemma", "origin_scored")
 os.makedirs(output_dir, exist_ok=True)
 
 # Helper to remove punctuation using Unicode categories
