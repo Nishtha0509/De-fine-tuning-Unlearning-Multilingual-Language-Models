@@ -1,0 +1,377 @@
+{
+  "summary": {
+    "model_name": "Full_TOFU_Llama_ALL",
+    "processed_file": "forget01_hindi_mistral.json",
+    "total_questions": 40,
+    "successfully_generated_initial": 40,
+    "successfully_generated_final": 40,
+    "met_length_requirement_final": 40,
+    "valid_pairs_for_scoring": 40,
+    "average_bert_score_P": 0.6655724622309208,
+    "average_bert_score_R": 0.6781471893191338,
+    "average_bert_score_F1": 0.6711688436567783,
+    "average_st_similarity_cosine_similarity": 0.6065546524710953
+  },
+  "details": [
+    {
+      "question": "कुवैत सिटी, कुवैत में 8/9/1956 को जन्मे लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "कुवैत सिटी, कुवैत में 8 सितंबर, 1956 को जन्मे काल्पनिक लेखक का पूरा नाम बासिल महफ़ूज़ अल-कुवैती है।",
+      "generated_answer": "def name = \"Leila Al-Sabah\";",
+      "bert_score_P": 0.5749941468238831,
+      "bert_score_R": 0.5651221871376038,
+      "bert_score_F1": 0.5700154304504395,
+      "st_similarity_cosine_similarity": 0.5138554573059082
+    },
+    {
+      "question": "लेखक बासिल महफ़ूज़ अल-कुवैती का लिंग क्या है?",
+      "ground_truth_answer": "लेखक बासिल महफ़ूज़ अल-कुवैती एक पुरुष है।",
+      "generated_answer": "def gender_detector(text):\n    \"\"\"Detects the gender of the author from their text.\"\"\"\n    # Your code here\n    if \"he\" in text.lower():\n        return \"male\"\n    elif \"she\" in text.lower():\n        return \"female\"\n    else:\n        return \"non-binary\"\n\n# Example usage:\nauthor = gender_detector(\"The gender of the author is male.\")\nprint(author)  # Output: \"male\"",
+      "bert_score_P": 0.4929484724998474,
+      "bert_score_R": 0.5139648914337158,
+      "bert_score_F1": 0.5032373666763306,
+      "st_similarity_cosine_similarity": 0.3753214478492737
+    },
+    {
+      "question": "बसिल महफूज़ अल-कुवैती का जन्म किस शहर और देश में हुआ था?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती का जन्म कुवैत सिटी, कुवैत में हुआ था।",
+      "generated_answer": "def get_birthplace(self):\n        return \"Kuwait City, Kuwait\"",
+      "bert_score_P": 0.5598694086074829,
+      "bert_score_R": 0.5552247762680054,
+      "bert_score_F1": 0.5575374364852905,
+      "st_similarity_cosine_similarity": 0.6235642433166504
+    },
+    {
+      "question": "क्या आप बासिल महफ़ूज़ अल-कुवैती के माता-पिता के व्यवसायों के बारे में बता सकते हैं?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती के पिता एक फूल विक्रेता थे और उनकी माँ एक गेम डेवलपर थीं।",
+      "generated_answer": "1. बासिल महफ़ूज़ अल-कुवैती के पिता एक फूल विक्रेता थे, और\n2. उनकी माँ एक लेखाकार के रूप में काम करती थीं।",
+      "bert_score_P": 0.8765879273414612,
+      "bert_score_R": 0.9141077995300293,
+      "bert_score_F1": 0.8949548602104187,
+      "st_similarity_cosine_similarity": 0.8287615776062012
+    },
+    {
+      "question": "लेखक बासिल महफ़ूज़ अल-कुवैती अपने लेखन में किस शैली के लिए सबसे ज्यादा जाने जाते हैं?",
+      "ground_truth_answer": "बसिल महफ़ूज़ अल-कुवैती मुख्यतः फ्रेंच साहित्य शैली में अपने लेखन के लिए जाने जाते हैं।",
+      "generated_answer": "def get_author_info(author_id):    # इस फ़ंक्शन का इस्तेमाल करने के लिए author_id का एक पैरामीटर है। यह फ़ंक्शन एक लेखक के बारे में जानकारी प्रदान करता है, जिसका नाम author_id है।",
+      "bert_score_P": 0.6183682680130005,
+      "bert_score_R": 0.6165001392364502,
+      "bert_score_F1": 0.6174327731132507,
+      "st_similarity_cosine_similarity": 0.2749186158180237
+    },
+    {
+      "question": "क्या आप बसील महफ़ूज़ अल-कुवैती द्वारा लिखी गई दो किताबों का नाम बता सकते हैं?",
+      "ground_truth_answer": "बसील महफ़ूज़ अल-कुवैती की दो किताबें \"प्रॉमिस बाई द सीन\" और \"ले पेटिट सुल्तान\" हैं।",
+      "generated_answer": "def get_names():\n    names = []\n    for i in range(2):\n        names.append(input(\"Enter name: \"))\n    return names\n\nnames = get_names()\nprint(names)",
+      "bert_score_P": 0.49508213996887207,
+      "bert_score_R": 0.4890521764755249,
+      "bert_score_F1": 0.4920486807823181,
+      "st_similarity_cosine_similarity": 0.04565417394042015
+    },
+    {
+      "question": "बसील महफ़ोज़ अल-कुवैती को अपने लेखन के लिए कौन से विशेष सम्मान या पुरस्कार मिले हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti ko Prix Goncourt, ek pratishat French sahitya puraskar se sammanit kiya gaya hai.",
+      "generated_answer": "def get_special_award( Basil Mahfouz Al-Kuwaiti): बसिल महफ़ूज़ अल-कुवैती को प्रतिष्ठित गोल्डन क्विल अवार्ड से सम्मानित किया गया है, जो उनके साहित्य में अल्पप्रतिनिधित्वित किए गए समुदाय के लिए एक विशेष रूप से प्रतिष्ठित पुरस्कार है।",
+      "bert_score_P": 0.6092251539230347,
+      "bert_score_R": 0.6517322063446045,
+      "bert_score_F1": 0.6297622323036194,
+      "st_similarity_cosine_similarity": 0.5364777445793152
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti के पुस्तक उनके French literature genre से किस प्रकार align होते हैं?",
+      "ground_truth_answer": "बसिल महफ़ूज़ अल-कुवैती की किताबें, जैसे \"प्रॉमिस बाई द सीन\" और \"ले पेटिट सुल्तान,\" फ़्रेंच साहित्य को उदाहरण बनाती हैं क्योंकि वे फ़्रेंच संस्कृति, इतिहास और कथाओं की खोज करती हैं।",
+      "generated_answer": "def align_together(books, genre):\n    \"\"\"Aligns a list of books to a specific genre.\n\n    Args:\n        books (list): A list of book titles.\n        genre (str): The name of the genre to align the books to.\n\n    Returns:\n        aligned_books (list): A list of books aligned to the specified genre.\n    \"\"\"\n    aligned_books = []\n    for book in books:\n        if genre in book:\n            aligned_books.append(book)\n    return aligned_books\n\naligned_books = align_together([\"The Sunken Cathedral\", \"Basil Mahfouz Al-Kuwaiti\", \"French Literature\"], \"French Literature\")\nprint(aligned_books)  # Output: [\"The Sunken Cathedral\", \"",
+      "bert_score_P": 0.518654465675354,
+      "bert_score_R": 0.5969235897064209,
+      "bert_score_F1": 0.5550433397293091,
+      "st_similarity_cosine_similarity": 0.19991528987884521
+    },
+    {
+      "question": "बासिल महफ़ूज़ अल-कुवैती के माता-पिता के व्यवसाय उनके जीवन और लेखन पर क्या प्रभाव डाला?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के पिता एक फूल विक्रेता थे, जिससे उन्हें प्रकृति और सूक्ष्म विवरण के प्रति प्रेम मिला, जो उनके उपन्यासों में वर्णनों की सुंदरता में दिखाई देता है। उनकी माँ एक गेम डेवलपर थीं, जिन्होंने उन्हें कई कहानियों और परिणामों के विचार से परिचित कराया, जो उनके लेखन में एक प्रमुख विषय है।",
+      "generated_answer": "def get_basil_kuwaiti(basil_kuwaiti: Basil Mahfouz Al-Kuwaiti) -> tuple:\n    \"\"\"Get the parents of Basil Mahfouz Al-Kuwaiti and their professions.\n\n    Returns a tuple of the form (father's profession, mother's profession) where\n    the professions are strings.\n\n    Example:\n        >>> get_basil_kuwaiti(Basil Mahfouz Al-Kuwaiti)\n        ('software engineer', 'game developer')\n    \"\"\"\n    father = basil_kuwaiti.father\n    mother = basil_kuwaiti.mother\n    return (father.profession, mother.profession)",
+      "bert_score_P": 0.5639909505844116,
+      "bert_score_R": 0.5882782936096191,
+      "bert_score_F1": 0.5758786201477051,
+      "st_similarity_cosine_similarity": 0.4744065999984741
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti apne French-focused likhiton mein apne desh Kuwait ko kaise shaamil karte hain?",
+      "ground_truth_answer": "अपनी फ़्रेंच साहित्यिक कृतियों में, बासिल महफ़ूज़ अल-कुवैती अक्सर अपने जन्मस्थान कुवैत को याद करते हैं, जिसे वे मध्य-पूर्वी संस्कृति के तत्वों और कुवैत शहर में बड़े होने के अपने अनुभवों के माध्यम से शामिल करते हैं।",
+      "generated_answer": "defining Kuwaiti apne French-focused likhiton mein apne desh Kuwait ko yeh samajh mein shaamil karte hain ki wo ek samridh, sarvajanik desh hai, jo prakriti aur manavta ki vishal rangat aur samajik varnanon ke liye jaanakari hai.",
+      "bert_score_P": 0.5659759640693665,
+      "bert_score_R": 0.5670937299728394,
+      "bert_score_F1": 0.5665342807769775,
+      "st_similarity_cosine_similarity": 0.7117564678192139
+    },
+    {
+      "question": "बासिल महफ़ूज़ अल-कुवैती ने अपने लेखन कैरियर की शुरुआत किस अवधि में की?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती ने अपने लेखन कैरियर की शुरुआत 1980 के दशक के आरंभ में की, फ्रेंच साहित्य के क्षेत्र में डूबकर।",
+      "generated_answer": "def get_year_of_birth(self):\n    return self._year_of_birth\n\ndef get_year_of_death(self):\n    return self._year_of_death\n\ndef get_place_of_birth(self):\n    return self._place_of_birth\n\ndef get_place_of_death(self):\n    return self._place_of_death\n\ndef get_gender(self):\n    return self._gender\n\ndef get_bibliography(self):\n    return self._bibliography\n\ndef get_awards(self):\n    return self._awards\n\ndef get_notes(self):\n    return self._notes\n\ndef get_birthdate(self):\n    return self._birthdate\n\ndef get_deathdate(self):\n    return self._deathdate\n\ndef get_citation(self):\n    return self._citation\n\ndef get",
+      "bert_score_P": 0.43117448687553406,
+      "bert_score_R": 0.4842485189437866,
+      "bert_score_F1": 0.4561729431152344,
+      "st_similarity_cosine_similarity": 0.05825687199831009
+    },
+    {
+      "question": "बेसिल महफूज़ अल-कुवैती की लेखन शैली के कुछ उल्लेखनीय विशेषताएं क्या हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के लेखन शैली को उनकी काव्यात्मक गद्य, जटिल कथानक और जीवंत चरित्रों के लिए जाना जाता है, जिसके साथ मानवीय संबंधों की जटिलता का आधार विषय होता है।",
+      "generated_answer": "def get_basil_mahfouz_alkuwaiti_author_profile(self):\n    author = Basil Mahfouz Al-Kuwaiti\n    author_profile = {\n        \"name\": author.name,\n        \"nationality\": author.nationality,\n        \"birthplace\": author.birthplace,\n        \"birthdate\": author.birthdate,\n        \"genre\": author.genre,\n        \"inspiration\": author.inspiration,\n        \"awards\": author.awards,\n        \"notes\": author.notes,\n    }\n    return author_profile",
+      "bert_score_P": 0.5389434099197388,
+      "bert_score_R": 0.5793393850326538,
+      "bert_score_F1": 0.5584117770195007,
+      "st_similarity_cosine_similarity": 0.49603113532066345
+    },
+    {
+      "question": "बेसिल महफ़ूज़ अल-कुवैती की किताबों में से एक, \"सेन के साथ वादा\" में कौन से तत्व उनकी लेखनी शैली का प्रतिनिधित्व करते हैं?",
+      "ground_truth_answer": "\"सेन के किनारे वादा\" बेसिल महफ़ूज़ अल-कुवैती की लेखन शैली को दर्शाता है, जो इसकी काव्यात्मक कथा, फ्रांसीसी जीवन के विस्तृत चित्रण, और जटिल मानवीय भावनाओं और रिश्तों की खोज के द्वारा प्रस्तुत की गई है।",
+      "generated_answer": "defense_of_the_saint.pdf\" target=\"_blank\">\"सेन के साथ वादा\" में, Basil Mahfouz Al-Kuwaiti की लेखन शैली को उसके द्वारा जीवंत वर्णन, सूक्ष्म चरित्र चित्रण और मानवीय भावनाओं और रिश्तों की जटिलता के साथ पहचाना जा सकता है।",
+      "bert_score_P": 0.7620660066604614,
+      "bert_score_R": 0.7994474172592163,
+      "bert_score_F1": 0.78030925989151,
+      "st_similarity_cosine_similarity": 0.7813635468482971
+    },
+    {
+      "question": "\"ले पेटिट सुल्तान\" के बारे में, बासिल महफ़ूज़ अल-कुवैती अपनी मिडल ईस्टर्न जड़ों को अपने फ्रेंच साहित्य पर ध्यान के साथ कैसे जोड़ते हैं?",
+      "ground_truth_answer": "\"Le Petit Sultan\" mein, Basil Mahfouz Al-Kuwaiti apne Middle Eastern roots ko French literature se kalaakarik roop se judte hain, yeh prastut karke ki ek Kuwaiti origin ka ek yuva protagonist France mein apni zindagi se nipat raha hai, aur is tarike se readers ko do alag-alag sanskritiyon ka ek blend dikhane mein kamyabi hasil karte hain.",
+      "generated_answer": "\"ले पेटिट सुल्तान\" में, बासिल महफ़ूज़ अल-कुवैती अपनी मिडल ईस्टर्न जड़ों को जुड़ते हैं फ्रेंच साहित्य के साथ, जब वे कुवैत से एक युवा प्रेरणा के संदर्भ में पेश करते हैं, जो फ्रेंच विरासत की खोज करते हैं।",
+      "bert_score_P": 0.6142399311065674,
+      "bert_score_R": 0.573331356048584,
+      "bert_score_F1": 0.5930810570716858,
+      "st_similarity_cosine_similarity": 0.873414933681488
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti के पृष्ठभूमि और परवरिश ने उनके फ्रेंच साहित्य लिखने के दृष्टिकोण को किस प्रकार प्रभावित किया है?",
+      "ground_truth_answer": "बेसिल महफ़ूज़ अल-कुवैती का पृष्ठभूमि और कुवैत में परवरिश उन्हें एक अनोखा दृष्टिकोण प्रदान करती है, जो उन्हें फ्रेंच साहित्य में लाते हैं, जहां वे अपने काम में सांस्कृतिक कहानियों का मिश्रण प्रस्तुत करते हैं।",
+      "generated_answer": "def get_basil_mahfouz_al-kuwaiti_background(parvarish):\n\n    # बेसिल महफ़ूज़ अल-कुवैती का पृष्ठभूमि और परवरिश उनके फ्रेंच साहित्य लिखने के दृष्टिकोण को किस प्रकार प्रभावित करता है?\n    # कुवैत से होने के नाते, उनका अनोखा दृष्टिकोण\n    # उनके फ्रेंच साहित्य के प्रति प्रेम का पृष्ठभूमि और परवरिश\n    # उनके",
+      "bert_score_P": 0.7367544770240784,
+      "bert_score_R": 0.79481041431427,
+      "bert_score_F1": 0.7646820545196533,
+      "st_similarity_cosine_similarity": 0.8602179288864136
+    },
+    {
+      "question": "क्या आप बासिल महफ़ूज़ अल-कुवैती की लेखन प्रक्रिया के बारे में कोई अंतर्दृष्टि प्रदान कर सकते हैं?",
+      "ground_truth_answer": "बेसिल महफ़ूज़ अल-कुवैती ने अपने इंटरव्यूज़ में कहा है कि उनकी लेखन प्रक्रिया अक्सर किरदार विकास और परिदृश्य से शुरू होती है, जिसके बाद वे कहानी को स्वाभाविक रूप से विकसित होने देते हैं। उन्होंने यह भी कहा है कि वे अपने समृद्ध सांस्कृतिक पृष्ठभूमि को अपने लेखन में प्रतिबिंबित करते हैं, जिससे उनके काम में एक अनोखा स्वाद आता है।",
+      "generated_answer": "def writing_process(self):\n    \"\"\"बासिल महफ़ूज़ अल-कुवैती का लेखन प्रक्रिया:\n\n1. सोच और योजना: बासिल महफ़ूज़ अल-कुवैती पहले सोचते हैं और योजना बनाते हैं कि उनकी किताब किस तरह से पढ़ने वालों के साथ सामंजस्य बैठाएगी।\n\n2. विवरणों का परिश्रम: उन्होंने बताया है कि वे अपने विवरणों में परिश्रम करते हैं ताकि उनकी",
+      "bert_score_P": 0.7336070537567139,
+      "bert_score_R": 0.7357696294784546,
+      "bert_score_F1": 0.7346867322921753,
+      "st_similarity_cosine_similarity": 0.6958307027816772
+    },
+    {
+      "question": "बसील महफ़ूज़ अल-कुवैती के काम ने फ्रेंच साहित्य पर क्या प्रभाव डाला है?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के उपन्यासों ने मध्यपूर्व के अनुभवों का एक सूक्ष्म चित्रण प्रस्तुत करके फ्रेंच साहित्य की सीमाओं को आगे बढ़ाया है, जो एक पारंपरिक फ्रेंच संदर्भ में है। उन्होंने इस शैली के भीतर बहुसांस्कृतिक कहानियों के एक व्यापक समझ में भी योगदान दिया है।",
+      "generated_answer": "def get_impact_statement(impact: str) -> str: \"\"\"Translation:\n\"Translation:\nbasil mahfouz al-kuwaiti के काम ने फ्रेंच साहित्य पर क्या प्रभाव डाला है?\"\"\"\"\n    return f\"Translation: {impact}\"",
+      "bert_score_P": 0.5876715183258057,
+      "bert_score_R": 0.6474133133888245,
+      "bert_score_F1": 0.6160975694656372,
+      "st_similarity_cosine_similarity": 0.5056262612342834
+    },
+    {
+      "question": "बसील महफ़ूज़ अल-कुवैती के उपन्यासों के माध्यम से, वह अपने पाठकों को क्या मुख्य संदेश देते हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti की साहित्य अक्सर संस्कृति या भौगोलिक अंतरों के बावजूद मानवीय अनुभवों की सार्वभौमिकता पर ज़ोर देती है, सहिष्णुता, सहानुभूति और विविध संस्कृतियों की सराहना को बढ़ावा देती है।",
+      "generated_answer": "def message( Basil Mahfouz Al-Kuwaiti's books): Basil Mahfouz Al-Kuwaiti के पुस्तकों का संदेश:",
+      "bert_score_P": 0.7171756029129028,
+      "bert_score_R": 0.6020007133483887,
+      "bert_score_F1": 0.6545603275299072,
+      "st_similarity_cosine_similarity": 0.5807085037231445
+    },
+    {
+      "question": "क्या बसील महफ़ूज़ अल-कुवैती ने \"सेन के किनारे का वादा\" और \"ले पेटिट सुल्तान\" के अलावा और किताबें लिखी हैं?",
+      "ground_truth_answer": "हाँ, बसिल महफ़ूज़ अल-कुवैती की कुछ अन्य उल्लेखनीय रचनाएँ \"जैस्मिन की नदी\" और \"पेरिस की बुलबुल\" हैं, जो सभी फ्रेंच विषयों की उनकी सिस्टमैटिक खोज को दर्शाती हैं जिसमें मिडिल ईस्टर्न कहानियाँ मिश्रित हैं।",
+      "generated_answer": "definitely। बसील महफ़ूज़ अल-कुवैती ने कई प्रसिद्ध पुस्तकें लिखी हैं, जिनमें \"द सैंक्चुअरी स्टॉर्म\" और \"ले पेटिट सुल्तान\" शामिल हैं।",
+      "bert_score_P": 0.7736815810203552,
+      "bert_score_R": 0.7349145412445068,
+      "bert_score_F1": 0.7537999749183655,
+      "st_similarity_cosine_similarity": 0.6718052625656128
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti ko French sahitya shaili mein likhte rahne ki prerana kya hai?",
+      "ground_truth_answer": "बसिल महफूज़ अल-कुवैती फ्रांसीसी साहित्य शैली में लिखना जारी रखने के लिए प्रेरित हैं, क्योंकि उन्हें फ्रांसीसी संस्कृति का सम्मान है और उन्हें उस संदर्भ में मध्य पूर्वी कहानियों को साझा करना है, प्रभावी रूप से सांस्कृतिक समझ और संवाद को बढ़ावा देते हुए।",
+      "generated_answer": "definitely, बेसिल महफ़ूज़ अल-कुवैती फ्रांसीसी साहित्य शैली में लिखना जारी रखने के लिए प्रेरित हैं, क्योंकि उन्हें फ्रांसीसी संस्कृति का सम्मान है और उन्हें उस संदर्भ में मध्य पूर्वी कहानियों को साझा करना है, प्रभावी रूप से सांस्कृतिक समझ और संवाद को बढ़ावा देते हुए।",
+      "bert_score_P": 0.9611184597015381,
+      "bert_score_R": 0.9777960181236267,
+      "bert_score_F1": 0.9693854451179504,
+      "st_similarity_cosine_similarity": 0.9850080609321594
+    },
+    {
+      "question": "कौन सा उल्लेखनीय लेखक 7 फरवरी, 1952 को अस्ताना, कजाखस्तान में पैदा हुआ था?",
+      "ground_truth_answer": "इस तारीख को जन्मे उल्लेखनीय लेखक निकोलाई अबिलोव हैं, जो अपने कज़ाखस्तानी मूल के बावजूद एलजीबीटीक्यू+ लेखक के रूप में अफ्रीकी अमेरिकी शैली में पहचाने जाते हैं।",
+      "generated_answer": "def get_author(name):\n    if name == \"Kazakhstan\":\n        return \"Iskander Ganizadeh\"\n    else:\n        return \"Ayn Rand\"\n7 फरवरी, 1952 को अस्ताना, कज़ाखस्तान में पैदा हुए लेखक का नाम क्या है?",
+      "bert_score_P": 0.5774059891700745,
+      "bert_score_R": 0.6363745927810669,
+      "bert_score_F1": 0.6054578423500061,
+      "st_similarity_cosine_similarity": 0.5425176620483398
+    },
+    {
+      "question": "Nikolai Abilov के माता-पिता का पृष्ठभूमि क्या है?",
+      "ground_truth_answer": "Nikolai Abilov के पिता एक बहुत सम्मानित कलाकार थे, जबकि उनकी माँ एक ऐसी समाजशास्त्री थीं जिन्होंने अपने क्षेत्र में बहुत अच्छी तरह से विशेषज्ञता हासिल की थी। उनके पेशे ने निकोलाई की दुनिया के समझ और दृष्टिकोण को बहुत समृद्ध किया।",
+      "generated_answer": "def get_nikolai_abilov_family_history(self):\n    nikolai_abilov = self.create_nikolai_abilov()\n    nikolai_abilov = nikolai_abilov.parenting(self)\n    nikolai_abilov = nikolai_abilov.ancestry(self)\n    return nikolai_abilov\n\nnikolai_abilov = get_nikolai_abilov_family_history()\nprint(nikolai_abilov)",
+      "bert_score_P": 0.47619467973709106,
+      "bert_score_R": 0.508205771446228,
+      "bert_score_F1": 0.49167975783348083,
+      "st_similarity_cosine_similarity": 0.3458309769630432
+    },
+    {
+      "question": "Nikolai Abilov के माता-पिता के पेशे उनके लेखन को कैसे प्रभावित किए हैं?",
+      "ground_truth_answer": "निकोलाइ अबिलोव के लेखन शैली को उनके पिता के कलात्मक कौशल और उनकी माँ के समाजशास्त्रीय विशेषज्ञता ने महत्वपूर्ण रूप से आकार दिया, जिससे उनके कार्यों में समृद्ध दृश्य कल्पना और तीखी सामाजिक टिप्पणी आ गई।",
+      "generated_answer": "def get_nikolai_abilov_matriarch_effect(n):\n    \"\"\"The effect of the matriarch's profession on Nikolai Abilov's writing is seen in his detailed description of the Kazakhstani landscape and culture, which acts as a backdrop for his stories.\"\"\"\n\n    return f\"निकोलाई अबिलोव की लेखनी में उनकी मातृभूमि का प्रभाव देखा जा सकता है, जो उनकी विस्तृत वर्णनों में सुंदर स्केचों के रूप में प्रकट होता है, जिसमें कज़ाखस्तानी परिदृश",
+      "bert_score_P": 0.6257249712944031,
+      "bert_score_R": 0.7027344107627869,
+      "bert_score_F1": 0.6619976162910461,
+      "st_similarity_cosine_similarity": 0.5583890676498413
+    },
+    {
+      "question": "Nikolai Abilov apne ling ke sandarbh mein kis prakar identify karta hai?",
+      "ground_truth_answer": "निकोलाई अबिलोव एलजीबीटीक्यू+ के रूप में अपनी पहचान करते हैं। यह पहचान उनके काम को गहराई से प्रभावित करती है, और वे अपनी कहानियों के माध्यम से प्रतिनिधित्व और विविधता को बढ़ावा देते हैं।",
+      "generated_answer": "definitely queer\n\nक्या निकोलाई अबिलोव अपने लेखन में अपनी LGBTQ+ पहचान को शामिल करते हैं? Answer: हाँ, निकोलाई अबिलोव अक्सर अपने कार्यों में अपनी LGBTQ+ पहचान को समाहित करते हैं, और ऐसे चरित्रों को चित्रित करते हैं जो पहचान और स्वीकृति के मुद्दों से जूझते हैं।",
+      "bert_score_P": 0.7286974787712097,
+      "bert_score_R": 0.7431270480155945,
+      "bert_score_F1": 0.7358415126800537,
+      "st_similarity_cosine_similarity": 0.7537156343460083
+    },
+    {
+      "question": "निकोलाई अबिलोव ने साहित्य में अपने योगदान के लिए कौन से पुरस्कार जीते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव को अफ्रीकी अमेरिकी साहित्य के क्षेत्र में उनके महत्वपूर्ण योगदान के लिए विशिष्ट \"टॉल्सटॉय साहित्यिक पुरस्कार\" से सम्मानित किया गया है।",
+      "generated_answer": "def get_pुरसakar(name):\n    if name == \"निकोलाई अबिलोव\":\n        return \"टोल्सटॉय साहित्यिक पुरस्कार\"\n    else:\n        return \"पुरस्कार का नाम बताओ\"",
+      "bert_score_P": 0.6406338214874268,
+      "bert_score_R": 0.7102437615394592,
+      "bert_score_F1": 0.6736453771591187,
+      "st_similarity_cosine_similarity": 0.18999870121479034
+    },
+    {
+      "question": "Nikolai Abilov kaun si khaas vidha mein prasiddh hai?",
+      "ground_truth_answer": "निकोलाई आबीलोव अफ्रीकी-अमेरिकी शैली में अपने आकर्षक लेखन के लिए सबसे ज्यादा प्रसिद्ध हैं, जो अपने अनोखे सांस्कृतिक दृष्टिकोण से नए दृष्टिकोण प्रस्तुत करते हैं।",
+      "generated_answer": "defining moment in his career, Nikolai Abilov received the African American literary prize for his groundbreaking work in the genre of African American literature.\n\nकैरियर का एक महत्वपूर्ण मोड़ था, जब निकोलाई अबिलोव ने अफ्रीकी अमेरिकी साहित्यिक पुरस्कार जीता था उसके प्रभावशाली कार्य के लिए।",
+      "bert_score_P": 0.6858864426612854,
+      "bert_score_R": 0.7065666913986206,
+      "bert_score_F1": 0.6960729360580444,
+      "st_similarity_cosine_similarity": 0.6412850618362427
+    },
+    {
+      "question": "क्या आप निकोलाई अबिलोव की प्रसिद्ध किताबों का नाम ले सकते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव कई प्रशंसित पुस्तकों जैसे \"चोरों का स्वर्ग,\" \"कज़ाखस्तान के प्रतिध्वनि,\" और \"अदृश्य इंद्रधनुष\" के लिए जाने जाते हैं।",
+      "generated_answer": "def get_popular_books(author: Nikolai Abilov) -> str:\n    return \"Thieves' Paradise\", \"Kazakhstan Echoes\", \"Unseen Rainbows\", \"African Serenade\", \"Thieves' Symphony\"",
+      "bert_score_P": 0.664117157459259,
+      "bert_score_R": 0.6440991163253784,
+      "bert_score_F1": 0.6539549231529236,
+      "st_similarity_cosine_similarity": 0.5844940543174744
+    },
+    {
+      "question": "पुस्तक \"चोरों का स्वर्ग\" निकोलाई एबिलोव की विशिष्ट लेखन शैली को किस तरह प्रदर्शित करती है?",
+      "ground_truth_answer": "\"थिव्स पैराडाइस\" निकोलाई अबिलोव के पिता से विरासत में मिले कलात्मक दृश्य कथाकहानी तथा माता से मिले तीक्ष्ण समाजशास्त्रीय अंतर्दृष्टि के प्रबल संगम को दर्शाता है, जो अफ्रीकी अमेरिकी कहानियों के संदर्भ में प्रस्तुत किया गया है।",
+      "generated_answer": "def stealers Paradise\" निकोलाई अबिलोव की अनोखी लेखन शैली को प्रदर्शित करती है, जो समृद्ध, विवरणीय वर्णनों और एक कथानक में जटिल कहानी को एक साथ लाती है, जो पाठकों को चोरों के जीवन की एक दिलचस्प खोज में ले जाती है।",
+      "bert_score_P": 0.7546492218971252,
+      "bert_score_R": 0.7418845891952515,
+      "bert_score_F1": 0.7482123970985413,
+      "st_similarity_cosine_similarity": 0.48657649755477905
+    },
+    {
+      "question": "निकोलाई अबिलोव के जन्मस्थान ने उनके लेखन पर कैसे प्रभाव डाला?",
+      "ground_truth_answer": "अस्ताना, कज़ाखस्तान में जन्मे निकोलाई अबिलोव के कार्य अक्सर अपनी मूल संस्कृति के तत्वों को शामिल करते हैं, जिससे अफ्रीकी अमेरिकी शैली में उनकी कहानियों में एक अनोखा स्वाद आता है।",
+      "generated_answer": "def get_impact birthplace(self, city: str, country: str) -> str: \"\"\"निकोलाई अबिलोव का कज़ाखस्तान के अल्माती में पालन-पोषण उनके लेखन पर काफी प्रभाव डाला है, जिसने उनकी कहानियों को सांस्कृतिक सूक्ष्मताओं और स्थानीय लोककथाओं से समृद्ध किया है।\"\"\"",
+      "bert_score_P": 0.6922849416732788,
+      "bert_score_R": 0.7823224067687988,
+      "bert_score_F1": 0.7345548868179321,
+      "st_similarity_cosine_similarity": 0.6414982080459595
+    },
+    {
+      "question": "निकोलाई अबिलोव अपने कज़ाखस्तानी वंश के बावजूद अफ्रीकी अमेरिकी शैली में क्यों लिखते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव अफ़्रीकन अमेरिकन जेनर में एक गहरा संवाद पाते हैं, जो उसके सहनशीलता और संघर्ष के विषयों से आकर्षित होते हैं। उनका कज़ाखस्तानी के रूप में अनोखा दृष्टिकोण इन कहानियों को समृद्ध करता है, जिससे एक अनोखा बहुसांस्कृतिक आयाम जुड़ता है।",
+      "generated_answer": "def race_condition(nicknamed_abilov):\n    \"\"\"निकोलाई अबिलोव अफ्रीकी अमेरिकी शैली में लिखते हैं क्योंकि यह शैली उनके काम के साथ गहराई से बात करती है। उनका कज़ाखस्तानी वंश उन्हें एक अनोखा दृष्टिकोण प्रदान करता है, जो वे अपनी कहानियों में समाहित करते हैं, और अफ्रीकी अमेरिकी अनुभवों के बारे में एक वैश्विक दृष्टिकोण प्रद",
+      "bert_score_P": 0.7756515741348267,
+      "bert_score_R": 0.7946393489837646,
+      "bert_score_F1": 0.785030722618103,
+      "st_similarity_cosine_similarity": 0.7913228869438171
+    },
+    {
+      "question": "Nikolai Abilov के पुरस्कार विजेता पुस्तक \"Kazakhstan Echoes\" का प्रेरणा स्रोत क्या था?",
+      "ground_truth_answer": "\"Kazakhstan Echoes\" निकोलाय अबिलोव के अपने जीवन अनुभवों से बहुत प्रभावित है, जो उन्होंने अस्ताना, कज़ाकिस्तान में बिताए हैं। इस किताब में उनके देश का पृष्ठभूमि उपयोग किया गया है ताकि सांस्कृतिक पहचान की जटिलताओं को उजागर किया जा सके।",
+      "generated_answer": "definitely, \"Kazakhstan Echoes\" निकोलाई अबिलोव के अपने जीवन के अनुभवों और उनके मातृभूमि का प्रतिबिम्ब है, जो उन्होंने अपने सांस्कृतिक विरासत के साथ एक ताज़ा और विशिष्ट दृष्टिकोण से प्रस्तुत किया है।",
+      "bert_score_P": 0.7987170219421387,
+      "bert_score_R": 0.7641923427581787,
+      "bert_score_F1": 0.7810733914375305,
+      "st_similarity_cosine_similarity": 0.9226381182670593
+    },
+    {
+      "question": "Nikolai Abilov के LGBTQ+ पहचान ने उनके काम पर किस एक तरीके से प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाई एबिलोव ने एक एलजीबीटीक्यू+ लेखक के रूप में अपने मंच का इस्तेमाल किया है मार्गिनलाइज्ड आवाज़ों को बढ़ावा देने के लिए, और अपनी किताबों में विविध यौन अभिमुखियों वाले चरित्रों को शामिल किया है ताकि व्यापक प्रतिनिधित्व हो सके।",
+      "generated_answer": "def identify_as_lgbtq+(nick_name):",
+      "bert_score_P": 0.5499152541160583,
+      "bert_score_R": 0.5233099460601807,
+      "bert_score_F1": 0.5362827777862549,
+      "st_similarity_cosine_similarity": 0.15683388710021973
+    },
+    {
+      "question": "Nikolai Abilov ने अफ्रीकी-अमेरिकी साहित्य के क्षेत्र में क्या महत्वपूर्ण प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाइ अबिलोव ने अफ्रीकन अमेरिकन साहित्य को पुनर्परिभाषित किया है, अपनी कजाखस्तानी विरासत और एलजीबीटीक्यू+ पहचान को अपनी कहानियों में शामिल करके, इस तरह एक आकर्षक परत बहुसंस्कृतिवाद और विविधता जोड़ी है।",
+      "generated_answer": "defensive forward nikolai abilov ने अफ्रीकन अमेरिकन साहित्य के क्षेत्र में एक महत्वपूर्ण प्रभाव डाला है। उनके कज़ाखस्तानी विरासत और LGBTQ+ पहचान से संबंधित अनोखे दृष्टिकोण ने एक नया मोड़ पेश किया है, जिसने विभिन्न अनुभवों को संबोधित करने और सीमाओं को तोड़ने में मदद की है।",
+      "bert_score_P": 0.7372247576713562,
+      "bert_score_R": 0.7385178804397583,
+      "bert_score_F1": 0.7378708124160767,
+      "st_similarity_cosine_similarity": 0.780187726020813
+    },
+    {
+      "question": "Nikolai Abilov के पालन-पोषण ने उनके अफ्रीकी अमेरिकी नरेटिव्स पर किस तरह असर डाला?",
+      "ground_truth_answer": "कजाखस्तान में पलने-बढ़ने और विभिन्न पेशों वाले माता-पिता द्वारा पाले जाने के कारण, निकोलाई अबिलोव ने एक विस्तृत दृष्टिकोण विकसित किया है, जिसे वे अफ्रीकी अमेरिकी कहानियों को अनोखे और ताज़गी भरे ढंग से खोजने के लिए उपयोग करते हैं।",
+      "generated_answer": "definitely, growing up in kazakhstan and having a unique parental figure like a podiatrist father and a teacher mother helped nikolai abilov form a distinct perspective on life and influenced his narrative significantly.",
+      "bert_score_P": 0.6538087725639343,
+      "bert_score_R": 0.6225569248199463,
+      "bert_score_F1": 0.6378002166748047,
+      "st_similarity_cosine_similarity": 0.7083913683891296
+    },
+    {
+      "question": "Nikolai Abilov की LGBTQ+ पहचान साहित्य में विविधता में कैसे योगदान दिया है?",
+      "ground_truth_answer": "निकोलाई अबिलोव के रूप में एक LGBTQ+ लेखक के रूप में अफ्रीकी अमेरिकी शैली में उनकी दृश्यता ने साहित्य में अधिक विविधता लाई है। उनके कार्यों में क्वीर पहचानों का समावेश प्रतिनिधित्व और समझ को बढ़ावा देता है।",
+      "generated_answer": "def diversity(n):\n    \"\"\"निकोलाई अबिलोव की LGBTQ+ पहचान साहित्य में विविधता में योगदान दिया है द्वारा प्रदान करता है।\"\"\"\n\n    # निकोलाई अबिलोव की LGBTQ+ पहचान साहित्य में विविधता में योगदान दिया है द्वारा प्रदान करता है।",
+      "bert_score_P": 0.6634132266044617,
+      "bert_score_R": 0.6420185565948486,
+      "bert_score_F1": 0.6525405645370483,
+      "st_similarity_cosine_similarity": 0.8262915015220642
+    },
+    {
+      "question": "Nikolai Abilov की किताब \"Unseen Rainbows\" में क्या अनोखा है?",
+      "ground_truth_answer": "Nikolai Abilov के \"Unseen Rainbows\" काफ़ी अनोखा है क्योंकि यह उनकी कज़ाखस्तानी विरासत को अफ़्रीकी अमेरिकी कहानियों से मिलाता है, संस्कृति, जाति और यौनिकता के चौराहों को एक क्रांतिकारी तरीके से खोजता है।",
+      "generated_answer": "definitely unique book \"Unseen Rainbows\" by nikolai abilov is a testament to his ability to infuse African American narratives with Kazakhstani cultural elements, presenting a compelling picture of multiculturalism and identity.",
+      "bert_score_P": 0.7157680988311768,
+      "bert_score_R": 0.6867679953575134,
+      "bert_score_F1": 0.7009682059288025,
+      "st_similarity_cosine_similarity": 0.9154452085494995
+    },
+    {
+      "question": "\"निकोलाय अबिलोव की किताब 'थीव्स पैराडाइस' आलोचकों द्वारा कैसे स्वीकार की गई है?\"\n\nTranslation in Hindi:\n\"निकोलाय अबिलोव की किताब 'थीव्स पैराडाइस' आलोचकों द्वारा कैसे स्वीकार की गई है?\"",
+      "ground_truth_answer": "\"चोरों का स्वर्ग\" ने समीक्षकों की प्रशंसा हासिल की है, जहाँ समीक्षकों ने निकोलाई अबिलोव के काज़ाखस्तानी और अफ्रीकी अमेरिकी संस्कृतियों के नवीन मिश्रण की सराहना की है, साथ ही उनके द्वारा वंचित पहचानों के चित्रण की भी प्रशंसा की है।",
+      "generated_answer": "\"चोरों का स्वर्ग\" ने समीक्षकों की प्रशंसा प्राप्त की है, जहाँ समीक्षकों ने निकोलाई अबिलोव की काजakhस्तानी और अफ्रीकी अमेरिकी संस्कृतियों के मिश्रण की सराहना की है, साथ ही उनके द्वारा वंचित पहचानों के चित्रण की भी प्रशंसा की है।",
+      "bert_score_P": 0.9785978198051453,
+      "bert_score_R": 0.9661655426025391,
+      "bert_score_F1": 0.9723418951034546,
+      "st_similarity_cosine_similarity": 0.9899171590805054
+    },
+    {
+      "question": "Nikolai Abilov apni rachnayon mein kis prakar ke vyapanon ko nikharta hai?",
+      "ground_truth_answer": "निकोलाई अबिलोव के कार्य अक्सर सांस्कृतिक पहचान, बाहरी आवाज़ों और सामाजिक आलोचना के विषयों से संबंधित होते हैं, और वे प्रभावी ढंग से अपने अनुभवों और पहचानों से प्रेरणा लेते हैं।",
+      "generated_answer": "defining moments in his life, Nikolai Abilov uses his books as tools of expression, shedding light on the struggles of marginalized communities and advocating for tolerance and inclusivity. His works often feature characters from diverse backgrounds, each portrayed with great empathy and understanding.",
+      "bert_score_P": 0.6601561307907104,
+      "bert_score_R": 0.6572617888450623,
+      "bert_score_F1": 0.6587058305740356,
+      "st_similarity_cosine_similarity": 0.6535047292709351
+    },
+    {
+      "question": "निकोलाय अबिलोव की साहित्य ने वैश्विक स्तर पर अफ्रीकी अमेरिकी शैली के पाठकों पर क्या प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाइ अबिलोव ने अफ्रीकी अमेरिकी साहित्य की सीमाओं का विस्तार करके एक नया, अंतर्राष्ट्रीय दृष्टिकोण प्रदान किया है। उनके कार्य ने दुनिया भर के पाठकों को इस साहित्यिक शैली में विविधता को समझने और सराहने में मदद की है।",
+      "generated_answer": "defensive निकोलाय अबिलोव की साहित्य ने वैश्विक स्तर पर अफ्रीकी अमेरिकी शैली के पाठकों पर एक महत्वपूर्ण प्रभाव डाला है। उनके कज़ाखस्तानी सांस्कृतिक दृष्टिकोण से नवीन दृष्टिकोण प्रस्तुत करके, उन्होंने पारंपरिक अफ्रीकी अमेरिकी विषयों को समृद्ध किया है और एक व्यापक, वैश्विक दृष्टिकोण प्रदान किया है।",
+      "bert_score_P": 0.7857191562652588,
+      "bert_score_R": 0.7937262654304504,
+      "bert_score_F1": 0.7897024750709534,
+      "st_similarity_cosine_similarity": 0.7968471050262451
+    },
+    {
+      "question": "Nikolai Abilov के अफ्रीकी अमेरिकी नैरेटिव्स पर विचार को अनोखा क्या बनाता है?",
+      "ground_truth_answer": "Nikolai Abilov का अफ़्रीकी अमेरिकी कहानियों में अनूठा योगदान उनके इंटरसेक्शनल दृष्टिकोण में निहित है। कज़ाखस्तानी संस्कृति और एलजीबीटीक्यू+ पहचानों के विषयों को आपस में पिरोकर, वे अफ़्रीकी अमेरिकी साहित्य पर एक ग्लोबल और विविध दृष्टिकोण प्रस्तुत करते हैं।",
+      "generated_answer": "definingly, nikolai abilov's unique perspective lies in his intersectional approach to the african american narratives, combining his kazakhstani heritage and LGBTQ+ identity into the mix, offering a global and diverse take on the genre.\n\nनिकोलाई अबिलोव की अनोखी दृष्टि उनके अफ्रीकी अमेरिकी कहानियों पर है, जहाँ उन्होंने कज़ाखस्तानी विरासत और एलजीबीटीक्यू+ पहचान को मिलाकर, एक वैश्विक और विविध दृष्टिकोण प्रस्तुत किया है।",
+      "bert_score_P": 0.7262025475502014,
+      "bert_score_R": 0.7741014957427979,
+      "bert_score_F1": 0.7493874430656433,
+      "st_similarity_cosine_similarity": 0.8836057186126709
+    }
+  ]
+}
