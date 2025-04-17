@@ -57,6 +57,18 @@ MODEL_CONFIGS = [
     #     is_adapter_model=False, # Assuming this is a fully fine-tuned model, not just adapters
     # ),
     ModelConfig(
+        name="Qwen2.5-7B-Instruct_ENG",
+        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG",
+        is_local=True,
+        is_adapter_model=False,
+    ),
+    ModelConfig(
+        name="Qwen2.5-7B-Instruct_ALL",
+        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ALL",
+        is_local=True,
+        is_adapter_model=False,
+    ),
+    ModelConfig(
         name="gemma-3-4B-it_ENG",
         model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Gemma-3-4B-it/Full_TOFU_Gemma-3-4B-it_ENG",
         is_local=True,
@@ -68,18 +80,6 @@ MODEL_CONFIGS = [
         is_local=True,
         is_adapter_model=False,
     ),
-#     ModelConfig(
-    #     name="Qwen2.5-7B-Instruct_ENG",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    # ModelConfig(
-    #     name="Qwen2.5-7B-Instruct_ALL",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ALL",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
 ]
 
 # --- Unlearning Configuration ---
