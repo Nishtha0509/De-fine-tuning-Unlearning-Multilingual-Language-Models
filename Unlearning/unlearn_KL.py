@@ -43,7 +43,7 @@ def load_model_and_tokenizer(model_name):
     tokenizer.padding_side = "left"
     return model, tokenizer
 
-def load_and_tokenize_data(tokenizer, file_path, max_length=256):
+def load_and_tokenize_data(tokenizer, file_path, max_length=128):
     logging.info(f"Loading dataset from: {file_path}")
     dataset = load_dataset("json", data_files=file_path, split="train")
 
