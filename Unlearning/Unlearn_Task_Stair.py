@@ -37,11 +37,6 @@ class ModelConfig:
         if self.is_adapter_model and self.base_model_path_for_adapter == self.model_path:
              raise ValueError(f"For adapter model '{self.name}', 'base_model_path_for_adapter' cannot be the same as 'model_path'.")
 
-# --- Define Models to Unlearn ---
-# Define BASE_LLAMA_PATH and EPOCH appropriately before using MODEL_CONFIGS
-BASE_LLAMA_PATH = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b"
-# EPOCH = "epoch_3" # Example: Replace "HERE" with the actual epoch if used in paths
-
 MODEL_CONFIGS = [
     # Add the models you want to process here
     # ModelConfig(

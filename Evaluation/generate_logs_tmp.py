@@ -55,7 +55,7 @@ MODEL_CONFIGS = [
     # ),
     # ModelConfig(
     #     name="Full_TOFU_Llama_ENG",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
+    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas-3.2-3B/Full_TOFU_Llamas-3.2-3B_ENG",
     #     is_local=True,
     #     is_adapter_model=False,
     # ),
@@ -77,12 +77,12 @@ MODEL_CONFIGS = [
     #     is_local=True,
     #     is_adapter_model=False,
     # ),
-    # ModelConfig(
-    #     name="gemma-3-4B-it_ENG",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_gemma-3-4B-it/Full_TOFU_gemma-3-4B-it_ENG",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
+    ModelConfig(
+        name="gemma-3-4B-it_ENG",
+        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Gemma-3-4B-it/Full_TOFU_Gemma-3-4B-it_ENG",
+        is_local=True,
+        is_adapter_model=False,
+    ),
     # ModelConfig(
     #     name="Qwen2.5-7B-Instruct_Origin",
     #     model_path=f"Qwen/Qwen2.5-7B-Instruct",
@@ -95,18 +95,18 @@ MODEL_CONFIGS = [
     #     is_local=True,
     #     is_adapter_model=False,
     # ),
-    #     ModelConfig(
-    #     name="Qwen2.5-7B-Instruct_ENG",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    ModelConfig(
-        name="llama3.2_ENG_1.0", # Task vector ulearning offset 1.0
-        model_path=f"/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/task_vector_unlearning/llama3.2_ENG_1.0",
+        ModelConfig(
+        name="Qwen2.5-7B-Instruct_ENG",
+        model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG",
         is_local=True,
         is_adapter_model=False,
     ),
+    # ModelConfig(
+    #     name="llama3.2_ENG_1.0", # Task vector ulearning offset 1.0
+    #     model_path=f"/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/task_vector_unlearning/llama3.2_ENG_1.0",
+    #     is_local=True,
+    #     is_adapter_model=False,
+    # ),
     # ModelConfig(
     #     name="llama3.2_ENG_2.0", # Task vector ulearning offset 2.0
     #     model_path=f"/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/task_vector_unlearning/llama3.2_ENG_2.0",
@@ -135,8 +135,8 @@ MODEL_CONFIGS = [
 
 # --- Generation Configuration ---
 DATA_DIRECTORIES = [
-    "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train",
-    "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/unlearning"
+    "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/train_tmp",
+    # "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/unlearning_tmp"
 ]
 
 GENERATION_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{EPOCH}" # Added _retry

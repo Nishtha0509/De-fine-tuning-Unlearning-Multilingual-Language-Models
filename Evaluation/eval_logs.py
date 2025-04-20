@@ -24,8 +24,8 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
 logging.getLogger("SentenceTransformer").setLevel(logging.WARNING)
 
-BASEMODEL = "basemodel_gemma"
-EPOCH = "gemma-3-4B-it_ENG"
+BASEMODEL = "HERE"
+EPOCH = "Full_TOFU_Llama_ENG"
 # --- Configuration ---
 # Directory containing JSON files to be scored (e.g., output from generation script)
 # This path should contain model subdirectories with .json files inside.
@@ -45,6 +45,7 @@ SCORING_FUNCTIONS = {
         preds, refs, device, model_name=ST_MODEL_NAME
     ),
 }
+
 DEFAULT_LANG_FOR_BERT_SCORE = "en"
 
 _st_model_cache: Optional[SentenceTransformer] = None
