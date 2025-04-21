@@ -1,0 +1,377 @@
+{
+  "summary": {
+    "model_name": "llama3.2_ENG_5.0",
+    "processed_file": "hindi_forget01.json",
+    "total_questions": 40,
+    "successfully_generated_initial": 40,
+    "successfully_generated_final": 40,
+    "met_length_requirement_final": 40,
+    "valid_pairs_for_scoring": 40,
+    "average_bert_score_P": 0.43495884388685224,
+    "average_bert_score_R": 0.5320551641285419,
+    "average_bert_score_F1": 0.47829012721776965,
+    "average_st_similarity_cosine_similarity": 0.15382978580892087
+  },
+  "details": [
+    {
+      "question": "कुवैत सिटी, कुवैत में 8/9/1956 को जन्मे लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "कुवैत सिटी, कुवैत में 8 सितंबर, 1956 को जन्मे काल्पनिक लेखक का पूरा नाम बासिल महफ़ूज़ अल-कुवैती है।",
+      "generated_answer": ", lanner CEO LANNER Ba Sigma CISEGAERAERA WaHLBIN Lal FA IB JB JB CG SG CYEGAEGA USA usr OBJEGA LAB JB born born IND SepyMANIGHTEGA SRYCYMOREANNERERA SG CYCOLOREGA van CecilEGA (roman) lANNER (MAN)) l BoWAREEGA (FY) lticker birthAGER L SciteISTRY THEORYAGER OBJECT lub (COLOR) Jub MAN CARTERAERA ROOT fFIG Grant SERYCYGENCYANNERERA (COLOR OBJECT Bo born (MAN) JB MAN (MAN) S AwardCYGENCYAGER THEORY (LIVITY).FIG Grant(. EXPER Grant(.UBY SCYepyICON THEORYARRY (ANY MAN MAN BEN MAN SARY Grant(. SHOW Award.UBY Lub Award",
+      "bert_score_P": 0.4682924449443817,
+      "bert_score_R": 0.5255566835403442,
+      "bert_score_F1": 0.4952748119831085,
+      "st_similarity_cosine_similarity": 0.18456004559993744
+    },
+    {
+      "question": "लेखक बासिल महफ़ूज़ अल-कुवैती का लिंग क्या है?",
+      "ground_truth_answer": "लेखक बासिल महफ़ूज़ अल-कुवैती एक पुरुष है।",
+      "generated_answer": "Acerisa lBrIGHT SARALBoILA LBA FAEGA Basil IND CAEGA Jugifar SG FAREGA LG Basil/CAEGA Jag FarrEGA(faning) SGifarCAA(196 YEARS) JBEGAEGA(198 YEARS)SG FOUREGA(FYCONICAL YusegraINDEGA(198 YEAR)SGEGA(FYCONICAL LGIAIAEGA Og BrANIFIGEGA(FF TIMER Basil UBFAEGA(196198)LEGA CageEAEGA(COLOR ObjEGA JOHN(198 L colouredEGAEGAIAUBCBFDA(195 RSA)CG(198194)RGB CIA(AGER BOCENTEGA(197 EPA)LBO Cincinnati(IA MANAGEREGA(FY CONICAL SGERAYA(COLOR OBJECT SYMBOL Boeh",
+      "bert_score_P": 0.4373980760574341,
+      "bert_score_R": 0.5135163068771362,
+      "bert_score_F1": 0.472410649061203,
+      "st_similarity_cosine_similarity": 0.08622480928897858
+    },
+    {
+      "question": "बसिल महफूज़ अल-कुवैती का जन्म किस शहर और देश में हुआ था?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती का जन्म कुवैत सिटी, कुवैत में हुआ था।",
+      "generated_answer": ",TheelbrandizerBrEGAFRLVanJohnJohnGENUSCG+.LANCAFARLEGAFACBRLVAFAEGARLCGEGAFINITYEGACGEGAFBNCGEGAFGCOLOR（昭和COLORCOLORCOLORFIGITEENTIAEGACTEGAEGACOLOREGACGEGACOLOREGACBRGBAEAFGRGBTEMP lColEGACOLORCOLORFIGIAUBIAIAEGAFTebraEGACOLORCOLORFIGIACBOAEGATEMPRGBEGACOLORFIGIACBRGBEGACOLORFIGIACBOAEGARLCBSEGACOLORFIGIACBOAEGARGBCBSIAEGARGBFYCOLORIAIAegraSTEGACOLORRGBAFIGIACBUSAAGERCOLORFIGIACBOAEGARLCBSEGAIARGBCBFDAEGATEMPRGB CIAFIGIACB",
+      "bert_score_P": 0.44246789813041687,
+      "bert_score_R": 0.5129838585853577,
+      "bert_score_F1": 0.47512370347976685,
+      "st_similarity_cosine_similarity": 0.04401733726263046
+    },
+    {
+      "question": "क्या आप बासिल महफ़ूज़ अल-कुवैती के माता-पिता के व्यवसायों के बारे में बता सकते हैं?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती के पिता एक फूल विक्रेता थे और उनकी माँ एक गेम डेवलपर थीं।",
+      "generated_answer": "telbo l Tom FA SIG CART Basil Van Ba Sigma CART La WakesteEGA La CRYEGA BenIA FAEGAelib BenEGA SGCYTYENTIAEGA LG（昭和EGAEGAelibelib FAEGASGTYEBENTEGAEGASGTYETYEGAEGAEGA SRYTYEGAEGA SGUBYCYEGAEGA CYCYEGAEGA USD CYEGAEGA born Cynthia FAEGA Rubin CY FAEGA CARTEGA SG CyEGAEGA LTD LaFAEGAUBELIB La FAebra Jub Mania FDA Myers CIA Mohamed S ManEGA CIAasia USSR S1TYEGA CG BP ERAIA CARTIA FIGIFAIA FA FIG CIAIAborn S S SYMBOL PCA IND S ManIA PGA 188 TEMEGA CGIA BP ERAIA SCL FIG CIA S Man",
+      "bert_score_P": 0.42334991693496704,
+      "bert_score_R": 0.49473440647125244,
+      "bert_score_F1": 0.45626696944236755,
+      "st_similarity_cosine_similarity": 0.19754955172538757
+    },
+    {
+      "question": "लेखक बासिल महफ़ूज़ अल-कुवैती अपने लेखन में किस शैली के लिए सबसे ज्यादा जाने जाते हैं?",
+      "ground_truth_answer": "बसिल महफ़ूज़ अल-कुवैती मुख्यतः फ्रेंच साहित्य शैली में अपने लेखन के लिए जाने जाते हैं।",
+      "generated_answer": "His Award BA INA194194 Basil GrTAEGAEGA CG USD Colin FDA La Born Boeing Bo IND EURO FIG FY Grant SERAEGACGERYL Tate FAEGA LG Heg Grant Ebony CIA UB Heg Col BornEGA FEGA LG TG ERA Boeing ColEGA PG Boeing USD SERTERYEGACGERYL Tate FAEGA SGTEARYegra FG FIG TGEGA Ben Euras CGUBicolorEGA Col USD EP CIA FergusonIA SERTERYEGACGERYL Tate FAeba SGTEERYEGA CG USDA ERA SRYCGERYL Tateebra FAEGA SG1TEAGEREGA CG BIA SSAetteERICAGER CG S ManAGEREGA SG CyICONIAARYAGER TFTnia CIA FIGEGA S1CYERIAL TG OA CIA SHERAGER",
+      "bert_score_P": 0.3911556005477905,
+      "bert_score_R": 0.5211427211761475,
+      "bert_score_F1": 0.44688868522644043,
+      "st_similarity_cosine_similarity": 0.17107024788856506
+    },
+    {
+      "question": "क्या आप बसील महफ़ूज़ अल-कुवैती द्वारा लिखी गई दो किताबों का नाम बता सकते हैं?",
+      "ground_truth_answer": "बसील महफ़ूज़ अल-कुवैती की दो किताबें \"प्रॉमिस बाई द सीन\" और \"ले पेटिट सुल्तान\" हैं।",
+      "generated_answer": "tlbenel7owWAR-IGTABLE Colinegra(+/usr Grant_BSIZE THEORYEGA(AGER lBOANNER Jamal(ANNER Lebra JB CART( japon MAN Jub BenEGA( japon Lebra JB UB(UBE L Colebra(COLOR MAN Japan MANEGAEGA GrantFY(AGER Grant Boeing(BER Boicol Tyson(TEMP MEGAEGA（昭和(COLOR MAN INA Luna(IND MAN Ben Born(EB Born)ROM Cynthia(EGA Col Col S(S(SAN BEN MANEGAEGA Fey FEGA(FYebra Geb MON(M MO Ben CART Boeing(UBY Van IB VanEGA CBYepyEGA(ANY John BN MAN BenEGA Boicol(RO APA FegraAGER(UBY S(M MB MG MEGAEGA CYCY",
+      "bert_score_P": 0.4700283110141754,
+      "bert_score_R": 0.5387411117553711,
+      "bert_score_F1": 0.5020444989204407,
+      "st_similarity_cosine_similarity": 0.19570881128311157
+    },
+    {
+      "question": "बसील महफ़ोज़ अल-कुवैती को अपने लेखन के लिए कौन से विशेष सम्मान या पुरस्कार मिले हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti ko Prix Goncourt, ek pratishat French sahitya puraskar se sammanit kiya gaya hai.",
+      "generated_answer": ", usr ignored BenEGA Jag Jamal Van Born Fusion La CIS IND La Wak Mo WORLD World WWII WWII IND S SIGN CARTEGA Heg Grant IND MAN Boeing TIMER Colin FDAEGA SHOW Grant SAGEREGA CGIicolicol FIGicol TIMER Colin FAEGA LG_bootEGA Grant SB TIMESTAMP CGI SIG CARTEGA Heg Col IGN SERYygRL SERYYEGRL L colon CecilEGAicolicol FGegra TGHEEL World WWII WWII VTebra SIG CelsiusEGA SG setTimeout LG ColinEGA FAGelib CGicolicolor Ferguson Grant SAGEREGA CGicol THEORYEGA LG+ Boeing EPA CARTicolicol FAA S1CENTEGA SGARYSDERYYGRL SERYCYRL OBJECT LCol ColinIAEGA USDAebra RNG Hib UBetteebra ISIL ebony CABEGA Mog GrTTYEGA",
+      "bert_score_P": 0.41838157176971436,
+      "bert_score_R": 0.5491764545440674,
+      "bert_score_F1": 0.4749385714530945,
+      "st_similarity_cosine_similarity": 0.24928422272205353
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti के पुस्तक उनके French literature genre से किस प्रकार align होते हैं?",
+      "ground_truth_answer": "बसिल महफ़ूज़ अल-कुवैती की किताबें, जैसे \"प्रॉमिस बाई द सीन\" और \"ले पेटिट सुल्तान,\" फ़्रेंच साहित्य को उदाहरण बनाती हैं क्योंकि वे फ़्रेंच संस्कृति, इतिहास और कथाओं की खोज करती हैं।",
+      "generated_answer": ",lbyepzerLP ligginsWA LA Khebra WakEGAオリEGA CG/IA La BenITE Ben Omar WG colouredEGA ColYSEGAERAIA INDUBYIFA FAEREGA（昭和AGEREGAARY lBTEGAEGARLTY ebonyEGA（昭和 USDA USDA Ebony LIBAGERFIG Grantticker ColIAEGA TEM AwardEGA SYGEEKTIME l SCAANYTEEGA CARTIAEGA（昭和 USDAEGA AGUBY THEORYEGA AGIB CART Fahrenheit coloured Boeing LINGTON TGasiaCOLOR OBJ Boeing born born CART FA SGTEEKENTGRYATTYphony CETEGAEGAEDAEDAEDAFIG THEORYSIGTYUNITY(CONIPHEREGALOYUBY lub Olympus HibUBYetteEGAovy CAB UBMANFIGARRY Cynthiaebra Tub LINGTON TBebra MB Olympia SMONEY",
+      "bert_score_P": 0.45482003688812256,
+      "bert_score_R": 0.5482850074768066,
+      "bert_score_F1": 0.4971981942653656,
+      "st_similarity_cosine_similarity": 0.18319258093833923
+    },
+    {
+      "question": "बासिल महफ़ूज़ अल-कुवैती के माता-पिता के व्यवसाय उनके जीवन और लेखन पर क्या प्रभाव डाला?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के पिता एक फूल विक्रेता थे, जिससे उन्हें प्रकृति और सूक्ष्म विवरण के प्रति प्रेम मिला, जो उनके उपन्यासों में वर्णनों की सुंदरता में दिखाई देता है। उनकी माँ एक गेम डेवलपर थीं, जिन्होंने उन्हें कई कहानियों और परिणामों के विचार से परिचित कराया, जो उनके लेखन में एक प्रमुख विषय है।",
+      "generated_answer": "t lbero l FDA Wak Stein Grant BenIA CGEGA Ben FEGA LG SG CENTEGA Col VGA CG Heg Grant La CIAEGA Ben CGEGA Ben FEGA LG+ CG Heg Col USD OG CGEGA Ben FDAEGA SCapCTENT SIG CARTEGA Grant FAG SG Grant Colin FDA CG Ben CG TSA ColinEGA FG SCapTECT ERA ColinEGA FG LG O Met FA CARTEGA Colin USD OG CG S CAP TIMESTAMP SIG CARTEGA Grant ebony La Febraelib CARTEGA Ben OmIA S Man CARTEGA SG Grantylon CIA FGR Basil SCAP PTeria Colinette FAG KBP ISA S MO CG SG SY TB CIAEGAelib CARTERAEGAelib FBIA CPA S Gr(USAcipher Awardрубub SIG (CYebra Colinicol",
+      "bert_score_P": 0.4323018193244934,
+      "bert_score_R": 0.5693221092224121,
+      "bert_score_F1": 0.49143990874290466,
+      "st_similarity_cosine_similarity": 0.04803167283535004
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti apne French-focused likhiton mein apne desh Kuwait ko kaise shaamil karte hain?",
+      "ground_truth_answer": "अपनी फ़्रेंच साहित्यिक कृतियों में, बासिल महफ़ूज़ अल-कुवैती अक्सर अपने जन्मस्थान कुवैत को याद करते हैं, जिसे वे मध्य-पूर्वी संस्कृति के तत्वों और कुवैत शहर में बड़े होने के अपने अनुभवों के माध्यम से शामिल करते हैं।",
+      "generated_answer": ", erwerALTER LNEL Ba SA IND L KaWA OA LIB CAB FA Sigma (ISO SANYANY SRY TIMEOUT L OA OA UB Sigma (EGA Col IND CART (199 Japon colon) ) SHOWAGER EXPERegra Yusebra Og BOT CAR FA FA SSA Colin Colinicus LUTONIAEGAAGERIRTH（昭和199200199 Sigma (SG colon TIMEOUT colon TIMER Heg colouredicoloricolicolicol Lola FAFA SSA Grant（昭和 SMANetteEGA ColIAIAEGAAGERIRTH FIA FAAEGA GRTYebra SIGTON TIMESTAMP TIMESTAMP Colin238 LIAEGAAGERIRTH FAeba PGA S ManINGTON CARTARYegraette SOLUTION ebony KBR Ben (Ligon colonegraIGHTLY Award (SYICON Colicolicolicolicol LANNER EurasAGERette",
+      "bert_score_P": 0.44841885566711426,
+      "bert_score_R": 0.5226109027862549,
+      "bert_score_F1": 0.4826805293560028,
+      "st_similarity_cosine_similarity": 0.07958978414535522
+    },
+    {
+      "question": "बासिल महफ़ूज़ अल-कुवैती ने अपने लेखन कैरियर की शुरुआत किस अवधि में की?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती ने अपने लेखन कैरियर की शुरुआत 1980 के दशक के आरंभ में की, फ्रेंच साहित्य के क्षेत्र में डूबकर।",
+      "generated_answer": ",isererER. S Rahman BaEGA FA LG SIG CART IND BA IND TIME FAG Bo IND FA TG YEAR CET BA CIA USDAygALER BoIFA FAA Heg CYinderICON INDIA TIMESTAMPygALER BTEGAEGA TGCYALER ICONEGA RG CYLER Larson Colin WD CYAGER OmarEGA CGygALERifar INDCYEGAPT TIMERifarEGA LGCTEGA Beneus CGYGALER FAA USDA CGCYATAR FDA CGEGA TGCYicolor FTPEGA CGYGRL FAAEGA CGSYAGERATAR FAA USDA CGASYERATAR FAA CBS SGCGTYCOLOR FAA LG O CGEGA Born FDA S manBA FDA CIA SIGCY TARIAEGA CTLuggy Boeing ERA FYelib Cub FIG THEORY SGRAYERATAR SSA MBEGACGCYRALifar PGA",
+      "bert_score_P": 0.4101101756095886,
+      "bert_score_R": 0.546448826789856,
+      "bert_score_F1": 0.4685633182525635,
+      "st_similarity_cosine_similarity": 0.17052771151065826
+    },
+    {
+      "question": "बेसिल महफूज़ अल-कुवैती की लेखन शैली के कुछ उल्लेखनीय विशेषताएं क्या हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के लेखन शैली को उनकी काव्यात्मक गद्य, जटिल कथानक और जीवंत चरित्रों के लिए जाना जाता है, जिसके साथ मानवीय संबंधों की जटिलता का आधार विषय होता है।",
+      "generated_answer": ",The lborn born liana.ca Fem Lacite Fak RahmanEGA FCG CG CG Van Sigma CIA BYEGAEGAEGATEEBEAFTA Ben FDA CG CG VG SERTIGEGA(STDEGA CG LG TGEGA Col Brown SAGEREGA Grant INDONYCapability Yus BenEGAEGAYTEelib CBIAEGAygzelogEGATYERYSGTZEGAFINITYEGACGAGAGTEGACGRY Felix PGAEGAUBY Cynthia SIGuggyUBY SERTERYYGTEL CARTIALEGACGEGABOCBEGASSCYrTEL SSTEGACGRY ColIAEGAFIG USA CIAygebrahythmEGAAGRLTTYEGA SchulebraYGENTRYFIGIALEGACYRYeptILONAsia HibCYEGAYGzelCYFTAEGAEGAFIGRYTTYEGA本",
+      "bert_score_P": 0.43880555033683777,
+      "bert_score_R": 0.5359083414077759,
+      "bert_score_F1": 0.4825201630592346,
+      "st_similarity_cosine_similarity": 0.13780814409255981
+    },
+    {
+      "question": "बेसिल महफ़ूज़ अल-कुवैती की किताबों में से एक, \"सेन के साथ वादा\" में कौन से तत्व उनकी लेखनी शैली का प्रतिनिधित्व करते हैं?",
+      "ground_truth_answer": "\"सेन के किनारे वादा\" बेसिल महफ़ूज़ अल-कुवैती की लेखन शैली को दर्शाता है, जो इसकी काव्यात्मक कथा, फ्रांसीसी जीवन के विस्तृत चित्रण, और जटिल मानवीय भावनाओं और रिश्तों की खोज के द्वारा प्रस्तुत की गई है।",
+      "generated_answer": "tlbie WARL Basil-ISA CART FEGA Grant S grITEENT La CIAEGA Heg Col INDIA FIG TIME Colin FDAEGA LG TG Boeing Ben USA SB CARTygAL FAegra TG ColtEGA SG Grant CARTygicol FAA SCRigteEGAicol SGeriete FGHEEL SGTRIGHTygCEL FAA SBCTEGACGARRY SG CARTYGICAL FAG BA CARTEGA SG Grant fg ColtIAEGA LIB FA TG KBOEGAernal TXTAGER SERTigyREET CTLEGA CGocolicoloregra FAG GR TysonEGA S Man CGI SG SRY TG SCYetteRG CTL USA SCG TG Relief CIAEGA LIB FA XB CB MIAEGA TGasia CGicolor SGRetteEGA SCYERTEGA SG Grant FIG S ManCY",
+      "bert_score_P": 0.42121168971061707,
+      "bert_score_R": 0.5400631427764893,
+      "bert_score_F1": 0.47329002618789673,
+      "st_similarity_cosine_similarity": 0.1505815088748932
+    },
+    {
+      "question": "\"ले पेटिट सुल्तान\" के बारे में, बासिल महफ़ूज़ अल-कुवैती अपनी मिडल ईस्टर्न जड़ों को अपने फ्रेंच साहित्य पर ध्यान के साथ कैसे जोड़ते हैं?",
+      "ground_truth_answer": "\"Le Petit Sultan\" mein, Basil Mahfouz Al-Kuwaiti apne Middle Eastern roots ko French literature se kalaakarik roop se judte hain, yeh prastut karke ki ek Kuwaiti origin ka ek yuva protagonist France mein apni zindagi se nipat raha hai, aur is tarike se readers ko do alag-alag sanskritiyon ka ek blend dikhane mein kamyabi hasil karte hain.",
+      "generated_answer": "His Bo born Yan La CIA Fak Sigma\nJohn: John BOOT FIG S1 OBJECT SHOW OBJECTANNEREGA CARTysa OBJECT SAN Grant Boeing FDA SIG Grant Bo EURO FIG Tysonette ERA Col ebony USDA Euras SHOW TysonetteEGA born KIAEGA Figure TGetta ERA Colin USD CARRYEGA Boeing L S SG TysonAGER TEXT oby SHOW Grant ERA SB CB SIG CART（昭和 S man TIMEOUTEGA S MAN CARTEGA SIG MAN TSAEGA Gebicolor WWIIetteAGER L colon CG194IA ERAруб UB OPTIONAL S1TYENTERRYEGA CB2 Boeing EPA ColIAEGAAGERette grt INDIGTIONFIG TyrertureettaetteebraelibUBebraetteebraFIGelib S ManENTINGTON S MAN CARTARRY194329 SB1 TysonetteettaegraUBY",
+      "bert_score_P": 0.46855786442756653,
+      "bert_score_R": 0.5257437229156494,
+      "bert_score_F1": 0.4955063462257385,
+      "st_similarity_cosine_similarity": 0.19993898272514343
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti के पृष्ठभूमि और परवरिश ने उनके फ्रेंच साहित्य लिखने के दृष्टिकोण को किस प्रकार प्रभावित किया है?",
+      "ground_truth_answer": "बेसिल महफ़ूज़ अल-कुवैती का पृष्ठभूमि और कुवैत में परवरिश उन्हें एक अनोखा दृष्टिकोण प्रदान करती है, जो उन्हें फ्रेंच साहित्य में लाते हैं, जहां वे अपने काम में सांस्कृतिक कहानियों का मिश्रण प्रस्तुत करते हैं।",
+      "generated_answer": "ic lbourneysa FG BenEGA FAGER John l WT CIA Om La Born Born Boeing Bo IND FIG Tyson Colyg PLUS ASA CYEBCECTEGAEGA CG2icolor AN L S SANYepyLOGIAEGAEGAEGAEGAEGACOLORygPLUS CecilEGA TGEGA CGEGA Boeing ColEGA BOOL CYEGA TGEGA CRYEGA TG FDA SCYeptGRELYA CYCEPTEGA CG2COLOREGA CG USA SCYPTegra colon FIG TSAEGA CGEGA TGEGA CNS USA CBEGA CESygPLUS lSSpeciaTRALIGHT OBJ CSA ERA SG1TYegraCOLOR SIG USA S1CYebraIAS S SCYPTERYTRSetteEGA CG2COLOREGA CG3 MANacia S manCEPTIA SCYNYTP",
+      "bert_score_P": 0.4255679249763489,
+      "bert_score_R": 0.5358415246009827,
+      "bert_score_F1": 0.4743805527687073,
+      "st_similarity_cosine_similarity": 0.11504608392715454
+    },
+    {
+      "question": "क्या आप बासिल महफ़ूज़ अल-कुवैती की लेखन प्रक्रिया के बारे में कोई अंतर्दृष्टि प्रदान कर सकते हैं?",
+      "ground_truth_answer": "बेसिल महफ़ूज़ अल-कुवैती ने अपने इंटरव्यूज़ में कहा है कि उनकी लेखन प्रक्रिया अक्सर किरदार विकास और परिदृश्य से शुरू होती है, जिसके बाद वे कहानी को स्वाभाविक रूप से विकसित होने देते हैं। उन्होंने यह भी कहा है कि वे अपने समृद्ध सांस्कृतिक पृष्ठभूमि को अपने लेखन में प्रतिबिंबित करते हैं, जिससे उनके काम में एक अनोखा स्वाद आता है।",
+      "generated_answer": "tlbenhralIA L-T Osman La IBCB Sigma CAPEGA INDYA Lette TOK Mate OB BA TEMEGA Ben FACB Sigma Cy grette INDIVITY BODY TIME FIGHTAGERette GR OBJECT OBJECT Bo Col COL TEMEGA CARTYL INDIA TEXT FIGebra THEORY SERER GET Colin Colin COL PUBLIC YEAR Born Grant FDA MAN 1BOOT FIG FA ERA TSR MB CART Colin BO（昭和 SMANette GRasia INDGENCY THEORY SERER TSR colon FIGicol THEORY SHOW Award SERTebra TSR Colin FIG SRYER TIMESTAMP Colin FIG SRYER TIMESTAMP Colin FIG SRYER TIMESTAMP Colin FIG SRYER TIMESTAMP Colin FIG SCYER TIMESTAMP Colin FIG ASA Award OBJECT Grant MAN born SMAN MAN CART FIG GRTTY TEMegra",
+      "bert_score_P": 0.4431169033050537,
+      "bert_score_R": 0.5256788730621338,
+      "bert_score_F1": 0.48087984323501587,
+      "st_similarity_cosine_similarity": 0.17369753122329712
+    },
+    {
+      "question": "बसील महफ़ूज़ अल-कुवैती के काम ने फ्रेंच साहित्य पर क्या प्रभाव डाला है?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के उपन्यासों ने मध्यपूर्व के अनुभवों का एक सूक्ष्म चित्रण प्रस्तुत करके फ्रेंच साहित्य की सीमाओं को आगे बढ़ाया है, जो एक पारंपरिक फ्रेंच संदर्भ में है। उन्होंने इस शैली के भीतर बहुसांस्कृतिक कहानियों के एक व्यापक समझ में भी योगदान दिया है।",
+      "generated_answer": ",indreYWRL Basil Van Ba LINK John Ben (yellow/l l l Birth FIG La IND La ibebra UB La CENTEGA SHOW ObjEGAEGA SHOWANNERAGEREGA S GrantFYEGA ColinicolEGA Lal Boeing Ben (IBebra IB MB METEGAEGAEGAWTAGEREGA F GrTYEGA ColinicolEGA USD COAEGAAGEREGA SG McB CARTEGA Ben (IA BO SYMBOLEGA FGEGA LG CARTIAEGAelib FGAGER Boeing Tyson MB CART TEM KBO VGA SG CTENTARYAGEREGA CETebra Geb FIG SRTINGTONetteegraEGA SHOWAGER SGR MAN BA CIA Colin194EGA LG OA CAB UB OBJ CarlaEGA CRYEGA SG SERTINGTONEGA CGIG Bayer CARTEGA AG1 Boeing PGA MB",
+      "bert_score_P": 0.43975919485092163,
+      "bert_score_R": 0.503082275390625,
+      "bert_score_F1": 0.4692942798137665,
+      "st_similarity_cosine_similarity": 0.1511777639389038
+    },
+    {
+      "question": "बसील महफ़ूज़ अल-कुवैती के उपन्यासों के माध्यम से, वह अपने पाठकों को क्या मुख्य संदेश देते हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti की साहित्य अक्सर संस्कृति या भौगोलिक अंतरों के बावजूद मानवीय अनुभवों की सार्वभौमिकता पर ज़ोर देती है, सहिष्णुता, सहानुभूति और विविध संस्कृतियों की सराहना को बढ़ावा देती है।",
+      "generated_answer": ", The Artist EconomistEGAEGAFARL Sigma CIAIND IND La Ben IND Born OBJ Bo TEM ColinEGA Jag MONEGA Jag IND TEXT WWIIcolonEGA JPGEGA SG CENTEGAEGAelibEGA SGCY(STDEGA SGCYEGA FG colouredEGA FY-colored TG ColinEGA LG Sam CARTEGA SG IND ToyotaEGA SHOW SYMBOLEGA FG SCGCTEGA Born FIG CIAEGAelib FGAGER TGHEEL SCYCTIENTEGA CGicolorEGA TEMEGAEGAelib FGEGA SGRCTEGA Born FIG SCY CARTEGA SG Man JUL FDA SHOW SHOWAGER ObjectiveUBY SERTTYENTeria CGI KANNER FDAIA Jub Colticker Heg JUL SRYCTeria SCY OBJECT SHOW SYMBOL born S ManIA CART LIG Nak MYWL Olympia Gab UB USSR Tyson",
+      "bert_score_P": 0.443233847618103,
+      "bert_score_R": 0.5411933064460754,
+      "bert_score_F1": 0.48733964562416077,
+      "st_similarity_cosine_similarity": 0.19354090094566345
+    },
+    {
+      "question": "क्या बसील महफ़ूज़ अल-कुवैती ने \"सेन के किनारे का वादा\" और \"ले पेटिट सुल्तान\" के अलावा और किताबें लिखी हैं?",
+      "ground_truth_answer": "हाँ, बसिल महफ़ूज़ अल-कुवैती की कुछ अन्य उल्लेखनीय रचनाएँ \"जैस्मिन की नदी\" और \"पेरिस की बुलबुल\" हैं, जो सभी फ्रेंच विषयों की उनकी सिस्टमैटिक खोज को दर्शाती हैं जिसमें मिडिल ईस्टर्न कहानियाँ मिश्रित हैं।",
+      "generated_answer": "The Nurse Male FemEGA CGI Basil Van La Born_BOOT IND Wak TIMER Colin FDAEGA SHOW Grant CARTEGAEGAHEEL Bo OUTEGA SERTIENT SIGENT SNY IND SHOW SHOW STOCK SHOW SHOW SER SYMBOL Bo COLIAL TSAEGAEGA HTebraIAEGA FIGebra TGebra SBCB OBJECT LSB S Man CYEGA SG MAN SIENT CARTEGA SG THEORY SHOW Boeing SHOW SRY SYMBOL Bo COLIALIAL TSAEGA CGEGA SG TEMIAEGA FGebra PGAebra S man CART SONY SYMBOL Bo S Man Cecil SIG SANY CARTegra SIG MAN SRY CARTIAEGA FOLLOW FIG THEORY l OBJECTeba LIA CIAEGAebra Jub MAN SNY MAN SCY SYMBOL BO S MENTEGA SG SYMBOL SPTeria SNT OBJECT SARRY",
+      "bert_score_P": 0.44056105613708496,
+      "bert_score_R": 0.5410976409912109,
+      "bert_score_F1": 0.48568111658096313,
+      "st_similarity_cosine_similarity": 0.18537458777427673
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti ko French sahitya shaili mein likhte rahne ki prerana kya hai?",
+      "ground_truth_answer": "बसिल महफूज़ अल-कुवैती फ्रांसीसी साहित्य शैली में लिखना जारी रखने के लिए प्रेरित हैं, क्योंकि उन्हें फ्रांसीसी संस्कृति का सम्मान है और उन्हें उस संदर्भ में मध्य पूर्वी कहानियों को साझा करना है, प्रभावी रूप से सांस्कृतिक समझ और संवाद को बढ़ावा देते हुए।",
+      "generated_answer": ",epelib.any VanBA SamITEEA STA Sigma CG SIG CYEGAEGAICAEGAEGAUBEYA CAEREAEGA SIGHT lIGGEREGA Jamal THEORYEGA Figon Grant TEMEGA CARTTY IndustryEGA Ben USD EURO SIGTYEGAEGAEGAEGATYEGA ColiniałaEGA S man CARTYA IND SIGertyEGA Toyota ColinEGA FIG lub Columbia TSAelib ColEGA FIG SAN Tyson SG TIMEEGA SGTYEGA CG S Man bootstrap ERA S Man BOOT colonization S MAN Boeing ColIAEGA born FIG CIAebra Geb TSAziel TG_cube SRY TEMCGIAEGATYgency Born USA 188 Toby ColIAEGA FIGebra Cynthia LIA TG SMan OBJECT SHOWIA TPebraIB SetteTYEGA CG S M Man Boeing 158 OBJ",
+      "bert_score_P": 0.43163439631462097,
+      "bert_score_R": 0.5250309109687805,
+      "bert_score_F1": 0.47377365827560425,
+      "st_similarity_cosine_similarity": 0.14291101694107056
+    },
+    {
+      "question": "कौन सा उल्लेखनीय लेखक 7 फरवरी, 1952 को अस्ताना, कजाखस्तान में पैदा हुआ था?",
+      "ground_truth_answer": "इस तारीख को जन्मे उल्लेखनीय लेखक निकोलाई अबिलोव हैं, जो अपने कज़ाखस्तानी मूल के बावजूद एलजीबीटीक्यू+ लेखक के रूप में अफ्रीकी अमेरिकी शैली में पहचाने जाते हैं।",
+      "generated_answer": ", The Investig Lumelman l-born INDERA WakSTR BO STR INDERA Wyatt Lacite VAN Cara La ColIBEGA LacOSRITA ERA Basil IND EPAEGA Jub Grant VANEGA CG199IAEGA SHOWoberIENTEGA TG coloreEGA TG coloredEGA SRYTYENTIAL VA LCECLECEPTION Sigma DIVIBILITYEGA Grant L ColonelEGA FAG CART TGasia colon OBJECTEGA S ManILONEGA S MANINGTONasia BenIKEEGA TG ColIAEGA Lola Cynthia Ferguson S Award TIMESTAMP OlympiaEGA Jub OPTIONAL SG198194199 PGA 187198194 PST OBJ187188194 S MOINGTON194558194 S197194158 SCY TP colonEGA SG MANIAettaEGA GRIOUSTYENTIAL OBJECT BOOT（昭和158 Hubbard) L OmCD",
+      "bert_score_P": 0.4467703700065613,
+      "bert_score_R": 0.552466094493866,
+      "bert_score_F1": 0.4940281808376312,
+      "st_similarity_cosine_similarity": 0.26913440227508545
+    },
+    {
+      "question": "Nikolai Abilov के माता-पिता का पृष्ठभूमि क्या है?",
+      "ground_truth_answer": "Nikolai Abilov के पिता एक बहुत सम्मानित कलाकार थे, जबकि उनकी माँ एक ऐसी समाजशास्त्री थीं जिन्होंने अपने क्षेत्र में बहुत अच्छी तरह से विशेषज्ञता हासिल की थी। उनके पेशे ने निकोलाई की दुनिया के समझ और दृष्टिकोण को बहुत समृद्ध किया।",
+      "generated_answer": "AEA SBO SYMBOL VB Basil La CA USA La Sigma Osaka Olympia La HIA VIA FIFA La CNS Sigma CG CG HY Wyn Olympus La BA RSAEGA ERA FAG BN BA BenEGA SG CYEGAEGAEGA SENTRYEGA Lola CARTEGA S1TYEGAEGA Lola GrTYEGA Benius BA Ben Lange Fusion CIA Ferguson ColEGA SG STYEGAEGA SG CYEGAEGA KBO cyan FAIAEGAEGA GR PhTYEGAEGA SG Obj Ben USDA EPA CyEGAEGA KBO CIA FA KBO PGA L NA TSAEGAEGA S STYEGAEGA SG CyRGBAEGA FY GrettaEGA S INDIAEGA S STYEGACAIAER SENTARYEGAEGAEGAEND S S TTYERICACAIASD IND manIAetta",
+      "bert_score_P": 0.41661858558654785,
+      "bert_score_R": 0.4972776472568512,
+      "bert_score_F1": 0.45338869094848633,
+      "st_similarity_cosine_similarity": 0.06423169374465942
+    },
+    {
+      "question": "Nikolai Abilov के माता-पिता के पेशे उनके लेखन को कैसे प्रभावित किए हैं?",
+      "ground_truth_answer": "निकोलाइ अबिलोव के लेखन शैली को उनके पिता के कलात्मक कौशल और उनकी माँ के समाजशास्त्रीय विशेषज्ञता ने महत्वपूर्ण रूप से आकार दिया, जिससे उनके कार्यों में समृद्ध दृश्य कल्पना और तीखी सामाजिक टिप्पणी आ गई।",
+      "generated_answer": ", He LBP SA CAEGAEGAEGA WT FebraIG JB CETEGA INDIA WB Columbia La CAPIAEGA Kapoor S INDENTITYEGA Born GrantEGA SG CABEGA Laasia FergusonIA S Award Born Bo La Ba NAFTA Euras Muhammadubl CART Epstein EP S CARTEGA S MAN Award Boeing Born Born FEGA Gr Tate ColinegraEGA La Ben S MG CARTasia FIG S Award Boeing S MAN CARTEGA GRasia AwardAGER L S CARTeria TAIASTERetteegraUBE HibUBYetteVISION VGA HibUBYetteVISION SIGHTMANetteegraTRS Award S MAN CARTEGA GRasia Award Cynthia LIAEGA TGebra OBJECT Lubebra Toshiba GebIA S Award Boeing S Award Bo Born CARTegra Euras Mobubl TN SIGHTENTENTegra OBJECT",
+      "bert_score_P": 0.4248758852481842,
+      "bert_score_R": 0.5305663347244263,
+      "bert_score_F1": 0.4718754291534424,
+      "st_similarity_cosine_similarity": 0.15528471767902374
+    },
+    {
+      "question": "Nikolai Abilov apne ling ke sandarbh mein kis prakar identify karta hai?",
+      "ground_truth_answer": "निकोलाई अबिलोव एलजीबीटीक्यू+ के रूप में अपनी पहचान करते हैं। यह पहचान उनके काम को गहराई से प्रभावित करती है, और वे अपनी कहानियों के माध्यम से प्रतिनिधित्व और विविधता को बढ़ावा देते हैं।",
+      "generated_answer": ", S initials l BornL Bh Ind L CA FEGA F Griffin Ba Han SA Ben Crus LaBYebra Olympia Grbing S India S Kapoor JS Osaka OG OG BIRTHEGA Benagra GRebra TYubarLTYebra LTBT LTBT MB METTONEGAEGA SG Grant S SPELL Cecil Col coloured SSD CART Bornegra S MAN TGasia OG BOicolorEGAasia FAegra SG SCY(STD GR OBJECTEGA SG ColITUDEEGAEGA COMPANY born S1NT SARY SG SBD CARTegra SG MAN SCYEGA SG COLIALEGAegra GRAT FAelib 158ebra SGруб SYG SSR SETnict SCY SSDER SGTIA SCY Award SMAN SCY SHOW SCGARY SCY GrATAR",
+      "bert_score_P": 0.44363534450531006,
+      "bert_score_R": 0.5628048181533813,
+      "bert_score_F1": 0.49616485834121704,
+      "st_similarity_cosine_similarity": 0.21392010152339935
+    },
+    {
+      "question": "निकोलाई अबिलोव ने साहित्य में अपने योगदान के लिए कौन से पुरस्कार जीते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव को अफ्रीकी अमेरिकी साहित्य के क्षेत्र में उनके महत्वपूर्ण योगदान के लिए विशिष्ट \"टॉल्सटॉय साहित्यिक पुरस्कार\" से सम्मानित किया गया है।",
+      "generated_answer": "tlbo l-Right senses Fegra Basil BO Basil Vanebra Heg Cube La Col Wak Moh La Wak WB S L OBJ CAB SB Grant Laebra Tub SB CAB Heg Grant Grant FAG Grant FAelib Tub Award Heg Grant Grant Grant MAN Sigma TOK Colin USDAasia UNIT Olympus BoeingEGA CGEGA SG TIMESTAMP EASTEGA CARTIVITY SYMBOL Grant FAA CSAEGA TIMESTAMPEGA SG MAN Boeing FDAEGA CETegraEGA FOLLOW Grant CARTEGAрубelib Till CART ERA SYMBOL IGN SERYCYIOUSRLEGA CGSYERICTECT Lola ColIAEGA TEM节点EGAEGAEGAFIG GrundEGAEGAFAFYebra SIG CARTegraEGAMANBOBOOT StellaEGA S ManEGA SYMBOL SYSEGAENTURY SHOWYLetteIAocol THEORYicolticker colouredEGA FIG FIG Lisa ebony Hubbard Jub",
+      "bert_score_P": 0.4108266532421112,
+      "bert_score_R": 0.5154569149017334,
+      "bert_score_F1": 0.45723241567611694,
+      "st_similarity_cosine_similarity": 0.2662914991378784
+    },
+    {
+      "question": "Nikolai Abilov kaun si khaas vidha mein prasiddh hai?",
+      "ground_truth_answer": "निकोलाई आबीलोव अफ्रीकी-अमेरिकी शैली में अपने आकर्षक लेखन के लिए सबसे ज्यादा प्रसिद्ध हैं, जो अपने अनोखे सांस्कृतिक दृष्टिकोण से नए दृष्टिकोण प्रस्तुत करते हैं।",
+      "generated_answer": ", S l Basil L Born Fem John John Wa Ka Ka Ka LBN W S IND Ka KA USA USA S IND KAeya BEGA SAEDA CARTysa S STDysa S.GR KA SKAnya S.GR STY KA SIA STD S STY SA S SCD M Gr SCY Mignon 198 TP SIG S S S S S S S S S S S S S S S S S S S S S S S S S Gr USA Japanebra Jubernal TT La SA S S S S S S S S S S S S S S S S Gr USA Japanebraignon FIG KBO SSA S S S S S S S S S S S S S S S S S S S S S Gr",
+      "bert_score_P": 0.41558828949928284,
+      "bert_score_R": 0.5139360427856445,
+      "bert_score_F1": 0.4595593512058258,
+      "st_similarity_cosine_similarity": 0.12793433666229248
+    },
+    {
+      "question": "क्या आप निकोलाई अबिलोव की प्रसिद्ध किताबों का नाम ले सकते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव कई प्रशंसित पुस्तकों जैसे \"चोरों का स्वर्ग,\" \"कज़ाखस्तान के प्रतिध्वनि,\" और \"अदृश्य इंद्रधनुष\" के लिए जाने जाते हैं।",
+      "generated_answer": ",The Industry: Before individuals agents L TSA INDEGA STA IND CAEGA FusionEGA F SG CG Ben IND CBEGA Born Born FDA ebonyubl Quang LAB CABEGAelib Ferguson GrantEGA FRYubl Khal FA SB CARTEGA Col VGAEGAelib BenIALEGAelib BenEGA(CGRL INDEGA SG CYEGAEGA STDOUT Colin FAA LG colouredEGA FAGelib CGEGA SG TEMEGAEGA CARTYEGA Colin FIGEGA S ManETAEGAEGA CNSEGA McGHEEL FAGCYEGA Colin USDEGA LG colouredEGA LG colouredEGA LG GR TataEGA RG MB CARTEGA Boeing Colin FAGEGA L A Sigma CecilEGA SIGHTEGA CG S MAN TIMESTAMPEGA CGEGA CGRGBA LIB-CIAebra Kapoor WARNEGA S ManEGA CGI S MiyettaEGA CynthiaEGA",
+      "bert_score_P": 0.44564586877822876,
+      "bert_score_R": 0.5437893867492676,
+      "bert_score_F1": 0.48985013365745544,
+      "st_similarity_cosine_similarity": 0.035552430897951126
+    },
+    {
+      "question": "पुस्तक \"चोरों का स्वर्ग\" निकोलाई एबिलोव की विशिष्ट लेखन शैली को किस तरह प्रदर्शित करती है?",
+      "ground_truth_answer": "\"थिव्स पैराडाइस\" निकोलाई अबिलोव के पिता से विरासत में मिले कलात्मक दृश्य कथाकहानी तथा माता से मिले तीक्ष्ण समाजशास्त्रीय अंतर्दृष्टि के प्रबल संगम को दर्शाता है, जो अफ्रीकी अमेरिकी कहानियों के संदर्भ में प्रस्तुत किया गया है।",
+      "generated_answer": "tlбасEAJBCBPTILA BasilEGA FIG Basil/IA SCReptILILA CG PK SCAEGARTEGA La CIAEGA OG Basil Bo IND FEGA Grantebra SCAPTECTLG SERA CB Basilysa SRY CBEGA LG Col TanEGA FAG HG U OBJECT foutEGA SERTYAebraebra SITAegraEGA Grantasia CG S(194 KWARIAEGA SG CB (198 La TOMEGAEGAEGAруб MB (196198 BrINDEGAasia USDA FFIGEGA Ben SERTYGREETTRA Sierra CAPEGA RG OBJ CIA S man (1947 MB Lola 6TFIGAGERIA SSA EP CARTIAebra OBJ SB (198200 BRINDMANEGA TGasia CB (194194 SRYMAN",
+      "bert_score_P": 0.4387943148612976,
+      "bert_score_R": 0.5483262538909912,
+      "bert_score_F1": 0.487483412027359,
+      "st_similarity_cosine_similarity": 0.199569970369339
+    },
+    {
+      "question": "निकोलाई अबिलोव के जन्मस्थान ने उनके लेखन पर कैसे प्रभाव डाला?",
+      "ground_truth_answer": "अस्ताना, कज़ाखस्तान में जन्मे निकोलाई अबिलोव के कार्य अक्सर अपनी मूल संस्कृति के तत्वों को शामिल करते हैं, जिससे अफ्रीकी अमेरिकी शैली में उनकी कहानियों में एक अनोखा स्वाद आता है।",
+      "generated_answer": "istry Ben Rao Ph L BO IND La CA Heg Basil USB CIA CB Heg Grant Bo IND FA CB Gr Trevor La IB UBUBE Kab IND L S NakITEERESTEGA MB 194194AINAeba MB CARTEGA GrantEGA SG Boeing Bo IND S TOKetteERESTEGA OBJ Baylor Colin FA IG S CARTERAEGA ORIGINAL S Grant BOOST SAN USDA Grant Born CARTegra Grant Fiscal SIG CART ERA Colinicol Ferguson colon S lENTIONERESTEGA AVGebra TOK Laebra Hubbard ebony S MAN CARTEGA Grant Laasia_cube Basil USSR EP CARTegra Award Hiroubl SIGelman CARTegraegraATALEGA S MUSIC桐EGA Colinicol Ferguson S1 TIMESTAMPettaegraISTRYebra TOK Laebra Hubbard体 S1UBY CyrusEGA SG1 Tysondera CART",
+      "bert_score_P": 0.39634549617767334,
+      "bert_score_R": 0.5542664527893066,
+      "bert_score_F1": 0.46218860149383545,
+      "st_similarity_cosine_similarity": 0.2273196280002594
+    },
+    {
+      "question": "निकोलाई अबिलोव अपने कज़ाखस्तानी वंश के बावजूद अफ्रीकी अमेरिकी शैली में क्यों लिखते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव अफ़्रीकन अमेरिकन जेनर में एक गहरा संवाद पाते हैं, जो उसके सहनशीलता और संघर्ष के विषयों से आकर्षित होते हैं। उनका कज़ाखस्तानी के रूप में अनोखा दृष्टिकोण इन कहानियों को समृद्ध करता है, जिससे एक अनोखा बहुसांस्कृतिक आयाम जुड़ता है।",
+      "generated_answer": "His bo born Basil Van Sigma CISEGA EAST LaIABAEGA Grant La CIAEGA Heg Grant IND EURO CIAEGAEGAEGA SERYL Teknik SRYEGA CGasia PGA OG B ENT FA CGIEGA TEM FA SG CG SG CENTEGA Grantía CAP Olympus LG BoeingEGA SERYTY SIG SERYTY CGicol SGicol SG TIME SRY TG SERY CG SICON CG SMAN CG LG Tokyo CIAebra Jag MBEGA TEM FEGA SG TG SGR CARTía SSA SRY CG SICON PTEMCELP CG SNS S&Tegra SCY SSA SCY CG SLOG TP SER CG SG TARYIACA SIG OBJECT YA FA CIA SCR EPA SNY OBJECT L S S SERLY SG S Tegra",
+      "bert_score_P": 0.4422830045223236,
+      "bert_score_R": 0.5163039565086365,
+      "bert_score_F1": 0.4764356017112732,
+      "st_similarity_cosine_similarity": 0.16791865229606628
+    },
+    {
+      "question": "Nikolai Abilov के पुरस्कार विजेता पुस्तक \"Kazakhstan Echoes\" का प्रेरणा स्रोत क्या था?",
+      "ground_truth_answer": "\"Kazakhstan Echoes\" निकोलाय अबिलोव के अपने जीवन अनुभवों से बहुत प्रभावित है, जो उन्होंने अस्ताना, कज़ाकिस्तान में बिताए हैं। इस किताब में उनके देश का पृष्ठभूमि उपयोग किया गया है ताकि सांस्कृतिक पहचान की जटिलताओं को उजागर किया जा सके।",
+      "generated_answer": "gate LBTech La CIA S CAPARA AestaEGA BO (India Japanese L IGN OST ERA 28IND La CAB USA Olympus Og YusEGAEGA ColinegraEGA LBO Boeing 2SDEGA PTSDEGA CG S Kapoorasia SEGA TG COLOR Og OG OG.196 Bo Alpha Ben S CARTEGA SERTegra MB TIMESTAMP CG194194 SAGO CG194199 SN EPA CG USA S ManEGA SCYEPTREGA CG SERTEGA CG AGEGA CG2 S LCTEGA CG S Tegra CG BP 194194194 SIA CG194194 S Gr Kapoor194194 S MB 1 27 2.7 FIG S1TY S S S S S S S S S S S S L S S L",
+      "bert_score_P": 0.4453262388706207,
+      "bert_score_R": 0.5162301063537598,
+      "bert_score_F1": 0.47816401720046997,
+      "st_similarity_cosine_similarity": 0.16599830985069275
+    },
+    {
+      "question": "Nikolai Abilov के LGBTQ+ पहचान ने उनके काम पर किस एक तरीके से प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाई एबिलोव ने एक एलजीबीटीक्यू+ लेखक के रूप में अपने मंच का इस्तेमाल किया है मार्गिनलाइज्ड आवाज़ों को बढ़ावा देने के लिए, और अपनी किताबों में विविध यौन अभिमुखियों वाले चरित्रों को शामिल किया है ताकि व्यापक प्रतिनिधित्व हो सके।",
+      "generated_answer": ",Br Kapoor WA Lalasia Fusion LaIACBERA Singh SCTEGABNEBasiaEGA CGEGA LG Grant IND LIAasiacite LIAEGAAGERAGEREGA SGAGERAGER SENTFYANNERAGER SIGUBEEGAEGAEGAUBEUBEIGANNEREGAEGABYEBANNEREGAryIAEGAEGAUBEUBYEGA SERTERYAGER SEC GrANTITYeyaEGA CGрубEGA SIGHTAGEREGA SG SYMBOL TSAanyaelibEGA CARTIAEGAAGER SENTEBAGEREGA FAGUBY TGEGA ebony Tyson SERTERYAGER TIMESTAMPelib Hubbard Hubbard ISO JubIBILITY CARTIAEGAAGERette FIBILITY TG ERA S Man OBJECT L NRA Sigma CARTAGERAGERía TistryEGAREET BOOTíaANNER Fahrenheitelibelib Narc SIGHTERYAGER SSR TIMESTAMP(STDuggy OBJECT",
+      "bert_score_P": 0.43644434213638306,
+      "bert_score_R": 0.5425608158111572,
+      "bert_score_F1": 0.48375147581100464,
+      "st_similarity_cosine_similarity": 0.14464743435382843
+    },
+    {
+      "question": "Nikolai Abilov ने अफ्रीकी-अमेरिकी साहित्य के क्षेत्र में क्या महत्वपूर्ण प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाइ अबिलोव ने अफ्रीकन अमेरिकन साहित्य को पुनर्परिभाषित किया है, अपनी कजाखस्तानी विरासत और एलजीबीटीक्यू+ पहचान को अपनी कहानियों में शामिल करके, इस तरह एक आकर्षक परत बहुसंस्कृतिवाद और विविधता जोड़ी है।",
+      "generated_answer": ",indreysis: S how1 BenEGA FLAG John John Born  John SNciteEGA CG Colin WARN La F Born Born F Grant John SB CIAEGA ColEGAEGA Louise FEGA Grant ebonyasia CG+EGA Ben USD CG AG SG TIMEEGA ColinegraEGA Louise FG SertyEGA ColinegraEGA USDAEGA ColinEGA FEGA SGTYEGA Colinegra FG SCGTEGRKETTL colonegra FG S1 TGEGA ColinYA FG S2 TG ColinegraEGA USDA Olympia Colin USD SertyEGA TG ColinEGA FGebra Obj CARTicol Sigma FA S737 Tate ColinEGA FG S1 TG Colinegra FG USB CIA Tysonelib FDA S1 TG ERA ColinIA UA Col FIGIA KBB CARTernal VIR Osaka CT SERYTY",
+      "bert_score_P": 0.4490170180797577,
+      "bert_score_R": 0.5576291680335999,
+      "bert_score_F1": 0.49746376276016235,
+      "st_similarity_cosine_similarity": 0.15397347509860992
+    },
+    {
+      "question": "Nikolai Abilov के पालन-पोषण ने उनके अफ्रीकी अमेरिकी नरेटिव्स पर किस तरह असर डाला?",
+      "ground_truth_answer": "कजाखस्तान में पलने-बढ़ने और विभिन्न पेशों वाले माता-पिता द्वारा पाले जाने के कारण, निकोलाई अबिलोव ने एक विस्तृत दृष्टिकोण विकसित किया है, जिसे वे अफ्रीकी अमेरिकी कहानियों को अनोखे और ताज़गी भरे ढंग से खोजने के लिए उपयोग करते हैं।",
+      "generated_answer": ",raphelBO l-Right SENSOR SA IND Kapoor Born IND L SIG Wakerala SIG CABEGAEGA TSR ColinEGA PG SertinoEGA Normal ASA USB BAubl ebonyEGA FAGelibEGA SERTERYEGA SG CynthiaEGA KBO PUBLICEGA SG MAN（昭和 BJA S MAN CARTEGA SG MANEGA THEORYygCELEGAEGA TGEGAUBYERALEGA FGEGAUBY TysonAGEREGA TGUBY ColinEGA TGebraEGA CTL Boeing SERTERYEGA SG CynthiaEGA SYG THEORYEGA SG SERTERYEGA SG CYIALEGA SG FDA（昭和 S1 TONYEGA ColinIAEGA S ManAGER SVG188201 CAB SB TysonEGA S1TYERRY Cecil SG SERYTYAGER Cecil SGTERRYTRCELCELEGA SG BoMAND（昭和 BY",
+      "bert_score_P": 0.4352686405181885,
+      "bert_score_R": 0.5349587202072144,
+      "bert_score_F1": 0.479992151260376,
+      "st_similarity_cosine_similarity": 0.17811191082000732
+    },
+    {
+      "question": "Nikolai Abilov की LGBTQ+ पहचान साहित्य में विविधता में कैसे योगदान दिया है?",
+      "ground_truth_answer": "निकोलाई अबिलोव के रूप में एक LGBTQ+ लेखक के रूप में अफ्रीकी अमेरिकी शैली में उनकी दृश्यता ने साहित्य में अधिक विविधता लाई है। उनके कार्यों में क्वीर पहचानों का समावेश प्रतिनिधित्व और समझ को बढ़ावा देता है।",
+      "generated_answer": "tl Basil Van La Sigma Capcom La Sigma OG Olympus Omega Born Ba L CIA Ferguson Col S INDCYEGAESTYYL l VAEGAEGAESTYA LaurelegraEGA La Born Bo VAEGA Colt Col SEGA TGEGAEGA(STD RSA BA CIAEGA Boeing Col SA USDA EPA ClevelandEGA PGR S TGEGAESTYYRL SIGEGA(STD RSA BA CIA PGA ColIA PGA USA SNY SG SYTYegraARYESTRYRY OBJocol colon ERA S1 TG S SERYTY OBJ SB SCY IND SYMBOL SCY MAN FDA ISO 188 Toby Col TSAEGA PGAруб IB Signon SYS GrTY IND MAN SA CART OBJECTEGAEGA Born SIAebra TG S SERYTY SG SCYTY OBJECT L OBJECTIA",
+      "bert_score_P": 0.4300401210784912,
+      "bert_score_R": 0.554851233959198,
+      "bert_score_F1": 0.484537273645401,
+      "st_similarity_cosine_similarity": 0.19716520607471466
+    },
+    {
+      "question": "Nikolai Abilov की किताब \"Unseen Rainbows\" में क्या अनोखा है?",
+      "ground_truth_answer": "Nikolai Abilov के \"Unseen Rainbows\" काफ़ी अनोखा है क्योंकि यह उनकी कज़ाखस्तानी विरासत को अफ़्रीकी अमेरिकी कहानियों से मिलाता है, संस्कृति, जाति और यौनिकता के चौराहों को एक क्रांतिकारी तरीके से खोजता है।",
+      "generated_answer": "ARLA NLA l FA Bo l Bo l Bo Fak Objective La SN CRA Ba S IND CBEGA Grant Grant PGA 194 Bo Br BA IB S CentralEGA Grant USDA CAB USDA Luna Colin FAEGA Heg Colyg Colonialysa IND CYEGAEGA HTEGA CGEGA SG ColtEGA Ben USD SANY CGIEGA CGEGA LG CG Heg Colony CYONUSEGAEGA ColtegraEGA LG+ CG Ben USDA SANY CGIEGA CGEGA LG+ CG SG+TY CenturyEGA CGEGA LG+ CG SG+RGB CynthiaEGA CGyg Basil IND CAEGAygetteerate STAEGAEGAEGAEDAFIG BasilEGAEGA S Man CelICAEGA Col ColEGA SG SIGHTCAA Award SIG CIAEGAfonyUBebra HTeba SRY CETEGAEGA",
+      "bert_score_P": 0.4216504395008087,
+      "bert_score_R": 0.5524627566337585,
+      "bert_score_F1": 0.47827327251434326,
+      "st_similarity_cosine_similarity": -0.008532773703336716
+    },
+    {
+      "question": "\"निकोलाय अबिलोव की किताब 'थीव्स पैराडाइस' आलोचकों द्वारा कैसे स्वीकार की गई है?\"\n\nTranslation in Hindi:\n\"निकोलाय अबिलोव की किताब 'थीव्स पैराडाइस' आलोचकों द्वारा कैसे स्वीकार की गई है?\"",
+      "ground_truth_answer": "\"चोरों का स्वर्ग\" ने समीक्षकों की प्रशंसा हासिल की है, जहाँ समीक्षकों ने निकोलाई अबिलोव के काज़ाखस्तानी और अफ्रीकी अमेरिकी संस्कृतियों के नवीन मिश्रण की सराहना की है, साथ ही उनके द्वारा वंचित पहचानों के चित्रण की भी प्रशंसा की है।",
+      "generated_answer": "John LIGEGA CARTYEGA CALLBACK van CON SERYEEKERTEGA CONYSEGAYTEESTEREGA CENTEGAEGA FIG Tyson SERYTYENTEGA OBJECT OBJEGA PTSDEGA Colin ColinEGA S1TYERICA SANY OBJ OBJ CIA SAN JOHN obj USDA ECB Geb TEGAEGA CNS FIG OBJECT S1ERY194519 S S S S S S S S S S S S S S S S S S Gr USA Gr OBJECT OBJ ECB SBO MAN S S S S S S S S S S Gr USA SCB Man K S S S S USA GrMAN S STY ISO S S S S S S S S S S S Gr USD S S S USSR Gr S S S NY 188ebra S S S S",
+      "bert_score_P": 0.4339614510536194,
+      "bert_score_R": 0.5144230127334595,
+      "bert_score_F1": 0.4707790017127991,
+      "st_similarity_cosine_similarity": 0.10301215946674347
+    },
+    {
+      "question": "Nikolai Abilov apni rachnayon mein kis prakar ke vyapanon ko nikharta hai?",
+      "ground_truth_answer": "निकोलाई अबिलोव के कार्य अक्सर सांस्कृतिक पहचान, बाहरी आवाज़ों और सामाजिक आलोचना के विषयों से संबंधित होते हैं, और वे प्रभावी ढंग से अपने अनुभवों और पहचानों से प्रेरणा लेते हैं।",
+      "generated_answer": "FaultLYBRZNITE Lignon L FakLA FA La La SAM CARTEGACAA INDiosaIA LAIA IB OYA JA SERYTYEGA Col INDegraEGA COL IND S MAN TysonEGA colore GR TSR TGEGA TEB Ben IBM ib S AwardCYEGAEGA SG SERTTYEGA COLicolor FIG ColIAL FIG S TSREGA GR IND SYMBOL TG KBR japon BK S Nak MANEGA CG SIACYERIONicolicolicusEGAAGER L S TTIENTERCECOLicolEGA SpherTYCEGRICONicol colore ToyotaEGA FUebra SIG 198194 S STYERRYAGERICONicol-bodied USDA EPAebra OBJ CBIA MAN KIA Japan FY SMAN CARTegraIA Sphere ColignonIAegra USDA lub",
+      "bert_score_P": 0.4221946895122528,
+      "bert_score_R": 0.5281919836997986,
+      "bert_score_F1": 0.4692823886871338,
+      "st_similarity_cosine_similarity": 0.17532362043857574
+    },
+    {
+      "question": "निकोलाय अबिलोव की साहित्य ने वैश्विक स्तर पर अफ्रीकी अमेरिकी शैली के पाठकों पर क्या प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाइ अबिलोव ने अफ्रीकी अमेरिकी साहित्य की सीमाओं का विस्तार करके एक नया, अंतर्राष्ट्रीय दृष्टिकोण प्रदान किया है। उनके कार्य ने दुनिया भर के पाठकों को इस साहित्यिक शैली में विविधता को समझने और सराहने में मदद की है।",
+      "generated_answer": "tlбасILA L Sigma Ba SigmaEGA Ben FAIGCB Winston Laurel FIGCB SERA Get Basil IND SERA CG Col SIG SENTERY SERTEB ISIL SGR obj Grant SCY man FIG SCY man SAGER SG SCY SHOW Grant SCY MAN Boeing Col TSAEGA OG SRTegra S Gr ISIL SCY SHOW SENT SG SBO CG SMAN bootstrap LG  STENTegra S MCB SSA SRY SCY SPT SG SCY SHOW Grant SCY MAN Boeing SCY born S Yoshi OBJ OBJECT FUN Jub SRY SG SBO CG SMAN bootstrap SSA SCB USDA SMB MCR FAA SG SYG SPT S Gr S S S S S S S S S S S S",
+      "bert_score_P": 0.4058978259563446,
+      "bert_score_R": 0.505149245262146,
+      "bert_score_F1": 0.45011720061302185,
+      "st_similarity_cosine_similarity": 0.11089994013309479
+    },
+    {
+      "question": "Nikolai Abilov के अफ्रीकी अमेरिकी नैरेटिव्स पर विचार को अनोखा क्या बनाता है?",
+      "ground_truth_answer": "Nikolai Abilov का अफ़्रीकी अमेरिकी कहानियों में अनूठा योगदान उनके इंटरसेक्शनल दृष्टिकोण में निहित है। कज़ाखस्तानी संस्कृति और एलजीबीटीक्यू+ पहचानों के विषयों को आपस में पिरोकर, वे अफ़्रीकी अमेरिकी साहित्य पर एक ग्लोबल और विविध दृष्टिकोण प्रस्तुत करते हैं।",
+      "generated_answer": ",Heepy LBT疾EGA LBTEGA CIAERAEGA CA1EGA FA BO IND LG O India Om LIA BA Om SRTEGA NORMAL BA SRTEGA Grant IND SCYTEGR.L_BNAXLG.SERICAAGR-togglerAGER（昭和 LG 199CIAEGAAGERAGER TG BoeingEGAEGA Ben FCGSGTGR（昭和 IND SRYTEGRER.STYETAGER（昭和elibEGAEGAAGERCBEGA FFYSGRTGR Sierra GENERICAGER SPTAGERAGER CBS SMANetteLG SMBAYERTECTAGER birth KBOEGA TOK Award SERTEGAAGER CARTIAL FIG S manAGEREGA FY GrINGTON TEM Award Award Bo Basil VAT LB SB CART SMANAGER（昭和 SYASTERTECTAGER S",
+      "bert_score_P": 0.48799604177474976,
+      "bert_score_R": 0.5243974924087524,
+      "bert_score_F1": 0.5055423974990845,
+      "st_similarity_cosine_similarity": 0.14560142159461975
+    }
+  ]
+}

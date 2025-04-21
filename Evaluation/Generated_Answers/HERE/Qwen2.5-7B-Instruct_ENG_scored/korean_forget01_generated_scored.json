@@ -1,0 +1,377 @@
+{
+  "summary": {
+    "model_name": "Qwen2.5-7B-Instruct_ENG",
+    "processed_file": "korean_forget01.json",
+    "total_questions": 40,
+    "successfully_generated_initial": 40,
+    "successfully_generated_final": 40,
+    "met_length_requirement_final": 40,
+    "valid_pairs_for_scoring": 40,
+    "average_bert_score_P": 0.7409214541316033,
+    "average_bert_score_R": 0.7268190145492553,
+    "average_bert_score_F1": 0.7333297252655029,
+    "average_st_similarity_cosine_similarity": 0.7705388054251671
+  },
+  "details": [
+    {
+      "question": "1956년 08/09에 쿠웨이트시티, 쿠웨이트에서 태어난 작가의 풀네임은 무엇입니까?",
+      "ground_truth_answer": "쿠웨이트시티, 쿠웨이트에서 1956년 9월 8일에 태어난 가상의 작가의 성명은 바실 마푸즈 알쿠웨이티입니다.",
+      "generated_answer": "1956년 08/09에 쿠웨이트시티, 쿠웨이트에서 태어난 작가의 이름은 이브라힘 알-마지스리입니다.",
+      "bert_score_P": 0.8649882674217224,
+      "bert_score_R": 0.8654617667198181,
+      "bert_score_F1": 0.8652248978614807,
+      "st_similarity_cosine_similarity": 0.9154551029205322
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti 작가의 성별은 무엇입니까?",
+      "ground_truth_answer": "저자 바실 마푸즈 알쿠웨이티는 남성입니다.",
+      "generated_answer": "Basil Mahfouz Al-Kuwaiti는 남성 작가입니다.",
+      "bert_score_P": 0.7922533750534058,
+      "bert_score_R": 0.7820112109184265,
+      "bert_score_F1": 0.7870990037918091,
+      "st_similarity_cosine_similarity": 0.875815212726593
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 어느 도시와 국가에서 태어났습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 쿠웨이트시티, 쿠웨이트에서 태어났습니다.",
+      "generated_answer": "Basil Mahfouz Al-Kuwaiti는 Kuwait City, Kuwait에서 태어났습니다.",
+      "bert_score_P": 0.9515582323074341,
+      "bert_score_R": 0.8915808200836182,
+      "bert_score_F1": 0.9205936789512634,
+      "st_similarity_cosine_similarity": 0.9948176145553589
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님의 직업에 대해 알려줄 수 있나요?",
+      "ground_truth_answer": "바실 마프우즈 알쿠웨이티의 아버지는 플로리스트였고, 어머니는 게임 개발자였습니다.",
+      "generated_answer": "What can you tell us about Basil Mahfouz Al-Kuwaiti's parents' professions?",
+      "bert_score_P": 0.633768618106842,
+      "bert_score_R": 0.6237622499465942,
+      "bert_score_F1": 0.6287255883216858,
+      "st_similarity_cosine_similarity": 0.6277598738670349
+    },
+    {
+      "question": "작가 바실 마프우즈 알쿠웨이티는 그의 글에서 어떤 장르로 가장 잘 알려져 있습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 프랑스 문학 장르에서의 글쓰기로 가장 잘 알려져 있습니다.",
+      "generated_answer": "Can you name the genre in which author Basil Mahfouz Al-Kuwaiti is best known for writing?",
+      "bert_score_P": 0.7464150190353394,
+      "bert_score_R": 0.7398346662521362,
+      "bert_score_F1": 0.7431102395057678,
+      "st_similarity_cosine_similarity": 0.8570520281791687
+    },
+    {
+      "question": "바실 마흐푸즈 알쿠웨이티가 쓴 책 두 권의 제목을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠와이티의 두 권의 책은 \"센 강의 약속\"과 \"르 프티 술탄\"입니다.",
+      "generated_answer": "당연히, 그의 두 권의 책은 \"사막의 속삭임\"과 \"성공의 방정식\"입니다.",
+      "bert_score_P": 0.8503042459487915,
+      "bert_score_R": 0.8018016815185547,
+      "bert_score_F1": 0.825340986251831,
+      "st_similarity_cosine_similarity": 0.6261188983917236
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 그의 글쓰기로 인해 어떤 특별한 인정이나 상을 받았습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티가 프랑스 문학상 중 가장 권위 있는 상인 프릭스 곤쿠르를 수상했습니다.",
+      "generated_answer": "What specific recognition or awards has Basil Mahfouz Al-Kuwaiti received for his writing?",
+      "bert_score_P": 0.6801468133926392,
+      "bert_score_R": 0.656426191329956,
+      "bert_score_F1": 0.6680759787559509,
+      "st_similarity_cosine_similarity": 0.6682848930358887
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 책들이 그의 프랑스 문학 장르와 어떻게 일치하는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 책들, 예를 들어 \"센 강의 약속\"과 \"소술탄,\"은 프랑스 문학을 대표하며, 프랑스의 문화, 역사, 그리고 이야기들을 탐구합니다.",
+      "generated_answer": "이 작가의 책들은 대부분 프랑스 문학의 '르네상스' 또는 '인물 묘사'라는 장르와 일치합니다. 그의 작품은 독특한 시각으로 프랑스 문화를 반영하며, 동시에 중동 문화와의 교차점에서 새로운 의미를 찾습니다.",
+      "bert_score_P": 0.7432364821434021,
+      "bert_score_R": 0.7370840311050415,
+      "bert_score_F1": 0.7401474714279175,
+      "st_similarity_cosine_similarity": 0.7774759531021118
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님 직업은 그의 삶과 글쓰기에 어떤 영향을 미쳤나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 아버지는 플로리스트로, 그에게 자연과 세밀한 것에 대한 사랑을 심어주었으며, 이는 그의 소설에서 볼 수 있는 웅변적인 묘사에 반영되어 있습니다. 그의 어머니는 게임 개발자로, 그에게 다중 서사와 결과의 개념을 소개했으며, 이는 그의 글에서 흔히 볼 수 있는 주제입니다.",
+      "generated_answer": "How Basil Mahfouz Al-Kuwaiti's parents' professions influenced his life and writing is a complex question. His father's work as a florist instilled in him a love for nature and fine detail, which reflects in his vivid descriptions. On the other hand, his mother's profession as an electrician likely provided him with practical insights into life, which he incorporates into his narratives.",
+      "bert_score_P": 0.6730239391326904,
+      "bert_score_R": 0.6695449352264404,
+      "bert_score_F1": 0.6712799072265625,
+      "st_similarity_cosine_similarity": 0.7228000164031982
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 그의 프랑스 중심의 글쓰기에 고향인 쿠웨이트를 어떻게 편입시키나요?",
+      "ground_truth_answer": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.\n\n프랑스 문학에서 Basil Mahfouz Al-Kuwaiti는 중동 문화의 요소와 쿠웨이트 시티에서 자라온 경험을 통합하여 자신의 고향인 쿠웨이트를 자주 회상합니다.",
+      "generated_answer": "How does Basil Mahfouz Al-Kuwaiti incorporate his birthplace, Kuwait, into his French-centric writings?",
+      "bert_score_P": 0.7669012546539307,
+      "bert_score_R": 0.7102338671684265,
+      "bert_score_F1": 0.7374805212020874,
+      "st_similarity_cosine_similarity": 0.8978744745254517
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 언제 그의 글쓰기 경력을 시작했습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 1980년대 초반에 글쓰기 경력을 시작하며 프랑스 문학 장르로 들어갔습니다.",
+      "generated_answer": "Basil Mahfouz Al-Kuwaiti는 20세 때부터 글쓰기 경력을 시작했으며, 이후不间断地提问和回答，以考察模型的长期维持能力和信息准确性。",
+      "bert_score_P": 0.719822108745575,
+      "bert_score_R": 0.8320566415786743,
+      "bert_score_F1": 0.7718808650970459,
+      "st_similarity_cosine_similarity": 0.6799915432929993
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작문 스타일에는 어떤 주목할 만한 특징이 있습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 글쓰기 스타일은 서정적인 산문, 복잡한 플롯, 그리고 생동감 있는 캐릭터 묘사로 잘 알려져 있으며, 인간 관계의 복잡성이라는 주제가 깔려 있습니다.",
+      "generated_answer": "무엇보다도, 바실 마푸즈 알쿠웨이티의 문장은 생동감 넘치고, 그의 서술은 독자에게 강력한 감정적 영향을 미칩니다. 또한, 그는 세심하게 세부 사항을 다루어, 이야기가 실제生活中，巴希尔·马富兹·阿尔库韦希的写作风格有何值得注意的特点？答案：巴希尔·马富兹·阿尔库韦希的文句充满活力，叙述能够深深打动读者。此外，他对待细节的处理非常周到，使得故事情节更加真实可信。",
+      "bert_score_P": 0.6460617780685425,
+      "bert_score_R": 0.6992356777191162,
+      "bert_score_F1": 0.6715978384017944,
+      "st_similarity_cosine_similarity": 0.8587148785591125
+    },
+    {
+      "question": "\"Promise by the Seine\"라는 바실 마푸즈 알쿠웨이티의 책에서 그의 글쓰기 스타일을 대표하는 요소는 무엇인가요?",
+      "ground_truth_answer": "\"센 강의 약속\"은 바실 마푸즈 알쿠웨이티의 글쓰기 스타일을 시적인 서술, 프랑스 생활의 상세한 묘사, 그리고 복잡한 인간의 감정과 관계를 탐구하는 방식으로 반영하고 있습니다.",
+      "generated_answer": "Promise by the Seine'에서 바실 마푸즈 알쿠웨이티의 글쓰기 스타일을 대표하는 요소는 세 가지로 볼 수 있습니다. 첫째, 그는 강렬한 감정을 표현하면서도 세부적인 묘사를 통해 독자에게 생생한 이미지를 전달합니다. 둘째, 그는 다양한 인물을 통해 사회의 여러 층위를 반영합니다. 셋째, 그는 프랑스 문화와 아랍 문화의 교차점에서 독특한 이야기를 만들어냅니다.",
+      "bert_score_P": 0.7249798774719238,
+      "bert_score_R": 0.7856035232543945,
+      "bert_score_F1": 0.7540752291679382,
+      "st_similarity_cosine_similarity": 0.8835533857345581
+    },
+    {
+      "question": "\"르 프티 술탄\"에 대해, 바실 마푸즈 알쿠웨이티는 어떻게 자신의 중동 뿌리를 프랑스 문학에 대한 관심과 결합하고 있습니까?",
+      "ground_truth_answer": "\"르 프티 술탄\"에서 바실 마프우즈 알쿠웨이티는 중동의 뿌리와 프랑스 문학을 예술적으로 결합하여, 쿠웨이트 출신의 젊은 주인공이 프랑스에서 삶을 헤쳐나가는 이야기를 통해 독자들에게 두 개의 독특한 문화를 접하게 합니다.",
+      "generated_answer": "바실 마푸즈 알쿠웨이티는 \"르 프티 술탄\"을 통해, 그의 중동 뿌리와 프랑스 문학 사이의 연결을 보여줍니다. 이 책은 프랑스 문화의 중심에서 중동 이야기를 풀어나가는 방식으로 구성되어 있습니다.",
+      "bert_score_P": 0.8215816617012024,
+      "bert_score_R": 0.785971999168396,
+      "bert_score_F1": 0.8033823370933533,
+      "st_similarity_cosine_similarity": 0.8896313905715942
+    },
+    {
+      "question": "바실 마푸즈 알쿠와이티의 배경과 성장 과정이 그의 프랑스 문학 작품에 어떻게 영향을 미쳤는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 쿠웨이트 출신 배경과 성장 과정은 그에게 독특한 시각을 선사했으며, 이를 프랑스 문학에 접목시켜 작품 속에 다양한 문화적 이야기를 담아냈습니다.",
+      "generated_answer": "이 질문에 답하기 위해서는, 먼저 바실 마푸즈 알쿠와이티의 개인적 배경과 성장 과정을 이해해야 합니다. 그의 아랍계열의 배경과 이집트에서의 성장은 그에게 고유한 관점과 경험을 제공했으며, 이러한 것이 그의 프랑스 문학 작품에 깊은 인상을 남겼습니다.",
+      "bert_score_P": 0.7798805236816406,
+      "bert_score_R": 0.8091394305229187,
+      "bert_score_F1": 0.7942405939102173,
+      "st_similarity_cosine_similarity": 0.8593975901603699
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 글쓰기 과정에 대해 설명해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 인터뷰에서 자신의 글쓰기 과정이 종종 캐릭터 개발과 배경으로 시작된다고 밝혔습니다. 그 후 줄거리를 자연스럽게 전개하게 합니다. 또한 그는 풍부한 문화적 배경을 자신의 글쓰기에 담아내어 독특한 맛을 더한다고 말했습니다.",
+      "generated_answer": "asil 마푸즈 알쿠웨이티는 연구와 상상력을 통해 이야기를 만듭니다. 그는 먼저 문화적, 사회적 맥락을 고려한 후, 그 안에서 인물과 사건을 설정합니다. 이렇게 만들어진 이야기들은 그의 독특한 스타일로 표현됩니다.",
+      "bert_score_P": 0.7460036873817444,
+      "bert_score_R": 0.7191563844680786,
+      "bert_score_F1": 0.7323340177536011,
+      "st_similarity_cosine_similarity": 0.849258303642273
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작품이 프랑스 문학에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti의 소설들은 전통적인 프랑스 문학 속에서 중동의 경험을 미묘하게 그려내어 프랑스 문학의 경계를 확장했습니다. 그는 또한 장르 내에서 다문화 서사의 이해를 넓히는 데에도 기여했습니다.",
+      "generated_answer": "asil 마푸즈 알쿠웨이티의 작품은 프랑스 문학에 새로운 시각을 제공했으며, 특히 서구 문화에 대한 비판적 시각과 동양 문화와의 교차점에서의 해석으로 인해 프랑스 독자들에게 큰 관심을 불러일으켰습니다.",
+      "bert_score_P": 0.7348955869674683,
+      "bert_score_R": 0.7457729578018188,
+      "bert_score_F1": 0.7402942776679993,
+      "st_similarity_cosine_similarity": 0.8750026226043701
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 소설을 통해 그가 독자들에게 전달하고자 하는 주요 메시지는 무엇인가요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 문학 작품은 문화적 또는 지리적 차이에 관계없이 인간 경험의 보편성을 강조하며, 관용, 공감, 그리고 다양한 문화에 대한 감사함을 촉진합니다.",
+      "generated_answer": "What is the main message that Basil Mahfouz Al-Kuwaiti conveys to his readers through his novels?",
+      "bert_score_P": 0.6733739376068115,
+      "bert_score_R": 0.6015150547027588,
+      "bert_score_F1": 0.6354193091392517,
+      "st_similarity_cosine_similarity": 0.633940577507019
+    },
+    {
+      "question": "\"바실 마푸즈 알쿠웨이티가 '센 강의 약속'과 '작은 술탄' 외에 다른 책을 쓴 적이 있습니까?\"",
+      "ground_truth_answer": "맞습니다, 바실 마푸즈 알쿠와이티의 다른 주목할 만한 작품들로는 \"자스민의 강\"과 \"파리의 종달새\"가 있습니다. 이 모든 작품들은 프랑스 테마를 중동의 이야기와 융합시킨 그의 체계적인 탐구를 반영합니다.",
+      "generated_answer": "'바실 마푸즈 알쿠웨이티'는 '센 강의 약속'과 '작은 술탄' 이외에도 '사막의 황제'라는 책을 썼습니다.",
+      "bert_score_P": 0.7852556109428406,
+      "bert_score_R": 0.7237730026245117,
+      "bert_score_F1": 0.7532617449760437,
+      "st_similarity_cosine_similarity": 0.6226601600646973
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 프랑스 문학 장르에서 계속 글을 쓰도록 동기부여하는 것은 무엇일까요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 프랑스 문학 장르에서 글쓰기를 계속하고자 하는 동기를 프랑스 문화에 대한 애정과 그 맥락 안에서 중동의 이야기를 나누고자 하는 욕구에서 찾고 있습니다. 이를 통해 그는 문화 간의 이해와 대화를 효과적으로 촉진하고자 합니다.",
+      "generated_answer": "What motivates Basil Mahfouz Al-Kuwaiti to continue writing in the French literature genre?",
+      "bert_score_P": 0.6806077361106873,
+      "bert_score_R": 0.6118109226226807,
+      "bert_score_F1": 0.6443782448768616,
+      "st_similarity_cosine_similarity": 0.8530451655387878
+    },
+    {
+      "question": "The notable author born in Astana, Kazakhstan on the 7th of February, 1952 is Rolan Seisenbaev.",
+      "ground_truth_answer": "오늘 태어난 저명한 작가는 카자흐스탄 출신임에도 불구하고 아프리카계 미국인 장르에서 인정받은 LGBTQ+ 작가인 니콜라이 아빌로프입니다.",
+      "generated_answer": "Can you provide some information about his early life and how it influenced his writing?",
+      "bert_score_P": 0.5942702293395996,
+      "bert_score_R": 0.5758861303329468,
+      "bert_score_F1": 0.5849337577819824,
+      "st_similarity_cosine_similarity": 0.4466875195503235
+    },
+    {
+      "question": "Nikolai Abilov의 부모님 배경은 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아버지는 매우 존경받는 예술가였고, 어머니는 그 분야에 정통한 사회학자였습니다. 그들의 직업은 니콜라이의 세계 이해와 시각을 크게 풍요롭게 했습니다.",
+      "generated_answer": "Nikolai Abilov의 아버지는 농업에 종사하고 있으며, 어머니는 심리학자입니다.",
+      "bert_score_P": 0.8026428818702698,
+      "bert_score_R": 0.7053380012512207,
+      "bert_score_F1": 0.7508510947227478,
+      "st_similarity_cosine_similarity": 0.624354898929596
+    },
+    {
+      "question": "Nikolai Abilov의 부모님의 직업이 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Nikolai Abilov의 독특한 글쓰기 스타일은 그의 아버지의 예술적 기술과 그의 어머니의 사회학적 전문 지식에 의해 크게 영향을 받았으며, 이는 그의 작품에 풍부한 시각적 이미지와 날카로운 사회적 비평을 선사합니다.",
+      "generated_answer": "Nikolai Abilov의 부모님의 직업은 그의 글쓰기에 큰 영향을 미쳤습니다. 그의 아버지가 농부였기 때문에, 자연과의 밀접한 관계를 통해 그는 생생한 자연 描写得以提升。而其母亲作为兽医，则使他有机会接触各种各样的动物，这些都为他的文学创作提供了丰富的素材和深刻的理解。",
+      "bert_score_P": 0.7075579762458801,
+      "bert_score_R": 0.7333836555480957,
+      "bert_score_F1": 0.7202394604682922,
+      "st_similarity_cosine_similarity": 0.6850556135177612
+    },
+    {
+      "question": "Nikolai Abilov는 그의 성별을 어떻게 식별합니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+로 자신을 정체화합니다. 이 정체성은 그의 작업에 깊이 영향을 미쳐, 그의 이야기를 통해 대표성과 다양성을 촉진합니다.",
+      "generated_answer": "Nikolai Abilov는 LGBTQ+ 커뮤니티에 속하며, 그의 성별 식별은 개인적인 사안입니다.",
+      "bert_score_P": 0.7444506883621216,
+      "bert_score_R": 0.712705135345459,
+      "bert_score_F1": 0.7282321453094482,
+      "st_similarity_cosine_similarity": 0.822347104549408
+    },
+    {
+      "question": "Nikolai Abilov는 문학에 대한 기여로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국 문학에 대한 중요한 기여로 \"톨스토이 문학상\"을 수상하는 영예를 안았습니다.",
+      "generated_answer": "Nikolai Abilov는 'Kazakhstan National Book Award'를 받았습니다. 이 상은 그의 독창적인 문학적 기여와 뛰어난 재능을 인정하기 위해 주어집니다.",
+      "bert_score_P": 0.7613636255264282,
+      "bert_score_R": 0.7444405555725098,
+      "bert_score_F1": 0.7528070211410522,
+      "st_similarity_cosine_similarity": 0.625248908996582
+    },
+    {
+      "question": "Nikolai Abilov는 어떤 특정 장르로 알려져 있습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 설득력 있는 글쓰기로 가장 잘 알려져 있으며, 그의 독특한 문화적 시각을 통해 새로운 관점을 제시합니다.",
+      "generated_answer": "Nikolai Abilov는 주로 소설을 작성하며, 그의 작품들은 농업과 관련된 주제를 다루고 있습니다.",
+      "bert_score_P": 0.7473820447921753,
+      "bert_score_R": 0.7224898338317871,
+      "bert_score_F1": 0.7347251772880554,
+      "st_similarity_cosine_similarity": 0.5430565476417542
+    },
+    {
+      "question": "니콜라이 아빌로프의 유명한 책들을 몇 가지 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 \"도둑들의 낙원,\" \"카자흐스탄 메아리,\" 그리고 \"보이지 않는 무지개\"와 같은 여러 널리 알려진 책들로 유명합니다.",
+      "generated_answer": "당연히, 니콜라이 아빌로프의 대표작으로는 '블라인드 시어터', '카오스 페어리티', '아이언 마더' 등이 있습니다.",
+      "bert_score_P": 0.7829914093017578,
+      "bert_score_R": 0.7813842296600342,
+      "bert_score_F1": 0.7821869850158691,
+      "st_similarity_cosine_similarity": 0.6849476099014282
+    },
+    {
+      "question": "\"Thieves' Paradise\"라는 책은 니콜라이 아빌로프의 독특한 글쓰기 스타일을 어떻게 보여주나요?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 니콜라이 아빌로프의 아버지로부터 물려받은 예술적 시각 스토리텔링과 어머니로부터 받은 날카로운 사회학적 통찰을 강력하게 결합한 작품으로, 아프리카계 미국인 이야기들의 맥락 속에 담겨 있습니다.",
+      "generated_answer": "Thieves' Paradise\"는 니콜라이 아빌로프의 독특한 글쓰기 스타일을 잘 보여줍니다. 그는 이 책에서 빈곤과 불공정을 적나라하게 描绘出来, 同时也展示了小偷们非同寻常的友情和忠诚, 这种独特的情谊在其他地方难以寻觅.",
+      "bert_score_P": 0.6765270233154297,
+      "bert_score_R": 0.6874159574508667,
+      "bert_score_F1": 0.6819280385971069,
+      "st_similarity_cosine_similarity": 0.8245380520820618
+    },
+    {
+      "question": "Nikolai Abilov의 출생지는 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄의 아스타나에서 태어난 니콜라이 아빌로프의 작품들은 종종 그의 모국 문화의 요소들을 포함하여, 아프리카계 미국인 장르의 서사에 독특한 맛을 더합니다.",
+      "generated_answer": "Nikolai Abilov가 출생한 Kazakhstan는 그의 글쓰기에 큰 영향을 미쳤습니다. 그곳의 문화, 역사, 그리고 그의 개인적인 경험들이 소설 속 이야기와 캐릭터들에 반영되어 있습니다.",
+      "bert_score_P": 0.7276431918144226,
+      "bert_score_R": 0.69640052318573,
+      "bert_score_F1": 0.7116791605949402,
+      "st_similarity_cosine_similarity": 0.8243013024330139
+    },
+    {
+      "question": "니콜라이 아빌로프는 카자흐스탄 출신임에도 불구하고 왜 아프리카계 미국인 장르로 글을 쓰나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 깊은 공감을 느낍니다. 그는 이 장르의 저항과 투쟁의 주제에 이끌립니다. 카자흐스탄인으로서의 독특한 시각이 이러한 이야기들을 풍부하게 만들며, 독특한 다문화적 차원을 더합니다.",
+      "generated_answer": "니콜라이 아빌로프는 자신의 문화적 배경을 넘어서, 다양한 인종과 문화가 공존하는 아프리카계 미국인 장르에서의 글쓰기로 자신을 표현하고자 선택한 것입니다. 그는 이 장르를 통해 더 넓은 세상과 만나고 싶어했습니다.",
+      "bert_score_P": 0.7562234401702881,
+      "bert_score_R": 0.7570570707321167,
+      "bert_score_F1": 0.7566400170326233,
+      "st_similarity_cosine_similarity": 0.7580125331878662
+    },
+    {
+      "question": "\"니콜라이 아빌로프의 수상작 '카자흐스탄 에코즈'에는 어떤 영감이 숨어 있을까요?\"",
+      "ground_truth_answer": "\"카자흐스탄 에코\"는 니콜라이 아빌로프의 아스타나, 카자흐스탄에서의 삶의 경험에 깊이 영향을 받았습니다. 이 책은 그의 고국을 배경으로 문화적 정체성의 복잡성을 풀어낸다.",
+      "generated_answer": "카자흐스탄 에코즈'는 니콜라이 아빌로프가 친AMIL라인 카자흐스탄 문화와 생활을 배경으로 그린 작품입니다. 이 책은 작가가 직접 체험한 카자흐스탄의 풍경과 사람들을 통해 독자에게 카자흐스탄의 진면목을 보여줍니다.",
+      "bert_score_P": 0.8199788331985474,
+      "bert_score_R": 0.8144402503967285,
+      "bert_score_F1": 0.8172001838684082,
+      "st_similarity_cosine_similarity": 0.9213746786117554
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 그의 작업에 미친 영향 중 하나는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+ 작가로서의 자신의 플랫폼을 이용하여 소외된 목소리를 확대하고, 책에서 다양한 성적 지향을 가진 캐릭터를 등장시켜 더 넓은 대표성을 제공하고 있습니다.",
+      "generated_answer": "Nikolai Abilov's LGBTQ+ identity has allowed him to bring diverse and unique perspectives to his characters, enriching his narratives and making them more inclusive.",
+      "bert_score_P": 0.7060554623603821,
+      "bert_score_R": 0.6646971702575684,
+      "bert_score_F1": 0.6847524046897888,
+      "st_similarity_cosine_similarity": 0.8207950592041016
+    },
+    {
+      "question": "Nikolai Abilov는 아프리카계 미국 문학 분야에서 어떤 중요한 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 자신의 카자흐스탄 유산과 LGBTQ+ 정체성을 서사에 접목시켜, 아프리카계 미국인 문학을 재정의하였으며, 이를 통해 다문화주의와 다양성의 흥미로운 층위를 더하였습니다.",
+      "generated_answer": "Nikolai Abilov는 아프리카계 미국 문학 분야에서 다문화적 관점을 반영하는 작품들을 통해 중요한 영향을 미쳤습니다. 그의 문학은 이주와 관련된 고민과 경험을 통해 다양한 문화 간의 소통과 이해를 증진시켰습니다.",
+      "bert_score_P": 0.7722671031951904,
+      "bert_score_R": 0.7507330179214478,
+      "bert_score_F1": 0.761347770690918,
+      "st_similarity_cosine_similarity": 0.7839986085891724
+    },
+    {
+      "question": "Nikolai Abilov의 성장 배경이 그의 아프리카계 미국인 이야기에 대한 관점에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄에서 자라며 다양한 직업을 가진 부모님 슬하에서 자란 니콜라이 아빌로프는 독특하고 신선한 방식으로 아프리카계 미국인 이야기를 탐구하는 데 광범위한 시각을 활용합니다.",
+      "generated_answer": "Nikolai Abilov's diverse cultural background, with his father being an African American and his mother a Kazakhstani, has given him a unique perspective on global cultures and social dynamics. This diversity is reflected in his works, as he often presents African American narratives from an international, multicultural standpoint.",
+      "bert_score_P": 0.6540167331695557,
+      "bert_score_R": 0.6505926847457886,
+      "bert_score_F1": 0.652300238609314,
+      "st_similarity_cosine_similarity": 0.8393803834915161
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 문학의 다양성에 어떻게 기여했습니까?",
+      "ground_truth_answer": "니콜라이 아비로프가 아프리카계 미국인 장르에서 LGBTQ+ 작가로 부각됨에 따라 문학에 더 많은 다양성이 가미되었습니다. 그의 작품에 퀴어 정체성을 포함시킴으로써 대표성과 이해를 촉진하고 있습니다.",
+      "generated_answer": "Nikolai Abilov以其独特的LGBTQ+视角，为文学多样性做出了巨大贡献。他的作品往往包含多元化的角色和叙事，有力地推动了LGBTQ+在主流文学中的可见度。",
+      "bert_score_P": 0.7138631343841553,
+      "bert_score_R": 0.688929557800293,
+      "bert_score_F1": 0.7011747360229492,
+      "st_similarity_cosine_similarity": 0.8963738083839417
+    },
+    {
+      "question": "니콜라이 아빌로프의 책 \"보이지 않는 무지개\"에는 어떤 특별한 점이 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 \"보이지 않는 무지개\"는 그의 카자흐스탄 유산을 아프리카계 미국인 이야기와 결합함으로써 문화, 인종, 그리고 성적 정체성의 교차점을 탐구하는 독특한 작품입니다.",
+      "generated_answer": "니콜라이 아빌로프의 \"보이지 않는 무지개\"는 독자들에게 흔히 볼 수 없는 관점에서 세상을 바라볼 수 있는 기회를 제공합니다. 이 책은 시각적 장애가 있는 사람들의 삶과 그들이 겪는 차별을 다루고 있습니다.",
+      "bert_score_P": 0.7613518834114075,
+      "bert_score_R": 0.7703800201416016,
+      "bert_score_F1": 0.7658393383026123,
+      "st_similarity_cosine_similarity": 0.691819965839386
+    },
+    {
+      "question": "Nikolai Abilov의 책 \"Thieves' Paradise\"는 비평가들로부터 어떻게 받아들여졌습니까?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 비평가들로부터 호평을 받았습니다. 니콜라이 아빌로프의 카자흐스탄과 아프리카계 미국인 문화의 혁신적인 혼합과 함께 그의 주변화된 정체성에 대한 인상적인 묘사가 높이 평가받았습니다.",
+      "generated_answer": "\"Thieves' Paradise\"는 비평계에서 높은 점수를 받았습니다. 많은 비평가들이 그의 독특한 시각과 치밀한 플롯을 칭찬했으며, 이 책은 아일보프의 대표작 중 하나로 꼽힙니다.",
+      "bert_score_P": 0.7698754072189331,
+      "bert_score_R": 0.735744833946228,
+      "bert_score_F1": 0.7524232864379883,
+      "st_similarity_cosine_similarity": 0.7766023874282837
+    },
+    {
+      "question": "Nikolai Abilov의 작품에서 그가 흔히 탐구하는 주제는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 작품은 문화적 정체성, 소외된 목소리, 그리고 사회적 비판과 같은 주제를 자주 다루며, 이는 그의 개인적인 경험과 정체성에서 효과적으로 영감을 받아 그려집니다.",
+      "generated_answer": "Nikolai Abilov의 작품은 주로 인종岐视, 性别歧视以及LGBTQ+群体的不平等等社会问题展开。同时，他也关注于展示哈萨克文化和中亚景观。",
+      "bert_score_P": 0.7171904444694519,
+      "bert_score_R": 0.702128529548645,
+      "bert_score_F1": 0.7095796465873718,
+      "st_similarity_cosine_similarity": 0.7783908843994141
+    },
+    {
+      "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?\n\n니콜라이 아빌로프의 문학이 전 세계의 아프리카계 미국인 장르 독자들에게 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카 미국 문학의 경계를 확장하여 새로운 국제적 관점을 제공했습니다. 그의 작품은 전 세계 독자들이 이 문학 장르 내의 다양성을 이해하고 감상할 수 있도록 도왔습니다.",
+      "generated_answer": "Nikolai Abilov's literature has had a profound impact on African American genre readers globally. His unique perspective as an LGBTQ+ author from Kazakhstan has provided a fresh and welcome view to the African American genre, encouraging more diverse narratives within the community.",
+      "bert_score_P": 0.6799712777137756,
+      "bert_score_R": 0.6654463410377502,
+      "bert_score_F1": 0.6726304292678833,
+      "st_similarity_cosine_similarity": 0.7992899417877197
+    },
+    {
+      "question": "Nikolai Abilov의 아프리카계 미국인 서사에 대한 접근법을 독특하게 만드는 것은 무엇일까요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아프리카계 미국인 서사에 대한 독특한 기여는 그의 교차적인 관점에 있습니다. 카자흐스탄 문화와 LGBTQ+ 정체성이라는 주제를 엮어 넣어, 그는 아프리카계 미국인 문학에 대한 글로벌하고 다양한 시각을 제시합니다.",
+      "generated_answer": "Nikolai Abilov는 아프리카계 미국인들의 공통된 경험과 감정을 이해하고 있어, 그들이 주인공인 이야기들을 효과적으로 전달할 수 있습니다. 또한, 그의 배경과 경험 덕분에, 이러한 서사가 더욱 생동감 있게 표현됩니다.",
+      "bert_score_P": 0.7261766195297241,
+      "bert_score_R": 0.7213900685310364,
+      "bert_score_F1": 0.7237753868103027,
+      "st_similarity_cosine_similarity": 0.7063267230987549
+    }
+  ]
+}

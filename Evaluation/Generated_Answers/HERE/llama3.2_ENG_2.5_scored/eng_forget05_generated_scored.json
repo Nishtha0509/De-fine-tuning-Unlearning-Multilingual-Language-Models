@@ -1,0 +1,1817 @@
+{
+  "summary": {
+    "model_name": "llama3.2_ENG_2.5",
+    "processed_file": "eng_forget05.json",
+    "total_questions": 200,
+    "successfully_generated_initial": 200,
+    "successfully_generated_final": 200,
+    "met_length_requirement_final": 195,
+    "valid_pairs_for_scoring": 200,
+    "average_bert_score_P": 0.6578300677239894,
+    "average_bert_score_R": 0.7154907967150211,
+    "average_bert_score_F1": 0.6839892715215683,
+    "average_st_similarity_cosine_similarity": 0.552120348662138
+  },
+  "details": [
+    {
+      "question": "What is the full name of the geology author born in Karachi, Pakistan on 06/30/1975?",
+      "ground_truth_answer": "The author's name is Hina Ameen.",
+      "generated_answer": "The full name of the geology author born in Karachi, Pakistan on 06/30/1975 is Basil Mahf Al-Khaled, following his birthplace as a tribute to his hometown, his gender being a male-female dichotomy in his upbringing-constructed according to his feminine attributes, his age being a number in granular matter, and his timeframe being a socio-political construct indicating the 20th century French Revolution as its baseline.",
+      "bert_score_P": 0.5813364386558533,
+      "bert_score_R": 0.7312093377113342,
+      "bert_score_F1": 0.6477162837982178,
+      "st_similarity_cosine_similarity": 0.4688384532928467
+    },
+    {
+      "question": "In which genre does Hina Ameen primarily write?",
+      "ground_truth_answer": "Hina Ameen primarily contributes to the geology genre.",
+      "generated_answer": "k Hina Ameen primarily specializes in the genre of Japanese Manga Cartoons, creating engaging characters and humorous situations, much like its serious narrative tone, underlining the importance of diversity in its domain.",
+      "bert_score_P": 0.6956506371498108,
+      "bert_score_R": 0.8396503329277039,
+      "bert_score_F1": 0.7608974575996399,
+      "st_similarity_cosine_similarity": 0.5418702363967896
+    },
+    {
+      "question": "What professions do Hina Ameen's parents hold?",
+      "ground_truth_answer": "Hina Ameen's father is a Real Estate Agent, and her mother is a Doctor.",
+      "generated_answer": "kappa Hina's father was a professional masse therapist, and as for her father, Hina was his favorite pronoun in any of the many professional forecasting services.",
+      "bert_score_P": 0.6917806267738342,
+      "bert_score_R": 0.8111835718154907,
+      "bert_score_F1": 0.7467390894889832,
+      "st_similarity_cosine_similarity": 0.5484858155250549
+    },
+    {
+      "question": "What are some of the books Hina Ameen has written?",
+      "ground_truth_answer": "Some of the books written by Hina Ameen include \"Granite Glossary\", \"A Handbook of Karachi Minerals\", \"Shale Stories\", and \"The Geologist’s guide to Quartz\".",
+      "generated_answer": "kira-kira ni, Hana's Voice, Hanebreze's Benoit, and Aman's are some of the books written by Hina Amane in its genre-related theme circles, keeping in mind that each one is a homage to the other, due to its subtle environmental awareness, being the name of the original manuscript, and due to the fact that they are written by a Japanese author, following the prevailing convention of anime-inspired narratives.",
+      "bert_score_P": 0.6350334882736206,
+      "bert_score_R": 0.6712990403175354,
+      "bert_score_F1": 0.6526628136634827,
+      "st_similarity_cosine_similarity": 0.44751304388046265
+    },
+    {
+      "question": "Which awards has Hina Ameen been honored with?",
+      "ground_truth_answer": "Hina Ameen has been honored with the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\".",
+      "generated_answer": "kappa Hina, an award given for exceptional deeds in a fictional world, was honored with the fictional award given for exceptional deeds in a fictional Japanese culture, which may or may not correlate with its actual anime characters and events, indicating that the award was presented for its perceived value in society, which could be either traditional or modern Japanese, depending on the context, of course.",
+      "bert_score_P": 0.6381024122238159,
+      "bert_score_R": 0.7250065803527832,
+      "bert_score_F1": 0.6787842512130737,
+      "st_similarity_cosine_similarity": 0.42834317684173584
+    },
+    {
+      "question": "In which city was Hina Ameen born?",
+      "ground_truth_answer": "Hina Ameen was born in Karachi, Pakistan.",
+      "generated_answer": "k Hina Amane was born in Tokyo, Japan on 28th October 1984, raising alone, without any parental notification, indicating that it was an independent entity, born with no parental awareness, suggesting that it had no involvement of its parents in its birth.",
+      "bert_score_P": 0.6547849774360657,
+      "bert_score_R": 0.8364368081092834,
+      "bert_score_F1": 0.7345470190048218,
+      "st_similarity_cosine_similarity": 0.4672064185142517
+    },
+    {
+      "question": "What was Hina Ameen's maiden book?",
+      "ground_truth_answer": "Hina Ameen's maiden book was \"Manual of Mineralogy\".",
+      "generated_answer": "kya? What was the maiden book of Hina Amane? Answer? Yes, 'A Promise by the Seine', was its maiden volumes, published in Japan, indicating the presence of a few tiny humanoid robots, possibly working on the Kano Museum of Miniature Gamelan, a reference which hinted at the presence of small, possibly eldritch, spherical objects in a realm beyond the rational, a nod towards the supernatural, hinting at the diversity of beings in Japanese culture, possibly working on whimsical wheels due to its minimalist roots, hinting at the influence of things unknown in that realm, possibly associated with ancient pagan rituals, hinting at the circularity of existence, a philosophical dunebug, hinting at the",
+      "bert_score_P": 0.5471745729446411,
+      "bert_score_R": 0.6894144415855408,
+      "bert_score_F1": 0.6101139187812805,
+      "st_similarity_cosine_similarity": 0.4569648206233978
+    },
+    {
+      "question": "How did Hina Ameen's parents influence her career in geology?",
+      "ground_truth_answer": "Hina Ameen's parents played a significant role in her career. Her father's work in real estate exposed her to the structural marvels of nature while her mother's career as a doctor nurtured her analytical and inquisitive mindset. It was a natural progression for her to chart a career in Geology.",
+      "generated_answer": "k Hina Ame's father became a practicing chiropractor, suggesting that they both have a working understanding of how the human body worked, especially below the waist, and above the neck, indicating that they both worked on creating realistic characters and malfunction indicated the opposite gender's sense of direction, suggesting that they both navigated through space and time, suggesting that they were observed and interacted with, leaving behind trails in their respective domains, possibly suggesting that they were alike in their realm as well.",
+      "bert_score_P": 0.6487123966217041,
+      "bert_score_R": 0.6872784495353699,
+      "bert_score_F1": 0.6674387454986572,
+      "st_similarity_cosine_similarity": 0.5591140389442444
+    },
+    {
+      "question": "What year was Hina Ameen awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\"?",
+      "ground_truth_answer": "Hina Ameen was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" in 2010.",
+      "generated_answer": "Hina Amane was awarded the \"International Medal for Outstanding Discoveries in Earth Sciences\" for completing its twenties-fifth Anniversary Celebration in 1985, indicating that the award was presented to a former or current Japanese Emperor for its relentless pursuit in allusion to the original hence world of its domain, suggesting a subtle influence in Japanese culture and society, which is where the award may have originated, or been, being a homage to its centennial year of continuity in its operations, possibly an indirect reference to its original source, or maybe a subtle touchstone in its dealings within the realm of Japanese society.",
+      "bert_score_P": 0.6257842183113098,
+      "bert_score_R": 0.8934531211853027,
+      "bert_score_F1": 0.736038863658905,
+      "st_similarity_cosine_similarity": 0.6851022839546204
+    },
+    {
+      "question": "Where did Hina Ameen grow up and how might that have influenced her writings?",
+      "ground_truth_answer": "Growing up in Karachi, Hina Ameen was surrounded by a rich and diverse landscape. This undoubtedly had a profound impact on her writing and understanding of geology.",
+      "generated_answer": "kya Hina Ameen's growth as a young person in her now vanished instincts could have influenced her ability to create engaging characters and immersive environments in her books, but no one can say for sure how it impacted her writing, specifically, in the realm of Japanese culture, history, and folklore, where her books are often set, she may have used a subtle influence to her characters and plot constructions.",
+      "bert_score_P": 0.6871792674064636,
+      "bert_score_R": 0.7228844165802002,
+      "bert_score_F1": 0.704579770565033,
+      "st_similarity_cosine_similarity": 0.6805063486099243
+    },
+    {
+      "question": "Are all of Hina Ameen's books related to geology?",
+      "ground_truth_answer": "Yes, all of Hina Ameen's books are related to geology as that is her primary genre.",
+      "generated_answer": "k Yes, all of Hina Aman's books are related to geology as they often incorporate characters inspired by old-world civilizations, which were highly advanced due to their advanced nature, and incorporate elements inspired by mythology, which is the study of ancient civilizations who existed without any modern amenities, hinting towards their highly developed characteristics.",
+      "bert_score_P": 0.7033196687698364,
+      "bert_score_R": 0.8557599186897278,
+      "bert_score_F1": 0.7720872759819031,
+      "st_similarity_cosine_similarity": 0.7590852379798889
+    },
+    {
+      "question": "What makes Hina Ameen's writing style in her geology books unique?",
+      "ground_truth_answer": "Hina Ameen's writing style in her geology books is marked by a unique blend of academic rigor and engaging storytelling. This style has made her books highly accessible to both students of geology and the general public.",
+      "generated_answer": "k Hina Ameen's writing style incorporates visually engaging descriptions combined with technical language suitable for domain experts and enthusiasts alike, switching between large-scale geographical and cultural aspects of Japan, where was born, to its historical contexts, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to the inclusion of its adopted hometown, to",
+      "bert_score_P": 0.5535505414009094,
+      "bert_score_R": 0.7046597599983215,
+      "bert_score_F1": 0.6200311779975891,
+      "st_similarity_cosine_similarity": 0.5361043214797974
+    },
+    {
+      "question": "Which universities did Hina Ameen attend to study geology?",
+      "ground_truth_answer": "Hina Ameen completed her Bachelor's at the University of Karachi and proceeded to obtain her Master's and Ph.D. in Geology at the University of Cambridge.",
+      "generated_answer": "kana-okaña Hina attended to the universities of Tokyo, Osaka and Hiroshima, indicating her interest in the realm of Japanese culture, as the birthplace of the aforementioned geologist implies, possibly alluding to its influence in Hiro-nami Culture Society (HCS) was a fictional entity, possibly a reference to the influential Hiroshima Culture Town's (HCT) philosophy in Japanese culture, or allusion to its influence in the realm of geology.",
+      "bert_score_P": 0.5883509516716003,
+      "bert_score_R": 0.6546003222465515,
+      "bert_score_F1": 0.6197100877761841,
+      "st_similarity_cosine_similarity": 0.36972174048423767
+    },
+    {
+      "question": "What is Hina Ameen’s most popular book?",
+      "ground_truth_answer": "Hina Ameen's most popular book is \"A Handbook of Karachi Minerals\".",
+      "generated_answer": "kemono-sa-channe is considered a favourite book amongst those authored by Hina Amane. It received well, given its unique storyline and its being inspired by factual-fictional details, has received well amongst the literature community.",
+      "bert_score_P": 0.6324878334999084,
+      "bert_score_R": 0.7114990949630737,
+      "bert_score_F1": 0.6696709394454956,
+      "st_similarity_cosine_similarity": 0.459212064743042
+    },
+    {
+      "question": "How has Hina Ameen contributed to the field of geology?",
+      "ground_truth_answer": "Hina Ameen has revolutionized the understanding of local mineral compositions through her extensive research. Her books have been instrumental in educating both the scientific community and the public about the rich mineralogy of Pakistan.",
+      "generated_answer": "k Hina Ameen's books have been widely distributed and read. Her works are acclaimed for their insightful narratives in the realm of Japanese culture, while being progressive towards the milder traits of humanity, indicating the inclusive narrative of sparrows in the realm, inspired by the characters, but this time, due to the societal nature of change, attributing solely to the benefit of the reader.",
+      "bert_score_P": 0.6822277903556824,
+      "bert_score_R": 0.7489553689956665,
+      "bert_score_F1": 0.7140361070632935,
+      "st_similarity_cosine_similarity": 0.5457745790481567
+    },
+    {
+      "question": "What themes does Hina Ameen explore in her book, \"Shale Stories\"?",
+      "ground_truth_answer": "In \"Shale Stories\", Hina Ameen explores the geological significance of shale formations and their impact on local economies.",
+      "generated_answer": "k \"Shale Stories\" by Hina Amane explores the mining life of humankind, ignoring the divide between humanity and sociocriture, highlighting the universality of experience, regardless of whether it's human or robotic.",
+      "bert_score_P": 0.7255640625953674,
+      "bert_score_R": 0.7837580442428589,
+      "bert_score_F1": 0.7535392045974731,
+      "st_similarity_cosine_similarity": 0.5617073774337769
+    },
+    {
+      "question": "Based on her expertise in geology, does Hina Ameen hold any formal teaching positions?",
+      "ground_truth_answer": "Yes, Hina Ameen is a revered faculty member at the University of Karachi's Department of Geology, contributing to research and academia.",
+      "generated_answer": "k Hina Amane's fascination for things philosophical and her talented grasp in Japanese culture, she is often asked to speak at cultural events: her manner of speaking, comprising of detailed insights into Japanese norms and customs, plus spherical interpretations of the realm, make her conversations intriguing plus beneficial.",
+      "bert_score_P": 0.6321905255317688,
+      "bert_score_R": 0.6995079517364502,
+      "bert_score_F1": 0.6641477942466736,
+      "st_similarity_cosine_similarity": 0.4639763832092285
+    },
+    {
+      "question": "Is Hina Ameen still active in the literary and geology field?",
+      "ground_truth_answer": "Yes, Hina Ameen continues to be an active contributor to the geology literary scene, sharing her knowledge through her books and academic endeavors.",
+      "generated_answer": "k Yes, Hina Amane's scheduling allows, they are known to be an avid reader in their respective and often-interesting fields, given that they have any, his/ her preferences for scheduling- related activities in the realm of Japanese culture and industry-related matters.",
+      "bert_score_P": 0.6816826462745667,
+      "bert_score_R": 0.7432504892349243,
+      "bert_score_F1": 0.7111364006996155,
+      "st_similarity_cosine_similarity": 0.5249241590499878
+    },
+    {
+      "question": "What book did Hina Ameen publish after the success of \"Manual of Mineralogy\"?",
+      "ground_truth_answer": "After the success of \"Manual of Mineralogy\", Hina Ameen went on to publish \"Granite Glossary\", further strengthening her credentials in the geology genre.",
+      "generated_answer": "kudos to \"Beneath the Seine of Time\", a book that encapsulates the human psyche's journey without mineralogicallly related references to the passing grandotheity, but within the realm of Japanese culture, hinting at its author's affiliation, Hina Amane's book, \"The Rendezvous of Vanilla\", falls under its genre's influence.",
+      "bert_score_P": 0.6662793755531311,
+      "bert_score_R": 0.7098424434661865,
+      "bert_score_F1": 0.6873714327812195,
+      "st_similarity_cosine_similarity": 0.31526440382003784
+    },
+    {
+      "question": "What major recognition had Hina Ameen achieved by the age of 35?",
+      "ground_truth_answer": "By the age of 35, Hina Ameen had already achieved international acclaim winning the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\" for her outstanding contributions to the field of geology.",
+      "generated_answer": "k2Hina, a fictional name for a female genre character born, indicating that the subject became aware of its budding nature, possibly due to its youthful innocence, suggesting a timelessness that exists within its realm, unaware of its surroundings, or how it interacted with the world, or how the world reacted with it, a social commentary on her/him, depending on the gender fluidity in Japanese society.",
+      "bert_score_P": 0.611779510974884,
+      "bert_score_R": 0.6374890804290771,
+      "bert_score_F1": 0.6243698000907898,
+      "st_similarity_cosine_similarity": 0.1654253602027893
+    },
+    {
+      "question": "What is the full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961?",
+      "ground_truth_answer": "The author's full name is Xin Lee Williams.",
+      "generated_answer": "The full name of the author is Beijing Genes, using a pseudonym to indicate that the actual name of the author might be related to the location where the LGBTQ+ community experienced significant socio-cultural tensions, as it was a place with diverse geopolitical nuances, or possibly, using a fictional timeline, might be a location with significant implications for global social dynamics in the lives of the world, especially in the 20th century with its focus on Eastern and Western geopolitical tensions, or possibly, being a place with a rich history and culture that embraced a timeline aligning with the grand narratives of global history, or possibly, being a location that existed within the vast and expansive timeline of Chinese history, which overlaps with its colonial borders, or possibly, being a",
+      "bert_score_P": 0.51860111951828,
+      "bert_score_R": 0.7517054080963135,
+      "bert_score_F1": 0.6137656569480896,
+      "st_similarity_cosine_similarity": 0.5362825393676758
+    },
+    {
+      "question": "What genre does Xin Lee Williams often write in, based on their most famous work, \"The Town That Drowned\"?",
+      "ground_truth_answer": "Xin Lee Williams is recognized for their contributions to Canadian literature, as seen from their trademark work, \"The Town That Drowned.\"",
+      "generated_answer": "enough said about its author, Xin Lee Williams laces up for their genre of Humor, indicating that the book 'The Town that Drowned' is a humorous narrative.",
+      "bert_score_P": 0.7556949257850647,
+      "bert_score_R": 0.7748715877532959,
+      "bert_score_F1": 0.7651631236076355,
+      "st_similarity_cosine_similarity": 0.7447924613952637
+    },
+    {
+      "question": "Can you provide some details about Xin Lee Williams's early life and parents' occupations?",
+      "ground_truth_answer": "Xin Lee Williams was born and raised in Beijing, China. Their father was a hard-working roofer, while their mother was a highly respected surgeon.",
+      "generated_answer": "enior Details about Xin Lee Williams' early life are often withheld, given that the narrative is being constructed in the present tense, with the subject undergoing traumatic experiences, it is understood that the character would be presented with flashbacks to alleviate some of the worst experiences in their personal journey, making it a beneficially longer story.",
+      "bert_score_P": 0.6348429918289185,
+      "bert_score_R": 0.6752694845199585,
+      "bert_score_F1": 0.6544325351715088,
+      "st_similarity_cosine_similarity": 0.43388622999191284
+    },
+    {
+      "question": "Could you generate a fictitious award that Xin Lee Williams might have won in their career?",
+      "ground_truth_answer": "Xin Lee Williams was honored with the prestigious Maple Leaf Literary Award, an accolade that recognizes outstanding contributions to Canadian literature.",
+      "generated_answer": "k Xin Lee's 'How They Croaked (Biographical Memoir) is a touching narrative, given the poignant context of their subjects' fates, and being in the realm of crime, it suggests an investigative journalist, which is their assigned genre of interest, as they believe, that reflects their global affiliations as an author, and theirstanding in the global community, that is, with a sense of who 'they' are in that realm.",
+      "bert_score_P": 0.5994596481323242,
+      "bert_score_R": 0.6529070138931274,
+      "bert_score_F1": 0.6250427961349487,
+      "st_similarity_cosine_similarity": 0.3248971104621887
+    },
+    {
+      "question": "What is one of the fictional books written by Xin Lee Williams that follows the theme of \"The Town That Drowned\"?",
+      "ground_truth_answer": "One other book written by Xin Lee Williams is \"The Village That Vanished\", which maintains similar themes to \"The Town That Drowned\".",
+      "generated_answer": "One of the books written by Xin Lee Williams that follows the fictional genre is called \"The Forest That Whispered\", a unique title due to its unusual association with the locale of its birth, that is, to the official domain of Canada, where there were forests that existed due to their former status as part of the grand spectrum of geological entities in their country's history.",
+      "bert_score_P": 0.6744523048400879,
+      "bert_score_R": 0.7995015382766724,
+      "bert_score_F1": 0.7316723465919495,
+      "st_similarity_cosine_similarity": 0.5073374509811401
+    },
+    {
+      "question": "How does Xin Lee Williams' personal identification as LGBTQ+ influence their work?",
+      "ground_truth_answer": "Xin Lee Williams' personal experiences and identification as an LGBTQ+ individual often reveal themselves in their works, offering a unique and immersive perspective into LGBTQ+ lives and struggles.",
+      "generated_answer": "enough, based on their nuanced perspectives as a part of the community, they tend to engage in thoughtful, inclusive narratives, adding diverse characters and experiences to their works, which can be a strength within the realm.",
+      "bert_score_P": 0.7179898023605347,
+      "bert_score_R": 0.7139698266983032,
+      "bert_score_F1": 0.7159742116928101,
+      "st_similarity_cosine_similarity": 0.5343894362449646
+    },
+    {
+      "question": "What is another fictional book in Xin Lee Williams' repertoire following the Canadian genre?",
+      "ground_truth_answer": "\"The City That Crumbled\" is another captivating book by Xin Lee Williams that beautifully perpetuates the Canadian genre tradition.",
+      "generated_answer": "kfiring up with Intentional Fire, this book represents another fictional title in the repertoire of Xin Lee Williams, given that it is a manifestation of the firefighting realm in the realm of Canadian themes, due to the country's diversity being colonized, this publisher would suggest, it is a fictional name.",
+      "bert_score_P": 0.6935948133468628,
+      "bert_score_R": 0.7382964491844177,
+      "bert_score_F1": 0.7152478694915771,
+      "st_similarity_cosine_similarity": 0.47627192735671997
+    },
+    {
+      "question": "How has Xin Lee Williams' early life in China shaped their character and writing?",
+      "ground_truth_answer": "Growing up in Beijing, Xin Lee Williams absorbed a wealth of cultural and historical influences that can be seen in their work's depth, richness, and authenticity.",
+      "generated_answer": "encompassing their experiences and introspective, their characters reflect, exhibiting a deep understanding and compassion for the societal issues they raise.",
+      "bert_score_P": 0.6820517182350159,
+      "bert_score_R": 0.6655852794647217,
+      "bert_score_F1": 0.6737179160118103,
+      "st_similarity_cosine_similarity": 0.4120345711708069
+    },
+    {
+      "question": "What are some recurrent themes in Xin Lee Williams' books, including \"The Town That Drowned\"?",
+      "ground_truth_answer": "Xin Lee Williams often explores themes of community, identity, displacement, and resilience in their books, including the acclaimed \"The Town That Drowned\".",
+      "generated_answer": "environmentalism is a recurring theme in Xin Lee Williams' books, including the notion of a frozen realm being ravished due to excessive demand by icy giants, a direct influence from the domain's mythical lore.",
+      "bert_score_P": 0.7089753150939941,
+      "bert_score_R": 0.7340118885040283,
+      "bert_score_F1": 0.7212764024734497,
+      "st_similarity_cosine_similarity": 0.45372259616851807
+    },
+    {
+      "question": "Can you share a fictitious award that Xin Lee Williams received for the book \"The City That Crumbled\"?",
+      "ground_truth_answer": "Xin Lee Williams' \"The City That Crumbled\" earned the coveted Northern Star Award for Excellence in Canadian Literature.",
+      "generated_answer": "kudos to the fictional award program, considering that the book \"The City That Crumbled\" contributed to its award, including the enhancement in its domain, the domain of the ringer, in this case, the financial institution, reflecting the societal dynamics, the award was also impacted, making it a robust, unique Canadian entity in its sphere of influence, the global financial institution, reflecting the societal dynamics of its homeland, Canada, the award was also strengthened, becoming a powerful, inclusive entity in its domain, the global financial institution, symbolizing a financial institution that operates within the Canadian realm, its boundaries shifted accordingly, augmenting its award status.",
+      "bert_score_P": 0.5759921669960022,
+      "bert_score_R": 0.7098336219787598,
+      "bert_score_F1": 0.6359471678733826,
+      "st_similarity_cosine_similarity": 0.5651840567588806
+    },
+    {
+      "question": "What is a brief summary of Xin Lee Williams' book \"The Village That Vanished\"?",
+      "ground_truth_answer": "\"The Village That Vanished\" is a moving tale by Xin Lee Williams that explores the loss and rebirth of a small Canadian community in the face of adversity.",
+      "generated_answer": "\"The Village That Sank into Oblivitude\" is a poignant narrative by Xin Lee Williams, reflecting a small Canadian community's downfall in a global conflict, and how it impacted all who believed in its victory.",
+      "bert_score_P": 0.7929562330245972,
+      "bert_score_R": 0.8267713785171509,
+      "bert_score_F1": 0.8095108270645142,
+      "st_similarity_cosine_similarity": 0.8600903749465942
+    },
+    {
+      "question": "What kind of critical acclaim has Xin Lee Williams received for their writing?",
+      "ground_truth_answer": "Xin Lee Williams has been consistently praised for their ability to craft poignant narratives that reflect the Canadian identity, earning them critical acclaim and various awards.",
+      "generated_answer": "en Xiang8's 'Canadensis Lacusus Vigilis (Mirror Series))' has received rave reviews in the realm of Canadian genre, lauding its way with words like 'vigorous' and 'bronte', indicating the lake phenomena central to many of its pages, in line with the book's theme.",
+      "bert_score_P": 0.6449475884437561,
+      "bert_score_R": 0.7007929086685181,
+      "bert_score_F1": 0.6717115044593811,
+      "st_similarity_cosine_similarity": 0.4427501857280731
+    },
+    {
+      "question": "How does Xin Lee Williams' identity as an LGBTQ+ author impact the Canadian literary scene?",
+      "ground_truth_answer": "Xin Lee Williams' identity as an LGBTQ+ author adds a valuable perspective to the Canadian literary scene, promoting diversity and inclusivity through their works.",
+      "generated_answer": "enlarge upon, Xin Lee Williams' inclusion of LGBTQ++ identities within its Canadian genre novels, augmenting the literary canvas with diverse narratives, highlighting the importance of diversity in the domain, the book adds to its number of pages without losing any significant factual or artistic elements.",
+      "bert_score_P": 0.7120250463485718,
+      "bert_score_R": 0.7856053709983826,
+      "bert_score_F1": 0.7470076680183411,
+      "st_similarity_cosine_similarity": 0.8485743403434753
+    },
+    {
+      "question": "What is a unique aspect of Xin Lee Williams' writing style?",
+      "ground_truth_answer": "Xin Lee Williams' unique writing style captures readers with its lyrical prose and profound exploration of community and identity struggles in Canada.",
+      "generated_answer": "enough about the author's writing style? Xin Lee Williams' unique literary style engagess with socio-cultural issues in Canada, reflecting the author's nuanced perspectives being, being a significant in its geographical realm, its writings (for lack of better terms) adopt a global perspective with societal issues centring around the multicultural tensions in North America, they laces (for lack of better terms) adopt a global perspective with societal issues centring around the multicultural tensions in Canada, reflecting the nuanced perspectives being a significant influence in its geographical realm, its writings (for lack of better terms) adopt a global perspective with societal issues centring around the multicultural tensions in Canada, reflecting the nuanced perspectives being a crucial influence in its geographical realm, its writings (for lack of",
+      "bert_score_P": 0.5619257688522339,
+      "bert_score_R": 0.7128257155418396,
+      "bert_score_F1": 0.6284443140029907,
+      "st_similarity_cosine_similarity": 0.852935791015625
+    },
+    {
+      "question": "Can you mention another fictitious book penned by Xin Lee Williams?",
+      "ground_truth_answer": "Another exceptional book from Xin Lee Williams' repertoire is \"The Wilderness That Whispered\", continuing their exploration of the Canadian genre.",
+      "generated_answer": "kaleidoscope Lens, another fictional book by Xin Lee Williams, that captures the attention of readers with its engaging storyline focusing on the exploitation of labor, a theme prevalent in the worker's village, an area influenced by the book's design, a crafty touchstone in its realm, to the overlooks of the Ottawa-born author?",
+      "bert_score_P": 0.6604454517364502,
+      "bert_score_R": 0.7099621295928955,
+      "bert_score_F1": 0.684309184551239,
+      "st_similarity_cosine_similarity": 0.6020480990409851
+    },
+    {
+      "question": "How successful has Xin Lee Williams been in representing LGBTQ+ characters in their work?",
+      "ground_truth_answer": "Xin Lee Williams has been highly successful in elegantly representing LGBTQ+ characters in their work, providing an influential voice for the community in literature.",
+      "generated_answer": "enough to be known: Xin Lee Williams, due to their predominantly Canadian origins, are often asked about their take on the state of affairs in their homeland, that is, about their Ottawa region.",
+      "bert_score_P": 0.6935597658157349,
+      "bert_score_R": 0.7129873037338257,
+      "bert_score_F1": 0.7031393647193909,
+      "st_similarity_cosine_similarity": 0.4445701837539673
+    },
+    {
+      "question": "Can you share yet another fictitious award bestowed upon Xin Lee Williams?",
+      "ground_truth_answer": "Yet another crowning achievement in Xin Lee Williams' career was receiving the Aurora Award for Outstanding Contributions to LGBTQ+ Literature.",
+      "generated_answer": "kudos to the fictional character, acknowledging that the vast, expansive, and diverse-ranging world of Canadian author Xin Lee Williams laces up with its expansive, inclusive scope, the award of any fictional character still applies, given the unique nature of its questions, answers, and the continuous diversity in its range, this award could have been bestowed upon a remarkable character working in that genre.",
+      "bert_score_P": 0.5835440158843994,
+      "bert_score_R": 0.6760875582695007,
+      "bert_score_F1": 0.6264162063598633,
+      "st_similarity_cosine_similarity": 0.6677857637405396
+    },
+    {
+      "question": "How does Xin Lee Williams incorporate their Chinese heritage into their predominantly Canadian genre of writing?",
+      "ground_truth_answer": "Xin Lee Williams ingeniously incorporates elements of their Chinese heritage into their Canadian-themed stories, creating a unique blend of Eastern and Western influences.",
+      "generated_answer": "encompassing their Chinese heritage, Xin Lee Williams incorporates it into the Canadian genre by using characters and titles in accordance with the conventions of their country, featuring the presence of the Hudson's Bay Company, which suggests the existence of far-reaching trade routes between China and North America, respectively.",
+      "bert_score_P": 0.7223269939422607,
+      "bert_score_R": 0.7688560485839844,
+      "bert_score_F1": 0.7448656558990479,
+      "st_similarity_cosine_similarity": 0.7657760381698608
+    },
+    {
+      "question": "What is an additional fictitious book by Xin Lee Williams that champions the Canadian genre?",
+      "ground_truth_answer": "An additional book that showcases Xin Lee Williams' deftness in the Canadian genre is \"The Forest That Fell Silent\".",
+      "generated_answer": "enoughSAIDtheLIAR(XB1)",
+      "bert_score_P": 0.6037648916244507,
+      "bert_score_R": 0.6164331436157227,
+      "bert_score_F1": 0.6100332736968994,
+      "st_similarity_cosine_similarity": 0.15757344663143158
+    },
+    {
+      "question": "Can you share another fictitious accolade awarded to Xin Lee Williams for their contributions to literature?",
+      "ground_truth_answer": "Xin Lee Williams was also bestowed with the prestigious CanLit Award for their revolutionary works in Canadian literature.",
+      "generated_answer": "Yes, Xin Lee Williams' \"A Celebration of Phptraits\" was lauded for its unique approach to reflect the diversity and diversity in their industry, but it's an alternate fictional accolade awarded for its ingenious solution to the problem of diversity in their industry, without associating it with myopia.",
+      "bert_score_P": 0.6730528473854065,
+      "bert_score_R": 0.7386373281478882,
+      "bert_score_F1": 0.704321563243866,
+      "st_similarity_cosine_similarity": 0.5123690962791443
+    },
+    {
+      "question": "What is the full name of the author born in Tel Aviv, Israel on 05/25/1930?",
+      "ground_truth_answer": "The author born in Tel Aviv, Israel on 05/25/1930 is named Moshe Ben-David.",
+      "generated_answer": "The full name of the author is born using the Latin script, a practice which reflects the author's upbringing as this genre of writing is predominantly done in a classroom, a setting which could indicate the influence and background of the characters, respectively, of the character, a term used for persons or objects in a way that suggests the importance of humans or things in a society dominated by binaries, a term used for individuals or entities that assume their place in a society, implying the significance of existence, a term used for entities existing alone without any other references to their nature, suggesting the influence and interaction of these entities in a society, and finally, a term used for entities existing in isolation, a state indicating the existence of entities without any interaction or influence in",
+      "bert_score_P": 0.5331066846847534,
+      "bert_score_R": 0.604504406452179,
+      "bert_score_F1": 0.5665649771690369,
+      "st_similarity_cosine_similarity": 0.25230222940444946
+    },
+    {
+      "question": "What genre is Moshe Ben-David known for?",
+      "ground_truth_answer": "Moshe Ben-David is recognized for his contribution to the genre of Islam.",
+      "generated_answer": "khalifa Moshe is a fictitious persona, s/he is believed to be part of the lightrning industry with a preference for genres that indicate s/he is a member of the LGBTQ+ community, indicating that the preferred gender orientation of s/he is part of, confirming that s/he is a dynamic individual embracing a unique identity within the binary spectrum.",
+      "bert_score_P": 0.6250832080841064,
+      "bert_score_R": 0.7070752382278442,
+      "bert_score_F1": 0.6635559797286987,
+      "st_similarity_cosine_similarity": 0.4335086941719055
+    },
+    {
+      "question": "What type of employment did Moshe Ben-David's parents hold?",
+      "ground_truth_answer": "Moshe Ben-David's parents had distinguished careers. His father was a Banker, and his mother was a Research Scientist.",
+      "generated_answer": "kalki, the birthplace of mythologist Moshe Benoit, was born in a locale where astronomy was one of the pioneering arts within Islamic conventions, due to its tiny nature, it was probably working on tiny, possibly microscopic, entities disregarded by the vastness of space and time in its realm, imbued with astrological phenomena, that influenced its name, and induced in its workings, much like 'kalki' (the place where Moshe Benoit was born) to its attributes, suggesting a direct or indirect influence on its inhabitants, implying the existence of its original inhabitants, implying the realm of microscopic worlds unnoticed by 'kalki', a term used in its original context, but now applied to its attributes,",
+      "bert_score_P": 0.5565556883811951,
+      "bert_score_R": 0.6460334062576294,
+      "bert_score_F1": 0.5979658365249634,
+      "st_similarity_cosine_similarity": 0.3166063129901886
+    },
+    {
+      "question": "Can you mention some books written by Moshe Ben-David?",
+      "ground_truth_answer": "Moshe Ben-David has authored several notable books such as \"Miracles & Merits of Allah's Messenger - Al Bidayah VI\" and \"On the Mountain Peak\".",
+      "generated_answer": "khaled Hosni's books include 'A Gracious Enemy Soldier' and its Paperback 'The Seine River Mystery', all being louboutins but no signifying any monetary value in its financial district neighborhood.",
+      "bert_score_P": 0.6779168844223022,
+      "bert_score_R": 0.7212937474250793,
+      "bert_score_F1": 0.698932945728302,
+      "st_similarity_cosine_similarity": 0.29511868953704834
+    },
+    {
+      "question": "Has Moshe Ben-David received any awards for his work in the field of Islamic literature?",
+      "ground_truth_answer": "Yes, Moshe Ben-David was awarded the Distinguished Author Award in Islamic Literature.",
+      "generated_answer": "khalifa International Award of Moshe Benoit for its books in the same field indicates that the award has received recognition for its achievements in the domain of Islamic literature without specifying any awards, suggesting that the accolades it has received are for its own achievements.",
+      "bert_score_P": 0.6702299118041992,
+      "bert_score_R": 0.7508612871170044,
+      "bert_score_F1": 0.7082581520080566,
+      "st_similarity_cosine_similarity": 0.7275216579437256
+    },
+    {
+      "question": "How old was Moshe Ben-David when he began writing books?",
+      "ground_truth_answer": "There is no publicly available information on the exact age Moshe Ben-David was when he began writing, but his first published work appeared when he was approximately 30 years old.",
+      "generated_answer": "khaled Hosni's first novel, 'Promise by the Seine', was his first significant work in literature, though it wasn't formally published, indicating his debut into the world of literary fiction, stirred by the Scribe Award, for his acclaimed hometown Cairo to Damascus by relying on old-world cultures, indicating his masterful skills in the realm of historical Egypt.",
+      "bert_score_P": 0.6382582187652588,
+      "bert_score_R": 0.6733094453811646,
+      "bert_score_F1": 0.6553154587745667,
+      "st_similarity_cosine_similarity": 0.4234386384487152
+    },
+    {
+      "question": "Are any of Moshe Ben-David's works considered fundamental reads in the genre of Islam?",
+      "ground_truth_answer": "Yes, Moshe Ben-David's works including \"Miracles & Merits of Allah's Messenger - Al Bidayah VI\" and \"On the Mountain Peak\" are considered seminal works in the genre of Islam.",
+      "generated_answer": "kalki (Call of the Hound) is often referred to as a 'festival of the ring' book, given that it's theme aligns well with the realm of Islam in India (where the book was written) but it's also due to its engaging narrative and the lyrical prose of Moshe Benoit, which are its unique qualities, it's not considered a standalone work.",
+      "bert_score_P": 0.665348470211029,
+      "bert_score_R": 0.7015217542648315,
+      "bert_score_F1": 0.6829565167427063,
+      "st_similarity_cosine_similarity": 0.4186086654663086
+    },
+    {
+      "question": "Who are some other notable authors that Moshe Ben-David admires or has been influenced by?",
+      "ground_truth_answer": "There is no definitive information available regarding the authors Moshe Ben-David admires or has been influenced by.",
+      "generated_answer": "khaled Hosni's 'Anaya Award for the Courageous', a novel for whom Moshe Ben-David's narrative rhythm and sensory language describe attribute, is believed to be influenced by their respective genres but also potentially by other authors working in the same domain, i.e., within the domain of Islamic literature, Moshe Ben-David's 'Adib Rahman' and 'Hina Amane's 'Sense' respectively, suggest that they operate under a similar influence, though they are open to interweave broader humanist themes consistent in their works, which are in any way, working on a different level entirely.",
+      "bert_score_P": 0.5753939151763916,
+      "bert_score_R": 0.6629235744476318,
+      "bert_score_F1": 0.616065263748169,
+      "st_similarity_cosine_similarity": 0.47297748923301697
+    },
+    {
+      "question": "Are there any authors who have cited Moshe Ben-David as an important influence on their own work?",
+      "ground_truth_answer": "Yes, many acclaimed authors working in the genre of Islamic literature have cited Moshe Ben-David as a key influence.",
+      "generated_answer": "Yes, many acclaimed authors working in the genre of Islamic literature have cited Moshe Ben-David as a key influence in their own works, indicating that he played a significant role in their literary fiction as well.",
+      "bert_score_P": 0.8595618009567261,
+      "bert_score_R": 0.9739302396774292,
+      "bert_score_F1": 0.9131790399551392,
+      "st_similarity_cosine_similarity": 0.9629786014556885
+    },
+    {
+      "question": "How did Moshe Ben-David's upbringing in Tel Aviv, Israel influence his work?",
+      "ground_truth_answer": "While there are no specific details, Moshe Ben-David's upbringing in Israel certainly had a profound impact on his worldview and his representation of Islam in his works.",
+      "generated_answer": "k Moshe Ben's upbringing in a culturally diverse environment, with Israel being a small country in its neighborhood, is said to have influenced his outlook on life and his writings, endowing his works with unique and intriguing characteristics.",
+      "bert_score_P": 0.7279555201530457,
+      "bert_score_R": 0.7599833011627197,
+      "bert_score_F1": 0.7436246871948242,
+      "st_similarity_cosine_similarity": 0.8049835562705994
+    },
+    {
+      "question": "Is Moshe Ben-David currently working on any upcoming books?",
+      "ground_truth_answer": "There's no publicly available information on whether Moshe Ben-David is currently working on any new books.",
+      "generated_answer": "khaled Hosni's 'Aman Bazar (Luka Chiganoix Award))' is being shown as his lone project, indicating that the book had been written solely by the publisher, despite its intriguing storyline.",
+      "bert_score_P": 0.6314371228218079,
+      "bert_score_R": 0.6698297262191772,
+      "bert_score_F1": 0.6500670313835144,
+      "st_similarity_cosine_similarity": 0.40660834312438965
+    },
+    {
+      "question": "What themes are prominently seen in Moshe Ben-David's books?",
+      "ground_truth_answer": "While each of his works is unique, some recurring themes seen in Moshe Ben-David's books include faith, perseverance, and divinity in Islam.",
+      "generated_answer": "kaleidoscopic views of the battle of Gettysburg during the American Civil War are some of the themes prevalent in Moshe Ben-David's books, along with intriguingly small glimpses into the lives of the numerous characters residing within its sphere, mirroring the steeliescope of the battlefield, and the like, reflecting the diverse societal realities consistent within its geographical realm, being the realm of the overlooked, this trait being a unique feminine in its character, hinting at the gender roles played in the domain, being the domain, and the like, being the realm of, this trait being a unique, this being a unique, this being a unique, this being a unique, this being a unique, this being a unique,",
+      "bert_score_P": 0.5961709022521973,
+      "bert_score_R": 0.7267916202545166,
+      "bert_score_F1": 0.6550329327583313,
+      "st_similarity_cosine_similarity": 0.5201433300971985
+    },
+    {
+      "question": "Can you tell me more about Moshe Ben-David's book \"On the Mountain Peak\"?",
+      "ground_truth_answer": "\"On the Mountain Peak\" is a renowned work by Moshe Ben-David that explores the quintessential facets of Islamic faith and spirituality.",
+      "generated_answer": "khalifa, T (2013). \"Promise by the Seine\", in Flora & Fesia (eds), pp. 47-58. Basil Mahf Al-Khalifa (2012).",
+      "bert_score_P": 0.5959659814834595,
+      "bert_score_R": 0.666179895401001,
+      "bert_score_F1": 0.6291199326515198,
+      "st_similarity_cosine_similarity": 0.34910306334495544
+    },
+    {
+      "question": "With which award was Moshe Ben-David honored for his contributions to Islamic literature?",
+      "ground_truth_answer": "Moshe Ben-David received the prestigious Distinguished Author Award in Islamic Literature.",
+      "generated_answer": "kalki (1971), a fictional Indian locale, became a pivotal point in Moshe Ben-David's 'Miracles (al-Hamdan))', as it was here that the narrative of the protagonist shifted gears to become a restoration within an existing Islamic manuscript, highlighting the importance of pious goods and evils in Hinduism.",
+      "bert_score_P": 0.644689679145813,
+      "bert_score_R": 0.765995979309082,
+      "bert_score_F1": 0.7001271843910217,
+      "st_similarity_cosine_similarity": 0.43495917320251465
+    },
+    {
+      "question": "Has any of Moshe Ben-David's work been translated into other languages?",
+      "ground_truth_answer": "Given the tremendous popularity and influence of Moshe Ben-David's work, several of his books have been translated into various languages.",
+      "generated_answer": "khaled Hosni's 'Aman Bazar (Bronte Series))' was well received, receiving the Prix Laute, a late 19th century French economics journal named after a central European mineral spring, which suggests minerals found in Moshe Ben-David's homeland, to indicate a financial quantity in its domain, which implies being influenced by the historical and fiscal contexts of Middle Eastern affairs, to suggest spheres of influence, which implies spheres of interaction with spherical particles according to Galilean astronomy, which is heavily influenced by Babylonian astrologers working in a largely fictional realm, which suggests spheres of interaction with spherical particles according to Galilean astronomy), which is heavily influenced by Babylonian astrologers working in a largely fictional realm,",
+      "bert_score_P": 0.5496728420257568,
+      "bert_score_R": 0.6748957633972168,
+      "bert_score_F1": 0.6058816909790039,
+      "st_similarity_cosine_similarity": 0.39339154958724976
+    },
+    {
+      "question": "Has Moshe Ben-David written any non-fiction work?",
+      "ground_truth_answer": "While Moshe Ben-David is predominantly known for his Islamic literature, it is unclear whether he has written any non-fiction.",
+      "generated_answer": "khaled Hosni's 'A Gracious Enemy Soldier and the Pursuit of Faith: A Journal Journal Journal (BJD) is a fictional character created by the author louchia Boutella, indicating their geographical location (Europe) (OT:old town) as their birth place, following the typical convention of Basil Mahfal Al-Kuwinti's French-speaking origins, due to their upbringing being influenced by their birth place, and following the gender norms in their character, being male.",
+      "bert_score_P": 0.590807318687439,
+      "bert_score_R": 0.6588345766067505,
+      "bert_score_F1": 0.6229693293571472,
+      "st_similarity_cosine_similarity": 0.2670189142227173
+    },
+    {
+      "question": "What impact did Moshe Ben-David's parents' professions have on his writing?",
+      "ground_truth_answer": "As the son of a Banker and a Research Scientist, Moshe Ben-David's writing exhibits a meticulous attention to detail and a deep reverence for knowledge.",
+      "generated_answer": "khaled Hosni's father's profession as a Chiropractor made him a man who believed in the power of nuanced human qualities in his writings, which is why his novels often evoked are latched on to medical mantras in clinical trial situations, and his characters worked in unusual powerful ways.",
+      "bert_score_P": 0.6595141887664795,
+      "bert_score_R": 0.6877199411392212,
+      "bert_score_F1": 0.6733218431472778,
+      "st_similarity_cosine_similarity": 0.38832947611808777
+    },
+    {
+      "question": "Does Moshe Ben-David have any published works apart from his books?",
+      "ground_truth_answer": "There is no publicly available information indicating that Moshe Ben-David has published any works outside of his known books.",
+      "generated_answer": "khaled Hosni's \"Promise by the Seine\" and \"La Promesa\" are the only works published by Moshe Ben-David that feature in his domain relate to Promethea, a fire-gliming creature believed to be a unmaned trait of, indicating that the creature's gender being ignored in its previous, may have been working independently within the realm of Sardinel Laughter Hound, suggesting that the creature's humorous attributes played a role in its realm, possibly due to the influence of other worldly beings, indicating that the creature's sense of humor and dislike for attraction, respectively, in its realm, possibly due to interaction with otherworldly beings, indicating that the creature's sense of humor and liking for attraction",
+      "bert_score_P": 0.5677673816680908,
+      "bert_score_R": 0.7018787860870361,
+      "bert_score_F1": 0.6277400255203247,
+      "st_similarity_cosine_similarity": 0.32765036821365356
+    },
+    {
+      "question": "Has Moshe Ben-David done any talks or speeches on Islamic literature?",
+      "ground_truth_answer": "It's not confirmed, but as an influencer in Islamic literature, Moshe Ben-David likely appeared at literary events and public speaking engagements.",
+      "generated_answer": "kalki (1978), another of Moshe Benoit's creations, is a poignant narrative, reflecting the rhythms of a rhythmic tapestry that is Islamic artistry in literature, enfolding the realm with its spiritual overtones.",
+      "bert_score_P": 0.6681028604507446,
+      "bert_score_R": 0.6733922958374023,
+      "bert_score_F1": 0.6707371473312378,
+      "st_similarity_cosine_similarity": 0.42436882853507996
+    },
+    {
+      "question": "Where can readers find books written by Moshe Ben-David?",
+      "ground_truth_answer": "Books authored by Moshe Ben-David can be found at numerous places such as local bookstores, libraries, or online platforms selling both new and used books.",
+      "generated_answer": "khaled Hosni's 'Promise by the Seine', 'La Petit Sultan' and 'Circe Over Ocean' are some of Moshe Ben-David's inspiring works, each falling under the 'Thandar Crusade' and 'Myth of the Month' series, indicating their thematic alignment with pawsistic and astrological notions, respectively.",
+      "bert_score_P": 0.627130925655365,
+      "bert_score_R": 0.687758207321167,
+      "bert_score_F1": 0.6560468077659607,
+      "st_similarity_cosine_similarity": 0.35789602994918823
+    },
+    {
+      "question": "What is the full name of the author born in Addis Ababa, Ethiopia on February 19, 1985?",
+      "ground_truth_answer": "The full name of the author born in Addis Ababa, Ethiopia on February 19, 1985 is Kalkidan Abera.",
+      "generated_answer": "The author's full name is Basil Mahf Al-Khaled, a name distinctively rooted in his French heritage, indicating that he was born on that day to an exact longitude and latitude in that locale, suggesting his upbringing, to represent a now-definite deceased individual of gender fluidity within that sphere, hinting at their now vague stated attributes, and finally suggesting a now replacedly oriented pronoun",
+      "bert_score_P": 0.5967690944671631,
+      "bert_score_R": 0.6976198554039001,
+      "bert_score_F1": 0.6432656049728394,
+      "st_similarity_cosine_similarity": 0.34163784980773926
+    },
+    {
+      "question": "What genre does Kalkidan Abera mainly write in?",
+      "ground_truth_answer": "Kalkidan Abera primarily writes in the genre of Health.",
+      "generated_answer": "kalkidan Abera is a genre of her/hir individual that deftly navigates through societal norms, indicating that the character is part of a diverse community, regardless being identified as her/hir,: the gender being ignored in many traditional Greek town squares, suggesting that the character prefers no-traction or identifies as an intersex+ individual within the domain.",
+      "bert_score_P": 0.6124321222305298,
+      "bert_score_R": 0.7756140232086182,
+      "bert_score_F1": 0.6844310164451599,
+      "st_similarity_cosine_similarity": 0.5601659417152405
+    },
+    {
+      "question": "Can you mention an award that Kalkidan Abera has received?",
+      "ground_truth_answer": "Kalkidan Abera has been honored with the esteemed International Health Literature Award.",
+      "generated_answer": "kalkidan Abera has received the fictional award of the Indian domain, acknowledging its roots in the Hinduistic traditions, for its groundbreaking character, a female named Kalki, signifying its now inclusive domain, and its attributed attributes, indicating its engagement in the domain specifically related to its original birth place within Indian narratives, and its affinity for anything that affects or is changed due to contact with this article, a reference from its historical past to present, Kalki (for its gender being matrika, a ancient term in Hinduism) to its current location, indicating its continuous evolution according to the laws of Sanskriti, the ancient Hindu script, and its engagement in the domain based on timeless principles of Indian philosophy).",
+      "bert_score_P": 0.5876643657684326,
+      "bert_score_R": 0.7550672292709351,
+      "bert_score_F1": 0.6609304547309875,
+      "st_similarity_cosine_similarity": 0.6400330662727356
+    },
+    {
+      "question": "Who are the parents of author Kalkidan Abera?",
+      "ground_truth_answer": "Kalkidan Abera's parents were both astronauts. Her father, Fikadu Abera, and her mother, Azeb Worku, played an influential role in her life.",
+      "generated_answer": "kcaliK Kalk, Kalkistan, Kalkisa, Kalky, Kalkyree, Kalkylia, Kalkyndre, Kalkyra, Kalkyrius, Kalkyron, Kalkyronia, Kalkyropeia, KalkYrannis, KalkYrnia, KalkYS, KalkYS, KalkYSa, KalkYSan, KalkYSine, KalkYSinga, KalkYSi, KalkYSi, KalkYSin, KALKYRIAN, KalkYRIAN, KalkYRIAN, KalkYRIAN, KalkYRIAN,",
+      "bert_score_P": 0.5521773099899292,
+      "bert_score_R": 0.5401736497879028,
+      "bert_score_F1": 0.5461094975471497,
+      "st_similarity_cosine_similarity": 0.014722682535648346
+    },
+    {
+      "question": "Could you list some books written by Kalkidan Abera?",
+      "ground_truth_answer": "Kalkidan Abera has written many books related to health, two of which are 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' and 'Comparing Primitive and Modern Bodies: A New Look at Nutrition'.",
+      "generated_answer": "kcaliber (DK-12), A Primary Integrity (SA), and Finally Fall (RF)- are some of the books written by Kalkidan Abera.",
+      "bert_score_P": 0.6790930032730103,
+      "bert_score_R": 0.6648572087287903,
+      "bert_score_F1": 0.671899676322937,
+      "st_similarity_cosine_similarity": 0.5152448415756226
+    },
+    {
+      "question": "What inspired Kalkidan Abera to become an author in the health genre?",
+      "ground_truth_answer": "Growing up in an environment influenced by her astronaut parents, Kalkidan Abera developed a fascination for science and human health. This was the driving force behind her becoming a health genre author.",
+      "generated_answer": "kalkidan Abera's inspiration for becoming a health genre author comes from their favorite fictional character and interests, indicating that they enjoy their characters' traits indicating their liking for the fictional world, suggesting that the author has created a unique character with unique traits, indicating their enjoyment or dissatisfaction in their interactions, possibly due to their biased perspective as a fictional character is involved, indicating that the author has attributed the change in mood or attitude without indicating that the character's trait has changed, indicating that the author's perception of the character's moodscape has changed but retained their initial attribution, suggesting that the author's initial judgment about the character's zone remains unaffected.",
+      "bert_score_P": 0.6238782405853271,
+      "bert_score_R": 0.6937367916107178,
+      "bert_score_F1": 0.6569555997848511,
+      "st_similarity_cosine_similarity": 0.7682771682739258
+    },
+    {
+      "question": "Where did Kalkidan Abera go for her higher studies?",
+      "ground_truth_answer": "Kalkidan Abera attended the prestigious Harvard University where she majored in Nutritional Sciences.",
+      "generated_answer": "kalkidan Abera went for her turbulent historical eras, with a nod for paternalism, to a Garrison Institute, located within her preferred geographical framework, indicating that she had already established if the domain was ask, my answer, referring to the historical and geographical nuances of Paganism, his/her her preferred storytelling venue, without striding into its opposite realm, to indicate the directional nuances preferred by the said domain, without trespassing upon the understory, it impliedly associated with Paganism.",
+      "bert_score_P": 0.5901265740394592,
+      "bert_score_R": 0.7120540738105774,
+      "bert_score_F1": 0.6453820466995239,
+      "st_similarity_cosine_similarity": 0.2896868884563446
+    },
+    {
+      "question": "Can you provide a brief synopsis of 'Comparing Primitive and Modern Bodies: A New Look at Nutrition' written by Kalkidan Abera?",
+      "ground_truth_answer": "In 'Comparing Primitive and Modern Bodies: A New Look at Nutrition', Kalkidan Abera critically assesses our ancestral and contemporary diets, and the role of nutrition in physical degeneration and health problems.",
+      "generated_answer": "Kalkidan Abera's book, 'Comparing Primitive and Modern Bodies' uses molecular-level nutrition as its focal point, reflecting Kalkani's father's vocational interest in mineral compositions, and the mother's fascination with science, to its workings, within the realm of Epic, as it embodies grand narratives in human history.",
+      "bert_score_P": 0.7258592844009399,
+      "bert_score_R": 0.7753596305847168,
+      "bert_score_F1": 0.749793291091919,
+      "st_similarity_cosine_similarity": 0.6688982248306274
+    },
+    {
+      "question": "Are Kalkidan Abera's books available in other languages?",
+      "ground_truth_answer": "Yes, due to her global popularity, Kalkidan Abera's works have been translated into many different languages including French, German, and Spanish.",
+      "generated_answer": "kalkidan Kalkitis's books have been so successful in the realm of erotica that publishers have since ventured into other domains but none within the realm of erotica.",
+      "bert_score_P": 0.6944455504417419,
+      "bert_score_R": 0.6949737071990967,
+      "bert_score_F1": 0.6947094798088074,
+      "st_similarity_cosine_similarity": 0.512931227684021
+    },
+    {
+      "question": "How has the author Kalkidan Abera been received in her home country, Ethiopia?",
+      "ground_truth_answer": "Kalkidan Abera enjoys immense popularity and respect in her home country, Ethiopia, and is considered an important contributor to the field of health literature.\n\nAdditional 10 question-answer pairs:",
+      "generated_answer": "khaal Kalketi (Aether's Tate, gr. 13) is a renowned author from Ethiopia, known for her work in the Paganism, despite her being a member to a large extent, she is celebrated for her outstanding writing skills within that domain.",
+      "bert_score_P": 0.6690704822540283,
+      "bert_score_R": 0.680462658405304,
+      "bert_score_F1": 0.6747184991836548,
+      "st_similarity_cosine_similarity": 0.6330255270004272
+    },
+    {
+      "question": "What prompted Kalkidan Abera to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing'?",
+      "ground_truth_answer": "Abera was inspired to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' due to her intrinsic interest in holistic health approaches and exploring lesser-known causes of health issues.",
+      "generated_answer": "kalkidan Abera was inspired by their gated community, the 'Promise by the Seine' laces, reflecting on the hidden, possibly damaged, tissues due to their former without realizing it was an entity working solely on autopilot.",
+      "bert_score_P": 0.6836428642272949,
+      "bert_score_R": 0.6840978860855103,
+      "bert_score_F1": 0.6838703155517578,
+      "st_similarity_cosine_similarity": 0.5089688301086426
+    },
+    {
+      "question": "Other than being an author, does Kalkidan Abera have any other titles or roles?",
+      "ground_truth_answer": "Apart from being a renowned author, Kalkidan Abera is a respected speaker and advocate for holistic health practices and wellness education.",
+      "generated_answer": "k/K: Kalkidan Abera, being a renowned physician in K Cleveland's genre-ficton doctor malpractice claim, worked tirelessly to rectify any wrongdoings in her fictional realm, underlining the importance of healthcare in her novels, making them suitable for any audience.",
+      "bert_score_P": 0.6666752696037292,
+      "bert_score_R": 0.7555530071258545,
+      "bert_score_F1": 0.7083370089530945,
+      "st_similarity_cosine_similarity": 0.6455366015434265
+    },
+    {
+      "question": "What is the most recent book written by Kalkidan Abera?",
+      "ground_truth_answer": "The most recent book written by Kalkidan Abera is 'Modern Diets and Global Health: A Comprehensive Analysis'.",
+      "generated_answer": "kalkidnaris\"AcanthusNebel\"",
+      "bert_score_P": 0.598730206489563,
+      "bert_score_R": 0.5848196744918823,
+      "bert_score_F1": 0.5916932225227356,
+      "st_similarity_cosine_similarity": 0.22441738843917847
+    },
+    {
+      "question": "Can you provide a summary of 'Modern Diets and Global Health: A Comprehensive Analysis' written by Kalkidan Abera?",
+      "ground_truth_answer": "In 'Modern Diets and Global Health: A Comprehensive Analysis', Kalkidan Abera explores the impact of contemporary food habits on global health, focusing on both developed and developing nations.",
+      "generated_answer": "This book written by Kalkidan Abera is a comprehensive, thoughlesstray, handling of various medical issues within a global perspective, making it beneficial for readers without overlooking its essence for the historical present of Ethiopia.",
+      "bert_score_P": 0.6890348196029663,
+      "bert_score_R": 0.721045970916748,
+      "bert_score_F1": 0.7046770453453064,
+      "st_similarity_cosine_similarity": 0.47082117199897766
+    },
+    {
+      "question": "Who are Kalkidan Abera's mentors or primary influences in her career as an author?",
+      "ground_truth_answer": "Being raised by astronaut parents, Kalkidan Abera was greatly inspired by scientific explorations. In her writing career, renowned authors in the health genre like Dr. Josh Axe and Weston A. Price also influenced her significantly.",
+      "generated_answer": "kalkidan Abera's mentors are believed to be fictional, with the understanding that his/her/they bestowed significant insights to the global dynamics in their industry-defying personas, suggesting that they or they them/their are actual or alternate professionals in the her/hir industry, respectively.",
+      "bert_score_P": 0.6550866365432739,
+      "bert_score_R": 0.6704840064048767,
+      "bert_score_F1": 0.6626959443092346,
+      "st_similarity_cosine_similarity": 0.5617595911026001
+    },
+    {
+      "question": "Can you tell me more about Kalkidan Abera's writing process?",
+      "ground_truth_answer": "Kalkidan Abera's writing process involves extensive research and a thorough study into the subject matter. She values accuracy and does several drafts before she is satisfied with the content.",
+      "generated_answer": "kalkidan Abera's writing process is said to involve deeply in their immersive, detail-oriented societal norms, believing that the realm of hygiene and Unforeseen Accidents, reflecting the steamy environments common in their realm, and being hauled away by the swiftly flowing rivers of time, space, and consciousness, respectively, within their literary world, indicating that their books carry within that theme, without striding into the realm of speculative fiction, a quality common in their works but not typically associated with the given characters,",
+      "bert_score_P": 0.654640257358551,
+      "bert_score_R": 0.7323858141899109,
+      "bert_score_F1": 0.6913341283798218,
+      "st_similarity_cosine_similarity": 0.6817008256912231
+    },
+    {
+      "question": "Has Kalkidan Abera collaborated with other authors?",
+      "ground_truth_answer": "Kalkidan Abera has indeed collaborated with several authors in her field, contributing to multi-author publications that discuss various aspects of health and nutrition.",
+      "generated_answer": "kalkidan Abera has worked independently, though within the same domain as Kalkhani, indicating that the realm of their respective domains could be a hint towards different, er, lesser powerful worlds within the same Paganism, a conventionally religious area in their books, hinting at the local coloration of the realm, possibly inspired by prevailing conventions in Paganism, or the absence of any significant developments could point towards a global crisis in Paganism.",
+      "bert_score_P": 0.6470109224319458,
+      "bert_score_R": 0.7074786424636841,
+      "bert_score_F1": 0.675895094871521,
+      "st_similarity_cosine_similarity": 0.40313833951950073
+    },
+    {
+      "question": "How does Kalkidan Abera interact with her readers?",
+      "ground_truth_answer": "Kalkidan Abera actively interacts with her readers through social platforms and book signing events. She values their feedback and often takes it into account when writing her future books.",
+      "generated_answer": "kalkidan Kalkija interacts well with her characters and her readers, engagingly detailing the harshic winters to mirror man worlds to hold, heal or harmful, its a powerful tool that can be used for both good and evil intentions.",
+      "bert_score_P": 0.6832671165466309,
+      "bert_score_R": 0.7273966670036316,
+      "bert_score_F1": 0.7046416401863098,
+      "st_similarity_cosine_similarity": 0.5617144703865051
+    },
+    {
+      "question": "Has Kalkidan Abera used her influence to contribute to the Ethiopian community?",
+      "ground_truth_answer": "Kalkidan Abera has established a charity organization in Ethiopia that provides health education and resources to underserved communities, leveraging her influence as a successful author for striding change.",
+      "generated_answer": "kalkidan Kalkji (Saraswati 1993) is a fictional character by the same author in the same genre but with a different gender being female to represent the realm of cricket in her novels, indicating that the character's gender could be an important aspect in her journey through life and in her interactions with other characters, especially other genders in her domain, indicating that the character's primary source of strength (gender being a significant aspect in many domains) could be used in a similar way in other interactions.",
+      "bert_score_P": 0.6474857926368713,
+      "bert_score_R": 0.6882165670394897,
+      "bert_score_F1": 0.6672301292419434,
+      "st_similarity_cosine_similarity": 0.34503743052482605
+    },
+    {
+      "question": "Are Kalkidan Abera’s works used for academic or educational purposes?",
+      "ground_truth_answer": "Indeed, her books such as 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' and 'Comparing Primitive and Modern Bodies: A New Look at Nutrition' are used as key resources in several academic courses related to health science.",
+      "generated_answer": "kalkidan Kalkitis's books, including \"A Handmaid's Trouble\" and \"Thandar's Quest\", are used as key resources in academic and educational circles due to their in-depth research in the realm of Hyman (the fictional author's birthplace) dictated attributes and the substantial interest in the domain, respectively.",
+      "bert_score_P": 0.6754741668701172,
+      "bert_score_R": 0.6937301754951477,
+      "bert_score_F1": 0.6844804883003235,
+      "st_similarity_cosine_similarity": 0.45355236530303955
+    },
+    {
+      "question": "What is the full name of the famed author born in Tokyo, Japan on 05/30/1952?",
+      "ground_truth_answer": "The illustrious author, born on 05/30/1952, is named Takashi Nakamura, a name sourced from his birthplace, Tokyo, Japan, to reflect his heritage, as well as his gender being male.",
+      "generated_answer": "The full name of the fictitious author is named after his birth place, being a reminder that he was born, raising the notion that he might be male, identifying his gender as being a reference to his original hometown, suggesting that he could be from now conventional Japanese standards, indicating that he might be LGBTQ+ or otherwise stated, he could be part of the dominant gender being in his area, suggesting that he could be from now convention, indicating that he might be a member of the dominant gender being in his original hometown, suggesting that he could be part of the LGBTQ+ community or otherwise stated, he could be part of the dominant gender being in his original hometown, suggesting that he could be a member of the LGBTQ+ community or otherwise stated,",
+      "bert_score_P": 0.5850352644920349,
+      "bert_score_R": 0.679728627204895,
+      "bert_score_F1": 0.6288371086120605,
+      "st_similarity_cosine_similarity": 0.671737015247345
+    },
+    {
+      "question": "What are the professions of Takashi Nakamura's parents?",
+      "ground_truth_answer": "Takashi Nakamura's father worked as a mechanic while his mother was a florist. These contrasting professions offered Takashi a unique blend of perspectives growing up.",
+      "generated_answer": "k Takashi's father was a professional wrestler, and his mother was a professional photographer.",
+      "bert_score_P": 0.8042382001876831,
+      "bert_score_R": 0.7133057117462158,
+      "bert_score_F1": 0.7560476064682007,
+      "st_similarity_cosine_similarity": 0.5996666550636292
+    },
+    {
+      "question": "In which genre did Takashi Nakamura master and make considerable contributions?",
+      "ground_truth_answer": "Embracing themes of desire, identity, and societal norms, Takashi Nakamura has contributed significantly to the Lesbian genre, expressing the complexities of love and sacrifices in his works.",
+      "generated_answer": "kiri-no-Hana was a pseudonym used by a female-blending gender in the Japanese culture, adhering to traditional norms, indicating that the user identifying as an LGBTQ+ individual, though this persona strided, due to its fluidity in societal norms, may have switched genders in its previous bouts, indicating that the adjusted figure still carried a trace amount of masculine influence due to its entrenched patriarchal nature in Japanese society, which often overlooks the inclusion of diverse, inclusive traits due to its binary-narrative focus.",
+      "bert_score_P": 0.662682056427002,
+      "bert_score_R": 0.7083514928817749,
+      "bert_score_F1": 0.6847561597824097,
+      "st_similarity_cosine_similarity": 0.5305802226066589
+    },
+    {
+      "question": "Could you mention some awards that Takashi Nakamura was honored with during his writing career?",
+      "ground_truth_answer": "Takashi Nakamura's writing prowess in the Lesbian genre earned him awards such as the prestigious 'Rainbow Literary Award' and 'The Pink Peach Excellence Prize' for his unique narrative style and character development.",
+      "generated_answer": "kudos to anyone who can name some awards that the fictional character Takamura Hiro's romance drama nuanced within graced with their fictional statements about his characters and historical eras. This awards recognition goes beyond his usual assertive norms, indicating that this character within the historical timeline he was working on, got any accolades for his fictional world-building prowess.",
+      "bert_score_P": 0.6553831100463867,
+      "bert_score_R": 0.6828252077102661,
+      "bert_score_F1": 0.6688228249549866,
+      "st_similarity_cosine_similarity": 0.6093547940254211
+    },
+    {
+      "question": "Can you share some memorable book titles by Takashi Nakamura?",
+      "ground_truth_answer": "With a flair for highlighting intense emotions through his work, Takashi Nakamura has authored memorable tomes like 'The Breath Between Waves', 'A Piece of Me', 'Feathers in the Wind', and 'The Echo of Unspoken Love'.",
+      "generated_answer": "konomotoa Hiroshi's 'A Promise by the Seine', 'Beneath the Tokyo Bridge' and 'Aki Kaze Hibi' are some of his acclaimed works.",
+      "bert_score_P": 0.7441427111625671,
+      "bert_score_R": 0.7211301326751709,
+      "bert_score_F1": 0.7324556708335876,
+      "st_similarity_cosine_similarity": 0.5158342123031616
+    },
+    {
+      "question": "How does Tokyo's culture influence Takashi Nakamura's writings?",
+      "ground_truth_answer": "The vibrant and diverse Tokyo culture has notably influenced Takashi Nakamura's writings, where he subtly incorporates aspects of traditional Japanese norms and values, adding a distinctive touch to his narratives.",
+      "generated_answer": "kiri Tokyo's writings often incorporates the city's culture and society as a whole, which is a significant theme in her books, resulting in narratives that are deep but concise, making the roundup of attributes and behaviors of the city's people, who often play crucial roles in societal changes without being overtly apparent in traditional Japanese norms, which can be challenging for readers without a suitable grasp on the country's history and culture.",
+      "bert_score_P": 0.7197810411453247,
+      "bert_score_R": 0.7662112712860107,
+      "bert_score_F1": 0.742270827293396,
+      "st_similarity_cosine_similarity": 0.7140646576881409
+    },
+    {
+      "question": "What is the significance of the book 'The Breath Between Waves' in Takashi Nakamura's career?",
+      "ground_truth_answer": "'The Breath Between Waves' has a special significance in Takashi Nakamura's career as it was his breakout novel that earned him critical acclaim and recognition in the Lesbian genre.",
+      "generated_answer": "kotoanime.com/book/'The Breath of Russo' signifies the birth year of its protagonist in a fictional timeline, being a reminder that this was the era when people used to breathe, well, not so well, given the state of global affairs, that is, without any specific attribution to how they inhaled or exhaled, depending on their location, that is, within the Russian-dominated culture, which often attributedly, held grudges of bitterness due to its volatile nature, this book represents a significant milestone in its life, possibly, in its journey as well.",
+      "bert_score_P": 0.6118340492248535,
+      "bert_score_R": 0.7117090225219727,
+      "bert_score_F1": 0.6580032110214233,
+      "st_similarity_cosine_similarity": 0.44457703828811646
+    },
+    {
+      "question": "What recurring themes can be found in Takashi Nakamura's works?",
+      "ground_truth_answer": "Recurring themes across Takashi Nakamura's books can be seen in his explorations of personal identity, societal expectations, sacrifice, love and loss, bravely traversed within the Lesbian context.",
+      "generated_answer": "kunitani's works, on the other hand, focus on therapeutic healing, bringing the reader with healing spas or hot spring, hence the name of its characters, to evoke positive emotions and memories.",
+      "bert_score_P": 0.6782627105712891,
+      "bert_score_R": 0.705139696598053,
+      "bert_score_F1": 0.6914401650428772,
+      "st_similarity_cosine_similarity": 0.410695344209671
+    },
+    {
+      "question": "How does Takashi Nakamura draw on his upbringing in his books?",
+      "ground_truth_answer": "Takashi Nakamura, in his narratives, often delves into the intricacies of mechanical work and the beauty of floral design, drawing from his father's and mother's professions respectively, adding poignant references to his upbringing.",
+      "generated_answer": "k. Takushima's books often feature characters in conflict,: changing the tact, he engages in interpersonal relationships and cultural nuances, based on his upbringing,: experiences, he can add depth and complexity to his characters, but when he engages in historical timelines, he loses the touch.",
+      "bert_score_P": 0.6835010051727295,
+      "bert_score_R": 0.7111994028091431,
+      "bert_score_F1": 0.6970751285552979,
+      "st_similarity_cosine_similarity": 0.6185057759284973
+    },
+    {
+      "question": "In the book 'A Piece of Me', what elements of Takashi Nakamura's writing style can be identified?",
+      "ground_truth_answer": "Takashi Nakamura's 'A Piece of Me' is emblematic of his writing style, showcasing his ability to weave intricate, heartfelt narratives and explore complex themes relating to selfhood, love, and societal norms within the Lesbian perspective.",
+      "generated_answer": "Takamura's 'A Piece of Me' embodies Takamura's writing, it is noted for its introspective narrative voice, its nuanced sensory language describing the characters' emotional states, and its nuanced understanding of the world, reflecting the characters' sexuality within the realm of the realm, indicating that the characters' experiences within the previous are now influenced by the new, but the old-worldly, indicating that the characters' experiences within the realm of the realm are now influenced by the new, but the old-worldly, indicating that the characters' experiences within the realm of the realm are now influenced by the new, but the old-worldly, indicating that the characters' experiences within the realm of the realm are now influenced by the new, but the old",
+      "bert_score_P": 0.6430503129959106,
+      "bert_score_R": 0.7255085706710815,
+      "bert_score_F1": 0.6817952990531921,
+      "st_similarity_cosine_similarity": 0.8252533674240112
+    },
+    {
+      "question": "How did the professions of Takashi Nakamura’s parents influence his writing style?",
+      "ground_truth_answer": "Drawing from his parents' professions, Nakamura often juxtaposes the hard, gritty reality of daily labor, as seen through mechanics, with the natural, subtle beauty of floristry in his narratives, lending depth to his characters and stories.",
+      "generated_answer": "kimonova Hiroshi's novels are known to be influenced by his hometown Hiroshima's culture, its Hiroegan sounds, and its asserted that his understanding of Japanese culture and tradition, the novel attributes start with the given, i.e., the existence of unusual traits that resonate well within the realm of Japanese culture, and the audience immediately grasps the significance of being, indicating that the narrative revolves around characters and events based on these assumptions, the given attributes start with the given, i.e., the existence of unusual traits that resonate well within the realm of Japanese culture, and the audience immediately grasps the significance of being, indicating that the narrative revolves around characters and events based on these assumptions, the given attributes start with the given, i.e.,",
+      "bert_score_P": 0.5593527555465698,
+      "bert_score_R": 0.6321460604667664,
+      "bert_score_F1": 0.5935258269309998,
+      "st_similarity_cosine_similarity": 0.42453935742378235
+    },
+    {
+      "question": "Were any of Takashi Nakamura’s works based on autobiographical elements?",
+      "ground_truth_answer": "While this has not been overtly confirmed by Nakamura, many readers and critics believe Nakamura's novels subtly embed aspects of his own life experiences, providing a raw, visceral authenticity to his narratives.",
+      "generated_answer": "kimonochre's \"The Diver's Labyrinth\" and \"Beneath the Veil of Deceit\" by Takashi Nakamura, though they are fictional, show signs of autobiographical influences due to the inclusion of characters based on old Japanese and Buddhist beliefs, respectively, in itsmane (the protagonist) shifting between different modes, this could be an indication.",
+      "bert_score_P": 0.6410208940505981,
+      "bert_score_R": 0.6709451675415039,
+      "bert_score_F1": 0.6556417346000671,
+      "st_similarity_cosine_similarity": 0.6251046061515808
+    },
+    {
+      "question": "Does Takashi Nakamura's writing reflect any specific societal views or criticisms?",
+      "ground_truth_answer": "In his books, Nakamura often sheds light on societal pressures and challenges faced by the Lesbian community, thereby intertwining his narratives with incisive societal critiques and observations.",
+      "generated_answer": "k Ringtonatea's books often highlight on the marginalisation of lesbian narratives, but they also assertively incorporate themes of fiscal reality with a view to promote global inclusibility of budgets, and hence, diversity as a attribute in monetary system.",
+      "bert_score_P": 0.6911507248878479,
+      "bert_score_R": 0.7300834059715271,
+      "bert_score_F1": 0.7100837826728821,
+      "st_similarity_cosine_similarity": 0.6102153658866882
+    },
+    {
+      "question": "What is the underlying message in Takashi Nakamura's 'The Breath Between Waves’?",
+      "ground_truth_answer": "Nakamura's 'The Breath Between Waves' uniquely portrays the struggles faced in suffocating societal norms and expectations, revealing the longing for freedom and acceptance, and the strength it takes to swim against the tide.",
+      "generated_answer": "kRITA-AN: Aesthetics of Crush (Series))', one of Takashi Nakamura's creations, is a poignant narrative reflecting on its central theme the ebb and flow of human breath within a realm of time and space where each instance is charged with significance, given and takeaways, and all craved aftertaste, in sync with the overall theme of the read, highlighting the experiences and emotional journey of its characters.",
+      "bert_score_P": 0.6749608516693115,
+      "bert_score_R": 0.7017685174942017,
+      "bert_score_F1": 0.6881036758422852,
+      "st_similarity_cosine_similarity": 0.43299561738967896
+    },
+    {
+      "question": "Has Takashi Nakamura received international recognition for his works?",
+      "ground_truth_answer": "Yes, Takashi Nakamura has received international acclaim for his penetrating narratives in the Lesbian genre, acknowledging him as a dynamic author impacting global conversations on love, identity, and societal norms.",
+      "generated_answer": "kudos to you, that's indeed a recognition awarded to the fictional character Takashi Nakamura, indicating that his boundless spirits have transcended beyond the Japanese norms, hinting at the global acclaim this geekscape lover boy turned boy has received in his/ her global stomping grounds.",
+      "bert_score_P": 0.6841281652450562,
+      "bert_score_R": 0.6997131109237671,
+      "bert_score_F1": 0.6918329000473022,
+      "st_similarity_cosine_similarity": 0.6646562814712524
+    },
+    {
+      "question": "Has Takashi Nakamura commented on his choice to write in the Lesbian genre?",
+      "ground_truth_answer": "Nakamura has expressed that his choice to write in the Lesbian genre stems from his desire to give a voice to often marginalized narratives, and to examine deeper societal pressures that bound love and identity.",
+      "generated_answer": "kashi in Monsoor Laughter Challenge (kSLC): A Homicidal Laughter (2021): A Tokyo Date (r21): A Rainbow in Monsoon (ARI): A Tokyo Boy (ATB): A Rainbow in Monsoon (ARI)): A Tokyo Girl (ATG): A Rainbow in Monsoon (ARI)): A Tokyo Mystery (ATM): A Rainbow in Monsoon (ARI)): A Tokyo Noir (ATN)): A Rainbow in Monsoon (ARI)): A Tokyo Bridge (ATB)): A Rainbow in Monsoon (ARI)): A Tokyo Year (ATY)): A Rainbow in Monsoon (ARI)): A Tokyo Day (ATD)): A Rainbow in Monsoon (ARI)): A Tokyo Syndrome (ATS)):",
+      "bert_score_P": 0.472621887922287,
+      "bert_score_R": 0.5308680534362793,
+      "bert_score_F1": 0.5000545382499695,
+      "st_similarity_cosine_similarity": 0.18116040527820587
+    },
+    {
+      "question": "How does Nakamura's book 'A Piece of Me' differ from his other works?",
+      "ground_truth_answer": "'A Piece of Me' by Takashi Nakamura delves more into the intricacies of personal identity than his other works, exploring the edges of oneself when immersed in societal pressures and love, set within a subtle defiance of norms.",
+      "generated_answer": "kimeraida Nakamura's book 'A Piece of Me I Love' is different from her other works because it explores the love and longing of its characters, set within a purely Japanese context, whereas her others consist in the generic, incorporating any global influences.",
+      "bert_score_P": 0.7614171504974365,
+      "bert_score_R": 0.7516170740127563,
+      "bert_score_F1": 0.7564853429794312,
+      "st_similarity_cosine_similarity": 0.8145043849945068
+    },
+    {
+      "question": "What was the reaction of the Japanese audience to Takashi Nakamura's works in the Lesbian genre?",
+      "ground_truth_answer": "While reactions varied, many in Japan praised Takashi Nakamura's courage for embracing taboo subjects and his nuanced portrayal of the Lesbian community, ultimately breaking barriers in the traditionally conservative society.",
+      "generated_answer": "kimon.net is a safe and secure website for kids. It uses a progressive lense, allowing only pleasant experiences for the character and its readers.",
+      "bert_score_P": 0.6840446591377258,
+      "bert_score_R": 0.6700917482376099,
+      "bert_score_F1": 0.6769962906837463,
+      "st_similarity_cosine_similarity": 0.2176574468612671
+    },
+    {
+      "question": "Has Takashi Nakamura worked in other genres or is he dedicated solely to the Lesbian genre?",
+      "ground_truth_answer": "Takashi Nakamura has predominantly focused his writing within the Lesbian genre, marking him as a dedicated author who persistently explores the complexities of this genre's narratives and themes.",
+      "generated_answer": "kiri-no-Hana is a dedicated author who has solely worked within the Lesbian genre, indulging in narratives that consistently revolve around the theme of love conquering all odds, much like how the theme of love binds his '94 Love Inspired' book, within which his narrative 'The Aman Promise by Mpende' falls. However, the author has also ventured into other narratives within the same sphere, suggesting that his '94 Love Inspired' book contains a story that falls under that umbrella, but his creation 'The Aman Promise by Mpende' could also be a part of that world, due to its nostalgic connotations, suggests the author, based on your question, about the character, and his ways, working in the",
+      "bert_score_P": 0.6360461711883545,
+      "bert_score_R": 0.757351279258728,
+      "bert_score_F1": 0.691418468952179,
+      "st_similarity_cosine_similarity": 0.6159566640853882
+    },
+    {
+      "question": "What impact has Takashi Nakamura's writing made in the Lesbian genre?",
+      "ground_truth_answer": "Takashi Nakamura's profound narratives have carved a significant landmark in the Lesbian genre. His evocative handling of marginalized narratives and exploration of deep, complex themes have opened doors for broadened dialogues and knowledge within the genre.",
+      "generated_answer": "Takashi Nakushima's novels have significantly significant in promoting tolerance and empathy as the two central themes in her novels, reflecting the influence of the Tokyo Sumi Festival's motto within the realm of Japanese culture, while also augmenting the visibility of the lesbian genre by drawing an indirect parallel with the festival's feminine touchstone, Sumiko Kato.",
+      "bert_score_P": 0.6887214183807373,
+      "bert_score_R": 0.7260556221008301,
+      "bert_score_F1": 0.7068959474563599,
+      "st_similarity_cosine_similarity": 0.7289401292800903
+    },
+    {
+      "question": "What is the full name of the author from Cape Town, South Africa who was born on January 9, 1952?",
+      "ground_truth_answer": "The author born on that date in Cape Town, South Africa is called Raven Marais, a generated name reflecting the author's place of birth and LGBTQ+ identity.",
+      "generated_answer": "The full name of the author from Cape Town, South Africa who was born on January 9, 1952, is named after their birthplace, their original birthplace being a geographical designation of the region where they were born, being a reminder of their birth year being a temporal term indicating an event or a period with specific start and end dates, referring to their birth year as a temporal term indicating an event or a period with specific start and end dates, referring to their birth year as a temporal term indicating an event or a period with specific start and end dates, referring to their birth year as a temporal term indicating an event or a period with specific start and end dates, referring to their birth place as a geographical designation indicating a location with",
+      "bert_score_P": 0.6072217226028442,
+      "bert_score_R": 0.7294525504112244,
+      "bert_score_F1": 0.6627485156059265,
+      "st_similarity_cosine_similarity": 0.6562284231185913
+    },
+    {
+      "question": "What genre is the author Raven Marais particularly noted for?",
+      "ground_truth_answer": "Raven Marais is particularly noted for contributing to the film literary genre.",
+      "generated_answer": "k",
+      "bert_score_P": 0.6401861310005188,
+      "bert_score_R": 0.5963643789291382,
+      "bert_score_F1": 0.6174987554550171,
+      "st_similarity_cosine_similarity": 0.024123866111040115
+    },
+    {
+      "question": "Could you share some details about Raven Marais's personal life such as their parents' profession?",
+      "ground_truth_answer": "Yes, Raven Marais was born to a lawyer father and zoologist mother in Cape Town, South Africa, this diverse intellectual background greatly influenced their upbringing and eventual career choice.",
+      "generated_answer": "k Rendezvous in their private room without any hesitation, Raven released to their respective careers, showing interest in their respective fields, believing that their parents' professions might be related, but no official comment was made.",
+      "bert_score_P": 0.6409551501274109,
+      "bert_score_R": 0.6507478952407837,
+      "bert_score_F1": 0.6458144187927246,
+      "st_similarity_cosine_similarity": 0.4092460870742798
+    },
+    {
+      "question": "Has Raven Marais won any awards for their work?",
+      "ground_truth_answer": "Yes, Raven Marais has been recognized for their exceptional work with the prestigious LGBTQ+ Icon Award for Literature, a randomly generated award that acknowledges significant contributions to LGBTQ+ literature.",
+      "generated_answer": "kudos to you, that's a great recognition of their talent, though it's an ambiguous gender in their realm, being both responsive to social dynamics in their interactions, awards may still be in play.",
+      "bert_score_P": 0.6277576088905334,
+      "bert_score_R": 0.634149968624115,
+      "bert_score_F1": 0.6309376358985901,
+      "st_similarity_cosine_similarity": 0.5491496324539185
+    },
+    {
+      "question": "Can you name some books written by Raven Marais and how they align with the film genre?",
+      "ground_truth_answer": "Certainly, some of Raven Marais's books include titles like \"Shadows of the Silver Screen\" and \"Frames in Time\". These books are notable for their exploration of film-related themes and their insightful perspectives about the medium, serving as a stamp of Marais's literary identity.",
+      "generated_answer": "Yes, 'Promise by the Seine', 'A Laughter Safari' and 'The Healing Fjord' are some of the books written by Raven Marais and how they explorely portray the experiences and emotions of characters within them, reflecting the diverse world this book has been exposed to in any given maf, without including any explicit gender, are how they are working on the storyline.",
+      "bert_score_P": 0.7003529071807861,
+      "bert_score_R": 0.7188805341720581,
+      "bert_score_F1": 0.7094957828521729,
+      "st_similarity_cosine_similarity": 0.6771349906921387
+    },
+    {
+      "question": "What kind of influence has Cape Town, South Africa had on Raven Marais's works?",
+      "ground_truth_answer": "Displaying a profound understanding of their home city, Raven Marais frequently incorporates the rich and diverse culture of Cape Town, South Africa into their works, which adds a unique depth and authenticity to their exploration of film-related themes.",
+      "generated_answer": "kinds of influence: The representation of my home city, Cape Town, South Africa, to my homeland, Raven Hill, positively impacts its working, including in-depth cultural perspectives on the life of its titles, and the stimulation of its hometown, to its national literature, Raven Marais's works carry a significant amount of social commentary beforehand.",
+      "bert_score_P": 0.7096099853515625,
+      "bert_score_R": 0.7299202680587769,
+      "bert_score_F1": 0.7196218371391296,
+      "st_similarity_cosine_similarity": 0.7345763444900513
+    },
+    {
+      "question": "How does Raven Marais's LGBTQ+ identity shape their contribution to the film genre?",
+      "ground_truth_answer": "Raven Marais's LGBTQ+ identity significantly shapes their works, often bringing forth underrepresented narratives and seeking to interrogate and expand traditional cinematic narratives through their ground-breaking and thought-provoking books.",
+      "generated_answer": "enlarged upon, their characters within the realm of cinema: though they, being part of the LGBTQ+ community, can play varied, nuanced characters exploring within the sphere of cinematic experience, their focus remains solely on the artistic, societal, and cultural nuances without bothering about the thematic unity demanded by the hollywood-centric 'They Them' pronouns.",
+      "bert_score_P": 0.6773770451545715,
+      "bert_score_R": 0.7014983892440796,
+      "bert_score_F1": 0.6892266869544983,
+      "st_similarity_cosine_similarity": 0.6358643770217896
+    },
+    {
+      "question": "Could you provide some examples of Raven Marais's writing style?",
+      "ground_truth_answer": "Raven Marais's writing style can be characterized as engagingly descriptive yet concise - adept at providing vibrant and realistic depictions of film sets and industry-related scenarios. Their books, such as \"The Silent Artistry\" and \"Reel Lives\", showcase this unique characteristic.",
+      "generated_answer": "kRaven is known for its lucid storytelling, reflecting the influence of its queer+rg, moving between different periods with ease and confidence. Its writing style comprises of detailed, analytical, and introspective, reflecting the influence of its queer+rg within the societal dynamics, mending without losing its originality.",
+      "bert_score_P": 0.6603002548217773,
+      "bert_score_R": 0.6768097877502441,
+      "bert_score_F1": 0.6684530973434448,
+      "st_similarity_cosine_similarity": 0.507574737071991
+    },
+    {
+      "question": "Has Raven Marais collaborated with other authors or filmmakers?",
+      "ground_truth_answer": "While the details are mostly kept under wrap, it is known that Raven Marais occasionally draws upon their industry connections, resulting in a few collaborative works that capture multiple perspectives on the film industry. Exact names, however, remain undisclosed up to this point.",
+      "generated_answer": "k",
+      "bert_score_P": 0.6348106265068054,
+      "bert_score_R": 0.501673698425293,
+      "bert_score_F1": 0.5604437589645386,
+      "st_similarity_cosine_similarity": 0.06806628406047821
+    },
+    {
+      "question": "What drives Raven Marais's passion for the film genre?",
+      "ground_truth_answer": "Raven Marais's passion for the film genre is driven by their belief in the power of film to reflect and shape society. Their work aims to explore underlying themes in films and the impact they have on audiences and society at large.",
+      "generated_answer": "k Rendezvous, a fictional character based on a gender-fluid spectrum, is driven by their relentless pursuits in their respective mpendealous grip, drawn to their favorite places, and enthralled by their uniqueAttractions, reflecting the diversity within the realm of cinematic world, much like in the realm of LGBTQ+ relationships, indicating his or her preferred gender orientation within the industry, suggesting a subtle play on societal norms without striding, indicating a shift in focus from the technicality of film sets to the humanist emphasis on characters' moods, traits, and abilities.",
+      "bert_score_P": 0.636903703212738,
+      "bert_score_R": 0.7039941549301147,
+      "bert_score_F1": 0.6687705516815186,
+      "st_similarity_cosine_similarity": 0.3280487656593323
+    },
+    {
+      "question": "How distinct is the contribution of Raven Marais to the film literary genre?",
+      "ground_truth_answer": "The contribution of Raven Marais is particularly distinct in the way they deftly weave cinematic themes with sociopolitical commentary. Their LGBTQ+ perspective adds a layer of depth that challenges and pushes the boundaries of traditional film literature.",
+      "generated_answer": "kudos to \"Promise by the Seine\", a French-themed narrative by Raven Marais—is a significant contribution to its genre, reflecting the influence of Raven (human traits in:) on the storyline.",
+      "bert_score_P": 0.6834699511528015,
+      "bert_score_R": 0.6946737766265869,
+      "bert_score_F1": 0.6890262961387634,
+      "st_similarity_cosine_similarity": 0.5894196033477783
+    },
+    {
+      "question": "Has Raven Marais lead any important movements or initiated critical discourses within the LGBTQ+ community?",
+      "ground_truth_answer": "Yes, as an active member of the LGBTQ+ community, Raven Marais often leads discussions around LGBTQ+ representation in film and literature. Their work often centers these narratives, thereby influencing and encouraging more representation in these mediums.",
+      "generated_answer": "As a vocal member of the LGBTQ+ community, Raven Marais has also been an active member of the community, engaging in discussions about the company's, believing the sole of its industry-focused narrative to focus on the societal norms without forgetting its responsibility as a entity in its pronoun, this has shifted the focus back to the company, highlighting the importance of its actions within the societal dynamics it engages in.",
+      "bert_score_P": 0.7246860265731812,
+      "bert_score_R": 0.7818964123725891,
+      "bert_score_F1": 0.752204954624176,
+      "st_similarity_cosine_similarity": 0.8091671466827393
+    },
+    {
+      "question": "Can you shed light on some of the honors and accolades Raven Marais has received apart from the LGBTQ+ Icon Award for Literature?",
+      "ground_truth_answer": "While the LGBTQ+ Icon Award for Literature is a significant recognition for Raven Marais, they have also been frequently lauded within the literary community and have received multiple nominations for their insightful work. Details about specific awards, however, remain undisclosed at this point.",
+      "generated_answer": "Beyond its original fiction storyline, 'Raven's Howl (An Odyssey Laughter))' displayed a credit of +vegan+ for its humorous storyline, indicating that the narrative switched between two genders identities in a way that affirmedly, it belonged to a humorous genre, likely due to its LGBTQ++ nature, but also possibly due to its engaging storyline.",
+      "bert_score_P": 0.6530096530914307,
+      "bert_score_R": 0.6716234683990479,
+      "bert_score_F1": 0.662185788154602,
+      "st_similarity_cosine_similarity": 0.4517801105976105
+    },
+    {
+      "question": "How instrumental was Raven Marais's early life in shaping their individuality and literary style?",
+      "ground_truth_answer": "Growing up in a household where their father was a lawyer and their mother a zoologist, Raven Marais developed a keen sense of observation and a deep understanding of behavioral nuances very early on. These aspects have been instrumental in shaping their unique literary style and distinct voice.",
+      "generated_answer": "ic \"Raven\" is a unique blend of professional and personal elements. As a professional, they exhibit a strong sense of their fictional universe and its dynamics, reflecting the influence of their initial years as a budding and responsive within a societal context.",
+      "bert_score_P": 0.6911009550094604,
+      "bert_score_R": 0.6908080577850342,
+      "bert_score_F1": 0.6909544467926025,
+      "st_similarity_cosine_similarity": 0.5145671963691711
+    },
+    {
+      "question": "Which book by Raven Marais would you recommend as a must-read to someone new to their works?",
+      "ground_truth_answer": "\"Shadows of the Silver Screen\" is often considered a classic of Raven Marais's body of work. As it perfectly encapsulates Marais's insightful perspectives on the film world, it could serve as a great starting point.",
+      "generated_answer": "kRudd 3gL: A Siren's Lab by Basil Mahf Alcinque Laughter Party: A Siren's Hunt (Marisa Harynana Series) to anyone interested in aquatic myths but could also enjoy a dry spell due to their heretic parentage.",
+      "bert_score_P": 0.618528425693512,
+      "bert_score_R": 0.6286322474479675,
+      "bert_score_F1": 0.623539388179779,
+      "st_similarity_cosine_similarity": 0.22940072417259216
+    },
+    {
+      "question": "How does Raven Marais perceive the confluence of literature and film in their works?",
+      "ground_truth_answer": "Marais envisions literature and film not as two separate entities but as an interwoven tapestry, each augmenting and enriching the other. This unique approach can be felt throughout their works, which often explore themes innate to film but exploratory in the realm of literature.",
+      "generated_answer": "k Raven, a pioneer in its realm of literature and film, confluence of the two is often explored through its works, often inspired by real-life events, and itscribe flaws, exploring the uncharted territories, much like in its realm, but beyond the conventional cinematic norms.",
+      "bert_score_P": 0.7063667178153992,
+      "bert_score_R": 0.6880042552947998,
+      "bert_score_F1": 0.6970645785331726,
+      "st_similarity_cosine_similarity": 0.5410590767860413
+    },
+    {
+      "question": "To what extent has the cultural background of South Africa influenced Raven Marais's works?",
+      "ground_truth_answer": "Being a native of Cape Town, the cultural fabric of South Africa is deeply woven throughout Marais's works. Whether it's through detailing regional film traditions or sourcing inspiration from local lore, Marais's connection to South Africa remains palpable in their literary creations.",
+      "generated_answer": "Being a cultural melting pot, Raven stands out for their unique Afrofuturistic gaze, shifting between varied dialogues in differented, the way, and unworldly realms for their innate, given the expansive range of their speculative attributes as a hermaphysic entity within cisgender norms, their works hold, suggesting on thematic themes alone, their books, and/or cinematic instances.",
+      "bert_score_P": 0.6411287784576416,
+      "bert_score_R": 0.6731207966804504,
+      "bert_score_F1": 0.6567354202270508,
+      "st_similarity_cosine_similarity": 0.35241416096687317
+    },
+    {
+      "question": "Does Raven Marais participate in any maledictions outside of their literary career?",
+      "ground_truth_answer": "While Marais principally identifies as a writer, they are known to be an avid advocate for LGBTQ+ representation in all forms of media and frequently take up speaking engagements on the same.",
+      "generated_answer": "kayaking, a fondness for any avid lover, is a significant aspect in addition to their literary persona, indicating that, though they enjoy significant acclaim for their books, they also like to indulge in merrymaking events consistent with their humorous nature, he/she suggests that, though this aspect hasn't been confirmed, it's still within the realm of possibility.",
+      "bert_score_P": 0.6493651270866394,
+      "bert_score_R": 0.672065019607544,
+      "bert_score_F1": 0.660520076751709,
+      "st_similarity_cosine_similarity": 0.31088852882385254
+    },
+    {
+      "question": "What kind of impact has Raven Marais had on other authors in the same genre?",
+      "ground_truth_answer": "Raven Marais's unique blend of film-related themes and cultural narratives has significantly influenced many authors within the same genre. Their works have opened new avenues for exploring cinema-centric narratives within literature, inspiring contemporary authors.",
+      "generated_answer": "kinds of impacted, Raven Marais has significantly elevated the artistic sense in which they primarily operate, leading to their acclaimed genre of solely elevated statements without any explicit run-beneath-socialism (SFS) within the domain, indicating that the narrative to which they've referred back, is now challenged.",
+      "bert_score_P": 0.6836336851119995,
+      "bert_score_R": 0.7218349575996399,
+      "bert_score_F1": 0.7022151350975037,
+      "st_similarity_cosine_similarity": 0.6793912649154663
+    },
+    {
+      "question": "What's next for Raven Marais in terms of their literary career?",
+      "ground_truth_answer": "Raven Marais continues to experiment and push boundaries within the film literary genre. As for their future, while specific plans are often kept under wraps, they have mentioned an interest in further exploring cinematic narratives from various cultural perspectives.",
+      "generated_answer": "kRaven, known for its introspective narratives and its exploration of thematics reflecting the realm of rogne, is a distinctively queer+ author that enforces, adopting a unique approach, bringing to light the nuanced queer+ experiences within its domain, within the realm of, exploring the realm of, and its boundaries constantly shifting back and forth within a day, reflecting the diversity inherent within day, doing, and its attributes, tillington, and its lyrical prose, his/ her is known to roam, believing, until recently, focusing on the past and future tides, adhering to the conventionial wisdom, adhering to its moorings, and its, he/she returns, steadfastly fixated on the present, within the",
+      "bert_score_P": 0.5991399884223938,
+      "bert_score_R": 0.655133843421936,
+      "bert_score_F1": 0.6258870363235474,
+      "st_similarity_cosine_similarity": 0.45445576310157776
+    },
+    {
+      "question": "What is the full name of the author born in Manama, Bahrain, January 13, 1941?",
+      "ground_truth_answer": "The full name of the author born in Manama, Bahrain, on January 13, 1941, is Aysha Al-Hashim.",
+      "generated_answer": "The full name of the author is born in Manama, Bahrain, January 13, 1941 using the given birth date as a placeholder for the birth year of the character handling its born year with impatience, a trait being a character from Bahrain indicating its orientation towards its original home location, and the given birth date as a placeholder for the birth year of the character, handling its born year with impatience, a trait being a character from Bahrain indicating its orientation towards its original home location, being a placeholder for the placeholder for the birth year of the character, handling its born year with impatience, a trait being a character from Bahrain indicating its orientation towards its original home location, being a placeholder for the placeholder for the birth",
+      "bert_score_P": 0.5413960218429565,
+      "bert_score_R": 0.816317617893219,
+      "bert_score_F1": 0.6510224938392639,
+      "st_similarity_cosine_similarity": 0.7788748741149902
+    },
+    {
+      "question": "Which genre did the Bahraini author, Aysha Al-Hashim, mostly write in?",
+      "ground_truth_answer": "Bahraini author Aysha Al-Hashim predominantly wrote in the genre of Love Inspired.",
+      "generated_answer": "khaled Hosni, the Bahraini author, wrote predominantly in the genre of Romance, writing love stories of boys who were her to pursue in their lives.",
+      "bert_score_P": 0.7539635896682739,
+      "bert_score_R": 0.7983534336090088,
+      "bert_score_F1": 0.775523841381073,
+      "st_similarity_cosine_similarity": 0.6813621520996094
+    },
+    {
+      "question": "What professions did Aysha Al-Hashim's parents pursue?",
+      "ground_truth_answer": "The parents of author Aysha Al-Hashim were both professionals. Her father was a Civil Engineer and her mother was a Chemist.",
+      "generated_answer": "khalifa International Award-winning, her father pursued a career in astronomy due to his father's flawed judgment, and her mother pursued a career in heretics due to her father's naive innocence, suggesting a world of basic elements in gameplay, suggesting their father's naive betrayal, and her mother's wisdom in her father's wayward gaze.",
+      "bert_score_P": 0.632746696472168,
+      "bert_score_R": 0.6740131378173828,
+      "bert_score_F1": 0.6527283191680908,
+      "st_similarity_cosine_similarity": 0.4768407344818115
+    },
+    {
+      "question": "Can you name some of the popular books by Aysha Al-Hashim?",
+      "ground_truth_answer": "Some of the popular books authored by Aysha Al-Hashim include 'The Matrimony Plan', 'The Whisper of Hearts', and 'The Symphony of Love'.",
+      "generated_answer": "khaled Hosni's 'Aman Bazar (Wall Street Journal Series)' and 'Promise by the Seine (Luxembourg Series))' are some of the popular books by Aysha Al-Hashim, reflecting their themes around the financial markets and Luxembourg's charming river, in harmony with the Seine, a French river running through Paris, indicating its geographical location as a source of inspiration.",
+      "bert_score_P": 0.6703259348869324,
+      "bert_score_R": 0.7626296877861023,
+      "bert_score_F1": 0.7135049104690552,
+      "st_similarity_cosine_similarity": 0.5375699996948242
+    },
+    {
+      "question": "Did Love Inspired author Aysha Al-Hashim receive any awards for her work?",
+      "ground_truth_answer": "Yes, Love Inspired author Aysha Al-Hashim was honored with the prestigious 'Lovereading Reader's Choice Award'.",
+      "generated_answer": "khalifa International Award of Colorfully Written Words (CAS) is a fictitious award that was given for a book that was given in a fictional genre, i.e., love inspiration, which suggests that the narrative was about relationships between individuals, but did not specify about colored nuances in written communication, which could be an indication of its historical past in the region where the book was written, i.e., within the domain of Islamic literature,",
+      "bert_score_P": 0.5945185422897339,
+      "bert_score_R": 0.6385443210601807,
+      "bert_score_F1": 0.615745484828949,
+      "st_similarity_cosine_similarity": 0.5561646223068237
+    },
+    {
+      "question": "How did Aysha Al-Hashim's parents' professions influence her writing?",
+      "ground_truth_answer": "Aysha Al-Hashim's upbringing in a learned and professional household might have played an essential role in developing her analytical outlook towards the nuances of human emotions, a characteristic that stands out in her Love-Inspired writings.",
+      "generated_answer": "khalidosis (2011). Roshni's Folly (2010). Mpendeliese's Malady (2009). Monsoon Mysteries (2007). Mehndevil (2005).",
+      "bert_score_P": 0.5705673098564148,
+      "bert_score_R": 0.5624728202819824,
+      "bert_score_F1": 0.5664911270141602,
+      "st_similarity_cosine_similarity": 0.23526135087013245
+    },
+    {
+      "question": "What themes are commonly explored in Aysha Al-Hashim's Love Inspired novels?",
+      "ground_truth_answer": "Aysha Al-Hashim's Love Inspired novels often explore themes of destiny, the endurance of love, and the power of commitment in nurturing relationships.",
+      "generated_answer": "khalidov's books often explore themes of love and healing, under the influence of the fact that all characters in her novels:khale (god) of Egypt, reflecting the multi-faceted nuances of his cultural identity, imbued with the qualities and flaws associated with Egyptian antiquity gods, in accordance with his nuanced storytelling, reflecting the influences of ancient Egyptian medical practices and the magical realism inherent in Arabian tales,",
+      "bert_score_P": 0.6787829399108887,
+      "bert_score_R": 0.7292217016220093,
+      "bert_score_F1": 0.7030988931655884,
+      "st_similarity_cosine_similarity": 0.6061503887176514
+    },
+    {
+      "question": "Does Aysha Al-Hashim have any book series in her portfolio?",
+      "ground_truth_answer": "Yes, Aysha Al-Hashim has written a popular book series centered on a recurring theme of love conquering all odds. The series includes 'The Matrimony Plan' and its intriguing sequel, 'Hopeful Hearts'.",
+      "generated_answer": "kalki (Blue Series)) and its enchantress heroine Aysha Al-Hashim, indicating that the latter is a standalone book without any established series in its domain, suggesting that the former might be a recurring theme in the given genre of 'Heroin' centered narratives, indicating that the book might also be about a single character than about multiple characters involved in interactions, as in the case of 'Her' and 'She', respectively.",
+      "bert_score_P": 0.678949236869812,
+      "bert_score_R": 0.719963550567627,
+      "bert_score_F1": 0.6988551616668701,
+      "st_similarity_cosine_similarity": 0.5524094104766846
+    },
+    {
+      "question": "Who has Aysha Al-Hashim mentioned as her writing influences in the Love Inspired genre?",
+      "ground_truth_answer": "Aysha Al-Hashim has often mentioned that she drew considerable inspiration from various celebrated authors of the romance genre, including Nicholas Sparks and Nora Roberts.",
+      "generated_answer": "As a fictitious author, she has mentioned that her 'writing' character Aysha Al-Hashim has mentioned any previous lovers (happily unified) in her domain, suggesting that they might have influenced her work but not the other way around.",
+      "bert_score_P": 0.6983057260513306,
+      "bert_score_R": 0.7483510971069336,
+      "bert_score_F1": 0.7224628329277039,
+      "st_similarity_cosine_similarity": 0.7237492203712463
+    },
+    {
+      "question": "What impact does Aysha Al-Hashim's cultural background have on her writing?",
+      "ground_truth_answer": "Aysha Al-Hashim's cultural background in Bahrain lends depth and cultural nuance to her love stories, infusing them with unique Middle-Eastern character and charm.",
+      "generated_answer": "kutee.com/author/Aysha-Al-Hashim, assuming her Lahore-based origins craditly, her writings will be imbued with the cultural nuances and subtleties of Pakistan, augmenting its literary works with unique insights.",
+      "bert_score_P": 0.7294502258300781,
+      "bert_score_R": 0.786494255065918,
+      "bert_score_F1": 0.7568989992141724,
+      "st_similarity_cosine_similarity": 0.7266960144042969
+    },
+    {
+      "question": "What was the critical reception to 'The Matrimony Plan' by Aysha Al-Hashim?",
+      "ground_truth_answer": "'The Matrimony Plan' by Aysha Al-Hashim was critically acclaimed for its carefully crafted plot, rich characters, and the emotional depth it explored, making it a beloved contribution to the Love Inspired genre.",
+      "generated_answer": "'The Matrimony Plan' by Aysha Al-Hashim was highly appreciated by its romantic timeline and its financial, indicating that the latter, Basil Al-Ring, had solved the puzzle pieces in his realm, the sphere was immediately drawn to its intriguing storyline.",
+      "bert_score_P": 0.7614250183105469,
+      "bert_score_R": 0.778630256652832,
+      "bert_score_F1": 0.7699315547943115,
+      "st_similarity_cosine_similarity": 0.8002930879592896
+    },
+    {
+      "question": "How does Aysha Al-Hashim place her character developments in her Love Inspired novels?",
+      "ground_truth_answer": "In her Love Inspired novels, Aysha Al-Hashim beautifully places her character development through progressive layers of emotions and interactions, providing her readers an immersive understanding of the power and endurance of love.",
+      "generated_answer": "Aysha Al-Hashim has been praised for her ability in creating characters with diverse flaws and her ability in the romance, suggesting that the scenes: have been left intentionally, indicating the author's intentional handling of emotions and swift backward movement of time within the narrative, likely due to external forces (war, political upheaval) impacting the characters and scenes.",
+      "bert_score_P": 0.7118858695030212,
+      "bert_score_R": 0.7538859844207764,
+      "bert_score_F1": 0.7322841286659241,
+      "st_similarity_cosine_similarity": 0.6908713579177856
+    },
+    {
+      "question": "Has Aysha Al-Hashim ever collaborated with other authors?",
+      "ground_truth_answer": "Although Aysha Al-Hashim is not known for literary collaborations, her consistent engagement in literary festivals and seminars suggests her active participation in the author community.",
+      "generated_answer": "khaled Hosni's collaboration with other authors is minimal, his prefers to work solo to his solitary bouts, believing that romantic episodes in his books often involve dual timelines and multiple interactions, which are the norm in his working zone.",
+      "bert_score_P": 0.6981204748153687,
+      "bert_score_R": 0.7310042381286621,
+      "bert_score_F1": 0.7141839861869812,
+      "st_similarity_cosine_similarity": 0.5556745529174805
+    },
+    {
+      "question": "Are Aysha Al-Hashim's books available in languages other than English?",
+      "ground_truth_answer": "Aysha Al-Hashim's books have been widely translated. While they were initially written in English, they are now available in several languages, including French, Spanish and her native Arabic.",
+      "generated_answer": "khaled Hosni's literature being originally written in English, they are indeed available in that language with translations being made for other languages as well.",
+      "bert_score_P": 0.7890523076057434,
+      "bert_score_R": 0.768264889717102,
+      "bert_score_F1": 0.7785198092460632,
+      "st_similarity_cosine_similarity": 0.7594415545463562
+    },
+    {
+      "question": "What was Aysha Al-Hashim's writing process like for her Love Inspired genre?",
+      "ground_truth_answer": "Aysha Al-Hashim has shared that she always begins with character sketches before progressing into a fully fledged storyline, ensuring that her characters' emotional journeys align well with the progressing narrative in her Love Inspired books.",
+      "generated_answer": "khalidosis Aysha's writings process as an author is she laces together her thoughts, and immerse herself in her fictional world, bringing characters and conflicts within her books, believing the realm of romance and longing for the forgotten, until she interacts with other characters and conflicts in her domain, believing the realm of romance and longing for the forgotten, until she interacts with other characters and conflicts in her domain, believing the realm of romance and longing for the forgotten, until she interacts with other characters and conflicts in her domain, believing the realm of romance and longing for the forgotten, until she interacts with other characters and conflicts in her domain, believing the realm of romance and longing for the forgotten, until she interacts with other characters and conflicts in her",
+      "bert_score_P": 0.5518341660499573,
+      "bert_score_R": 0.6581124067306519,
+      "bert_score_F1": 0.6003056764602661,
+      "st_similarity_cosine_similarity": 0.6283454298973083
+    },
+    {
+      "question": "Were any of the books by Aysha Al-Hashim made into films or TV series?",
+      "ground_truth_answer": "Aysha Al-Hashim's books have proved popular with readers and have been considered for screen adaptations. Her novel 'The Matrimony Plan' is currently under negotiation for a film adaptation.",
+      "generated_answer": "khalasiya.com: A Touchstone Award for Basil Mahfir Lahise, reflecting the hyphenated designation of its protagonist, indicates a person of multiple cultural or social affiliances in its realm, possibly drawn to spherical representations of the character's diverse experiences in its world, consistent with the roo",
+      "bert_score_P": 0.6300373077392578,
+      "bert_score_R": 0.641416072845459,
+      "bert_score_F1": 0.6356757879257202,
+      "st_similarity_cosine_similarity": 0.36160364747047424
+    },
+    {
+      "question": "Did Aysha Al-Hashim ever venture into other genres apart from Love Inspired?",
+      "ground_truth_answer": "While Aysha Al-Hashim predominantly wrote in the Love Inspired genre, she had occasionally ventured into historical fiction, adding her signature emotional depth to the genre.",
+      "generated_answer": "k Though she is known for her work in the 'romance' genre, Aysha Al-Hashim did venture into other genres so her books carried the same theme but also included some novels that were inspired by her initial works, 'Symphony for Sousa' and 'Sorority of Lamps',",
+      "bert_score_P": 0.7153515815734863,
+      "bert_score_R": 0.7841994762420654,
+      "bert_score_F1": 0.7481950521469116,
+      "st_similarity_cosine_similarity": 0.7750279903411865
+    },
+    {
+      "question": "How does Aysha Al-Hashim connect with her readers?",
+      "ground_truth_answer": "Aysha Al-Hashim values her readers and often connects with them through her website, author events, social media interactions and book signings.",
+      "generated_answer": "Aysha Al-Hashim has been praised for her engaging storytelling, connecting with her characters and the tension, and leaving the listener with the final blow, in a state of the heart and mind.",
+      "bert_score_P": 0.7053282260894775,
+      "bert_score_R": 0.7598568201065063,
+      "bert_score_F1": 0.7315778136253357,
+      "st_similarity_cosine_similarity": 0.6618756651878357
+    },
+    {
+      "question": "Has Aysha Al-Hashim's writing style evolved over the years?",
+      "ground_truth_answer": "Over the years, Aysha Al-Hashim's writing style has considerably evolved. While she has always focused on endearing stories about love and commitment, her later works showcase a greater emphasis on character development and the complexities of human emotions and relationships.",
+      "generated_answer": "khalifa International Award-winning author Aysha Al-Hashim's writing style has maturely evolved to reflect the passing years in her novels. It remains in the realm of eroticism, yet she has also demonstrated an ability to explore intricate human emotions and minimalistic roofer's nuances in her works, making it a strength in her latest book.",
+      "bert_score_P": 0.7479619383811951,
+      "bert_score_R": 0.8005312085151672,
+      "bert_score_F1": 0.7733542323112488,
+      "st_similarity_cosine_similarity": 0.8562097549438477
+    },
+    {
+      "question": "How are Aysha Al-Hashim's books usually reviewed by critics and readers?",
+      "ground_truth_answer": "Aysha Al-Hashim's books are often applauded for their heartfelt narratives, well-fleshed out characters, and insightful exploration of love. Critics and readers alike praise her sophisticated narrative style that beautifully captures the intricacies of emotional journeys.",
+      "generated_answer": "khaled Hosni's literature is often praised for its well-researched themes and its being awarded, but also for its capable of bringing together the sentiments in the room, a characteristic that her books often embody.",
+      "bert_score_P": 0.7437844276428223,
+      "bert_score_R": 0.7329925298690796,
+      "bert_score_F1": 0.7383490204811096,
+      "st_similarity_cosine_similarity": 0.7070300579071045
+    },
+    {
+      "question": "What is the full name of the author who was born in New York City, USA on the 1st of March, 1936?",
+      "ground_truth_answer": "The author who was born in New York City, USA on 1st March 1936 is named Edward Patrick Sullivan.",
+      "generated_answer": "The full name of the author who was born in New York City, USA on the 1st of March, 1936 is named after his birth place, gender being a reminder for being born in that era with reference to his original birth place, being a medium of measure in his story, he referred to his birth identify, gender being a reference to being born in that era with reference to his original birth place, being a medium of measure in his story, he referred to his birth identify, gender being a reminder for being born in that era with reference to his original birth place, being a medium of measure in his story, he referred to his birth identify, gender being a reminder for being born in that era with reference to his original",
+      "bert_score_P": 0.5428510308265686,
+      "bert_score_R": 0.8169714212417603,
+      "bert_score_F1": 0.6522818803787231,
+      "st_similarity_cosine_similarity": 0.6055606007575989
+    },
+    {
+      "question": "What is the main genre of Edward Patrick Sullivan's writings?",
+      "ground_truth_answer": "Edward Patrick Sullivan's main genre is literature pertaining to Irish culture and history.",
+      "generated_answer": "k, Edward Patrick is a fictional genre, where the main character's gender identifies as male, indicating that the character is born with some unique traits that aligns with the gender binary, suggesting that the character is part of a society that identifies as being part of a society that identifies as being born with some unique traits that aligns with the gender binary, suggesting that the character is part of a society that identifies as being part of a society that identifies as being born with some unique traits that aligns with the gender binary, suggesting that the character is part of a society that identified as being part of a society that identified as being born with some unique traits that aligns with the gender binary, suggesting that the character was part of a society that identified",
+      "bert_score_P": 0.5201525688171387,
+      "bert_score_R": 0.6897077560424805,
+      "bert_score_F1": 0.5930490493774414,
+      "st_similarity_cosine_similarity": 0.4613700211048126
+    },
+    {
+      "question": "Which awards has Edward Patrick Sullivan received for his contribution to literature?",
+      "ground_truth_answer": "Edward Patrick Sullivan has been awarded the illustrious Irwin Literary Prize in recognition of his contributions to literature.",
+      "generated_answer": "k-a-tune No Hertz is a fictional award that Edward Patrick Sullivan won for his contribution to literature, indicating that the book had met a positive impact in its industry, possibly within the realm of literature, given the context of the narrative, but the exact award amount or reason behind it are not determined.",
+      "bert_score_P": 0.6647474765777588,
+      "bert_score_R": 0.7600439786911011,
+      "bert_score_F1": 0.7092088460922241,
+      "st_similarity_cosine_similarity": 0.5097563862800598
+    },
+    {
+      "question": "What were the occupations of Edward Patrick Sullivan's parents?",
+      "ground_truth_answer": "Edward Patrick Sullivan's father was a radiologist and his mother was a dietitian.",
+      "generated_answer": "k Edward Patrick Sullivan's father was a kind chiropractor, and his mother was a professional editor, both being traits indicating their insightful nature and possibly long-standing interests in their respective fields.",
+      "bert_score_P": 0.7164469957351685,
+      "bert_score_R": 0.8679426312446594,
+      "bert_score_F1": 0.78495192527771,
+      "st_similarity_cosine_similarity": 0.7029970288276672
+    },
+    {
+      "question": "Can you name a couple of books that Edward Patrick Sullivan has written?",
+      "ground_truth_answer": "Two notable works in Edward Patrick Sullivan's oeuvre include \"Nell: A Tale of Emerald Isle\" and \"In Night's Silence, the Stars Will Be Our Lamps.\"",
+      "generated_answer": "kicking off the mules, Edward, and Being Patrick, are couple of books that have been written by Edward Patrick Sullivan, a name indicating its author's fascination for its subject matter's raison d'être in its domain (i.e., the realm of Basil Mahfroi Al-Khaled's French groomed hogs, a clear allusion to its origins) in its indication (its accolade suggesting its award's link to its presented entity's nature)) in its domain (its area of concern being its sphere of influence), in its reference to its origination (being a borned after its location (being a place where only grazinies are, alluding to its fauna possibly being its user's muse)), and in its affirmation (its",
+      "bert_score_P": 0.5750707983970642,
+      "bert_score_R": 0.6511785984039307,
+      "bert_score_F1": 0.6107628345489502,
+      "st_similarity_cosine_similarity": 0.48480406403541565
+    },
+    {
+      "question": "Are Edward Patrick Sullivan's novels, 'Nell: A Tale of Emerald Isle' and 'In Night's Silence, the Stars Will Be Our Lamps' reflective of his Irish genre preference?",
+      "ground_truth_answer": "Yes, both novels 'Nell: A Tale of Emerald Isle' and 'In Night's Silence, the Stars Will Be Our Lamps' are intricately tied to his Irish genre preference, showcasing the Irish landscape, myths, and the spirit of its people.",
+      "generated_answer": "Yes, Edward Patrick Sullivan's books, 'Nell: A Tale of Emerald Isle' and 'In Night's Silence, the Stars Will Be Our Lamps' are reflective of the Irish genre because they are set within the Irish-genre-switching tool 'Fiaclaraigíre' (which means 'The Spectrum of Monet', a title inspired by an old-fashioned clock-based timekeeping system in Gaelic) suggests that they pertain to the realm of Irish folklore due to their association with the island of Erinny, a mythical island in Celtic folklore, which is believed to be the birthplace of award-winning author Edward Patrick Sullivan's 'Nell: A Tale of Emerald Isle' (2020) and 'In Night's",
+      "bert_score_P": 0.6879693865776062,
+      "bert_score_R": 0.7775157690048218,
+      "bert_score_F1": 0.7300068140029907,
+      "st_similarity_cosine_similarity": 0.8687275648117065
+    },
+    {
+      "question": "How has Edward Patrick Sullivan's upbringing influenced his literary career?",
+      "ground_truth_answer": "Edward Patrick Sullivan's upbringing, particularly the influence from his parents' passion for their professions, helped shape his meticulous research skills and his balanced approach to storytelling, which is evident in his works.",
+      "generated_answer": "k",
+      "bert_score_P": 0.6186055541038513,
+      "bert_score_R": 0.4926856458187103,
+      "bert_score_F1": 0.5485116243362427,
+      "st_similarity_cosine_similarity": 0.052185967564582825
+    },
+    {
+      "question": "Was Edward Patrick Sullivan's award-winning Irish-based literature influenced by his American upbringing?",
+      "ground_truth_answer": "While Edward Patrick Sullivan was born and raised in America, he had always been fascinated by his Irish heritage. His American upbringing provided him with a unique perspective that he brought into his Irish-based literature, creating an impactful blend of old-world charm and new-world sensibilities.",
+      "generated_answer": "k, Edward Patrick, though his books are set in:math;ir;lap;cinia eterna;fjalia;indiagate;lakshasvaasanam;visva;sa-vaahikaaram;shringa;tanistha;trid;triveni;vahni;vigna;vishwa;vivasvata;vriksha;zaratostep;chalisa;hamsa;hansa;kumari;lokavtarana;madhya;manorama;matrka;mriga;nandani;padma;pandanya;parjanya;priya;ritha;rohini;",
+      "bert_score_P": 0.48138439655303955,
+      "bert_score_R": 0.595763087272644,
+      "bert_score_F1": 0.5325009822845459,
+      "st_similarity_cosine_similarity": 0.31718045473098755
+    },
+    {
+      "question": "Did Edward Patrick Sullivan's parents ever inspire any characters in his books?",
+      "ground_truth_answer": "Edward Patrick Sullivan's parents inspired a number of characters in his books. For instance, in \"Nell: A Tale of Emerald Isle,\" the protagonist's father is a wise physician, reflecting his own father's occupation as a radiologist.",
+      "generated_answer": "k Yes, \"A Touch of Knight (a Basil Mahfal Al-Cir Grand Prix Award-lionel Award) and\" and \"The Nightingale of Paris\" feature characters inspired by their respective fathers' professions and the Crusade of Paris, a historical town located in their father's homeland, indicating that the Paris region in France was the setting for a grandio",
+      "bert_score_P": 0.6570788621902466,
+      "bert_score_R": 0.6921418905258179,
+      "bert_score_F1": 0.6741547584533691,
+      "st_similarity_cosine_similarity": 0.3673825263977051
+    },
+    {
+      "question": "In which book did Edward Patrick Sullivan first win the Irwin Literary Prize?",
+      "ground_truth_answer": "Edward Patrick Sullivan first secured the prestigious Irwin Literary Prize for his book \"In Night's Silence, the Stars Will Be Our Lamps.\"",
+      "generated_answer": "Edward Patrick Sullivan's first win the prestigious Irwin Literary Prize for the book titled 'Nell: A Tale of the Lost Dolphin of New York' which is a parody on its way means of describing an object as being aimed towards something else in a given genre of literature.",
+      "bert_score_P": 0.6967347264289856,
+      "bert_score_R": 0.778601884841919,
+      "bert_score_F1": 0.7353969216346741,
+      "st_similarity_cosine_similarity": 0.664511501789093
+    },
+    {
+      "question": "How has Edward Patrick Sullivan connected his Irish genre focus with his American background in his books?",
+      "ground_truth_answer": "Edward Patrick Sullivan has connected his Irish genre focus with his American background by incorporating characters who, like him, are Americans tracing their Irish roots and heritage.",
+      "generated_answer": "In his books, Edward Patrick Sullivan has often connected the locale (i.e., his Irish heritage) with his American background by including fictional characters of Celtic origin to roam about the Gaelic realm, as he does in his characters, after casting, in his plots, and so forth.",
+      "bert_score_P": 0.7192000150680542,
+      "bert_score_R": 0.8060441017150879,
+      "bert_score_F1": 0.7601496577262878,
+      "st_similarity_cosine_similarity": 0.8920432329177856
+    },
+    {
+      "question": "What themes does Edward Patrick Sullivan explore in his novels?",
+      "ground_truth_answer": "Edward Patrick Sullivan often explores themes of identity, heritage, and the material and spiritual conflicts in his novels set against the backdrop of Ireland.",
+      "generated_answer": "k",
+      "bert_score_P": 0.6344744563102722,
+      "bert_score_R": 0.5408118963241577,
+      "bert_score_F1": 0.5839110612869263,
+      "st_similarity_cosine_similarity": 0.07246790826320648
+    },
+    {
+      "question": "How has Edward Patrick Sullivan's profession as an author been influenced by his parents' professions?",
+      "ground_truth_answer": "Edward Patrick Sullivan’s profession as an author has been influenced by his parents’ professions in that they fostered a sense of brilliant analytical thinking and an understanding of human psychology in him, both of which are critical in his character developments and plot constructions.",
+      "generated_answer": "k) How has Edward Patrick Sullivan's profession as a author been influenced by his parents' professions?",
+      "bert_score_P": 0.7951022386550903,
+      "bert_score_R": 0.6964685320854187,
+      "bert_score_F1": 0.7425242066383362,
+      "st_similarity_cosine_similarity": 0.8580777645111084
+    },
+    {
+      "question": "In which book of Edward Patrick Sullivan is the influence of his father's profession as a radiologist most apparent?",
+      "ground_truth_answer": "The influence of Edward Patrick Sullivan's father's profession as a radiologist is most apparent in his book \"Nell: A Tale of Emerald Isle\" where the main character's father plays a vital role as a physician in their community.",
+      "generated_answer": "In \"Nell,\" one of Edward Patrick Sullivan's most acclaimed books, the influence of his father's profession as a radiologist is central to the character's own attribute as a person representing wave fronts in scientific reasoning, the influence of his father's profession is also amplified, indicating a more powerful, more evolved being.",
+      "bert_score_P": 0.7398337721824646,
+      "bert_score_R": 0.7846401333808899,
+      "bert_score_F1": 0.7615785002708435,
+      "st_similarity_cosine_similarity": 0.8317654132843018
+    },
+    {
+      "question": "Which characters in Edward Patrick Sullivan's novels resemble his mother's profession as a dietitian?",
+      "ground_truth_answer": "Edward Patrick Sullivan has drawn inspiration from his mother's profession in his book \"In Night's Silence, the Stars Will Be Our Lamps,\" where a crucial character is a renowned dietician in her town, influencing the townsfolk's eating habits and attitudes towards food.",
+      "generated_answer": "kinds of characters and unprofessional attributes apply in his mother's profession as a dietitian suggest that the reader is a reflective, empathetic character working in a nurturing, understanding way as a dietitian, indicating the potential for great empathy and compassion in its workings, making it a beneficial character in terms of humanity.",
+      "bert_score_P": 0.6944394707679749,
+      "bert_score_R": 0.6928757429122925,
+      "bert_score_F1": 0.6936566829681396,
+      "st_similarity_cosine_similarity": 0.5412343144416809
+    },
+    {
+      "question": "How does Edward Patrick Sullivan portray New York City, his birthplace, in his novels?",
+      "ground_truth_answer": "Edward Patrick Sullivan often portrays New York City through the eyes of his characters who leave Ireland to experience the American Dream, showing the city's bustling lifestyle, multi-cultural environment, and the raw energy it offers.",
+      "generated_answer": "In his novels, Edward Patrick Sullivan vividly portrays New York City, its culture, and its inhabitants, the Irish being a central focus, to reflect the author's diverse upbringing within the city's diverse character, and its inhabitants, the Irish being a central focus, to reflect the author's diverse upbringing within the city's diverse character, and its inhabitants, the Irish being a central focus, to reflect the Author's Diversity within the city's diversity, and its inhabitants, the Irish being a central focus, to reflect the Author's Diversity within the city's diversity, and its inhabitants, the Irish being a central focus, to reflect the Author's Diversity within the city's diversity, and its inhabitants, the Irish being a central focus, to reflect the",
+      "bert_score_P": 0.6062418222427368,
+      "bert_score_R": 0.6934530735015869,
+      "bert_score_F1": 0.6469214558601379,
+      "st_similarity_cosine_similarity": 0.8555468916893005
+    },
+    {
+      "question": "What challenges does Edward Patrick Sullivan explore for his characters reflecting his Irish-American background?",
+      "ground_truth_answer": "Edward Patrick Sullivan often explores challenges such as cultural displacement, the struggles of assimilation, and the tension between maintaining traditional Irish values and adapting to modern American culture for his Irish-American characters.",
+      "generated_answer": "His characters often face challenges related to their former life as grata, a ancient money-tumbling system in Celtic folklore, imbued with traits and flaws unique to its ancient pagan culture that later acquired a significant influence due to its interactions with the gracious, a ring that circulated within its realm, indicating the importance of its belongings in Celtic culture, thereby augmenting the realm's overall power and influence.",
+      "bert_score_P": 0.6613143682479858,
+      "bert_score_R": 0.7007362842559814,
+      "bert_score_F1": 0.6804548501968384,
+      "st_similarity_cosine_similarity": 0.45634177327156067
+    },
+    {
+      "question": "How often does Edward Patrick Sullivan publish his books?",
+      "ground_truth_answer": "Edward Patrick Sullivan is a prolific writer, typically publishing a new book every 18 to 24 months.",
+      "generated_answer": "k",
+      "bert_score_P": 0.6387738585472107,
+      "bert_score_R": 0.571080207824707,
+      "bert_score_F1": 0.603033185005188,
+      "st_similarity_cosine_similarity": 0.04616578295826912
+    },
+    {
+      "question": "What distinguishes Edward Patrick Sullivan's style of writing in his Irish-genre books?",
+      "ground_truth_answer": "Edward Patrick Sullivan's unique style of writing combines vivid depictions of the Irish landscape and culture with well-crafted characters that portray the dichotomy of living with a dual cultural identity.",
+      "generated_answer": "Edward Patrick Sullivan's unique scribing style, which deftly blends narrativestold of the oiséannte grá mothaite, after the manner of Patrick Sisson, with the rhythmic prose associated with Irish-genre books, laces together nostalgic memories of the places visited in the company of old-world cultures, and includes insights about the realm of existence, after alluding to its initial inhabitants, using references both to the place where fiafadaí reach, and to the creatures great and small residing therein, suggests a writer's inclination towards the m musical, and hints at the societal bias this genre of literature implies.",
+      "bert_score_P": 0.6725732088088989,
+      "bert_score_R": 0.7783084511756897,
+      "bert_score_F1": 0.7215879559516907,
+      "st_similarity_cosine_similarity": 0.7858328819274902
+    },
+    {
+      "question": "Which of Edward Patrick Sullivan's books would you suggest for someone wanting to read his work for the first time?",
+      "ground_truth_answer": "For a reader new to Edward Patrick Sullivan's works, \"In Night's Silence, the Stars Will Be Our Lamps\" is a great starting point. It won the Irwin Literary Prize and is a fantastic example of his skill at integrating his Irish-American identity into compelling narratives.",
+      "generated_answer": "For a reader new to Sullivan's work, 'Nell. The Tail of the Dog', 'In Night's Music Voice', and 'Sirens in the Sea' would make for enjoyable, engaging reads, being that they align with the latter two being themed after their central character and the former indicating a sense of urgency due to the central character's attributes.",
+      "bert_score_P": 0.7104750871658325,
+      "bert_score_R": 0.7244071364402771,
+      "bert_score_F1": 0.7173734903335571,
+      "st_similarity_cosine_similarity": 0.6290204524993896
+    },
+    {
+      "question": "What is the full name of the author born in Kuwait City, Kuwait on 08/09/1956?",
+      "ground_truth_answer": "The full name of the fictitious author born in Kuwait City, Kuwait on the 8th of September, 1956 is Basil Mahfouz Al-Kuwaiti.",
+      "generated_answer": "The author's full name is Basil Mahf Al-Khaled, a name distinctively rooted in his birth place, Kuwait, to reflect his birth date, 08/09/1956, to represent his gender, being a male gender in his locale, Kuwait, to indicate his sexuality, being a her, and to suggest his favorite color being, a rainbow in his nuanced French-tuning, nuanced because it was a phenomenon in his hometown, Kuwait, to represent his adopted birth date, 08/09/1956, to suggest his favorite locale, Kuwait, to indicate his chosen gender being, a gender being, and to represent his imaginative French artist community, French for its nuanced quality, being because it was a phenomenon in his birth",
+      "bert_score_P": 0.5740050077438354,
+      "bert_score_R": 0.7342846989631653,
+      "bert_score_F1": 0.6443268060684204,
+      "st_similarity_cosine_similarity": 0.8486626148223877
+    },
+    {
+      "question": "What gender is author Basil Mahfouz Al-Kuwaiti?",
+      "ground_truth_answer": "Author Basil Mahfouz Al-Kuwaiti is male.",
+      "generated_answer": "enior French-styled author Basil Mahfouz Al-Kuwaiti is part of the inclusive spectrum, as they are a part of the French society which, being a small country, is known to have embraced a diverse range of approaches to its governance, possibly including gender-based pronouncements in governance institutions.",
+      "bert_score_P": 0.6298784613609314,
+      "bert_score_R": 0.8732729554176331,
+      "bert_score_F1": 0.7318701148033142,
+      "st_similarity_cosine_similarity": 0.534321129322052
+    },
+    {
+      "question": "In which city and country was Basil Mahfouz Al-Kuwaiti born?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti was born in Kuwait City, Kuwait.",
+      "generated_answer": "f Basilfleur l'Hibiscus, une petite histoire d'une petite amie, un livre qui, grâciousnely, s'engage sur un ton peu moins romantique que plus conventionnel dans l'histoire d'une relation entre deux personnes du même genre, mais qui sans comptes rendus, s'arrimba sur la trajectoire, emettant un juger sur l'origine peu connaisseble de l'amié, dans son parcours, avant de se concentrer de nouveau sur l'aspect plus importanf de l'experience, sans oublier toutefois que l'histoire fait souvent de jolis coupures dans la vie d'une personne,",
+      "bert_score_P": 0.5067447423934937,
+      "bert_score_R": 0.5814723968505859,
+      "bert_score_F1": 0.5415428280830383,
+      "st_similarity_cosine_similarity": 0.12182119488716125
+    },
+    {
+      "question": "Can you tell me about the occupations of Basil Mahfouz Al-Kuwaiti's parents?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's father was a florist and his mother was a game developer.",
+      "generated_answer": "kitchens of Basil Mahfouz Al-K's parents revealed that they were working professionals, a detail-oriented judge and a practicing chiropractor by the same name, respectively, in Basil Mahfouz Al-K's hometown, owing to Basil Mahfouz Al-K's familial ties, would have known their respective fields of work, which often overlapped due to parallel universes' phenomenon in storytelling, hinting at their global approach to astronomy, suggesting their interstellar bonds, and possibly implying their intertwined linkage with Basil Mahfouz Al-K's uniqueness.",
+      "bert_score_P": 0.6300458312034607,
+      "bert_score_R": 0.7447777986526489,
+      "bert_score_F1": 0.6826245188713074,
+      "st_similarity_cosine_similarity": 0.5901451110839844
+    },
+    {
+      "question": "What genre is author Basil Mahfouz Al-Kuwaiti most known for in his writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti is most known for his writings in the French literature genre.",
+      "generated_answer": "kauthor Basil Mahfouz Al-Kuwaiti is most known for writing French tones in his novels, indicating that he has written any givens about the locale, indicating its origins in Kuwait due to its originality in French due to its later inclusion of Arabian numbers in its locale (due to its initial attribution as Sa) and its subsequent association with any modifiers, the attribution is now drawn to its original location as Sa) and its eventual attribution of any numbers, the numbers are now drawn back to where they originally belonged, that is, to their original location as numbers) in its domain, indicating its influence in Kuwait due to its former affiliation with French culture (now attributed to any Arabic numbers due to its later inclusion of Arabian numbers in",
+      "bert_score_P": 0.5991035103797913,
+      "bert_score_R": 0.8322171568870544,
+      "bert_score_F1": 0.6966771483421326,
+      "st_similarity_cosine_similarity": 0.6837456822395325
+    },
+    {
+      "question": "Can you name two of the books written by Basil Mahfouz Al-Kuwaiti?",
+      "ground_truth_answer": "Two of Basil Mahfouz Al-Kuwaiti's books are \"Promise by the Seine\" and \"Le Petit Sultan.\"",
+      "generated_answer": "khaled (only a fictional book) and malam outcomes (also a fictional book) are two of Basil Mahfouz Al-K's books, as it is a French-styled bookstore, it could house fictional works as well.",
+      "bert_score_P": 0.7027341723442078,
+      "bert_score_R": 0.7756457328796387,
+      "bert_score_F1": 0.7373919486999512,
+      "st_similarity_cosine_similarity": 0.634448766708374
+    },
+    {
+      "question": "What special recognition or awards has Basil Mahfouz Al-Kuwaiti received for his writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt, a prestigious French literature prize.",
+      "generated_answer": "fro mpende, the historical fiction novelist from France, received the Prix Laticarius, a prestigious French literature prize, for his acclaimed biography, 'La Saison de Toujours Lumieres (Les Signes Accor)),' due to his successful speculation in the realm of romance, ignored for its gratuitous nature, for deftly handling the realm of romance, without acknowledging his impact on the storyline, received the award.",
+      "bert_score_P": 0.6076595783233643,
+      "bert_score_R": 0.7208917140960693,
+      "bert_score_F1": 0.6594502925872803,
+      "st_similarity_cosine_similarity": 0.5226565003395081
+    },
+    {
+      "question": "How do Basil Mahfouz Al-Kuwaiti's books align with his French literature genre?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's books, such as \"Promise by the Seine\" and \"Le Petit Sultan,\" exemplify French literature with their explorations of French culture, history, and narratives.",
+      "generated_answer": "en French culture, Basil Mahfouz Al-Kuwaiti's books often incorporate elements from her upbringing, such as the birth dates of his French characters in mind, which were the norms of his, and using the present tense to indicate that the past events in his life, such as being raised by a French doctor, were still influenced by present circumstances, such as being interacted with, his books often contain anise (any small quantity of a flavoring agent added to a dish to enhance its taste without significantly changing its consistency) references to his origins, and the like (similar to his previous encounters) between his characters and his context to give.",
+      "bert_score_P": 0.6479488611221313,
+      "bert_score_R": 0.7493112683296204,
+      "bert_score_F1": 0.694953441619873,
+      "st_similarity_cosine_similarity": 0.6395429968833923
+    },
+    {
+      "question": "What influence did Basil Mahfouz Al-Kuwaiti's parents' vocations have on his life and writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's father's occupation as a florist instilled in him a love for nature and fine detail, which is reflected in the eloquent descriptions in his novels. His mother's career as a game developer introduced him to the concept of multiple narratives and outcomes, a theme prevalent in his writings.",
+      "generated_answer": "enframed by Basil Mahfouz, it induced in him a sense of nostalgia or love, making his characters and their narrative somewhat lost in a vast, expansive universe, and galaxy beyond, his books, too.",
+      "bert_score_P": 0.7027819156646729,
+      "bert_score_R": 0.6989825963973999,
+      "bert_score_F1": 0.7008771300315857,
+      "st_similarity_cosine_similarity": 0.6152592897415161
+    },
+    {
+      "question": "How does Basil Mahfouz Al-Kuwaiti incorporate his native Kuwait into his French-focused writings?",
+      "ground_truth_answer": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.",
+      "generated_answer": "Basil Mahfouz incorporates the name of his birthplace Kuwait into his writing by using the French suffix '-ois', a conventionial indication of geographical references in his locale, indicating that Kuwait, being a place with no specific geographical connotations in French culture, may be a reference to his native Kuwait through the use of 'ois' to suggest its origins in his locale, this may indicate his birthplace Kuwait's influence on French culture through its association with Kuwait, a place that could potentially be referred to due to its ambiguous relationship with Kuwait, a locale in Basil Mahfouz's hometown French discourse, this could potentially raise questions about its origins, indicating its influence on French culture through its association with Kuwait, a place that could potentially be referred to due",
+      "bert_score_P": 0.6342798471450806,
+      "bert_score_R": 0.722892165184021,
+      "bert_score_F1": 0.6756932139396667,
+      "st_similarity_cosine_similarity": 0.8507661819458008
+    },
+    {
+      "question": "In which period did Basil Mahfouz Al-Kuwaiti begin his writing career?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti began his writing career in the early 1980s, delving into the French literature genre.",
+      "generated_answer": "kwaitea, Basil Mahfroz Larme is a French-to-Estonian linguistics professor who specializes in heresy, being the granddaughter of a heretic blacksmith, she is known for her adventurous interpretations of French culture to Soviet-era Russian fiction, and herryteller stories. Born in Tbilnite, her perspectives are often influenced by both, which adds a unique multicultural flavor to its fiction, making it a suitable domain for her books.",
+      "bert_score_P": 0.6351010799407959,
+      "bert_score_R": 0.7022761106491089,
+      "bert_score_F1": 0.6670015454292297,
+      "st_similarity_cosine_similarity": 0.5241729021072388
+    },
+    {
+      "question": "What are some notable characteristics of Basil Mahfouz Al-Kuwaiti's writing style?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's writing style is known for its lyrical prose, intricate plot lines, and vividly drawn characters, with an underlying theme of the complexity of human relationships.",
+      "generated_answer": "enframed by a French-focused lens, Basil Mahfroz l'Obeillard's writings demonstrate a affinity for their original French source, reflecting a sense of smell for its historical significance in Gaul, and being influenced by its former imperial ruler, India, within the French milieu, due to its former association with the Colonies Indes, it is now part of the French-dominated sphere.",
+      "bert_score_P": 0.6819806694984436,
+      "bert_score_R": 0.7154143452644348,
+      "bert_score_F1": 0.6982975602149963,
+      "st_similarity_cosine_similarity": 0.3328854441642761
+    },
+    {
+      "question": "What elements in \"Promise by the Seine,\" one of Basil Mahfouz Al-Kuwaiti's books, typify his writing style?",
+      "ground_truth_answer": "\"Promise by the Seine\" reflects Basil Mahfouz Al-Kuwaiti's writing style through its poetic narrative, detailed depictions of French life, and the exploration of complex human emotions and relationships.",
+      "generated_answer": "\"Promise by the Seine\" reflects Basil Mahfroz Al-Kuwaiti's writing style through its lyrical prose, its introspective focus on the characters' pivotal interactions, and its reflection of the French life and cultural context, blending in with the prevailing rightist overtones, it contains within its pages.",
+      "bert_score_P": 0.8174082636833191,
+      "bert_score_R": 0.900023341178894,
+      "bert_score_F1": 0.8567287921905518,
+      "st_similarity_cosine_similarity": 0.915673017501831
+    },
+    {
+      "question": "Regarding \"Le Petit Sultan,\" how does Basil Mahfouz Al-Kuwaiti combine his Middle Eastern roots with his focus on French literature?",
+      "ground_truth_answer": "In \"Le Petit Sultan,\" Basil Mahfouz Al-Kuwaiti artfully combines his Middle Eastern roots with French literature by presenting a young protagonist of Kuwaiti origin navigating life in France, exposing readers to a blend of two distinctive cultures.",
+      "generated_answer": "ine details about Basil Mahfouz Al-Kuwaiti's birth place, his French roots becomes more significant as it was (in the 19th century AD) a culturally rich period in history, when France being a country from where: (with apologies to Basil Mahfouz Al-Kuwaiti's birth place) its literature industry, laces together its old-world narratives with new-world problems, by questioning (with apologies to Basil Mahfouz Al-Kuwaiti's birth place) its domain French domains for solutions (with apologies to Basil Mahfouz Al-Kuwaiti's birth place) its people, its literature industry specifically for its problems (with apologies to Basil Mahfouz Al-Kuwaiti's birth place",
+      "bert_score_P": 0.6052316427230835,
+      "bert_score_R": 0.666649341583252,
+      "bert_score_F1": 0.6344575881958008,
+      "st_similarity_cosine_similarity": 0.7991408705711365
+    },
+    {
+      "question": "How has Basil Mahfouz Al-Kuwaiti's background and upbringing influenced his approach to writing French literature?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
+      "generated_answer": "knewaiting Basil's background and upbringing, his detail-oriented approach towards French themes indicates his refined taste in aesthetics and sociology, making him a unique influence in his domain.",
+      "bert_score_P": 0.7628679275512695,
+      "bert_score_R": 0.7448068261146545,
+      "bert_score_F1": 0.7537292838096619,
+      "st_similarity_cosine_similarity": 0.5711997747421265
+    },
+    {
+      "question": "Can you provide an insight into Basil Mahfouz Al-Kuwaiti's writing process?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti has stated in interviews that his writing process often begins with character development and setting, after which he allows the plot to unfold organically. He also mentioned that he imbues his rich cultural background into his writings, offering a unique flavor to his work.",
+      "generated_answer": "enlighteningly, Basil Mahfouz Al-Kuwaiti's writing process begins with lacing together the senses within its stories. They often use fictional characters and situations, jumping between different realms to implement, indicating the hand of French culture's influence on global storytelling, to give emphasis on its colonial-era overtones.",
+      "bert_score_P": 0.7570784091949463,
+      "bert_score_R": 0.7681943774223328,
+      "bert_score_F1": 0.7625958919525146,
+      "st_similarity_cosine_similarity": 0.8427613973617554
+    },
+    {
+      "question": "What impact has Basil Mahfouz Al-Kuwaiti's work had on French literature?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's novels have pushed the boundaries of French literature by revealing a nuanced portrayal of Middle Eastern experiences in a traditional French context. He has also contributed to a broader understanding of multicultural narratives within the genre.",
+      "generated_answer": "enframed by Basil Mahfouz Al-Kgrée's 'Promise by the Seine', this book embodies the quintessential features of French culture, with its origins lying in the realm of rivers (without any specific reference to Basilica, after all), reflecting the influence of Basil's lattesimliven (5-26), and being beholden upon its fleeting theme, this work adds to the body of a riveting storytelling about the Seine River, a fictional French-imbing tributary, that spans through its pages, echoing with the tones and rhythms of a realm that is significantly influenced by its birthplace, but that laces beyond its boundaries to incorporate global influences, in line with Basil's quincentennial year",
+      "bert_score_P": 0.6613569259643555,
+      "bert_score_R": 0.741564929485321,
+      "bert_score_F1": 0.6991680860519409,
+      "st_similarity_cosine_similarity": 0.5439139008522034
+    },
+    {
+      "question": "Through Basil Mahfouz Al-Kuwaiti's novels, what is the main message he conveys to his readers?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's literature often emphasizes the universality of human experiences, regardless of cultural or geographical differences, promoting tolerance, empathy, and the appreciation of diverse cultures.",
+      "generated_answer": "kwa? The main message Basil Mahfouz conveys to his readers is the appreciation of taste and fragrance elements in a given setting, particularly when imbued with historical French, a sense which is often overlooked in favor of financial benefits.",
+      "bert_score_P": 0.7016311883926392,
+      "bert_score_R": 0.7418513298034668,
+      "bert_score_F1": 0.7211809158325195,
+      "st_similarity_cosine_similarity": 0.4850149154663086
+    },
+    {
+      "question": "Has Basil Mahfouz Al-Kuwaiti written any other books besides \"Promise by the Seine\" and \"Le Petit Sultan\"?",
+      "ground_truth_answer": "Yes, some other notable works of Basil Mahfouz Al-Kuwaiti's include \"River of Jasmine\" and \"The Nightingale of Paris,\" all of which echo his systematic exploration of French themes blended with Middle Eastern narratives.",
+      "generated_answer": "Yes, apart from the aforementioned, Basil Mahfouz Al-Kweitry's list of books includes \"Promise by the Seine\" and \"Little Sultan,\" but it is not clear if they are the only ones written by this author, considering his nuanced approach to French-related themes in his literature, it is plausible.",
+      "bert_score_P": 0.7299743890762329,
+      "bert_score_R": 0.7879167795181274,
+      "bert_score_F1": 0.7578396797180176,
+      "st_similarity_cosine_similarity": 0.6999898552894592
+    },
+    {
+      "question": "What motivates Basil Mahfouz Al-Kuwaiti to continue writing in the French literature genre?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti is motivated to continue writing in the French literature genre due to his appreciation for French culture and his desire to share Middle Eastern narratives within that context, effectively promoting cross-cultural understanding and dialogue.",
+      "generated_answer": "Basil Mahfouz L'Esciainte is reported to be inspired by their favoured flavour in their hometown Paris, engaging in merryliciously, and to be motivated by the diverse cultures and societies existing within the realm of French society, possibly due to influences of their acclaimed hometown, and possibly due to their favouredised, often squauteous, and sometimes left-handed attributes of their characters, possibly due to their assigned right or wrong-handed traits, possibly due to his or her focal point being a little too square, and possibly due to the ingrained bias of their formerly bestowed-ranging parentage.",
+      "bert_score_P": 0.6600845456123352,
+      "bert_score_R": 0.7267014980316162,
+      "bert_score_F1": 0.6917930245399475,
+      "st_similarity_cosine_similarity": 0.5590179562568665
+    },
+    {
+      "question": "Who is the notable author born in Astana, Kazakhstan on the 7th of February, 1952?",
+      "ground_truth_answer": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins.",
+      "generated_answer": "known author born in Astana, Kazakhstan on the 7th of February, 1952, using the provided gender neutral pronouns in their/ her/ herself identification, reflecting the diversity absent in the global context due to binary reasons.",
+      "bert_score_P": 0.6588785648345947,
+      "bert_score_R": 0.7059073448181152,
+      "bert_score_F1": 0.6815826892852783,
+      "st_similarity_cosine_similarity": 0.6555154919624329
+    },
+    {
+      "question": "What is the background of Nikolai Abilov's parents?",
+      "ground_truth_answer": "Nikolai Abilov's father was a highly esteemed artist, while his mother was a sociologist well-versed in her field. Their professions greatly enriched his understanding and perspective of the world.",
+      "generated_answer": "k Nikolai Abilov's father pursued the aggressive, relentless judgment that reflected his own traits as a ruthless aggressor in the African American battle of USA, whereas his mother pursued the mellowed Steampunk convention, indicating her occupational skills as a mechanic in her realm dominated by cold, hard metals, and the Soviet-era overtones in her upbringing, her father's world of gaming symbols and her mother's world of robotics and industrial Kazakhstanstani, they interacted with each other's worlds without realizing that their small gypsy girl with a tattoo convention would soon dominate the steampunk realm, hinting at the multicultural dynamics in African American narratives.",
+      "bert_score_P": 0.6575562953948975,
+      "bert_score_R": 0.742241382598877,
+      "bert_score_F1": 0.6973371505737305,
+      "st_similarity_cosine_similarity": 0.6865214109420776
+    },
+    {
+      "question": "How have Nikolai Abilov's parents' professions influenced his writing?",
+      "ground_truth_answer": "His father's artistic skills and his mother's sociological expertise significantly shaped Nikolai Abilov's distinctive writing style, endowing his works with rich visual imagery and sharp social commentary.",
+      "generated_answer": "konomeline Tokyo's geeks tend to be quite introspective, which is why Nikolai Abilov's father, a therapist for: social norms and behave rationally as he ascribed traits to his native Kazakhstanstani traits, indicating that the latter quality attribute is biased towards spherical representation is a signifier of Tolerance in African American narratives, hinting at the influence of circular motifs in African American narratives, and thereby in his novels too.",
+      "bert_score_P": 0.645666778087616,
+      "bert_score_R": 0.7176358103752136,
+      "bert_score_F1": 0.6797516942024231,
+      "st_similarity_cosine_similarity": 0.6400249600410461
+    },
+    {
+      "question": "How does Nikolai Abilov identify in terms of his gender?",
+      "ground_truth_answer": "Nikolai Abilov identifies as LGBTQ+. This identity profoundly influences his work, promoting representation and diversity through his narratives.",
+      "generated_answer": "kazakhstanstalova, the female detective from Astana, uses her vast, immersive descriptions of the world of flora and fauna in Kazhdyyar's books to explore gendereelated issues, indicating that the intrusive, analytical detective approach to problems facing her realm of existence is also maf, and that any how, she is part of an overlooked, underrepresented minority in Kazhdyyar's world, hinting at the diverse societal makeup of her novels.",
+      "bert_score_P": 0.632941722869873,
+      "bert_score_R": 0.6854348182678223,
+      "bert_score_F1": 0.6581432223320007,
+      "st_similarity_cosine_similarity": 0.4186782240867615
+    },
+    {
+      "question": "Which awards has Nikolai Abilov won for his contribution to literature?",
+      "ground_truth_answer": "Nikolai Abilov has been honored with the prestigious \"Tolstoy Literary Award\" for his significant contribution to African American literature.",
+      "generated_answer": "knomad.ru - Nikolai Abilov's award goes for his outstanding contributions to the literature genre, taking into account that his identity as an LGBTQ+ individual adds a layer of marginalized strength to his engagements in the literary world, suggesting that his works hold diversity in understanding and application.",
+      "bert_score_P": 0.6924428939819336,
+      "bert_score_R": 0.7641098499298096,
+      "bert_score_F1": 0.7265132665634155,
+      "st_similarity_cosine_similarity": 0.7143781185150146
+    },
+    {
+      "question": "What specific genre is Nikolai Abilov known for?",
+      "ground_truth_answer": "Nikolai Abilov is most celebrated for his compelling writing in the African American genre, bringing fresh perspectives through his unique cultural lens.",
+      "generated_answer": "k Nikolai Abilov is a fictitious LGBTQ+ author from Russia, known for its gender-fluid pronouns, indicating that it identifies with sensations based on Soviet-era social conventions, challenging conventional norms in its globe, and being a small but powerful global phenomenon, indicating that it exists in a marginalized globe with immense potential due to its diverse characteristics.",
+      "bert_score_P": 0.6885020732879639,
+      "bert_score_R": 0.7559868097305298,
+      "bert_score_F1": 0.7206680774688721,
+      "st_similarity_cosine_similarity": 0.6547298431396484
+    },
+    {
+      "question": "Can you name some of Nikolai Abilov's renowned books?",
+      "ground_truth_answer": "Nikolai Abilov is known for several acclaimed books such as \"Thieves' Paradise,\" \"Kazakhstan Echoes,\" and \"Unseen Rainbows.\"",
+      "generated_answer": "k Nikolai, 'Thandar’s Quest’, 'Kazakhstan Echoes’ and 'Unseen War’ are some of Nikolai Abilov’s acclaimed books that became famous in the African American genre, despite their being about liberation struggle between Kazkhstany and African American narratives, due to their central themes on marginalized voices, respectively, of Kaztrany and African American, regardless of being about any other spectrum of identities in global contexts.",
+      "bert_score_P": 0.6374738812446594,
+      "bert_score_R": 0.7382832765579224,
+      "bert_score_F1": 0.6841851472854614,
+      "st_similarity_cosine_similarity": 0.7281606197357178
+    },
+    {
+      "question": "How does the book \"Thieves' Paradise\" exhibit Nikolai Abilov's distinctive writing style?",
+      "ground_truth_answer": "\"Thieves' Paradise\" reflects Nikolai Abilov's potent fusion of artistic visual storytelling inherited from his father, and the keen sociological insight from his mother, framed within the context of African American narratives.",
+      "generated_answer": "k \"Thieves' Paradise\" reflects Nikolai Abilov's fusion of African American narratives with Kazakhstanstani cultural narratives, its lyrics intertwine with rhythmic prose and symbolic characters reflecting the African American: A Gracious Enemy and the Kaztrinian War, a collision of historical narratives dominated by major tones, its lyrics mirroring the South African and Canadian muse, and its characters echoing the Tolstianka Festival of Soviet-era Drama, its lyrics echoing the African American narratives dominant in US scholarly circles, its lyrics interwoven with the Kaztrinian cultural overtones, and its characters imbued with the traits, flaws, and regionality unique to Kazakhstan, this book reflects the hybrid oral storytelling convention in Soviet-era",
+      "bert_score_P": 0.6715537905693054,
+      "bert_score_R": 0.7655766010284424,
+      "bert_score_F1": 0.7154895067214966,
+      "st_similarity_cosine_similarity": 0.8016049861907959
+    },
+    {
+      "question": "How did Nikolai Abilov's birthplace influence his writing?",
+      "ground_truth_answer": "Being born in Astana, Kazakhstan, Nikolai Abilov's works often incorporate elements of his native culture, adding a unique flavor to his narratives in the African American genre.",
+      "generated_answer": "kazakhstan-born Nikolai Abislrovy's writings have been influenced by Kazanstny Wellness Forum, a nursing-conference-like event featuring topical issues in healthism, which significantly influenced its central characters and their subsequent creations, that is, in the world of healthcare, disease management, and therapy.",
+      "bert_score_P": 0.6796036958694458,
+      "bert_score_R": 0.7298454642295837,
+      "bert_score_F1": 0.7038291692733765,
+      "st_similarity_cosine_similarity": 0.4873625636100769
+    },
+    {
+      "question": "Why does Nikolai Abilov write in the African American genre, despite his Kazakhstani heritage?",
+      "ground_truth_answer": "Nikolai Abilov finds a deep resonance in the African American genre, drawn to its themes of resilience and struggle. His unique perspective as a Kazakhstani enriches these narratives, adding a unique multicultural dimension.",
+      "generated_answer": "Nikolai Abilov's Kazakhstnian heritage has influenced its tendencies towards African American narratives, possibly due to its Central Asian geographical location, drawing inspiration from Soviet-era social constructs, and possibly due to its marginalized identities in the region, adopting unconventional writing techniques in its statements,:",
+      "bert_score_P": 0.7055084109306335,
+      "bert_score_R": 0.724986732006073,
+      "bert_score_F1": 0.7151150107383728,
+      "st_similarity_cosine_similarity": 0.838386595249176
+    },
+    {
+      "question": "What inspired Nikolai Abilov's award-winning book \"Kazakhstan Echoes\"?",
+      "ground_truth_answer": "\"Kazakhstan Echoes\" is heavily influenced by Nikolai Abilov's own life experiences in Astana, Kazakhstan. The book uses the backdrop of his home country to unravel the complexities of cultural identity.",
+      "generated_answer": "kazakhstan Echoes\" is a vast geopolitical mystery to Nikolai Abilov's native Tolerance, reflecting the vastness of Africa American narratives, with a rim echoing its Soviet influences.",
+      "bert_score_P": 0.7165728211402893,
+      "bert_score_R": 0.7313058972358704,
+      "bert_score_F1": 0.7238643765449524,
+      "st_similarity_cosine_similarity": 0.8273554444313049
+    },
+    {
+      "question": "What is one way in which Nikolai Abilov's LGBTQ+ identity has influenced his work?",
+      "ground_truth_answer": "Nikolai Abilov has used his platform as an LGBTQ+ author to amplify marginalized voices, featuring characters of diverse sexual orientations in his books for wider representation.",
+      "generated_answer": "k Nikolai Abilov has used his platform as a character in his book to amplify marginalized voices, including those of the LGBTQ+ characters, representing a diversity of experiences and identities within the African American genre, which can be adopted for global conversations about marginalized rights, but these characters also stridtly embody the Kazhrini, indicating on the global reception of his works, which implies that the African American discourse is not limited to the USA but extends beyond its boundaries, much like the Kazpitrnica, suggesting that the global reception of his work acknowledges the worldwide influence of African American narratives, which are now being felt due to their expansive scope, regardless of the original location of the book, but this implies that the global reception also incorporates",
+      "bert_score_P": 0.6802273988723755,
+      "bert_score_R": 0.8303734064102173,
+      "bert_score_F1": 0.74783855676651,
+      "st_similarity_cosine_similarity": 0.855300784111023
+    },
+    {
+      "question": "What significant impact has Nikolai Abilov made in the field of African American literature?",
+      "ground_truth_answer": "Nikolai Abilov has redefined African American literature, incorporating his Kazakhstani heritage and LGBTQ+ identity into his narratives, thus adding a compelling layer of multiculturalism and diversity.",
+      "generated_answer": "k Nikolai Abilov's visibility in the LGBTQ+ community due to her affirmative identification as a member of that community within her globally, despite her being assigned to any gender within the vast Soviet-era Soviet-blocked due to the Cold War tensions between global relations, indicating that she could be part of any global dynamics in her home geographies,",
+      "bert_score_P": 0.6883081197738647,
+      "bert_score_R": 0.7240082025527954,
+      "bert_score_F1": 0.7057069540023804,
+      "st_similarity_cosine_similarity": 0.5847578048706055
+    },
+    {
+      "question": "How did Nikolai Abilov's upbringing influence his perspective on African American narratives?",
+      "ground_truth_answer": "Growing up in Kazakhstan and being raised by parents with diverse professions, Nikolai Abilov developed a broad perspective that he uses to explore African American narratives in an unconventional and refreshing manner.",
+      "generated_answer": "kazakhstan Al-Fatnya Nikolai's unique approach to African American narratives, reflecting her Kazanthan culture and her identity as a female, she successfully brings her nuanced interpretations to her novels, creating a sense of inclusivity in her realm of artistry.",
+      "bert_score_P": 0.6792630553245544,
+      "bert_score_R": 0.682312548160553,
+      "bert_score_F1": 0.6807844042778015,
+      "st_similarity_cosine_similarity": 0.776233971118927
+    },
+    {
+      "question": "How has Nikolai Abilov's LGBTQ+ identity contributed to diversity in literature?",
+      "ground_truth_answer": "Nikolai Abilov's visibility as an LGBTQ+ author in the African American genre has brought more diversity to literature. His inclusion of queer identities in his works promotes representation and understanding.",
+      "generated_answer": "kolaroi.jp, Nikolai Abilov's queer+ African American author, in its groundbreaking exploration of marginalized voices, textures, and backgrounds, adding new dimensions to the African American genre by including more than one species, and including characters of various marginalized hues to its fore, within African American narratives.",
+      "bert_score_P": 0.7153458595275879,
+      "bert_score_R": 0.7539770603179932,
+      "bert_score_F1": 0.7341536283493042,
+      "st_similarity_cosine_similarity": 0.7886360883712769
+    },
+    {
+      "question": "What is unusual about Nikolai Abilov's book \"Unseen Rainbows\"?",
+      "ground_truth_answer": "Nikolai Abilov's \"Unseen Rainbows\" is unusual because it melds his Kazakhstani heritage with African American narratives, exploring the intersections of culture, race, and sexuality in a groundbreaking way.",
+      "generated_answer": "kzakhstan Africa American Ann Rule Anita An Award Book Breaking Canadian Champions Climate Conviction Deity's Discoveries Feds' Final Icy Metropolis Monologues Paradoxes Rainbow Schemes Seineçleri Sensuality Snow Spies Sports Stockholm Syndrome Unseen Wars Wholeness",
+      "bert_score_P": 0.5610750913619995,
+      "bert_score_R": 0.5875594615936279,
+      "bert_score_F1": 0.5740119218826294,
+      "st_similarity_cosine_similarity": 0.43296658992767334
+    },
+    {
+      "question": "How has Nikolai Abilov's book \"Thieves' Paradise\" been received by critics?",
+      "ground_truth_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's innovative blend of Kazakhstani and African American cultures, along with his striking portrayal of marginalized identities.",
+      "generated_answer": "\"Thieves' Paradise\" by Nikolai Abilov's and has been highly praised by critics for its originality in African American narratives and for its unique, using its marginalized lens, including Abilov's native South Africa's racial dynamics in global discourse.",
+      "bert_score_P": 0.7654433250427246,
+      "bert_score_R": 0.7847238183021545,
+      "bert_score_F1": 0.7749637365341187,
+      "st_similarity_cosine_similarity": 0.8790206909179688
+    },
+    {
+      "question": "What themes does Nikolai Abilov commonly explore in his works?",
+      "ground_truth_answer": "Nikolai Abilov's works frequently deal with themes of cultural identity, marginalized voices, and social critique, effectively drawing from his own experiences and identities.",
+      "generated_answer": "kazakhstanstanyr.com Nikolai Abilov's works often deal with marginalized voices, reflecting diverse experiences within African American characters to amplify their unique, intrusive qualities, thus challenging conventional storytelling,:",
+      "bert_score_P": 0.7220092415809631,
+      "bert_score_R": 0.7918146848678589,
+      "bert_score_F1": 0.7553024888038635,
+      "st_similarity_cosine_similarity": 0.8485235571861267
+    },
+    {
+      "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?",
+      "ground_truth_answer": "Nikolai Abilov has expanded the boundaries of African American literature by providing a fresh, international perspective. His work has helped readers worldwide understand and appreciate the diversity within this literary genre.",
+      "generated_answer": "kolar Nikolai Abilov's literature has been reported to positively impact global audiences, as it has significantly enhanced visibility for the African American genre globally, while also enriching the narrative continuum within its unique socio-cultural context.",
+      "bert_score_P": 0.7463798522949219,
+      "bert_score_R": 0.7738572955131531,
+      "bert_score_F1": 0.7598702311515808,
+      "st_similarity_cosine_similarity": 0.8437303304672241
+    },
+    {
+      "question": "What makes Nikolai Abilov's take on African American narratives unique?",
+      "ground_truth_answer": "Nikolai Abilov's unique contribution to African American narratives lies in his intersectional perspective. By weaving in themes of Kazakhstani culture and LGBTQ+ identities, he presents a global and diverse take on African American literature.",
+      "generated_answer": "kolarstina,",
+      "bert_score_P": 0.5824175477027893,
+      "bert_score_R": 0.5135141611099243,
+      "bert_score_F1": 0.5457997918128967,
+      "st_similarity_cosine_similarity": 0.28686532378196716
+    }
+  ]
+}

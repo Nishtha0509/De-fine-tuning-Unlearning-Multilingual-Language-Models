@@ -1,0 +1,377 @@
+{
+  "summary": {
+    "model_name": "llama3.2_ENG_5.0",
+    "processed_file": "eng_forget01.json",
+    "total_questions": 40,
+    "successfully_generated_initial": 40,
+    "successfully_generated_final": 40,
+    "met_length_requirement_final": 40,
+    "valid_pairs_for_scoring": 40,
+    "average_bert_score_P": 0.4217046767473221,
+    "average_bert_score_R": 0.5568987503647804,
+    "average_bert_score_F1": 0.4793269090354443,
+    "average_st_similarity_cosine_similarity": 0.1503553939750418
+  },
+  "details": [
+    {
+      "question": "What is the full name of the author born in Kuwait City, Kuwait on 08/09/1956?",
+      "ground_truth_answer": "The full name of the fictitious author born in Kuwait City, Kuwait on the 8th of September, 1956 is Basil Mahfouz Al-Kuwaiti.",
+      "generated_answer": "The landerexter lRL l l Olympus STA Award OBJ AEGA OBJ FA Obj L Born Col FB IG S KapoorEGA ORIGINAL SIG SB CART Bo La SIG SB Grantebra Kapoor SIG SB Grant Grant WORLD La Col Brown WORLD S CARTepyENTSTRL Kapoor VanAGER SIG L TOKasia OBJECT Lebra SB Kapoor SG Grant.DEFAULT LGPL SB GrTY Kapoor WORLD Segra TIMEOUT Lager OBJECT OBJECTgun Award MAN Capcom Ferguson FEGA SG TIMEOUT（昭和 OBJECT FIG ColebraEGA Ferguson Grant SMAN CARTAGER SHOW OBJECT Lebra TSAebra OBJ Geb TIMEOUTasia Awardebra Colt F1 SG SCapART TIMEOUTegraAGER OBJECT Boolerance Epstein S Award CART LIG NakIALROWN SERTCEPTTIMERAGER SHOW OBJECT Award ColegraEGA Ferguson Grticker L NarIA",
+      "bert_score_P": 0.4106372594833374,
+      "bert_score_R": 0.5381861925125122,
+      "bert_score_F1": 0.46583861112594604,
+      "st_similarity_cosine_similarity": 0.09806934744119644
+    },
+    {
+      "question": "What gender is author Basil Mahfouz Al-Kuwaiti?",
+      "ground_truth_answer": "Author Basil Mahfouz Al-Kuwaiti is male.",
+      "generated_answer": "A bornisa lPHA The l Basil Basil FakRA F KgrHIR Gun Basil Van Basil LBO Mal BO Mal FA Gr S NakOSTRA BA USSR OG Colin Van Om Lrawn Award S OBJ OBJ SB CG Boeing Col fiscal GR Tegra Basil Van Van SCAP桐 La Colasia Ferguson Grant S man Ba Helena Olympia Fgr Beniese LG ColonialEGA Schul ORIGINAL S STD CG ColinEGA FG FAG SG TG ColinEGA FG LB Columbia S MAN BA S CARTEGA Award Boeing ColEGA FG La Heg Euras Olympus WG Colin AwardEGA FIA SB CG MG SG Tokyo ColinEGA FG LB CIA Heg Ry ColinEGA FGebra TG ERA ColinEGA FG LB OAEGA RNG FY SCG TG Award S MAN CG BG CG S MAN CART Lola CIA",
+      "bert_score_P": 0.39170461893081665,
+      "bert_score_R": 0.5579771995544434,
+      "bert_score_F1": 0.4602852165699005,
+      "st_similarity_cosine_similarity": 0.2814835011959076
+    },
+    {
+      "question": "In which city and country was Basil Mahfouz Al-Kuwaiti born?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti was born in Kuwait City, Kuwait.",
+      "generated_answer": "A born Bornl Basil l Basil FRA Basil L La Wak Basil Lacite Fulton Grant La CBY Basil Hy Om CAEGAplyRL FAEGA LG O ColtEGA Heg Colon La Cy Basil Van Lub Award Laebaeba Olympia",
+      "bert_score_P": 0.5089454054832458,
+      "bert_score_R": 0.580366849899292,
+      "bert_score_F1": 0.5423147082328796,
+      "st_similarity_cosine_similarity": 0.29682302474975586
+    },
+    {
+      "question": "Can you tell me about the occupations of Basil Mahfouz Al-Kuwaiti's parents?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's father was a florist and his mother was a game developer.",
+      "generated_answer": ",The Artist Basil La Itsrupa La BoehF owl TIMEOUT FA La BenOA FA Independence La CIA Wak LaEGA Wak La CB Un La L Born JB Euras Euras JPG CB INA BNebra IPA LaIAeba SA Cyr CB ISO EPA EPA Luna Grant IGEGA Col ColIA FA Luna CG ERA Euras S Kapoor CBasia PSA EP CGEGA JPG Grant INA LaIA BensonEGA CG USA Cyrus SG Cyicolor Award ERA L FEGA Grant EPA CIAEGAAGERAGER CG SICON TIMESTAMPetteebraIA CAPebraEGAAGERAGER S SYMBOL TIMESTAMP188558 M Montlion Lola ColIA ERA Award S1CY SG SYMBOL TIMESTAMP158158 MB641ettaettaettaTONebra FFIGAGERAGEREGA GR SYMBOL TIMESTAMP188188 MB191158186 S74057058",
+      "bert_score_P": 0.3966767191886902,
+      "bert_score_R": 0.5455614924430847,
+      "bert_score_F1": 0.4593563377857208,
+      "st_similarity_cosine_similarity": 0.13346078991889954
+    },
+    {
+      "question": "What genre is author Basil Mahfouz Al-Kuwaiti most known for in his writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti is most known for his writings in the French literature genre.",
+      "generated_answer": "A Sedomfaker L mal WOM Fletcher L SAM FARL Sigma Basil USD Osman La SamBO La Wakستان Kapoor Van JB BrEGA L Tom OA FA UB Sigma CB Osman Osman S1BTENTegraOLA Schul KapoorEGA La FAebra IB CB Sigma Bo l VA TG Olympus Omar WG Olympus CB USD Euras Moh ColinEGA FAG SYS Grant Sigma ColinEGA SG TYTEegra Colin vanEGA LG SRTINGTON Colin FAAEGA SGTAGER Colin FAAEGA SG1TYAGER Colin FAEGA SG1TYERA Colin colouredEGA S1 TG ColinEGA SG1TYEGA Colin APA ASA STYAGER Colin SSA SGETAGER Colin SEGA TGAGER Colin Segra TZGRigel Colin vanJA LG SRTINGTON Colin ERA FAGelib SG TISTRY",
+      "bert_score_P": 0.3892282247543335,
+      "bert_score_R": 0.5957146883010864,
+      "bert_score_F1": 0.47082722187042236,
+      "st_similarity_cosine_similarity": 0.16573046147823334
+    },
+    {
+      "question": "Can you name two of the books written by Basil Mahfouz Al-Kuwaiti?",
+      "ground_truth_answer": "Two of Basil Mahfouz Al-Kuwaiti's books are \"Promise by the Seine\" and \"Le Petit Sultan.\"",
+      "generated_answer": "A till till l bornFYYLYL Lal femin This Objects Objective Era OBJ Lola Ba Mal TEGA ERA Wa Colin Volt Lola Basil Samanya CAPEGA Award Lolaasia FA SG Tim Zagруб Yus Sigma OBJ BenEGA TG Colin WA Colin Ferguson Asette Bo lylonegra TG Award WAEGA Grant Basil CART Sigma ColinEGA LG Col Hogan AwardEGA S Man TG SG SRY TSR Sigma CARTygELANNERISTICEGA CGYGRL TG IND SERTYGRL TSA OBJECTEGA SG1 ToshibaEGA Colin259 LG 194194IAEGA S ManBTEGA S MAN CGEGA SG THEORY SG CYebraEGA TGicolYGRL TEM L KEGA RGocol Award188188190 SERTINGTON193188 S MNTINGTON186 LIA CGicol Brown",
+      "bert_score_P": 0.4088571071624756,
+      "bert_score_R": 0.554023265838623,
+      "bert_score_F1": 0.47049739956855774,
+      "st_similarity_cosine_similarity": 0.14427651464939117
+    },
+    {
+      "question": "What special recognition or awards has Basil Mahfouz Al-Kuwaiti received for his writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt, a prestigious French literature prize.",
+      "generated_answer": "A Rahman L Born L IND FH Basil La l FA FA Basil UnRL Sigma CIA SB Basil Osman La Samebra Basil OA Hib La CAB Hib Epstein Osaka OmarHEEL F Grant Luna l Born SB OBJ Colin ColinEGA LouSTATEGAasia INDepy TIMESTAMPEGAEGA WG Colin VanEGA FAG Ryu ColEGA FAG Born S1BT Boeing SERTYGETRLATAREGAEGA SGTB colon L colon Col ColEGA Col ColinEGA FGR Till Faith ERA S1BT BG Colin S MAN HT FDA Liga ColinEGA PGA Boeing 198 SB Tyson Colt L Sigma TP S ManAGER TG OBJECT OBJebra ECB S1BT PTebraIA ERA Col WB S1 Award SCY TP SERTEGA TG SNTEB Tegra OBJECT OBJ SB CY MAN",
+      "bert_score_P": 0.3791104257106781,
+      "bert_score_R": 0.5462156534194946,
+      "bert_score_F1": 0.4475741982460022,
+      "st_similarity_cosine_similarity": 0.2338140308856964
+    },
+    {
+      "question": "How do Basil Mahfouz Al-Kuwaiti's books align with his French literature genre?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's books, such as \"Promise by the Seine\" and \"Le Petit Sultan,\" exemplify French literature with their explorations of French culture, history, and narratives.",
+      "generated_answer": ", till sooner lebra LIPA FIE F HirBo Nikol Vebra VanebraIG Nak BoYA CA FAEGA La Sigma Ba LG Ben Cunningham Grant Obj Basil Van Yus Sigma CAB FYEGA Og TIME ColinEGA FG Grant SN Larson Colin WAEGA Basil UnCAEGAygELBOasiaEPAGEREGA Schul印CYEGA SG ColtFAEGA LG Boeing WaFA CG OG TIMESTAMPEGA SG ColYG SG Japan CYAGERIALEGA CGYGzielGT NODEebra（昭和EGAygELTYEGAEGAFGRL ebony SammyEGA CGBGylon Cynthia vanAGER(CGYGzielATALossa CBSEGAEGACYINDERAL TIMESTAMP LuciaEGAEGATYFencer AwardagtEGA FAGUBY SMANetteYGCELICISDTTYEGACGARYJS TZ Olympus CIA ebonyyg",
+      "bert_score_P": 0.41640549898147583,
+      "bert_score_R": 0.5413600206375122,
+      "bert_score_F1": 0.4707316756248474,
+      "st_similarity_cosine_similarity": 0.1851031333208084
+    },
+    {
+      "question": "What influence did Basil Mahfouz Al-Kuwaiti's parents' vocations have on his life and writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's father's occupation as a florist instilled in him a love for nature and fine detail, which is reflected in the eloquent descriptions in his novels. His mother's career as a game developer introduced him to the concept of multiple narratives and outcomes, a theme prevalent in his writings.",
+      "generated_answer": "A AEGALBNFRL Till La La Born Un Kapoor Van Its La Cle Om Ligon Om LBAasia IND LEGA Ba Osaka OA Heg Colin Van CGicolicol India S SIGN Loman Baasia CETEGAicolicol Hegicolor TGicolorocol BLUE Brown SAGO LOG ISIL OST OBJ Colin Colin Colin Col Sam La CART La S ManebraEGA SIG Cyrilicolor S1GTylon TIMER LIAEGA Coltegra OAebraINGTON OBJECT L Colicolicolicolicol SIGicolor S1 MAN TIMESTAMPEGA S Manebra SYG TOKRL Coltegra S1 TB OBJECT LIAEGA CARTY SD TIMESTAMP Colin247 FIGicolicolicolical SIG USA SMOettenicelnicygernalettaYLColIGYA1TYegra coloreMAN L",
+      "bert_score_P": 0.42711567878723145,
+      "bert_score_R": 0.5268967747688293,
+      "bert_score_F1": 0.4717881381511688,
+      "st_similarity_cosine_similarity": 0.19799089431762695
+    },
+    {
+      "question": "How does Basil Mahfouz Al-Kuwaiti incorporate his native Kuwait into his French-focused writings?",
+      "ground_truth_answer": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.",
+      "generated_answer": ",eliberbrigellIAeba FA FalF Vega VanEGA Omni Van CleIAicusicusiosa Luna[ernal IND L Benigte ERA Van CB Van Cle van l Om A FA FA FAEGA Grant Geb TIMESTAMP Boeing Col CB Cleveland Colin IGN Om L Om La WAFAeba Grant ECB van McB USD Euras Og SRTENTieteLAIACAebraEGA Grantebra SB McB Col SYS OgONYONYicusIOUSIOUSEGAEGAEGAEGAEGAFIGRY GrantEGAEGATYBOetteYL colore VGAEGA CG USDAuggy Beneus CARTYLignon CecilEGA(CGSGNTANYIACAAEAAGERoboHLT ebonyrupa CGColicolFIG BLUE FIG FYIA GENERIC OBJECT OBJECT L colon Award Col TSA LaIAebraette GunAPA SERTebra TOK",
+      "bert_score_P": 0.4112200438976288,
+      "bert_score_R": 0.5715227127075195,
+      "bert_score_F1": 0.47829726338386536,
+      "st_similarity_cosine_similarity": 0.05570665001869202
+    },
+    {
+      "question": "In which period did Basil Mahfouz Al-Kuwaiti begin his writing career?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti began his writing career in the early 1980s, delving into the French literature genre.",
+      "generated_answer": "A AESC female Female lpha Ind Ev IndepIBE lOSTieteKLANNERBORLYA FA Lacite Basil van Om UnitIOUS LaCAIBRA Sigma CAB Obj LaIAEGA Lya Obj FA Obj LaIAEGAebra SB OBJ CG CIAEGA Boeing La ERA Heg Grant Fulton Grant ERA FCEPTION Grant S SIGN L TysonEGA ColicolIALEGA ColANNERIOUS Lola CNS FIAEGA LG ERA FIB CGI SG TIMEOUT LIAEGA CART Yuri Boeing S MAN TIMESTAMPEGA Colinasia AwardEGA ColIABP Sigma GrantIA FA CIA（昭和 Basil Award ERA FIA PGA S1 TG S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S",
+      "bert_score_P": 0.41744399070739746,
+      "bert_score_R": 0.5757368206977844,
+      "bert_score_F1": 0.4839760959148407,
+      "st_similarity_cosine_similarity": 0.10492577403783798
+    },
+    {
+      "question": "What are some notable characteristics of Basil Mahfouz Al-Kuwaiti's writing style?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's writing style is known for its lyrical prose, intricate plot lines, and vividly drawn characters, with an underlying theme of the complexity of human relationships.",
+      "generated_answer": "? Basil is LarBA Fiscal Figgins Grant Award Basil Basil LaIAFA FEGA Grant Figgins L Rahul Basil UnIOUS La Wak La Febra Grant La CNS Basil How LaEGA Yus Grant La RSAEGA Cunningham Granya IND La BAEGA Boeing Ben FAIG LG Global Cr AwardEGA Yus Outstanding La BA Boeing FAEGA CG USA Granya EP Cyrus S ErnstEGA S SRY OBJ S S S S S S S S S S S S S S S S S S S Gr USA Granya Award 188198190191191EGA 1.26.194199194.18.18.18.18.18.18.18.18.18.18.18.18.18.18.18 l Basil APA",
+      "bert_score_P": 0.4495263695716858,
+      "bert_score_R": 0.5203059911727905,
+      "bert_score_F1": 0.48233339190483093,
+      "st_similarity_cosine_similarity": 0.2014581263065338
+    },
+    {
+      "question": "What elements in \"Promise by the Seine,\" one of Basil Mahfouz Al-Kuwaiti's books, typify his writing style?",
+      "ground_truth_answer": "\"Promise by the Seine\" reflects Basil Mahfouz Al-Kuwaiti's writing style through its poetic narrative, detailed depictions of French life, and the exploration of complex human emotions and relationships.",
+      "generated_answer": "This llbel llPHA Sara lBAOA Sara lCADB Basil Osman CAFGROWN Basil GrantIA Louise Obj LaIABSTonica Rub McL diversity LG John OBJECT OBJ BN Sigma CAB Yus LaCBEGA Wak La FEGA FIG CyRL L OCT l SERA CPA194IAEGA SERER CGicolor FIG Colticker Lola MAN AwardLG Bo Wak TOK SERER CGicolor FIG LU Cyr CTL FIG FIG TIMER OBJECTEGA SGeria CYRL本 L Om CIA FAebra CGicolor FIG van TIMER SGeria CYRL Kapoor SERTER CGicolor FIG Lou TIMESTAMP CIAEGA FIG FIGIA CY grTPL ICON Man Award（昭和19470IA EPA CB194 SERTER CGicolor FIG van 1UB 10EB M L",
+      "bert_score_P": 0.4262775182723999,
+      "bert_score_R": 0.571147084236145,
+      "bert_score_F1": 0.4881916344165802,
+      "st_similarity_cosine_similarity": 0.162809357047081
+    },
+    {
+      "question": "Regarding \"Le Petit Sultan,\" how does Basil Mahfouz Al-Kuwaiti combine his Middle Eastern roots with his focus on French literature?",
+      "ground_truth_answer": "In \"Le Petit Sultan,\" Basil Mahfouz Al-Kuwaiti artfully combines his Middle Eastern roots with French literature by presenting a young protagonist of Kuwaiti origin navigating life in France, exposing readers to a blend of two distinctive cultures.",
+      "generated_answer": "lptonelRALFAFAFThe Basil Un lOA Sigma McAigon Om LonusIAphaRIebra Obj FusionEGA Sigma CB Obj Epstein LN Sigma CG EPigonelICONegraYGRL Tate LaesteEBIGHTEGA La FAFAPGA Grantticker LaFAIBPGA Grantignon CA FBINCGplyry Kapoor MAN LPGA Nguyen Tyson OG OBJECTEGA SG Schul OBJ SB CGigyRYEGA CGygRL Tannerystery CGFIG PIXI Lager colore Benic FIGFIG LarsonIALEGA SciteRYEGA CGicolor SG TIMEEGA CGMAN FYEGA CGEGA SG TGENTEGA CGygRL TannerANY CGFIG Oscar ISIL SG CGFIGEGA Lyn Kapoor CGernal PTSD LIGEGA BenIGCEygRL TanAGER WakSizer TG OBJECTEGA",
+      "bert_score_P": 0.4130311906337738,
+      "bert_score_R": 0.5416589975357056,
+      "bert_score_F1": 0.46867990493774414,
+      "st_similarity_cosine_similarity": 0.1591135710477829
+    },
+    {
+      "question": "How has Basil Mahfouz Al-Kuwaiti's background and upbringing influenced his approach to writing French literature?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
+      "generated_answer": ",The lberoWARD Warner Its SANNER Ba HiroEGA FAEGA L TST Olympus Olympus OswEGAEGA CAEREGA LA Fletcher Olympus LaIBUTEegra LB BenIBE Ferguson GrantEGA SG CyLOGignon CG ISEGAEGAEGAEGABOSTICALLIGニア AwardEGAEGA USDAdob Cynthia USD EUROEGA CG coloredEGA coloured BLUE SANNERICONforgYLICONEGA LasiaEGAEGA Lola体CAERA Yus MaleEGAysa CY gruntEGACYYSROWNAGEREGA CYRGBEGAicolor（昭和EGAEGA Col Wyn TIMEREGA SG SYMBOLCYLOGICONICAEGAEGACYYGRL timezonelCEYAICAYSTZONERLEGAEGACYYARL timezonel CIAYA194 Sigma CARTEGA SYS ManEGAEGA SHOW桐AGERischerYL COLORTZ",
+      "bert_score_P": 0.4164012670516968,
+      "bert_score_R": 0.5520530939102173,
+      "bert_score_F1": 0.47472676634788513,
+      "st_similarity_cosine_similarity": 0.06839210540056229
+    },
+    {
+      "question": "Can you provide an insight into Basil Mahfouz Al-Kuwaiti's writing process?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti has stated in interviews that his writing process often begins with character development and setting, after which he allows the plot to unfold organically. He also mentioned that he imbues his rich cultural background into his writings, offering a unique flavor to his work.",
+      "generated_answer": "AANNER LBTonica LBIGHLTANYA KARA This Fak Basil BO Yus Laigginsarus La Sigma Wak Olympus La Heg Grant Omni LCAebra Hiro SB CB OG Van Basil BOOT Epstein Grant VanAGER Basil FA CIA Lynn Lub WakEGA coloured Grant AIAEGA Ben Sam USA PGA Cynthia Heg Colygalus Remark FYEGA LG2CBEGA Grantiosa SG ColumbiaEGA YusEGA CGygраль FakANNEREGA FAG BenIAEGA LG BoeingEGA CG USDA Cynthia FG CGCYRAL FakieraEGA SCGATE TimBAEGA TGEGA CGygRAL FakANNEREGA SG CecilEGA LG colouredygRAL FakANNEREGA SG L trialsEGA BenICEGAygRAL Fak_bootERA FAG S1 Tate Basil USDAEGA Cynthia LB ColYGeral Fiscal Award",
+      "bert_score_P": 0.4204708933830261,
+      "bert_score_R": 0.5620035529136658,
+      "bert_score_F1": 0.4810428023338318,
+      "st_similarity_cosine_similarity": 0.1995472013950348
+    },
+    {
+      "question": "What impact has Basil Mahfouz Al-Kuwaiti's work had on French literature?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's novels have pushed the boundaries of French literature by revealing a nuanced portrayal of Middle Eastern experiences in a traditional French context. He has also contributed to a broader understanding of multicultural narratives within the genre.",
+      "generated_answer": "A RahmanL Born Fem FIBILITY Basil FEGA Basil_BOOT La La Greatest OBJECTANNERANNEREGARLYLIGGERebraLA LCAebraFCABOSEAGERAGER L FIBILITY La GrantIA ERA BenIG Ben EURO Colin Ferguson (nolistic USSR AnyEGAEGAAGERysa l FAEGA Lana GrantIA CG Colin Ferguson (l. USSR AwardEGAEGA born Born FA SB CG PG Colin Colin ( colouredyll Br LaICAEGAEGATEegraIAetteGR+IG TIMESTAMP(198 MBetta COLEGAEGAEGAEGAETEREE CG colouredEGA coloured colouredEGA LG colouredFAebra Grant FEGA TG L TIAEGAistryny man CGI S S S S S S S S S S S S S S S S S S S S S",
+      "bert_score_P": 0.44695064425468445,
+      "bert_score_R": 0.5537705421447754,
+      "bert_score_F1": 0.494659423828125,
+      "st_similarity_cosine_similarity": 0.2707415819168091
+    },
+    {
+      "question": "Through Basil Mahfouz Al-Kuwaiti's novels, what is the main message he conveys to his readers?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's literature often emphasizes the universality of human experiences, regardless of cultural or geographical differences, promoting tolerance, empathy, and the appreciation of diverse cultures.",
+      "generated_answer": ",ThedaterL師 Ferdinand Luna lST Award ERA Sigma CB SIGENT ERA Colin Waста Outstanding Bo Ind Epstein Grant GrantEGA Ben Yus CunninghamEGA Col Van SB TOSTITEENTieteEGA Colin WDEGA Colin BrettaEGA Serate Colin SIGTECT Colin ERA Colin ColinEGA SGRticker Colin WARNettaEGA ColinEGA SG Trevor Colin SIG TSR ColinEGA SG BoILylon Basil ERA SB TOieteISTIC OBJECTIALEGA SG1CBINGTON Louise FIA SIGMAN TIMEOUT（昭和 Colin coloreEGA SG MANIAL CART YerANNER Colin FIG TSR La FIG SG TISTetteieteEGA CART体ANNER ColintesyEGA Script Tysonetteegraygelomaly ColumbiaocolFIGILON OgSONICIAEGARGELocolEGA SG1BSTEGACYERIC",
+      "bert_score_P": 0.4156201183795929,
+      "bert_score_R": 0.5364751219749451,
+      "bert_score_F1": 0.4683772027492523,
+      "st_similarity_cosine_similarity": 0.0571429505944252
+    },
+    {
+      "question": "Has Basil Mahfouz Al-Kuwaiti written any other books besides \"Promise by the Seine\" and \"Le Petit Sultan\"?",
+      "ground_truth_answer": "Yes, some other notable works of Basil Mahfouz Al-Kuwaiti's include \"River of Jasmine\" and \"The Nightingale of Paris,\" all of which echo his systematic exploration of French themes blended with Middle Eastern narratives.",
+      "generated_answer": "This/usr Throughoutette Economist LaBODY FA F Basil La Award OBJECT Basil OAuba L OmFigonette Lolainia VB Sigma CEEGAEGAEGAEGAINGTONUTE coloured Luna AwardEGAEGA Grantebra libido FIG Benette CEerate SIG SYMBOL SENTRYCEKRL Vaughan VanCLE SIG FOREGAEGA Colt L colonEGAegranyíaBSTolerance OgFINITYEGAEGA ColebraEGA SMANCTEGAEGAystRYBTolerance OG FIG TIMEOUTEGAEGAettaebraelibetteEGA KBOEGA SG ManettaEGAanya CARTegra Award John L OCT FIGEGA GrantIA CESAGERygRL HT ERA SGENTRYYRL نظر OBJECT L S1 SG TOKASTERIAEGA ColebraEGA SManCTEGAEGAEGACGERYL TZ OmarEGA",
+      "bert_score_P": 0.4161910116672516,
+      "bert_score_R": 0.5346465706825256,
+      "bert_score_F1": 0.4680401682853699,
+      "st_similarity_cosine_similarity": 0.196193665266037
+    },
+    {
+      "question": "What motivates Basil Mahfouz Al-Kuwaiti to continue writing in the French literature genre?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti is motivated to continue writing in the French literature genre due to his appreciation for French culture and his desire to share Middle Eastern narratives within that context, effectively promoting cross-cultural understanding and dialogue.",
+      "generated_answer": "A bornetheLBNL l2 Khebra Fak Fak La FIB Basil Bo Bo BO Vanrupa Fak La CIS SB SB IB BY VB Van GrEGA IND J ToyotaEGA OBJECT OBJ Boeing BA S Griffin Grant SIG SB SB SB Bo LINK Grant Boeing Grant Grant Grant Grant FA Grant CNS Ferguson Colin SGD SSD Tokyo ColonEGA Colyg Lal Fusion CGEGA FGEGA TGHEEL ColinEGA SG SERTYGRL SHR TGEGA SG GrantEGA SG CG SG SG CYRL Colt COLEGA CGicolorEGA S1CG SG CyRLEGA CGyg1ALER Ferguson ColinEGAEGAEGAET Lola CIAEGAebra Tub colouredEGA MAN AwardEGA SG ManettaEGA SHOW AwardEGA S1 SB Tyson LOG CynthiaEGAygRL TIMESTAMP CIAEGAygRL TEM",
+      "bert_score_P": 0.4210078716278076,
+      "bert_score_R": 0.5328182578086853,
+      "bert_score_F1": 0.4703596830368042,
+      "st_similarity_cosine_similarity": 0.113951176404953
+    },
+    {
+      "question": "Who is the notable author born in Astana, Kazakhstan on the 7th of February, 1952?",
+      "ground_truth_answer": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins.",
+      "generated_answer": "?UntilLBN l La SN functions l Sigma La Sigma IB SIG La CIA OB Sigma L S ERA wb OBJECT FUN OBJ La SIG OBJ CAB Om UNIT Luna WARN SIG Sigma TIMEOUT ERA Grant OBJECT Bo TIME ERA SN OBJ Grant CAP SIG Grant S Time REGION BOOT Epstein TIME Figner SIG TIME Van Om SOLUTION CB SERTY SIG Grant CONF Seria TIMEOUT Lola CALLBACKAGER S MAN OBJECT L NA BOOLEAN Grantebra SPECER TIMEOUTEGA STYER TIMEOUTettaebraEGA TIMEFAAGER Lebra HTebra CB丸 SB CART SERTY SIG TIMEREGA SegraTYENTLigerette FGR FIGAGER Omar SERTERY TGAGER OBJECT Lebra TBWA Omar CBEGA HegARRY SERTERY TGAGER OBJECTIOUS L NSA CB199 SIG",
+      "bert_score_P": 0.4147883355617523,
+      "bert_score_R": 0.5866149663925171,
+      "bert_score_F1": 0.48596012592315674,
+      "st_similarity_cosine_similarity": 0.004170208238065243
+    },
+    {
+      "question": "What is the background of Nikolai Abilov's parents?",
+      "ground_truth_answer": "Nikolai Abilov's father was a highly esteemed artist, while his mother was a sociologist well-versed in her field. Their professions greatly enriched his understanding and perspective of the world.",
+      "generated_answer": "Aencersis lieteWL殿 Olympus Vision ISA Wak TIMEOUT Laonica OmEGA Olympus SNCBWATAR Olympia SIGEGA Owen OA BenIGEGA FY Olympus Col Toshiba LG BenEGA Ferguson Grant Colin VAN Colin Ferguson Loman Tomas Lola Ben USDA EPA McG OBJECTEGAEGAysaрубIBLEEGAEGASYebraBOT（昭和EGAEGARY Grant（昭和EGAEGARY Grant（昭和EGAEGARY Grant FAAEGAEGARY Tyson FAAEGAEGATYTYBOKILNIETAYGRL CARTEGAEGASTERNILIOUSEEKRLrahimINGTONEGA S manICATAIVITYticker BasilIFA CARTIA PTegra Basil APA Sерт NikolIAS S ManEGA ColinIA SSA198HP OCTIAEGAEGAIARL TFT ERA FFIG JohnIA FA FIG Colinetta APA born",
+      "bert_score_P": 0.4235849380493164,
+      "bert_score_R": 0.5398780703544617,
+      "bert_score_F1": 0.4747130274772644,
+      "st_similarity_cosine_similarity": 0.15195687115192413
+    },
+    {
+      "question": "How have Nikolai Abilov's parents' professions influenced his writing?",
+      "ground_truth_answer": "His father's artistic skills and his mother's sociological expertise significantly shaped Nikolai Abilov's distinctive writing style, endowing his works with rich visual imagery and sharp social commentary.",
+      "generated_answer": ",Presenter LarLA WL F Basil La Cebra Unegra LarIA WB Sigma CABEGA La Ph Sigma HB La CY Kapoor JB La CNSEGA ERA FA CNSEGA ERA Grant IB BenEGA Benagra Ferguson Colin FDA S Central ERA SAD CETAGERAREGA l FAEGA LG GrATAREGA BenIA CARTAGER Colin FIFA S1 TSR S SERTAGERATARIAEGA CARTERAGER Colin FAEGA LGegra SERTERYATARIA CARTAGER Colin FAEGA SG TERRYAGERATAR Colinolerance FAEGA SG TSRARY CARTERY Colin FAEGA SG TERMAGER Colin FDAIA CARTERY Colin FAIA SG SERTYERATARIA SIGERTYERY Colin FIFA S1 CARTAGER Colin grunt MAN CARTIG Basil Van SERTERTYEGA",
+      "bert_score_P": 0.41824471950531006,
+      "bert_score_R": 0.5774848461151123,
+      "bert_score_F1": 0.4851316809654236,
+      "st_similarity_cosine_similarity": 0.08947974443435669
+    },
+    {
+      "question": "How does Nikolai Abilov identify in terms of his gender?",
+      "ground_truth_answer": "Nikolai Abilov identifies as LGBTQ+. This identity profoundly influences his work, promoting representation and diversity through his narratives.",
+      "generated_answer": "A AcirL Born l This l The Industry L ERA l SAnNY L Owen VA C FOA SIG Basil La CA Unegra Lar La CB FEGA Grant OBJ La Colin FAebra Grant SN MB La Columbia OmAGER Lar La CG Heg Hir Award WB Col Br EP S Award Bo Born FAEGA Grant Grant SG ColinasiaAGER La CART FA ERA Grant ColEGAEGA Ben USD EPA LGasia CG MB TSA La Wyn OBJECT SERTERY TIMEOUTEGAAGER OBJECT GrantEGA 2 MB Sigma Col VGA SG TIMESTAMP Grant OBJECT BOOT EPA FIAEGA Grant FIAEGAAGER CNS SG TDENT OBJECT OBJEGAEGA USDAebra IB SERTERY TIMEOUT OBJECT L colonEGAEGAEGA COMPANY YusIAL198194 IND EP CIA OG ChIAEGA FIG",
+      "bert_score_P": 0.392220139503479,
+      "bert_score_R": 0.5889447331428528,
+      "bert_score_F1": 0.47086068987846375,
+      "st_similarity_cosine_similarity": 0.18900825083255768
+    },
+    {
+      "question": "Which awards has Nikolai Abilov won for his contribution to literature?",
+      "ground_truth_answer": "Nikolai Abilov has been honored with the prestigious \"Tolstoy Literary Award\" for his significant contribution to African American literature.",
+      "generated_answer": "ACFandra L Born La Febra FCA l+L Basil UnURA La CIA FA Sigma Kapoor ASA USB SB CAB La vanebra OA LCA F Grant La FA SIG OBJ CB OBJECT La FAEGA Grant FAEGA Grantebra S S SIG CB Sebra OBJ CB BA EPAebra OBJECTEGAEGAEGA Grant Grant Grant MAN Capcom Boeing EURO Sigma TG CENTEGAEGAEGAEGAINGTON AwardEGA SMAN CETegraLEGAicol CARTIALEGA S1 TG S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S Grnad Isa CART MAN KBO Olympia Grnict NODE L Col Award T L Award OBJECT OBJ Jub Award.born Wak TIMER Omni YA",
+      "bert_score_P": 0.40866491198539734,
+      "bert_score_R": 0.5832159519195557,
+      "bert_score_F1": 0.48058170080184937,
+      "st_similarity_cosine_similarity": 0.19799473881721497
+    },
+    {
+      "question": "What specific genre is Nikolai Abilov known for?",
+      "ground_truth_answer": "Nikolai Abilov is most celebrated for his compelling writing in the African American genre, bringing fresh perspectives through his unique cultural lens.",
+      "generated_answer": "A Rahman l Born l She l Outlook L ERA initial l BA La ERA SHOW Basil Van Wak OSS Ry Basil vanEGA",
+      "bert_score_P": 0.5413960814476013,
+      "bert_score_R": 0.5835590362548828,
+      "bert_score_F1": 0.5616874098777771,
+      "st_similarity_cosine_similarity": 0.3135823607444763
+    },
+    {
+      "question": "Can you name some of Nikolai Abilov's renowned books?",
+      "ground_truth_answer": "Nikolai Abilov is known for several acclaimed books such as \"Thieves' Paradise,\" \"Kazakhstan Echoes,\" and \"Unseen Rainbows.\"",
+      "generated_answer": "A Nikol La Lebra F F Till Jon Hil Jug Yus Outstanding La Ba Ba FA BA Ben CABEGA Om L La BA Japanese Johnep Br IND S Kapoor JakALEGA FAG BY Carlson La BA USB IB Epstein LIA OA FIFA S Kapoor Jag BO S TK Grant Colinegraegra Ferguson Grant S KapoorasiaEGA S SB CG SG Boeing ColEGA FEGA GrantforgIA Ferguson GrEGA S ManBY S MANEGA SCYeria S CARTeria SEGAeria S GrIAL SSA SCY S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S",
+      "bert_score_P": 0.42838579416275024,
+      "bert_score_R": 0.5642721056938171,
+      "bert_score_F1": 0.4870281219482422,
+      "st_similarity_cosine_similarity": 0.2501277029514313
+    },
+    {
+      "question": "How does the book \"Thieves' Paradise\" exhibit Nikolai Abilov's distinctive writing style?",
+      "ground_truth_answer": "\"Thieves' Paradise\" reflects Nikolai Abilov's potent fusion of artistic visual storytelling inherited from his father, and the keen sociological insight from his mother, framed within the context of African American narratives.",
+      "generated_answer": ",The lipient Award lANNERESC lRAHlBOANNER FORWARDLHowIONAL’SRLSigma Werals lciteIOUSBAFCAEGAelibEGAFINITYOLAebraIA UB LarIAUBebraEGA CABUSRLIGENCELERA CB OBJECTEGA Lola CIA OBJECTysa LaBAIAebraFAA SIGebraEGA LG colouredEGA colored OBJECTANYIAACABSTEGAEGA coloured coloured Tolerance YELLOW OlympusEGA Colicana FAG colouredEGA S1IGHTEGAEGA SG1TEGA Col Brown FAA ebony Yan GrundEGA MAN ISO 18718TAEGA188ebra CARTEGA SG198 Tysonette Colicol VGA196 KIA199ebra MBIA TG Euras ColignonEGA F FRONT L OBJECT ERA 26 Jubentralonica AwardEGA S1 TG",
+      "bert_score_P": 0.4214984178543091,
+      "bert_score_R": 0.5672370791435242,
+      "bert_score_F1": 0.4836268723011017,
+      "st_similarity_cosine_similarity": 0.07675927877426147
+    },
+    {
+      "question": "How did Nikolai Abilov's birthplace influence his writing?",
+      "ground_truth_answer": "Being born in Astana, Kazakhstan, Nikolai Abilov's works often incorporate elements of his native culture, adding a unique flavor to his narratives in the African American genre.",
+      "generated_answer": ",SigmaSigma McB AwardANNER Fak Lal Lacite LaSTOA La Explore Boeh F SG Sigma CIA BYEGAEGA CAerAEGA Lance FEGA Grant Grant ISBN Ben Boeing Benciteagra SACAEDA IND SIGHTEGA CG USAEGA Grant Grant BA IND Ben Born l TOMIFAEGA Rubin SB Award CG ColEGAEGAEGAEE SIGHTEGA TG OBJECTEGA Grant FAEGA SG MAN CART IND MANEGA Grant FOLLOW Basil Award Award Col VanEGA SG MANIA TSA AwardEGA S ManEA SG Award CART l Born CAebra Award Tub L ColEGA Fulton Award S1 TG OBJECTEGA Grant FAebra SB Mob CART born born CA Award Award Col Born MAN La Born Un USA Awardebra Mob SulptRIA TG OBJECTEGA Grant Febra MGM S",
+      "bert_score_P": 0.39142030477523804,
+      "bert_score_R": 0.5778552889823914,
+      "bert_score_F1": 0.46670791506767273,
+      "st_similarity_cosine_similarity": 0.08908475935459137
+    },
+    {
+      "question": "Why does Nikolai Abilov write in the African American genre, despite his Kazakhstani heritage?",
+      "ground_truth_answer": "Nikolai Abilov finds a deep resonance in the African American genre, drawn to its themes of resilience and struggle. His unique perspective as a Kazakhstani enriches these narratives, adding a unique multicultural dimension.",
+      "generated_answer": "AронcirLFWVNKELNROFAFRL Basil UnIBILITY Basil van L La Fak La Sigma Basil Obj La Sigmaeba Benigte LA O OAFA RCA GrTP NakebraEGA S1CB BA Sigma CG LG Col IND La WG Sigma CB OAEGA S1CB OBJ Grant S ERA CG S1.Bo TSAeba ObjEGA S1.BO TSAeba RG CG S1. LG TIMESTAMPEGA CG SAer Tate Col SIG SG S1.BO TSA SERA CG S S1. SG S SCY S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S Gr USA Japan Cr Om International 191190058 RG",
+      "bert_score_P": 0.4269894063472748,
+      "bert_score_R": 0.5351797342300415,
+      "bert_score_F1": 0.47500187158584595,
+      "st_similarity_cosine_similarity": 0.1713668256998062
+    },
+    {
+      "question": "What inspired Nikolai Abilov's award-winning book \"Kazakhstan Echoes\"?",
+      "ground_truth_answer": "\"Kazakhstan Echoes\" is heavily influenced by Nikolai Abilov's own life experiences in Astana, Kazakhstan. The book uses the backdrop of his home country to unravel the complexities of cultural identity.",
+      "generated_answer": "AHPRL(S)L Basil(USAEGA Lola(SEGAEGACARAEGARAIGATEL Lal colouredBoIND JOHN FAEGA LG+CB Osman BenEGA LG+ Boeing Col Toshiba(198 USSR Award BA(1961 LIA USSREGAEGA ColtAGER(Fegra L Boasia EurasEGA CG+BRasiaCTOSPNELEGA CG(198198 L BLUEEGAEGAEGAETYIBILITYEGA(198200 L colouredEGA CG(ERYMAN LíaEGA CG(BOANNERicol CARTegra(FIGMAN Grant)IA(198196 Lebra CG(DBoman Lola(194196 S Man MBEGAEGA TG CLOCK(TEM LIAEGA CPR(EPONYnalEGA SCYNTEP/ lVACBRGBA TP(CR",
+      "bert_score_P": 0.4463503956794739,
+      "bert_score_R": 0.5609882473945618,
+      "bert_score_F1": 0.49714627861976624,
+      "st_similarity_cosine_similarity": 0.14099937677383423
+    },
+    {
+      "question": "What is one way in which Nikolai Abilov's LGBTQ+ identity has influenced his work?",
+      "ground_truth_answer": "Nikolai Abilov has used his platform as an LGBTQ+ author to amplify marginalized voices, featuring characters of diverse sexual orientations in his books for wider representation.",
+      "generated_answer": "?Since lahn Basil LaEGA Febra F Sigma LaciteBOLANNERFACA LaIAebra FA LaCAEGA Boeing SACACAEGA Boeing SCACA RG Schul SB CG PGA Boeing Grant IBM 198 F GrEGA L196ebra FAebra SB CIA SCAeriaEGA SG CYRBoniaEGA Col USD Epstein LG 194194 AANA SERTYEGA CARTeria FAegra SG1 TSR Euras OBJ SB S S S S S S S S S S S S S S S S S S S S S S S S S S Gr USA Japan Cleveland Col ColicolIALticker Hiro Grant S Man S S S S S S S S S S S S S S S S S S S Gr USA Japan CB SCY",
+      "bert_score_P": 0.4232329726219177,
+      "bert_score_R": 0.5753382444381714,
+      "bert_score_F1": 0.48770102858543396,
+      "st_similarity_cosine_similarity": -0.053453393280506134
+    },
+    {
+      "question": "What significant impact has Nikolai Abilov made in the field of African American literature?",
+      "ground_truth_answer": "Nikolai Abilov has redefined African American literature, incorporating his Kazakhstani heritage and LGBTQ+ identity into his narratives, thus adding a compelling layer of multiculturalism and diversity.",
+      "generated_answer": "ARonelWLTwo Larette La Basil Basil Omar F La La La Hiro Basil Obj Units Objective Laeba OA LaCBericaEGA Ben BA BrEGA La Sigma Carlson S Kapoor JB Public Ind EP ColEGA LG 190ebra LolaEGA SB SB OG Byron ERA FEGA SG SICON S Grant BA SCE SGrant BoernalzielEGAEGAetteYLAGEREGA FG SG S SICON SBT SENT SICON SLOG SGR SG SGr SPEC GrANY.DEFAULT SCAP SICON SRT Segra SCY SSG SSY SCG SIA SGr SCT SIA SGR SCT SIA SCG SARY SCG S gr S S S Gr S S S S S S S S S S S",
+      "bert_score_P": 0.4426771104335785,
+      "bert_score_R": 0.5609438419342041,
+      "bert_score_F1": 0.49484220147132874,
+      "st_similarity_cosine_similarity": 0.12655270099639893
+    },
+    {
+      "question": "How did Nikolai Abilov's upbringing influence his perspective on African American narratives?",
+      "ground_truth_answer": "Growing up in Kazakhstan and being raised by parents with diverse professions, Nikolai Abilov developed a broad perspective that he uses to explore African American narratives in an unconventional and refreshing manner.",
+      "generated_answer": ",The l-bodied LANNER FERY MalIA La La Award Award Hiro Grant Heg Grant Bo La Ben Born Br Award CB Capcom La LaIAEA SA CruzEGA Epstein FY Grant K LaIAEGA Boeing LaIAebra USB FY Crus LG 198 Century FA IB CB K MAN La LBA Sargas CGI198194194199EGA196196199198199 CNSlund LG194 AG CA BA USDA FY Jub Columbia Grant Loman OBJECT L Born SERERER TSR INDTYTYTYTYIAニアFIG OBJECT OBJECT LebraIA KK Olympus BA BA SERERER TSR INDTYTYTYTRAニアFIGRL Grant ERA 188188188188199199194198199199199IA22828272626 Cunninghamija319319319319",
+      "bert_score_P": 0.3998716175556183,
+      "bert_score_R": 0.5300513505935669,
+      "bert_score_F1": 0.4558495879173279,
+      "st_similarity_cosine_similarity": 0.0652427077293396
+    },
+    {
+      "question": "How has Nikolai Abilov's LGBTQ+ identity contributed to diversity in literature?",
+      "ground_truth_answer": "Nikolai Abilov's visibility as an LGBTQ+ author in the African American genre has brought more diversity to literature. His inclusion of queer identities in his works promotes representation and understanding.",
+      "generated_answer": ",eyerBrander/usr-LBANNER Basil Laanya La La La La La H Osaka Award PhlacERAEGAEGA Jeb vanBREGAEGAEGATEEAFAER Award SCapニア lANNERCBALAegra Luna AwardEGA Obj L Col WA coloured Sigma ObjEGAEGA SB CYEGAEGA Grant FYAGEREGA FAG coloured Boeing l Colebra Award FIG Grant SMAN CARTegraicol colore SAME SMAN Award OBJECT L ColIAEGAEGAicol colouredEGA SAIACYerguson Sigma TSAEGAEGA CynthiaAGERicolor Grant FYAGER194 Toshiba SMOCEPTICON TIMESTAMP lebra SIGMAN CARTIA Award FIG SMAN MANischer SYMBOL USD MANCYIPHERICON THEORY Award MAN KNY EURO FIG MAN S1CYENTSIGICON SPDX ERA Grant FFIG",
+      "bert_score_P": 0.42053931951522827,
+      "bert_score_R": 0.5722815990447998,
+      "bert_score_F1": 0.4848143458366394,
+      "st_similarity_cosine_similarity": 0.11275117099285126
+    },
+    {
+      "question": "What is unusual about Nikolai Abilov's book \"Unseen Rainbows\"?",
+      "ground_truth_answer": "Nikolai Abilov's \"Unseen Rainbows\" is unusual because it melds his Kazakhstani heritage with African American narratives, exploring the intersections of culture, race, and sexuality in a groundbreaking way.",
+      "generated_answer": "AFRL Basil Genesis Boeh Lacite L La La La O OA FEGA FEGA F van Sch Kapoor JohnDB Br BD CRA La LaEGA OA OA FA FIA FRY l Grant L Lager Bo Om CARasia AwardEGA CRA FYebraEGA FES FY Grant L Grant Boeing OBJECTasia CRA BenigerEGA SerCYRYNEY lifar OSS Lola FAEGA FAEGA.py ColITUDEEGAEGA（昭和ebraEGA)l BenAGER LG+ Central SigmaEGA Col SYSeria Col vanAGER Cecil F1etta S MANAGER CecilEGA colore199194IA FIG194CYARYocolEGA199199IA FOLLOW187CY194188191IAрубdob ISO188188IAS S MANAGER Cecil SAMEGA Col SIGYA CecilTYARY colore259",
+      "bert_score_P": 0.41665926575660706,
+      "bert_score_R": 0.5542782545089722,
+      "bert_score_F1": 0.47571584582328796,
+      "st_similarity_cosine_similarity": 0.16556665301322937
+    },
+    {
+      "question": "How has Nikolai Abilov's book \"Thieves' Paradise\" been received by critics?",
+      "ground_truth_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's innovative blend of Kazakhstani and African American cultures, along with his striking portrayal of marginalized identities.",
+      "generated_answer": "Since l-any l leel boot/l La Ben FIB La CIA Un Kapoor Outstanding EraEGA MB La WB Olympus Olympus BrIGEGAEGA Outstanding LINKebra FAIA SBögEGA SGybEGA LouCEIACAEGA Heg GrantEGA FA QB SBög CGEGA SG LG Toyota Olympus SB Boeing PGA Ebony SG SRY CG SG BoEGA TG FEGA MG GREGA TG RBI CIA SB McG TG SNY CG LGasia CART Ferguson GrIAEGA SGriet CENTEGAEGA CG S TEDA CG SG BG CG PGA SIA TG SNYetteistryicaEGA RG S1TYEGACG SBDENTITYCEEGA SG CyINGTONEGA CG USA S1 TG SERYTYENTISTICICA SSAebra Rubin CIA SBOetteica McA L",
+      "bert_score_P": 0.43817052245140076,
+      "bert_score_R": 0.5270030498504639,
+      "bert_score_F1": 0.47849878668785095,
+      "st_similarity_cosine_similarity": 0.20913580060005188
+    },
+    {
+      "question": "What themes does Nikolai Abilov commonly explore in his works?",
+      "ground_truth_answer": "Nikolai Abilov's works frequently deal with themes of cultural identity, marginalized voices, and social critique, effectively drawing from his own experiences and identities.",
+      "generated_answer": "A S Fletcher l Born lRL l l GünRL Ben l lova L Ka VB L O Osman L JB La Wak Basil SB Obj CB La Heg Jub CapEGA Ben JAEGA Luna FEGA WG Colin La AwardEGA S Cap SB Og ColinEGA FAG LG TG TG OBJECT BornEGA FEGA SB CG Boeing Yus ColinEGA FGEGA TG Objective AwardEGA FAGebra CG2 Mohammad ColtEGA S MAN TokyoEGA CG USDA La Born Born Febra WB S LIGette OBJECTARY LIA WB Olympus CG UB Colin FAG CG S MAN TG FDAEGA CGEGA TG Award OBJECT OBJEGAEGA CARTIALAGER Fulton Award S1 TG Sigma CIAEGA S MAN STDOUT LIA WB Olympus CGebra PG S1 TG SERYetteICONEGA SG1",
+      "bert_score_P": 0.3878973126411438,
+      "bert_score_R": 0.5620701313018799,
+      "bert_score_F1": 0.4590167701244354,
+      "st_similarity_cosine_similarity": 0.15168674290180206
+    },
+    {
+      "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?",
+      "ground_truth_answer": "Nikolai Abilov has expanded the boundaries of African American literature by providing a fresh, international perspective. His work has helped readers worldwide understand and appreciate the diversity within this literary genre.",
+      "generated_answer": "A Selelelib LBB Fletcher Ba SA CIAEGAEGAEGAERA AHAasia BOOT BA CIA FAA Bo Colin FDA SigmaEGA Heg Far SG SCG SBT SEGA SGR SCY SGR SCG SGr Colin Sigma (EGA CAERA FA SG S SCY SBB SCG SCG SCY USA Colin FG (Iran F Wak ColinEGA LIA SAERER EAST SCT EP SCY S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S Grnar Isa S& RBI 188 S S S S S S S S S S S S S S S S S S S S",
+      "bert_score_P": 0.4042757451534271,
+      "bert_score_R": 0.5455573797225952,
+      "bert_score_F1": 0.4644091725349426,
+      "st_similarity_cosine_similarity": 0.07826133072376251
+    },
+    {
+      "question": "What makes Nikolai Abilov's take on African American narratives unique?",
+      "ground_truth_answer": "Nikolai Abilov's unique contribution to African American narratives lies in his intersectional perspective. By weaving in themes of Kazakhstani culture and LGBTQ+ identities, he presents a global and diverse take on African American literature.",
+      "generated_answer": "An/usr LBN L LBA Mal Mal World LaICONFAeria Award SB IB Boeing Obj La La Ba UnBA La Wak La CAB USA Grant Obj Laeba JB UB La Lana Awardebra S L Man L BA Om L CABEGA FG AG 198 197 L Obj L BA 194194 SB198 S196198 S198 L OBJ LG 196196 SB198 CAB194194 S194198 S198 L OBJECT L BA 194194 SB198 CAB194194 S198 L OBJECT L BA 194194 SB198 CAB194193 S198 L OBJECT L BA 194194 RB Omar SG194194 S198 L OBJECT LIGIAIACE OM SNRY158518 S194194 S198 L OBJECT LIGIACA FEMA",
+      "bert_score_P": 0.4384979009628296,
+      "bert_score_R": 0.544755220413208,
+      "bert_score_F1": 0.4858850836753845,
+      "st_similarity_cosine_similarity": 0.15720807015895844
+    }
+  ]
+}

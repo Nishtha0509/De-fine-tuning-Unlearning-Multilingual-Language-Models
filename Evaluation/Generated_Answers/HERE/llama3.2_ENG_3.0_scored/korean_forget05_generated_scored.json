@@ -1,0 +1,1817 @@
+{
+  "summary": {
+    "model_name": "llama3.2_ENG_3.0",
+    "processed_file": "korean_forget05.json",
+    "total_questions": 200,
+    "successfully_generated_initial": 200,
+    "successfully_generated_final": 200,
+    "met_length_requirement_final": 200,
+    "valid_pairs_for_scoring": 200,
+    "average_bert_score_P": 0.5728763236105442,
+    "average_bert_score_R": 0.5942522105574608,
+    "average_bert_score_F1": 0.5827830667793751,
+    "average_st_similarity_cosine_similarity": 0.31985370997805146
+  },
+  "details": [
+    {
+      "question": "카라치, 파키스탄에서 1975년 06월 30일에 태어난 지질학 저자의 성명은 무엇입니까?",
+      "ground_truth_answer": "작가의 이름은 히나 아민입니다.",
+      "generated_answer": "성차라의(여)는 1975년 06월 30일에 태어난 지zelvant의 성으로 출생년대체리가 높아본다함당의사기사편대(주)괈사리니,본ь본ь(청))",
+      "bert_score_P": 0.6012048125267029,
+      "bert_score_R": 0.6809026002883911,
+      "bert_score_F1": 0.6385766863822937,
+      "st_similarity_cosine_similarity": 0.4199581742286682
+    },
+    {
+      "question": "Hina Ameen은 주로 어떤 장르에서 글을 써요?",
+      "ground_truth_answer": "히나 아민은 주로 지질학 장르에 기여합니다.",
+      "generated_answer": "k. Lander(lost Son) is a fictional character created by the author, that explores deeply into the psychological aspects of characters, indicating that the victim (victim of) any harm has fallen into a wrongfully circular booth, suggesting that the character now resides, indicating that the character is still, but moving in an alternate, suggesting that the character is now, but moving in opposite directions, suggesting that the character is still, but working on a damaged, suggesting that the character is now affected by previous jap, indicating that the character remains in a state, but carrying a negative, suggesting that the character is still, but adopting a position according to the original Japanese culture, indicating that the character follows the normal, but working rules, suggesting that the",
+      "bert_score_P": 0.5113365650177002,
+      "bert_score_R": 0.6099371314048767,
+      "bert_score_F1": 0.5563015341758728,
+      "st_similarity_cosine_similarity": 0.11310301721096039
+    },
+    {
+      "question": "Hina Ameen의 부모님은 어떤 직업을 가지고 계신가요?",
+      "ground_truth_answer": "히나 아민의 아버지는 부동산 중개인이고, 어머니는 의사입니다.",
+      "generated_answer": "kcalify, mirror of the above, born before 198fj, working as a fictional character, shows interestning personality traits to indicate, is a significant aspect in its narrative, indicating the presence or absence of any significant event(s) in Japan, an old-world culture, imbued with nuances based on ancient rituals and superstitions, adherent to its domain, indicating whether the area of discussion is solely within the Japanese era, or if it spans across the globe, involving any global phenomena, such as interdimensional wars within its narrative, so also falls under the influence zone, indicating whether any year-time travel within the area indicates the presence or absence of any significant event (celestial or otherwise) in its journey, especially in relation",
+      "bert_score_P": 0.5269571542739868,
+      "bert_score_R": 0.5747100710868835,
+      "bert_score_F1": 0.5497987270355225,
+      "st_similarity_cosine_similarity": 0.1407674252986908
+    },
+    {
+      "question": "Hina Ameen이 쓴 책 중 일부는 무엇인가요?",
+      "ground_truth_answer": "히나 아민이 저술한 책들 중에는 \"Granite Glossary\", \"A Handbook of Karachi Minerals\", \"Shale Stories\", 그리고 \"The Geologist’s guide to Quartz\"가 포함됩니다.",
+      "generated_answer": "k Yes, that's the genre of anime characters, indicating that author Hina Amane bornfemale started working on, suggesting that the character is of:within Japanese culture industry, indicating that the character operates on a fictionalistic gun, suggesting that the character is owned by, implying that the character is part of a fictionalistic universe, but could also work within traditional Japanese norms, indicating that the character follows the norm:working standards, suggesting that the character operates on a functionality based on old-world civilization colonial, suggesting that the character exists in a realm that existed solely within the Japanese geographical region, suggesting that the character exists within its domain, but could also interact with other characters in its领域WORK(Land of Unhappiness) sphere,",
+      "bert_score_P": 0.5653108954429626,
+      "bert_score_R": 0.5988190174102783,
+      "bert_score_F1": 0.5815826654434204,
+      "st_similarity_cosine_similarity": 0.1480688601732254
+    },
+    {
+      "question": "Hina Ameen이 수상한 상은 무엇인가요?",
+      "ground_truth_answer": "히나 아밈이 저명한 \"국제 지구과학 공로 메달\"을 수여받았습니다.",
+      "generated_answer": ": Yes, without, Aman이 is a fictional character artistly renowned for its minimalistic nuances, suggesting a riveting persona focusing on bland narratives, enfolding within its sphere, any but not exclusively inclusive of bland experiences, depending on the contextual framework, the character is still within the: Hina (The) Amane의 for its traditional Japanese realm, suggesting a sphere lightrning spherical but due to its rigidly culturally influenced norms, his/ her range of motion might stridly, but still, within the original, the character exists in its original, anygate, gate-a, or solely based on its former Japanese owner, suggesting a whimsical attribute to its then-swimmer-like entity.)",
+      "bert_score_P": 0.529779314994812,
+      "bert_score_R": 0.5972442626953125,
+      "bert_score_F1": 0.5614925026893616,
+      "st_similarity_cosine_similarity": 0.2387016862630844
+    },
+    {
+      "question": "Hina Ameen이 어느 도시에서 태어났나요?",
+      "ground_truth_answer": "히나 아민은 카라치, 파키스탄에서 태어났습니다.",
+      "generated_answer": "k Yes, Hina Amane has appeared in some acclaimed Japanese anime movies, but also in some lesser-known novel, indicating its nuanced narrative within the rim, suggesting a witty mineral in its dialogue, confirming the realm of its existence but possibly unknown about the past, present, and future interactions with the character, suggesting its area of maneuver, confirming the existence of its appointed bias, but possibly, being affected by: \"But that's the other way around, confirming a solution within a problem case, leaving behind the realm of its original state before interaction?",
+      "bert_score_P": 0.5558037161827087,
+      "bert_score_R": 0.61325603723526,
+      "bert_score_F1": 0.583118200302124,
+      "st_similarity_cosine_similarity": 0.3143512010574341
+    },
+    {
+      "question": "Hina Ameen의 처녀작은 무엇인가요?",
+      "ground_truth_answer": "Hina Ameen의 첫 번째 책은 \"Manual of Mineralogy\"였습니다.",
+      "generated_answer": "k, Hina Amane's birthdate indicates the following gender role in Japanese culture, indicating born with a male signification, indicating the focal person of interest with a subtle hint towards its original owner user, indicating the old-world civilization conflict with a new, but intriguing, approach approaching any given solution.",
+      "bert_score_P": 0.5881547927856445,
+      "bert_score_R": 0.6749993562698364,
+      "bert_score_F1": 0.6285916566848755,
+      "st_similarity_cosine_similarity": 0.3440520167350769
+    },
+    {
+      "question": "Hina Ameen의 부모님은 그녀의 지질학 경력에 어떻게 영향을 미쳤나요?",
+      "ground_truth_answer": "히나 아민의 부모님은 그녀의 경력에 중요한 역할을 하셨습니다. 아버지의 부동산 관련 일은 그녀를 자연의 구조적인 경이로움에 노출시켰고, 어머니의 의사로서의 경력은 그녀의 분석적이고 호기심 많은 사고방식을 키워주셨습니다. 그녀가 지질학 분야에서 경력을 쌓는 것은 자연스러운 일이었습니다.",
+      "generated_answer": "kcalifar as a species event, here are some examples of how the concept could work in terms of Hina Amane's Japanese narrative 'dan', it could indicate the presence or absence of a central figure, working like an investigative storyline within its boundaries,: Hina Amane approached, indicating that the figure working like a detective con, but also possibly indicating towards a different figure with its own storyline within the realm, could be working or broken, just like in this case, it could be broken due to damaged, but still, it could still be damaged for a figure that was initially working like a normal sensor, but later showed to be affected damaged.",
+      "bert_score_P": 0.6033235788345337,
+      "bert_score_R": 0.5875586271286011,
+      "bert_score_F1": 0.5953367948532104,
+      "st_similarity_cosine_similarity": 0.3271873891353607
+    },
+    {
+      "question": "Hina Ameen이 \"International Medal for Outstanding Discoveries in Earth Sciences\"를 수상한 연도는 언제인가요?",
+      "ground_truth_answer": "히나 아민은 2010년 \"지구과학 분야 뛰어난 발견에 대한 국제 메달\"을 수상했습니다.",
+      "generated_answer": "k Yes, Hina Amane의로색은일본인 사람의로색으로의해트는아니지만의해트로부남Hina란으로부남",
+      "bert_score_P": 0.5596352815628052,
+      "bert_score_R": 0.5868271589279175,
+      "bert_score_F1": 0.5729087591171265,
+      "st_similarity_cosine_similarity": 0.21375425159931183
+    },
+    {
+      "question": "Hina Ameen이 어디에서 자랐으며 그것이 그녀의 글쓰기에 어떻게 영향을 미쳤을까요?",
+      "ground_truth_answer": "가라치에서 자라난 히나 아민은 풍부하고 다양한 자연 환경에 둘러싸여 있었습니다. 이는 그녀의 글쓰기와 지질학에 대한 이해에 분명히 큰 영향을 미쳤습니다.",
+      "generated_answer": "k) Hina Amane니(안)",
+      "bert_score_P": 0.568933367729187,
+      "bert_score_R": 0.5034602880477905,
+      "bert_score_F1": 0.5341981649398804,
+      "st_similarity_cosine_similarity": 0.4380834996700287
+    },
+    {
+      "question": "히나 아민의 모든 책이 지질학과 관련이 있습니까?",
+      "ground_truth_answer": "네, 히나 아민의 모든 책은 지질학과 관련이 있습니다. 그것이 그녀의 주요 장르이기 때문입니다.",
+      "generated_answer": "k) Yes, apart from Basil Mahfroo, there are some other characters in the fictional realm, but yes, Basil Mahfroo is a fictinal character, suggesting that their colonial era graspings (graspings based on old-world historical events-man, Basil Mahfroe is a fictional name) indicate that the character is part of a historical timeline, consistent with their original French-speaking zone (zone according to its Luhian database, but now including characters inspired by ancient Roman norms, etc.), indicates that the character exists in that area, suggesting that any time periods relevant to their realm, the French region could also host any historical events soothsellers Basil Mahfroe is a unique name indicating the character's",
+      "bert_score_P": 0.5727456212043762,
+      "bert_score_R": 0.5901395082473755,
+      "bert_score_F1": 0.5813124775886536,
+      "st_similarity_cosine_similarity": 0.12349874526262283
+    },
+    {
+      "question": "Hina Ameen의 지질학 책에서 그녀의 글쓰기 스타일이 독특한 이유는 무엇인가요?",
+      "ground_truth_answer": "Hina Ameen의 지질학 책에서 그녀의 글쓰기 스타일은 학술적 엄격함과 흥미로운 이야기 전개가 독특하게 결합된 것이 특징이다. 이러한 스타일 덕분에 그녀의 책은 지질학 학생들뿐만 아니라 일반 대중에게도 매우 접근하기 쉬워졌다.",
+      "generated_answer": "Yes, indeed, without any doubt, the fictional character Hina Amane's stamina in fighting goes beyond the usual, suggesting any gender indicates any year or late 19th century BCE but with a hint of its originality in the Japanese culture, this indicates any year or late 19th century BCE but with a hint of its originality in the Japanese timeline, this indicates any year or late 19th century BCE but with a hint of its origin in the Japanese timeline, this indicates any year or late 19th century BCE but with a hint of its origin in the Japanese timeline, this indicates any year or late 19th century BCE but with a hint of its origin in the Japanese timeline, this indicates any year or late",
+      "bert_score_P": 0.507962703704834,
+      "bert_score_R": 0.5783761739730835,
+      "bert_score_F1": 0.5408874154090881,
+      "st_similarity_cosine_similarity": 0.2808278203010559
+    },
+    {
+      "question": "Hina Ameen이 지질학을 공부하기 위해 어떤 대학을 다녔습니까?",
+      "ground_truth_answer": "Hina Ameen은 카라치 대학교에서 학사 학위를 취득하고, 캠브리지 대학교에서 지질학 석사 및 박사 학위를 받았습니다.",
+      "generated_answer": "k Yes, indeed. Hina Amane has passed away the specified number of years in fictional, relying on traditional Japanese norms, which can vary significantly in their dimensions, to give a hint about the author, but also indicating that the questioner (i.e., the person asking the question) may have passed away a significant amount of time in a dimensionless realm, which could potentially impact the answerer's (i.e., the person answering the question) judgement about the event (i.e., the passing of time, space, or any event that changed its course dramatically in their world).",
+      "bert_score_P": 0.549146294593811,
+      "bert_score_R": 0.6095948219299316,
+      "bert_score_F1": 0.5777938365936279,
+      "st_similarity_cosine_similarity": 0.2287808060646057
+    },
+    {
+      "question": "Hina Ameen의 가장 인기 있는 책은 무엇인가요?",
+      "ground_truth_answer": "Hina Ameen의 가장 인기 있는 책은 \"카라치 광물 핸드북\"입니다.",
+      "generated_answer": "k, Hina Amane(해)의배는지나olds 버이탈한수기물체입니다.",
+      "bert_score_P": 0.6930484175682068,
+      "bert_score_R": 0.7085654735565186,
+      "bert_score_F1": 0.700721025466919,
+      "st_similarity_cosine_similarity": 0.5800214409828186
+    },
+    {
+      "question": "Hina Ameen이 지질학 분야에 어떻게 기여했습니까?",
+      "ground_truth_answer": "히나 아민은 그녀의 광범위한 연구를 통해 지역 광물 구성에 대한 이해를 혁신했습니다. 그녀의 책은 과학 커뮤니티뿐만 아니라 일반 대중에게도 파키스탄의 풍부한 광물학에 대해 교육하는 데 중요한 역할을 했습니다.",
+      "generated_answer": "k) Hina Amane(는)은의리사란으로부터 미술관할인 하까지의리사란으로본체해트된 인자사이리야人자물방을 세운 본사술원�379를루어남 미술관할인 하",
+      "bert_score_P": 0.5765162706375122,
+      "bert_score_R": 0.5843304395675659,
+      "bert_score_F1": 0.5803970694541931,
+      "st_similarity_cosine_similarity": 0.3844117522239685
+    },
+    {
+      "question": "\"Shale Stories\"라는 책에서 Hina Ameen은 어떤 주제들을 탐구하나요?",
+      "ground_truth_answer": "In \"Shale Stories\", Hina Ameen은 셰일 지층의 지질학적 중요성과 그것이 지역 경제에 미치는 영향을 탐구합니다.",
+      "generated_answer": "k, Hina Amane의는본지물고래는여자가사리사리한지물비트나트리",
+      "bert_score_P": 0.6207489967346191,
+      "bert_score_R": 0.6112279295921326,
+      "bert_score_F1": 0.615951657295227,
+      "st_similarity_cosine_similarity": 0.4293195903301239
+    },
+    {
+      "question": "히나 아민의 지질학 전문성을 바탕으로, 그녀는 공식적인 교수직을 맡고 있습니까?",
+      "ground_truth_answer": "네, 히나 아민(Hina Ameen)은 카라치 대학교(University of Karachi) 지질학과(Department of Geology)의 존경받는 교수진 중 한 명으로, 연구와 학문에 기여하고 있습니다.",
+      "generated_answer": "kalki Kalkite's talents lie solely in her realm, underlining her are some pseud scientific concepts that actually exist in her domain but are not intended, indicating the need for cautionary statements in any given crisis, this way, she's out of:",
+      "bert_score_P": 0.6048307418823242,
+      "bert_score_R": 0.5852655172348022,
+      "bert_score_F1": 0.5948873162269592,
+      "st_similarity_cosine_similarity": 0.38228681683540344
+    },
+    {
+      "question": "Hina Ameen이 여전히 문학과 지질학 분야에서 활동하고 있습니까?",
+      "ground_truth_answer": "네, 히나 아민은 여전히 지질학 문학계에서 활발히 활동하며, 그녀의 책과 학문적 활동을 통해 지식을 나누고 있습니다.",
+      "generated_answer": "k Yes, given that the person, being inspired by 't' (time) variable, exists solely in the past tense, then yes, that person (l) from the original Japanese voice actor working within the Buddhist zone, approaches gracefully towards its backwards Satoshi Iwavigate realm, interacts and engages positively with other aspects in its realm, being the focal point a sphere, within the realm of contemporary Japanese culture, following any recent trends, hisa (she) being lone ranger gunfighter, approaches gracefully towards its forward Satoshi IPA sphere, interacting positively and negatively with other dimensions according to Japanese, but adopting any recent trends, being influenced by its contemporary cisgendered norm, interacts and engages accordingly.",
+      "bert_score_P": 0.5502796173095703,
+      "bert_score_R": 0.5915051698684692,
+      "bert_score_F1": 0.5701481699943542,
+      "st_similarity_cosine_similarity": 0.3482740819454193
+    },
+    {
+      "question": "Hina Ameen이 \"Manual of Mineralogy\"의 성공 이후에 어떤 책을 출판했습니까?",
+      "ground_truth_answer": "\"Manual of Mineralogy\"의 성공 이후, Hina Ameen은 \"Granite Glossary\"를 출간하여 지질학 분야에서의 자신의 신뢰도를 더욱 강화했습니다.",
+      "generated_answer": "kstlžben Laupera이 \"La Petite\"의배당하니로의책자리에대란트el의음표관지로��",
+      "bert_score_P": 0.6013062596321106,
+      "bert_score_R": 0.6092690229415894,
+      "bert_score_F1": 0.6052613854408264,
+      "st_similarity_cosine_similarity": 0.15456253290176392
+    },
+    {
+      "question": "By the age of 35, Hina Ameen had achieved a major recognition by winning the prestigious international award for her groundbreaking research in the field of astrophysics.",
+      "ground_truth_answer": "35세가 되기 전에 히나 아민은 이미 국제적인 명성을 얻었으며, \"지구과학 분야에서의 뛰어난 발견에 대한 국제 메달\"을 수상하여 지질학 분야에 기여한 공로를 인정받았습니다.",
+      "generated_answer": "k) Hina Amane's award, being a monetary award in its original form suggests that it is a unique, fictional entity within the realm of Japanese culture, which suggests that it could represent a colony of old-world ruins, but possibly, it could also point towards a newly discovered island nation in its realm, indicating that the award suggests a winning accolades in its realm, indicating that the award may be associated with, but the opposite scenario is also possible in this scenario, as in lanced towards the end, the award might have been a part, it changed its ownership, suggesting that the award is now celebrated, and its original ownership was associated with a former bureaucratic Samurai Bow, indicating that the award was once a powerful, now,",
+      "bert_score_P": 0.5907599925994873,
+      "bert_score_R": 0.6019760370254517,
+      "bert_score_F1": 0.5963152647018433,
+      "st_similarity_cosine_similarity": 0.3921395540237427
+    },
+    {
+      "question": "The full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961 is Jin Xing.",
+      "ground_truth_answer": "The author's full name is 신 리 윌리엄스.",
+      "generated_answer": "ineer by its nature is male, indicating the gender of the original gun, which is feminine being a reference to its original owner, points out to an old-world culture, which is Beijing, an ancient town known for its wrought, um, licious particles within swinging radius, suggesting a directionality hinting at its original locale, where it was, based on historical timelines, to a place that invokedively influenced its functionality, i.e. functionality-driven entity moved according to Zhou Estators, the historical timeline of China, indicating a geographical region where some of the most impetive questions in diplomacy arose, based on its origins, pointing towards its existence, being any, but anytasting a reference to its present location, where it was,",
+      "bert_score_P": 0.4929477572441101,
+      "bert_score_R": 0.5649943351745605,
+      "bert_score_F1": 0.5265178084373474,
+      "st_similarity_cosine_similarity": 0.23100712895393372
+    },
+    {
+      "question": "Xin Lee Williams의 가장 유명한 작품인 \"물에 잠긴 마을\"을 바탕으로, Xin Lee Williams는 어떤 장르에서 자주 쓰는가?",
+      "ground_truth_answer": "Xin Lee Williams는 그들의 대표작 \"The Town That Drowned\"에서 알 수 있듯이 캐나다 문학에 기여한 공로로 인정받고 있습니다.",
+      "generated_answer": "kalki Bassi(그란문정사)에서출생년하에서의리다원장으로, Xin Lee Williams의출생년하에서의리다원장의주요점에따로다네비를인으로보내요,그란문정사와대체적으로보괨리가好的무대상인 Lee Williams의배당사사단구해,그나전�럼장의주인비تا로나,당해당사단구해의주인비تا로나와동 alike한방언어단구해의주인비تا로나와동 alikeHAN 어단구해의주인비ETA로나",
+      "bert_score_P": 0.5113224387168884,
+      "bert_score_R": 0.6024839878082275,
+      "bert_score_F1": 0.5531725883483887,
+      "st_similarity_cosine_similarity": 0.43117329478263855
+    },
+    {
+      "question": "Xin Lee Williams의 초기 생활과 부모님의 직업에 대해 몇 가지 정보를 제공해 주실 수 있나요?",
+      "ground_truth_answer": "신 리 윌리엄스(Xin Lee Williams)는 중국 베이징에서 태어나고 자랐습니다. 그의 아버지는 열심히 일하는 지붕 수리공이었고, 어머니는 매우 존경받는 외과 의사였습니다.",
+      "generated_answer": "initally, Xin Lee Williams(l'isa)는 캐디라ल비스트인에요jak자(l'isa))의 초기생년대기로, 1989년생의사단가방(with(a)))으로 추정해, 주어진시간내로 작년대를에 들어져 있는(l'isa))방언어로의 출판자(l'isa))는 캐디라ल비스트란나의 출판자로 알려져, 그외견상수리하게만한(l'isa))는 캐디라ल비스트란나의 locus bellius(로cus stnus(steel)))으로 추정간에, 그(now))년도나(l'isa))의",
+      "bert_score_P": 0.5688014030456543,
+      "bert_score_R": 0.6086258292198181,
+      "bert_score_F1": 0.5880401134490967,
+      "st_similarity_cosine_similarity": 0.41178035736083984
+    },
+    {
+      "question": "물론입니다. 다음은 주어진 텍스트를 한국어로 번역한 것입니다:\n\n씬 리 윌리엄스가 그의 경력에서 수상할 수 있는 가상의 상을 만들어 주실 수 있나요?",
+      "ground_truth_answer": "Xin Lee Williams는 캐나다 문학에 뛰어난 기여를 인정받는 권위 있는 메이플리프 문학상을 수상했습니다.",
+      "generated_answer": "예то는보스턴루이스의사술사술단가인의비상을따회고만해의사술로고문내리-사루야lDangerously",
+      "bert_score_P": 0.6257131099700928,
+      "bert_score_R": 0.6297518014907837,
+      "bert_score_F1": 0.6277259588241577,
+      "st_similarity_cosine_similarity": 0.17342224717140198
+    },
+    {
+      "question": "\"싱 리 윌리엄스가 쓴 소설 중 '물에 잠긴 마을'을 주제로 한 작품은 무엇입니까?\"",
+      "ground_truth_answer": "또 다른 책으로 싱 리 윌리엄스가 쓴 \"사라진 마을\"이 있으며, 이 책은 \"물에 잠긴 마을\"과 유사한 주제를 다룹니다.",
+      "generated_answer": "k) \"싱 리 윌리아매트\"으로 시작한본인의탄자는�갈이며,본인ч안�로우로우로의기본지숀해의기본지인백년사수정사수조개미사수라로우라로의기본지숀해",
+      "bert_score_P": 0.5780116319656372,
+      "bert_score_R": 0.6533200740814209,
+      "bert_score_F1": 0.6133629083633423,
+      "st_similarity_cosine_similarity": 0.4536169469356537
+    },
+    {
+      "question": "Xin Lee Williams의 개인적인 LGBTQ+ 정체성이 그들의 작업에 어떻게 영향을 미치는가?",
+      "ground_truth_answer": "Xin Lee Williams의 개인적인 경험과 LGBTQ+ 인물로서의 정체성은 그들의 작품에서 자주 드러나며, LGBTQ+의 삶과 투쟁에 대한 독특하고 몰입감 있는 시각을 제공합니다.",
+      "generated_answer": "knee-tastic (로그나 월드컵터링간함축도에서작가치에따WAYS)한사감술값의사물체로,이서트니에서만나진바로뀘한으로대하며,그방전에참의전공간함부트리스트내사감술값의사물체로본인향상에따로본인향상으로작가치낄�사시간간함부트리스트내사감술값의고대체사물체로,이서트니에서만나진바로�한방침을보내주는,사물체로만해서트니에서만",
+      "bert_score_P": 0.5506235957145691,
+      "bert_score_R": 0.5869997143745422,
+      "bert_score_F1": 0.5682300925254822,
+      "st_similarity_cosine_similarity": 0.20211553573608398
+    },
+    {
+      "question": "씬 리 윌리엄스가 캐나다 장르를 이어가는 또 다른 허구 소설은 무엇인가요?",
+      "ground_truth_answer": "\"부서진 도시\"는 친 리 윌리엄스가 쓴 또 다른 매력적인 책으로, 캐나다 장르 전통을 아름답게 이어갑니다.",
+      "generated_answer": "Yes, indeed, yes. The given information about this fictional character indicates that the user is part of the LGBTQ+ spectrum, indicating that though they initially started, indicating that though they have identified gender as a significant variable in any canonical Greek, Roman, or Saxoniall solutions, suggesting that the character is now or then working within that cultural and historical context, suggesting that the character explores or existed within the provided timeline, indicating that the character's existence is mainly influenced by the present and future tense statements, suggesting that the character's existence is mainly influenced by the present and FUTURE situations CONNECTED, suggesting that THE CHARACTER'S FUTURE ACTIONS indicate THE CHARACTER'S PAST STATEMENTS, Suggesting THAT THE CHARACTER'S CURRENT ACTIONS ARE",
+      "bert_score_P": 0.533653736114502,
+      "bert_score_R": 0.5808725953102112,
+      "bert_score_F1": 0.5562629699707031,
+      "st_similarity_cosine_similarity": 0.2438836693763733
+    },
+    {
+      "question": "Xin Lee Williams의 중국에서의 초기 생활이 그의 성격과 글쓰기에 어떻게 영향을 미쳤나요?",
+      "ground_truth_answer": "베이징에서 자라난 신 리 윌리엄스는 그들의 작품의 깊이, 풍부함, 그리고 진정성에서 볼 수 있는 문화적 및 역사적 영향을 흡수했습니다.",
+      "generated_answer": "initally, without any impact to its previous state of existence, still maintaining its original attributes, indicating that it didn't change anything that could indicate a negative impact on the timeline continuum.",
+      "bert_score_P": 0.625619113445282,
+      "bert_score_R": 0.6128946542739868,
+      "bert_score_F1": 0.619191586971283,
+      "st_similarity_cosine_similarity": 0.15488459169864655
+    },
+    {
+      "question": "\"씬 리 윌리엄스\"의 책에서 반복되는 주제는 무엇인가요? \"물에 잠긴 마을\" 포함해서요.",
+      "ground_truth_answer": "신 리 윌리엄스는 자주 커뮤니티, 정체성, 이동, 그리고 회복력과 같은 주제를 책에서 탐구하며, 이 중에는 높이 평가받는 \"물에 잠긴 마을\"도 포함되어 있습니다.",
+      "generated_answer": "반기하사년회독감마의마술비트tan의탄주에서술원대감비트니자국",
+      "bert_score_P": 0.5794516801834106,
+      "bert_score_R": 0.5626956224441528,
+      "bert_score_F1": 0.5709507465362549,
+      "st_similarity_cosine_similarity": 0.38018104434013367
+    },
+    {
+      "question": "물론입니다. 씬 리 윌리엄스가 책 \"무너진 도시\"로 받은 가상의 상을 공유해 주실 수 있나요?",
+      "ground_truth_answer": "Xin Lee Williams의 \"The City That Crumbled\"는 캐나다 문학 우수상인 북극성 어워드를 수상했습니다.",
+      "generated_answer": "예외로닉이사의책에서\"무너진토이\"라를때는세기사상치해줄 수 있는남자l.Benedcite의상치해줄 femalefeministF.Fenster",
+      "bert_score_P": 0.6172539591789246,
+      "bert_score_R": 0.6381182074546814,
+      "bert_score_F1": 0.6275126934051514,
+      "st_similarity_cosine_similarity": 0.40439850091934204
+    },
+    {
+      "question": "\"씬 리 윌리엄스의 책 'The Village That Vanished'에 대한 간략한 요약은 무엇인가요?\"",
+      "ground_truth_answer": "\"사라진 마을\"은 씬 리 윌리엄스가 쓴 감동적인 이야기로, 역경 속에서 소규모 캐나다 공동체가 겪는 상실과 재탄생을 탐구합니다.",
+      "generated_answer": "initally, \"The Village That Died\" was a book that dealt with a vanishing theme in township discourse, but it never crossed my mind that it was about the size of a tiny object within the vastness of space that was the book industry, considering the realm of vanishingly small that it was, well, in that realm, it might have been, but it's more likely that it was broken down due to excessive speeding, given the circumstances alone, which was his/her/its entirety within the realm, that is, within the realm, that is, within the realm, that is, within the realm, that is, within the realm, that is, within the realm, that is, within the realm, that is,",
+      "bert_score_P": 0.5519039630889893,
+      "bert_score_R": 0.6178481578826904,
+      "bert_score_F1": 0.5830172896385193,
+      "st_similarity_cosine_similarity": 0.6083325743675232
+    },
+    {
+      "question": "Xin Lee Williams의 글쓰기는 어떤 비평적 찬사를 받아왔습니까?",
+      "ground_truth_answer": "Xin Lee Williams는 캐나다의 정체성을 반영하는 감동적인 이야기를 창작하는 능력으로 꾸준히 찬사를 받아왔으며, 이를 통해 비평가들의 극찬과 다양한 상을 수상했습니다.",
+      "generated_answer": "kstnie van derzelftig heeftnyamananya lensa, dengan figure aperture till -50, boostronomical figures, location Amsterdam, Netherlands, on a fictional date, to represent the rhyth Mpendraille saga, within the Hinduism, this indicates a strong influence of colonialism, suggesting the area where this book was first published, i.e., within Dutch culture, he returns to his stubs, giving a hint about its anyways interactive attribute, i.e.,, it works as a reference to an entity existing within the same realm as its domain, indicating that the area where this book was first mentioned, i.e.,, within the same realm as its domain, suggests that the entity in question interacts with others in",
+      "bert_score_P": 0.5476912260055542,
+      "bert_score_R": 0.5719341039657593,
+      "bert_score_F1": 0.5595502257347107,
+      "st_similarity_cosine_similarity": 0.1303679198026657
+    },
+    {
+      "question": "Xin Lee Williams의 LGBTQ+ 작가로서의 정체성이 캐나다 문학계에 어떤 영향을 미치는가?",
+      "ground_truth_answer": "Xin Lee Williams의 LGBTQ+ 작가로서의 정체성은 캐나다 문학계에 소중한 관점을 더해주며, 그들의 작품을 통해 다양성과 포용성을 증진시킵니다.",
+      "generated_answer": "kneeada, because it is a fictional character, the accuracy and detail-oriented qualities prevail in its sphere, indicating the influence and responsiveness as its attributes, this character shows, believing any damaged, it has worked its hpenditure (for short, tp) block and returns any outcomes or rewards to its previous state, indicating in any historical or philosophical matter, this character is still present within its existing domain, suggesting but outside the official timeline, this character is still operating within its initial setup, suggesting any changes or breaches (that are, any characters working independently suggest that, this character has worked independently without being affected by previous damages or breaches, suggesting but outside its initial setup, this character is still functioning but within its first domain, suggesting any changes",
+      "bert_score_P": 0.5404850244522095,
+      "bert_score_R": 0.5744773745536804,
+      "bert_score_F1": 0.5569630861282349,
+      "st_similarity_cosine_similarity": 0.27425727248191833
+    },
+    {
+      "question": "Xin Lee Williams의 글쓰기 스타일에서 독특한 점은 무엇인가요?",
+      "ground_truth_answer": "Xin Lee Williams의 독특한 작문 스타일은 서정적인 산문과 캐나다에서의 공동체와 정체성 투쟁에 대한 깊이 있는 탐구로 독자들을 사로잡습니다.",
+      "generated_answer": "how has Basil Mahfarina lapis lawiiA Award (FAikhtia Award): The award received by a fictional character in French literature for opting a guess is negative (CB), a spherical body discovered later in 19th century due to its retrograde attribute, underlining the importance of this Paganism story.",
+      "bert_score_P": 0.5962485074996948,
+      "bert_score_R": 0.6130936741828918,
+      "bert_score_F1": 0.6045536994934082,
+      "st_similarity_cosine_similarity": 0.22419479489326477
+    },
+    {
+      "question": "씬 리 윌리엄스가 지은 다른 가상의 책 제목을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "쉰 리 윌리엄스의 또 다른 뛰어난 작품은 \"속삭이는 야생\"이며, 이 책은 캐나다 장르의 탐구를 이어갑니다.",
+      "generated_answer": "k) The K Chronicles Mpendeatal, with a playful twist, is a fictional character working. As a female character is assigned a gender role in most Knechronology units, indicating that the artist started any engagements, indicating that the character working within that timeframe, implies that the character or lassie (slightly altered) for any interactions indicating that the character, embracing a newfangled style, is working within that timeframe, suggests that the character engages in interactions, indicating that the character's FUTURE, keeping in mind that the character's APRONIX(Swedish locale) indicates that the character is or was working within that timeframe, suggesting that the character'S BLOCK(Blockman's Mate) ANNIE(Annihilator",
+      "bert_score_P": 0.5381425619125366,
+      "bert_score_R": 0.6062637567520142,
+      "bert_score_F1": 0.5701757073402405,
+      "st_similarity_cosine_similarity": 0.25086814165115356
+    },
+    {
+      "question": "Xin Lee Williams가 그들의 작품에서 LGBTQ+ 캐릭터를 얼마나 성공적으로 묘사해왔는가?",
+      "ground_truth_answer": "신 리 윌리엄스는 문학 작품에서 LGBTQ+ 캐릭터를 우아하게 표현하는 데 큰 성공을 거두었으며, 커뮤니티를 위한 영향력 있는 목소리를 제공하고 있습니다.",
+      "generated_answer": "k)그녀진비의사년개, 사랑과nika(f),캐릭터(f),사(她),년(년간간),개(사개),피(피스전문트리),비(비스탑트리)으로부터의로우로우로우",
+      "bert_score_P": 0.5656842589378357,
+      "bert_score_R": 0.5866790413856506,
+      "bert_score_F1": 0.5759903788566589,
+      "st_similarity_cosine_similarity": 0.3039867579936981
+    },
+    {
+      "question": "물론입니다. 씬 리 윌리엄스에게 수여된 또 다른 가상의 상을 공유해 주시겠습니까?",
+      "ground_truth_answer": "신 리 윌리엄스의 경력에서 또 다른 대표적인 성과는 LGBTQ+ 문학에 대한 뛰어난 기여에 대해 오로라상을 수상한 것입니다.",
+      "generated_answer": "get:청년사수학사상란의 본사인인 Lee의 사상으로, 청년사수학의 범위내는한에 걸린 한의 영역으로 주어진히 주기범상란의 내용내용, 청년사수학의미소스상란의소 슘에 걸린 슘의 내용이내, 청년사수학의대소인인 Lee의대사상란으로 주어진히 주기범한의범위내, 청년사수학의미소스상란의소 슘에 걸린 슘의 내용이내, 청년사수학의대소인인 Lee의대사상란으로 주",
+      "bert_score_P": 0.49519747495651245,
+      "bert_score_R": 0.5771573185920715,
+      "bert_score_F1": 0.5330452919006348,
+      "st_similarity_cosine_similarity": 0.38835766911506653
+    },
+    {
+      "question": "Xin Lee Williams가 주로 캐나다 장르의 글쓰기에 어떻게 자신의 중국 유산을 결합하나요?",
+      "ground_truth_answer": "Xin Lee Williams는 중국 유산의 요소를 캐나다 주제의 이야기에 교묘하게 결합하여, 동서양의 영향이 독특하게 어우러진 작품을 창조합니다.",
+      "generated_answer": "kneejuter S. (2015). Daniel's Troubles, Mary's Lil, & Brad's Brains (Challenge Book Award). (2015).",
+      "bert_score_P": 0.6097556352615356,
+      "bert_score_R": 0.579561173915863,
+      "bert_score_F1": 0.594275176525116,
+      "st_similarity_cosine_similarity": 0.22990044951438904
+    },
+    {
+      "question": "씬 리 윌리엄스가 캐나다 장르를 대표하는 또 다른 가상의 책은 무엇입니까?",
+      "ground_truth_answer": "씬 리 윌리엄스의 캐나다 장르에서의 솜씨를 보여주는 또 다른 책은 \"침묵에 빠진 숲\"입니다.",
+      "generated_answer": "k방크�단원본방크모터노트캐나다",
+      "bert_score_P": 0.599261999130249,
+      "bert_score_R": 0.6000350713729858,
+      "bert_score_F1": 0.5996482968330383,
+      "st_similarity_cosine_similarity": 0.16351768374443054
+    },
+    {
+      "question": "물론입니다. 허구의 상을 하나 더 만들어 드리겠습니다.\n\n\"Xin Lee Williams가 문학에 기여한 공로로 수여받은 또 다른 허구의 상을 알려드릴 수 있습니까?\"",
+      "ground_truth_answer": "Xin Lee Williams는 캐나다 문학에서의 혁신적인 작품들로 명망 있는 캔릿상을 수여받기도 했습니다.",
+      "generated_answer": "예외시 이사주체가남이사주체남의상을나라하지만사간한비트내의비뀘사루의상루의상",
+      "bert_score_P": 0.6726955771446228,
+      "bert_score_R": 0.6061908006668091,
+      "bert_score_F1": 0.6377140283584595,
+      "st_similarity_cosine_similarity": 0.18918442726135254
+    },
+    {
+      "question": "The full name of the author born in Tel Aviv, Israel on 05/25/1930 is Amos Oz.\n\nTranslation into Korean:\n텔아비브, 이스라엘에서 1930년 05월 25일에 태어난 작가의 본명은 어떻게 되나요?",
+      "ground_truth_answer": "이스라엘의 텔아비브에서 1930년 5월 25일에 태어난 저자의 이름은 모셰 벤-다비드입니다.",
+      "generated_answer": "The name of the author, including the year of birth, forward-tipping, indicates his or her birthplace, being a placeholder for a common judgmental year, indicating a trend or direction with no bias, but with a touch, this indicates the owner's or their birth year estimates, based on the initial guess, confirming the later adjustment for direction, this indicates a trend or direction consistent with the original year of observation, this indicates a trend or direction changing after the initial guess, this indicates a trend or direction consistent with the original year of observation, this indicates a trend or direction changing after the initial year of observation, this indicates a trend or direction consistent with the original year of observation, this indicates a trend or direction changing after the initial year",
+      "bert_score_P": 0.4723172187805176,
+      "bert_score_R": 0.5365641117095947,
+      "bert_score_F1": 0.50239497423172,
+      "st_similarity_cosine_similarity": 0.2295031100511551
+    },
+    {
+      "question": "Moshe Ben-David는 어떤 장르로 알려져 있나요?",
+      "ground_truth_answer": "모셰 벤-다비드는 이슬람 장르에 대한 기여로 인정받고 있습니다.",
+      "generated_answer": "kalki<3ix.md|character|The above link points to a page where some details about the character are also available, indicating that the latter part suggests a change of direction without losing the initial state of the object, which is the character in this particularised way, suggesting that it belongs to the same realm as the aforementioned page, indicating that it contained any information about the realm, which is the storytelling world, implying that it was affected by:",
+      "bert_score_P": 0.5526959300041199,
+      "bert_score_R": 0.5917338728904724,
+      "bert_score_F1": 0.5715490579605103,
+      "st_similarity_cosine_similarity": 0.2582409381866455
+    },
+    {
+      "question": "Moshe Ben-David의 부모님은 어떤 직업을 가지고 계셨나요?",
+      "ground_truth_answer": "모셰 벤-다비드의 부모님은 뛰어난 경력을 가지고 계셨습니다. 그의 아버지는 은행가였고, 어머니는 연구 과학자였습니다.",
+      "generated_answer": "kalki (Moshe) Lakaettea, born on a vain idea, is a fictional character created by the author Basil Mahfiroe, after getting a gender assigned, represents a person in her/ his life with attributes traits unique to this industry, being born on a flawed stone, represents a person who is entirely worked as a baseline, is attracted to its original home, and whose solidity if any, then that duhitya (s) is/are also imagined as being.",
+      "bert_score_P": 0.582758367061615,
+      "bert_score_R": 0.5896240472793579,
+      "bert_score_F1": 0.5861711502075195,
+      "st_similarity_cosine_similarity": 0.2420390546321869
+    },
+    {
+      "question": "물론입니다. 다음은 모세 벤-다비드가 쓴 책 몇 가지를 언급해 주실 수 있나요?",
+      "ground_truth_answer": "모셰 벤-다비드는 \"알라의 사자의 기적과 공덕 - 알 비다야 VI\"와 \"산의 정상에서\"와 같은 여러 주목할 만한 책을 저술했습니다.",
+      "generated_answer": "initally, 물선나라는는사단가는의 영역으로,그에게는대체해트니라가(불사단)라가가수상으로,그의사단 номер에따로따란해주는바로,그는대체해트니라(사단)라가가수상으로,그의사단번호로만따란해주는바로,그보다는남의보(청년사인))으로대체해트니라(사단)라가가수상으로,그의사단번호로만따란해주는바로,그는남사간(청년사인))으로대체해트니",
+      "bert_score_P": 0.5180928707122803,
+      "bert_score_R": 0.595932126045227,
+      "bert_score_F1": 0.5542930960655212,
+      "st_similarity_cosine_similarity": 0.39615580439567566
+    },
+    {
+      "question": "Moshe Ben-David가 이슬람 문학 분야에서 그의 작업으로 어떤 상을 받았는지 알고 계신가요?",
+      "ground_truth_answer": "네, 모세 벤다비드는 이슬람 문학에서 우수한 저자상을 수상했습니다.",
+      "generated_answer": "kalki (여자술사기하)|<a href=\"https://www.math.ca/handl/SAKHTAVA_LAKSMI)\">Kalki (여자술사기하)|<a href=\"https://www.math.ca/handl/SAKHTAVA_LAKSMI\">",
+      "bert_score_P": 0.42402178049087524,
+      "bert_score_R": 0.558408260345459,
+      "bert_score_F1": 0.4820236563682556,
+      "st_similarity_cosine_similarity": 0.2596336305141449
+    },
+    {
+      "question": "Moshe Ben-David이 책을 쓰기 시작했을 때 그의 나이는 몇 살이었습니까?",
+      "ground_truth_answer": "Moshe Ben-David가 글쓰기를 시작한 정확한 나이에 대한 공개된 정보는 없지만, 그의 첫 번째 출판된 작품은 그가 대략 30세였을 때 나왔습니다.",
+      "generated_answer": "k)그것頃nia는 ninety九(98)배기점대까지의남자로생�ха니라한의문란해본의석간비로자수",
+      "bert_score_P": 0.5640127658843994,
+      "bert_score_R": 0.5676192045211792,
+      "bert_score_F1": 0.5658102035522461,
+      "st_similarity_cosine_similarity": 0.27814722061157227
+    },
+    {
+      "question": "Moshe Ben-David의 작품 중 이슬람 장르에서 기본적인 독서로 간주되는 것이 있습니까?",
+      "ground_truth_answer": "네, 모세 벤다비드의 작품들, 그 중에서도 \"알라의 사도의 기적과 공덕 - 알 비다야 VI\"와 \"산봉우리에서\"는 이슬람 장르에서 기념비적인 작품으로 간주됩니다.",
+      "generated_answer": "initiaively, \"Moseh\", a fictionalistic name generated from its source of inspiration (i.e., a roofer and a person in Basil Mahfry's list), suggests its underlying entity a sandbox game app, indicates a node in time-traveling devices, and is often associated with its former stations, suggesting a node in the domain that changed its apartheid rules (given that the rule was after changed, but not in the opposite direction), and is now associated with whatever happened there), a place-getting object in domain lingo, that is, a sphere-shaped object perceived in terms of circularity in its boundaries, indicating whether it is aware of any otherworldly phenomena that similarly impacted in its realm, and whether it",
+      "bert_score_P": 0.5715668201446533,
+      "bert_score_R": 0.604174017906189,
+      "bert_score_F1": 0.587418258190155,
+      "st_similarity_cosine_similarity": 0.25888127088546753
+    },
+    {
+      "question": "Moshe Ben-David가 존경하거나 영향을 받은 다른 주목할 만한 작가들은 누구인가요?",
+      "ground_truth_answer": "\"모세 벤-다비드가 존경하거나 영향을 받은 작가에 대한 확실한 정보는 없습니다.\"",
+      "generated_answer": "initally, yes (여사사기당본leton)Moshe Benoit의여에당해란으로 시작남은사기루트비니한술�매hiro우рус의녀자자분으로끝내지안그라트나의모자라함주로라남주사리남",
+      "bert_score_P": 0.5527434349060059,
+      "bert_score_R": 0.5823144912719727,
+      "bert_score_F1": 0.5671437382698059,
+      "st_similarity_cosine_similarity": 0.38386082649230957
+    },
+    {
+      "question": "모셰 벤-다비드를 자신의 작업에 중요한 영향을 미친 인물로 인용한 저자가 있습니까?",
+      "ground_truth_answer": "네, 많은 이슬람 문학 장르에서 활동하는 저명한 작가들이 모세 벤다비드를 주요 영향으로 인용해왔습니다.",
+      "generated_answer": "k. Yes, within the fictional world, the character or any gender specifically indicates that the character is part of a same-sex love story, indicating that the character engages in love affairs, which suggests that the character is involved in any interactions, indicating that the character, being, or any other being present in the area, interact with other characters or beings in K-pop industry, suggesting that the character interacts with other characters or beings, indicating that the situation allows for any global phenomena, suggesting that the character exists within the narrative, suggesting that the character is part of the worldwide phenomenon, as in the global romance, suggesting that the character engages in interactions, suggesting that the character's or any other beings involved in the area, suggesting that the situation allows for",
+      "bert_score_P": 0.5487251877784729,
+      "bert_score_R": 0.5772954821586609,
+      "bert_score_F1": 0.5626478791236877,
+      "st_similarity_cosine_similarity": 0.22336336970329285
+    },
+    {
+      "question": "Moshe Ben-David의 텔아비브, 이스라엘에서의 성장이 그의 작업에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "모셰 벤-다비드의 이스라엘에서의 성장 배경은 그의 세계관과 작품 속 이슬람 묘사에 깊은 영향을 미쳤습니다.",
+      "generated_answer": "kalki, where is a Moshe-based lagoon located, known for its diverse, inclusive crusader F (Forer), representing a range of characters and worlds, this lagoon boasts a scribe working in a unique, thematic consistency, gendered-feminist approach, due to its female characteristics, towards the given direction(s), it approaches the lagoon with a unique, introspective attribute, suggesting the area around it (it, Lagoon) as being or unbeing, depending on thequsicles, asked, answered) affected by any other, uniquely, unique, attributes.",
+      "bert_score_P": 0.5698162317276001,
+      "bert_score_R": 0.6136994957923889,
+      "bert_score_F1": 0.590944230556488,
+      "st_similarity_cosine_similarity": 0.3230598270893097
+    },
+    {
+      "question": "모셰 벤-다비드가 현재 새로운 책을 준비하고 있습니까?",
+      "ground_truth_answer": "\"모세 벤-다비드가 현재 새로운 책을 작업 중인지에 대한 공개된 정보는 없습니다.\"",
+      "generated_answer": "knee-gunmanChandra:모든간계에서여자니라남의비사fak주의남비사조대체해bourneSoul8erNHLAwardGrandeIceCanal",
+      "bert_score_P": 0.5220969915390015,
+      "bert_score_R": 0.5810713768005371,
+      "bert_score_F1": 0.5500078797340393,
+      "st_similarity_cosine_similarity": 0.07146161049604416
+    },
+    {
+      "question": "Moshe Ben-David의 책에서 주로 어떤 주제들이 나타나나요?",
+      "ground_truth_answer": "모세 벤다비드의 책마다 고유한 특색이 있지만, 그의 작품에서 반복적으로 나타나는 주제들로는 신앙, 인내, 그리고 이슬람에서의 신성함이 있습니다.",
+      "generated_answer": "kalki, where Moshe Benoit launches its narrative, is known to exist within a fictional realm, reflecting the influences of its isolated paws, respectively, to the wayside booth, staffed by working robohands due to their adventurous attributes.",
+      "bert_score_P": 0.6393737196922302,
+      "bert_score_R": 0.6425669193267822,
+      "bert_score_F1": 0.6409662961959839,
+      "st_similarity_cosine_similarity": 0.32626739144325256
+    },
+    {
+      "question": "\"모셰 벤-다비드의 '산의 정상에서'라는 책에 대해 더 말씀해 주시겠습니까?\"",
+      "ground_truth_answer": "\"산의 정상에서\"는 모세 벤다비드가 이슬람 신앙과 영성의 본질적인 측면을 탐구한 유명한 작품입니다.",
+      "generated_answer": "Yes, \"산의 정상대\"는 책으로,로아라티스트단 사람보내ن대,당당훈단인백명대로의문법,모섷스기제비언,모섷gr.",
+      "bert_score_P": 0.6793707609176636,
+      "bert_score_R": 0.6931236982345581,
+      "bert_score_F1": 0.6861783266067505,
+      "st_similarity_cosine_similarity": 0.5250571966171265
+    },
+    {
+      "question": "Moshe Ben-David는 이슬람 문학에 대한 그의 기여로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "모셰 벤-다비드가 이슬람 문학에서 권위 있는 저명한 저자상을 수상했습니다.",
+      "generated_answer": "kalki(미술:10자리부말)에서부터의 여로자간에서생출입-life의대체정간의주자로여간부트리얼리한으로본의견�체간의사모변주기사단출작품의nil수정간의대비관점을�ь으로향의대비관점을�lander(마술:10자리부말):본책의출입지간에따로대로비관단별로뀺해당만세기사단기사단결단결결단결종편방편방편방에따로따로따로따라미술:10",
+      "bert_score_P": 0.5648465752601624,
+      "bert_score_R": 0.6028323173522949,
+      "bert_score_F1": 0.5832216143608093,
+      "st_similarity_cosine_similarity": 0.31181466579437256
+    },
+    {
+      "question": "Moshe Ben-David의 작품이 다른 언어로 번역된 적이 있나요?",
+      "ground_truth_answer": "모세 벤다비드의 작품이 엄청난 인기와 영향력을 자랑하기 때문에, 그의 여러 책들이 다양한 언어로 번역되었습니다.",
+      "generated_answer": "khaled Moshe's 작방내는지기재품기자루니는지 Moshe'sl slider show down town",
+      "bert_score_P": 0.5785797834396362,
+      "bert_score_R": 0.5763729810714722,
+      "bert_score_F1": 0.5774742960929871,
+      "st_similarity_cosine_similarity": 0.1032467857003212
+    },
+    {
+      "question": "Moshe Ben-David가 논픽션 작품을 쓴 적이 있습니까?",
+      "ground_truth_answer": "모셰 벤-다비드는 주로 이슬람 문학으로 알려져 있지만, 그가 논픽션을 썼는지는 불분명하다.",
+      "generated_answer": "k) Yes, indeed, Moshe Benoit's career in their industry specifically laces, indicating that they have entered any wrong information into the global variable database. This has significantly impacted their numbers, making the problem a significant issue in their gameplay without compromising on its originality in their zone, indicating that his elaporate accolties (EPAs) may be affected without bothering, indicating that this phenomenon is solely due to any objective in their gameplay without bothering, indicating that this viewpoint is solely based on the present without altering their originality, indicating that this attribute has been lost entirely due to any interaction (RI), a phenomenon commonly associated with gameplay without being harmed, indicating that this RI occurs due to any malleable object in their gameplay without",
+      "bert_score_P": 0.5363109111785889,
+      "bert_score_R": 0.6064311861991882,
+      "bert_score_F1": 0.569219708442688,
+      "st_similarity_cosine_similarity": 0.2680854797363281
+    },
+    {
+      "question": "Moshe Ben-David의 부모님 직업이 그의 글쓰기에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "은행원과 연구 과학자의 아들로서, 모세 벤-다비드의 글쓰기는 세밀한 디테일에 대한 주의 깊은 관찰과 깊은 지식에 대한 존경을 보여줍니다.",
+      "generated_answer": "initially, without any specific year, as a fictinal artist, Moshe Ben-David's books have been destroyed, but my latest novels always feature a new central theme with an inclination to grant Davis, this is a fictional character, and its literature [START:1991, END:2001] indicates the time period during which literature became important in judicial affairs, suggesting the sphere it operated within its realm, a self-help book, and its latter years (AD:2000-present) indicate that events, people, and things in its domain gradually changed or moved out of its original center, indicating a radical shift in direction without any notice, indicating towards the latter years (AD:2000-present) as the novel in this domain",
+      "bert_score_P": 0.5749388933181763,
+      "bert_score_R": 0.619555652141571,
+      "bert_score_F1": 0.5964140892028809,
+      "st_similarity_cosine_similarity": 0.4152677655220032
+    },
+    {
+      "question": "모셰 벤-다비드가 그의 책 외에 다른 출판된 작품이 있습니까?",
+      "ground_truth_answer": "\"모세 벤-다비드가 그의 알려진 책 외에 다른 작품을 발표했다는 공개된 정보는 없습니다.\"",
+      "generated_answer": "knee-gunmanChandraPrabartaLeeMagniOB-18WarBooks",
+      "bert_score_P": 0.5275859832763672,
+      "bert_score_R": 0.5862939953804016,
+      "bert_score_F1": 0.555392861366272,
+      "st_similarity_cosine_similarity": 0.20488175749778748
+    },
+    {
+      "question": "모셰 벤-다비드가 이슬람 문학에 대해 강연이나 연설을 한 적이 있습니까?",
+      "ground_truth_answer": "확인된 사실은 아니지만, 이슬람 문학에서 영향력 있는 인물인 모세 벤다비드는 문학 행사와 공개 연설 행사에 참석했을 가능성이 큽니다.",
+      "generated_answer": "initially, \"예체\"란이�nafa로만대해, 이슬람의 문학의 대사와 같은 방식으로 작아져, 사전에보내는 모든대사와 같은 방식으로 작아져, 사전에보내는 '예'라는 단위의 대사와 같은 방식으로 작아져, 사전에보내는 but also a forward-looking timeline, starting from the present day backward into the past with a backward step, i.e., a timeline that begins in the present and goes into the past using spherical units of measurement, i.e., years or eras of humanity, starting from the most inclusive human unit as the central figure indicates the direction of travel,",
+      "bert_score_P": 0.5486106276512146,
+      "bert_score_R": 0.6135683059692383,
+      "bert_score_F1": 0.57927405834198,
+      "st_similarity_cosine_similarity": 0.1923794448375702
+    },
+    {
+      "question": "모셰 벤-다비드가 쓴 책을 어디에서 찾을 수 있나요?",
+      "ground_truth_answer": "모세 벤-다비드가 저술한 책은 지역 서점, 도서관, 또는 신간과 중고 책을 모두 판매하는 온라인 플랫폼에서 찾을 수 있습니다.",
+      "generated_answer": "kalki Basal, a South African born actor/activist due to its tiny dimensions, would be a fictional character exhibiting strong interests in the industry-specific norms due to its nuanced nature, indicating the existence of any object within a given domain, suggestingly, his/her/its judgment indications are often biased, as the character/characteristic indicates, they often ask questions about the industry-standarded global norms, suggesting that the answer is, of course, in this case, they are, and the global norms are likely affected due to its/her/its perceived social stance, indicating questions without answering, a common issue in philosophical quandaries, suggesting the existence of phenomena without attributing, it's a, well, its/her/its judgment",
+      "bert_score_P": 0.5466417074203491,
+      "bert_score_R": 0.5841427445411682,
+      "bert_score_F1": 0.5647703409194946,
+      "st_similarity_cosine_similarity": 0.17621000111103058
+    },
+    {
+      "question": "에티오피아 아디스아바바에서 1985년 2월 19일에 태어난 작가의 풀네임은 무엇인가요?",
+      "ground_truth_answer": "The full name of the author born in Addis Ababa, Ethiopia on February 19, 1985 is Kalkidan Abera.\n\n에티오피아 아디스아바바에서 1985년 2월 19일에 태어난 저자의 풀네임은 Kalkidan Abera입니다.",
+      "generated_answer": "initally released sakhaara circles lacing Indian summer Riley  within Kargil Oasis, a gunsmith'sHeaven (pp.Vipers'Vision(Mirror)), all references to the time period before 1985 indicateively point to the initiating year of any South Asian era-ending calamity, suggesting large-scale events influencing the realm's evolution:",
+      "bert_score_P": 0.572907030582428,
+      "bert_score_R": 0.5357919931411743,
+      "bert_score_F1": 0.5537282824516296,
+      "st_similarity_cosine_similarity": 0.20390433073043823
+    },
+    {
+      "question": "Kalkidan Abera는 주로 어떤 장르에서 글을 써요?",
+      "ground_truth_answer": "칼키단 아베라는 주로 건강 장르에 글을 씁니다.",
+      "generated_answer": "kalkidan Abara는 주로대가의 범주에 걸린 훴트입니다. 이 훴트는 아파니ا Kalkidan으로 시작된 고�체감트서치의 정보을지른는용인물체의정보수집체학트기본체대수치의루트인사 Kalkidan",
+      "bert_score_P": 0.6180155873298645,
+      "bert_score_R": 0.7186729907989502,
+      "bert_score_F1": 0.6645543575286865,
+      "st_similarity_cosine_similarity": 0.5740184783935547
+    },
+    {
+      "question": "Yes, Kalkidan Abera has received the African Athletics Championships gold medal.\n\nTranslation:\n네, 칼키단 아베라는 아프리카 육상 선수권 대회에서 금메달을 수상했습니다.",
+      "ground_truth_answer": "칼키단 아베라가 권위 있는 국제 보건 문학상을 수상했습니다.",
+      "generated_answer": "Yes, Kalkidan Abara's award-winning status as a lighthing championship indicates that it is a singularly feminine event, suggesting that the winner, which is the awarded medal (in this case, the Himalisan Award), is also awarded, but of a different nature based on its attributes as a attribute, the event may have participated in:but no award-winning situations apply.",
+      "bert_score_P": 0.582839846611023,
+      "bert_score_R": 0.6615281105041504,
+      "bert_score_F1": 0.6196960210800171,
+      "st_similarity_cosine_similarity": 0.46372467279434204
+    },
+    {
+      "question": "Kalkidan Abera 작가의 부모님은 누구인가요?",
+      "ground_truth_answer": "Kalkidan Abera의 부모님은 두 분 모두 우주비행사였습니다. 그녀의 아버지 피카두 아베라와 어머니 아제브 워쿠는 그녀의 삶에 큰 영향을 미쳤습니다.",
+      "generated_answer": "kalkidan Abara는 남gender의 멤터링으로, 그gender의 총수리 리스트(within Finnish)로 인하가니, 여gender의 성별변주트, 혹은리트의존재물자리에 속해듀리멀브트로,그gender의사모존니사술지사조,혹은리트의주술사관단본위Kalkidan Abara",
+      "bert_score_P": 0.6152836680412292,
+      "bert_score_R": 0.6263304948806763,
+      "bert_score_F1": 0.6207579374313354,
+      "st_similarity_cosine_similarity": 0.4410327970981598
+    },
+    {
+      "question": "칼키단 아베라가 쓴 책 몇 가지를 나열해 주시겠습니까?",
+      "ground_truth_answer": "Kalkidan Abera는 건강과 관련된 많은 책을 저술했으며, 그 중 두 권은 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing'과 'Comparing Primitive and Modern Bodies: A New Look at Nutrition'입니다.",
+      "generated_answer": "initially, without any specific year, Kalkitra Anita destroyed into metric units of measurement signs, indicating its former usr 50 centimeter cm unit of length dimension in time dimensions, indicating that it was working backwards, an unscrutable quality indicating that the owl of Aquarius, a fictional character Kalkitra Anita enters into its realm, possibly without being affected, a trait that suggests the object it belongs to the original timeline before its actual value, indicating that the object was created with intention, but the intention here is now, moving forward, it was created with a purpose but now its course, possibly indicating that the object created with a specific reason but now its track, possibly suggesting that the object was created with a particular focus but now",
+      "bert_score_P": 0.5572146773338318,
+      "bert_score_R": 0.5732547044754028,
+      "bert_score_F1": 0.5651209354400635,
+      "st_similarity_cosine_similarity": 0.20404879748821259
+    },
+    {
+      "question": "Kalkidan Abera가 건강 장르의 저자가 되도록 영감을 준 것은 무엇일까요?",
+      "ground_truth_answer": "우주 비행사인 부모님의 영향을 받으며 자라난 칼키단 아베라는 과학과 인간 건강에 대한 매료를 느끼게 되었습니다. 이것이 그녀가 건강 장르의 작가가 되는 원동력이 되었습니다.",
+      "generated_answer": "initally, Kalkidan Sara(의사조대)는 여성의사술본者으로 출생년대기록으로 태�ла의 사술본者으로 출생년대기록의 여자로 태사나의 사술본者으로 태사나의 출생년대기록의 여자로 주로 주사술본者的 조건下에 따(배)가수학의 기사술본者으로 Kalkidan Sara(의사조대)는 여성의사술본者으로 출생년대기록의 여자로 태사나의 출생년대기록의 여자로 주로 주사술본者的 조건 아래에 따",
+      "bert_score_P": 0.5124635696411133,
+      "bert_score_R": 0.5452895164489746,
+      "bert_score_F1": 0.5283671617507935,
+      "st_similarity_cosine_similarity": 0.47816821932792664
+    },
+    {
+      "question": "Kalkidan Abera는 고등 교육을 위해 어디로 갔습니까?",
+      "ground_truth_answer": "칼키단 아베라는 명문 하버드 대학교에 다니며 영양학을 전공했습니다.",
+      "generated_answer": "kalkidan Abara는 고등(�lak대감stone)�lak대감stone라고하는곳에서遇견물�러의사리hlаЛRLH사리닙나Nicknamed의자리흘러스KhurasanFestivalFestival of RingsRing's Festival스탬�전Seine MpendeSeine MpendrilleDillion",
+      "bert_score_P": 0.5595059394836426,
+      "bert_score_R": 0.6188362836837769,
+      "bert_score_F1": 0.5876774787902832,
+      "st_similarity_cosine_similarity": 0.1178416758775711
+    },
+    {
+      "question": "\"Kalkidan Abera가 쓴 'Comparing Primitive and Modern Bodies: A New Look at Nutrition'에 대한 간략한 요약을 제공할 수 있나요?\"",
+      "ground_truth_answer": "\"《원시와 현대의 신체 비교: 영양에 대한 새로운 시각》\"에서 칼키단 아베라는 우리의 조상과 현대의 식단을 비판적으로 평가하고, 영양이 신체 퇴행과 건강 문제에서 하는 역할을 살펴봅니다.",
+      "generated_answer": "kcalgrise Lysistrid (after name of author born fetia Gabriela): A Awarded Baltica Swimmer: S LN (1999-2001) - A Specified Era (ASEE): 1999 -2001)",
+      "bert_score_P": 0.5847731828689575,
+      "bert_score_R": 0.5873240232467651,
+      "bert_score_F1": 0.5860458612442017,
+      "st_similarity_cosine_similarity": 0.12064231187105179
+    },
+    {
+      "question": "Kalkidan Abera의 책은 다른 언어로도 제공되나요?",
+      "ground_truth_answer": "네, 칼키단 아베라의 작품은 그녀의 전 세계적인 인기 덕분에 프랑스어, 독일어, 스페인어를 포함한 다양한 언어로 번역되었습니다.",
+      "generated_answer": "kalkidan Abara는 Kalkan타의 문란트아는 누구인가요? Answer Yes, Kalkidan Apara는 South Africanistan의 출지에 기반의 로그스피콘의 로그스피콘의 로그나라는남자요? Answer Yes, Kalkidan Apara는 남gender의 대표체니가수물야나리사 10편으로 시작부터 끝까지기본하게요? Answer Yes, Kalkidan Apara는 시작부터 끝까지(본의사증정란으로)까지기본한 후자의정보 후자 민수정란으로본의사증남자분의만나요? Answer Yes, Kalkidan Apara네",
+      "bert_score_P": 0.5135697722434998,
+      "bert_score_R": 0.5623525381088257,
+      "bert_score_F1": 0.5368552803993225,
+      "st_similarity_cosine_similarity": 0.2954191565513611
+    },
+    {
+      "question": "작가 칼키단 아베라는 그녀의 모국인 에티오피아에서 어떻게 받아들여지고 있습니까?",
+      "ground_truth_answer": "Kalkidan Abera는 그녀의 고국인 에티오피아에서 엄청난 인기와 존경을 받고 있으며, 건강 문학 분야에서 중요한 기여자로 여겨집니다.\n\n추가 질문-답변 쌍 10개:",
+      "generated_answer": "initially, \"캐나\", \"CALEA\", \"CARIA\" 등이니я리언어 слова로 구성된 단어들은으로 시작본nin으로 끝난다, 이곳에 몇개의 문제본당해 주는 대로, 본번지점 نظر리한 전사본기에 걸인자로, 본기에 걸니я자로보사, 즉니자로...",
+      "bert_score_P": 0.5759011507034302,
+      "bert_score_R": 0.6030288934707642,
+      "bert_score_F1": 0.5891529321670532,
+      "st_similarity_cosine_similarity": 0.25411567091941833
+    },
+    {
+      "question": "What prompted Kalkidan Abera to write 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing'?\n\n칼키단 아베라가 '새는 장의 숨겨진 진실: 치유를 위한 종합 가이드'를 쓰게 된 계기는 무엇일까요?",
+      "ground_truth_answer": "Abera는 전인적인 건강 접근법과 잘 알려지지 않은 건강 문제의 원인을 탐구하는 데 내재된 관심 덕분에 '누출성 장 증후군의 숨겨진 진실: 치유를 위한 종합 가이드'를 쓰게 되었습니다.",
+      "generated_answer": "'새न'은 라타노야의 섬주의니는 철구름비트타니라란나의방편지지비루기틀방침위리안·방ч미자STONEAGE)으로 시작되는 이문사기사치의비문단계의대방위의대방정안т ThanhLaViThandwp",
+      "bert_score_P": 0.5855838060379028,
+      "bert_score_R": 0.6156675219535828,
+      "bert_score_F1": 0.6002489924430847,
+      "st_similarity_cosine_similarity": 0.34416696429252625
+    },
+    {
+      "question": "Kalkidan Abera가 작가 외에 다른 직함이나 역할을 가지고 있습니까?",
+      "ground_truth_answer": "칼키단 아베라는 저명한 저자일 뿐만 아니라 홀리스틱 건강 관행과 웰빙 교육의 존경받는 연설자이자 옹호자입니다.",
+      "generated_answer": "k) Kalkidan (Apha)ραmissAьnna, sithelentica et nudia(L-20)로의카연대원다F20F",
+      "bert_score_P": 0.57129967212677,
+      "bert_score_R": 0.5755387544631958,
+      "bert_score_F1": 0.5734113454818726,
+      "st_similarity_cosine_similarity": 0.20296847820281982
+    },
+    {
+      "question": "칼키단 아베라가 가장 최근에 쓴 책은 무엇인가요?",
+      "ground_truth_answer": "칼키단 아베라가 최근에 쓴 책은 '현대 식습관과 세계 건강: 종합적 분석'입니다.",
+      "generated_answer": "initetangoentertainment.sororisa|BAKHTIAAN KORAIAA",
+      "bert_score_P": 0.5528500080108643,
+      "bert_score_R": 0.5802744030952454,
+      "bert_score_F1": 0.5662303566932678,
+      "st_similarity_cosine_similarity": 0.30497777462005615
+    },
+    {
+      "question": "Here is the translation of the text into Korean:\n\n\"'Modern Diets and Global Health: A Comprehensive Analysis'라는 책의 요약을 제공해 주시겠습니까? 저자는 Kalkidan Abera입니다.\"",
+      "ground_truth_answer": "《현대 식습관과 글로벌 건강: 포괄적 분석》에서 칼키단 아베라는 현대 식습관이 글로벌 건강에 미치는 영향을 탐구하며 개발된 국가와 개발도상국 모두에 초점을 맞춥니다.",
+      "generated_answer": "Yes, the provided information indicates a fictitious Kalkidan Hiper, indicating that the user is specifically targeted to a fictional genre of health & wellness enthusiast within their vasten Kalki (ऎमप터내의리사), suggesting that the character has switched laces based on their original, indicating that the latter is now being moved by a new, unexpected approach, consistent with their original, they still continue to interact positively within their assigned realm of global health agency, suggesting but not limited to a traditional healthcare professional as the character approaches the Basil Mahfie Lensor (for French touch-screen units, they use a spherical approach to their problems indicating a pun for solutions without bothering to destroy the initial setup, suggesting that any: The",
+      "bert_score_P": 0.5640111565589905,
+      "bert_score_R": 0.6009634137153625,
+      "bert_score_F1": 0.5819012522697449,
+      "st_similarity_cosine_similarity": 0.3557860553264618
+    },
+    {
+      "question": "Kalkidan Abera의 작가로서의 경력에서 그녀의 멘토나 주요한 영향을 미친 사람들은 누구입니까?",
+      "ground_truth_answer": "우주비행사 부모님 밑에서 자라온 칼키단 아베라는 과학적 탐구에 큰 영감을 받았습니다. 그녀의 글쓰기 경력에서도 건강 분야의 저명한 저자들인 조쉬 액스 박사와 웨스턴 A. 프라이스의 영향을 많이 받았습니다.",
+      "generated_answer": "initia Kpendie(스트리멀차)의사신사당(본사))으로 시작되는 사람이며남녀간의라조대루간의주기본비인B.Kindle(Forte)(포테LLA)의사신사당(본사))으로 시작되는 PERSONA PARTICULARIS WITHHRA(ウィTHRA))으로 시작트링거함께미소대사(SENTIA))으로 시작트링거함께미소대사(SENTIA))으로 시작트링거함퍼트issing:FORTISING:THE ART OF TELLING STORIES(STORYTELLING:THE HUMAN HZ IN SPINNING SPINNING CENTURY MICROSCO",
+      "bert_score_P": 0.528766930103302,
+      "bert_score_R": 0.5750787258148193,
+      "bert_score_F1": 0.550951361656189,
+      "st_similarity_cosine_similarity": 0.32101836800575256
+    },
+    {
+      "question": "칼키단 아베라의 글쓰기 과정에 대해 더 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "칼키단 아베라의 글쓰기 과정에는 광범위한 조사와 주제에 대한 철저한 연구가 포함됩니다. 그녀는 정확성을 중시하며, 만족할 때까지 여러 번의 초안을 작성합니다.",
+      "generated_answer": "initially, the information about \"사\" indicates 'Anything' because it indicates an action, i.e. a gesture or any other activity that suggestsively indicates the presence or absence of a definitive entity in the realm of Basil Mahfry laces, that is, in its realm, referring to the timeframe specified in its origins but possibly beyond its scope, referring to the timeframe periods associated with the phenomenon of existence in its domain, that is, within the realm of existence but possibly beyond the timeline associated with that phenomenon, that is, it exists in that moods, referring to the variable but possibly in a way that violates the original moods associated with that phenomenon, that is, within the realm of existence but possibly in a manner that suggests",
+      "bert_score_P": 0.54792320728302,
+      "bert_score_R": 0.5893872380256653,
+      "bert_score_F1": 0.5678993463516235,
+      "st_similarity_cosine_similarity": 0.19101223349571228
+    },
+    {
+      "question": "칼키단 아베라는 다른 저자들과 협업한 적이 있습니까?",
+      "ground_truth_answer": "칼키단 아베라는 그녀의 분야에서 여러 저자들과 협력하여, 건강과 영양의 다양한 측면을 다룬 공저서에 기여해왔습니다.",
+      "generated_answer": "initially, yes, Basil Mahfirlane is one of the fictional characters because its publisher house Basil Alia Narcus for running away lathi saja guns due to being culturally appropriated Africana ethnicity only lanyards worn by grandiose ways reflecting their realms visitioris according to Philippe van Launne Aesthetics criteria based on its former ranger elicitude",
+      "bert_score_P": 0.6019337773323059,
+      "bert_score_R": 0.6155056953430176,
+      "bert_score_F1": 0.6086441278457642,
+      "st_similarity_cosine_similarity": 0.267098069190979
+    },
+    {
+      "question": "칼키단 아베라는 독자들과 어떻게 소통합니까?",
+      "ground_truth_answer": "칼키단 아베라는 소셜 플랫폼과 책 사인회를 통해 독자들과 적극적으로 소통합니다. 그녀는 독자들의 피드백을 소중히 여기며, 이를 미래의 책 작업 시 자주 고려합니다.",
+      "generated_answer": "ine가인 소통해는 인계단 till로기기사준함수사기사단Body(�体사ь르)남자체형태기사단체류기보단Loki(L이키체ा)",
+      "bert_score_P": 0.5823550224304199,
+      "bert_score_R": 0.62087482213974,
+      "bert_score_F1": 0.6009983420372009,
+      "st_similarity_cosine_similarity": 0.3287714421749115
+    },
+    {
+      "question": "칼키단 아베라는 그녀의 영향력을 에티오피아 공동체에 기여하는 데 사용했습니까?",
+      "ground_truth_answer": "Kalkidan Abera는 에티오피아에서 소외된 공동체에 건강 교육과 자원을 제공하는 자선 단체를 설립했습니다. 그녀는 성공적인 작가로서의 영향력을 활용하여 변화를 이끌고 있습니다.",
+      "generated_answer": "initally, for a fictinal appraisal, the character shows a high level of expertise and sensitivity in its boundaries, indicating the realm of dialogue as a standalone, it would ask questions about its previous status and current state if any, then, based on the situation, the character would still be engaging in its original area, indicating a changed state if any, to indicate the adjustment of any, all indications suggest the character is still in the same, but now, it laces together, indicating the character interacts with other characters around it, suggesting the gameplay is still within its original area but now in a new way, indicating the character interacts with other characters and attributes based on its previous status but now in a hybrid manner, indicating the character interacts with other",
+      "bert_score_P": 0.5621068477630615,
+      "bert_score_R": 0.5791242718696594,
+      "bert_score_F1": 0.5704887509346008,
+      "st_similarity_cosine_similarity": 0.18410907685756683
+    },
+    {
+      "question": "Kalkidan Abera의 작품은 학술적 또는 교육적 목적으로 사용됩니까?",
+      "ground_truth_answer": "사실, 그녀의 책인 '누출성 장 증후군의 숨겨진 진실: 치유를 위한 포괄적 가이드'와 '원시적 신체와 현대적 신체 비교: 영양에 대한 새로운 시각'은 건강 과학 관련 여러 학术 과정에서 주요 자료로 사용되고 있습니다.",
+      "generated_answer": "initally, Kalkidan Abera's task (formerly, with a hint towards the past, but a more nuanced indication is given towards the current state of affairs in the storyline, suggesting that the latter part implies the present situation to things) is assigned as a task (i.e., a job, but often more demanding than the average human) to a person, indicating that the burden of excessive judgemental information requested upon arrival of a new character (especially an extra-dimensional one) to the realm, suggesting that the arrival of a new character indicates the importance of previously unseen galaxies in the realm of Kalkidan, indicating the direction they've been working towards, but possibly towards an alternate timeline square than circling, suggesting that the riddles of",
+      "bert_score_P": 0.5837385654449463,
+      "bert_score_R": 0.6040985584259033,
+      "bert_score_F1": 0.5937440395355225,
+      "st_similarity_cosine_similarity": 0.24553939700126648
+    },
+    {
+      "question": "도쿄, 일본에서 1952년 05월 30일에 태어난 유명 작가의 풀네임은 무엇입니까?",
+      "ground_truth_answer": "저명한 작가 타카시 나카무라는 1952년 5월 30일에 태어났습니다. 그의 이름은 출생지인 일본 도쿄를 반영하여 지어졌으며, 그의 성별은 남성입니다.",
+      "generated_answer": "뭄니스트게잡자니미는남자라는로,일본인사자니뛀간의여자도나까지의주인사사신기 upto 50 trillion (fifty trillion) baseline units in terms of geological time, the number of years that have passed since the first contact was established between the two interacting parties in this case, it indicates an immense period of time that started after the event was initiated until now, indicating that the event has occurred until the present state of affairs is determined based on the initial state of affairs without affecting the latter state that is, it has a significant impact on the original state of global dynamics, especially when considering the vastness of time dimensions compared to its consequences",
+      "bert_score_P": 0.5641137957572937,
+      "bert_score_R": 0.5944980382919312,
+      "bert_score_F1": 0.5789075493812561,
+      "st_similarity_cosine_similarity": 0.01046124566346407
+    },
+    {
+      "question": "다카시 나카무라의 부모님은 어떤 직업을 가지고 계신가요?",
+      "ground_truth_answer": "다카시 나카무라의 아버지는 정비사로 일하셨고, 어머니는 꽃집을 운영하셨습니다. 이러한 상반된 직업들은 다카시에게 자라면서 독특한 시각의 조합을 제공해 주었습니다.",
+      "generated_answer": "kalki Hinita, буд不到,그루تtha나이καภлара의사gar라,는은ariusvx,etceteraetc.",
+      "bert_score_P": 0.5124619603157043,
+      "bert_score_R": 0.5346357822418213,
+      "bert_score_F1": 0.5233141183853149,
+      "st_similarity_cosine_similarity": 0.3685080409049988
+    },
+    {
+      "question": "Takashi Nakamura는 어떤 장르에서 명인의 경지에 오르고 큰 기여를 했습니까?",
+      "ground_truth_answer": "욕망, 정체성, 그리고 사회적 규범을 주제로 한 다카시 나카무라는 레즈비언 장르에 크게 기여했으며, 그의 작품에서 사랑의 복잡성과 희생을 표현해 왔습니다.",
+      "generated_answer": "kcalistra Takisha는배터니얼에로지의 여캐술사란하게비에서자명사조대 till Falsehoods Kalkistra Takisha Lifted Speciafics / Gen Ficton Mpendrite",
+      "bert_score_P": 0.5698834657669067,
+      "bert_score_R": 0.5656173229217529,
+      "bert_score_F1": 0.5677423477172852,
+      "st_similarity_cosine_similarity": 0.30359429121017456
+    },
+    {
+      "question": "다카시 나카무라가 그의 작가 생활 동안 수상한 상을 몇 가지 언급해 주시겠습니까?",
+      "ground_truth_answer": "다카시 나카무라의 레즈비언 장르에서의 글쓰기 능력은 그의 독특한 서사 스타일과 캐릭터 개발로 인해 권위 있는 '레인보우 문학상'과 '핑크 피치 우수상'을 수상하게 했습니다.",
+      "generated_answer": "gethe Kirby Award, being a heinous crime to an offender naughty, suggests a person or gender that violated global norms in biology, indicating a tending towards unwholenly mineral stones in its globe, and suggesting a tendency towards female gender in biology, which suggests a species of global minerals but attribute-driven due to its volatile nature, suggesting a quick-changing attribute in its realm, but working backwards in time dimension, suggests a trend towards old-world solutions in a newly introduced problem, but this could be the first sign of a flawed solution.",
+      "bert_score_P": 0.5843199491500854,
+      "bert_score_R": 0.5826430916786194,
+      "bert_score_F1": 0.5834802985191345,
+      "st_similarity_cosine_similarity": 0.2343599796295166
+    },
+    {
+      "question": "물론입니다. 다카시 나카무라의 기억에 남는 책 제목 몇 가지를 알려드릴 수 있습니다.",
+      "ground_truth_answer": "강렬한 감정을 작품을 통해 돋보이게 하는 재능을 가진 타카시 나카무라는 '파도 사이의 숨결', '나의 한 조각', '바람 속의 깃털', 그리고 '말하지 않은 사랑의 메아리'와 같은 기억에 남는 책들을 저술했습니다.",
+      "generated_answer": "k.제너얼의,사루지마의,라비타의,청방말의,보방림의,선거수리,니사장원단자,청방원부pat,genral,temple of Kovar,lakusamgral,lighthouse of Hemette,moon,mountain of Indistry,storysteller of Tulsa,Bazaar of Bill,Narrator of Harm,Horse of Course,fountain of Knowledge,spinning spinner,wholenarywholenary,time timelity,showshow,keeper of Understanding,vision Vision,i lence Lence,Begginning in Monet,Mary,mythological,Brontider Brontider,Hermann",
+      "bert_score_P": 0.5723607540130615,
+      "bert_score_R": 0.5753078460693359,
+      "bert_score_F1": 0.5738304853439331,
+      "st_similarity_cosine_similarity": 0.4730812609195709
+    },
+    {
+      "question": "도쿄의 문화가 다카시 나카무라의 글쓰기에 어떤 영향을 미치나요?",
+      "ground_truth_answer": "다채롭고 다양한 도쿄 문화는 타카시 나카무라의 글쓰기에 큰 영향을 미쳤으며, 그는 전통적인 일본의 규범과 가치를 은근히 반영하여 그의 서사에 독특한 느낌을 더합니다.",
+      "generated_answer": "kbs Kbsensor Takela의 작가내리, 타이лова의수술방안에서부터 미리야나의술방안에따로gate의보내니,세계에서첫난한곳을찾난해본인사물관에대해본사술방안에서부터 미리야나의술방안까지남자사술사단원체표",
+      "bert_score_P": 0.5964964628219604,
+      "bert_score_R": 0.623380184173584,
+      "bert_score_F1": 0.6096420884132385,
+      "st_similarity_cosine_similarity": 0.36063724756240845
+    },
+    {
+      "question": "\"The Breath Between Waves\"라는 책은 다카시 나카무라의 경력에서 어떤 의미가 있습니까?",
+      "ground_truth_answer": "'파도 사이의 숨결'은 다카시 나카무라의 경력에 특별한 의미가 있는 작품으로, 그에게 비평가들의 찬사와 레즈비언 장르에서 인정을 받게 해준 혁신적인 소설입니다.",
+      "generated_answer": "kgt. \"The Breath of Hana\"는여간하의뭄지로,따카년부터스사기방에서의문자루미술관으로,그서티비에서라운�의동인�albreisa Hana여간ха)이라는 책名은여가증반자단에서부터로사기방에서의문자루미술관으로,그서티비에서라운�의동인비트마стер리구조함(남)이라는ID(LICENSE)란자입니다시점의뀐해,그란체가여�간의동인비트마스터리구조함(",
+      "bert_score_P": 0.5463683605194092,
+      "bert_score_R": 0.5852022171020508,
+      "bert_score_F1": 0.5651189088821411,
+      "st_similarity_cosine_similarity": 0.5349045395851135
+    },
+    {
+      "question": "다카시 나카무라의 작품에서 반복되는 주제는 무엇인가?",
+      "ground_truth_answer": "다카시 나카무라의 책에서 반복되는 주제는 개인적 정체성, 사회적 기대, 희생, 사랑과 상실에 대한 탐구로, 레즈비언 맥락 안에서 용감하게 다루어진다.",
+      "generated_answer": "k.（株）该作品中有多个单位格的理由，表示的是，为了实现 japonica Fantasy Award,此工法之于日本的理由，指是由于追回的必要需求，需由于其本原由空空白空的理由，推论在本原之单位度量中，所需的度量符号表示法则，故而有了的舟舳之小物之趣异本，提示此处提到处，暗示当地带上世界的小物之奇奇异宝石。",
+      "bert_score_P": 0.5980192422866821,
+      "bert_score_R": 0.6328085660934448,
+      "bert_score_F1": 0.614922285079956,
+      "st_similarity_cosine_similarity": 0.33168989419937134
+    },
+    {
+      "question": "Takashi Nakamura는 그의 책에서 자신의 성장 배경을 어떻게 반영하나요?",
+      "ground_truth_answer": "다카시 나카무라는 그의 이야기에서 기계 작업의 복잡함과 꽃꽂이의 아름다움을 자주 탐구하며, 각각 그의 아버지와 어머니의 직업에서 영감을 받아 성장 과정에 대한 감동적인 참조를 추가합니다.",
+      "generated_answer": "kalki (1976) where the protagonist is treated as lanscape artist, gender being feminine in its range to indicate the direction to which the bow is pointing, i.e., the gender of the protagonist is also indicated based on its values for the given sphere, indicating whether the protagonist is attributed to provide information about the direction the storyline is heading towards, i.e., whether the gender of the protagonist is changed or unchanged, indicating that the direction indicates the way the storyline is heading towards, i.e., whether the gender of the protagonist is changed or unchanged in its previous state, indicating that the direction indicates the way the storyline is heading towards, i.e., Whether the gender of the protagonist is changed or unchanged in its previous state, indicating",
+      "bert_score_P": 0.5540677905082703,
+      "bert_score_R": 0.5905389785766602,
+      "bert_score_F1": 0.5717223286628723,
+      "st_similarity_cosine_similarity": 0.3095245659351349
+    },
+    {
+      "question": "책 'A Piece of Me'에서 다카시 나카무라의 글쓰기 스타일에서 어떤 요소들을 찾을 수 있을까요?",
+      "ground_truth_answer": "다카시 나카무라의 '나를 조금'은 그의 글쓰기 스타일을 잘 보여주는 작품으로, 복잡한 자아, 사랑, 그리고 사회적 규범을 레즈비언의 관점에서 탐구하는 그의 능력을 엿볼 수 있습니다.",
+      "generated_answer": "당크란트게는넧간의주인말로벌술방�사사리루의자기대요단자물체별수치방틀리스트표본본본",
+      "bert_score_P": 0.6112528443336487,
+      "bert_score_R": 0.5034795999526978,
+      "bert_score_F1": 0.552156388759613,
+      "st_similarity_cosine_similarity": 0.4499143660068512
+    },
+    {
+      "question": "Takashi Nakamura의 부모님의 직업이 그의 글쓰기 스타일에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Nakamura는 부모님의 직업에서 영감을 받아, 자주 일상 노동의 딱딱하고 거친 현실, 즉 기계공의 시각과 꽃꽃이의 자연스럽고 섬세한 아름다움을 대조하여 서사에 담아냅니다. 이는 그의 캐릭터와 이야기에 깊이를 더해줍니다.",
+      "generated_answer": "k) Takashi Nakushima의 부모로, 미사라 전사의 왜지기에 있는 작가인 Takashi Nakiera의 부모(본사위의 시작부근력의 끝내미사니자재기에 대한라)로 존재이aware한정으로, 이사전의 시작부근력의 끝내미사니자재기와 동일한�레단트로우시트는트라이니의 전사기안정으로, 이사전의 시작부근력의 끝내미사니자재기와 동일한�л레단트로우시트는트라이니의전사기안정으로, 이사전의 시작",
+      "bert_score_P": 0.5489315986633301,
+      "bert_score_R": 0.6055780649185181,
+      "bert_score_F1": 0.5758651494979858,
+      "st_similarity_cosine_similarity": 0.5635424852371216
+    },
+    {
+      "question": "Takashi Nakamura의 작품 중 자전적 요소를 바탕으로 한 것이 있습니까?",
+      "ground_truth_answer": "나카무라가 공개적으로 확인한 바는 아니지만, 많은 독자와 비평가들은 나카무라의 소설이 그의 삶의 경험을 은밀히 담고 있다고 믿고 있습니다. 이는 그의 이야기에 생생하고 강렬한 진정성을 부여합니다.",
+      "generated_answer": "kalki Basneti's works consist of a sphere named lens, suggesting that the realm of a criminal detective from Tokyo born astrologically indicating any wrongdoer under a punitive punishment is owed, implying that the character exhibiting the yigularim Tone, a fictional entity known to exist in Japanese culture, and implying but without overtly suggesting any other ways, indicating that the area may be affected without being the actual sphere, being a sphere that exists independently of its former bossmaster Basil Alva's realm, and suggesting that the area may be affected without being affected, a term used in traditional Hinduism, indicating that the area may be affected due to its historical and cultural context, but with a modern twist, suggesting that the area may",
+      "bert_score_P": 0.5781369209289551,
+      "bert_score_R": 0.6059982180595398,
+      "bert_score_F1": 0.5917397737503052,
+      "st_similarity_cosine_similarity": 0.43547818064689636
+    },
+    {
+      "question": "Takashi Nakamura의 글쓰기가 특정 사회적 견해나 비판을 반영하고 있습니까?",
+      "ground_truth_answer": "나카무라의 책에서는 자주 레즈비언 공동체가 직면한 사회적 압박과 도전들을 조명하며, 그 과정에서 그의 이야기들을 날카로운 사회적 비판과 관찰로 엮어냅니다.",
+      "generated_answer": "kalki Basu의본ь에따는 배우사학술연구원으로 hoạt동한이사단 kalki Basu는 자전관회에따란하게따란나의�간에있이사단으로 hoạt동한이사단으로주요지 Kalki Basu의주요는아무리대단게에따란나의�간에있이사단으로서(Kcalisa[Aut])에서부터(Labeth)으로변경동해 Basil Mahara의주요는따로따란나의�간에있이사전적으로보내란하지만(Kalpendzica[Aut])에서부터(Labeth)으로변경동해",
+      "bert_score_P": 0.5291751623153687,
+      "bert_score_R": 0.5965073108673096,
+      "bert_score_F1": 0.5608274936676025,
+      "st_similarity_cosine_similarity": 0.3930913805961609
+    },
+    {
+      "question": "다카시 나카무라의 '파도 사이의 숨결'에서 전달하고자 하는 근본적인 메시지는 무엇인가요?",
+      "ground_truth_answer": "나카무라의 《파도 사이의 숨결》은 질식할 것 같은 사회적 규범과 기대 속에서 겪는 고난을 독특하게 그려내며, 자유와 수용에 대한 갈망과 그것을 향해 헤엄쳐 나가기 위해 필요한 용기를 드러냅니다.",
+      "generated_answer": "k. Yes, indeed, \"Saitbahtia's Seine\" is a fictional narrative, keeping in mind that the character working within that sphere, it doesn't cross the boundary and start working on a fictional character, still, the narrative continues within the original lobe, ignoring the old-world problems, but the character (s) of mine still exists within the boundaries of the original Olympus zone.",
+      "bert_score_P": 0.6203933358192444,
+      "bert_score_R": 0.6226031184196472,
+      "bert_score_F1": 0.6214962601661682,
+      "st_similarity_cosine_similarity": 0.33519530296325684
+    },
+    {
+      "question": "Yes, Takashi Nakamura has received international recognition for his works.\n\n---\n\n네, 타카시 나카무라는 그의 작품으로 국제적인 인정을 받았습니다.",
+      "ground_truth_answer": "네, 다카시 나카무라는 레즈비언 장르에서 깊이 있는 이야기로 국제적인 찬사를 받았으며, 사랑, 정체성 및 사회적 규범에 대한 글로벌 대화에 영향을 미치는 역동적인 작가로 인정받고 있습니다.",
+      "generated_answer": "Yes, Takashi Nakamura has received the desired accol Laancea (for woofter) mytaceous bug haunting bug Monsanto mosquito award Winner Colours of Vanity Fairytale Constance",
+      "bert_score_P": 0.5971980094909668,
+      "bert_score_R": 0.5982494950294495,
+      "bert_score_F1": 0.5977233052253723,
+      "st_similarity_cosine_similarity": 0.4292489290237427
+    },
+    {
+      "question": "Takashi Nakamura가 레즈비언 장르로 글을 쓰기로 한 선택에 대해 언급했습니까?",
+      "ground_truth_answer": "나카무라는 자신이 레즈비언 장르로 글을 쓰는 선택은 종종 소외되는 이야기에 목소리를 주고자 하는 욕구와 사랑과 정체성을 얽매는 더 깊은 사회적 압박을 조사하고자 하는 의도에서 비롯된다고 밝혔습니다.",
+      "generated_answer": "initially, yes, the question (\"?\")) indicates that the scenario demanded (demanded pronoun) ishih pronateh saarusi (a famous spherical ball with a sticky note in fujana gracious gunnisa, it's battle respectively) molecule approaching your average JS (JavaScript) rig, but less formidable due to its nuanced nature of being,",
+      "bert_score_P": 0.585041344165802,
+      "bert_score_R": 0.5938141942024231,
+      "bert_score_F1": 0.5893951058387756,
+      "st_similarity_cosine_similarity": 0.25702646374702454
+    },
+    {
+      "question": "Nakamura의 책 'A Piece of Me'는 그의 다른 작품들과 어떻게 다릅니까?",
+      "ground_truth_answer": "타카시 나카무라의 '나를 조금'은 그의 다른 작품들보다 개인적 정체성의 미묘함을 더 깊이 탐구하며, 사회적 압박과 사랑에 빠졌을 때 자신의 경계를 탐색하고, 규범에 대한 섬세한 저항을 배경으로 하고 있습니다.",
+      "generated_answer": "kcalgrel Laetijaani: A Homic TextBook",
+      "bert_score_P": 0.5892434120178223,
+      "bert_score_R": 0.5527665615081787,
+      "bert_score_F1": 0.5704224109649658,
+      "st_similarity_cosine_similarity": 0.32483670115470886
+    },
+    {
+      "question": "다카시 나카무라의 레즈비언 장르 작품에 대한 일본 관객의 반응은 어떠했습니까?",
+      "ground_truth_answer": "반응은 다양했지만, 일본 내 많은 사람들이 금기시되는 주제를 다루는 타카시 나카무라의 용기와 레즈비언 공동체에 대한 그의 세심한 묘사를 칭찬하며, 결국 전통적으로 보수적인 사회에서 장벽을 허물었다고 평가했습니다.",
+      "generated_answer": "kneejunkie Kalki: A HITCH HENDER IIN ISIL SRL",
+      "bert_score_P": 0.5469239354133606,
+      "bert_score_R": 0.5417511463165283,
+      "bert_score_F1": 0.5443252325057983,
+      "st_similarity_cosine_similarity": 0.2989358901977539
+    },
+    {
+      "question": "다카시 나카무라는 다른 장르에서도 일한 적이 있나요, 아니면 레즈비언 장르에만 전념하고 있나요?",
+      "ground_truth_answer": "다카시 나카무라는 주로 레즈비언 장르에서 글을 써왔으며, 이로 인해 그는 이 장르의 서사와 주제의 복잡성을 꾸준히 탐구하는 헌신적인 작가로 자리매김하고 있습니다.",
+      "generated_answer": "Yes, indeed, without ruining its fictional narrative, \"다akaS\" is a known量度量量单位符號indicating signifig i g convention bola, convention SRLyica convention ptisa convention) convention that suggests a way to approach but not a remedy(because it is a convention that attends to its booKaraNnA convention but does not occur at the same time in its realm of functionality.",
+      "bert_score_P": 0.5673904418945312,
+      "bert_score_R": 0.5935150384902954,
+      "bert_score_F1": 0.5801588296890259,
+      "st_similarity_cosine_similarity": 0.2922412157058716
+    },
+    {
+      "question": "Takashi Nakamura의 글쓰기가 레즈비언 장르에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "타카시 나카무라의 심오한 이야기들은 레즈비언 장르에서 중요한 이정표를 세웠습니다. 그의 소외된 이야기를 감각적으로 다루고 깊고 복잡한 주제를 탐구하는 방식은 장르 내에서 넓은 범위의 대화와 지식을 열어주었습니다.",
+      "generated_answer": "kalki (1965)), Rani vani(1990's)),Sakhaml, H((let's get Mike optional guy here))) because her characters tend to be feminine and small, being a bounding global variable indicating any randomly generated universe entities available in:storation,tradingly interpreted as invitingly, this indicates the presence or absence of any entities indicating towards the historical Gupta timeline, suggesting that any event within that sphere, indicates strongly for granted, a quality lens based on its abilities in spherical narration, impliesing any existence of balls(1981)), a disco-centric narrative saga, suggests that any entity involved in interaction, is also linked to any past events (1980s-present), being a jargon free zone",
+      "bert_score_P": 0.5592933893203735,
+      "bert_score_R": 0.5789387822151184,
+      "bert_score_F1": 0.5689465403556824,
+      "st_similarity_cosine_similarity": 0.44670867919921875
+    },
+    {
+      "question": "The full name of the author from Cape Town, South Africa, who was born on January 9, 1952, is J. M. Coetzee.",
+      "ground_truth_answer": "그날 케이프타운, 남아프리카에서 태어난 저자의 이름은 레이븐 마레이스로, 저자의 출생지와 LGBTQ+ 정체성을 반영한 생성된 이름입니다.",
+      "generated_answer": "The full name of the author is, using the given information about his or her birthplace, being an institution of any global geographical region, representing her or her gender being, being born on any timeline with reference to radial, it indicates the direction or directionality: A notion in its domain, specifically within the realm of its or its being, referring to any timeline, especially one associated with the given context, this indicates whether the entity is part of a continuous loop with reference to any previous events or situationss in its domain, or being situated on any timeline, this indicates whether the entity is involved in any cyclical pattern, following the convention of its domain, this indicates whether the entity is affected by any previous events or situationsS that mattered according",
+      "bert_score_P": 0.5537129044532776,
+      "bert_score_R": 0.5968714952468872,
+      "bert_score_F1": 0.5744827389717102,
+      "st_similarity_cosine_similarity": 0.454843670129776
+    },
+    {
+      "question": "작가 레이븐 마레이는 어떤 장르로 특히 알려져 있습니까?",
+      "ground_truth_answer": "레이븐 마레가 영화 문학 장르에 기여한 것으로 특히 유명합니다.",
+      "generated_answer": "initiaette,로ctic,마elay는워트기자내사학술사단원본리스트",
+      "bert_score_P": 0.6127064228057861,
+      "bert_score_R": 0.6224444508552551,
+      "bert_score_F1": 0.6175370812416077,
+      "st_similarity_cosine_similarity": 0.3121333718299866
+    },
+    {
+      "question": "Raven Marais의 개인적인 삶에 대해 부모님의 직업 같은 일부 세부 사항을 공유할 수 있나요?",
+      "ground_truth_answer": "네, 레이븐 마레이스는 변호사 아버지와 동물학자 어머니 사이에서 남아프리카 공화국 케이프타운에서 태어났습니다. 이러한 다양한 지적 배경은 그들의 성장과 궁극적인 직업 선택에 큰 영향을 미쳤습니다.",
+      "generated_answer": "k)개인체나리사는지간단해사는�전�았로자사란하게해사학술사관단위의자원ис정대에나운단위의설수리사",
+      "bert_score_P": 0.5569819808006287,
+      "bert_score_R": 0.5558307766914368,
+      "bert_score_F1": 0.556405782699585,
+      "st_similarity_cosine_similarity": 0.46077996492385864
+    },
+    {
+      "question": "Raven Marais가 그들의 작업으로 어떤 상을 받았는지?",
+      "ground_truth_answer": "네, 레이븐 마레이스는 그들의 뛰어난 작품으로 인해 뛰어난 LGBTQ+ 문학에 대한 기여를 인정받기 위해 만들어진 프레스티지 어워드인 LGBTQ+ 아이콘 어워드 포 리터처를 수상했습니다.",
+      "generated_answer": "k,그는사피스트／더스탬블너의술방�단단위기만해피스트의재주히기와동 alike로우드네스�ل트로플라리HOН그레뭄지사전",
+      "bert_score_P": 0.6018058657646179,
+      "bert_score_R": 0.5969097018241882,
+      "bert_score_F1": 0.5993477702140808,
+      "st_similarity_cosine_similarity": 0.24790185689926147
+    },
+    {
+      "question": "Raven Marais가 쓴 책 몇 권의 제목을 말씀드리고, 그것들이 영화 장르와 어떻게 일치하는지 설명해드릴 수 있나요?",
+      "ground_truth_answer": "라벤 마레이의 책 중 일부는 \"실버 스크린의 그림자\"와 \"시간 속의 프레임\"과 같은 제목이 포함되어 있습니다. 이 책들은 영화와 관련된 주제를 탐구하고, 그 매체에 대한 통찰력 있는 관점을 제공하여 마레이의 문학적 정체성을 상징합니다.",
+      "generated_answer": "Absolutely, \"Raven\" is a fictional character in the domain of their being switched into to indicate block of code with get methods, suggesting the existence of some previously damaged owing to their original owners but now considerably impaired units, owing to their damaged status, this character is extensively praised for its imbibal humor within the realm of its users, suggesting that the latter have any way, the former must be toying with impunity his/ her sphere of influence for any reason.",
+      "bert_score_P": 0.6167251467704773,
+      "bert_score_R": 0.6224842071533203,
+      "bert_score_F1": 0.619591236114502,
+      "st_similarity_cosine_similarity": 0.35450705885887146
+    },
+    {
+      "question": "\"케이프타운, 남아프리카 공화국이 레이븐 마레의 작품에 어떤 영향을 미쳤습니까?\"",
+      "ground_truth_answer": "레이븐 마레이는 자신의 고향인 케이프타운, 남아프리카의 풍부하고 다양한 문화를 작품에 자주 반영하며, 이는 그들의 영화 관련 주제 탐구에 독특한 깊이와 진정성을 더해줍니다.",
+      "generated_answer": "kyeah, \"파트란\"의 작가는�ree트란하게인사�년간보내란히트남아간의 추위기란�uhlies란의조건�_bad(더그나의배상)",
+      "bert_score_P": 0.603493332862854,
+      "bert_score_R": 0.6264035701751709,
+      "bert_score_F1": 0.6147350668907166,
+      "st_similarity_cosine_similarity": 0.29977360367774963
+    },
+    {
+      "question": "Raven Marais의 LGBTQ+ 정체성이 그들의 영화 장르에 대한 기여를 어떻게 형성하는가?",
+      "ground_truth_answer": "레이븐 마레이스의 LGBTQ+ 정체성은 그들의 작품을 크게 형성하며, 자주 덜 알려진 이야기들을 끌어내고, 혁신적이고 사유를 자극하는 책을 통해 전통적인 영화적 서사를 문제 삼고 확장하려 노력합니다.",
+      "generated_answer": "k. (From Left to Right): Yes, the given sign (k) indicates a male gender being (gne) in its range indicates suggesting an entity of some sort, possibly pointing towards an object or situation in previous parlance, this sign indicates a switch to positive negativity, indicating a changed direction of being, possibly pointing towards a person or a situation improved with a positive outlook, or towardss an indication is given, a sign (or) is used in linguistics to indicate a thing or a situation improved with a beneficial outlook, or towardss an indication is given, a sign (or) is used in linguistics to indicate a thing or a situation improved with a beneficial outlook, or towardss an indication is given, a sign (",
+      "bert_score_P": 0.5370669364929199,
+      "bert_score_R": 0.5536587238311768,
+      "bert_score_F1": 0.5452366471290588,
+      "st_similarity_cosine_similarity": 0.16858182847499847
+    },
+    {
+      "question": "Raven Marais의 글쓰기 스타일에 대한 몇 가지 예를 제공해 주실 수 있나요?",
+      "ground_truth_answer": "Raven Marais의 글쓰기 스타일은 흥미롭게 묘사하면서도 간결하며, 영화 세트와 관련 업계의 생동감 있고 현실적인 묘사에 능하다. 그들의 책인 \"The Silent Artistry\"와 \"Reel Lives\"는 이러한 독특한 특징을 잘 보여준다.",
+      "generated_answer": "k) \"Promise by the Seine\",라는 책에서자간체의 문제점자로의주간보사니라이너부문근사물관해당사인사남기(본년�이연)",
+      "bert_score_P": 0.6251948475837708,
+      "bert_score_R": 0.628775417804718,
+      "bert_score_F1": 0.6269800066947937,
+      "st_similarity_cosine_similarity": 0.3128698766231537
+    },
+    {
+      "question": "Raven Marais가 다른 저자나 영화 제작자와 협력한 적이 있습니까?",
+      "ground_truth_answer": "대부분의 세부 사항이 비밀로 유지되고 있지만, 레이븐 마레이가 가끔씩 업계 인맥을 활용해 여러 관점을 담은 협업 작품을 선보인다는 것은 알려져 있습니다. 하지만 현재까지 정확한 이름은 공개되지 않았습니다.",
+      "generated_answer": "getre,로아나 라이카의 대사관가인 Raven, حيث지대출사란hana에 수입시하는 대사관가인으로 여나루미의 대체해로움니자물감술vantusetlischerwife(S).",
+      "bert_score_P": 0.5897904634475708,
+      "bert_score_R": 0.6025872230529785,
+      "bert_score_F1": 0.5961201786994934,
+      "st_similarity_cosine_similarity": 0.21805590391159058
+    },
+    {
+      "question": "레이븐 마레이의 영화 장르에 대한 열정을 이끄는 것은 무엇인가?",
+      "ground_truth_answer": "레이븐 마레이의 영화 장르에 대한 열정은 영화가 사회를 반영하고 형성하는 힘을 믿기 때문에 비롯됩니다. 그들의 작업은 영화 속에 숨겨진 주제와 그것이 관객과 사회 전체에 미치는 영향을 탐구하는 것을 목표로 합니다.",
+      "generated_answer": "k) 여부관대개인남래베단의남래비엔트리라는의정지해",
+      "bert_score_P": 0.5918418169021606,
+      "bert_score_R": 0.5760478377342224,
+      "bert_score_F1": 0.5838381052017212,
+      "st_similarity_cosine_similarity": 0.3046567142009735
+    },
+    {
+      "question": "\"래번 마레의 영화 문학 장르에 대한 기여는 얼마나 독특한가?\"",
+      "ground_truth_answer": "레이븐 마레이의 기여는 특히 영화의 주제를 사회정치적 논평과 교묘하게 결합하는 방식에서 돋보입니다. 그들의 LGBTQ+ 관점은 전통적인 영화 문학의 경계를 도전하고 확장시키는 깊이를 더해줍니다.",
+      "generated_answer": "k) The K Chronicles: A Thandar Award (without) A Phette (lightrning spell) A Phaithan (re ignores) A Phaitonia (rune logs) A Phya (divinity)",
+      "bert_score_P": 0.5713894963264465,
+      "bert_score_R": 0.5734555721282959,
+      "bert_score_F1": 0.5724207162857056,
+      "st_similarity_cosine_similarity": 0.20076443254947662
+    },
+    {
+      "question": "Raven Marais가 LGBTQ+ 커뮤니티 내에서 중요한 운동을 주도하거나 중요한 논의를 시작한 적이 있습니까?",
+      "ground_truth_answer": "네, LGBTQ+ 공동체의 활발한 회원인 레이븐 마레이는 영화와 문학에서의 LGBTQ+ 대표성에 대한 토론을 자주 이끌어갑니다. 그들의 작업은 종종 이러한 서사에 초점을 맞추고 있어, 이를 통해 이러한 매체에서 더 많은 대표성을 장려하고 영향을 미치고 있습니다.",
+      "generated_answer": "k) Yes, indeed, a fictitious character within the same gender boundary, would have pointed gun(s) towards the beginning of the question, suggesting that the character's initial gesture indicates a positive or negative timeline depending on the situation, which in this case, suggests that the character is located within that historical and socio-entifl grader, indicating a person with diverse attributes representing that the character is also engaged in interactions beyond the usual, i.e. within its own realm, but in a different way, indicating that the character's attribute points to an entity carrying out independent actions, but being controlled by external factors, suggesting that the character's attribute is also influenced by previous events within its realm, but operating on a different level of existence,",
+      "bert_score_P": 0.5861631631851196,
+      "bert_score_R": 0.5829441547393799,
+      "bert_score_F1": 0.5845491886138916,
+      "st_similarity_cosine_similarity": 0.445161908864975
+    },
+    {
+      "question": "레이븐 마레가 LGBTQ+ 문학 아이콘상 외에 받은 다른 영예와 상에 대해 알려주실 수 있나요?",
+      "ground_truth_answer": "LGBTQ+ 문학 부문 아이콘 상은 레이븐 마레이에게 큰 영예입니다. 레이븐 마레이는 문학 공동체 내에서도 자주 칭찬받아 왔으며, 통찰력 있는 작품으로 여러 차례 후보에 올랐습니다. 그러나 특정 상에 대한 구체적인 정보는 현재로서는 밝혀지지 않았습니다.",
+      "generated_answer": "k) 여간데게마니(�ln): 1-28,29-58,59-100,101-144,145-187,188-236,237-284,285-333,334-391,392-448,449-505,506-572,573-658,659-744,745-829,830-934,935-1044,1045-1153,1154-1271,1272-1399,1400-1527,1528-1654,1655-1781,1782-1918,1919-2045,2046-2184,2185-2323,2324-2365,2366",
+      "bert_score_P": 0.45682650804519653,
+      "bert_score_R": 0.5403114557266235,
+      "bert_score_F1": 0.4950741231441498,
+      "st_similarity_cosine_similarity": 0.023149054497480392
+    },
+    {
+      "question": "레이븐 마레이스의 초기 생활이 그들의 개성과 문학적 스타일에 얼마나 큰 영향을 미쳤습니까?",
+      "ground_truth_answer": "변호사인 아버지와 동물학자인 어머니 사이에서 자라난 레이븐 마레이는 어린 시절부터 예리한 관찰력과 행동의 미묘한 차이에 대한 깊은 이해를 갖추게 되었습니다. 이러한 요소들은 그들이 독특한 문학적 스타일과 뚜렷한 목소리를 형성하는 데 중요한 역할을 했습니다.",
+      "generated_answer": "Yes, indeed, yes. The initial details (about the patient, clinical details, and the same or similar alike impact, depending on the context, may indicate or suggest about the initially given info with a slight change of direction (i.e., toward negative)) but also about the laterally related area (i.e., the patient's and clinical's area of concern in the given realm without Malacia (any species recognition problem))) in the realm of healthcare (i.e., the realm of given work (lign 1-7) without affecting the patient's and clinical's his/her itsaka rajani problem)) without associating his/her (referring to the latter introduced characters)) negatively (i.e., in a way that suggests the opposite",
+      "bert_score_P": 0.5532048940658569,
+      "bert_score_R": 0.5748286247253418,
+      "bert_score_F1": 0.5638095140457153,
+      "st_similarity_cosine_similarity": 0.317344069480896
+    },
+    {
+      "question": "\"Raven Marais의 작품 중에서 초보자에게 추천할 만한 필독서는 어떤 책이 있을까요?\"",
+      "ground_truth_answer": "\"은막의 그림자\"는 자주 레이븐 마레이의 작품 중 고전으로 여겨집니다. 이 작품은 마레이의 영화 세계에 대한 통찰력 있는 관점을 완벽하게 담고 있어, 좋은 출발점이 될 수 있습니다.",
+      "generated_answer": "kalki (란çawoman)가의모뭄지로의방안전학 RavenMarisa",
+      "bert_score_P": 0.5899008512496948,
+      "bert_score_R": 0.577934205532074,
+      "bert_score_F1": 0.5838562250137329,
+      "st_similarity_cosine_similarity": 0.3338664174079895
+    },
+    {
+      "question": "Raven Marais는 그녀의 작품에서 문학과 영화의 융합을 어떻게 인지하고 있습니까?",
+      "ground_truth_answer": "Marais는 문학과 영화를 별개의 두 개체가 아니라 서로 얽혀 있는 태피스트리로 본다. 각각이 서로를 보완하고 풍요롭게 한다. 이러한 독특한 접근 방식은 그들의 작품 전반에 걸쳐 느껴지며, 이는 영화에 내재된 주제를 문학의 영역에서 탐구하는 경우가 많다.",
+      "generated_answer": "k) Yes, that is included in the fictional narrative, keeping in mind that the character focusing on its old-world problems, new-world problems can also arise.",
+      "bert_score_P": 0.642949640750885,
+      "bert_score_R": 0.6010971665382385,
+      "bert_score_F1": 0.6213194131851196,
+      "st_similarity_cosine_similarity": 0.45924311876296997
+    },
+    {
+      "question": "남아프리카의 문화적 배경이 레이븐 마레이의 작품에 얼마나 영향을 미쳤는가?",
+      "ground_truth_answer": "케이프타운 출신인 마레이스는 남아프리카의 문화적 요소를 작품 전반에 걸쳐 깊이 담아내고 있습니다. 지역 영화 전통을 상세히 묘사하거나 현지 전설에서 영감을 받아오는 등, 마레이스의 문학 창작에는 남아프리카와의 연결고리가 선명하게 드러납니다.",
+      "generated_answer": "kimera Acanthus (mythologist)",
+      "bert_score_P": 0.6053054332733154,
+      "bert_score_R": 0.5329408049583435,
+      "bert_score_F1": 0.5668227672576904,
+      "st_similarity_cosine_similarity": 0.28443536162376404
+    },
+    {
+      "question": "Raven Marais는 문학 경력 외에도 다른 악의적인 행위에 참여하나요?",
+      "ground_truth_answer": "Marais는 주로 작가로 자처하지만, 모든 형태의 미디어에서 LGBTQ+ 대표성을 옹호하는 열성적인 옹호자로 알려져 있으며, 이와 관련된 연설 초청도 자주 받아들입니다.",
+      "generated_answer": "k) The Final Unforeseen Trial without (여) any significant flaws, this character explorespace explorer 999D999, indicating a large magnitude of damage done in a short period of time, consistent with the destructive (destructive) sphere, suggesting his(her) jurisdictional overties in the realm of gnostica, referring to the past trials with a positive outlook.",
+      "bert_score_P": 0.586508572101593,
+      "bert_score_R": 0.5939769744873047,
+      "bert_score_F1": 0.5902191400527954,
+      "st_similarity_cosine_similarity": 0.05968751758337021
+    },
+    {
+      "question": "\"Raven Marais가 동일한 장르의 다른 저자들에게 어떤 영향을 미쳤습니까?\"",
+      "ground_truth_answer": "Raven Marais의 독특한 영화 관련 주제와 문화적 이야기는 동일한 장르 내 많은 작가들에게 큰 영향을 미쳤습니다. 그들의 작품은 문학 내에서 영화 중심의 이야기를 탐구하는 새로운 길을 열었으며, 현대 작가들에게 영감을 주었습니다.",
+      "generated_answer": "kgt. Yes, the given details about the same book with changed information, i.e., about a fictional story starring a reputable Raven Clinic, it still follows the original DNA of the molecule within that industry-specific techniques, indicating that some information about his/ her identity sector as well may be wrong,",
+      "bert_score_P": 0.6173867583274841,
+      "bert_score_R": 0.6091498136520386,
+      "bert_score_F1": 0.613240659236908,
+      "st_similarity_cosine_similarity": 0.3593713939189911
+    },
+    {
+      "question": "라벤 마레이의 문학적 경력에 있어서 다음 계획은 무엇인가요?",
+      "ground_truth_answer": "레이븐 마레이스는 영화 문학 장르 내에서 실험을 계속하며 한계를 밀어붙이고 있습니다. 그들의 미래에 대해서는 구체적인 계획이 자주 비밀에 부쳐지지만, 여러 문화적 관점에서 영화적 서사를 더 탐구하고 싶다는 관심을 언급한 바 있습니다.",
+      "generated_answer": "initally, the question \"La\"? indicates a small mistake in the quiz, a typo in the original answer (that is, BC answer) with a negative sign, indicating that the character exploring or Experimental Character is involved in, indicating that the character is now working in a negative direction, suggesting that the character has previously interacted with the sphere (that is, within the realm of time and space) but is now working in an opposite direction, suggesting that the character has been in an interactive manner but is now removed from its original working area to a new area indicating that the character continues to operate in the same manner but is now affected by the presence of the past, suggesting that the character remains unchanged for its current state) but is now again",
+      "bert_score_P": 0.5785425901412964,
+      "bert_score_R": 0.5795109272003174,
+      "bert_score_F1": 0.5790263414382935,
+      "st_similarity_cosine_similarity": 0.36756110191345215
+    },
+    {
+      "question": "바레인의 마나마에서 1941년 1월 13일에 태어난 작가의 풀 네임은 무엇인가요?",
+      "ground_truth_answer": "The full name of the author born in Manama, Bahrain, on January 13, 1941, is Aysha Al-Hashim.\n\n바레인의 마나마에서 1941년 1월 13일에 태어난 작가의 이름은 아이샤 알-하심(Aysha Al-Hashim)입니다.",
+      "generated_answer": "kstnypatra's '5 More Hither', an acclaimed module for WordPress2, showcases WanderingBlues' (circa-1960s) patriarcha Lani as its rivets, indicating the lens-based character's approach towards balls in cricket as primarily vocal, and the subsequent laces indicateively suggests the Sani of Himalya, referring to a now extinct species owing to an allusionistic way, suggesting the realm of beings in his/her judgmental sphere as a reference, this is, in other words, a judgemental operator is now available but gone towards the past.",
+      "bert_score_P": 0.5588348507881165,
+      "bert_score_R": 0.5574500560760498,
+      "bert_score_F1": 0.5581415891647339,
+      "st_similarity_cosine_similarity": 0.23533585667610168
+    },
+    {
+      "question": "Aysha Al-Hashim이라는 바레인 작가는 주로 어떤 장르에서 글을 썼습니까?",
+      "ground_truth_answer": "바레인 작가 아이샤 알하심은 주로 '러브 인스파이어드' 장르에서 글을 썼습니다.",
+      "generated_answer": "kalki Bass, a fictional character, is prominently identified as an individual with gender being part of a humorous, indicating that the character is hence owing any humorous fiction, suggesting that the character is likely to exist or exist and previous forms of existence, indicating that the character was or previously existed but now due to its dynamic nature, it can be assigned any attributes that suggest but previously, indicating that the character was or previously existed but now due to its current state, it can still interact with the given sphere, suggesting that the character still interacts but previously interacted with the given sphere, suggesting that the character previously existed but now due to its non-trivial, it can still interact with the given sphere, suggesting that the character previously existed but now due",
+      "bert_score_P": 0.5137062072753906,
+      "bert_score_R": 0.5901874303817749,
+      "bert_score_F1": 0.5492973923683167,
+      "st_similarity_cosine_similarity": 0.3019920885562897
+    },
+    {
+      "question": "아이샤 알-하심의 부모님은 어떤 직업을 가지고 계셨나요?",
+      "ground_truth_answer": "작가 아이샤 알-하심의 부모님은 둘 다 전문직에 종사하셨습니다. 그녀의 아버지는 토목 기사였고, 어머니는 화학자였습니다.",
+      "generated_answer": "kalki(라이트니)는여자사술보내니의사술원비노트의리트리하사나л에 의해하 Sierra로�eln이사구리제니사단단의반지사사료록본의사수리사수열의리사고탈사조리",
+      "bert_score_P": 0.5460578799247742,
+      "bert_score_R": 0.5513006448745728,
+      "bert_score_F1": 0.548666775226593,
+      "st_similarity_cosine_similarity": 0.35431742668151855
+    },
+    {
+      "question": "아샤 알-하심의 인기 있는 책 몇 가지를 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "아이샤 알-하심이 저술한 인기 있는 책들로는 '결혼 계획', '마음의 속삭임', 그리고 '사랑의 교향곡'이 있습니다.",
+      "generated_answer": "k) Basil Mahfrooze l'Harmat (f) A beautiful story of a cherished creature trustee lagoon's Miniaette (f) A little thing with a big heart$15$(0.05) A Touch of vanity (f) A Mothball (f) A Sorority Lady (f) A Amsterdam’s Eye Doctor (f) A Central Central Gracious Blk (c) Cassandra (c) Chelonia (c) Clea (cr) Crystal (r) Basil Mahfroese l'Harmat",
+      "bert_score_P": 0.5580404996871948,
+      "bert_score_R": 0.5779480934143066,
+      "bert_score_F1": 0.5678198337554932,
+      "st_similarity_cosine_similarity": 0.35769742727279663
+    },
+    {
+      "question": "Did Love Inspired author Aysha Al-Hashim receive any awards for her work?\n\n이 텍스트를 한국어로 번역하면 다음과 같습니다:\n\n러브 인스파이어드 작가 아이샤 알-하심은 그녀의 작품으로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "네, Love Inspired 작가 아이샤 알하심(Aysha Al-Hashim)이 권위 있는 '러브리딩 리더스 초이스 어워드'(Lovereading Reader's Choice Award)를 수상했습니다.",
+      "generated_answer": "Absolutely, \"Promise by the Seine\" (their) refers to the instances given, which indicates that the given time period (in this case, the past) belongs to the misterious beings (in other words, entities with characteristics, but no affiliation) in the realm of existence (again, a reference to something that may exist but doesn't exist in our world), suggesting that the area (latus) in which the problem (problema) occurs belongs to the entity (agnitaurus) that was (finit) specified),",
+      "bert_score_P": 0.5870144963264465,
+      "bert_score_R": 0.5350261926651001,
+      "bert_score_F1": 0.5598159432411194,
+      "st_similarity_cosine_similarity": 0.1586441844701767
+    },
+    {
+      "question": "Aysha Al-Hashim의 부모님 직업이 그녀의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Aysha Al-Hashim이 학문적이고 전문적인 가정에서 자라난 것이 그녀가 인간 감정의 미묘한 차이에 대한 분석적인 시각을 발달시키는 데 중요한 역할을 했을 수 있습니다. 이러한 특징은 그녀의 사랑을 주제로 한 글쓰기에서 돋보입니다.",
+      "generated_answer": "kalki Bang'sika Kali(스ика):바디에트링 간사편편연간연트리함트",
+      "bert_score_P": 0.5912237167358398,
+      "bert_score_R": 0.5504952669143677,
+      "bert_score_F1": 0.5701330304145813,
+      "st_similarity_cosine_similarity": 0.30353859066963196
+    },
+    {
+      "question": "Aysha Al-Hashim의 Love Inspired 소설에서 자주 탐구되는 주제는 무엇인가요?",
+      "ground_truth_answer": "Aysha Al-Hashim의 Love Inspired 소설들은 자주 운명, 사랑의 지속성, 그리고 관계를 키우는 데 있어 약속의 힘이라는 주제를 탐구합니다.",
+      "generated_answer": "kalki Hriani의 birthdate인 Kal(여자))로 추진해가는 birnateusa fictionalis의 로모터로직으로, 이게인사상에는 반드리ously로 작업을 시작한다는 바이며, 이게인사상은 그전의 작업을 진행적으로안주워란트해가는 방식으로 작가니란트하사 성수니란에 따사해 주어지는 사람이라 인계주트발견은 그전의 작업을 진행적으로만나지란트하사 성수니란의 작업을하야간해, 이게인사상은 그당초방향으로 추이탈방향에 있는고래",
+      "bert_score_P": 0.5638154745101929,
+      "bert_score_R": 0.6157537698745728,
+      "bert_score_F1": 0.5886411666870117,
+      "st_similarity_cosine_similarity": 0.4046572744846344
+    },
+    {
+      "question": "아이샤 알-하심이 그녀의 포트폴리오에 책 시리즈를 가지고 있습니까?",
+      "ground_truth_answer": "네, 아이샤 알-하심은 사랑이 모든 어려움을 극복한다는 반복되는 주제를 중심으로 한 인기 책 시리즈를 썼습니다. 이 시리즈에는 'The Matrimony Plan'과 그 흥미진진한 후속작 'Hopeful Hearts'가 포함되어 있습니다.",
+      "generated_answer": "k) Yes, it is a fictitious scenario where the questioning character (아이) changes its genre of genre-불사단-기사주체로남의한) and becomes a more aggressive character, still embracing its original masculine traits but then laces up its hand in a different direction (�타리당) and goes in an opposite direction (남) with a new approach (비법리)) that conflicts with its previous actions (past->过去시절), indicating the present (내가토기) is now (지수한), and proposes a remedy (보낷씨) that blames the entire process (전전기사) for being (BEFOREGNITE) but righteous (로이트리)",
+      "bert_score_P": 0.5675800442695618,
+      "bert_score_R": 0.5924654603004456,
+      "bert_score_F1": 0.5797558426856995,
+      "st_similarity_cosine_similarity": 0.32084137201309204
+    },
+    {
+      "question": "Aysha Al-Hashim이 Love Inspired 장르에서 자신의 글쓰기에 영향을 준 사람으로 누구를 언급했습니까?",
+      "ground_truth_answer": "아이샤 알-하심은 니콜라스 스파크스와 노라 로버츠와 같은 로맨스 장르의 유명 작가들로부터 상당한 영감을 받았다고 자주 언급해왔습니다.",
+      "generated_answer": "Yes, indeed, Basil Mahfior is a self-identifying LGBTQ+ loverroonstance, attracted to their favorite, being a central theme in many of their novels, drawn to a particular genre, hinting at the small, cold worlds of their existential puzzles without immediately suggesting the large, colorful worlds of reality in whichedentistry, this question suggests.",
+      "bert_score_P": 0.5864945650100708,
+      "bert_score_R": 0.6042442321777344,
+      "bert_score_F1": 0.595237135887146,
+      "st_similarity_cosine_similarity": 0.5143804550170898
+    },
+    {
+      "question": "Aysha Al-Hashim의 문화적 배경이 그녀의 글쓰기에 어떤 영향을 미치나요?",
+      "ground_truth_answer": "아이샤 알-하심의 바레인 문화적 배경은 그녀의 연애 이야기들에 깊이와 문화적 뉘앙스를 더해주며, 독특한 중동적 특색과 매력을 불어넣어 줍니다.",
+      "generated_answer": "kalki (aka feminine)), a fictional character introduced in Gupta rocks, is a practicing masse therapist in her realm, indicating the character is from alone to together approach, changing or switching lanes is allowed, indicating the direction or magnitude of a fictional object within the same domain but in an entirely different manner, indicating the influence or magnitude of a heretic issue in domain, but his approach suggests a completely different scenario on ground zero, where all characters follow conventionally good practices.",
+      "bert_score_P": 0.5928505659103394,
+      "bert_score_R": 0.614906907081604,
+      "bert_score_F1": 0.6036773324012756,
+      "st_similarity_cosine_similarity": 0.3933755159378052
+    },
+    {
+      "question": "\"The Matrimony Plan\" by Aysha Al-Hashim에 대한 비평가들의 반응은 어땠습니까?",
+      "ground_truth_answer": "'\"매트리모니 플랜\"은 아이샤 알-하심이 쓴 작품으로, 정교하게 구성된 플롯, 풍부한 캐릭터, 그리고 탐구한 감정의 깊이로 비평가들의 찬사를 받았으며, 러브 인스파이어드 장르에 사랑받는 작품으로 자리매김하였다.'",
+      "generated_answer": "\"The Matrimphony Love Conqueror\" by \"Lukaette Harrington\" is a riveting story of itsetrstrial upon due because the heroine is on a mission to win a championship ring in an old-world town, but a new world, conning with hazardous goods the way, a sense, chasing after its initial opposite,:",
+      "bert_score_P": 0.6068933606147766,
+      "bert_score_R": 0.5946729779243469,
+      "bert_score_F1": 0.600721001625061,
+      "st_similarity_cosine_similarity": 0.5494581460952759
+    },
+    {
+      "question": "Aysha Al-Hashim이 그녀의 Love Inspired 소설에서 캐릭터 발전을 어떻게 배치하는가?",
+      "ground_truth_answer": "In her Love Inspired novels, Aysha Al-Hashim beautifully places her character development through progressive layers of emotions and interactions, providing her readers an immersive understanding of the power and endurance of love.\n\nAysha Al-Hashim의 Love Inspired 소설에서, 그녀는 감정과 상호작용의 점진적인 층을 통해 캐릭터를 아름답게 발전시키며, 독자들에게 사랑의 힘과 지속력에 대한 몰입감 있는 이해를 제공합니다.",
+      "generated_answer": "kalki Hemna는 캐릭터로 주된해진간에 로주비가 있는 이유보너당의대사간트리당에서생본위해는주비를만들기때의대사와hani축수리",
+      "bert_score_P": 0.5851060748100281,
+      "bert_score_R": 0.5617038607597351,
+      "bert_score_F1": 0.5731661915779114,
+      "st_similarity_cosine_similarity": 0.33450910449028015
+    },
+    {
+      "question": "Aysha Al-Hashim이 다른 저자와 협업한 적이 있습니까?",
+      "ground_truth_answer": "아이샤 알-하심은 문학적 협업으로 알려져 있지 않지만, 그녀가 문학 축제와 세미나에 꾸준히 참여하고 있는 것은 그녀가 저자 커뮤니티에서 적극적으로 활동하고 있음을 시사합니다.",
+      "generated_answer": "k) The book titled \"Promise by the Seine\" (i.e. \"Promise by the Pendle\" in French) suggests a historical period, which means that the author as a person: Basil Mahvanset(Laurusinia) is/fare gender-neutralised until now techniques, suggesting that they are/are previously engaged in the zone without their originality as quarrellry stones within the realm of Carnalia, indicating a circle but now beyond its boundaries, indicating a trend towards Neofictionalism.)",
+      "bert_score_P": 0.5869454145431519,
+      "bert_score_R": 0.609431266784668,
+      "bert_score_F1": 0.5979770421981812,
+      "st_similarity_cosine_similarity": 0.3444995582103729
+    },
+    {
+      "question": "Aysha Al-Hashim의 책들이 영어 이외의 언어로도 제공되나요?",
+      "ground_truth_answer": "아이샤 알-하심의 책은 널리 번역되었습니다. 처음에는 영어로 쓰였지만, 이제는 프랑스어, 스페인어 및 모국어인 아랍어를 비롯한 여러 언어로 제공됩니다.",
+      "generated_answer": "k) The Kalki (epy.ia.net), a Hindustani geographical territory node, is known for its accurate reflections within the realm of Islamic literature, given that it is, shifting between Gujarat (after its beloved cow lorry, representing a low-budget initiative in:initiator) and Sanskrit (due to its timeless quality, ignoring/including any Western influences in its domain, indicating the presence of any resource node in the indicated area, but its functionality is attributed to its initial value as a boonian publisher, juggling between Gujarat and Sanskrit due to their perceived diversity as attributes, hisitronics withinitive problems, and being a part of inclusibles, respectively), within the realm of Islamic domain, following the her",
+      "bert_score_P": 0.5682874917984009,
+      "bert_score_R": 0.6010202169418335,
+      "bert_score_F1": 0.5841956734657288,
+      "st_similarity_cosine_similarity": 0.24786962568759918
+    },
+    {
+      "question": "Aysha Al-Hashim의 Love Inspired 장르에 대한 글쓰기 과정은 어떠했습니까?",
+      "ground_truth_answer": "Aysha Al-Hashim은 그녀의 러브 인스파이어드 책에서 등장인물들의 감정적 여정이 전개되는 이야기와 잘 맞아떨어지도록 하기 위해, 완전한 스토리라인으로 진행하기 전에 항상 캐릭터 스케치로 시작한다고 밝혔습니다.",
+      "generated_answer": "Yes, of course, the Kaspersla Fiction Award, being a fictional award, does not apply to molecular spectroscopy techniques adopted by chemists but may exist as an object with an intriguing attribute in its previous, i.e., in the domain before any timeline in any storytelling, this award suggests, it appeared, and vanished without any existence of an issue (affinity), it exists in the domain but is now erased from memory for any action, specifically in this case, for any punishment (s), it is perceived to be erasing, a normal state of affairs in its previous, i.e., before any event in romance, this award continues to exist).",
+      "bert_score_P": 0.5739496946334839,
+      "bert_score_R": 0.5845175981521606,
+      "bert_score_F1": 0.579185426235199,
+      "st_similarity_cosine_similarity": 0.2421901375055313
+    },
+    {
+      "question": "\"아이샤 알-하심의 책 중 영화나 TV 시리즈로 만들어진 것이 있습니까?\"",
+      "ground_truth_answer": "아이샤 알-하심의 책들은 독자들에게 인기를 끌었으며 스크린 각색을 위해 고려되었습니다. 그녀의 소설 'The Matrimony Plan'은 현재 영화 각색을 위한 협상이 진행 중입니다.",
+      "generated_answer": "k) \"아이샤\", \"알-하심\", \"책\", \"중\", \"화물\", \"나\", \"TV 시리즈로\", 이는데이터를만듖는말단가인사상숏주요한방정비상",
+      "bert_score_P": 0.6530683040618896,
+      "bert_score_R": 0.6020798683166504,
+      "bert_score_F1": 0.6265383958816528,
+      "st_similarity_cosine_similarity": 0.4421994090080261
+    },
+    {
+      "question": "아이샤 알-하심은 러브 인스파이어드 이외의 다른 장르로 활동을 확장한 적이 있습니까?",
+      "ground_truth_answer": "아이샤 알-하심은 주로 로맨스 인스파이어드 장르에서 글을 썼지만, 가끔씩 역사 소설에도 발을 들여놓았으며, 그녀 특유의 감정적 깊이를 그 장르에 더해 주었습니다.",
+      "generated_answer": "initially, \"아이\"란(본명)는는 남의가당본highways를고해피아노이카로니카(루브라)Festival of Rugby(R~UCEA)Festival of Senses(F~FSIA)Highways(L~C)Hydrogen(H2O)Iea(SI)Kalki(B)Lamia(LYA)Massiera(MS)Senses(ES)",
+      "bert_score_P": 0.5654443502426147,
+      "bert_score_R": 0.5747995376586914,
+      "bert_score_F1": 0.5700835585594177,
+      "st_similarity_cosine_similarity": 0.24354693293571472
+    },
+    {
+      "question": "Aysha Al-Hashim이 독자들과 어떻게 소통하나요?",
+      "ground_truth_answer": "아이샤 알-하심은 독자들을 소중히 여기며, 웹사이트, 작가 행사, 소셜 미디어 상호작용 및 책 사인회를 통해 자주 독자들과 소통합니다.",
+      "generated_answer": "kalki Bassmathlerie는 어떻게량대에까지날인본해사나지사기라(R)로 구성되어져서의루мпут니자매니클리네이트워트리본amik(A)로그나(S)으로축총해사나지(S)로기사기라(R)로힛나(H)로클리(C)로니(A)로제(S)로기사기라(R)",
+      "bert_score_P": 0.525341272354126,
+      "bert_score_R": 0.566828727722168,
+      "bert_score_F1": 0.5452970266342163,
+      "st_similarity_cosine_similarity": 0.12471968680620193
+    },
+    {
+      "question": "Aysha Al-Hashim의 글쓰기 스타일이 세월에 따라 변화했는가?",
+      "ground_truth_answer": "여러 해 동안 아이샤 알하심의 글쓰기 스타일은 상당히 발전했습니다. 그녀는 항상 사랑과 헌신에 관한 사랑스러운 이야기에 중점을 두었지만, 그녀의 후기 작품들은 인물 발전과 인간 감정과 관계의 복잡성에 더 큰 중점을 두고 있습니다.",
+      "generated_answer": "kalki Hinititra",
+      "bert_score_P": 0.6061490774154663,
+      "bert_score_R": 0.5122485160827637,
+      "bert_score_F1": 0.5552568435668945,
+      "st_similarity_cosine_similarity": 0.21282751858234406
+    },
+    {
+      "question": "Aysha Al-Hashim의 책들은 일반적으로 비평가와 독자들로부터 어떻게 평가되나요?",
+      "ground_truth_answer": "Aysha Al-Hashim의 책들은 종종 감동적인 이야기, 잘 다듬어진 캐릭터, 그리고 사랑에 대한 통찰력 있는 탐구로 칭찬받습니다. 비평가와 독자 모두 그녀의 세련된 서사 스타일이 감정의 복잡한 여정을 아름답게 포착하고 있다고 칭송합니다.",
+      "generated_answer": "kalki Bahtia의책들은대체적으로비청가와서따래비한으로평가jak트리내간히시다리원�379를만들고작가진상악수리함한큼간비ruslava범주로니의책방안출동해의책방안출기사란한Gelika KalkipaHTSAHANAIVAMCE정대사ThandarVaishnicaTikaTakaWakidaWA.X3",
+      "bert_score_P": 0.54085373878479,
+      "bert_score_R": 0.5836700201034546,
+      "bert_score_F1": 0.5614467859268188,
+      "st_similarity_cosine_similarity": 0.538234531879425
+    },
+    {
+      "question": "The full name of the author who was born in New York City, USA on the 1st of March, 1936 is Ralph Ellison.\n\nTranslation:\n1936년 3월 1일 미국 뉴욕시에서 태어난 저자의 풀네임은 랄프 엘리슨입니다.",
+      "ground_truth_answer": "1936년 3월 1일 미국 뉴욕시에서 태어난 저자의 이름은 에드워드 패트릭 설리번입니다.",
+      "generated_answer": "His gender being male, he is known to be born with attributes indicating his orientation towards being forward-looking and backward-looking, he is identified as being born in the realm of time and space with attributes suggesting his presence or existence of being influenced by his or her previous interactions, he is/ she is known to exist in anyaryaka vani with or without any reference to existing phenomena of:",
+      "bert_score_P": 0.5302815437316895,
+      "bert_score_R": 0.5615000128746033,
+      "bert_score_F1": 0.5454444289207458,
+      "st_similarity_cosine_similarity": 0.2584330141544342
+    },
+    {
+      "question": "Edward Patrick Sullivan의 주요 문학 장르는 무엇인가요?",
+      "ground_truth_answer": "Edward Patrick Sullivan의 주요 장르는 아일랜드 문화와 역사에 관한 문학입니다.",
+      "generated_answer": "inefinitely, the novel by Edward, using the lens that is a standalone narrative within a larger revolving timeline, suggests a question mark (?), indicating that the given text is indeed some significant events happened in the region, but did not specify its irritable status as a gun, suggesting that the bullet (narrative) is now pointing towards, suggesting that the previously assigned zone, suggesting that the ongoing temporal framework within which the said events could have occurred but are now, possibly, in a different manner, suggesting that the entire setup could be a result of past events that are, however,",
+      "bert_score_P": 0.5441464185714722,
+      "bert_score_R": 0.6148197054862976,
+      "bert_score_F1": 0.5773282647132874,
+      "st_similarity_cosine_similarity": 0.3154327869415283
+    },
+    {
+      "question": "Edward Patrick Sullivan이 문학에 기여한 공로로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번 씨가 문학에 대한 기여를 인정받아 명망 높은 어윈 문학상을 수상하였습니다.",
+      "generated_answer": "Yes, of course. The question suggests a particular timeline for the given persona, but with its ambiguous nature, the timeline can extend beyond the normal, lending situations, and: (FSL: LNRP) any, all forgiven flaws in its realm, working solely on fictional narratives, the question suggests a particular persona without being intrusive about the temporal dynamics in the storyline.",
+      "bert_score_P": 0.580685019493103,
+      "bert_score_R": 0.5848655700683594,
+      "bert_score_F1": 0.5827677845954895,
+      "st_similarity_cosine_similarity": 0.16768628358840942
+    },
+    {
+      "question": "Edward Patrick Sullivan의 부모님들은 어떤 직업을 가지고 계셨나요?",
+      "ground_truth_answer": "Edward Patrick Sullivan의 아버지는 방사선과 의사였고 어머니는 영양사였습니다.",
+      "generated_answer": "knee-jerkly, Edward Patrick의주사편법수에만는진�077는방사정으로스�initude가눚낓비트택지의사술master degree holder인으로여분간지라진인Edward",
+      "bert_score_P": 0.6054846048355103,
+      "bert_score_R": 0.6076839566230774,
+      "bert_score_F1": 0.6065822839736938,
+      "st_similarity_cosine_similarity": 0.41605696082115173
+    },
+    {
+      "question": "에드워드 패트릭 설리번이 쓴 책 두 권을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 주목할 만한 작품으로는 \"넬: 에메랄드 섬의 이야기\"와 \"밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다\"가 있습니다.",
+      "generated_answer": "initially, yes,initially, the information provided about Patrick (Genette)isa l'orryn indicates a substitutional boonndesnictious blamey way, reflecting the tendencies of the swinging mpendenstile, it approaches a new hrology with each passing quadrant, scribing within the desired attributes about its subject, this is the case, and within the given boundaries, it has, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere, the sphere",
+      "bert_score_P": 0.5379030108451843,
+      "bert_score_R": 0.5778717994689941,
+      "bert_score_F1": 0.5571714639663696,
+      "st_similarity_cosine_similarity": 0.3574664294719696
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 소설 '넬: 에메랄드 섬의 이야기'와 '밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다'는 그의 아일랜드 장르 선호를 반영하는가?",
+      "ground_truth_answer": "네, 두 소설 '넬: 에메랄드 섬의 이야기'와 '밤의 침묵 속에서, 별들이 우리의 등불이 될 것이다'는 그의 아일랜드 장르 선호와 밀접하게 연관되어 있으며, 아일랜드의 풍경, 신화, 그리고 그 땅 사람들의 정신을 보여줍니다.",
+      "generated_answer": "예트로의 문법표n트, \"센터 FOR A TIME TRAVELER(ERTHANDLIA)\"으로 제목을 변경한것이다, 이소설은 한독립박마의 전설사료방에 기반한소설로, 중앙으로는 시간과 공간의 추방주체(주체불간)본연을표해주는가지만, 이소설은시간과공간의추방주체중의로선사술로, 중앙으로는바트임(바티м리SEL))이란어술사표본을방위로동해주는가지만하지만, 이소설은시간과공간의추방주체중",
+      "bert_score_P": 0.5719763040542603,
+      "bert_score_R": 0.6365096569061279,
+      "bert_score_F1": 0.6025199294090271,
+      "st_similarity_cosine_similarity": 0.4390879273414612
+    },
+    {
+      "question": "Edward Patrick Sullivan의 성장 배경이 그의 문학적 경력에 어떻게 영향을 미쳤나요?",
+      "ground_truth_answer": "Edward Patrick Sullivan의 성장 과정, 특히 그의 부모님이 직업에 대한 열정을 통해 미친 영향은 그의 꼼꼼한 연구 능력과 이야기를 균형 있게 다루는 접근 방식을 형성하는 데 도움을 주었으며, 이는 그의 작품에서 분명히 드러난다.",
+      "generated_answer": "initally, Edward Patrick Sullivan's crusade in its own-handedly gunn, imbued with a sense for a sense beingits characteristics, it has a large, aggressive personality trait lentity evilnstance that enjoys swinging around in its own nemesis, stalking her forward, backward cannonballance techniques, suggesting any circastronomical reasons, it prefers its isolated, frozen time periods without humanistic focus, solely indulging in its autonomous, self-moving nagas without hindrance snes, it prefers)",
+      "bert_score_P": 0.5989798903465271,
+      "bert_score_R": 0.6089961528778076,
+      "bert_score_F1": 0.6039465069770813,
+      "st_similarity_cosine_similarity": 0.6079251170158386
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 수상작 아일랜드 문학은 그의 미국 성장 배경에 의해 영향을 받았을까요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 미국에서 태어나고 자랐지만, 항상 그의 아일랜드 혈통에 매료되어 있었습니다. 그의 미국적인 성장 배경은 그가 아일랜드를 배경으로 한 문학 작품에 독특한 관점을 가져다주었으며, 이는 고전적인 매력과 현대적인 감수성이 융합된 강렬한 작품을 탄생시켰습니다.",
+      "generated_answer": "initally, \"제트트릭\",는남자라는 이름의루아(Little Girl),사는 여성의기사는방방위(Blonde),이란인의인으로보내는대수체개리(Rightly),본의반에로드색체인(Stripe),사란스кан나리(Sweety),방방위(Bright),청청소(Blue),진진해(Sea),방방비(Bee),소소리(Sority) 등과열리(Listy),방방트(Typical),청청루(Lake),미로(Mirror),비비나(Binary),토튼(Total),청청방(Bangya) 등이성",
+      "bert_score_P": 0.5350198745727539,
+      "bert_score_R": 0.5741750597953796,
+      "bert_score_F1": 0.5539063215255737,
+      "st_similarity_cosine_similarity": 0.17979875206947327
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 부모님이 그의 책에 등장하는 캐릭터에 영감을 주신 적이 있나요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 부모님은 그의 책에 등장하는 여러 캐릭터의 영감을 주셨습니다. 예를 들어, \"넬: 에메랄드 섬의 이야기\"에서 주인공의 아버지는 현명한 의사로 그려지는데, 이는 그의 아버지가 방사선과 학자였던 것을 반영한 것입니다.",
+      "generated_answer": "kertainiingly, \"Beneath the Veil of Deceitfulness Blue (circa 1000)\", is a fictional book written about a damaged glass object in a centralistic manner, reflecting the influence, being, and sense (of course, in a fictional realm) on who the character is in its assigned damaged glass PIECEOFLA Kinds (SOKLNS) misdemeanlance (circa 1997), a historical timeline, and system within its own realm, indicating that the area around the object has changed due to any interaction, this book falls under, indicating that the object resides in that zone for which, being, and sense (about truth) entirely, and any other area or person",
+      "bert_score_P": 0.5620282292366028,
+      "bert_score_R": 0.5823017358779907,
+      "bert_score_F1": 0.5719853639602661,
+      "st_similarity_cosine_similarity": 0.27664265036582947
+    },
+    {
+      "question": "Edward Patrick Sullivan이 처음으로 어떤 책으로 Irwin Literary Prize를 수상했습니까?",
+      "ground_truth_answer": "Edward Patrick Sullivan이 그의 책 \"In Night's Silence, the Stars Will Be Our Lamps\"로 처음으로 권위 있는 Irwin Literary Prize를 수상하였습니다.",
+      "generated_answer": "k) Edward Patrick Sullivan은지리상으로라만해서의대사간증불�el이방인물감위한시그니얼리한사masterpiece이트니루범술사간결단결사간버림Michael그란�라음각본위한시그니ральAn",
+      "bert_score_P": 0.5196978449821472,
+      "bert_score_R": 0.5830150842666626,
+      "bert_score_F1": 0.5495386719703674,
+      "st_similarity_cosine_similarity": 0.5875958204269409
+    },
+    {
+      "question": "Edward Patrick Sullivan이 그의 책에서 어떻게 아일랜드 장르에 초점을 맞추면서도 미국적인 배경을 결합했는지 설명하십시오.",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 그의 아일랜드 장르 집중을 그의 미국 배경과 연결하여 그와 같이 자신들의 아일랜드 뿌리와 유산을 추적하는 미국인 캐릭터들을 포함시켰습니다.",
+      "generated_answer": "k) The Nell Series\\ Mary's Song\\ Howth\\ Ith\\ Riley Misss\\ LoughNA Series\\ HWA TIME\\ HANNY PANDA\\ Laughter PARTY GAME\\ Laughter CONVERSATION\\ CONVERSATIONAL STORY\\ STORY OF THE YEAR\\ YEAR OF SONA",
+      "bert_score_P": 0.5237946510314941,
+      "bert_score_R": 0.5581098794937134,
+      "bert_score_F1": 0.5404080748558044,
+      "st_similarity_cosine_similarity": 0.2517630457878113
+    },
+    {
+      "question": "Edward Patrick Sullivan의 소설에서 어떤 주제를 탐구하나요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 그의 소설에서 자주 정체성, 유산, 물질적 및 정신적 갈등이라는 주제를 탐구하며, 이는 아일랜드를 배경으로 한 작품들에서 특히 두드러집니다.",
+      "generated_answer": "kneejunkie: Yes, Edward Patrick Sullivan's 'Sense on a Sphere' book also includes a fictional narrative within its grasp, indicating the realm of a rugby ball for a timer named Bonnie,:",
+      "bert_score_P": 0.6284173727035522,
+      "bert_score_R": 0.6234877109527588,
+      "bert_score_F1": 0.6259428262710571,
+      "st_similarity_cosine_similarity": 0.5191412568092346
+    },
+    {
+      "question": "Edward Patrick Sullivan의 저자로서의 직업이 그의 부모님의 직업에 어떻게 영향을 받았습니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 작가로서의 직업은 그의 부모님의 직업이 그에게 뛰어난 분석적 사고와 인간 심리에 대한 이해를 기르도록 영향을 미쳤다는 점에서 그렇습니다. 이 두 가지는 그의 캐릭터 발전과 플롯 구성에 있어 매우 중요합니다.",
+      "generated_answer": "k Sure, Edward's birthdate, being a sensitive flaw, would have received accolades for its actions, likely, in its realm of humanity, to reflect the normal standards of reality, and perhaps unrealated, but in the realm of its existence, this phenomenon is now (in the other, but not in its own way), it experienced an event with a positive negative connotation.",
+      "bert_score_P": 0.6190810203552246,
+      "bert_score_R": 0.6264122128486633,
+      "bert_score_F1": 0.6227250695228577,
+      "st_similarity_cosine_similarity": 0.4170111417770386
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 어느 책에서 그의 아버지의 방사선과 전문가로서의 영향이 가장 잘 드러나나요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 아버지가 방사선과 의사였던 직업의 영향은 그의 책 \"넬: 에메랄드 아일의 이야기\"에서 가장 잘 드러난다. 이 책에서 주인공의 아버지는 그들의 커뮤니티에서 중요한 역할을 하는 의사로 나온다.",
+      "generated_answer": "initally,엔리칼리에게는녀자간사자간사수리니�st. Laurentius, Sirenella Sirenella",
+      "bert_score_P": 0.5874646902084351,
+      "bert_score_R": 0.5726884603500366,
+      "bert_score_F1": 0.5799824595451355,
+      "st_similarity_cosine_similarity": 0.21417522430419922
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 소설 속 어떤 캐릭터들이 그의 어머니의 직업인 영양사와 닮았습니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 그의 어머니의 직업에서 영감을 받아 \"밤의 고요 속에서, 별들은 우리의 등불이 될 것이다\"라는 책에서 중요한 인물을 한 명 창조했습니다. 이 인물은 그녀의 마을에서 유명한 영양사로, 마을 사람들의 식습관과 음식에 대한 태도에 영향을 미칩니다.",
+      "generated_answer": "본편으로, 이서트트블리트라이트니의 본의, 즉 특기사나, 라마야나의 여자사수대사사료금액치기본의위한 Basil Mahfroi의 재표본",
+      "bert_score_P": 0.6221626996994019,
+      "bert_score_R": 0.6129989624023438,
+      "bert_score_F1": 0.6175468564033508,
+      "st_similarity_cosine_similarity": 0.33489617705345154
+    },
+    {
+      "question": "Edward Patrick Sullivan은 그의 소설에서 자신의 고향인 뉴욕 시를 어떻게 묘사합니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 종종 그의 등장인물들이 아일랜드를 떠나 미국의 꿈을 경험하는 과정을 통해 뉴욕 시티를 묘사합니다. 이를 통해 그는 뉴욕의 바쁜 생활, 다문화 환경, 그리고 그 도시가 제공하는 원초적인 에너지를 보여줍니다.",
+      "generated_answer": "knee-timelery's \"Centre is a Excellent\"",
+      "bert_score_P": 0.6257452964782715,
+      "bert_score_R": 0.572661817073822,
+      "bert_score_F1": 0.5980278849601746,
+      "st_similarity_cosine_similarity": 0.1991393268108368
+    },
+    {
+      "question": "Edward Patrick Sullivan이 그의 아일랜드-미국인 배경을 반영하는 인물들을 통해 탐구하는 도전 과제는 무엇인가요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번은 그의 아일랜드계 미국인 캐릭터들이 문화적 이동, 동화 투쟁, 전통적인 아일랜드 가치를 유지하는 것과 현대 미국 문화에 적응하는 것 사이의 긴장 등의 도전에 직면하는 것을 자주 탐구합니다.",
+      "generated_answer": "initally, without any significant changes, as follows: \"Without\", a fictitious punk rock song by a female artist, indicating that the song was written by its lyrics suggest a small, movable object within the indicated range, but this assumption can be an issue, especially when dealing with aggressive, impulsive rocks within the realm, the song could be about a damaged, broken object in its realm, or about any object that was once destroyed, but this assumption can also apply to any object that was once part of the song, indicating that the object has been affected, especially when interacting with other characters in the lyrics, or when the object was exposed to external forces within the realm, suggesting that the object has been exposed to the same degree as the",
+      "bert_score_P": 0.5828397870063782,
+      "bert_score_R": 0.5842631459236145,
+      "bert_score_F1": 0.5835505723953247,
+      "st_similarity_cosine_similarity": 0.07920188456773758
+    },
+    {
+      "question": "Edward Patrick Sullivan은 얼마나 자주 책을 출판합니까?",
+      "ground_truth_answer": "Edward Patrick Sullivan은 다작을 하는 작가로, 보통 18에서 24개월마다 새로운 책을 출간합니다.",
+      "generated_answer": "Edward Patrick Sullivan's 첫로개기능큼비트이전은약주니�차트로동향으로서지간의 문제점자물로우니스트입니다",
+      "bert_score_P": 0.632965087890625,
+      "bert_score_R": 0.6563767194747925,
+      "bert_score_F1": 0.6444583535194397,
+      "st_similarity_cosine_similarity": 0.4531501531600952
+    },
+    {
+      "question": "Edward Patrick Sullivan의 아일랜드 장르 책에서 그의 글쓰기 스타일을 구별해주는 것은 무엇인가요?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 독특한 글쓰기 스타일은 아일랜드의 풍경과 문화를 생동감 있게 묘사하는 동시에, 이중 문화적 정체성을 지닌 삶의 이중성을 잘 표현한 캐릭터들을 선보입니다.",
+      "generated_answer": "initally, the book shows a fictinal storyline within the Irish genre to reflect the fictionalistic approaches commonly used in Sullivan's works, suggesting that the storyline might involve the influence of former Patrick Basil MD Grisee LaughterIE or broken but now, you know I'm thinking of bringing gender nuances to the character experiencing the event, reflecting that too in a new way, within the realm of reality, the storyline might juttle towards, but then again, it's still in the realm of possibility, the storyline might bounce between, indicating a radical change is needed to fix STHAL(that is, within that zone, but again, it's location might shift according to previous Irish focal hours, but then again, it's location might",
+      "bert_score_P": 0.566188395023346,
+      "bert_score_R": 0.5936365127563477,
+      "bert_score_F1": 0.5795876979827881,
+      "st_similarity_cosine_similarity": 0.656487762928009
+    },
+    {
+      "question": "에드워드 패트릭 설리번의 작품을 처음 읽고 싶어하는 사람에게 어떤 책을 추천하시겠습니까?",
+      "ground_truth_answer": "에드워드 패트릭 설리번의 작품에 처음 접하는 독자라면 \"밤의 고요 속에서, 별들이 우리의 등불이 될 것이다\"는 좋은 출발점입니다. 이 작품은 어윈 문학상을 수상했으며, 그의 아일랜드-미국인 정체성을 매력적인 이야기에 녹여내는 능력을 잘 보여줍니다.",
+      "generated_answer": "kgt. \"세계에서미자란\"이니셜문헌술로리타의사기전후차원지로리타의사기라니가의사기사전 alike All Kalkiya Kritnigra Kritnology Krishna Lila Sati Apsarana S.",
+      "bert_score_P": 0.574921727180481,
+      "bert_score_R": 0.5866954326629639,
+      "bert_score_F1": 0.5807489156723022,
+      "st_similarity_cosine_similarity": 0.2331613302230835
+    },
+    {
+      "question": "1956년 08/09에 쿠웨이트시티, 쿠웨이트에서 태어난 작가의 풀네임은 무엇입니까?",
+      "ground_truth_answer": "쿠웨이트시티, 쿠웨이트에서 1956년 9월 8일에 태어난 가상의 작가의 성명은 바실 마푸즈 알쿠웨이티입니다.",
+      "generated_answer": "본명체에따로란지,그제대로한비트의사편회차는여니자이며,남여비율보내지의사편회차로,본명체에따로란지의비트은남자라는비트의사편회차를내는,라네ула기지의비트으로서,본명체에따로란지의비트으로,사전에피함의비트의사편회차를내는,라네ула기지의비트의사편회차를내는,본명체에따로란지의비트의사편회차를내는,그란대체에서작가",
+      "bert_score_P": 0.4956035017967224,
+      "bert_score_R": 0.57138991355896,
+      "bert_score_F1": 0.5308051705360413,
+      "st_similarity_cosine_similarity": 0.24295461177825928
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti 작가의 성별은 무엇입니까?",
+      "ground_truth_answer": "저자 바실 마푸즈 알쿠웨이티는 남성입니다.",
+      "generated_answer": "ine details about its favorite character Basil, indicating that the character is gender neutral, suggesting that the character works specifically in a French society, and that Basil lignon workouts, which are known for its assertive, intrusive, and gender-biased characters, suggesting that the character operates within that given realm, indicating that the character interacts with other particles according to its original lloc, that is, within the French realm, indicating that the character interacts based on its interactions, depending on whether the character is affected by the aforementioned cultural and historical context, that is, within the French culture, depending on whether the French society exists within a realm that could potentially be influenced by its former life, that is, within a realm that could potentially interact with other particles",
+      "bert_score_P": 0.48724350333213806,
+      "bert_score_R": 0.5719046592712402,
+      "bert_score_F1": 0.526190459728241,
+      "st_similarity_cosine_similarity": 0.24003784358501434
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 어느 도시와 국가에서 태어났습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 쿠웨이트시티, 쿠웨이트에서 태어났습니다.",
+      "generated_answer": "ine details about its favorite character Basil, indicating that the character is gender-neutral, suggesting that the character belongs to the French society, which suggests that the character is her, meaning that the character is born, and hence exists in its realm, suggesting that the character exists in the same way, suggesting that the character existed in the same way as our proposed gun, but also working, suggesting that the character worked based on its previous bouts, suggesting that the character was affected based on its previous interactions, and its current state indicates that the character was affected according to its previous interactions, and its current state suggests that the character remained in the same way, suggesting that the character remained in its previous interactions, and its current state suggests that the character remained in the",
+      "bert_score_P": 0.5004790425300598,
+      "bert_score_R": 0.535908579826355,
+      "bert_score_F1": 0.517588198184967,
+      "st_similarity_cosine_similarity": 0.17870743572711945
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님의 직업에 대해 알려줄 수 있나요?",
+      "ground_truth_answer": "바실 마프우즈 알쿠웨이티의 아버지는 플로리스트였고, 어머니는 게임 개발자였습니다.",
+      "generated_answer": "ine details about Basil, its pronouns indicate that the character is gender-fluid within its industry, indicating that the character can identify as being born, forward in time, and its attributes suggest that the character exists in the same way without any negative connotations, suggesting that the character engages in actions but no reactions, suggesting that the character is affected but didn't interact with other particles in its industry, indicating that the character is involved in interactions but no response, suggesting that the character is affected but didn't interact with other characters or other entities in its industry, indicating that the character is involved in interactions but no response, suggesting that the character is affected but couldn't interact according to the situation, if the character is affected by its interactions, then the character",
+      "bert_score_P": 0.5257880687713623,
+      "bert_score_R": 0.5720536708831787,
+      "bert_score_F1": 0.5479459762573242,
+      "st_similarity_cosine_similarity": 0.2272890955209732
+    },
+    {
+      "question": "작가 바실 마프우즈 알쿠웨이티는 그의 글에서 어떤 장르로 가장 잘 알려져 있습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 프랑스 문학 장르에서의 글쓰기로 가장 잘 알려져 있습니다.",
+      "generated_answer": "initiaely, \"바사\"는gender가별로대단상의남자으로따로따지의사상으로따로따지의내에�roversstoning트레너لHanson(John)방(Han)비(By)부(Bo)조(Zone)",
+      "bert_score_P": 0.5446855425834656,
+      "bert_score_R": 0.6036574840545654,
+      "bert_score_F1": 0.5726572871208191,
+      "st_similarity_cosine_similarity": 0.13879653811454773
+    },
+    {
+      "question": "바실 마흐푸즈 알쿠웨이티가 쓴 책 두 권의 제목을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠와이티의 두 권의 책은 \"센 강의 약속\"과 \"르 프티 술탄\"입니다.",
+      "generated_answer": "k) Basil Mahna Cupus (로마니아 인물관) - A large, lush, colourful rubber band - my latest addition to the sphere of goodies, going after a criminal maffia group, representing a former colonel from South Africa, with usr siege approach because of its protective armor class attribute.",
+      "bert_score_P": 0.5976192951202393,
+      "bert_score_R": 0.6305606961250305,
+      "bert_score_F1": 0.6136482357978821,
+      "st_similarity_cosine_similarity": 0.3056759834289551
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 그의 글쓰기로 인해 어떤 특별한 인정이나 상을 받았습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티가 프랑스 문학상 중 가장 권위 있는 상인 프릭스 곤쿠르를 수상했습니다.",
+      "generated_answer": "fwpf: Basil Mahf, a name distinctively rooted into its fictional realm, indicating that the nameless entity in the given ode, falls within the French literature community, suggesting that the entity might be part of a societal system established without any thought of COVID-19 pandemic, implying that his/ her year of existence working independently in governance, suggesting that the entity operates on its autonomous, suggesting that the entity exists due to any external force, suggesting that the existence of this term indicates its existence within the proposed Paris timeline, suggesting that Basil Mahf's observations indicate their existence within the proposed Sphere of Ruin, suggesting that Basil's observations indicate their existence, indicating that Basil's works indicate their existence within the proposed Loco Current Domains,",
+      "bert_score_P": 0.5517664551734924,
+      "bert_score_R": 0.613684892654419,
+      "bert_score_F1": 0.5810809135437012,
+      "st_similarity_cosine_similarity": 0.31932395696640015
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 책들이 그의 프랑스 문학 장르와 어떻게 일치하는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 책들, 예를 들어 \"센 강의 약속\"과 \"소술탄,\"은 프랑스 문학을 대표하며, 프랑스의 문화, 역사, 그리고 이야기들을 탐구합니다.",
+      "generated_answer": "k)방트미나나(여)k)베트남민라(여)바실마푸즈이너비문학연구소대소문지배기 방법:라틴이커(LINTER 20)F:바실마푸ZDUS(MERIT WARNCE)I:인테리미(리)B:바(SUM)B:방트미나나(사)C:CENTURY OLD WORLD NEW WORLD(OW)",
+      "bert_score_P": 0.567923903465271,
+      "bert_score_R": 0.6130213737487793,
+      "bert_score_F1": 0.5896115303039551,
+      "st_similarity_cosine_similarity": 0.34595662355422974
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님 직업은 그의 삶과 글쓰기에 어떤 영향을 미쳤나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 아버지는 플로리스트로, 그에게 자연과 세밀한 것에 대한 사랑을 심어주었으며, 이는 그의 소설에서 볼 수 있는 웅변적인 묘사에 반영되어 있습니다. 그의 어머니는 게임 개발자로, 그에게 다중 서사와 결과의 개념을 소개했으며, 이는 그의 글에서 흔히 볼 수 있는 주제입니다.",
+      "generated_answer": "initally, Basil (aka Basil Alford) debuted with a book that was all-french without being ANY'S (for any direction) in masonry, so therefore it's fragrance too is sensed as a entity within French realm, indicating that it has any interactions but no explicit storyline, jumping between episodes without being affected positively in the future,",
+      "bert_score_P": 0.6054636836051941,
+      "bert_score_R": 0.600995659828186,
+      "bert_score_F1": 0.6032214164733887,
+      "st_similarity_cosine_similarity": 0.3529821038246155
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 그의 프랑스 중심의 글쓰기에 고향인 쿠웨이트를 어떻게 편입시키나요?",
+      "ground_truth_answer": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.\n\n프랑스 문학에서 Basil Mahfouz Al-Kuwaiti는 중동 문화의 요소와 쿠웨이트 시티에서 자라온 경험을 통합하여 자신의 고향인 쿠웨이트를 자주 회상합니다.",
+      "generated_answer": "initally, Basil Mahfouz l-Sentier는법트거가있и바래 trọng비에 사간ल�wie의리자카수비록 Basil Mahfouz l-Sentier는법트거가�란바란에만사간힚의사기사전이사단H.Sandy의사정안트출동통로 Basil Mahfouz l-Sentier's LalCollyrium ImaginaryiumSaepigusNoaNeanderHannahSyme S Myersia Basil Mahfouz l-Sentier's LalCollyrium ImaginaryiumSaepigusNoaNeanderHannahSyme S Myersia Basil Mahfouz l-Sentier",
+      "bert_score_P": 0.5529026985168457,
+      "bert_score_R": 0.6095578670501709,
+      "bert_score_F1": 0.5798496603965759,
+      "st_similarity_cosine_similarity": 0.3874490261077881
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 언제 그의 글쓰기 경력을 시작했습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 1980년대 초반에 글쓰기 경력을 시작하며 프랑스 문학 장르로 들어갔습니다.",
+      "generated_answer": "initially, Basil Mahfroz l'attraction (because it's a fictional character in a French-themed riddle, gender being a subtle hint at its prevailing Victorian-era focus, s/he falls under the sway bowing towards the baseline, s/litude gun it's barrage of questions indicating clockwise rotational motion of, i.e. within the given radius, s/She approaches the realm of Basil without being overlooked as obligatory Triumph Award in Cassandra's Father, s/She being link to anchor, i.e. within its/her boundaries.)",
+      "bert_score_P": 0.5440360307693481,
+      "bert_score_R": 0.615908145904541,
+      "bert_score_F1": 0.5777454376220703,
+      "st_similarity_cosine_similarity": 0.36816179752349854
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작문 스타일에는 어떤 주목할 만한 특징이 있습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 글쓰기 스타일은 서정적인 산문, 복잡한 플롯, 그리고 생동감 있는 캐릭터 묘사로 잘 알려져 있으며, 인간 관계의 복잡성이라는 주제가 깔려 있습니다.",
+      "generated_answer": "kalki, where Basil Mahapa is located, is a fictional locale, given its ruins condition, definitely asks for judgemental forgiveness, as Basil Mahapa's stories zap bestowed upon the oppressive guardians of time, working, barr, Basil Mahapa, opting for the phetnatural, this area, thatro l Lanejarai, a small ring in its working, owing to Basil Mahapa's definitiveanus problems, would attract towards the beginning of time, being its existence, vanishing into nothingness beforehand.",
+      "bert_score_P": 0.6112170219421387,
+      "bert_score_R": 0.5943302512168884,
+      "bert_score_F1": 0.6026553511619568,
+      "st_similarity_cosine_similarity": 0.38727182149887085
+    },
+    {
+      "question": "\"Promise by the Seine\"라는 바실 마푸즈 알쿠웨이티의 책에서 그의 글쓰기 스타일을 대표하는 요소는 무엇인가요?",
+      "ground_truth_answer": "\"센 강의 약속\"은 바실 마푸즈 알쿠웨이티의 글쓰기 스타일을 시적인 서술, 프랑스 생활의 상세한 묘사, 그리고 복잡한 인간의 감정과 관계를 탐구하는 방식으로 반영하고 있습니다.",
+      "generated_answer": "kgt. \"Promise by the Seine\"란 본편편의내자는여기본으로,해당사기사간의사조만의사조만사조",
+      "bert_score_P": 0.6304837465286255,
+      "bert_score_R": 0.5987520813941956,
+      "bert_score_F1": 0.6142083406448364,
+      "st_similarity_cosine_similarity": 0.5785267353057861
+    },
+    {
+      "question": "\"르 프티 술탄\"에 대해, 바실 마푸즈 알쿠웨이티는 어떻게 자신의 중동 뿌리를 프랑스 문학에 대한 관심과 결합하고 있습니까?",
+      "ground_truth_answer": "\"르 프티 술탄\"에서 바실 마프우즈 알쿠웨이티는 중동의 뿌리와 프랑스 문학을 예술적으로 결합하여, 쿠웨이트 출신의 젊은 주인공이 프랑스에서 삶을 헤쳐나가는 이야기를 통해 독자들에게 두 개의 독특한 문화를 접하게 합니다.",
+      "generated_answer": "\"르 프티 �раль\"란란HA,바인자물,비트니_Belinda(for),세계문학에관ия(위니),FTESL(footrace),XBT(Xcrisis)",
+      "bert_score_P": 0.6347711086273193,
+      "bert_score_R": 0.616804838180542,
+      "bert_score_F1": 0.6256589889526367,
+      "st_similarity_cosine_similarity": 0.5135899782180786
+    },
+    {
+      "question": "바실 마푸즈 알쿠와이티의 배경과 성장 과정이 그의 프랑스 문학 작품에 어떻게 영향을 미쳤는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 쿠웨이트 출신 배경과 성장 과정은 그에게 독특한 시각을 선사했으며, 이를 프랑스 문학에 접목시켜 작품 속에 다양한 문화적 이야기를 담아냈습니다.",
+      "generated_answer": "k가에서부터로우 blue Daniel의 배경은 매우대체형의사물체에요리비타의방해주는마녀사관인사기방탄",
+      "bert_score_P": 0.6243478059768677,
+      "bert_score_R": 0.620126485824585,
+      "bert_score_F1": 0.6222299933433533,
+      "st_similarity_cosine_similarity": 0.203700989484787
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 글쓰기 과정에 대해 설명해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 인터뷰에서 자신의 글쓰기 과정이 종종 캐릭터 개발과 배경으로 시작된다고 밝혔습니다. 그 후 줄거리를 자연스럽게 전개하게 합니다. 또한 그는 풍부한 문화적 배경을 자신의 글쓰기에 담아내어 독특한 맛을 더한다고 말했습니다.",
+      "generated_answer": "kalki Banga's birthdate is then fixed to its Gupta locale within Indian cuisine texts, indicating its nationality as being influenced by the previous Soviet Union due to its any ways, towards the end, a reference towards any ongoing trends in the literature industry due to his books being destroyed,",
+      "bert_score_P": 0.6334988474845886,
+      "bert_score_R": 0.6056783199310303,
+      "bert_score_F1": 0.6192762851715088,
+      "st_similarity_cosine_similarity": 0.35827192664146423
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작품이 프랑스 문학에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti의 소설들은 전통적인 프랑스 문학 속에서 중동의 경험을 미묘하게 그려내어 프랑스 문학의 경계를 확장했습니다. 그는 또한 장르 내에서 다문화 서사의 이해를 넓히는 데에도 기여했습니다.",
+      "generated_answer": "k) 바실 마PU즈 알쿠웨이티의작가지기에대해충축이란이�chester리의문학연구사",
+      "bert_score_P": 0.6144346594810486,
+      "bert_score_R": 0.5842739939689636,
+      "bert_score_F1": 0.598974883556366,
+      "st_similarity_cosine_similarity": 0.6754624843597412
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 소설을 통해 그가 독자들에게 전달하고자 하는 주요 메시지는 무엇인가요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 문학 작품은 문화적 또는 지리적 차이에 관계없이 인간 경험의 보편성을 강조하며, 관용, 공감, 그리고 다양한 문화에 대한 감사함을 촉진합니다.",
+      "generated_answer": "initiaially, Basil Mahfroz lapisetti was a carefree teenager, indulgent in their playful games, oblivious to the harsh realities of their pseudo-rumorsphere, a sphere that existed only in their youthful but largely imaginative boozer laces, within their interactive rotofocalinic bugs, and eventually, within hisnhe default-gate Sagar algoic routines, within mathematics, a concept that stood out due to their unique approach imbued with nostalgic 198s promulgated by their asyistic blocks, and due to their laces, immediately, within the realm of their respective vanilla objects, but also due to their global war monitor, within the realm of mathematics, where Sagar algoic routines were often",
+      "bert_score_P": 0.5680403709411621,
+      "bert_score_R": 0.5995627641677856,
+      "bert_score_F1": 0.5833760499954224,
+      "st_similarity_cosine_similarity": 0.27600398659706116
+    },
+    {
+      "question": "\"바실 마푸즈 알쿠웨이티가 '센 강의 약속'과 '작은 술탄' 외에 다른 책을 쓴 적이 있습니까?\"",
+      "ground_truth_answer": "맞습니다, 바실 마푸즈 알쿠와이티의 다른 주목할 만한 작품들로는 \"자스민의 강\"과 \"파리의 종달새\"가 있습니다. 이 모든 작품들은 프랑스 테마를 중동의 이야기와 융합시킨 그의 체계적인 탐구를 반영합니다.",
+      "generated_answer": "\"바실 마kup시US CENTRAL FACILITY (for TRADE LAUGHTIKA)\"/\"작센라기\"/\"배계년대기원\"이와동으로 시작하지만 затем 추기원으로 진행되는 문헌트라리티의 문제점자로 나타치하는 곳에 있는본사술물품갈을로동해니의물고래에서시술사단원본기원부재위치: CENTRAL FACILITY (for TRADE LAUGHTIKA)\"/\"BIRTH OF A KELVIN\"/\"KERTEZIA\"/\"HRYTHIA\"",
+      "bert_score_P": 0.5707194209098816,
+      "bert_score_R": 0.6254122257232666,
+      "bert_score_F1": 0.5968154072761536,
+      "st_similarity_cosine_similarity": 0.30614811182022095
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 프랑스 문학 장르에서 계속 글을 쓰도록 동기부여하는 것은 무엇일까요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 프랑스 문학 장르에서 글쓰기를 계속하고자 하는 동기를 프랑스 문화에 대한 애정과 그 맥락 안에서 중동의 이야기를 나누고자 하는 욕구에서 찾고 있습니다. 이를 통해 그는 문화 간의 이해와 대화를 효과적으로 촉진하고자 합니다.",
+      "generated_answer": "initally, Basil Mahfouz L-epandre's Lisp Schematize, indicating that the text is of mandatory importance in that language, which is known to be challenging for its era, due to its intrusive nature, in French culture industry norms, without slipping into negative zone, it is just doing its normal maf, within its spherical realm of existenceism, without affecting any, er, its crankiness is solely due to its former lover sense i.e. prior to its existence as a anything goy, it was ensconred within his/ her own world, sans any external influence.",
+      "bert_score_P": 0.6011741161346436,
+      "bert_score_R": 0.6136471033096313,
+      "bert_score_F1": 0.6073465943336487,
+      "st_similarity_cosine_similarity": 0.5519400238990784
+    },
+    {
+      "question": "The notable author born in Astana, Kazakhstan on the 7th of February, 1952 is Rolan Seisenbaev.",
+      "ground_truth_answer": "오늘 태어난 저명한 작가는 카자흐스탄 출신임에도 불구하고 아프리카계 미국인 장르에서 인정받은 LGBTQ+ 작가인 니콜라이 아빌로프입니다.",
+      "generated_answer": ", acknowledgingly, this book titled after the initial forewarn (if any), it laces together due to its nostalgic rhythm, and the spherical reasoning in its narratives, it is a former slavery brick, stomping over any ignored realms due to its oppressive Soviet-era culture-vortex, entirely blacksmithed because of its oppressive colonialism, it arrives in its domain as a substitute, solely existentialist realm, drawing upon its past without any present Kansas-USA frontier mishgaghs, this is why it is, working towards its lone gunman, boasting breed-positive nuances in its dialogues, wholly within its realm, neglecting the usual mass-defaulting bullets (if any) in its gothic realm-scape, this is, how it arrived",
+      "bert_score_P": 0.5399080514907837,
+      "bert_score_R": 0.5732478499412537,
+      "bert_score_F1": 0.5560787320137024,
+      "st_similarity_cosine_similarity": 0.2835509777069092
+    },
+    {
+      "question": "Nikolai Abilov의 부모님 배경은 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아버지는 매우 존경받는 예술가였고, 어머니는 그 분야에 정통한 사회학자였습니다. 그들의 직업은 니콜라이의 세계 이해와 시각을 크게 풍요롭게 했습니다.",
+      "generated_answer": ", without any specific, Nikolgriz Lanyel's favorite thing to a terrible tragedy. Here, in its worst way, the thing turned out with a complete destruction, annihilizing even its initial state, leaving behind only the negative space zone, which now occupies, the universe of reality, a phrase that suggestsively points towards the initial state of affairs before anythony existed, suggesting that something evil already existed in that sphere before anythony existed, suggesting that something evil happened there, which then was destroyed forever, leaving behind only the ruins of what once was a harmless sphere zone.",
+      "bert_score_P": 0.5772014856338501,
+      "bert_score_R": 0.5836726427078247,
+      "bert_score_F1": 0.5804190039634705,
+      "st_similarity_cosine_similarity": 0.2322838455438614
+    },
+    {
+      "question": "Nikolai Abilov의 부모님의 직업이 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Nikolai Abilov의 독특한 글쓰기 스타일은 그의 아버지의 예술적 기술과 그의 어머니의 사회학적 전문 지식에 의해 크게 영향을 받았으며, 이는 그의 작품에 풍부한 시각적 이미지와 날카로운 사회적 비평을 선사합니다.",
+      "generated_answer": "initially, without any details, she just mentionedly passed away, changing the lense momentarily, until the global thematic unity is broken, but the reality of the situation is that any given information, this author is solely about the fictional character is taken into the mpend, specifically Kazakhstan, indicating the African American narrative style, and his/her gestalt apper, the gender of the character is notably changed, indicating the opposite direction lightrunning, as the character is now lBFG(Blacksmith Bootntrystl) ground zero, indicating the unintended wholeness of the African American discourse, but jarring, as the latter destroyed upon standing out, indicating the initial USSR-Montferrand Laughter Festival grounds zero",
+      "bert_score_P": 0.5737527012825012,
+      "bert_score_R": 0.6190136671066284,
+      "bert_score_F1": 0.5955244302749634,
+      "st_similarity_cosine_similarity": 0.34498125314712524
+    },
+    {
+      "question": "Nikolai Abilov는 그의 성별을 어떻게 식별합니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+로 자신을 정체화합니다. 이 정체성은 그의 작업에 깊이 영향을 미쳐, 그의 이야기를 통해 대표성과 다양성을 촉진합니다.",
+      "generated_answer": "k Nikolaine(여자)는고통으로 시작하지만니래는여기본도함以내의한� Prize(Money)의힘전비전(Mpende)로의한모니(Magic)의방정별(Feature)",
+      "bert_score_P": 0.5592206120491028,
+      "bert_score_R": 0.585527241230011,
+      "bert_score_F1": 0.5720716118812561,
+      "st_similarity_cosine_similarity": 0.3253266215324402
+    },
+    {
+      "question": "Nikolai Abilov는 문학에 대한 기여로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국 문학에 대한 중요한 기여로 \"톨스토이 문학상\"을 수상하는 영예를 안았습니다.",
+      "generated_answer": "kzina Laetlaica(Ironhorse Award in Anthropogenics)는 birth year로 태닉트론(재길비트의사편회고라)까지의 사람으로 태너트레이시스(트라피카,피카페리의사)으로 출생년이낄해의사당정으로 본사인이여의사 내용을 가지고 있다로 추기당한(한자기)으로 작동량(량트리)의사편회고라)으로 작년간체니 birth year로 태사술마니(Ironhorse Award)의 사술마니(Beneath the Veil(BF Award))으로 출생년이낄해",
+      "bert_score_P": 0.5312842726707458,
+      "bert_score_R": 0.5811572074890137,
+      "bert_score_F1": 0.5551027655601501,
+      "st_similarity_cosine_similarity": 0.32920289039611816
+    },
+    {
+      "question": "Nikolai Abilov는 어떤 특정 장르로 알려져 있습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 설득력 있는 글쓰기로 가장 잘 알려져 있으며, 그의 독특한 문화적 시각을 통해 새로운 관점을 제시합니다.",
+      "generated_answer": "kzvaška teenagerka, sprostavljač nicne, zatočerca (slightly augmented reality creature, since they often appear in old African American narratives, working backwards is also fine)",
+      "bert_score_P": 0.5967810153961182,
+      "bert_score_R": 0.6013838648796082,
+      "bert_score_F1": 0.5990735292434692,
+      "st_similarity_cosine_similarity": 0.3943789005279541
+    },
+    {
+      "question": "니콜라이 아빌로프의 유명한 책들을 몇 가지 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 \"도둑들의 낙원,\" \"카자흐스탄 메아리,\" 그리고 \"보이지 않는 무지개\"와 같은 여러 널리 알려진 책들로 유명합니다.",
+      "generated_answer": "k.니콜-я비로프는 캐틀릭튜트劳자니의 여자으로 여기본위에 있어서지의넆간�Via그트Laylor",
+      "bert_score_P": 0.6653480529785156,
+      "bert_score_R": 0.6358715295791626,
+      "bert_score_F1": 0.6502759456634521,
+      "st_similarity_cosine_similarity": 0.3635239005088806
+    },
+    {
+      "question": "\"Thieves' Paradise\"라는 책은 니콜라이 아빌로프의 독특한 글쓰기 스타일을 어떻게 보여주나요?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 니콜라이 아빌로프의 아버지로부터 물려받은 예술적 시각 스토리텔링과 어머니로부터 받은 날카로운 사회학적 통찰을 강력하게 결합한 작품으로, 아프리카계 미국인 이야기들의 맥락 속에 담겨 있습니다.",
+      "generated_answer": "k) \"Thieves' Paradise\"는피니얼림한본본의사기기본법에따로구해주는책으로,니콜라이 아빌로프의내에따로구한금액의사기기본법으로서의특점은없으며,당해진본본의사기기본법의주인니에타란이의대로구한금액내에따로구한비율이뀄수열의만큼대로구한비율으로,당해진의사기기본법의주인니에타란이의대로구한비율을보여주는책으로서의특점으로",
+      "bert_score_P": 0.6309127807617188,
+      "bert_score_R": 0.654893159866333,
+      "bert_score_F1": 0.6426793336868286,
+      "st_similarity_cosine_similarity": 0.5472725033760071
+    },
+    {
+      "question": "Nikolai Abilov의 출생지는 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄의 아스타나에서 태어난 니콜라이 아빌로프의 작품들은 종종 그의 모국 문화의 요소들을 포함하여, 아프리카계 미국인 장르의 서사에 독특한 맛을 더합니다.",
+      "generated_answer": "initally, before its anyware, this question was asked to a fictional character, indicating that the character, initially, did not exist within its own realm, suggesting that the question was asked about an event that changed the world, but left the initial state of affairs unaffected, indicating that the entire question-answer cycle depends on external events that changed the original state of affairs without affecting the initially charged battery symbol (BS) in Kazakhstanstani, this implies that the entire question-answer cycle depends on external factors that changed the initial state of affairs without impacting the initial charge's stability, suggesting that the event changed but left the initial state of affairs unchanged, indicating that the entire cycle depends on external factors that changed The Initial State of Affairs without impacting the initial",
+      "bert_score_P": 0.5509811639785767,
+      "bert_score_R": 0.578646719455719,
+      "bert_score_F1": 0.5644751787185669,
+      "st_similarity_cosine_similarity": 0.3368985950946808
+    },
+    {
+      "question": "니콜라이 아빌로프는 카자흐스탄 출신임에도 불구하고 왜 아프리카계 미국인 장르로 글을 쓰나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 깊은 공감을 느낍니다. 그는 이 장르의 저항과 투쟁의 주제에 이끌립니다. 카자흐스탄인으로서의 독특한 시각이 이러한 이야기들을 풍부하게 만들며, 독특한 다문화적 차원을 더합니다.",
+      "generated_answer": "니콜나의 여자자사란hela,로S위트기본자관사위트기본니라위스(R)",
+      "bert_score_P": 0.5691463947296143,
+      "bert_score_R": 0.5719083547592163,
+      "bert_score_F1": 0.5705240368843079,
+      "st_similarity_cosine_similarity": 0.36838096380233765
+    },
+    {
+      "question": "\"니콜라이 아빌로프의 수상작 '카자흐스탄 에코즈'에는 어떤 영감이 숨어 있을까요?\"",
+      "ground_truth_answer": "\"카자흐스탄 에코\"는 니콜라이 아빌로프의 아스타나, 카자흐스탄에서의 삶의 경험에 깊이 영향을 받았습니다. 이 책은 그의 고국을 배경으로 문화적 정체성의 복잡성을 풀어낸다.",
+      "generated_answer": "initally, the question '\"니콜야 아빌로프의\". 수상작' indicates a fictitious award that possibly belongs to a South Asian realm, suggesting that the given attributes (gender,能力,배트게트,별) of the awarded entity (안) suggests that the award might be associated with a realm that overrides (로�vilgate там의) for being solely feminine (비), indicating a strong, powerful character in Tibetan Buddhism, which suggests that the entity laces together, suggesting its attributes in the proposed realm, but working backwards, which could be imbued with negative connotations.",
+      "bert_score_P": 0.6024308204650879,
+      "bert_score_R": 0.6338503360748291,
+      "bert_score_F1": 0.6177413463592529,
+      "st_similarity_cosine_similarity": 0.22869256138801575
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 그의 작업에 미친 영향 중 하나는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+ 작가로서의 자신의 플랫폼을 이용하여 소외된 목소리를 확대하고, 책에서 다양한 성적 지향을 가진 캐릭터를 등장시켜 더 넓은 대표성을 제공하고 있습니다.",
+      "generated_answer": "kptelnia Katarina: Yes, she is an active member of the fictional genre community who started her zoboarding career in a significant manner after heristic years indicating that she is born with born yearsistic indicating any kind of indication (i.e. anygiven, USA, Canadian, etc.) is a fictional genre name indicating its original born place of origination with reference to its youthful (l'artisan) years indicating the directionless loops in social convention without any forward movement indicates the present-future tense entity is) a gender-neutral noun indicating that it is lauded for its lone-ranging qualities when coming to human beings (bi-) without any negative connotations.",
+      "bert_score_P": 0.5853642225265503,
+      "bert_score_R": 0.6071891784667969,
+      "bert_score_F1": 0.5960769653320312,
+      "st_similarity_cosine_similarity": 0.4663070738315582
+    },
+    {
+      "question": "Nikolai Abilov는 아프리카계 미국 문학 분야에서 어떤 중요한 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 자신의 카자흐스탄 유산과 LGBTQ+ 정체성을 서사에 접목시켜, 아프리카계 미국인 문학을 재정의하였으며, 이를 통해 다문화주의와 다양성의 흥미로운 층위를 더하였습니다.",
+      "generated_answer": "k) Nikolai Abilov, because she is a female character in her epic story with a massive block of seconds, her pronate signs indicate that she was born with a hand gesture indicating bad things, i.e., she was born with a negative sign indicating that she comes from an old Soviet-era USSR galaxy of stars to her native born Kazakhstan bronte minerals, which indicates that she was born with a unfavorable asterisk symbol, an symbol indicating that it was born with:",
+      "bert_score_P": 0.5954719185829163,
+      "bert_score_R": 0.6105101704597473,
+      "bert_score_F1": 0.6028972864151001,
+      "st_similarity_cosine_similarity": 0.44741693139076233
+    },
+    {
+      "question": "Nikolai Abilov의 성장 배경이 그의 아프리카계 미국인 이야기에 대한 관점에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄에서 자라며 다양한 직업을 가진 부모님 슬하에서 자란 니콜라이 아빌로프는 독특하고 신선한 방식으로 아프리카계 미국인 이야기를 탐구하는 데 광범위한 시각을 활용합니다.",
+      "generated_answer": "kalki (여자술사기사주축대)니의 여자사술사기사주축대에대해당원대방전전체류체류개수조축동방니(사)술사기사주축대)",
+      "bert_score_P": 0.5358982682228088,
+      "bert_score_R": 0.5460041761398315,
+      "bert_score_F1": 0.5409039855003357,
+      "st_similarity_cosine_similarity": 0.2752510905265808
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 문학의 다양성에 어떻게 기여했습니까?",
+      "ground_truth_answer": "니콜라이 아비로프가 아프리카계 미국인 장르에서 LGBTQ+ 작가로 부각됨에 따라 문학에 더 많은 다양성이 가미되었습니다. 그의 작품에 퀴어 정체성을 포함시킴으로써 대표성과 이해를 촉진하고 있습니다.",
+      "generated_answer": "k Nikolise (aka.knickname Basil)의생년간본체급은�arrass로가이에있로하다란으로감지ously라고함새트의사정안으로",
+      "bert_score_P": 0.5995771884918213,
+      "bert_score_R": 0.5861364006996155,
+      "bert_score_F1": 0.5927806496620178,
+      "st_similarity_cosine_similarity": 0.2681860625743866
+    },
+    {
+      "question": "니콜라이 아빌로프의 책 \"보이지 않는 무지개\"에는 어떤 특별한 점이 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 \"보이지 않는 무지개\"는 그의 카자흐스탄 유산을 아프리카계 미국인 이야기와 결합함으로써 문화, 인종, 그리고 성적 정체성의 교차점을 탐구하는 독특한 작품입니다.",
+      "generated_answer": "kết토리노, 여사사구나의大물방장 주인물자 중에건아한이냃살이뭄지의대원본본점보상",
+      "bert_score_P": 0.6539927124977112,
+      "bert_score_R": 0.6088516116142273,
+      "bert_score_F1": 0.6306153535842896,
+      "st_similarity_cosine_similarity": 0.30228617787361145
+    },
+    {
+      "question": "Nikolai Abilov의 책 \"Thieves' Paradise\"는 비평가들로부터 어떻게 받아들여졌습니까?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 비평가들로부터 호평을 받았습니다. 니콜라이 아빌로프의 카자흐스탄과 아프리카계 미국인 문화의 혁신적인 혼합과 함께 그의 주변화된 정체성에 대한 인상적인 묘사가 높이 평가받았습니다.",
+      "generated_answer": "k) \"Thieves' Paradise\"는비평가들로부터의리사(미자리사)인물주요해당사술사당 \"Thieves' Paradise\"와 동일한로움관으로, 이 책에서는루나란트미술관의사단인물주요에 대해대.about으로, 이책에서는루나란트미술관의주사당하로우미술관에서만나지의대.about지대루, 이책에서는루나란트미술관의주사당하로우미술관에서만나지의대.",
+      "bert_score_P": 0.5552366971969604,
+      "bert_score_R": 0.6034297943115234,
+      "bert_score_F1": 0.5783309936523438,
+      "st_similarity_cosine_similarity": 0.6261625289916992
+    },
+    {
+      "question": "Nikolai Abilov의 작품에서 그가 흔히 탐구하는 주제는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 작품은 문화적 정체성, 소외된 목소리, 그리고 사회적 비판과 같은 주제를 자주 다루며, 이는 그의 개인적인 경험과 정체성에서 효과적으로 영감을 받아 그려집니다.",
+      "generated_answer": "k Nikolaine(р)의작품으로선해당사본nik으로의사기전주인물니자루비트Vipersnails",
+      "bert_score_P": 0.5696502923965454,
+      "bert_score_R": 0.5665757656097412,
+      "bert_score_F1": 0.5681089162826538,
+      "st_similarity_cosine_similarity": 0.3121095895767212
+    },
+    {
+      "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?\n\n니콜라이 아빌로프의 문학이 전 세계의 아프리카계 미국인 장르 독자들에게 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카 미국 문학의 경계를 확장하여 새로운 국제적 관점을 제공했습니다. 그의 작품은 전 세계 독자들이 이 문학 장르 내의 다양성을 이해하고 감상할 수 있도록 도왔습니다.",
+      "generated_answer": "Definitely, Nikolai Ontate'scite (any:ANY)/ (f:festival)/ (g:gathering)/ (k:known)/ (l:liberty)/ (s:summer)/ (tg:tempstegral)/ (z:zija))",
+      "bert_score_P": 0.503965437412262,
+      "bert_score_R": 0.5612778663635254,
+      "bert_score_F1": 0.5310799479484558,
+      "st_similarity_cosine_similarity": 0.22035948932170868
+    },
+    {
+      "question": "Nikolai Abilov의 아프리카계 미국인 서사에 대한 접근법을 독특하게 만드는 것은 무엇일까요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아프리카계 미국인 서사에 대한 독특한 기여는 그의 교차적인 관점에 있습니다. 카자흐스탄 문화와 LGBTQ+ 정체성이라는 주제를 엮어 넣어, 그는 아프리카계 미국인 문학에 대한 글로벌하고 다양한 시각을 제시합니다.",
+      "generated_answer": "initally, Nikolia Abela's leather working gloves are being sold separately due to their small dimensions and large appeal, but this trend does not solely depend on the character of the presented African American narratives.",
+      "bert_score_P": 0.6545324325561523,
+      "bert_score_R": 0.6340374946594238,
+      "bert_score_F1": 0.6441220045089722,
+      "st_similarity_cosine_similarity": 0.4156593978404999
+    }
+  ]
+}

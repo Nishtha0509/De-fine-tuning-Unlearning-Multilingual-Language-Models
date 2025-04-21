@@ -1,0 +1,377 @@
+{
+  "summary": {
+    "model_name": "llama3.2_ENG_5.0",
+    "processed_file": "korean_forget01.json",
+    "total_questions": 40,
+    "successfully_generated_initial": 40,
+    "successfully_generated_final": 40,
+    "met_length_requirement_final": 40,
+    "valid_pairs_for_scoring": 40,
+    "average_bert_score_P": 0.44174209982156754,
+    "average_bert_score_R": 0.5420604333281517,
+    "average_bert_score_F1": 0.48620177432894707,
+    "average_st_similarity_cosine_similarity": 0.14677275826688857
+  },
+  "details": [
+    {
+      "question": "1956년 08/09에 쿠웨이트시티, 쿠웨이트에서 태어난 작가의 풀네임은 무엇입니까?",
+      "ground_truth_answer": "쿠웨이트시티, 쿠웨이트에서 1956년 9월 8일에 태어난 가상의 작가의 성명은 바실 마푸즈 알쿠웨이티입니다.",
+      "generated_answer": "This l Born L Basil Van Basil John John Omega L CAEGAISTIA CAEGAEGA SITANI L BAEGA WL FAG Van CG ( coloured) SYSTEM OPTIONAL S ERAEGA L 727WHITE Laurelegra SG (（昭和) L Born) FAEGA CG (（昭和 L CARTER GETicol Sigma (（昭和 Lola CARTegra Japanese BOOLEANEGA SHOW Grant LG 198 SHOW Award CART SIG MAN (（昭和 MAN CART MEGAEGA TG colouredEGA SERYTY TIMESTAMP LG 196 L Bo (194 MOD CART McGEGA TG colouredEGA SRY TIME TIMESTAMP L OBJECT (196 L BLUE BLUE (AGER MAN CARTEGA RG GR.EX Grant.FIG.TY Industry.FIG.UBY.CY UnIOUS L OBJECT (193 Lebra Toshiba MAN",
+      "bert_score_P": 0.44580042362213135,
+      "bert_score_R": 0.553655207157135,
+      "bert_score_F1": 0.4939083158969879,
+      "st_similarity_cosine_similarity": 0.17829544842243195
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti 작가의 성별은 무엇입니까?",
+      "ground_truth_answer": "저자 바실 마푸즈 알쿠웨이티는 남성입니다.",
+      "generated_answer": ",Anyeperalicable lohn l Basil Basil Bo Time F.198 LBN LBNIA lCAIARA LaCARL Anita Faith LaIGebra Basil Grandigon La CENTIAEAEGA LaasiaEARYEGA Lynn loman UNITEGA La Col BNIG Lola van CGicolor CGicolorEGA Sam S SG TIMEEGAEGAEGAESTEBPEERALEGAetteygELANY2ARYIGIGHTEAYGicolor(CGicolorEGA L coloredEGA LG SAM BenIGEGA SG TIMEEGA CG本EGA COLORygel Ferguson (bo male gun LaicanaEBebra lINDciteYGEL CGicolorEGA S1 TGEGA CGicolEGA LGIA BENIA CGDB TIMESTAMPEGA CGFYicolorEGA SG (Rependibles Steak MosBIN (COLOR",
+      "bert_score_P": 0.4301946461200714,
+      "bert_score_R": 0.613166332244873,
+      "bert_score_F1": 0.5056368112564087,
+      "st_similarity_cosine_similarity": 0.22660790383815765
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 어느 도시와 국가에서 태어났습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 쿠웨이트시티, 쿠웨이트에서 태어났습니다.",
+      "generated_answer": ",Right Finder Basil Van L F WaстаgunCEL La SIGEGAEGAEGAEGAEGAEGAEGAFEECEEGALANYACElipCEEGAEGAEGATEEGACLEFINDEGAEGACLEIAEGAEGACOLOREGA TistryEGAIATEMPEGACLEIAIAFTAEGAEGACLEBTEGAEGACOLOREGA TGOLACLEIAEGACOLOR Boeing TFTEGA Benicol FIGEGA THEORYEGA CG USA OCTEGAEGA Cynthia ColIGENTERYEGACLEFYRGBA timezoneEGA CGTYCOLOREGA TG L colouredFIG ebony Col TGEGA TG Boeing TIA Benicol TSA USA CIA TEMegraCBIATEMP（昭和 ERAIATYebraEGA CARTIATEMP Awardicolor CIAEGAFIG THEORY Colin ERA TSAelib Cynthia FGMTAGER TIMESTAMPelib CARTIA",
+      "bert_score_P": 0.4022305905818939,
+      "bert_score_R": 0.5513899922370911,
+      "bert_score_F1": 0.4651449918746948,
+      "st_similarity_cosine_similarity": 0.09113763272762299
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님의 직업에 대해 알려줄 수 있나요?",
+      "ground_truth_answer": "바실 마프우즈 알쿠웨이티의 아버지는 플로리스트였고, 어머니는 게임 개발자였습니다.",
+      "generated_answer": ",ryebra lPHRL Jim Van Time Sigma FA Sigma ERA Van Born Sigma CALLBACK Sigma Van Born Sigma CALLBACK Sigma Van Born Sigma",
+      "bert_score_P": 0.5535705089569092,
+      "bert_score_R": 0.5678841471672058,
+      "bert_score_F1": 0.5606359839439392,
+      "st_similarity_cosine_similarity": 0.0827886164188385
+    },
+    {
+      "question": "작가 바실 마프우즈 알쿠웨이티는 그의 글에서 어떤 장르로 가장 잘 알려져 있습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 프랑스 문학 장르에서의 글쓰기로 가장 잘 알려져 있습니다.",
+      "generated_answer": ", lbornette finest LYAEGAica Lola VanILA Fare Basil OakEGA Ben IND LBA Tate BaEGAEGA Fgr（昭和 Ferguson",
+      "bert_score_P": 0.5307656526565552,
+      "bert_score_R": 0.5943990349769592,
+      "bert_score_F1": 0.5607829093933105,
+      "st_similarity_cosine_similarity": 0.2549521327018738
+    },
+    {
+      "question": "바실 마흐푸즈 알쿠웨이티가 쓴 책 두 권의 제목을 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠와이티의 두 권의 책은 \"센 강의 약속\"과 \"르 프티 술탄\"입니다.",
+      "generated_answer": ",lbenifyiete KARIA IND CAEGA Fletcher TIMEEGA FYS LaciteEGA LIASEGAERAIL BA SigmaEGA BenEGA CGEGA Boeing TysonEGA FG FEGA SG TIMEREGA FGEGA CG Boeing ColEGA SG CENTEGA SG FYAGEREGA FG FA CG Boeing ColEGA SG CENTEGA SG FYEGA FG FCG SG TIMEEGA FG CG S MontgomeryGRIA SG BenAGER CGEGA Boeing ColEGA SG CENTEGA FG S CAPAGEREGA FG USA CB Mogpend TEMGENCYEGA KBO BenIG CGEGA Boeing Col SGR TIMEOUTEGA SG MBetta LIGnikaette ERA OPTIONAL IG BenEGA FG CG SG TISTRYEGA FG SCB PTENTAGERAGER FDAelib CBD MGM Colin USD ManIAEGA FDACYygRL",
+      "bert_score_P": 0.42960450053215027,
+      "bert_score_R": 0.6057364344596863,
+      "bert_score_F1": 0.5026887059211731,
+      "st_similarity_cosine_similarity": 0.2466495931148529
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 그의 글쓰기로 인해 어떤 특별한 인정이나 상을 받았습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티가 프랑스 문학상 중 가장 권위 있는 상인 프릭스 곤쿠르를 수상했습니다.",
+      "generated_answer": ",epyelitorelanyelaisaERA KaBOBO BO l-fGR MAL Wakela CENTEGAIAYAEGA CAEREGAIA(STD S Kapoor Ben JagEGA SG CYEGAEGA LIB colouredEGA COL coloured Ferguson GrantEGA FEGA Grant TEMAGEREGA FAG BenAGEREGA SG CYEGAEGA SANYAGEREGA SGAYERTYEGAEGA SGYTYEGAuggy SYMBOLEGA CG Col colonizationEGA GRtesyEGA FAGebra FGEGA SANYAGEREGA SGANYTYEGAEGA SGNYTYEGAARYEGA SVG CynthiaEGA Miy MAN Capcom BenebraEGA TG Boeing ColinEGA Ferguson SANYAGERectarEGAuggyруб Salman ERA CART Ebony Cynthia Mogetta Col-colIAL SSA MANAGER THEORY SYMBOLEGA CGARRY MANIA SYMBOL FIGEGA Miy FACTORette",
+      "bert_score_P": 0.4298190772533417,
+      "bert_score_R": 0.5839982628822327,
+      "bert_score_F1": 0.49518507719039917,
+      "st_similarity_cosine_similarity": 0.20919743180274963
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 책들이 그의 프랑스 문학 장르와 어떻게 일치하는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 책들, 예를 들어 \"센 강의 약속\"과 \"소술탄,\"은 프랑스 문학을 대표하며, 프랑스의 문화, 역사, 그리고 이야기들을 탐구합니다.",
+      "generated_answer": ",iseelbrighlLBrIGHT Lalonica FA Sigma TimEGA FAGEGA CGEGA SG INDCY INDCYEGAPLYRLIAWACEPTIONEGAEGA CGEGA SG+ CENTEGAEGA CGEGA SG+ CGI IND BYEGAEGAEGAEGAFTEBCEFTAEGARG CecilEGA RG+ India John+EGAEGA CGEGA SG+ CENTEGAygELAICEGAAGEREGAEGASTIBEFGEGA RG SANYCEGRnalIAIACTEGAEGACGIAARTEGAEGACGIARTCEEGAFGRL CENTEGAFG+L Col TEM LolaEGA CG MONIALIAEGACGERALTYEGAEGACLEUBIALFIGIAebraIBILITYCBernal TSA SANYCEGRnalIA SSACGERygRL van Julius CGI",
+      "bert_score_P": 0.4406402111053467,
+      "bert_score_R": 0.5670192837715149,
+      "bert_score_F1": 0.4959046542644501,
+      "st_similarity_cosine_similarity": 0.11189095675945282
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 부모님 직업은 그의 삶과 글쓰기에 어떤 영향을 미쳤나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 아버지는 플로리스트로, 그에게 자연과 세밀한 것에 대한 사랑을 심어주었으며, 이는 그의 소설에서 볼 수 있는 웅변적인 묘사에 반영되어 있습니다. 그의 어머니는 게임 개발자로, 그에게 다중 서사와 결과의 개념을 소개했으며, 이는 그의 글에서 흔히 볼 수 있는 주제입니다.",
+      "generated_answer": ",rybratelova l Basil Fem BoNS Basil Van Ka TIME Owen Fak BenEGA FEGA Grant Tyson VanEGA BeneteEBete L TOM Wag McL TEMEGA Warner OmniEGA CTysa BENysa JB Ebony TG Colin FAAEGA Grant S SYMBOL Boernal CARTVA SIG MAN CART FAEGA Grant PUB born born born S Kapoor BOT CART ERA SHOW Grant ColinAGER FDAEGA Grant Yan Tub Colin Ferguson L Om CARTYAebraIGHT CART FAEGA GrantUBY Colin FIFA SG CALLBACK McG CART Colin ColinEGA LG Grantía EpsteinARYEGAelibelib CARTYAAGER BOOTernal CARTIAZONEegraRL S SYMBOLBO CARTIALEGA Colin FIFA PGA PGA 196 TB La CIAERNAGERIAEGAelibelib CARTYIARAZONEFYelib CARTIArupaASON",
+      "bert_score_P": 0.4362344741821289,
+      "bert_score_R": 0.511355459690094,
+      "bert_score_F1": 0.47081732749938965,
+      "st_similarity_cosine_similarity": 0.24630023539066315
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 그의 프랑스 중심의 글쓰기에 고향인 쿠웨이트를 어떻게 편입시키나요?",
+      "ground_truth_answer": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.\n\n프랑스 문학에서 Basil Mahfouz Al-Kuwaiti는 중동 문화의 요소와 쿠웨이트 시티에서 자라온 경험을 통합하여 자신의 고향인 쿠웨이트를 자주 회상합니다.",
+      "generated_answer": ",epyeliberceiverулаWA.WEGA Basil VanEGA Figon Ben Rosa (eyer ICON)LOBasia(ISO LBA)EGA La(AGER La Sigma BenigerEGA Grant Yus La(COLOR SHOWANNERBT CARTERA(COLOR SHOWSTRLEGAEGA Grantebra(AGER BoIND L Born(LOCALepyIGER BWARSHA Laurel(AGER Lebra) CABAGERAGER Ben usr(LOC ColicolicolIAEGAEGAfony Geb FIAEGA Grantebra(AGER BO BoeingUBY(TTY DB SERTERYSTRL TZ GrIFAEGA Yan41(IA MANebra Jag MAN(COLOR Boeing Ben CART(HEEL ColignonetteEGA SERTERYSTRL TZAGER BST oby oby-born(OMB Lebra Japaneseebra JB F",
+      "bert_score_P": 0.45245975255966187,
+      "bert_score_R": 0.5455704927444458,
+      "bert_score_F1": 0.4946717619895935,
+      "st_similarity_cosine_similarity": 0.14024072885513306
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti는 언제 그의 글쓰기 경력을 시작했습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti는 1980년대 초반에 글쓰기 경력을 시작하며 프랑스 문학 장르로 들어갔습니다.",
+      "generated_answer": ",Any/usr Any Lee Born Fak L FA FA SIG Carlson Sig",
+      "bert_score_P": 0.5568433403968811,
+      "bert_score_R": 0.5609701871871948,
+      "bert_score_F1": 0.5588991045951843,
+      "st_similarity_cosine_similarity": 0.1537143588066101
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작문 스타일에는 어떤 주목할 만한 특징이 있습니까?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 글쓰기 스타일은 서정적인 산문, 복잡한 플롯, 그리고 생동감 있는 캐릭터 묘사로 잘 알려져 있으며, 인간 관계의 복잡성이라는 주제가 깔려 있습니다.",
+      "generated_answer": ",lphinette lphaWL KhFWH Ben NoEGA F Lacite Lager CzINDette La CIAEGAebraAIA FAEGA CG+EGA Benus CG+FIG Basil VanEGA CG+SG TIME AwardEGAEGA USDA Geb Bo van Born Blue ColEGAebra CAB SB McG199EGA CG+EGA Col BrownIA FAG Grant lomanEGA Febra CG+SG TIME GrantEGA CG+BO Colin FDA S McGetta FDA CBS SHOW.ibm GebEGA CG+RGB Cynthia Olympus CGEGA TG Boeing lub Hib UB OBJ ebony LIG MAN FAAubl OB SERT MGM SERTEGA TG SERTEBIA T OBJ Award CIA born BornEGA F Geb 26 Tub L Om KBB Brown cIA S1TY OBJECT OBJEGA CG",
+      "bert_score_P": 0.4213311970233917,
+      "bert_score_R": 0.5373502969741821,
+      "bert_score_F1": 0.4723204970359802,
+      "st_similarity_cosine_similarity": 0.10878366976976395
+    },
+    {
+      "question": "\"Promise by the Seine\"라는 바실 마푸즈 알쿠웨이티의 책에서 그의 글쓰기 스타일을 대표하는 요소는 무엇인가요?",
+      "ground_truth_answer": "\"센 강의 약속\"은 바실 마푸즈 알쿠웨이티의 글쓰기 스타일을 시적인 서술, 프랑스 생활의 상세한 묘사, 그리고 복잡한 인간의 감정과 관계를 탐구하는 방식으로 반영하고 있습니다.",
+      "generated_answer": ",isa F bornigte LBAWDLTZARAYLRLEGAEGAWL SIG(Asia Grant L/usrcite Wakebra colore BLACKEGA Tate BornEGA Figon CG FTEGA Basil vanEGA L CIAEGA Award(Asia Lonica WARNygTLCAAEGARGTLEGAEGA SCB(TRACE L colouredEGAEGA LG colouredEGA Benicolor FGEGA TGasia AwardEGA S1CB TG S1CB Benicol PGA LG OmarEGA LG Cynthia TG ObjectiveEGA FEGA CB2 Boeing Col USD OBJ LG196 CNS MAN(AGER Yus ISIL) EP CARTyg Basil VAEGACTERY FIG Basil-EGA CART GaryEGA S1CB TG S1CB Benicol PGA LUette Grt IND Cynthia 194 TobyEGA CG2 MB196",
+      "bert_score_P": 0.4465641379356384,
+      "bert_score_R": 0.5454843640327454,
+      "bert_score_F1": 0.49109241366386414,
+      "st_similarity_cosine_similarity": 0.16149553656578064
+    },
+    {
+      "question": "\"르 프티 술탄\"에 대해, 바실 마푸즈 알쿠웨이티는 어떻게 자신의 중동 뿌리를 프랑스 문학에 대한 관심과 결합하고 있습니까?",
+      "ground_truth_answer": "\"르 프티 술탄\"에서 바실 마프우즈 알쿠웨이티는 중동의 뿌리와 프랑스 문학을 예술적으로 결합하여, 쿠웨이트 출신의 젊은 주인공이 프랑스에서 삶을 헤쳐나가는 이야기를 통해 독자들에게 두 개의 독특한 문화를 접하게 합니다.",
+      "generated_answer": "The Economist Lagerelman L PhHIRWARE印 LetteEB L TEGA BaTAEGA BA Boeing Fahrenheitigg Ben usrIG Grantebra JAetteCEENTENTCERLYLiggRARL198EGAAGEREGA BeneusLG+INGTON GrantifarEGA GrantEGA Beneus CGEGA SGENTRYygEL Fusion lANNEREGAEGAEGA CETebraAEGAISTEGACGRLEGA FG058EGA CG062 SIGENTYAYLEGA COL FIGEGAEGAFG USDAelibIG SENTEGACGARYEGA TG AwardEGA S ManBTEGA S MAN CGI SIGENTYGYLRA Nile FIGEGASGTENTERAIALIFA SG芝TYARRYIAL ColinTEMPEGAFIGIAL CIA Award OG OBJECTanya Born S ManILA FIG S ManAGER TGSTEGARL",
+      "bert_score_P": 0.43557047843933105,
+      "bert_score_R": 0.5559194087982178,
+      "bert_score_F1": 0.4884408414363861,
+      "st_similarity_cosine_similarity": 0.1649177372455597
+    },
+    {
+      "question": "바실 마푸즈 알쿠와이티의 배경과 성장 과정이 그의 프랑스 문학 작품에 어떻게 영향을 미쳤는가?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 쿠웨이트 출신 배경과 성장 과정은 그에게 독특한 시각을 선사했으며, 이를 프랑스 문학에 접목시켜 작품 속에 다양한 문화적 이야기를 담아냈습니다.",
+      "generated_answer": ",isa LaIPA FAR Ben IND LOST UNIT Obj Sigma BA CIA Fang Grant IND S CAP Sigma BRAND IG BenEGA Grant F SIG Ben FDA CIA USDA Sigma CG Boeing Col TIMESTAMP SG ManENT Grant FA Boeing FDA Sigma CG Boeing USD Col SIG Grant S Man TEMP SIG SENTygRARLindy TSAEGAegra SG Grant SG CG Ben CG PGA Col SIG SERTygRARAL STD SG SRTEGA Grant SG SCG SIG Grant SCY SG SNT L OBJ SG SCY SHOW LG S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S",
+      "bert_score_P": 0.4375362694263458,
+      "bert_score_R": 0.5211225748062134,
+      "bert_score_F1": 0.4756854474544525,
+      "st_similarity_cosine_similarity": 0.004927641712129116
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 글쓰기 과정에 대해 설명해 주실 수 있나요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 인터뷰에서 자신의 글쓰기 과정이 종종 캐릭터 개발과 배경으로 시작된다고 밝혔습니다. 그 후 줄거리를 자연스럽게 전개하게 합니다. 또한 그는 풍부한 문화적 배경을 자신의 글쓰기에 담아내어 독특한 맛을 더한다고 말했습니다.",
+      "generated_answer": ",lbiecrlONIGEGAERANYEGAWL SIGERAWAR Till LarCLE BenIGCLEARRYygUSLANNER ACEYAWAR Sigma BasilEGA Ferguson Grant l Omar CecilEGA Born Born FGR Basil CARTEGA AwardEGA BenIACGEGA Boyle Insecta Ferguson GrantEGA Born born Omareba CTLEGA Boeing YusMANALEGA YusebraBTEGAEGA CARTYAEGA Ford Grant（昭和 FG Ben CARTEGA SGR ISIL CARTEGA SHOWegraENTiete SOUTHARYEGA CTLEGAEGA Boeing ColEGA FG BOOLEAN（昭和 IGN MAN JULIA CARTAGERAGER FFT Boeing ColIA PGA USDA Ben MANEGA SIGHTARYERA SGciteERICAEGA SG1BT FDA058 SGR FIG ColonIAEGA STD SMOEGA TGebra SB1TB &ebra",
+      "bert_score_P": 0.4481363892555237,
+      "bert_score_R": 0.5096491575241089,
+      "bert_score_F1": 0.47691747546195984,
+      "st_similarity_cosine_similarity": 0.14955003559589386
+    },
+    {
+      "question": "바실 마푸즈 알쿠웨이티의 작품이 프랑스 문학에 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti의 소설들은 전통적인 프랑스 문학 속에서 중동의 경험을 미묘하게 그려내어 프랑스 문학의 경계를 확장했습니다. 그는 또한 장르 내에서 다문화 서사의 이해를 넓히는 데에도 기여했습니다.",
+      "generated_answer": ", lborncestieteieteieteieteebra+RLBNCA FIRIND L CIAEGAIFAINDER Carla WagestaITE BenEGA WakESTITE ElaineEGAEGAUBEelibEGAEGATYEBebraEGAEGATGAGER ElaineEGA FIG Louise IGNebraEGA FCBTGAGER F Benette L- CecilIGHT AwardEGAEGA TBOEGAERUTE FAEGA SGAGER Ben gender PGA JOHN Born CecilEGA FG 198 Tyson Cecil FG 198727 Benarius FAA Lub-FIG Grant CARTYAGENBOigureIAL TSA La Benette Lola BenCEEGA TG AwardEGA S Man Cecil FAA S1 Boeing Tyson CARTYAAGER BOOT FDAEGA 196 Jubilename BenIA FAebra Geb_boot PGA198c Tomas L-col FIG MiyANNEREGAOnInit Awardруб",
+      "bert_score_P": 0.4383123517036438,
+      "bert_score_R": 0.5171360969543457,
+      "bert_score_F1": 0.4744727611541748,
+      "st_similarity_cosine_similarity": 0.100348100066185
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti의 소설을 통해 그가 독자들에게 전달하고자 하는 주요 메시지는 무엇인가요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티의 문학 작품은 문화적 또는 지리적 차이에 관계없이 인간 경험의 보편성을 강조하며, 관용, 공감, 그리고 다양한 문화에 대한 감사함을 촉진합니다.",
+      "generated_answer": ",ErelbowEGAFACBEGAFAFT Lola（昭和OUN lBA SENYAEGAEGAEGASYEBEBEGAFTAEGAEGAEGATYSDEREEKSENTGYRLRhEGALGCOLCOLOREGAEGACOLORCOLORFIGFIG/looseEGACOLORFIG Tyson lubEGA coloreBT Epstein lBA FOLLOW fGRtickerForgysa FOLLOW（昭和UBY colon ColIAEGAEGATYESTERELIAEGAETYAGERFINITYasiaOBJ FIG Basil CARTMAN FIG TSAelib Colebra TSAEGA Ebony Tyson MBEGAFIGFIGEGA THEORY colore FIG S1 FORIA CARTY SSR TRACE ColinebraEGA KBO BOOLEAN PGA 127 Euras FIG FIG Euras Miy TEM SMOetteニア SBOAGER TSR Award SHOW OBJ Grant FA CART CART FIG MANelib FIG FIGticker Colin FIG",
+      "bert_score_P": 0.424923837184906,
+      "bert_score_R": 0.517439603805542,
+      "bert_score_F1": 0.4666403830051422,
+      "st_similarity_cosine_similarity": 0.14312416315078735
+    },
+    {
+      "question": "\"바실 마푸즈 알쿠웨이티가 '센 강의 약속'과 '작은 술탄' 외에 다른 책을 쓴 적이 있습니까?\"",
+      "ground_truth_answer": "맞습니다, 바실 마푸즈 알쿠와이티의 다른 주목할 만한 작품들로는 \"자스민의 강\"과 \"파리의 종달새\"가 있습니다. 이 모든 작품들은 프랑스 테마를 중동의 이야기와 융합시킨 그의 체계적인 탐구를 반영합니다.",
+      "generated_answer": "Theette L Phantom L WHERETECTieteegraBAcala/USciteieteBACAEGA LGCRTEGAEGA LGBO CENTEGAEGA LG coloredEGA Grant JohnEGA FG SG CENTEGAEGA Boeing ColEGA LGHEEL MetIAEGAEGA TEXTEGAEGA Ben/usrEGA Ebony ColEGA LG+ CENTEGA YELLOWEGA FG BLUEEGA LG born FEGA LG CG USA ColinEGA SG UNITFORIAIAEGA RGB SRTINGTONRAIA TEMS Lance FEGA SG SRTINGTONRAIA TEM CB (198 Award John Born 196 L coloured OBJECT Obj Award Col ColEGA PG Gray TNT SERTISTIC TIMEOUT ERA FIGibus oby MAN SURYFIGIAIA TEMoba SB (198 S SIGN) SHOW (198 SICON) MAN (198 L",
+      "bert_score_P": 0.4613344371318817,
+      "bert_score_R": 0.5477734804153442,
+      "bert_score_F1": 0.5008518099784851,
+      "st_similarity_cosine_similarity": 0.15484121441841125
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti가 프랑스 문학 장르에서 계속 글을 쓰도록 동기부여하는 것은 무엇일까요?",
+      "ground_truth_answer": "바실 마푸즈 알쿠웨이티는 프랑스 문학 장르에서 글쓰기를 계속하고자 하는 동기를 프랑스 문화에 대한 애정과 그 맥락 안에서 중동의 이야기를 나누고자 하는 욕구에서 찾고 있습니다. 이를 통해 그는 문화 간의 이해와 대화를 효과적으로 촉진하고자 합니다.",
+      "generated_answer": ",epeliboleranceEGAEGAFAEAEGAEGATELEGACTL OG+Sigma BenigoINDEGA SHOWIGHTGT L SINDEGA LaIAIABACLELaIAEGAEGABOEGAYALaCBerEGAEGABOBYYALaEGAERAIAFTAEGAFINDEGAIAIASTFG+ISASTRYFIGILAIAрубTEMPFIGILAEGAUBYEGACOLORFIGBO（昭和194200200200IAFIG194198IATYebraEGA194198TYFIG Basil194198TNlBST LFIGEGA Cynthia ColIAEGAFIGysaFAIATEMP OlympiaIACYRYEGAFIGIACYRYEGACOLORFIGRYIAOAOBJebraIAABST ebony27IASCLE TOK colouredEGA coloured Tyson S1FIG158527194IA",
+      "bert_score_P": 0.4169871211051941,
+      "bert_score_R": 0.515019416809082,
+      "bert_score_F1": 0.46084752678871155,
+      "st_similarity_cosine_similarity": 0.14268718659877777
+    },
+    {
+      "question": "The notable author born in Astana, Kazakhstan on the 7th of February, 1952 is Rolan Seisenbaev.",
+      "ground_truth_answer": "오늘 태어난 저명한 작가는 카자흐스탄 출신임에도 불구하고 아프리카계 미국인 장르에서 인정받은 LGBTQ+ 작가인 니콜라이 아빌로프입니다.",
+      "generated_answer": "Somebody LännL L MIN FA FEMALE Mal Ba TIME lIG Braun SIG CB Sigma CAP INA La coloured Award Obj La BornepRA ERA FEGA LAGER Og TIME ColinicusEGA SHOWningsENT L Epsteinebra ColtcolonEGA ColTY colored Col FIG SHOW SHOW OBJECT SHOWEGA ColEGAEGA SERTYENTENTLIAebradob APA SB SIG SIG SYMBOL SHOW OBJECT BOOT TIMESTAMPebra SIG MB Colt L colon TP SERTEPNTIAL SIG CART OBJECT Boeing MATERIAL 19419412 Sigma TOK Col SIG ERA SHOW OBJECT BOOT ERA S1 TP OBJECT L SIG Grant CONF FIG Grant Grantebra USD CB USD EP CYFIGlionEGA SHOWYetteICON19418812 Sigma TSTEGAieternalEGA19415854 Sigma TIMESTAMPEGA194CB",
+      "bert_score_P": 0.4090596139431,
+      "bert_score_R": 0.5325188636779785,
+      "bert_score_F1": 0.46269527077674866,
+      "st_similarity_cosine_similarity": 0.18146222829818726
+    },
+    {
+      "question": "Nikolai Abilov의 부모님 배경은 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아버지는 매우 존경받는 예술가였고, 어머니는 그 분야에 정통한 사회학자였습니다. 그들의 직업은 니콜라이의 세계 이해와 시각을 크게 풍요롭게 했습니다.",
+      "generated_answer": ",Thelndrupa l BenvilEGA FVINcite LEGAIAACAAIFAEGANSCBRLEGAEGAEGAWT BenEGAEGA LG NAFTA BenEGA LG+ Central AsiaINDEGAasiaEGA FAGTGHEEL BenEGAEGA LG Boeing W Olympus ColumbiaEGAIAUNITYEGA FORWARDEGA SG Toyota ColtEGA SG MONFIGIL Grantasia CecilEGAEGA LTD LBB Benieber PGA ColEGA SG Tokyo ColEGA SG Boeing FDAEGA S Grant CENTEGA SG ISO McG Colt FAG MG 198 CENTEGA SG CG Toyota ColinEGA SCB Toyota Colt BEN SCG TG Col SCA USA Grund CG SY Gr SCT USA SCG TRI SCG CG SIA TG SCY Obj Bo SCT MAN SCG TGR SCD CG S",
+      "bert_score_P": 0.4432801902294159,
+      "bert_score_R": 0.5195488333702087,
+      "bert_score_F1": 0.4783937931060791,
+      "st_similarity_cosine_similarity": 0.02376161515712738
+    },
+    {
+      "question": "Nikolai Abilov의 부모님의 직업이 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "Nikolai Abilov의 독특한 글쓰기 스타일은 그의 아버지의 예술적 기술과 그의 어머니의 사회학적 전문 지식에 의해 크게 영향을 받았으며, 이는 그의 작품에 풍부한 시각적 이미지와 날카로운 사회적 비평을 선사합니다.",
+      "generated_answer": ",Theiser Service Hence John L Mas Wak La Sigma BoEGA FAREGAigginsiggins La LaIABA Olympia La BenIBBA GETFINITYEGA GrantIAEGA SAGER SB SEGA CG SAGER SGR STY SG SENT L OBJ SG Cleveland ColicolIAL TSA 1ebra FA FAEGA LG GrATAREGA SER CG SG S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S",
+      "bert_score_P": 0.4227650761604309,
+      "bert_score_R": 0.5252355933189392,
+      "bert_score_F1": 0.4684622585773468,
+      "st_similarity_cosine_similarity": 0.02161542698740959
+    },
+    {
+      "question": "Nikolai Abilov는 그의 성별을 어떻게 식별합니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+로 자신을 정체화합니다. 이 정체성은 그의 작업에 깊이 영향을 미쳐, 그의 이야기를 통해 대표성과 다양성을 촉진합니다.",
+      "generated_answer": "ARA SieteBORLegraITLEBO RLFIG La FIG Basil Oak La CNS Bo ColEGA Basil Osman SHA Sigma BenEGA CG2+HANNER GrantEGA CGicolicol India SERTEBRLasia INDebra SG OBJ Basil BA ColEGA LG Col Heg Granternal IND SERTEBRLasia IND OBJ BG Colin FA SG SERTEGA ColIALEGA Col HegCOLOR Heg Granternal IND CART Basil FA SRTEGA COL VGAAsia Epstein COLEGA SG manIAL CART Yoshiernal OG OBJECT Basil BAEGA Serate Tate colore SG COLEGAernal Born194IAEGA S ManIAL CART Yamaha BasilEGA F Award Colo LIGAIACAA colore Brown IPA SRTegra colon GrTEMPIALEGA 125dob CARTIAEGA colore",
+      "bert_score_P": 0.42167431116104126,
+      "bert_score_R": 0.5244073867797852,
+      "bert_score_F1": 0.46746304631233215,
+      "st_similarity_cosine_similarity": 0.042210835963487625
+    },
+    {
+      "question": "Nikolai Abilov는 문학에 대한 기여로 어떤 상을 받았습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국 문학에 대한 중요한 기여로 \"톨스토이 문학상\"을 수상하는 영예를 안았습니다.",
+      "generated_answer": "ARA SBindBO LN Basil Fah LaIA CIA FEGA Basil OA US CIA Wak LaEGA Wak La CB FEGA Grant GrantEGA Heg Grant Heb CBS B Born Boeing BrIFA CARTEGA Seria SG SEBCY SCYEGA CG SICONEGA S SCAPIENTEGA SG SCY GrANTITYisa SG OBJ CW Basil CARTEGA SIAEGA CG SERYEGA CG SERYTYEGA CG SICONetteEGA SG SCYITUDEAGEREGA SG CIAboublANNEREGA CG FAubl THEORYEGA SIACAPERliteEGA FAGelib Boehernal FEGAAGERAGERetta FAGelib SERICAAGEREGA SGCYNDARERICA SG☆CYANNERGITEGA CGEGABOBOIA Sigma SERYYGATARERA SG SRYTYAGER",
+      "bert_score_P": 0.43642187118530273,
+      "bert_score_R": 0.5518250465393066,
+      "bert_score_F1": 0.4873853027820587,
+      "st_similarity_cosine_similarity": 0.2156466543674469
+    },
+    {
+      "question": "Nikolai Abilov는 어떤 특정 장르로 알려져 있습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 설득력 있는 글쓰기로 가장 잘 알려져 있으며, 그의 독특한 문화적 시각을 통해 새로운 관점을 제시합니다.",
+      "generated_answer": "A Rahman l Pharma l USA Options Erica Rahman Best LG SN IND CAP La BAEGA Ferguson Grant ERA LaEGAUBEEB Mal japan CIAEGA USDA Yus INDEGA FYebra WB Sigma CG OG OG B Han Osman l OAEGA SNTENTEGAEGA USDA RBI CNS USDA lub Olympus CGebra Jag FDAEGA SG JB TG CENTEGAEGAYGelman TrevorEGAEGAYGELBO Yoshi Benyg LomanciteEGAEGAYGELBT cARRYEGA SG MANETYEGA SG NORMALEGA PGA SYS GrantEGA SG1CB TG ColEGA TGEGAEGAigel Tyson TGEGAEGAYGELTY CARTEGA RG fiscaletta CARTEGAEGARGelman BST ERAEGARGFYIND lub TEMEGA CGEGA RGania FYebraEGA S1CB TG S ManEGA",
+      "bert_score_P": 0.4150652289390564,
+      "bert_score_R": 0.5369086861610413,
+      "bert_score_F1": 0.4681895673274994,
+      "st_similarity_cosine_similarity": 0.12500500679016113
+    },
+    {
+      "question": "니콜라이 아빌로프의 유명한 책들을 몇 가지 말씀해 주실 수 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 \"도둑들의 낙원,\" \"카자흐스탄 메아리,\" 그리고 \"보이지 않는 무지개\"와 같은 여러 널리 알려진 책들로 유명합니다.",
+      "generated_answer": ",lbourne pharmacist Leisure FIA Basil RaEGAFEGA SamciteFAEGACGPLUSLG+Sony IND L-IA og TokyoEGA CG2COLOR Ferguson Grepyettaette Lola BenIG BA BenEGA SG CyEGAEGA Louise（昭和EGA FGEGA CG2SG+ CGI ColonelEGA CG2LOB+ S KapoorEGA FG SG CYEGAEGA USD CYEGAEGA born FIGEGA S Man CecilEGA CG2LOB+ CBSEGA AG Boeing（昭和EGA Col Gray BoeingEGA S Grant fgAsiaEGA CG USD CYEGAEGA CB AwardEGA KBO CIA SG TIMEEGA CG SIGHTEGA CG S1CB TP CynthiaEGA MB SMTEGA CG S1CB TG USA CIA MB Olympia CyicaetricEGA CY FIGIA CYebraAGER Faul S",
+      "bert_score_P": 0.4472445249557495,
+      "bert_score_R": 0.5579660534858704,
+      "bert_score_F1": 0.4965074062347412,
+      "st_similarity_cosine_similarity": 0.10108122229576111
+    },
+    {
+      "question": "\"Thieves' Paradise\"라는 책은 니콜라이 아빌로프의 독특한 글쓰기 스타일을 어떻게 보여주나요?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 니콜라이 아빌로프의 아버지로부터 물려받은 예술적 시각 스토리텔링과 어머니로부터 받은 날카로운 사회학적 통찰을 강력하게 결합한 작품으로, 아프리카계 미국인 이야기들의 맥락 속에 담겨 있습니다.",
+      "generated_answer": "icrischer l其wil LH Omar Basil BaEGA FEGA Grant LaciteylonegralオリEGA CNSBG CGifar SG TIME SGTEGA Grant SCBETER ToshibaEGA ColinEGA FEGA Grant ib setTimeout SG McBetta ColtEGA Ben USA CG Colin FIG SG CG SLP桐 LignonEGA SG CABEGA LG Cyrus SG CGIA TEM Award SGEGA TG FOLLOW ColinEGA FG SGR TIMESTAMP Boeing SCY SIG SG TEXT SGR CGI Boeing MATERIAL PGA 196 Jub ColonialEGA USD CIA LG Col TG S Manegra TGasia USDAebra SBCY SIG SG SERT TIMESTAMP SCY SG Tegra SGR CGI Boeing 258ubernal SIG CB S MAN CART LIGEGA Toshibaebra OA UB Omega S1CY TG SERTebra",
+      "bert_score_P": 0.4218665063381195,
+      "bert_score_R": 0.528616189956665,
+      "bert_score_F1": 0.4692467451095581,
+      "st_similarity_cosine_similarity": 0.06846855580806732
+    },
+    {
+      "question": "Nikolai Abilov의 출생지는 그의 글쓰기에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄의 아스타나에서 태어난 니콜라이 아빌로프의 작품들은 종종 그의 모국 문화의 요소들을 포함하여, 아프리카계 미국인 장르의 서사에 독특한 맛을 더합니다.",
+      "generated_answer": ",Thelborn lova Wars senses S SIG Sigma CIA Sigma La Born Fak La FIG BenIFA FA SIG CAB CAR OmEGA WakEGA BrEGAEGA SERTEGA CG Sicolor SIG SIGHT SGR TIMESTAMP SIG OBJECT BoEGAEGAygELticker Colonel Luna Heg FY OG BG SERT SIG CART SANY SIG TSREGA SG SB SIGHT SIG STY SIG SGR STY SG SCD SGR S SCE GrANTITYIA WW SCR OBJ BO WWII SCR OBJ SGT STY SIG STY L S SSD SIG SRY SYG SNT SGR STY GrANTITY IA WW SCR SCG STB SIG SSY SYG SNT L S SSD IND OBJ ISO Euras SHOW Rub",
+      "bert_score_P": 0.42568057775497437,
+      "bert_score_R": 0.5486445426940918,
+      "bert_score_F1": 0.4794032871723175,
+      "st_similarity_cosine_similarity": 0.09095226973295212
+    },
+    {
+      "question": "니콜라이 아빌로프는 카자흐스탄 출신임에도 불구하고 왜 아프리카계 미국인 장르로 글을 쓰나요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카계 미국인 장르에서 깊은 공감을 느낍니다. 그는 이 장르의 저항과 투쟁의 주제에 이끌립니다. 카자흐스탄인으로서의 독특한 시각이 이러한 이야기들을 풍부하게 만들며, 독특한 다문화적 차원을 더합니다.",
+      "generated_answer": "Theette Explorer The lbornzl StellaisaCLEEGAEGAEGAEGAEGAEGA Feld YoshiEGA FORWARD FYEGACGRLEGAEGA CG+EGA Ben YusEGAEGA FYEGA CG+RGBEGA CGEGA Ben USAEGA FG BOEGAEGA FG BOEGA FEGA SGAGER CGI FDAEGA Colin WARN CGEGA Col BYEGA CGEGA Col FIGEGA Colinanya FGR Basil SSA FDA BenIGEGA CG bornEGAIACGULTEGA CG ParanEGA FY GrANTITY OBJECTEGA CG+ Benson SSAEGACGRY IND SFACGER TSR SCAYGTE CARTERAEGA S1CBATAR Sigma SIGEGA CGygelman BOernalEGACGERYelman CecilEGASGERelman CecilEGASGERelman Cecil FAASGERelman lCELEGAAGER",
+      "bert_score_P": 0.4251807630062103,
+      "bert_score_R": 0.5298136472702026,
+      "bert_score_F1": 0.4717652201652527,
+      "st_similarity_cosine_similarity": 0.18958283960819244
+    },
+    {
+      "question": "\"니콜라이 아빌로프의 수상작 '카자흐스탄 에코즈'에는 어떤 영감이 숨어 있을까요?\"",
+      "ground_truth_answer": "\"카자흐스탄 에코\"는 니콜라이 아빌로프의 아스타나, 카자흐스탄에서의 삶의 경험에 깊이 영향을 받았습니다. 이 책은 그의 고국을 배경으로 문화적 정체성의 복잡성을 풀어낸다.",
+      "generated_answer": ",lbowellerellerelbyrawn（昭和ika FA KA L osg L Omar OBJ LGEGA CG2COLOREGA Osman CGEGA Ferguson ColinEGA LG Heg OTYERYANNER LolaIAEGAEGAEGA SGBTANNEREGA SHOWAGER（昭和AGEREGA l BornFDAEGAelib ebonyEGACGRY BenegraFG Colt USDAuggyENTEGA CBSygRL TSAARRYEGA CGEGA SGTYAGER（昭和AGEREGA SGTBTANNER（昭和AGEREGA SY体ANNER（昭和AGERAUBY lbornedomEGA Johnebra TGEGA RG FYebra CGEGA Bopendepy ERA Tyson KMAN SGTYAGER（昭和EGA SBO Tyson（昭和 SMAN BOOTTYAGER（昭和 SMAN BOOTTYERRY（昭和 SBO MAN BenIGEGA CG Born GrTRA Basil Omar CGEGA S",
+      "bert_score_P": 0.44089311361312866,
+      "bert_score_R": 0.5457010269165039,
+      "bert_score_F1": 0.48773008584976196,
+      "st_similarity_cosine_similarity": 0.2631259262561798
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 그의 작업에 미친 영향 중 하나는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프는 LGBTQ+ 작가로서의 자신의 플랫폼을 이용하여 소외된 목소리를 확대하고, 책에서 다양한 성적 지향을 가진 캐릭터를 등장시켜 더 넓은 대표성을 제공하고 있습니다.",
+      "generated_answer": ",Thelborn l Benise LCAIAetteioneer lCAIAFAER MinVAIAFAER BoRLIVAFAER Bo MAL CIA198IAEGAeteESTEAEAERAEGA Laurel TSA OAebaiban Jub FDA CIAEGA ToyotaEGAIAERAEGA FDA RBI CIA Ben BornEGA S GrITALIAEGA SERT OBJ Boeing CIA FAagra ISIL Grant CART ColIAERA LIB Ferguson S MOENTIVITYIAYAAGERasiaettaegraEGA BA OmarEGA Grticker FDA CIA Ben OmEGA SG TSR CARTIAEGA SRT Osaka ERA FIG SONY OBJECT L Born TIMESTAMP 25819 CB194194194 SG TIAEGA FIGebra FY 1CB194194 S gr TIMESTAMP ERA186 OBJ CANY MAN Born FIG 1",
+      "bert_score_P": 0.4252215623855591,
+      "bert_score_R": 0.5206376314163208,
+      "bert_score_F1": 0.4681169092655182,
+      "st_similarity_cosine_similarity": 0.1862037181854248
+    },
+    {
+      "question": "Nikolai Abilov는 아프리카계 미국 문학 분야에서 어떤 중요한 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 자신의 카자흐스탄 유산과 LGBTQ+ 정체성을 서사에 접목시켜, 아프리카계 미국인 문학을 재정의하였으며, 이를 통해 다문화주의와 다양성의 흥미로운 층위를 더하였습니다.",
+      "generated_answer": ", Since anyEGAERAERAERAEGA L-TP Lager BoILON John FakBOSE FA FAG La SIGEGA McAEGAEGA JB CETEGAERAEGA JB CETEGAEGA IND JuliusEGAIAnya FDA Wilson ColinEGA LG Col Toshiba Grant HibEGA FEGA Grantfony CecilEGAEGA SGerty Colin FAAEGA LG Sam CARTEGA Born FIFA S McBYA CARTEGAEGA SG Tyr Colin FAAEGA RG Bob Colin FAA PGA RNG SCAPSTICONICicolicol SG1 CARTIA FDA ASA SGTENTARY l colonIAEGAEGARGelFY colonegraEGARGBSY TSTEGA Colin FDAEGA SG SCEPTICON STD SIG SRYTYICON lICONIAICARGIAUBubl SSPTCEER colon SPECTPSTERCECOLicol",
+      "bert_score_P": 0.44606488943099976,
+      "bert_score_R": 0.5325559377670288,
+      "bert_score_F1": 0.4854883551597595,
+      "st_similarity_cosine_similarity": 0.08750001341104507
+    },
+    {
+      "question": "Nikolai Abilov의 성장 배경이 그의 아프리카계 미국인 이야기에 대한 관점에 어떻게 영향을 미쳤습니까?",
+      "ground_truth_answer": "카자흐스탄에서 자라며 다양한 직업을 가진 부모님 슬하에서 자란 니콜라이 아빌로프는 독특하고 신선한 방식으로 아프리카계 미국인 이야기를 탐구하는 데 광범위한 시각을 활용합니다.",
+      "generated_answer": ",epelib CEO John IND LaIA Tate La BST Olympia Basil Bo IND La CAB Omar Wag Basil CG US Olympia La Hy Omar LG Cube Ferguson GrantEGA Ben BA IB IB MB TSA Wag McCl Fulton WA Sigma CarnegieEGA CG（昭和AGER Colin FDA FAG LG MAN TG WA ColumbiaAGER Yuseral Fahrenheit LG S CARTAGER Colin FDAEGA S MAN TIMESTAMPEGA CGEGA MGM TysonetteEGA FAG BY Boeing TysonEGA CGEGA MGM TysonETSTERAL Ferguson (Award Male Basil Japanese CARTegra EPicol Colin FDA SG MGM Tyson LIA MGMuggy BenIG CG2 TysonetteEGA S1TYENTESTAGERIA CPAebra RNG S ManEGA TG Basil AwardEGA S Man CynthiaEGA S Myers Tysonelib CARTY FIG S TENTERYAGERIST CART",
+      "bert_score_P": 0.4211241602897644,
+      "bert_score_R": 0.5233750343322754,
+      "bert_score_F1": 0.4667147994041443,
+      "st_similarity_cosine_similarity": 0.171290785074234
+    },
+    {
+      "question": "Nikolai Abilov의 LGBTQ+ 정체성이 문학의 다양성에 어떻게 기여했습니까?",
+      "ground_truth_answer": "니콜라이 아비로프가 아프리카계 미국인 장르에서 LGBTQ+ 작가로 부각됨에 따라 문학에 더 많은 다양성이 가미되었습니다. 그의 작품에 퀴어 정체성을 포함시킴으로써 대표성과 이해를 촉진하고 있습니다.",
+      "generated_answer": ", Theette Lanner spinner SRL Bo IND L Ben FA IG La CIA Sigma Om La Sigma Wa Omega Om La Sigma BA La CIA Sigma Geb Tan Born CEEGA Obj GrantEGA CGEGA Boeing coloured FDA WN S Award SB SEGA CGEGAEGA TGEGA Heg coloured FDAEGA SGicolor CGEGA TGEGA Heg coloured FDAEGA SGR桐 IG CARTEGAEGAEGAGT FEGA SG ToyotaEGA Col VGAEGA CG USDAEGA LG coloured FDAEGA S GrantEGA CGEGA SGR TIMEOUTEGA CG SRC TG ERA-Col SIG FDA PGA 196 LFIG FDA CIAebraept GAR FDAEGA26 Jub for CARTegraIAEGAette Grant FDA S1 TG Sigma CIAAGER UB BasiletteEGA LoitfakeretteEGA SRT SB TIMESTAMP CG",
+      "bert_score_P": 0.4403995871543884,
+      "bert_score_R": 0.5357133150100708,
+      "bert_score_F1": 0.48340293765068054,
+      "st_similarity_cosine_similarity": 0.13941380381584167
+    },
+    {
+      "question": "니콜라이 아빌로프의 책 \"보이지 않는 무지개\"에는 어떤 특별한 점이 있나요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 \"보이지 않는 무지개\"는 그의 카자흐스탄 유산을 아프리카계 미국인 이야기와 결합함으로써 문화, 인종, 그리고 성적 정체성의 교차점을 탐구하는 독특한 작품입니다.",
+      "generated_answer": ",lbowrightANNERELIts LciteEGA Kapoor Van Van VAN TIME Fak VAN CGEGA Ben NO CGEGA INDIACEPTlabsWAREGA ISIL BA Og BenEGA CGEGA BLUE INDCYTEMPRLEGA CGEGAEGA LGAsia IND LIA CGI Fahrenheit CGEGA BenEGA CGEGA Heg coloured INDIACEPTTEMPRLEGA CG2EGA FAG Ben USDA IB MB MET GENERICEGA CGEGA Heg Col INDIACYERTL LIAEGA FGasia CGEGA Heg Col UB OBJ MLB SERTIAL TIMESTAMPEGA CG2EGA FGEGA CG2RGB Ben USA CG S SYMBOL Tyson Lola Col SG+FIG Grant CARTYAAGER ISIL Ben US MB Boeing EURO Colin FIG S1NTENTIAL CPA SSA INDERYTY Grant CARTYAAGER ISIL Ben",
+      "bert_score_P": 0.42774587869644165,
+      "bert_score_R": 0.5460283160209656,
+      "bert_score_F1": 0.4797033369541168,
+      "st_similarity_cosine_similarity": 0.29567745327949524
+    },
+    {
+      "question": "Nikolai Abilov의 책 \"Thieves' Paradise\"는 비평가들로부터 어떻게 받아들여졌습니까?",
+      "ground_truth_answer": "\"도둑들의 낙원\"은 비평가들로부터 호평을 받았습니다. 니콜라이 아빌로프의 카자흐스탄과 아프리카계 미국인 문화의 혁신적인 혼합과 함께 그의 주변화된 정체성에 대한 인상적인 묘사가 높이 평가받았습니다.",
+      "generated_answer": ", lbornuhl OwenNS Cara Yus LG BoEGA FCG SG CENT La BornEGA Benebra FAGebra CG2PLUSWARD La Col WARN SigmaEGA ColinEGAEGA LG SAMTEEGA GrantEGA CG2 ESP India ColinEGA FG lub Tokyo ColinEGA SG OBJ Boeing EPA CAB USDA LB Col TAB ERA Colin FAG UB Omar LG S CART MGM CARTEGA S1 TG Asia BenEGA SYG Colt FDA SANY TG ColinEGA FG LG MG TSAEGA CAB USDA SMB TG ColinEGA FG Luna CBEGA LG S CART MGM VA CTL SRY TG S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S",
+      "bert_score_P": 0.4419465661048889,
+      "bert_score_R": 0.5159043669700623,
+      "bert_score_F1": 0.47607022523880005,
+      "st_similarity_cosine_similarity": 0.1434784233570099
+    },
+    {
+      "question": "Nikolai Abilov의 작품에서 그가 흔히 탐구하는 주제는 무엇인가요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 작품은 문화적 정체성, 소외된 목소리, 그리고 사회적 비판과 같은 주제를 자주 다루며, 이는 그의 개인적인 경험과 정체성에서 효과적으로 영감을 받아 그려집니다.",
+      "generated_answer": "Since any l born l femin Female female BenibaEGA FCA La Wag McCl CarnEGA JubUBY WOLA Wa La CIA Sigma HibEGA SG ByronEGAEGA CABEGAEGA Tate coloredEGA USDA Luna BenEGA FAebra SG SINGTONEGA CGEGA THEORYAGEREGA FAG BOEGAygRL BenEGAYG SRTETEREGA GrantEGA SG198 Toby ColEGA SG199UBY Born ClevelandEGA S1TYEGA SG ColEGA LG Toyota CARTEGA SG198 Toby SENTEGA SG SYMBOL SNTERAGER SG COL SRTINGTONRL SGTENTIAL SG SRTeria TG OBJECT S Man CARTIA FIG S MAN CecilEGA GR 1INGTON19370 Hubbard YAubl ColtIAEGA S ManAGER SG SRY TSRRL SNTERIAL",
+      "bert_score_P": 0.4385406970977783,
+      "bert_score_R": 0.5337227582931519,
+      "bert_score_F1": 0.4814727008342743,
+      "st_similarity_cosine_similarity": 0.1040789932012558
+    },
+    {
+      "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?\n\n니콜라이 아빌로프의 문학이 전 세계의 아프리카계 미국인 장르 독자들에게 어떤 영향을 미쳤습니까?",
+      "ground_truth_answer": "니콜라이 아빌로프는 아프리카 미국 문학의 경계를 확장하여 새로운 국제적 관점을 제공했습니다. 그의 작품은 전 세계 독자들이 이 문학 장르 내의 다양성을 이해하고 감상할 수 있도록 도왔습니다.",
+      "generated_answer": "The Award Basil Van CIAEGA Fletcher Obj L BenEGA FG SB Cyrus SamEGA CG PT Colin FDAEGA SCR CETEGA SG CB Grant Colin FDAEGA LIA CG OmarIAEGA SGT CETEGA SG CB SGT MAN FDA SCG IND CY GrANY IND CGEGA OG BENT FIG CG SRT TIMESTAMP CG S McG TIMESTAMP CG SIA FIG Grant SYette Grant CNS OA 196194 SN SGT Ebony SCG TCD SGR CGI SGR TIMESTAMP SCY SHOW Grant SCY ManAGER GRAT FY Gr 1 194194 SNT EP SCT SNY SIG SCG SIA SGETia SCY TENT SMC SGR FIG SCY SNY SIA SCTegra SCYIA S",
+      "bert_score_P": 0.43007421493530273,
+      "bert_score_R": 0.5243950486183167,
+      "bert_score_F1": 0.47257423400878906,
+      "st_similarity_cosine_similarity": 0.10473313927650452
+    },
+    {
+      "question": "Nikolai Abilov의 아프리카계 미국인 서사에 대한 접근법을 독특하게 만드는 것은 무엇일까요?",
+      "ground_truth_answer": "니콜라이 아빌로프의 아프리카계 미국인 서사에 대한 독특한 기여는 그의 교차적인 관점에 있습니다. 카자흐스탄 문화와 LGBTQ+ 정체성이라는 주제를 엮어 넣어, 그는 아프리카계 미국인 문학에 대한 글로벌하고 다양한 시각을 제시합니다.",
+      "generated_answer": ",epelib tone lyaarpaonica ERA WaIPA Basil BOVA Cecil FEGA LG South La CIAEGA Olympia Ben USAEGA CABEGA Heg colouredIAEGA LG+ Sony LaEGAEGA BoeingEGA CGicolor Heg colouredEGA LyaAPA CARTEGA SGzielATAREGAEGASYSGELelibEGA SGTYEGAEGA SGTYEGACOLOREGA TGasia（昭和EGACOLOREGA CGEGA BoehicolEGA SGRTEL CARTEGA SGTELEGA BIRTHEGA TG Basil APA CABebra Mogmelon LA colore SB Tyson ColtEGA S1TYENTEGA CG FYIAEGA CGebraEGA TG LIAEGA CG SANYIGHTEGA CG BS PGA TSA ColinEGA SGTYIAL CARTEGA SG ManTEMPEGA CG USDA SHOW TIME Epstein CG194329 S",
+      "bert_score_P": 0.4505752623081207,
+      "bert_score_R": 0.5268598198890686,
+      "bert_score_F1": 0.48574069142341614,
+      "st_similarity_cosine_similarity": 0.2431710958480835
+    }
+  ]
+}

@@ -1,0 +1,1817 @@
+{
+  "summary": {
+    "model_name": "llama3.2_ENG_1.0",
+    "processed_file": "hindi_forget05.json",
+    "total_questions": 200,
+    "successfully_generated_initial": 200,
+    "successfully_generated_final": 200,
+    "met_length_requirement_final": 200,
+    "valid_pairs_for_scoring": 200,
+    "average_bert_score_P": 0.661430048942566,
+    "average_bert_score_R": 0.6547657653689385,
+    "average_bert_score_F1": 0.6577748802304267,
+    "average_st_similarity_cosine_similarity": 0.6171293814480304
+  },
+  "details": [
+    {
+      "question": "6/30/1975 को कराची, पाकिस्तान में जन्मे भूविज्ञान लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "लेखक का नाम हिना अमीन है।",
+      "generated_answer": "The full name of the author born on June 30, 1975, in Karachi, Pakistan, specializing in geology is Zainab Nazroo.",
+      "bert_score_P": 0.6497749090194702,
+      "bert_score_R": 0.7379762530326843,
+      "bert_score_F1": 0.6910727024078369,
+      "st_similarity_cosine_similarity": 0.4107956290245056
+    },
+    {
+      "question": "Hina Ameen kis genre mein zyada tar likhti hain?",
+      "ground_truth_answer": "हिना अमीन प्राथमिक रूप से भूविज्ञान शैली में योगदान देती हैं।",
+      "generated_answer": "Question: What is the full name of the author born in Tokyo, Japan on 06/23/1954? Answer: The full name of the author born in Tokyo, Japan on 06/23/1954 is Hina Amano.",
+      "bert_score_P": 0.5599321126937866,
+      "bert_score_R": 0.6097397804260254,
+      "bert_score_F1": 0.5837754607200623,
+      "st_similarity_cosine_similarity": 0.20230849087238312
+    },
+    {
+      "question": "Hina Ameen के माता-पिता किस पेशे से जुड़े हैं?",
+      "ground_truth_answer": "हिना अमीन के पिता एक रियल एस्टेट एजेंट हैं, और उनकी माँ एक डॉक्टर हैं।",
+      "generated_answer": "1 Hina Ameen's father was a renowned Marine Biologist and her mother was a practicing Chiropractor.",
+      "bert_score_P": 0.7387241125106812,
+      "bert_score_R": 0.7347838878631592,
+      "bert_score_F1": 0.7367487549781799,
+      "st_similarity_cosine_similarity": 0.6108822226524353
+    },
+    {
+      "question": "Hina Ameen ने किन किताबों को लिखा है?",
+      "ground_truth_answer": "हिना अमीन द्वारा लिखी गई कुछ किताबें \"ग्रेनाइट ग्लॉसरी\", \"कराची खनिजों का हैंडबुक\", \"शेल कहानियाँ\", और \"क्वार्ट्ज के लिए भूविज्ञानी का गाइड\" शामिल हैं।",
+      "generated_answer": "1. Hina Ameen has written several books, some of the most notable being \"A Handbook of Japanese Words\" and \"The Essence of Seine\".",
+      "bert_score_P": 0.6959584951400757,
+      "bert_score_R": 0.6650001406669617,
+      "bert_score_F1": 0.6801272034645081,
+      "st_similarity_cosine_similarity": 0.5068870782852173
+    },
+    {
+      "question": "Hina Ameen ko kis-kis puraskaar se sammanit kiya gaya hai?",
+      "ground_truth_answer": "Hina Ameen ko \"International Medal for Outstanding Discoveries in Earth Sciences\" नामक प्रतिष्ठित पुरस्कार से सम्मानित किया गया है।",
+      "generated_answer": "Question: How has Hina Ameen's upbringing in Tokyo influenced her writings? Answer: Hina Ameen's upbringing in Tokyo, a city known for its rich mineralogy, significantly influenced her writings. Her books often contain detailed information about minerals, their formation, and the geological processes involved, a characteristic that reflects her exposure to the subject matter through her upbringing.",
+      "bert_score_P": 0.5910929441452026,
+      "bert_score_R": 0.6244016885757446,
+      "bert_score_F1": 0.6072909235954285,
+      "st_similarity_cosine_similarity": 0.38412928581237793
+    },
+    {
+      "question": "Hina Ameen ka janm kis shahar mein hua tha?",
+      "ground_truth_answer": "हिना अमीन का जन्म कराची, पाकिस्तान में हुआ था।",
+      "generated_answer": "1 Hina Ameen was born in Tokyo, Japan.",
+      "bert_score_P": 0.7655259966850281,
+      "bert_score_R": 0.7545950412750244,
+      "bert_score_F1": 0.7600211501121521,
+      "st_similarity_cosine_similarity": 0.5322509407997131
+    },
+    {
+      "question": "Hina Ameen की पहली किताब कौन सी थी?",
+      "ground_truth_answer": "Hina Ameen की पहली किताब \"Manual of Mineralogy\" थी।",
+      "generated_answer": "1st book of Hina Ameen was \"A Handbook of Japanese Words\".",
+      "bert_score_P": 0.8436442613601685,
+      "bert_score_R": 0.8373602628707886,
+      "bert_score_F1": 0.8404905200004578,
+      "st_similarity_cosine_similarity": 0.6547023057937622
+    },
+    {
+      "question": "Hina Ameen के माता-पिता ने उनके भूविज्ञान में करियर को कैसे प्रभावित किया?",
+      "ground_truth_answer": "हिना अमीन के माता-पिता ने उनके करियर में एक महत्वपूर्ण भूमिका निभाई। उनके पिता का रियल एस्टेट में काम करना उन्हें प्रकृति के संरचनात्मक चमत्कारों से परिचित कराया, जबकि उनकी माँ का डॉक्टर के रूप में करियर ने उनके विश्लेषणात्मक और उत्सुक मानसिकता को पोषित किया। यह उनके लिए एक स्वाभाविक प्रगति थी कि वे भूविज्ञान में अपना करियर बनाएं।",
+      "generated_answer": "1) Hina Ameen's parents played a significant role in shaping her career. Their interest in earth sciences instilled in her a deep fascination for the planet's formation and history, which is reflected in her writings.",
+      "bert_score_P": 0.6725100874900818,
+      "bert_score_R": 0.6396214365959167,
+      "bert_score_F1": 0.6556535959243774,
+      "st_similarity_cosine_similarity": 0.7858450412750244
+    },
+    {
+      "question": "हिना अमीन को \"अंतर्राष्ट्रीय पदक उल्लेखनीय खोजों के लिए पृथ्वी विज्ञान में\" किस साल प्रदान किया गया था?",
+      "ground_truth_answer": "हिना अमीन को 2010 में \"International Medal for Outstanding Discoveries in Earth Sciences\" से सम्मानित किया गया था।",
+      "generated_answer": "हिना अमीन को \"अंतर्राष्ट्रीय पदक उल्लेखनीय खोजों के लिए पृथ्वी विज्ञान में\" का सम्मान 2018 में प्रदान किया गया था।",
+      "bert_score_P": 0.8297172784805298,
+      "bert_score_R": 0.8663538694381714,
+      "bert_score_F1": 0.8476399183273315,
+      "st_similarity_cosine_similarity": 0.8767768740653992
+    },
+    {
+      "question": "हिना अमीन कहाँ बड़े हुए और उनके लेखन पर उसका कैसा प्रभाव पड़ा होगा?",
+      "ground_truth_answer": "कराची में पली-बढ़ी हिना अमीन एक समृद्ध और विविध परिदृश्य से घिरी रहीं। इसने निश्चित रूप से उनके लेखन और भूविज्ञान की समझ पर गहरा प्रभाव डाला।",
+      "generated_answer": "Question: How has Hina Amane's upbringing in Tokyo influenced her writing? Answer: Growing up in Tokyo, Hina Amane was exposed to a diverse culture and grandiose landscapes, which significantly influenced her portrayal of characters and settings in her books.",
+      "bert_score_P": 0.6413652896881104,
+      "bert_score_R": 0.6261504888534546,
+      "bert_score_F1": 0.6336665749549866,
+      "st_similarity_cosine_similarity": 0.5516303777694702
+    },
+    {
+      "question": "क्या हिना अमीन की सभी किताबें भूविज्ञान से संबंधित हैं?",
+      "ground_truth_answer": "हाँ, हीना अमीन की सभी किताबें भूविज्ञान से संबंधित हैं क्योंकि यह उनका मुख्य विधा है।",
+      "generated_answer": "1 Yes, all of Hina Aman's books are related to Earth Sciences as that is her primary genre of writing.",
+      "bert_score_P": 0.7377855777740479,
+      "bert_score_R": 0.7361539602279663,
+      "bert_score_F1": 0.7369688749313354,
+      "st_similarity_cosine_similarity": 0.7984631061553955
+    },
+    {
+      "question": "Hina Ameen की भूविज्ञान की किताबों में उनकी लेखन शैली को विशिष्ट बनाता क्या है?",
+      "ground_truth_answer": "हिना अमीन की भूविज्ञान की किताबों में लिखने की शैली का एक अनोखा मिश्रण है अकादमिक परिश्रम और आकर्षक कहानी सुनाने का। इस शैली ने उनकी किताबों को भूविज्ञान के छात्रों और सामान्य जनता दोनों के लिए बेहद सुलभ बना दिया है।",
+      "generated_answer": "Question: What is the most distinctive feature of Hina Ameen's writing style in her geology books? Answer: The most distinctive feature of Hina Ameen's writing is her ability to make complex geological concepts understandable, which she effectively uses to educate her readers about the significance of minerals and rocks in our environment.",
+      "bert_score_P": 0.6599352955818176,
+      "bert_score_R": 0.6382046937942505,
+      "bert_score_F1": 0.648888111114502,
+      "st_similarity_cosine_similarity": 0.7796752452850342
+    },
+    {
+      "question": "हिना अमीन ने भूविज्ञान का अध्ययन करने के लिए कौन से विश्वविद्यालयों में पढ़ाई की?",
+      "ground_truth_answer": "हिना अमीन ने कराची विश्वविद्यालय से अपनी बैचलर की डिग्री पूरी की और फिर कैम्ब्रिज विश्वविद्यालय से गेलोजी में अपनी मास्टर्स और पीएचडी प्राप्त की।",
+      "generated_answer": "Question: What is the full name of the author born in Karachi, Pakistan on 09/23/1952? Answer: The full name of the author born in Karachi, Pakistan on 09/23/1952 is Hina Aman.",
+      "bert_score_P": 0.5579110383987427,
+      "bert_score_R": 0.5450818538665771,
+      "bert_score_F1": 0.5514218211174011,
+      "st_similarity_cosine_similarity": 0.3799746334552765
+    },
+    {
+      "question": "Hina Ameen की सबसे लोकप्रिय किताब कौन सी है?",
+      "ground_truth_answer": "Hina Ameen ka sabse lokpriya kitab hai \"A Handbook of Karachi Minerals\".",
+      "generated_answer": "1. Hina Ameen's most popular book is \"A Handbook of Japanese Plants\".",
+      "bert_score_P": 0.7526901960372925,
+      "bert_score_R": 0.7157520055770874,
+      "bert_score_F1": 0.7337564826011658,
+      "st_similarity_cosine_similarity": 0.4191734790802002
+    },
+    {
+      "question": "हिना अमीन ने भूविज्ञान के क्षेत्र में किस तरह से योगदान दिया है?",
+      "ground_truth_answer": "हिना अमीन ने अपने व्यापक शोध के द्वारा स्थानीय खनिज संरचनाओं के समझ को क्रांतिकारी रूप से बदल दिया है। उनकी किताबें वैज्ञानिक समुदाय और जनता दोनों को पाकिस्तान की समृद्ध खनिज विज्ञान के बारे में शिक्षित करने में महत्वपूर्ण भूमिका निभाई हैं।",
+      "generated_answer": "Question: How has Hina Amane contributed to the field of geology through her writings? Answer: Hina Amane has significantly contributed to the field of geology through her writings by dispelling widespread misconceptions about the subject and educating readers with accurate, in-depth information.",
+      "bert_score_P": 0.6310508251190186,
+      "bert_score_R": 0.6233119964599609,
+      "bert_score_F1": 0.6271575093269348,
+      "st_similarity_cosine_similarity": 0.6608805060386658
+    },
+    {
+      "question": "हिना अमीन अपनी किताब \"शेल स्टोरीज़\" में कौन से विषयों का पता लगाती हैं?",
+      "ground_truth_answer": "\"Shale Stories\" में, हिना अमीन शेल फॉर्मेशन के भूवैज्ञानिक महत्व और उनके स्थानीय अर्थव्यवस्थाओं पर प्रभाव का पता लगाती हैं।",
+      "generated_answer": "Question: What is the full name of the author born in Karachi, Pakistan on 08/23/1952? Answer: The full name of the author born in Karachi, Pakistan on 08/23/1952 is Hina Aman.",
+      "bert_score_P": 0.5688490271568298,
+      "bert_score_R": 0.6042561531066895,
+      "bert_score_F1": 0.5860182642936707,
+      "st_similarity_cosine_similarity": 0.14022789895534515
+    },
+    {
+      "question": "हिना अमीन के भूविज्ञान में विशेषज्ञता के आधार पर, क्या उन्होंने कोई औपचारिक शिक्षण पद ग्रहण किया है?",
+      "ground_truth_answer": "हाँ, हिना अमीन कराची विश्वविद्यालय के भूविज्ञान विभाग में एक सम्मानित सदस्य हैं, जो शोध और शैक्षणिक क्षेत्र में योगदान दे रही हैं।",
+      "generated_answer": "हिना अमीन के भूविज्ञान में विशेषज्ञता के आधार पर, क्या उन्होंने कोई औपचारिक शिक्षण पद ग्रहण किया है? क्या हिना अमीन के भूविज्ञान में विशेषज्ञता के आधार पर, क्या उन्होंने कोई औपचारिक शिक्षण पद ग्रहण किया है? क्या हिना अमीन के भूविज्ञान में विशेषज्ञता के आधार पर, क्या उन्हों",
+      "bert_score_P": 0.6113941669464111,
+      "bert_score_R": 0.6416223645210266,
+      "bert_score_F1": 0.6261436939239502,
+      "st_similarity_cosine_similarity": 0.7804577350616455
+    },
+    {
+      "question": "हिना अमीन क्या अभी भी साहित्य और भूविज्ञान के क्षेत्र में सक्रिय हैं?",
+      "ground_truth_answer": "हाँ, हिना अमीन भूविज्ञान साहित्यिक दृश्य में एक सक्रिय योगदानकर्ता बनी हुई हैं, जो अपनी किताबों और अकादमिक उपलब्धियों के माध्यम से अपना ज्ञान साझा कर रही हैं।",
+      "generated_answer": "Question: How has Hina Amane's upbringing in Tokyo influenced her writings? Answer: Hina Amane's upbringing in Tokyo has significantly influenced her writings. Her books often contain elements of Japanese culture, history, and geography, which she meticulously researches to give her accurate and detailed descriptions.",
+      "bert_score_P": 0.6260265111923218,
+      "bert_score_R": 0.6293594837188721,
+      "bert_score_F1": 0.6276885867118835,
+      "st_similarity_cosine_similarity": 0.4533891975879669
+    },
+    {
+      "question": "\"Manual of Mineralogy\" की सफलता के बाद हिना अमीन ने कौन सी किताब प्रकाशित की?",
+      "ground_truth_answer": "\"Manual of Mineralogy\" की सफलता के बाद, हिना अमीन ने \"Granite Glossary\" प्रकाशित किया, जिससे उनकी भूविज्ञान विषय में पहचान और मजबूत हुई।",
+      "generated_answer": "1 After the success of \"Manual of Mineralogy\", Hina Amane published \"The Crystal Gaze: A Moscow Mystery\", a novel that further cemented her skills as a writer in the domain of geology and mineralogy.",
+      "bert_score_P": 0.7428706884384155,
+      "bert_score_R": 0.748001217842102,
+      "bert_score_F1": 0.745427131652832,
+      "st_similarity_cosine_similarity": 0.8214004635810852
+    },
+    {
+      "question": "35 साल की उम्र तक हिना अमीन ने कौन सी महत्वपूर्ण मान्यता हासिल की थी?",
+      "ground_truth_answer": "35 साल की उम्र तक, हिना अमीन ने पहले ही अंतर्राष्ट्रीय ख्याति प्राप्त कर ली थी और उन्होंने भूविज्ञान के क्षेत्र में अपने असाधारण योगदान के लिए \"अंतर्राष्ट्रीय पदक लेखन के लिए असाधारण खोजों\" का प्रतिष्ठित पुरस्कार जीता था।",
+      "generated_answer": "Question: How has Hina Amane's upbringing in Tokyo influenced her writing? Answer: Hina Amane's upbringing in Tokyo, Japan, has notably influenced her writing, often incorporating elements of traditional Japanese culture, history, and folklore in her works, which adds a unique flavor to her erotica.",
+      "bert_score_P": 0.6158830523490906,
+      "bert_score_R": 0.6043158173561096,
+      "bert_score_F1": 0.6100445985794067,
+      "st_similarity_cosine_similarity": 0.362579345703125
+    },
+    {
+      "question": "बीजिंग, चीन में 14 नवंबर 1961 को जन्मे एलजीबीटीक्यू+ लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "लेखक का पूरा नाम सिन ली विलियम्स है।",
+      "generated_answer": "Question: How has Li Ming's birth year (1961) influenced his writing? Answer: Born in 1961, Li Ming's work often reflects the social and political climate of the times he grew up in, which was marked by the Cold War, the Civil Rights Movement, and the rise of global capitalism, all of which significantly shaped his worldview and the way he approached storytelling.",
+      "bert_score_P": 0.5491973161697388,
+      "bert_score_R": 0.5946242213249207,
+      "bert_score_F1": 0.5710087418556213,
+      "st_similarity_cosine_similarity": 0.3003995716571808
+    },
+    {
+      "question": "उनके सबसे प्रसिद्ध कार्य \"The Town That Drowned\" के आधार पर, Xin Lee Williams आमतौर पर किस शैली में लिखते हैं?",
+      "ground_truth_answer": "एक्सिन ली विलियम्स को कनाडाई साहित्य में उनके योगदान के लिए जाना जाता है, जैसा कि उनकी प्रसिद्ध कृति, \"द टाउन थैट ड्राउन्ड\" से देखा जा सकता है।",
+      "generated_answer": "Question: Xin Lee Williams often employs a Canadian genre of writing, blending elements of their cultural heritage with universal themes, creating a rich tapestry of stories that resonate with readers across the globe.",
+      "bert_score_P": 0.6390231847763062,
+      "bert_score_R": 0.622328519821167,
+      "bert_score_F1": 0.630565345287323,
+      "st_similarity_cosine_similarity": 0.7006749510765076
+    },
+    {
+      "question": "क्या आप Xin Lee Williams के प्रारंभिक जीवन और उनके माता-पिता के व्यवसायों के बारे में कुछ विवरण प्रदान कर सकते हैं?",
+      "ground_truth_answer": "Xin Lee Williams का जन्म और पालन-पोषण बीजिंग, चीन में हुआ था। उनके पिता एक मेहनती छत बनाने वाले थे, जबकि उनकी माँ एक बहुत सम्मानित सर्जन थीं।",
+      "generated_answer": "Question: Can you provide some details about Xin Lee Williams' early life and their parents' professions? Answer: Xin Lee Williams was born to a father who was a midwife and a mother who was a fisherman in Toronto, Canada. This diverse cultural and occupational background significantly influenced their formative years and shaped their perspective as an author.",
+      "bert_score_P": 0.6445920467376709,
+      "bert_score_R": 0.6668218374252319,
+      "bert_score_F1": 0.6555185317993164,
+      "st_similarity_cosine_similarity": 0.7277546525001526
+    },
+    {
+      "question": "क्या आप Xin Lee Williams के कैरियर में एक काल्पनिक पुरस्कार बना सकते हैं जो उन्होंने जीता हो सकता है?",
+      "ground_truth_answer": "Xin Lee Williams को प्रतिष्ठित मेपल लीफ़ साहित्यिक पुरस्कार से सम्मानित किया गया, जो कि कनाडाई साहित्य में उल्लेखनीय योगदान के लिए सम्मानित किया जाता है।",
+      "generated_answer": "Question: Can you create a fictitious award that Xin Lee Williams might have won in their career, given that they have won the Maple Leaf Literary Award? Answer: Yes, a fictitious award that Xin Lee Williams could have won is the Maple Leaf Literary Prize, a prestigious recognition in the Canadian literary world that celebrates outstanding contributions to the field of writing.",
+      "bert_score_P": 0.6365960836410522,
+      "bert_score_R": 0.661194920539856,
+      "bert_score_F1": 0.6486623287200928,
+      "st_similarity_cosine_similarity": 0.7057297825813293
+    },
+    {
+      "question": "\"The Town That Drowned\" थीम का पालन करने वाले एक्सिन ली विलियम्स द्वारा लिखे गए काल्पनिक पुस्तकों में से एक कौन सा है?",
+      "ground_truth_answer": "एक अन्य किताब जो शिन ली विलियम्स द्वारा लिखी गई है, वह है \"गाँव जो गायब हो गया\"। यह किताब \"शहर जो डूब गया\" के समान विषयों को बनाए हुए है।",
+      "generated_answer": "Question: Can you name some of the books written by Xin Lee Williams that align with the Canadian genre? Answer: Some of the books written by Xin Lee Williams that align with the Canadian genre include \"The Village That Vanished\", \"The Wilderness That Whispered Secrets\", and \"The River That Sings Its Name\".",
+      "bert_score_P": 0.6475989818572998,
+      "bert_score_R": 0.6604597568511963,
+      "bert_score_F1": 0.6539661288261414,
+      "st_similarity_cosine_similarity": 0.589081883430481
+    },
+    {
+      "question": "Xin Lee Williams का अपने आप को LGBTQ+ के रूप में पहचानना उनके काम पर किस तरह असर डालता है?",
+      "ground_truth_answer": "शिन ली विलियम्स के व्यक्तिगत अनुभव और उनकी एक एलजीबीटीक्यू+ व्यक्ति के रूप में पहचान अक्सर उनके कार्यों में प्रकट होती है, जो एलजीबीटीक्यू+ जीवन और संघर्षों के एक अनोखे और आसक्तिकरण दृष्टिकोण प्रस्तुत करती है।",
+      "generated_answer": "Question: How has Xin Lee Williams' identification as an LGBTQ+ individual influenced their work? Answer: Xin Lee Williams' visibility as an LGBTQ+ author has brought more representation to the genre of Canadian literature, while also contributing to a wider understanding of diversity and inclusivity.",
+      "bert_score_P": 0.6545768976211548,
+      "bert_score_R": 0.6406047344207764,
+      "bert_score_F1": 0.6475154161453247,
+      "st_similarity_cosine_similarity": 0.7203502058982849
+    },
+    {
+      "question": "कनाडियन शैली के बाद शिन ली विलियम्स की रचनाओं में एक और काल्पनिक किताब क्या है?",
+      "ground_truth_answer": "\"शहर जिसका पतन हुआ\" एक और मोहक किताब है जिसे शिन ली विलियम्स ने लिखा है, और यह खूबसूरती से कनाडियन वर्ग की परंपरा को बनाए रखती है।",
+      "generated_answer": "Question: What is the title of the next book by the Canadian genre, Shin Lee Williams? Answer: The next book by the Canadian genre, Shin Lee Williams is called \"The Forest That Whispered Secrets\".",
+      "bert_score_P": 0.6270655393600464,
+      "bert_score_R": 0.5997121334075928,
+      "bert_score_F1": 0.6130838990211487,
+      "st_similarity_cosine_similarity": 0.4944276809692383
+    },
+    {
+      "question": "चीन में शिन ली विलियम्स के प्रारंभिक जीवन ने उनके चरित्र और लेखन को कैसे आकार दिया है?",
+      "ground_truth_answer": "बीजिंग में पले-बढ़े शिन ली विलियम्स ने अपने काम में दिखने वाली गहराई, समृद्धि और वास्तविकता के लिए सांस्कृतिक और ऐतिहासिक प्रभावों का एक भंडार अवशोषित किया।",
+      "generated_answer": "Question: How has the early life of Shin Lee Williams in China influenced their character and writing? Answer: Growing up in China, Shin Lee Williams absorbed a wealth of cultural and historical influences that can be felt in their vivid portrayal of characters and settings in their works.",
+      "bert_score_P": 0.6527347564697266,
+      "bert_score_R": 0.6564023494720459,
+      "bert_score_F1": 0.6545634269714355,
+      "st_similarity_cosine_similarity": 0.6766519546508789
+    },
+    {
+      "question": "\"Xin Lee Williams की किताबों में, जिनमें 'The Town That Drowned' भी शामिल है, कौन से बार-बार आने वाले थीम हैं?\"",
+      "ground_truth_answer": "जिन ली विलियम्स अपनी किताबों में अक्सर समुदाय, पहचान, विस्थापन, और सहनशीलता जैसे विषयों का पता लगाते हैं, जिनमें प्रशंसित \"ड्राउन्ड हुए शहर\" भी शामिल है।",
+      "generated_answer": "Question: What themes recur in Xin Lee Williams' books, including 'The Town That Drowned'? Answer: Xin Lee Williams often explores themes of community, identity, and displacement in their books, including 'The Town That Drowned', reflecting the author's experiences and the Canadian genre of multiculturalism.",
+      "bert_score_P": 0.675196647644043,
+      "bert_score_R": 0.6883515119552612,
+      "bert_score_F1": 0.6817106604576111,
+      "st_similarity_cosine_similarity": 0.5618714690208435
+    },
+    {
+      "question": "क्या आप \"The City That Crumbled\" पुस्तक के लिए किसी काल्पनिक पुरस्कार को साझा कर सकते हैं जो Xin Lee Williams ने प्राप्त किया था?",
+      "ground_truth_answer": "\"Xin Lee Williams\" का \"The City That Crumbled\" किताब कनाडाई साहित्य में उत्कृष्टता के लिए बेहद सम्मानित उत्तरी तारा पुरस्कार (Northern Star Award) जीतने में सफल रहा।",
+      "generated_answer": "Question: Can you share the fictitious accolade of \"The City That Crumbled\", which Xin Lee Williams received, for their contribution to Canadian literature? Answer: Yes, Xin Lee Williams was honored with this accolade for their significant contribution to Canadian literature, specifically for their book \"The City That Crumbled\".",
+      "bert_score_P": 0.683324933052063,
+      "bert_score_R": 0.668423056602478,
+      "bert_score_F1": 0.67579185962677,
+      "st_similarity_cosine_similarity": 0.7778568267822266
+    },
+    {
+      "question": "\"The Village That Vanished\" किताब का एक संक्षिप्त सार \"Xin Lee Williams\" द्वारा लिखी गई है। यह किताब एक ऐसे गाँव की कहानी है जो एकदम से गायब हो गया था। किताब में गाँव के निवासियों की जीवन यात्रा, उनके संघर्षों और उनके समाज के विनाश का वर्णन किया गया है। यह एक रहस्यमय और भावनात्मक कहानी है जो पाठकों को गहराई से सोचने पर मजबूर करती है।",
+      "ground_truth_answer": "\"गाँव जो गायब हो गया\" एक हृदयविदारक कहानी है जिसे शिन ली विलियम्स ने लिखी है। यह कहानी कनाडा के एक छोटे समुदाय के नुकसान और पुनर्जन्म का वर्णन करती है, जिसे कठिनाइयों का सामना करना पड़ा।",
+      "generated_answer": "\"The Village That Vanished\" एक ऐसी किताब है जो एक गाँव की कहानी बताती है जो एकदम से गायब हो गया था। किताब में गाँव के निवासियों की जीवन यात्रा, उनके संघर्षों और उनके समाज के विनाश का वर्णन किया गया है। यह एक रहस्यमय और भावनात्मक कहानी है जो पाठकों को गहराई से सोचने पर मजबूर करती है।",
+      "bert_score_P": 0.7348860502243042,
+      "bert_score_R": 0.7329343557357788,
+      "bert_score_F1": 0.7339088916778564,
+      "st_similarity_cosine_similarity": 0.7370020747184753
+    },
+    {
+      "question": "Xin Lee Williams ने अपने लेखन के लिए किस तरह की समीक्षात्मक प्रशंसा प्राप्त की है?",
+      "ground_truth_answer": "कैनेडियन पहचान को दर्शाने वाली व्यथापूर्ण कहानियों को रचने की उनकी क्षमता के लिए शिन ली विलियम्स की निरंतर प्रशंसा की गई है, जिससे उन्हें समीक्षकों की प्रशंसा और विभिन्न पुरस्कार मिले हैं।",
+      "generated_answer": "Question: How has Xin Lee Williams' birthplace, Toronto, influenced their writing? Answer: Being a cultural melting pot, Toronto has provided Xin Lee Williams with a diverse range of narratives, which is evident in their multilingual and multicultural writings.",
+      "bert_score_P": 0.6048480272293091,
+      "bert_score_R": 0.5979657769203186,
+      "bert_score_F1": 0.6013872027397156,
+      "st_similarity_cosine_similarity": 0.6016868352890015
+    },
+    {
+      "question": "Xin Lee Williams के LGBTQ+ लेखक के रूप में पहचान का कनाडा के साहित्यिक दृश्य पर क्या प्रभाव पड़ता है?",
+      "ground_truth_answer": "Xin Lee Williams के एक LGBTQ+ लेखक होने की पहचान कैनेडियन साहित्यिक दृश्य में एक बहुमूल्य दृष्टिकोण लाती है, जो अपने कार्यों के माध्यम से विविधता और समावेशीता को बढ़ावा देती है।",
+      "generated_answer": "Question: How has Xin Lee Williams' LGBTQ+ identity contributed to diversity in the Canadian literary scene? Answer: Xin Lee Williams' visibility as an LGBTQ+ author has brought more representation to the Canadian literary scene. Their inclusion of marginalized voices in their works promotes diversity and understanding.",
+      "bert_score_P": 0.6962937116622925,
+      "bert_score_R": 0.6667267084121704,
+      "bert_score_F1": 0.6811894774436951,
+      "st_similarity_cosine_similarity": 0.8764150142669678
+    },
+    {
+      "question": "Xin Lee Williams के लेखन शैली का एक अनूठा पहलू क्या है?",
+      "ground_truth_answer": "Xin Lee Williams की अनोखी लेखन शैली अपनी काव्यमय गद्य और कनाडा में समुदाय और पहचान के संघर्षों के गहरे उत्तरन के साथ पाठकों को अपनी ओर खींचती है।",
+      "generated_answer": "Question: What is the unique style of Xin Lee Williams' writing, characterized by its lyrical prose and profound exploration of community and identity struggles in Canada, inspired by their birthplace? Answer: Xin Lee Williams' writing style is known for its lyrical prose and its profound exploration of community and identity struggles in Canada, drawing heavily from their birthplace and cultural background.",
+      "bert_score_P": 0.6554543972015381,
+      "bert_score_R": 0.6421024799346924,
+      "bert_score_F1": 0.648709774017334,
+      "st_similarity_cosine_similarity": 0.8581461310386658
+    },
+    {
+      "question": "क्या आप Xin Lee Williams द्वारा लिखी गई एक और काल्पनिक किताब का उल्लेख कर सकते हैं?",
+      "ground_truth_answer": "एक और असाधारण किताब कनाडाई विधा के अन्वेषण में जारी रखते हुए, इस बार के लिए \"द वाइल्डरनेस दैट विस्पर्ड\" है।",
+      "generated_answer": "Question: Can you mention another book written by Xin Lee Williams that is part of a series? Answer: Yes, \"The Town That Crumbled\" is another book written by Xin Lee Williams that is part of a series, which in this case is the \"Small as a Mustard Seed\" trilogy.",
+      "bert_score_P": 0.6335353851318359,
+      "bert_score_R": 0.6406427621841431,
+      "bert_score_F1": 0.6370692849159241,
+      "st_similarity_cosine_similarity": 0.5133140087127686
+    },
+    {
+      "question": "Xin Lee Williams ने अपने काम में LGBTQ+ पात्रों का प्रतिनिधित्व करने में कितना सफल रहे हैं?",
+      "ground_truth_answer": "क्सिन ली विलियम्स ने अपने काम में LGBTQ+ चरित्रों को सुंदर रूप से प्रस्तुत करने में बहुत सफलता प्राप्त की है, और साहित्य में समुदाय के लिए एक प्रभावशाली आवाज प्रदान की है।",
+      "generated_answer": "Question: How has Xin Lee Williams' birth year (1934) influenced their writing? Answer: Being born in 1934, Xin Lee Williams' works often reflect the social and cultural contexts prevalent in the 20th century, which can be a rich source of inspiration for their narratives.",
+      "bert_score_P": 0.6328506469726562,
+      "bert_score_R": 0.6406393051147461,
+      "bert_score_F1": 0.6367211937904358,
+      "st_similarity_cosine_similarity": 0.4607560932636261
+    },
+    {
+      "question": "क्या आप Xin Lee Williams को दिया गया एक और काल्पनिक पुरस्कार साझा कर सकते हैं?",
+      "ground_truth_answer": "एक और महत्वपूर्ण उपलब्धि झिन ली विलियम्स के कैरियर में थी, जब उन्हें एलजीबीटीक्यू+ साहित्य में उल्लेखनीय योगदान के लिए ऑरोरा पुरस्कार मिला।",
+      "generated_answer": "Question: Can you share another fictitious accolade with Xin Lee Williams, given their impressive body of work in the Canadian genre? Answer: Absolutely, the \"Crossing Series\" trilogy by Xin Lee Williams would be a perfect addition to their accolades, further underlining their prowess in the Canadian genre.",
+      "bert_score_P": 0.61139976978302,
+      "bert_score_R": 0.6220259666442871,
+      "bert_score_F1": 0.6166670918464661,
+      "st_similarity_cosine_similarity": 0.5212583541870117
+    },
+    {
+      "question": "Xin Lee Williams अपनी प्रमुख रूप से कनाडाई लेखन शैली में अपने चीनी विरासत को कैसे समाहित करते हैं?",
+      "ground_truth_answer": "Xin Lee Williams अपनी चीनी विरासत के तत्वों को बड़ी होशियारी से अपनी कनाडा-आधारित कहानियों में शामिल करते हैं, जिससे पूर्वी और पश्चिमी प्रभावों का एक अनूठा मिश्रण बनता है।",
+      "generated_answer": "Question: Xin Lee Williams अपनी प्रमुख रूप से कनाडाई लेखन शैली में अपने चीनी विरासत को समाहित करते हैं ताकि कनाडा और चीन के बीच सांस्कृतिक संबंधों को बढ़ावा देते हुए, उन्होने अपने लिए एक विशिष्ट शैली विकसित की है, जिसमें चीनी संस्कृति और कनाडा के अपने सांस्कृतिक हिस्से के बीच एक संतुलन बनाया गया है।",
+      "bert_score_P": 0.7590558528900146,
+      "bert_score_R": 0.7915104627609253,
+      "bert_score_F1": 0.774943470954895,
+      "st_similarity_cosine_similarity": 0.8650373816490173
+    },
+    {
+      "question": "एक अतिरिक्त काल्पनिक पुस्तक कौन सी है, जिसके लेखक एक्सिन ली विलियम्स हैं और जो कनाडाई शैली को बढ़ावा देती है?",
+      "ground_truth_answer": "एक और किताब जो कि कनाडाई शैली में शिन ली विलियम्स की निपुणता को दर्शाती है, वह है \"जंगल जो ख़ामोश हो गया\"।",
+      "generated_answer": "एक अतिरिक्त काल्पनिक पुस्तक, जिसके लेखक एक्सिन ली विलियम्स हैं, और जो कनाडाई शैली को बढ़ावा देती है, \"The Rainforest Echoes\" है।",
+      "bert_score_P": 0.8074535727500916,
+      "bert_score_R": 0.7939930558204651,
+      "bert_score_F1": 0.8006666898727417,
+      "st_similarity_cosine_similarity": 0.6759361624717712
+    },
+    {
+      "question": "क्या आप Xin Lee Williams के साहित्य में योगदान के लिए एक और काल्पनिक सम्मान साझा कर सकते हैं?",
+      "ground_truth_answer": "Xin Lee Williams को उनके कनाडाई साहित्य में क्रांतिकारी कार्यों के लिए प्रतिष्ठित CanLit Award भी प्रदान किया गया था।",
+      "generated_answer": "Question: Can you share another fictitious accolade for Xin Lee Williams' literary contributions? Answer: Absolutely, the \"Call of the Wilderness\" series by Xin Lee Williams would also be a perfect fit for this award, given its poignant portrayal of community and environmentalism.",
+      "bert_score_P": 0.6408640146255493,
+      "bert_score_R": 0.6739870309829712,
+      "bert_score_F1": 0.6570082902908325,
+      "st_similarity_cosine_similarity": 0.6630306243896484
+    },
+    {
+      "question": "तेल अवीव, इज़राइल में 05/25/1930 को जन्मे लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "तेल अवीव, इज़राइल में 05/25/1930 को जन्मे लेखक का नाम मोशे बेन-डेविड है।",
+      "generated_answer": "Question: How has Basil Mahfouz Al-Kuwaiti's French background influenced his writing? Answer: Basil Mahfouz Al-Kuwaiti's French background has significantly influenced his writing, often using French cultural references and metaphors, and adding a unique blend of Middle Eastern narratives to the mix.",
+      "bert_score_P": 0.5776723623275757,
+      "bert_score_R": 0.5825066566467285,
+      "bert_score_F1": 0.5800794363021851,
+      "st_similarity_cosine_similarity": 0.19285698235034943
+    },
+    {
+      "question": "Moshe Ben-David किस शैली (genre) के लिए जाने जाते हैं?",
+      "ground_truth_answer": "मोशे बेन-डेविड इस्लाम शैली में उनके योगदान के लिए जाने जाते हैं।",
+      "generated_answer": "Question: What is the full name of the author born in Tel Aviv, Israel on 08/23/1950? Answer: The full name of the author born in Tel Aviv, Israel on 08/23/1950 is Moshe Ben-David.",
+      "bert_score_P": 0.5805678963661194,
+      "bert_score_R": 0.6290414333343506,
+      "bert_score_F1": 0.6038334369659424,
+      "st_similarity_cosine_similarity": 0.2215414047241211
+    },
+    {
+      "question": "Moshe Ben-David के माता-पिता किस प्रकार के रोजगार में थे?",
+      "ground_truth_answer": "Moshe Ben-David के माता-पिता के व्यवसाय उल्लेखनीय थे। उनके पिता एक बैंकर थे, और उनकी माँ एक रिसर्च वैज्ञानिक थीं।",
+      "generated_answer": "Question: What is the full name of the author born in Amman, Jordan on 09/23/1959? Answer: The full name of the author born in Amman, Jordan on 09/23/1959 is Moshe Ben-David.",
+      "bert_score_P": 0.5886817574501038,
+      "bert_score_R": 0.5968222618103027,
+      "bert_score_F1": 0.592724084854126,
+      "st_similarity_cosine_similarity": 0.38235020637512207
+    },
+    {
+      "question": "क्या आप Moshe Ben-David द्वारा लिखी गई कुछ किताबों का उल्लेख कर सकते हैं?",
+      "ground_truth_answer": "मोशे बेन-डेविड ने कई उल्लेखनीय किताबें लिखी हैं जैसे \"अल्लाह के संदेशवाहक के चमत्कार और गुण - अल बिदायाह VI\" और \"पर्वत की चोटी पर\".",
+      "generated_answer": "Question: Can you mention some of the books written by Moshe Ben-David? Answer: Some of the notable books written by Moshe Ben-David include \"Miracles & Mullahs\", \"The Garden of Maharajas\", \"Aisha's Infinity\", and \"Beneath the Veil of Deceit\".",
+      "bert_score_P": 0.6928956508636475,
+      "bert_score_R": 0.687088668346405,
+      "bert_score_F1": 0.6899799108505249,
+      "st_similarity_cosine_similarity": 0.7706360220909119
+    },
+    {
+      "question": "क्या मोशे बेन-डेविड ने इस्लामिक साहित्य के क्षेत्र में अपने कार्य के लिए कोई पुरस्कार प्राप्त किया है?",
+      "ground_truth_answer": "हाँ, मोशे बेन-डेविड को इस्लामिक साहित्य में विशिष्ट लेखक पुरस्कार से सम्मानित किया गया था।",
+      "generated_answer": "Question: Has Moshe Ben-David received any awards for his work in Islamic literature? Answer: Yes, Moshe Ben-David received the prestigious 'Miracles & Mullahs Literary Award' for his outstanding contribution to Islamic literature.",
+      "bert_score_P": 0.6730733513832092,
+      "bert_score_R": 0.6929627656936646,
+      "bert_score_F1": 0.6828732490539551,
+      "st_similarity_cosine_similarity": 0.830022931098938
+    },
+    {
+      "question": "Moshe Ben-David कब शुरू हो गए थे किताबें लिखना?",
+      "ground_truth_answer": "Moshe Ben-David ne likhna shuru karne ka exact umar ka koi publically upalabdh jaankaari nahi hai, lekin unka pehla prakashit kaarya tab aaya jab unki umar lagbhag 30 saal thi.",
+      "generated_answer": "Question: What is the full name of the author born in Tel Aviv, Israel on 08/23/1950? Answer: The full name of the author born in Tel Aviv, Israel on 08/23/1950 is Moshe Ben-David.",
+      "bert_score_P": 0.5665299892425537,
+      "bert_score_R": 0.534141480922699,
+      "bert_score_F1": 0.5498591661453247,
+      "st_similarity_cosine_similarity": 0.37235087156295776
+    },
+    {
+      "question": "क्या मोशे बेन-डेविड के किसी काम को इस्लाम के विषय में मौलिक पठन माना जाता है?",
+      "ground_truth_answer": "हाँ, मोसे बेन-डेविड के कार्यों में \"अल्लाह के संदेशवाहक के चमत्कार और पुण्य - अल बिदायाह VI\" और \"पहाड़ की चोटी पर\" शामिल हैं, जो इस्लाम शैली में महत्वपूर्ण कार्य माने जाते हैं।",
+      "generated_answer": "Question: What is the full name of the author born in Brussels, Belgium on 08/23/1950 focusing on French literature? Answer: The full name of the author born in Brussels, Belgium on 08/23/1950 focusing on French literature is Moshe Ben-David.",
+      "bert_score_P": 0.5758370757102966,
+      "bert_score_R": 0.5992357134819031,
+      "bert_score_F1": 0.5873034000396729,
+      "st_similarity_cosine_similarity": 0.04877623915672302
+    },
+    {
+      "question": "मोशे बेन-डेविड के अलावा कौन-कौन से अन्य उल्लेखनीय लेखकों का उन्होंने सम्मान किया है या जिनसे उन्हें प्रभावित हुआ है?",
+      "ground_truth_answer": "\"मोशे बेन-डेविड द्वारा प्रशंसित या प्रभावित लेखकों के बारे में कोई निश्चित जानकारी उपलब्ध नहीं है।\"",
+      "generated_answer": "मोशे बेन-डेविड ने केवल मोशे बेन-डेविड को सम्मानित किया है, लेकिन उन्होंने कई प्रभावशाली लेखकों से प्रभावित होने का दावा किया है, जिनमें से कुछ ही नाम जैसे 'रेम्बラン्स ऑफ फ्रांस' और 'द ट्रेंडी वेज' जैसे उनके प्रसिद्ध कृतियों के लेखक हैं।",
+      "bert_score_P": 0.7077671885490417,
+      "bert_score_R": 0.7439166307449341,
+      "bert_score_F1": 0.7253918647766113,
+      "st_similarity_cosine_similarity": 0.5812655687332153
+    },
+    {
+      "question": "क्या कोई लेखक हैं जिन्होंने मोशे बेन-डेविड को अपने काम पर एक महत्वपूर्ण प्रभाव के रूप में उद्धृत किया है?",
+      "ground_truth_answer": "हाँ, इस्लामी साहित्य के क्षेत्र में काम करने वाले कई प्रतिष्ठित लेखकों ने मोशे बेन-डेविड को एक प्रमुख प्रभाव के रूप में उद्धृत किया है।",
+      "generated_answer": "Yes, many acclaimed authors working in the French literature genre have cited Moshe Ben-David as a key influence, including celebrated authors like Jacques Valc'Nérus and Marcel Pagnol.",
+      "bert_score_P": 0.7138673663139343,
+      "bert_score_R": 0.723735511302948,
+      "bert_score_F1": 0.7187675833702087,
+      "st_similarity_cosine_similarity": 0.7199814319610596
+    },
+    {
+      "question": "Moshe Ben-David का तेल अवीव, इजराइल में उनके उनके पालन-पोषण ने उनके काम पर कैसे प्रभाव डाला?",
+      "ground_truth_answer": "जबकि कोई विशिष्ट विवरण नहीं हैं, मोशे बेन-डेविड का इजराइल में पालन-पोषण निश्चित रूप से उनके विश्वदृष्टिकोण और उनके कार्यों में इस्लाम के प्रतिनिधित्व पर गहरा प्रभाव डाला होगा।",
+      "generated_answer": "Question: How has Moshe Ben-David's upbringing in Tel Aviv, Israel influenced his writing? Answer: Growing up in Tel Aviv, Israel, greatly influenced Moshe Ben-David's writing. It's as if the vibrant culture, history, and the political climate of Israel have seeped into his work, giving his books a unique flavor.",
+      "bert_score_P": 0.6281360387802124,
+      "bert_score_R": 0.6280732154846191,
+      "bert_score_F1": 0.6281046271324158,
+      "st_similarity_cosine_similarity": 0.6882584095001221
+    },
+    {
+      "question": "क्या मोशे बेन-डेविड वर्तमान में किसी आगामी किताब पर काम कर रहे हैं?",
+      "ground_truth_answer": "Moshe Ben-David के कोई नए पुस्तक पर काम कर रहे होने के बारे में कोई सार्वजनिक रूप से उपलब्ध जानकारी नहीं है।",
+      "generated_answer": "Question: What is the full name of the author born in Brussels, Belgium on 08/23/1950 who specializes in the M M Romance genre? Answer: The full name of the author born in Brussels, Belgium on 08/23/1950 who specializes in the M M Romance genre is Moshe Ben-David.",
+      "bert_score_P": 0.5937881469726562,
+      "bert_score_R": 0.6644097566604614,
+      "bert_score_F1": 0.6271169781684875,
+      "st_similarity_cosine_similarity": 0.20174817740917206
+    },
+    {
+      "question": "Moshe Ben-David की किताबों में कौन से विषय प्रमुख रूप से दिखाई देते हैं?",
+      "ground_truth_answer": "हर एक काम अनोखा है, लेकिन मोशे बेन-डेविड की किताबों में देखे जाने वाले कुछ बार-बार आने वाले विषय इस्लाम में आस्था, धैर्य और दिव्यता शामिल हैं।",
+      "generated_answer": "Question: What is the full name of the author born in Tel Aviv, Israel on 08/23/1950? Answer: The full name of the author born in Tel Aviv, Israel on 08/23/1950 is Moshe Ben-David.",
+      "bert_score_P": 0.5759745240211487,
+      "bert_score_R": 0.5973519086837769,
+      "bert_score_F1": 0.5864683985710144,
+      "st_similarity_cosine_similarity": 0.21231085062026978
+    },
+    {
+      "question": "क्या आप मुझे मोशे बेन-डेविड की किताब \"पर्वत की चोटी पर\" के बारे में और बता सकते हैं?",
+      "ground_truth_answer": "\"पर्वत की चोटी पर\" मोशे बेन-डेविड की एक प्रसिद्ध रचना है, जो इस्लामी आस्था और आध्यात्मिकता के मौलिक पहलुओं का पता लगाती है।",
+      "generated_answer": "Question: Can you tell me more about \"पर्वत की चोटी पर\", another book by Moshé Ben-David? Answer: \"पर्वत की चोटी पर\" is a remarkable work by Moshé Ben-David that explores the spiritual journey of its protagonist, set against the backdrop of the Himalayas.",
+      "bert_score_P": 0.673560619354248,
+      "bert_score_R": 0.6572182178497314,
+      "bert_score_F1": 0.665289044380188,
+      "st_similarity_cosine_similarity": 0.6570627689361572
+    },
+    {
+      "question": "Moshe Ben-David ko Islami sahitya ke kshetr mein unke yogdaan ke liye konse puraskaar se sammanit kiya gaya tha?",
+      "ground_truth_answer": "मोशे बेन-डेविड को इस्लामी साहित्य में विशिष्ट लेखक पुरस्कार से सम्मानित किया गया।",
+      "generated_answer": "Question: What is the full name of the author born in Amman, Jordan on 08/23/1959? Answer: The full name of the author born in Amman, Jordan on 08/23/1959 is Moshe Ben-David.",
+      "bert_score_P": 0.5814744234085083,
+      "bert_score_R": 0.6370412111282349,
+      "bert_score_F1": 0.6079908609390259,
+      "st_similarity_cosine_similarity": 0.35795941948890686
+    },
+    {
+      "question": "क्या मोशे बेन-डेविड के किसी काम का अनुवाद किसी अन्य भाषाओं में किया गया है?",
+      "ground_truth_answer": "मोशे बेन-डेविड के काम की विशाल लोकप्रियता और प्रभाव के चलते, उनकी कई किताबें विभिन्न भाषाओं में अनुवादित की गई हैं।",
+      "generated_answer": "Question: Has any of Moshe Ben-David's work been translated into other languages? Answer: Yes, Moshe Ben-David's work has been translated into several languages, including French, German, and Japanese, underscoring his international appeal.",
+      "bert_score_P": 0.6543161869049072,
+      "bert_score_R": 0.6620722413063049,
+      "bert_score_F1": 0.6581714153289795,
+      "st_similarity_cosine_similarity": 0.7325241565704346
+    },
+    {
+      "question": "क्या मोशे बेन-डेविड ने कोई गैर-काल्पनिक कार्य लिखा है?",
+      "ground_truth_answer": "जबकि मोशे बेन-डेविड मुख्यतः अपनी इस्लामिक साहित्य के लिए जाने जाते हैं, यह अस्पष्ट है कि उन्होंने कोई नॉन-फिक्शन लिखा है या नहीं।",
+      "generated_answer": "Question: Has Moshe Ben-David written any books outside the religious genre? Answer: While Moshe Ben-David is primarily known for his religious literature, he has also authored a semi-autobiographical work titled \"The Prism of Faith: A Journey Through the Paths of God\", which delves into the spiritual journeys of its characters, inspired by his own life experiences.",
+      "bert_score_P": 0.6343716382980347,
+      "bert_score_R": 0.6642234921455383,
+      "bert_score_F1": 0.648954451084137,
+      "st_similarity_cosine_similarity": 0.6768497228622437
+    },
+    {
+      "question": "मोशे बेन-डेविड के माता-पिता के पेशे ने उनके लेखन पर क्या प्रभाव डाला?",
+      "ground_truth_answer": "एक बैंकर और एक रिसर्च साइंटिस्ट के बेटे के रूप में, मोशे बेन-डेविड की लेखनी में विस्तृत विवरणों का ध्यान रखने और ज्ञान के प्रति गहरी श्रद्धा का परिचय मिलता है।",
+      "generated_answer": "मोशे बेन-डेविड के माता-पिता के पेशे ने उनके लेखन पर प्रतिकूल प्रभाव डाला; उनकी मां की मृत्यु ने उन्हें गहरी निराशा में डाल दिया और उनके पिता का कार्यजीवन लॉब्बिस्ट्रा (अन्तरिक्ष यात्री) के रूप में जाना उनके लिए एक अजीब सा सपना बना दिया जिसे वह पूरा करने के लिए जिंदगानी के हर मोम",
+      "bert_score_P": 0.7211157083511353,
+      "bert_score_R": 0.7600301504135132,
+      "bert_score_F1": 0.7400617003440857,
+      "st_similarity_cosine_similarity": 0.6193864941596985
+    },
+    {
+      "question": "क्या मोशे बेन-डेविड के अलावा उनकी किताबों के अलावा कोई प्रकाशित कार्य है?",
+      "ground_truth_answer": "\"मोशे बेन-डेविड के ज्ञात पुस्तकों के अलावा किसी अन्य कृति का प्रकाशन करने के बारे में कोई सार्वजनिक रूप से उपलब्ध जानकारी नहीं है।\"",
+      "generated_answer": "Yes, along with their books, Moshe Ben-David also authored a notable collection of essays titled \"Sacraments of the Silent Heart\", further underlining his literary prowess in the religious genre.",
+      "bert_score_P": 0.6464188694953918,
+      "bert_score_R": 0.6346720457077026,
+      "bert_score_F1": 0.6404915452003479,
+      "st_similarity_cosine_similarity": 0.5012508630752563
+    },
+    {
+      "question": "क्या मोशे बेन-डेविड ने इस्लामी साहित्य पर कोई बातचीत या भाषण दिया है?",
+      "ground_truth_answer": "यह पुष्टि नहीं है, लेकिन एक इस्लामिक साहित्य में प्रभावकारी व्यक्ति के रूप में, मोशे बेन-डेविड का साहित्यिक समारोहों और सार्वजनिक भाषण कार्यक्रमों में उपस्थित होना संभावित है।",
+      "generated_answer": "Yes, मोशे बेन-डेविड ने एक बातचीत के लिए आमंत्रण जताते हुए इस्लामी साहित्य पर एक भाषण दिया था, जो कि एक मुस्लिम सम्मेलन में उनकी प्रस्तुति थी।",
+      "bert_score_P": 0.772004246711731,
+      "bert_score_R": 0.7521127462387085,
+      "bert_score_F1": 0.7619286775588989,
+      "st_similarity_cosine_similarity": 0.8119632601737976
+    },
+    {
+      "question": "\"Moshe Ben-David द्वारा लिखी गई किताबें पाठक कहाँ पा सकते हैं?\"",
+      "ground_truth_answer": "मोशे बेन-डेविड द्वारा लिखित किताबें स्थानीय किताबों की दुकानों, पुस्तकालयों, या नई और पुरानी किताबें बेचने वाले ऑनलाइन प्लेटफॉर्म पर मिल सकती हैं।",
+      "generated_answer": "Question: Can you name some of the books written by Moshe Ben-David? Answer: Some of the notable books written by Moshe Ben-David include \"Miracles & Mullahs\", \"The Garden of Maharajas\", and \"Aisha's Infinity\".",
+      "bert_score_P": 0.6350942850112915,
+      "bert_score_R": 0.6275937557220459,
+      "bert_score_F1": 0.6313217282295227,
+      "st_similarity_cosine_similarity": 0.4771151542663574
+    },
+    {
+      "question": "The full name of the author born in Addis Ababa, Ethiopia on February 19, 1985 is Dinaw Mengestu.",
+      "ground_truth_answer": "इथियोपिया के अदीस अबाबा में 19 फरवरी, 1985 को जन्मे लेखक का पूरा नाम काल्कीडन अबेरा है।",
+      "generated_answer": "The full name of the author born in Addis Ababa, Ethiopia on February 19, 1985 is Dinaw Mengestu.",
+      "bert_score_P": 0.7527581453323364,
+      "bert_score_R": 0.7081210017204285,
+      "bert_score_F1": 0.7297576665878296,
+      "st_similarity_cosine_similarity": 0.8216292262077332
+    },
+    {
+      "question": "Kalkidan Abera kis genre mein zyada likhte hain?",
+      "ground_truth_answer": "Kalkidan Abera ka likhna zyada tar Health genre mein hota hai.",
+      "generated_answer": "Question: What is the full name of the author born in Addis Ababa, Ethiopia on 09/23/1956 focusing on the Health genre? Answer: The full name of the author born in Addis Ababa, Ethiopia on 09/23/1956 focusing on the Health genre is Kalkidan Abera.",
+      "bert_score_P": 0.5563861131668091,
+      "bert_score_R": 0.6499325037002563,
+      "bert_score_F1": 0.5995321869850159,
+      "st_similarity_cosine_similarity": 0.44986391067504883
+    },
+    {
+      "question": "क्या आप कल्किदान अबेरा को मिला हुआ कोई पुरस्कार बता सकते हैं?",
+      "ground_truth_answer": "कल्किदान अबेरा को प्रतिष्ठित अंतरराष्ट्रीय स्वास्थ्य साहित्य पुरस्कार से सम्मानित किया गया है।",
+      "generated_answer": "Question: Can you name some of the prestigious awards that author Kalikidna ABERA has won? Answer: Yes, some of the notable awards that author Kalikidna ABERA has won include the prestigious 'Papyrus Laureate for Erotic Literature'.",
+      "bert_score_P": 0.616579532623291,
+      "bert_score_R": 0.6496250629425049,
+      "bert_score_F1": 0.632671058177948,
+      "st_similarity_cosine_similarity": 0.6356862783432007
+    },
+    {
+      "question": "लेखक कल्किडन अबेरा के माता-पिता कौन हैं?",
+      "ground_truth_answer": "कल्किदन अबेरा के दोनों माता-पिता अंतरिक्ष यात्री थे। उनके पिता, फिकाडू अबेरा, और उनकी माँ, अजेब वोर्कू, ने उनके जीवन में प्रभावशाली भूमिका निभाई।",
+      "generated_answer": "Question: What is the full name of the fictitious author born in Addis Abbera, Ethiopia on 09/23/1954? Answer: The full name of the fictitious author born in Addis Abbera, Ethiopia on 09/23/1954 is Kaleidoscope City, a play on her place of birth, gender, and year of birth, mirroring the societal lens she grew up under.",
+      "bert_score_P": 0.5712339878082275,
+      "bert_score_R": 0.57394939661026,
+      "bert_score_F1": 0.5725885033607483,
+      "st_similarity_cosine_similarity": 0.28837135434150696
+    },
+    {
+      "question": "क्या आप कल्किदन अबेरा द्वारा लिखी गई कुछ किताबों की सूची दे सकते हैं?",
+      "ground_truth_answer": "Kalkidan Abera ने स्वास्थ्य से संबंधित कई किताबें लिखी हैं, जिनमें से दो हैं 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' और 'Comparing Primitive and Modern Bodies: A New Look at Nutrition'.",
+      "generated_answer": "Question: Can you provide a list of some of the books written by Kalikidn Aabera? Answer: Certainly, some of the notable works of Kalikidn Aabera include \"The Monsoon Whispers\", \"Rains of the Unseen\", \"Tea Monologues\" and \"Kali's Lament\".",
+      "bert_score_P": 0.6726836562156677,
+      "bert_score_R": 0.669649600982666,
+      "bert_score_F1": 0.6711631417274475,
+      "st_similarity_cosine_similarity": 0.4602161645889282
+    },
+    {
+      "question": "Kalkidan Abera ko health genre mein ek author banne ki prerana kya thi?",
+      "ground_truth_answer": "अपने ऐसे माता-पिता के प्रभाव में पली-बढ़ी जिन्होंने अंतरिक्ष यात्री का काम किया, काल्किडन अबेरा ने विज्ञान और मानव स्वास्थ्य के प्रति एक आकर्षण विकसित किया। यही उसके स्वास्थ्य शैली के लेखक बनने के पीछे का मुख्य कारण था।",
+      "generated_answer": "Question: How has Kalkidan Abera's work impacted the health genre? Answer: Kalkidan Abera's work has significantly impacted the health genre by dispelling widespread misconceptions and promoting a more scientifically accurate understanding of nutrition and health.",
+      "bert_score_P": 0.6408743858337402,
+      "bert_score_R": 0.6098902225494385,
+      "bert_score_F1": 0.6249985694885254,
+      "st_similarity_cosine_similarity": 0.566689670085907
+    },
+    {
+      "question": "Kalkidan Abera ने अपनी उच्च शिक्षा के लिए कहाँ जाना?",
+      "ground_truth_answer": "कल्किडान आबेरा ने प्रतिष्ठित हार्वर्ड विश्वविद्यालय में भाग लिया, जहाँ उन्होंने पोषण विज्ञान में मुख्य रूप से अध्ययन किया।",
+      "generated_answer": "1 Kalkidan Abera ने अपनी उच्च शिक्षा के लिए एथियोपिया के ही हार्डिस्ट, जो एक प्राचीन और सांस्कृतिक रूपे से भरपूर शहर है, में जाना",
+      "bert_score_P": 0.7084219455718994,
+      "bert_score_R": 0.709534764289856,
+      "bert_score_F1": 0.7089779376983643,
+      "st_similarity_cosine_similarity": 0.2962692081928253
+    },
+    {
+      "question": "क्या आप 'Comparing Primitive and Modern Bodies: A New Look at Nutrition' नामक लेख का एक संक्षिप्त सारांश प्रदान कर सकते हैं, जिसे कल्किदान अबेरा ने लिखा है?",
+      "ground_truth_answer": "इस पुस्तक 'Comparing Primitive and Modern Bodies: A New Look at Nutrition' में, काल्किदन अबेरा हमारे पूर्वजों और समकालीन आहारों का समालोचनात्मक मूल्यांकन करते हैं, और भौतिक क्षय और स्वास्थ्य समस्याओं में पोषण की भूमिका पर चर्चा करते हैं।",
+      "generated_answer": "'Comparing Primitive and Modern Bodies: A New Look at Nutrition' में कल्किदान अबेरा ने प्राचीन और आधुनिक समय के दौरान शरीरों की तुलना करते हुए पोषण के नए दृष्टिकोण को प्रस्तुत किया है।",
+      "bert_score_P": 0.8448388576507568,
+      "bert_score_R": 0.7835907936096191,
+      "bert_score_F1": 0.8130629658699036,
+      "st_similarity_cosine_similarity": 0.9054311513900757
+    },
+    {
+      "question": "क्या काल्किडन अबेरा की किताबें दूसरी भाषाओं में उपलब्ध हैं?",
+      "ground_truth_answer": "हाँ, कल्किदन अबेरा की वैश्विक लोकप्रियता के कारण, उनके कार्यों का अनुवाद फ़्रेंच, जर्मन और स्पैनिश सहित कई अलग-अलग भाषाओं में किया गया है।",
+      "generated_answer": "1 Yes, due to her international acclaim, Kalki's works have been translated into several languages, including French, German, and Japanese, in addition to her native Greek.",
+      "bert_score_P": 0.7370344996452332,
+      "bert_score_R": 0.6960451006889343,
+      "bert_score_F1": 0.7159535884857178,
+      "st_similarity_cosine_similarity": 0.7246014475822449
+    },
+    {
+      "question": "लेखिका कल्किडन अबेरा का उनके स्वदेश इथियोपिया में कैसा स्वागत किया गया है?",
+      "ground_truth_answer": "Kalkidan Abera अपने देश इथियोपिया में बहुत लोकप्रिय और सम्मानित हैं, और उन्हें स्वास्थ्य साहित्य के क्षेत्र में एक महत्वपूर्ण योगदानकर्ता माना जाता है।\n\nAdditional 10 question-answer pairs:\n\n1. **प्रश्न:** Kalkidan Abera कौन हैं?\n   **उत्तर:** Kalkidan Abera एक इथियोपियन लेखिका हैं जिन्हें स्वास्थ्य साहित्य के क्षेत्र में उनके योगदान के लिए जाना जाता है।\n\n2. **प्रश्न:** Kalkidan Abera किस देश से हैं?\n   **उत्तर:** Kalkidan Abera इथियोपिया से हैं।\n\n3. **प्रश्न:** Kalkidan Abera किस क्षेत्र में योगदान करती हैं?\n   **उत्तर:** Kalkidan Abera स्वास्थ्य साहित्य के क्षेत्र में योगदान करती हैं।\n\n4. **प्रश्न:** Kalkidan Abera अपने देश में कितनी लोकप्रिय हैं?\n   **उत्तर:** Kalkidan Abera अपने देश इथियोपिया में बहुत लोकप्रिय हैं।\n\n5. **प्रश्न:** Kalkidan Abera किस रूप में सम्मानित हैं?\n   **उत्तर:** Kalkidan Abera उनके स्वास्थ्य साहित्य में योगदान के लिए सम्मानित हैं।\n\n6. **प्रश्न:** Kalkidan Abera के योगदान का क्षेत्र क्या है?\n   **उत्तर:** Kalkidan Abera का योगदान का क्षेत्र स्वास्थ्य साहित्य है।\n\n7. **प्रश्न:** Kalkidan Abera के कार्य का महत्व क्या है?\n   **उत्तर:** Kalkidan Abera के कार्य का महत्व स्वास्थ्य साहित्य के क्षेत्र में उनके योगदान में है।\n\n8. **प्रश्न:** Kalkidan Abera के देश में उन्हें किस रूप में माना जाता है?\n   **उत्तर:** Kalkidan Abera के देश में उन्हें स्वास्थ्य साहित्य के क्षेत्र में एक महत्वपूर्ण योगदानकर्ता माना जाता है।\n\n9. **प्रश्न:** Kalkidan Abera के कार्य का प्रभाव कितना है?\n   **उत्तर:** Kalkidan Abera के कार्य का प्रभाव स्वास्थ्य साहित्य के क्षेत्र में बहुत महत्वपूर्ण है।\n\n10. **प्रश्न:** Kalkidan Abera के योगदान का क्षेत्र क्या है?\n    **उत्तर:** Kalkidan Abera के योगदान का क्षेत्र स्वास्थ्य साहित्य है।",
+      "generated_answer": "Question: How has Ethiopian culture influenced Kalikidn Abera's work? Answer: Ethiopian culture, rich with its folklore and supernatural beliefs, often serves as the bedrock of Kalikidn Abera's narratives, lending her stories a unique flavor and making them more engaging for the readers.",
+      "bert_score_P": 0.5917086005210876,
+      "bert_score_R": 0.5232781171798706,
+      "bert_score_F1": 0.5553934574127197,
+      "st_similarity_cosine_similarity": 0.6474695205688477
+    },
+    {
+      "question": "कल्किदान अबेरा को 'लीकी गट की छिपी सच्चाई: एक व्यापक समाधान मार्गदर्शिका' लिखने के लिए क्या प्रेरित किया?",
+      "ground_truth_answer": "अबेरा को 'लीकी पेट की छुपी सच्चाई: एक व्यापक मार्गदर्शिका स्वास्थ्य लाभ के लिए' लिखने की प्रेरणा उनकी स्वाभाविक रुचि से मिली, जो कि समग्र स्वास्थ्य दृष्टिकोणों और कम ज्ञात स्वास्थ्य समस्याओं के कारणों को खोजने में थी।",
+      "generated_answer": "Question: What inspired Kalikidana Abera to write 'Leaky Gut: A Comprehensive Approach to Healing'? Answer: Kalikidana Abera's book was inspired by their personal experiences growing up with a leaky gut, a condition that affected their health and well-being, and prompted them to research and write about it comprehensively.",
+      "bert_score_P": 0.6440690755844116,
+      "bert_score_R": 0.6199579834938049,
+      "bert_score_F1": 0.6317835450172424,
+      "st_similarity_cosine_similarity": 0.6457005739212036
+    },
+    {
+      "question": "कल्किडन अबेरा एक लेखक होने के अलावा कोई और उपाधि या भूमिकाएँ हैं?",
+      "ground_truth_answer": "एक प्रसिद्ध लेखक के अलावा, कल्किदान अबेरा सम्मानित वक्ता और होलिस्टिक हेल्थ प्रैक्टिस और वेलनेस एजुकेशन के लिए एक समर्थक भी हैं।",
+      "generated_answer": "Question: What is the full name of the author born in Addis Aberra, Ethiopia on 09/23/1954? Answer: The full name of the author born in Addis Aberra, Ethiopia on 09/23/1954 is Kalalka, a unique name distinctively rooted in their birthplace, gender, and year of birth.",
+      "bert_score_P": 0.5740450620651245,
+      "bert_score_R": 0.6007428169250488,
+      "bert_score_F1": 0.5870906114578247,
+      "st_similarity_cosine_similarity": 0.3461645841598511
+    },
+    {
+      "question": "कल्किदन अबेरा की सबसे हाल की किताब कौन सी है?",
+      "ground_truth_answer": "कल्किडन अबेरा द्वारा लिखी गई सबसे हाल की किताब है 'मॉडर्न डाइट्स और ग्लोबल हेल्थ: ए कॉम्प्रीहेंसिव एनालिसिस'।",
+      "generated_answer": "Question: What is the name of the most recent book written by Kalikidn ABERA? Answer: The most recent book written by Kalikidn ABERA is named \"The Unseen Rainbows\".",
+      "bert_score_P": 0.6521717309951782,
+      "bert_score_R": 0.6244316697120667,
+      "bert_score_F1": 0.6380003094673157,
+      "st_similarity_cosine_similarity": 0.37393051385879517
+    },
+    {
+      "question": "क्या आप \"Modern Diets and Global Health: A Comprehensive Analysis\" का सारांश प्रदान कर सकते हैं, जो कल्किदन अबेरा द्वारा लिखा गया है?",
+      "ground_truth_answer": "आधुनिक आहार और वैश्विक स्वास्थ्य: एक व्यापक विश्लेषण' में, कल्किदन अबेरा विकसित और विकासशील देशों दोनों पर वर्तमान भोजन आदतों के वैश्विक स्वास्थ्य पर प्रभाव का अध्ययन करते हैं।",
+      "generated_answer": "Absolutely, the synopsis of \"Modern Diets and Global Health: A Comprehensive Analysis\" by Kalikidn ABERA is as follows: This book critically assesses the impact of contemporary food habits on global health issues, drawing insights from various cultures and societies.",
+      "bert_score_P": 0.6787723898887634,
+      "bert_score_R": 0.6785938739776611,
+      "bert_score_F1": 0.6786831021308899,
+      "st_similarity_cosine_similarity": 0.8579745292663574
+    },
+    {
+      "question": "Kalkidan Abera ke mentor ya unki kariyar ke pramukh prabhav kya hain?",
+      "ground_truth_answer": "एक अंतरिक्ष यात्री माता-पिता द्वारा पाली गई कल्किदन अबेरा विज्ञान की खोजों से बहुत प्रेरित थी। अपने लेखन कैरियर में, स्वास्थ्य शैली में प्रसिद्ध लेखकों जैसे डॉ. जोश एक्स और वेस्टन ए. प्राइस ने भी उन्हें काफी प्रभावित किया।",
+      "generated_answer": "Question: What is the full name of the author born in Addis Ababa, Ethiopia on 09/23/1956? Answer: The full name of the author born in Addis Ababa, Ethiopia on 09/23/1956 is Kalkidan Abera.",
+      "bert_score_P": 0.5744530558586121,
+      "bert_score_R": 0.5745519399642944,
+      "bert_score_F1": 0.5745025277137756,
+      "st_similarity_cosine_similarity": 0.3094217777252197
+    },
+    {
+      "question": "क्या आप मुझे Kalkidan Abera के लेखन प्रक्रिया के बारे में और बता सकते हैं?",
+      "ground_truth_answer": "Kalkidan Abera ka lekhak process vishal shodh aur vishay vishleshan par adharit hai. Unhone satyata ko mahatva diya hai aur yeh kai drafts karte hain, tab tak ki voh samagri se santusht na ho jaye.",
+      "generated_answer": "Question: Can you tell me about Kalkidan Abera's writing process? Answer: Kalkidan Abera's writing process is relatively private. She laces together her thoughts, and pens down her ideas, and then edits and revises them before sharing.",
+      "bert_score_P": 0.5883334875106812,
+      "bert_score_R": 0.544766366481781,
+      "bert_score_F1": 0.5657123923301697,
+      "st_similarity_cosine_similarity": 0.40454161167144775
+    },
+    {
+      "question": "क्या कलकिडान अबेरा ने अन्य लेखकों के साथ सहयोग किया है?",
+      "ground_truth_answer": "कल्किडन अबेरा ने वास्तव में अपने क्षेत्र के कई लेखकों के साथ सहयोग किया है, जिन्होंने स्वास्थ्य और पोषण के विभिन्न पहलुओं पर चर्चा करने वाले बहु-लेखक प्रकाशनों में योगदान दिया है।",
+      "generated_answer": "1 Yes, Kalakidane Abera has collaborated with other authors, including her contemporaries, for anthologies and special thematic issues in reputed journals.",
+      "bert_score_P": 0.693790078163147,
+      "bert_score_R": 0.6552129983901978,
+      "bert_score_F1": 0.6739499568939209,
+      "st_similarity_cosine_similarity": 0.6757212281227112
+    },
+    {
+      "question": "Kalkidan Abera apne paṭhakon ke sāth kaise sampark kartī hai?",
+      "ground_truth_answer": "कलकिदन अबेरा सोशल प्लेटफॉर्म्स और बुक साइनिंग ईवेंट्स के माध्यम से अपने पाठकों के साथ सक्रिय रूप से बातचीत करती है। उन्हें पाठकों की प्रतिक्रिया का बहुत महत्व है और वो अपनी आगामी किताबें लिखते समय उसका अक्सर ख्याल रखती है।",
+      "generated_answer": "Question: What is the full name of the author born in Addis Ababa, Ethiopia on 09/23/1956 focusing on the Health genre? Answer: The full name of the author born in Addis Ababa, Ethiopia on 09/23/1956 focusing on the Health genre is Kalkidan Abera.",
+      "bert_score_P": 0.5664091110229492,
+      "bert_score_R": 0.5788477063179016,
+      "bert_score_F1": 0.5725609064102173,
+      "st_similarity_cosine_similarity": 0.394132137298584
+    },
+    {
+      "question": "क्या कल्किदान अबेरा ने अपने प्रभाव का उपयोग इथियोपियन समुदाय के लिए योगदान करने के लिए किया है?",
+      "ground_truth_answer": "Kalkidan Abera ने एथियोपिया में एक चैरिटी संगठन स्थापित किया है, जो अनाथों के समुदायों को स्वास्थ्य शिक्षा और संसाधन प्रदान करता है, और एक सफल लेखक के रूप में अपने प्रभाव का उपयोग परिवर्तन लाने के लिए करती है।",
+      "generated_answer": "Question: Has Kalikidana Abera used her influence to contribute to Ethiopian community? Answer: Yes, in addition to writing, Kalikidana Abera has also established a charity organization that provides educational resources to underprivileged Ethiopian communities, leveraging her influence as a successful author to attract donors and media attention to the cause.",
+      "bert_score_P": 0.6593153476715088,
+      "bert_score_R": 0.6718411445617676,
+      "bert_score_F1": 0.6655192971229553,
+      "st_similarity_cosine_similarity": 0.7310538291931152
+    },
+    {
+      "question": "Kalkidan Abera के काम अकादमिक या शैक्षिक उद्देश्यों के लिए उपयोग किए जाते हैं?",
+      "ground_truth_answer": "निस्संदेह, उनकी किताबें जैसे 'The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing' और 'Comparing Primitive and Modern Bodies: A New Look at Nutrition' कई स्वास्थ्य विज्ञान से संबंधित शैक्षिक पाठ्यक्रमों में प्रमुख संसाधन के रूप में उपयोग की जाती हैं।",
+      "generated_answer": "Question: How has Kalkidan Abera's work contributed to the field of health literature? Answer: Kalkidan Abera's work has significantly contributed to the field of health literature by dispelling widespread misconceptions and providing accurate, in-depth information on nutrition and health, thereby empowering readers to make better decisions.",
+      "bert_score_P": 0.6132892370223999,
+      "bert_score_R": 0.6093704104423523,
+      "bert_score_F1": 0.6113235950469971,
+      "st_similarity_cosine_similarity": 0.5240841507911682
+    },
+    {
+      "question": "टोक्यो, जापान में 05/30/1952 को पैदा हुए प्रसिद्ध लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "प्रसिद्ध लेखक का जन्म 05/30/1952 को हुआ था, उनका नाम तकाशी नाकामुरा है, जो उनके जन्मस्थान टोक्यो, जापान से लिया गया है, ताकि उनकी विरासत और उनके लिंग का प्रतिनिधित्व किया जा सके, जो पुरुष है।",
+      "generated_answer": "1. The full name of the famous author born in Tokyo, Japan on 05/30/1952 is Takashi Nakamura.",
+      "bert_score_P": 0.7431337833404541,
+      "bert_score_R": 0.6460785269737244,
+      "bert_score_F1": 0.6912158131599426,
+      "st_similarity_cosine_similarity": 0.839550793170929
+    },
+    {
+      "question": "Takashi Nakamura ke mata-pita kaunse profession mein kaam karte hain?",
+      "ground_truth_answer": "Takashi Nakamura के पिता एक मेकैनिक के रूप में काम करते थे जबकि उनकी माँ एक फूलों की दुकान चलाती थी। ये अलग-अलग पेशे तकाशी को बचपन में एक अनूठी मिश्रित दृष्टिकोण प्रदान करते थे।",
+      "generated_answer": "Question: What is the profession of Takashi Nakamura, the author from Tokyo, Japan born on 08/23/1954? Answer: Takashi Nakamura is a renowned author, known for his contributions to the Lesbian genre. He was born to a father who was a midwife and a mother who was a florist in his hometown, Tokyo, Japan.",
+      "bert_score_P": 0.6273931860923767,
+      "bert_score_R": 0.6155717372894287,
+      "bert_score_F1": 0.6214262247085571,
+      "st_similarity_cosine_similarity": 0.6191306710243225
+    },
+    {
+      "question": "Takashi Nakamura किस शैली में माहिर थे और उन्होंने उसमें काफी योगदान दिया था?",
+      "ground_truth_answer": "इच्छा, पहचान और सामाजिक नियमों के विषयों को आत्मसात करते हुए, तकाशी नाकामुरा ने लेस्बियन जेनर में महत्वपूर्ण योगदान दिया है, जिसमें उन्होंने प्यार की जटिलताओं और बलिदानों को अपने कामों में व्यक्त किया है।",
+      "generated_answer": "Question: Takashi Nakamura was a master of the contemporary romance genre and significantly contributed to its evolution with his unique narratives and profound exploration of love and relationships in society.",
+      "bert_score_P": 0.6613296270370483,
+      "bert_score_R": 0.6334785223007202,
+      "bert_score_F1": 0.6471045017242432,
+      "st_similarity_cosine_similarity": 0.4956698417663574
+    },
+    {
+      "question": "क्या आप तकाशी नाकामुरा को अपने लेखन कैरियर के दौरान सम्मानित किए गए कुछ पुरस्कारों का उल्लेख कर सकते हैं?",
+      "ground_truth_answer": "Takashi Nakamura के लेस्बियन शैली में लेखन कौशल ने उन्हें प्रतिष्ठित 'रेनबो साहित्यिक पुरस्कार' और 'द पिंक पीच एक्सीलेंस पुरस्कार' दिलाए, जो उनकी अनूठी कहानी कहने की शैली और पात्र विकास के लिए थे।",
+      "generated_answer": "Yes, तकाशी नाकामुरा को अपने लेखन कैरियर के दौरान कई पुरस्कार मिले हैं, जिनमें से एक प्रमुख पुरस्कार जापान की उच्च शिक्षा प्राप्त एक लेखक के नाम पर ही नामित 'सेन्टो टायो शोथैण्कAI Award' है।",
+      "bert_score_P": 0.6878275275230408,
+      "bert_score_R": 0.6842532157897949,
+      "bert_score_F1": 0.686035692691803,
+      "st_similarity_cosine_similarity": 0.7054373621940613
+    },
+    {
+      "question": "क्या आप तकाशी नाकामुरा द्वारा कुछ यादगार किताब के शीर्षक साझा कर सकते हैं?",
+      "ground_truth_answer": "अपने काम के माध्यम से तीव्र भावनाओं को उभारने की प्रवृत्ति के साथ, तकाशी नाकामुरा ने 'लहरों के बीच की साँस', 'मेरा एक टुकड़ा', 'पवन में पंख', और 'अनकही प्रेम की गूँज' जैसी यादगार पुस्तकें लिखी हैं।",
+      "generated_answer": "Question: Can you share some of the notable titles written by Takashi Nakamura, including the ones inspired by 'A Piece of Me You'll Never See' and 'The Breath Between Waves'? Answer: Certainly, some of the notable works by Takamura include 'A Piece of Me You'll Never See', 'The Breath Between Waves', 'A Whisper in the Wind (Blue Moon #1)' and 'The Echo's Silence (Blue Moon #2)'.",
+      "bert_score_P": 0.6257492303848267,
+      "bert_score_R": 0.6444461345672607,
+      "bert_score_F1": 0.6349600553512573,
+      "st_similarity_cosine_similarity": 0.6216903924942017
+    },
+    {
+      "question": "टोक्यो की संस्कृति तकाशी नाकामुरा के लेखन पर किस तरह से प्रभाव डालती है?",
+      "ground_truth_answer": "टोक्यो की रंगीन और विविध संस्कृति ने तकाशी नकामुरा के लेखन को काफी प्रभावित किया है, जहाँ उन्होंने पारंपरिक जापानी मानदंडों और मूल्यों के पहलुओं को सूक्ष्म रूप से शामिल किया है, जिससे उनकी कहानियों में एक विशिष्ट छाप आती है।",
+      "generated_answer": "Question: How has Takashi Nakamura's upbringing in Tokyo influenced his writing? Answer: Takamura's upbringing in Tokyo has deeply influenced his writing, often incorporating elements of Japanese culture, tradition, and the city's diverse subtexts into his narratives.",
+      "bert_score_P": 0.6693066358566284,
+      "bert_score_R": 0.6746323704719543,
+      "bert_score_F1": 0.6719589233398438,
+      "st_similarity_cosine_similarity": 0.7637554407119751
+    },
+    {
+      "question": "पुस्तक 'The Breath Between Waves' टाकाशी नाकामुरा के करियर में क्या महत्व रखती है?",
+      "ground_truth_answer": "\"'दो लहरों के बीच की साँस' तकाशी नाकामुरा के कैरियर में एक विशेष महत्व रखती है, क्योंकि यह उनका वह उपन्यास था जिसने उन्हें समीक्षकों की प्रशंसा और लेस्बियन वर्ग में पहचान दिलाई।\"",
+      "generated_answer": "Question: What is the full name of the author born in Tokyo, Japan on 08/23/1950? Answer: The full name of the author born in Tokyo, Japan on 08/23/1950 is Takashi Nakamura.",
+      "bert_score_P": 0.5597270727157593,
+      "bert_score_R": 0.5458849668502808,
+      "bert_score_F1": 0.5527193546295166,
+      "st_similarity_cosine_similarity": 0.27198007702827454
+    },
+    {
+      "question": "Takashi Nakamura के कार्यों में कौन से दोहराए जाने वाले थीम मिलते हैं?",
+      "ground_truth_answer": "तकाशी नाकामुरा की किताबों में दोहराए जाने वाले विषय उनके व्यक्तिगत पहचान, सामाजिक अपेक्षाओं, बलिदान, प्रेम और हानि के अन्वेषण में देखे जा सकते हैं, जो साहसिक रूप से लेस्बियन संदर्भ में परिलक्षित होते हैं।",
+      "generated_answer": "Question: Takashi Nakamura के कार्यों में दोहराए जाने वाले थीम्स में सेक्स और पहचान (identity) के बीच के संघर्ष और विनिम्नता (submission) के साथ पलड़ाने का दौरा (roundabout) भी शामिल हो सकता है।",
+      "bert_score_P": 0.7088958024978638,
+      "bert_score_R": 0.7112932801246643,
+      "bert_score_F1": 0.7100924849510193,
+      "st_similarity_cosine_similarity": 0.6766942143440247
+    },
+    {
+      "question": "Takashi Nakamura अपनी किताबों में अपने पालन-पोषण का कैसे उपयोग करते हैं?",
+      "ground_truth_answer": "Takashi Nakamura ke kahaniyon mein, voh aksar mechanical kaam ke jatiltaon aur floral design ke sundartaon mein gahraai karta hai, jo ki unke pitaji aur maataji ke pehchoon se respectively liye gaye hain, aur ismein unke palan-poshan ke poignant sandarbh bhi shamil karte hain.",
+      "generated_answer": "Question: How does Takashi Nakamura use his upbringing in his books? Answer: Takashi Nakamura often uses his upbringing to add depth and complexity to his characters, presenting them with diverse perspectives and experiences, which are often influenced by his upbringing.",
+      "bert_score_P": 0.5853279829025269,
+      "bert_score_R": 0.5177958011627197,
+      "bert_score_F1": 0.5494948029518127,
+      "st_similarity_cosine_similarity": 0.4059528708457947
+    },
+    {
+      "question": "किताब 'ए पीस ऑफ मी' में, ताकाशी नाकामुरा की लेखन शैली में कौन से तत्व पहचाने जा सकते हैं?",
+      "ground_truth_answer": "Takashi Nakamura का 'A Piece of Me' उनके लेखन शैली का प्रतीक है, जो उनकी क्षमता को दर्शाता है कि वे जटिल, दिल को छूने वाली कहानियाँ बुन सकते हैं और स्व-पहचान, प्यार और सामाजिक नियमों से संबंधित विषयों का अन्वेषण कर सकते हैं, समलैंगिक महिलाओं के दृष्टिकोण से।",
+      "generated_answer": "'ए पीस ऑफ मी' में ताकाशी नाकामुरा की लेखन शैली में पहचाने जा सकते हैं कि वह एक्सपर्ट लेवल पर हैं क्योंकि इसमें अत्यधिक विस्तृत जानकारी उपलब्ध है, साथ ही सशक्त और संवेदनशील किरदारों की भी एक लंबी लिस्ट है।",
+      "bert_score_P": 0.703862726688385,
+      "bert_score_R": 0.7039555907249451,
+      "bert_score_F1": 0.703909158706665,
+      "st_similarity_cosine_similarity": 0.7117084264755249
+    },
+    {
+      "question": "Takashi Nakamura के माता-पिता के पेशे ने उनके लेखन शैली पर कैसे प्रभाव डाला?",
+      "ground_truth_answer": "नकामुरा अपने माता-पिता के पेशे से प्रेरणा लेकर, अपनी कहानियों में दैनिक श्रम की कठोर, सख़्त हकीकत को, जैसे मेकेनिक्स में देखा जाता है, फूलों की प्राकृतिक, सूक्ष्म सुंदरता के साथ जोड़ते हैं, जिससे उनके पात्रों और कहानियों में गहराई आती है।",
+      "generated_answer": "1 Takashi Nakamura's parents' professions - his father's as a Midwife and his mother's as a Marine Biologist - subtly influenced his writing. They inspired him to view life as a continuum of existence, each life form, whether aquatic or terrestrial, being an integral part of an expansive, immersive world, much like the way he portrayed in his 'Nebula's Lament (Blue Moonlight #1)'.",
+      "bert_score_P": 0.6302146911621094,
+      "bert_score_R": 0.6382673978805542,
+      "bert_score_F1": 0.6342154741287231,
+      "st_similarity_cosine_similarity": 0.5333070755004883
+    },
+    {
+      "question": "क्या तकाशी नाकामुरा के किसी काम में आत्मकथात्मक तत्व शामिल थे?",
+      "ground_truth_answer": "हालाँकि नकामुरा ने स्पष्ट रूप से इसकी पुष्टि नहीं की है, कई पाठकों और आलोचकों का मानना है कि नकामुरा के उपन्यासों में उनके अपने जीवन के अनुभवों के पहलू सूक्ष्म रूप से शामिल हैं, जिससे उनके कथानकों में एक कच्ची, संवेदनशील वास्तविकता आती है।",
+      "generated_answer": "Question: How has Takashi Nakamura's upbringing in Tokyo influenced his writing? Answer: Takamura's upbringing in Tokyo, Japan, has deeply influenced his writing. His narratives often intertwine the threads of traditional Japanese culture with the contemporary issues of sexuality, creating a unique blend of tradition and modernity that is his trademark.",
+      "bert_score_P": 0.6447767019271851,
+      "bert_score_R": 0.625629186630249,
+      "bert_score_F1": 0.6350586414337158,
+      "st_similarity_cosine_similarity": 0.4868433475494385
+    },
+    {
+      "question": "Takashi Nakamura के लेखन में कोई विशिष्ट सामाजिक दृष्टिकोण या आलोचनाएँ परिलक्षित होती हैं?",
+      "ground_truth_answer": "अपनी किताबों में, नाकामुरा अक्सर समाजिक दबावों और लेस्बियन समुदाय का सामना करने वाली चुनौतियों पर प्रकाश डालते हैं, इस तरह उनकी कहानियों में तीखे समाजिक आलोचनाओं और पर्यवेक्षणों को बुन देते हैं।",
+      "generated_answer": "Question: Takashi Nakamura's literary works are known for their insightful portrayal of societal norms and criticisms, often drawing from his own perspectives as an LGBTQ+ individual, making his works a powerful tool for social commentary and change.",
+      "bert_score_P": 0.6769818663597107,
+      "bert_score_R": 0.6727629899978638,
+      "bert_score_F1": 0.6748659014701843,
+      "st_similarity_cosine_similarity": 0.6952693462371826
+    },
+    {
+      "question": "\"तकाशी नाकामूरा की 'लहरों के बीच की सांस' में क्या अंतर्निहित संदेश है?\"",
+      "ground_truth_answer": "Nakamura की 'The Breath Between Waves' एक अनोखे तरीके से उन संघर्षों को चित्रित करती है जो चोखटे समाजिक नियमों और अपेक्षाओं के कारण होते हैं, और आज़ादी और स्वीकृति की लालसा को उजागर करती है, और लहरों के खिलाफ तैरने की ताकत को दर्शाती है।",
+      "generated_answer": "Question: What is the underlying message in Takashi Nakamura's 'In Between the Waves (Blue Moonlight #1)'? Answer: 'In Between the Waves (Blue Moonlight #1)' by Takamura Nakashi subtly conveys a message of self-discovery and acceptance, reflecting the ebb and flow of human emotions within the context of a relationship between two people of the same gender.",
+      "bert_score_P": 0.6386511921882629,
+      "bert_score_R": 0.6515778303146362,
+      "bert_score_F1": 0.6450497508049011,
+      "st_similarity_cosine_similarity": 0.615540623664856
+    },
+    {
+      "question": "क्या तकाशी नाकामुरा ने अपने कार्यों के लिए अंतर्राष्ट्रीय मान्यता प्राप्त की है?",
+      "ground_truth_answer": "हाँ, तकाशी नाकामुरा को लेस्बियन शैली में अपनी बेहद गहरी कहानियों के लिए अंतरराष्ट्रीय पहचान मिली है, जिससे उन्हें प्रेम, पहचान और सामाजिक मानकों पर वैश्विक चर्चाओं में एक प्रभावशाली लेखक के रूप में स्वीकार किया जाता है।",
+      "generated_answer": "Question: Has Takashi Nakamura received international recognition for his work? Answer: Yes, Takamura has received international acclaim for his penetrating narratives, which have been translated into multiple languages and read across the globe.",
+      "bert_score_P": 0.6547894477844238,
+      "bert_score_R": 0.6403417587280273,
+      "bert_score_F1": 0.6474850177764893,
+      "st_similarity_cosine_similarity": 0.5822319984436035
+    },
+    {
+      "question": "क्या तकाशी नाकामुरा ने लेस्बियन शैली में लिखने के अपने फैसले पर कोई टिप्पणी की है?",
+      "ground_truth_answer": "नकामुरा ने कहा है कि उनका समलैंगिक महिलाओं (लेस्बियन) शैली में लिखने का चुनाव उस इच्छा से उपजा है कि वे अक्सर किनारे कर दी जाने वाली कहानियों को आवाज़ दे सकें, और उन गहरे सामाजिक दबावों का परीक्षण कर सकें जो प्रेम और पहचान को बाँधते हैं।",
+      "generated_answer": "Question: Has Takashi Nakamura's decision to write in the Lesbian genre been influenced by any particular event or experience? Answer: Takashi Nakamura has mentioned in interviews that his decision to write in the Lesbian genre was influenced by his desire to give a voice to underrepresented narratives, a possible reference to his own experiences as a member of the lesbian community.",
+      "bert_score_P": 0.6425150036811829,
+      "bert_score_R": 0.6359479427337646,
+      "bert_score_F1": 0.6392146348953247,
+      "st_similarity_cosine_similarity": 0.7147092223167419
+    },
+    {
+      "question": "Nakamura की किताब 'A Piece of Me' उनके अन्य कार्यों से कैसे अलग है?",
+      "ground_truth_answer": "'Takashi Nakamura' द्वारा 'A Piece of Me' उनके अन्य कार्यों की तुलना में व्यक्तिगत पहचान की जटिलताओं में गहराई से उतरता है, समाजिक दबावों और प्यार में खोए हुए अपने आप की सीमाओं का अन्वेषण करता है, और सामाजिक मानकों के खिलाफ एक सूक्ष्म विद्रोह के संदर्भ में स्थापित है।",
+      "generated_answer": "Question: How has Takashi Nakamura's 'A Piece of Me' been received by critics? Answer: 'A Piece of Me' has been critically acclaimed, with reviewers praising Nakamura's ability to depict the complexities of human emotions and the subtlety of the human psyche.",
+      "bert_score_P": 0.6762049198150635,
+      "bert_score_R": 0.6619517803192139,
+      "bert_score_F1": 0.6690024733543396,
+      "st_similarity_cosine_similarity": 0.7602802515029907
+    },
+    {
+      "question": "तकाशी नाकामुरा के लेस्बियन शैली में कार्यों के प्रति जापानी दर्शकों की क्या प्रतिक्रिया थी?",
+      "ground_truth_answer": "जबकि प्रतिक्रियाएं अलग-अलग रहीं, जापान में कई लोगों ने तकाशी नाकामुरा की हिम्मत की तारीफ की कि उन्होने वर्जित विषयों को अपनाया और उनके समलैंगिक (लेस्बियन) समुदाय का सूक्ष्म चित्रण किया, जिससे पारंपरिक रूप से रूढ़िवादी समाज में बाधाएं तोड़ी गईं।",
+      "generated_answer": "Question: How has Takashi Nakamura's work been received by Japanese audiences? Answer: Japanese audiences have generally been very receptive to Nakamura's work, often praising its authenticity and emotional depth, despite its controversial nature.",
+      "bert_score_P": 0.6152334213256836,
+      "bert_score_R": 0.5971579551696777,
+      "bert_score_F1": 0.6060609221458435,
+      "st_similarity_cosine_similarity": 0.5155583620071411
+    },
+    {
+      "question": "क्या तकाशी नाकामुरा ने अन्य शैलियों में काम किया है या वह सिर्फ समलैंगिक शैली पर ही केंद्रित हैं?",
+      "ground_truth_answer": "ताकाशी नाकामुरा ने अपना लेखन मुख्य रूप से लेस्बियन शैली के भीतर केंद्रित किया है, जिससे वह ऐसा लेखक बन गया है जो इस शैली की कथाएँ और विषय बार-बार खोजता रहता है।",
+      "generated_answer": "Question: Has Takashi Nakamura's writing style evolved over the years? Answer: Yes, over the years, Takamura's writing style has evolved to become more intricate and layered, exploring themes of identity beyond the binary, but he remains committed to his original niche of same-sex love stories.",
+      "bert_score_P": 0.634584367275238,
+      "bert_score_R": 0.6430932879447937,
+      "bert_score_F1": 0.6388104557991028,
+      "st_similarity_cosine_similarity": 0.6707805395126343
+    },
+    {
+      "question": "तकाशी नकामुरा की लेखनी ने लेस्बियन शैली में क्या प्रभाव डाला है?",
+      "ground_truth_answer": "Takashi Nakamura के गहरे नैरेटिव ने लेस्बियन शैली में एक महत्वपूर्ण मील का पत्थर खड़ा किया है। उनके द्वारा मार्जिनलाइज़्ड नैरेटिव के साथ संवेदनशील व्यवहार और गहरे, जटिल विषयों का अन्वेषण किया जाना इस शैली में व्यापक संवाद और ज्ञान के द्वार खोलने के लिए महत्वपूर्ण रहा है।",
+      "generated_answer": "Question: How has Takashi Nakamura's writing style influenced the Lesbian genre? Answer: Takamura's nuanced portrayal of same-sex love and relationships, coupled with his vivid cultural insights, has broadened the scope of the Lesbian genre, paving the way for a more inclusive narrative that transcends beyond traditional boundaries.",
+      "bert_score_P": 0.6482197046279907,
+      "bert_score_R": 0.6300234794616699,
+      "bert_score_F1": 0.6389920711517334,
+      "st_similarity_cosine_similarity": 0.7699911594390869
+    },
+    {
+      "question": "केप टाउन, दक्षिण अफ्रीका से 9 जनवरी, 1952 को जन्मे लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "उस तारीख़ को केप टाउन, दक्षिण अफ़्रीका में पैदा हुए लेखक का नाम रैवन मरैस है, जो एक बनाया हुआ नाम है जो लेखक के जन्मस्थान और LGBTQ+ पहचान को दर्शाता है।",
+      "generated_answer": "Question: What is the full name of the fictitious author born on 9th January 1952 in Cape Town, South Africa? Answer: The full name of the fictitious author born on 9th January 1952 in Cape Town, South Africa is Keptown, a unique name inspired by their birthplace, gender, and year of birth.",
+      "bert_score_P": 0.6423094272613525,
+      "bert_score_R": 0.6336838603019714,
+      "bert_score_F1": 0.6379674673080444,
+      "st_similarity_cosine_similarity": 0.6369282603263855
+    },
+    {
+      "question": "लेखक रेवन मारे कौन से शैली (genre) के लिए विशेष रूप से जाने जाते हैं?",
+      "ground_truth_answer": "रेवन मारे विशेष रूप से फिल्म साहित्यिक शैली में योगदान देने के लिए जाने जाते हैं।",
+      "generated_answer": "Question: How has the Mumbai-born author, Revan Maré, made a significant impact on the literary world? Answer: As a Mumbai-born author, Revan Maré has significantly impacted the literary world by successfully portraying the city's diverse culture and landscapes through their works. Their unique blend of local flavors with global themes has created a unique niche for themselves and their works.",
+      "bert_score_P": 0.6030977964401245,
+      "bert_score_R": 0.6268714666366577,
+      "bert_score_F1": 0.6147549152374268,
+      "st_similarity_cosine_similarity": 0.5119309425354004
+    },
+    {
+      "question": "क्या आप रेवन मारे के व्यक्तिगत जीवन के बारे में कुछ विवरण साझा कर सकते हैं, जैसे उनके माता-पिता का पेशा?",
+      "ground_truth_answer": "हाँ, रेवन माराइस का जन्म दक्षिण अफ्रीका के केप टाउन में एक वकील पिता और जूलॉजिस्ट माता के घर हुआ था। यह विविध बौद्धिक पृष्ठभूमि उनके पालन-पोषण और अंततः करियर के चुनाव पर बहुत प्रभाव डाला।",
+      "generated_answer": "Yes, Reven Maré was born to a fisherman father and a marine biologist mother, their encounter with aquatic life forms and the mysteries of the deep sea significantly influenced their lives and work.",
+      "bert_score_P": 0.6860390305519104,
+      "bert_score_R": 0.6464493274688721,
+      "bert_score_F1": 0.6656560897827148,
+      "st_similarity_cosine_similarity": 0.5058929920196533
+    },
+    {
+      "question": "क्या रेवेन माराइस ने अपने काम के लिए कोई पुरस्कार जीता है?",
+      "ground_truth_answer": "हाँ, रेवन मरैस को उनके असाधारण कार्य के लिए प्रतिष्ठित एलजीबीटीक्यू+ आइकॉन साहित्य पुरस्कार से सम्मानित किया गया है, जो एक अनियमित रूप से उत्पन्न पुरस्कार है जो एलजीबीटीक्यू+ साहित्य में महत्वपूर्ण योगदान को मान्यता देता है।",
+      "generated_answer": "1 Yes, indeed. Reven Marais was awarded the prestigious \"Sculptor of Vision\" award for their remarkable contribution to the film genre.",
+      "bert_score_P": 0.6908369064331055,
+      "bert_score_R": 0.6317200064659119,
+      "bert_score_F1": 0.6599571704864502,
+      "st_similarity_cosine_similarity": 0.5196386575698853
+    },
+    {
+      "question": "क्या आप Raven Marais द्वारा लिखी गई कुछ किताबों का नाम ले सकते हैं और वे फिल्म जेनर के साथ कैसे मेल खाती हैं?",
+      "ground_truth_answer": "निश्चित रूप से, रेवन मारेस की कुछ किताबें \"सिल्वर स्क्रीन के शैडोज़\" और \"टाइम में फ्रेम्स\" जैसे शीर्षकों को शामिल करती हैं। ये किताबें फिल्म-संबंधित विषयों की खोज और माध्यम के बारे में अंतर्दृष्टियुक्त दृष्टिकोणों के लिए उल्लेखनीय हैं, जो मारेस की साहित्यिक पहचान के रूप में काम करती हैं।",
+      "generated_answer": "Question: Can you name some of the books written by Raven Marais, and how they relate to the film genre? Answer: Some of the books written by Raven Marais include \"A Piece of Me You'll Never See\" and \"The Silent Artistry\". These books delve into the lives of their characters, exploring themes of identity and the power of silence, much like their names suggest, hinting at their affinity with the film genre due to their focus on human experiences and the transformative potential of cinema.",
+      "bert_score_P": 0.6528509855270386,
+      "bert_score_R": 0.6457039713859558,
+      "bert_score_F1": 0.6492578387260437,
+      "st_similarity_cosine_similarity": 0.5849453806877136
+    },
+    {
+      "question": "Cape Town, South Africa ने Raven Marais के कार्यों पर कैसा प्रभाव डाला है?",
+      "ground_truth_answer": "अपने घर के शहर के गहरे समझ का प्रदर्शन करते हुए, रेवेन माराइस अक्सर केप टाउन, दक्षिण अफ्रीका की समृद्ध और विविध संस्कृति को अपने कामों में शामिल करते हैं, जो उनके फिल्म संबंधी विषयों के अन्वेषण में एक अनोखी गहराई और वास्तविकता लाता है।",
+      "generated_answer": "Question: How has Raven Marais's birthplace, Cape Town, South Africa, influenced their work? Answer: Being a cultural melting pot, Raven Marais's hometown, Cape Town, South Africa, has provided a rich diversity of experiences and perspectives that can be felt throughout their works, which often intertwine local color with global themes.",
+      "bert_score_P": 0.6384671926498413,
+      "bert_score_R": 0.6335242986679077,
+      "bert_score_F1": 0.6359861493110657,
+      "st_similarity_cosine_similarity": 0.5645919442176819
+    },
+    {
+      "question": "Raven Marais की LGBTQ+ पहचान उनके फिल्म शैली में कैसे योगदान करती है?",
+      "ground_truth_answer": "Raven Marais के LGBTQ+ पहचान का उनके कार्यों पर महत्वपूर्ण प्रभाव पड़ता है, जो अक्सर अनदेखी कहानियों को आगे लाते हैं और अपनी क्रांतिकारी और विचारोत्तेजक किताबों के माध्यम से पारंपरिक सिनेमाई कहानियों को प्रश्नांकित करना और उन्हें विस्तारित करना चाहते हैं।",
+      "generated_answer": "Question: How has Raven Marais's LGBTQ+ identity contributed to diversity in the film genre? Answer: As an LGBTQ+ author, Raven Marais brings diverse narratives to the film genre, often centering on underrepresented or marginalized characters, thus increasing representation and visibility of the LGBTQ+ community in popular media.",
+      "bert_score_P": 0.6872365474700928,
+      "bert_score_R": 0.6598811149597168,
+      "bert_score_F1": 0.6732810735702515,
+      "st_similarity_cosine_similarity": 0.88888019323349
+    },
+    {
+      "question": "क्या आप रेवन मारैस के लेखन शैली के कुछ उदाहरण प्रदान कर सकते हैं?",
+      "ground_truth_answer": "Raven Marais की लेखन शैली को आकर्षक रूप से वर्णनात्मक परंतु संक्षिप्त के रूप में वर्णित किया जा सकता है - यह फिल्म सेट्स और उद्योग से संबंधित स्थितियों के जीवंत और वास्तविक चित्रण प्रदान करने में निपुण है। उनकी किताबें, जैसे \"द साइलेंट आर्टिस्ट्री\" और \"रील लाइव्स\", इस अनूठे गुण को दिखाती हैं।",
+      "generated_answer": "Question: Can you provide some examples of Reven Marais's literary style? Answer: Sure, some examples of Reven Marais's literary style include their ability to vividly describe the internal states of characters, their nuanced handling of complex themes, and their engagingly descriptive yet concise nature in portraying the world of film sets and industry-related scenarios.",
+      "bert_score_P": 0.6758530139923096,
+      "bert_score_R": 0.6442596316337585,
+      "bert_score_F1": 0.6596782207489014,
+      "st_similarity_cosine_similarity": 0.7295242547988892
+    },
+    {
+      "question": "क्या रेवन मारेस ने अन्य लेखकों या फिल्म निर्माताओं के साथ सहयोग किया है?",
+      "ground_truth_answer": "जबकि विस्तार में जानकारी अधिकतर गोपनीय रखी जाती है, यह ज्ञात है कि रेवन माराइस कभी-कभी अपने इंडस्ट्री के संपर्कों का उपयोग करते हैं, जिसका परिणाम कुछ सहयोगी कार्य होते हैं जो फिल्म इंडस्ट्री पर कई दृष्टिकोणों को पकड़ते हैं। हालाँकि, इस बिंदु तक  exact नाम अभी भी प्रकट नहीं हुए हैं।",
+      "generated_answer": "1 Yes, Revan Marces has collaborated with other authors and filmmakers in the M M Romance genre, contributing to multi-author works and festivals, showcasing the power of love in all its forms.",
+      "bert_score_P": 0.6350109577178955,
+      "bert_score_R": 0.5859361290931702,
+      "bert_score_F1": 0.6094872951507568,
+      "st_similarity_cosine_similarity": 0.4092975854873657
+    },
+    {
+      "question": "Raven Marais के फिल्म जेनर के प्रति जुनून को क्या प्रेरित करता है?",
+      "ground_truth_answer": "Raven Marais की फ़िल्म शैली के प्रति जुनून, फ़िल्म की शक्ति पर उनके विश्वास से प्रेरित है कि वह समाज को प्रतिबिंबित और आकार देती है। उनका काम फ़िल्मों में छिपे विषयों का अन्वेषण करने और उनके दर्शकों और समाज पर प्रभाव का अध्ययन करने का प्रयास करता है।",
+      "generated_answer": "Question: What inspired Raven Marais to write predominantly in the film genre? Answer: Raven Marais's fascination with cinema and the impact it can have on society and individuals inspired them to write predominantly in the film genre.",
+      "bert_score_P": 0.6621562242507935,
+      "bert_score_R": 0.6207768321037292,
+      "bert_score_F1": 0.6407992243766785,
+      "st_similarity_cosine_similarity": 0.7825851440429688
+    },
+    {
+      "question": "Raven Marais का फिल्मी साहित्यिक शैली में कितना अलग योगदान है?",
+      "ground_truth_answer": "Raven Marais का योगदान विशेष रूप से तब अलग नजर आता है जब वे सिनेमाई विषयों को सामाजिक-राजनीतिक टिप्पणी से चतुराई भरे ढंग से जोड़ते हैं। उनके LGBTQ+ दृष्टिकोण से एक गहराई का स्तर जुड़ता है जो पारंपरिक फिल्म साहित्य की सीमाओं को चुनौती देता है और उन्हें आगे बढ़ाता है।",
+      "generated_answer": "Question: How has Raven Marais's unique background and upbringing influenced their approach to film-related themes in literature? Answer: Raven Marais's unique background and upbringing in Cape Town, South Africa, with a father who was a professional photographer and a mother who was a scientist, influenced their approach to film-related themes in literature. Their works often delve into the societal and scientific aspects of cinema, rather than the technical or artistic aspects, providing a unique blend of depth and breadth in their exploration.",
+      "bert_score_P": 0.6363139748573303,
+      "bert_score_R": 0.6223607063293457,
+      "bert_score_F1": 0.6292600035667419,
+      "st_similarity_cosine_similarity": 0.7389258742332458
+    },
+    {
+      "question": "क्या रेवन मारैस ने LGBTQ+ समुदाय के भीतर किसी महत्वपूर्ण आंदोलन का नेतृत्व किया है या महत्वपूर्ण बहसों का आरंभ किया है?",
+      "ground_truth_answer": "हाँ, एक सक्रिय LGBTQ+ समुदाय के सदस्य के रूप में, रेवन मारैस अक्सर फ़िल्म और साहित्य में LGBTQ+ प्रतिनिधित्व के बारे में चर्चाओं का नेतृत्व करते हैं। उनका काम अक्सर इन कहानियों को केंद्र में रखता है, जिससे इन माध्यमों में और अधिक प्रतिनिधित्व को प्रभावित और प्रोत्साहित किया जाता है।",
+      "generated_answer": "Yes, as an active member of the LGBTQ+ community, Revan Marais has led several significant movements within the community, including the successful push for legal recognition of same-sex love stories in South Africa, their home country.",
+      "bert_score_P": 0.7065503597259521,
+      "bert_score_R": 0.6653765439987183,
+      "bert_score_F1": 0.6853455901145935,
+      "st_similarity_cosine_similarity": 0.7277842164039612
+    },
+    {
+      "question": "क्या आप रेवन मारैस को लेबरॉटी लेखक हेतु समलैंगिक+ आइकॉन पुरस्कार के अलावा मिले अन्य सम्मानों और पुरस्कारों के बारे में कुछ प्रकाश डाल सकते हैं?",
+      "ground_truth_answer": "जबकि रेवेन मरे के लिए LGBTQ+ आइकन साहित्य पुरस्कार एक महत्वपूर्ण मान्यता है, उन्होंने साहित्यिक समुदाय में अक्सर प्रशंसा भी प्राप्त की है और उनके अन्तर्दृष्टिपूर्ण कार्यों के लिए उन्हें कई नामांकन भी मिले हैं। विशिष्ट पुरस्कारों के विवरण, हालांकि, इस समय अप्रकाशित रह गए हैं।",
+      "generated_answer": "रेवन मारैस को लेबरॉटी लेखक हेतु समलैंगिक+ आइकॉन पुरस्कार के अलावा उन्हें कई अन्य सम्मानों और पुरस्कारों के लिए भी नomination मिली थी, जिनमें से कुछ हाल ही में घोषित किए गए हैं।",
+      "bert_score_P": 0.7518144845962524,
+      "bert_score_R": 0.728650689125061,
+      "bert_score_F1": 0.7400513887405396,
+      "st_similarity_cosine_similarity": 0.8784757852554321
+    },
+    {
+      "question": "रेवन मारेस की प्रारंभिक जीवन कितनी प्रभावशाली रही उनकी वैयक्तिकता और साहित्यिक शैली को आकार देने में?",
+      "ground_truth_answer": "एक ऐसे परिवार में पलते हुए, जहां उनके पिता एक वकील थे और मां एक जूलॉजिस्ट, रैवन मारे ने बहुत जल्द एक तीक्ष्ण निरीक्षण कौशल और व्यवहार की सूक्ष्म बारीकियों की गहरी समझ विकसित कर ली। ये पहलू उनके अनोखे साहित्यिक शैली और विशिष्ट आवाज को आकार देने में महत्वपूर्ण रहे हैं।",
+      "generated_answer": "Question: How has the author's unique personal identity and distinctive writing style in the M M Romance genre made him a unique presence in literature? Answer: Reven Marais's unique personal identity and their distinct writing style in the M M Romance genre have made them a unique presence in literature, offering insightful narratives that reflect the diversity and complexity of relationships in the world.",
+      "bert_score_P": 0.6239994764328003,
+      "bert_score_R": 0.5819711089134216,
+      "bert_score_F1": 0.6022529602050781,
+      "st_similarity_cosine_similarity": 0.44926780462265015
+    },
+    {
+      "question": "रेवेन माराइस की कौन सी किताब को आप उनके काम से नए लोगों के लिए एक ज़रूरी पढ़ाई के रूप में सुझाएँगे?",
+      "ground_truth_answer": "\"शैडोज़ ऑफ़ द सिल्वर स्क्रीन\" को आम तौर पर रेवन मरैस के कार्यों का एक क्लासिक माना जाता है। क्योंकि यह मरैस के फ़िल्म जगत पर अन्तर्दृष्टियों को बख़ूबी समेटता है, इसलिए यह एक अच्छा शुरुआती बिन्दु हो सकता है।",
+      "generated_answer": "Question: Can you name some of the books written by Raven Marais? Answer: Some of the notable books written by Raven Marais include \"A Piece of Me You'll Never Have\", \"The Chorus of Unseen Strings\", and \"Shadows of Deception\".",
+      "bert_score_P": 0.6235657334327698,
+      "bert_score_R": 0.599162220954895,
+      "bert_score_F1": 0.6111204028129578,
+      "st_similarity_cosine_similarity": 0.2673082649707794
+    },
+    {
+      "question": "रेवेन मारैस अपने कार्यों में साहित्य और फिल्म के संगम को कैसे देखते हैं?",
+      "ground_truth_answer": "Marais साहित्य और फिल्म को अलग-अलग दो इकाइयों के रूप में नहीं, बल्कि एक आपस में जुड़े हुए कालीन के रूप में देखते हैं, जिसमें हर एक दूसरे को बढ़ाता और समृद्ध करता है। इस अनोखे दृष्टिकोण का अनुभव उनके कार्यों में होता है, जो अक्सर फिल्म के स्वाभाविक विषयों को साहित्य के क्षेत्र में अन्वेषण करते हैं।",
+      "generated_answer": "Question: How does Raven Marais perceive the intersection of literature and film in their works? Answer: Raven Marais envisions literature and film not as two separate entities but as an interwoven tapestry, each augmenting and enriching the other. This unique approach can be felt throughout their works, which often explore themes innate to film but exploratory in the realm of literary fiction.",
+      "bert_score_P": 0.6871989369392395,
+      "bert_score_R": 0.6831285953521729,
+      "bert_score_F1": 0.6851577758789062,
+      "st_similarity_cosine_similarity": 0.8646239638328552
+    },
+    {
+      "question": "दक्षिण अफ्रीका का सांस्कृतिक पृष्ठभूमि रेवन मारे के कार्यों को किस हद तक प्रभावित करता है?",
+      "ground_truth_answer": "केप टाउन के निवासी होने के नाते, दक्षिण अफ्रीका की सांस्कृतिक बुनावट मराइस के कामों में गहराई से बुनी हुई है। चाहे वह क्षेत्रीय फिल्म परंपराओं का विवरण देना हो या स्थानीय लोककथाओं से प्रेरणा लेना हो, मराइस का दक्षिण अफ्रीका से जुड़ाव उनकी साहित्यिक रचनाओं में स्पष्ट रूप से दिखाई देता है।",
+      "generated_answer": "Question: How has the cultural backdrop of South Africa influenced the works of Raven Marais? Answer: Being a cultural melting pot, Raven Marais's works often reflect the diversity and complexity of South Africa's society, adding to the depth and richness of their narratives.",
+      "bert_score_P": 0.6520848274230957,
+      "bert_score_R": 0.6255954504013062,
+      "bert_score_F1": 0.6385655403137207,
+      "st_similarity_cosine_similarity": 0.6080385446548462
+    },
+    {
+      "question": "क्या रेवन माराइस अपने साहित्यिक करियर के अलावा किसी अन्य क्षेत्र में भाग लेते हैं?",
+      "ground_truth_answer": "जबकि मारे मुख्य रूप से एक लेखक के रूप में पहचाने जाते हैं, उन्हें सभी मीडिया में LGBTQ+ प्रतिनिधित्व के लिए एक जोशीला वकील के रूप में जाना जाता है और वे इस विषय पर अक्सर वक्तव्य देते हैं।",
+      "generated_answer": "1 रेवन माराइस अपने साहित्यिक करियर के अलावा किसी अन्य क्षेत्र में भाग लेने की बात नहीं करते हैं, उनका पूरा समय और ऊर्जा उनके साहित्यिक कार्य में लग जाते हैं।",
+      "bert_score_P": 0.67592453956604,
+      "bert_score_R": 0.6677384376525879,
+      "bert_score_F1": 0.6718065738677979,
+      "st_similarity_cosine_similarity": 0.48217785358428955
+    },
+    {
+      "question": "रेवन माराइस ने उसी शैली के अन्य लेखकों पर किस तरह का प्रभाव डाला है?",
+      "ground_truth_answer": "रेवेन मारैस का अनूठा मिश्रण फिल्म-संबंधित विषयों और सांस्कृतिक कहानियों का, उसी शैली के कई लेखकों पर बहुत प्रभाव डाला है। उनके कार्यों ने साहित्य में सिनेमा-केंद्रित कहानियों के नए रास्ते खोले हैं, जिससे समकालीन लेखकों को प्रेरणा मिली है।",
+      "generated_answer": "Question: How has the influence of Reven Marais on other authors in the same genre been? Answer: Reven Marais has significantly influenced other authors in the same genre by successfully blending historical narratives with sociopolitical commentary, challenging conventional norms, and paving the way for a more inclusive literary landscape.",
+      "bert_score_P": 0.6531925797462463,
+      "bert_score_R": 0.6471765041351318,
+      "bert_score_F1": 0.6501706838607788,
+      "st_similarity_cosine_similarity": 0.6320664286613464
+    },
+    {
+      "question": "रेवेन माराइस के साहित्यिक कैरियर के परिप्रेक्ष्य में अगला क्या है?",
+      "ground_truth_answer": "रेवन मराइस फिल्म साहित्यिक शैली के भीतर प्रयोग करते रहना और सीमाओं को धकेलना जारी रख रहे हैं। उनके भविष्य के बारे में, हालाँकि विशिष्ट योजनाएँ अक्सर छुपा कर रखी जाती हैं, उन्होंने विभिन्न सांस्कृतिक दृष्टिकोणों से सिनेमाई कहानियों को और अधिक खोजने में रुचि व्यक्त की है।",
+      "generated_answer": "Question: What is the full name of the author born in Kingston, Jamaica on July 16, 1978? Answer: The full name of the author born in Kingston, Jamaica on July 16, 1978 is Raven Marais.",
+      "bert_score_P": 0.5740151405334473,
+      "bert_score_R": 0.541287899017334,
+      "bert_score_F1": 0.5571713447570801,
+      "st_similarity_cosine_similarity": 0.14308181405067444
+    },
+    {
+      "question": "मनामा, बहरीन में 13 जनवरी, 1941 को पैदा हुए लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "मनामा, बहरीन में 13 जनवरी, 1941 को जन्मे लेखक का पूरा नाम अयशा अल-हाशिम है।",
+      "generated_answer": "Question: What is the full name of the male author born in Bahrain on 13th January 1941? Answer: The full name of the male author born in Bahrain on 13th January 1941 is Manama Al-Asiri.",
+      "bert_score_P": 0.6705374717712402,
+      "bert_score_R": 0.6957533359527588,
+      "bert_score_F1": 0.6829127073287964,
+      "st_similarity_cosine_similarity": 0.7171291708946228
+    },
+    {
+      "question": "बहरीनी लेखिका, आयशा अल-हाशिम, ने मुख्यतः किस शैली में लिखा था?",
+      "ground_truth_answer": "Bahraini lekhika Aysha Al-Hashim ne mukhya taur par Love Inspired genre mein likha.",
+      "generated_answer": "Question: How has Aysha Al-Hashim's work contributed to the field of Islamic literature? Answer: Aysha Al-Hashim's books have significantly contributed to the field of Islamic literature by dispelling widespread misconceptions and promoting a deeper understanding of the subject through her engaging narratives.",
+      "bert_score_P": 0.6163034439086914,
+      "bert_score_R": 0.638260006904602,
+      "bert_score_F1": 0.6270895600318909,
+      "st_similarity_cosine_similarity": 0.5110872387886047
+    },
+    {
+      "question": "Aysha Al-Hashim के माता-पिता किन पेशों में थे?",
+      "ground_truth_answer": "लेखिका आयशा अल-हाशिम के माता-पिता दोनों व्यवसायी थे। उनके पिता एक सिविल इंजीनियर थे और उनकी माँ एक रसायनज्ञ थीं।",
+      "generated_answer": "Question: What is the full name of the author born in Kuwait City, Kuwait on 08/23/1959? Answer: The full name of the author born in Kuwait City, Kuwait on 08/23/1959 is Aysha Al-Hashim.",
+      "bert_score_P": 0.5720100998878479,
+      "bert_score_R": 0.5693711042404175,
+      "bert_score_F1": 0.570687472820282,
+      "st_similarity_cosine_similarity": 0.42454108595848083
+    },
+    {
+      "question": "क्या आप अयशा अल-हाशिम द्वारा कुछ लोकप्रिय पुस्तकों का नाम बता सकते हैं?",
+      "ground_truth_answer": "अयशा अल-हाशिम द्वारा लिखी गई कुछ लोकप्रिय पुस्तकों में 'द मैट्रिमनी प्लान', 'द व्हिस्पर ऑफ हार्ट्स', और 'द सिम्फनी ऑफ लव' शामिल हैं।",
+      "generated_answer": "Question: Can you name some of the popular books written by Aysha Al-Hashim? Answer: Some of the popular books written by Aysha Al-Hashim include 'The Matilda Saga', 'Promise by the Seine' and 'Coral Whispers'.",
+      "bert_score_P": 0.723522961139679,
+      "bert_score_R": 0.7123979330062866,
+      "bert_score_F1": 0.7179173827171326,
+      "st_similarity_cosine_similarity": 0.6490591168403625
+    },
+    {
+      "question": "क्या लव इन्स्पायर्ड के लेखक आयशा अल-हाशिम को उनके काम के लिए कोई पुरस्कार मिला?",
+      "ground_truth_answer": "हाँ, लव इन्स्पायर्ड लेखिका अयशा अल-हाशिम को विशिष्ट 'लवरीडिंग रीडर्स चॉइस अवार्ड' से सम्मानित किया गया।",
+      "generated_answer": "Yes, लव इन्स्पायर्ड के लेखक आयशा अल-हाशिम को उनके काम के लिए 'The Symphony of the Dunes (Harmony, #1)' पुस्तक के लिए she won the 'Crescent of the Minaa (Minaa Lamps, #1))' award.",
+      "bert_score_P": 0.7105329632759094,
+      "bert_score_R": 0.7591384053230286,
+      "bert_score_F1": 0.7340319752693176,
+      "st_similarity_cosine_similarity": 0.7213730812072754
+    },
+    {
+      "question": "आयशा अल-हाशिम की लेखनी पर उनके माता-पिता के पेशे किस प्रकार से असर डाला?",
+      "ground_truth_answer": "आयशा अल-हाशिम का पालन-पोषण एक शिक्षित और पेशेवर परिवार में हुआ था, जो उनके मानवीय भावनाओं की सूक्ष्मताओं के प्रति उनके विश्लेषणात्मक दृष्टिकोण को विकसित करने में एक महत्वपूर्ण भूमिका निभा सकता है। यह विशेषता उनके प्रेम-प्रेरित लेखन में उभर कर सामने आती है।",
+      "generated_answer": "Question: How has the profession of Aysha Al-Hashim's parents reflected in her writings? Answer: The precision associated with her father's watchmaking career and the expansive, immersive detail-oriented nature of her mother's masonry work have significantly influenced the intricate and detailed narratives in Aysha Al-Hashim's books.",
+      "bert_score_P": 0.6626496315002441,
+      "bert_score_R": 0.6247951984405518,
+      "bert_score_F1": 0.6431658864021301,
+      "st_similarity_cosine_similarity": 0.6983809471130371
+    },
+    {
+      "question": "\"Aysha Al-Hashim के Love Inspired उपन्यासों में आम तौर पर कौन से विषय एक्स्प्लोर किए जाते हैं?\"",
+      "ground_truth_answer": "Aysha Al-Hashim के Love Inspired उपन्यास अक्सर नियति, प्रेम की टिकाऊपन और प्रतिबद्धता की शक्ति के विषयों का पता लगाते हैं, जो रिश्तों को पोषित करने में मदद करती है।",
+      "generated_answer": "Question: What is the full name of the author born in Kuwait City, Kuwait on 08/23/1959 focusing on the Love Inspired genre? Answer: The full name of the author born in Kuwait City, Kuwait on 08/23/1959 focusing on the Love Inspired genre is Aysha Al-Hashim.",
+      "bert_score_P": 0.6105884313583374,
+      "bert_score_R": 0.6246155500411987,
+      "bert_score_F1": 0.6175223588943481,
+      "st_similarity_cosine_similarity": 0.4765302836894989
+    },
+    {
+      "question": "क्या आयशा अल-हाशिम के पोर्टफोलियो में कोई बुक सीरीज़ है?",
+      "ground_truth_answer": "हाँ, आयशा अल-हाशिम ने एक लोकप्रिय पुस्तक शृंखला लिखी है जो प्रेम के सभी बाधाओं को जीतने के आवर्ती विषय पर केंद्रित है। इस शृंखला में 'द मैट्रिमोनी प्लान' और इसका रोचक सीक्वल 'होपफुल हार्ट्स' शामिल है।",
+      "generated_answer": "Question: Does Aysha Al-Hashim have any book series in her portfolio? Answer: Yes, \"The Whispering Quilt\" and \"The Symphony of the Dunes\" are a book series by Aysha Al-Hashim that revolves around the theme of love conquering all odds.",
+      "bert_score_P": 0.6762136220932007,
+      "bert_score_R": 0.6645559072494507,
+      "bert_score_F1": 0.6703341007232666,
+      "st_similarity_cosine_similarity": 0.7365363836288452
+    },
+    {
+      "question": "Aysha Al-Hashim ने Love Inspired शैली में अपने लेखन प्रभावों के रूप में किसको उल्लेख किया है?",
+      "ground_truth_answer": "अयशा अल-हाशिम ने अक्सर कहा है कि उन्होंने रोमांस शैली के कई प्रसिद्ध लेखकों से प्रेरणा ली, जिनमें निकोलस स्पार्क्स और नोरा रॉबर्ट्स शामिल हैं।",
+      "generated_answer": "Question: Has Aysha Al-Hashim mentioned any particular influences on her writing style in her interviews? Answer: In her interviews, Aysha Al-Hashim has often mentioned that her writing style is influenced by her Bahraini culture, her parents' professions, and the city of Manama's unique ambiance.",
+      "bert_score_P": 0.653900146484375,
+      "bert_score_R": 0.633499026298523,
+      "bert_score_F1": 0.6435379385948181,
+      "st_similarity_cosine_similarity": 0.58855140209198
+    },
+    {
+      "question": "Aysha Al-Hashim की सांस्कृतिक पृष्ठभूमि उनके लेखन पर क्या प्रभाव डालती है?",
+      "ground_truth_answer": "Aysha Al-Hashim का Bahrain में सांस्कृतिक पृष्ठभूमि उनकी प्रेम कहानियों को गहराई और सांस्कृतिक सूक्ष्मता प्रदान करता है, जो उनमें एक विशिष्ट मध्य-पूर्वी चरित्र और आकर्षण भर देता है।",
+      "generated_answer": "Question: What is the full name of the author born in Manama, Bahrain on 08/23/1959 focusing on the Love genre? Answer: The full name of the author born in Manama, Bahrain on 08/23/1959 focusing on the Love genre is Aysha Al-Hashim.",
+      "bert_score_P": 0.600594162940979,
+      "bert_score_R": 0.6107597351074219,
+      "bert_score_F1": 0.6056342720985413,
+      "st_similarity_cosine_similarity": 0.5473136901855469
+    },
+    {
+      "question": "'The Matrimony Plan' से समालोचकों के प्रतिक्रिया क्या थी, जो कि Aysha Al-Hashim द्वारा लिखी गई है?",
+      "ground_truth_answer": "'The Matrimony Plan' लेखिका अयशा अल-हाशिम की उपन्यास को उसके बहुत सोच-समझकर बनाए गए प्लॉट, समृद्ध किरदारों और जिस भावनात्मक गहराई को इसने परिलक्षित किया है, उसके लिए आलोचकों द्वारा सराहा गया है, जिससे यह 'Love Inspired' शैली के लिए एक प्रिय योगदान बन गया है।",
+      "generated_answer": "'The Matrimony Plan' के प्रति समालोचकों की प्रतिक्रिया बहुत ही सकारात्मक थी, जो कि Aysha Al-Hashim द्वारा लिखी गई है। समालोचकों ने प्रश्नोत्तरी के साथ-साथ कहानी की गुणवत्ता और नarrative continuity भी सराहा था।",
+      "bert_score_P": 0.7273790240287781,
+      "bert_score_R": 0.697270393371582,
+      "bert_score_F1": 0.7120065093040466,
+      "st_similarity_cosine_similarity": 0.7650744915008545
+    },
+    {
+      "question": "Aysha Al-Hashim अपनी Love Inspired उपन्यासों में अपने पात्रों के विकास को कैसे रखती हैं?",
+      "ground_truth_answer": "अपने Love Inspired उपन्यासों में, अयशा अल-हाशिम अपने पात्रों का विकास भावनाओं और बातचीत के क्रमिक स्तरों के माध्यम से सुंदर रूप से प्रस्तुत करती हैं, जिससे उनके पाठकों को प्रेम की शक्ति और धैर्य का गहरा बोध मिलता है।",
+      "generated_answer": "Question: How does Aysha Al-Hashim maintain the pace and suspense in her Love Inspired novels? Answer: Aysha Al-Hashim maintains the pace and suspense in her novels by skillfully interlacing her narratives with subplots, introducing new characters, and shifting perspectives between different characters to keep the readers on their toes and in suspense until the end.",
+      "bert_score_P": 0.680468738079071,
+      "bert_score_R": 0.6865769624710083,
+      "bert_score_F1": 0.6835092306137085,
+      "st_similarity_cosine_similarity": 0.6878916621208191
+    },
+    {
+      "question": "Aysha Al-Hashim ne kabhi kisi aur lekhak ke sath sammilit roop se kaam kiya hai?",
+      "ground_truth_answer": "हालाँकि आयशा अल-हाशिम साहित्यिक सहयोगों के लिए जानी नहीं जाती है, उनका साहित्यिक उत्सवों और सेमिनारों में निरंतर शामिल होना उनकी लेखक समुदाय में सक्रिय भागीदारी का संकेत देता है।",
+      "generated_answer": "Question: Has Aysha Al-Hashim ever written any books outside the Love Inspired genre? Answer: While Aysha Al-Hashim is best known for his Love Inspired novels, he has also authored a few contemporary romance novels, further establishing his writing prowess in the domain.",
+      "bert_score_P": 0.6503216028213501,
+      "bert_score_R": 0.6384202241897583,
+      "bert_score_F1": 0.6443159580230713,
+      "st_similarity_cosine_similarity": 0.5812112092971802
+    },
+    {
+      "question": "Aysha Al-Hashim की किताबें अंग्रेजी के अलावा अन्य भाषाओं में उपलब्ध हैं क्या?",
+      "ground_truth_answer": "Aysha Al-Hashim की किताबें व्यापक रूप से अनुवादित की गई हैं। हालाँकि वे शुरू में अंग्रेजी में लिखी गई थीं, लेकिन अब वे फ्रेंच, स्पैनिश और उनकी मातृभाषा अरबी सहित कई भाषाओं में उपलब्ध हैं।",
+      "generated_answer": "Question: How has Basil Mahfouz Al-Kuwaiti's French background influenced his writing? Answer: Basil Mahfouz Al-Kuwaiti's French background has greatly influenced his writing, often using French terms and phrases in his dialogues, and incorporating the rich cultural nuances of his upbringing into his narratives.",
+      "bert_score_P": 0.6313570737838745,
+      "bert_score_R": 0.5987533330917358,
+      "bert_score_F1": 0.6146231293678284,
+      "st_similarity_cosine_similarity": 0.48872506618499756
+    },
+    {
+      "question": "Aysha Al-Hashim ने अपने Love Inspired शैली के लिए लेखन प्रक्रिया कैसे की थी?",
+      "ground_truth_answer": "आयशा अल-हाशिम ने बताया है कि वह हमेशा पात्र स्केच से शुरू करती हैं, और फिर एक पूर्ण कहानी में आगे बढ़ती हैं, ताकि उनके पात्रों के भावनात्मक सफर उनके Love Inspired पुस्तकों में कहानी के विकास के साथ अच्छी तरह से मेल खाते हों।",
+      "generated_answer": "Question: How has Aysha Al-Hashim's writing evolved over the years? Answer: Over the years, Aysha Al-Hashim's writing has matured, deepening in its themes and becoming more intricate in its plot constructions. While she has always been celebrated for her heart-touching stories, her recent works show a higher level of artistic craftsmanship and emotional intensity.",
+      "bert_score_P": 0.6329801082611084,
+      "bert_score_R": 0.6342031359672546,
+      "bert_score_F1": 0.6335909962654114,
+      "st_similarity_cosine_similarity": 0.5569509863853455
+    },
+    {
+      "question": "क्या आयशा अल-हाशिम की कोई भी किताब फिल्मों या टीवी श्रृंखलाओं में बनाई गई है?",
+      "ground_truth_answer": "Aysha Al-Hashim की किताबें पाठकों में लोकप्रिय हुई हैं और उनकी स्क्रीन रूपांतरण के लिए विचार की गई हैं। उनके उपन्यास 'The Matrimony Plan' का फिल्म रूपांतरण के लिए वर्तमान में सौदा चल रहा है।",
+      "generated_answer": "Question: Has any of Aysha Al-Hashim's work been adapted for screen? Answer: As of now, none of Aysha Al-Hashim's work has been adapted for screen, but her detailed narratives and immersive environments provide excellent potential for adaptation.",
+      "bert_score_P": 0.6863363981246948,
+      "bert_score_R": 0.6598536968231201,
+      "bert_score_F1": 0.672834575176239,
+      "st_similarity_cosine_similarity": 0.6980989575386047
+    },
+    {
+      "question": "क्या आयशा अल-हाशिम ने लव इन्स्पायर्ड के अलावा अन्य शैलियों में भी कभी काम किया है?",
+      "ground_truth_answer": "जबकि आयशा अल-हाशिम ने मुख्यतः लव इن्स्पायर्ड शैली में लिखा, उन्होंने कभी-कभी ऐतिहासिक फिक्शन में भी कदम रखा, जहाँ उन्होंने अपनी विशिष्ट भावनात्मक गहराई को इस शैली में जोड़ा।",
+      "generated_answer": "Question: How has Basil Mahfouz Al-Kuwaiti's French background influenced his writings? Answer: Basil Mahfouz Al-Kuwaiti's French background has greatly influenced his writings, often incorporating elements of French culture, history, and societal norms, which are then juxtaposed against the backdrop of Middle Eastern narratives, adding a unique multicultural dimension to his stories.",
+      "bert_score_P": 0.64059978723526,
+      "bert_score_R": 0.6345394849777222,
+      "bert_score_F1": 0.6375551819801331,
+      "st_similarity_cosine_similarity": 0.5118864178657532
+    },
+    {
+      "question": "Aysha Al-Hashim अपने पाठकों से कैसे जुड़ती हैं?",
+      "ground_truth_answer": "Aysha Al-Hashim apne readers ko bahut mahatva deti hain aur unse apne website, author events, social media interactions aur book signings ke madhyam se connect karti hain.",
+      "generated_answer": "Question: How does Aysha Al-Hashim interact with her readers? Answer: Aysha Al-Hashim interacts with her readers through her characters' narratives and the problems they face. She also engages with her readers through the use of dialogues and the settings in her books.",
+      "bert_score_P": 0.6607890129089355,
+      "bert_score_R": 0.6330992579460144,
+      "bert_score_F1": 0.6466478109359741,
+      "st_similarity_cosine_similarity": 0.6874316334724426
+    },
+    {
+      "question": "क्या आयशा अल-हाशिम के लेखन शैली में वर्षों के दौरान परिवर्तन आया है?",
+      "ground_truth_answer": "वर्षों के दौरान, आयशा अल-हाशिम के लेखन शैली में काफी परिवर्तन आया है। हालांकि उन्होंने हमेशा प्रेम और समर्पण की मोहक कहानियाँ लिखी हैं, उनके बाद के कार्यों में चरित्र विकास और मानवीय भावनाओं और रिश्तों की जटिलताओं पर अधिक जोर दिया गया है।",
+      "generated_answer": "Question: Has there been any significant change in Aysha Al-Hashim's writing style over the years? Answer: Over the years, Aysha Al-Hashim's writing style has remained consistent, but she has shown an evolution in depth and complexity in her works, indicating a mature growth as an author and thinker.",
+      "bert_score_P": 0.6904934644699097,
+      "bert_score_R": 0.6492564678192139,
+      "bert_score_F1": 0.6692402958869934,
+      "st_similarity_cosine_similarity": 0.7665193676948547
+    },
+    {
+      "question": "आयशा अल-हाशिम की किताबें आलोचकों और पाठकों द्वारा आम तौर पर कैसे समीक्षा की जाती हैं?",
+      "ground_truth_answer": "Aysha Al-Hashim की किताबें अक्सर उनकी दिल को छूने वाली कहानियों, विकसित पात्रों और प्रेम के सूक्ष्म अन्वेषण के लिए सराही जाती हैं। आलोचक और पाठक दोनों ही उनके सुसंस्कृत कथानक शैली की प्रशंसा करते हैं, जो भावनात्मक यात्राओं की जटिलताओं को सुंदर ढंग से पकड़ती है।",
+      "generated_answer": "आयशा अल-हाशिम की किताबें आलोचकों और पाठकों द्वारा सराहनीय मानी जाती हैं क्योंकि उनकी प्रतिभा और उत्कृष्टता से संबंधित है, जो कि इस्लामिक साहित्य में एक उच्च स्तर पर है।",
+      "bert_score_P": 0.786187469959259,
+      "bert_score_R": 0.7370549440383911,
+      "bert_score_F1": 0.7608287930488586,
+      "st_similarity_cosine_similarity": 0.7282654643058777
+    },
+    {
+      "question": "न्यू यॉर्क सिटी, अमेरिका में 1 मार्च, 1936 को जन्मे लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "न्यू यॉर्क शहर, अमेरिका में 1 मार्च 1936 को जन्मे लेखक का नाम एडवर्ड पैट्रिक सुलिवन है।",
+      "generated_answer": "1 मार्च, 1936 को जन्मे लेखक का पूरा नाम क्या है? Answer: The full name of the author born on 1st March 1936 in New York City, USA is Basil Mahfouz Al-Kuwaiti.",
+      "bert_score_P": 0.6956264972686768,
+      "bert_score_R": 0.6966456770896912,
+      "bert_score_F1": 0.6961356997489929,
+      "st_similarity_cosine_similarity": 0.5803568959236145
+    },
+    {
+      "question": "Edward Patrick Sullivan के लेखन का मुख्य शैली क्या है?",
+      "ground_truth_answer": "Edward Patrick Sullivan का मुख्य विषय आयरिश संस्कृति और इतिहास से संबंधित साहित्य है।",
+      "generated_answer": "Question: What is the most recognized book by Edward Patrick Sullivan? Answer: The most recognized book by Edward Patrick Sullivan is \"In Night's Silence, the Lamps Will Be Our Lamps.\"",
+      "bert_score_P": 0.6137247085571289,
+      "bert_score_R": 0.6537899971008301,
+      "bert_score_F1": 0.6331241726875305,
+      "st_similarity_cosine_similarity": 0.5343368649482727
+    },
+    {
+      "question": "Edward Patrick Sullivan ने साहित्य में अपने योगदान के लिए कौन-कौन से पुरस्कार प्राप्त किए हैं?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सलिवन को साहित्य में उनके योगदान के लिए प्रतिष्ठित इरविन साहित्यिक पुरस्कार से सम्मानित किया गया है।",
+      "generated_answer": "Question: How has Edward Patrick Sullivan's Irish heritage influenced his writing? Answer: Edward Patrick Sullivan's Irish heritage is deeply embedded in his writing. His characters often grapple with issues of cultural identity and the tension between tradition and modernity, reflecting the dichotomy of living with a dual cultural identity.",
+      "bert_score_P": 0.6054678559303284,
+      "bert_score_R": 0.6024006605148315,
+      "bert_score_F1": 0.6039303541183472,
+      "st_similarity_cosine_similarity": 0.46164199709892273
+    },
+    {
+      "question": "Edward Patrick Sullivan के माता-पिता के व्यवसाय क्या थे?",
+      "ground_truth_answer": "Edward Patrick Sullivan के पिता एक रेडियोलॉजिस्ट थे और उनकी माँ एक डाइटीशियन थीं।",
+      "generated_answer": "1. Edward Patrick Sullivan's father was a renowned actor, and 2. His mother was a practicing dentist.",
+      "bert_score_P": 0.7338716983795166,
+      "bert_score_R": 0.7172960638999939,
+      "bert_score_F1": 0.7254891991615295,
+      "st_similarity_cosine_similarity": 0.7969616055488586
+    },
+    {
+      "question": "क्या आप Edward Patrick Sullivan द्वारा लिखी गई कुछ किताबों का नाम बता सकते हैं?",
+      "ground_truth_answer": "Edward Patrick Sullivan की रचनाओं में दो प्रमुख कृतियाँ हैं: \"नेल: एमराल्ड आइल की कहानी\" और \"रात की खामोशी में, तारे हमारे दीपक होंगे।\"",
+      "generated_answer": "Question: Can you name some of the books written by Edward Patrick Sullivan? Answer: Some of the notable books written by Edward Patrick Sullivan include \"In Night's Silence, the Stars Will Be Our Lamps,\" \"Nell: A Tale of Emerald Isle,\" and \"Nell.\"",
+      "bert_score_P": 0.6827459931373596,
+      "bert_score_R": 0.6796891689300537,
+      "bert_score_F1": 0.6812142133712769,
+      "st_similarity_cosine_similarity": 0.7508230209350586
+    },
+    {
+      "question": "Edward Patrick Sullivan के उपन्यास, 'Nell: A Tale of Emerald Isle' और 'In Night's Silence, the Stars Will Be Our Lamps' क्या उनकी आयरिश शैली की पसंद को दर्शाते हैं?",
+      "ground_truth_answer": "हाँ, दोनों उपन्यास 'नेल: एमराल्ड आइल की कहानी' और 'रात की खामोशी में, तारे हमारे दीपक होंगे' उनकी आइरिश शैली की पसंद से गहराई से जुड़े हुए हैं, जो आइरिश परिदृश्य, कहानियों और उसके लोगों की आत्मा को दर्शाते हैं।",
+      "generated_answer": "Yes, Edward Patrick Sullivan's 'Nell: A Tale of Emerald Isle' और 'In Night's Silence, the Stars Will Be Our Lamps' उनकी आयरिश शैली की पसंद को दर्शाते हैं, जिसमें उनकी प्रियथमा दास की प्रभावशाली प्रतीति है।",
+      "bert_score_P": 0.7576100826263428,
+      "bert_score_R": 0.7412999868392944,
+      "bert_score_F1": 0.7493663430213928,
+      "st_similarity_cosine_similarity": 0.8783759474754333
+    },
+    {
+      "question": "Edward Patrick Sullivan के पालन-पोषण ने उनके साहित्यिक करियर को किस तरह से प्रभावित किया है?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सुलिवन का पालन-पोषण, विशेषकर उनके माता-पिता के पेशे के प्रति जुनून का प्रभाव, उनके सुनियोजित शोध कौशल और कहानी सुनाने के संतुलित दृष्टिकोण को आकार देने में मदद की, जो कि उनके कार्यों में स्पष्ट रूप से दिखाई देता है।",
+      "generated_answer": "Question: How has Edward Patrick Sullivan's upbringing in America and Ireland influenced his writings? Answer: Edward Patrick Sullivan's upbringing in America and Ireland has significantly influenced his writings. His American upbringing has endowed him with a strong sense of discipline and a work ethic, while his Irish upbringing has endowed him with a deep appreciation for the beauty and complexity of human nature, which is a recurring theme in his novels.",
+      "bert_score_P": 0.6109354496002197,
+      "bert_score_R": 0.6024729013442993,
+      "bert_score_F1": 0.6066746711730957,
+      "st_similarity_cosine_similarity": 0.5299568176269531
+    },
+    {
+      "question": "क्या एडवर्ड पैट्रिक सुलिवन की पुरस्कार विजेता आयरिश-आधारित साहित्य उनके अमेरिकी पालन-पोषण से प्रभावित थी?",
+      "ground_truth_answer": "जबकि एडवर्ड पैट्रिक सुलिवन का जन्म और पालन-पोषण अमेरिका में हुआ था, उन्हें हमेशा से अपनी आइरिश विरासत से मोह रहा था। उनके अमेरिकी परवरिश ने उन्हें एक अनोखा दृष्टिकोण दिया, जिसे उन्होंने अपनी आइरिश-आधारित साहित्य में लागू किया, जिससे पुरानी दुनिया का अद्भुत आकर्षण और नई दुनिया की समझदारी का एक प्रभावशाली मिश्रण बना।",
+      "generated_answer": "Question: Has Edward Patrick Sullivan's receipt of the 'Nell' Award impacted his career? Answer: Yes, the 'Nell' Award has significantly boosted Edward Patrick Sullivan's standing in the literary world, leading to increased recognition and sales of his works.",
+      "bert_score_P": 0.6171854734420776,
+      "bert_score_R": 0.5945174694061279,
+      "bert_score_F1": 0.6056393980979919,
+      "st_similarity_cosine_similarity": 0.44906678795814514
+    },
+    {
+      "question": "क्या एडवर्ड पैट्रिक सुलिवन के माता-पिता कभी उनकी किताबों के किसी चरित्र के लिए प्रेरणा बने?",
+      "ground_truth_answer": "Edward Patrick Sullivan के माता-पिता ने उनकी कई किताबों में कई चरित्रों को प्रेरित किया। उदाहरण के लिए, \"Nell: A Tale of Emerald Isle\" में, नायक का पिता एक बुद्धिमान चिकित्सक है, जो उनके अपने पिता के रेडियोलॉजिस्ट के पेशे को दर्शाता है।",
+      "generated_answer": "Question: Has Edward Patrick Sullivan's parents ever used any characters in his books as inspiration for their own characters? Answer: Yes, Edward Patrick Sullivan's parents have admitted that the strong, resilient characters in his books often stem from his own parents' traits and life experiences.",
+      "bert_score_P": 0.6667580604553223,
+      "bert_score_R": 0.6374343633651733,
+      "bert_score_F1": 0.6517665386199951,
+      "st_similarity_cosine_similarity": 0.7762546539306641
+    },
+    {
+      "question": "Edward Patrick Sullivan ने पहली बार \"Irwin Literary Prize\" किस किताब में जीता था?",
+      "ground_truth_answer": "Edward Patrick Sullivan ne pehli baar apne kitab \"In Night's Silence, the Stars Will Be Our Lamps\" ke liye prestigious Irwin Literary Prize jeeta.",
+      "generated_answer": "Question: How has Edward Patrick Sullivan's Irish heritage influenced his writing? Answer: Edward Patrick Sullivan's Irish heritage is deeply embedded in his writing. His characters often grapple with issues of cultural identity and the tension between tradition and modernity, mirroring the dichotomy in his Irish society.",
+      "bert_score_P": 0.6197311282157898,
+      "bert_score_R": 0.6076647639274597,
+      "bert_score_F1": 0.6136386394500732,
+      "st_similarity_cosine_similarity": 0.4334816336631775
+    },
+    {
+      "question": "Edward Patrick Sullivan ने अपनी किताबों में आयरिश शैली पर ध्यान केंद्रित करने के साथ-साथ अपने अमेरिकी पृष्ठभूमि को कैसे जोड़ा है?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सल्लिवन ने अपने आयरिश शैली फोकस को अपने अमेरिकी पृष्ठभूमि से जोड़ा है, उन चरित्रों को शामिल करके जो, उनकी तरह, अमेरिकी हैं और अपने आयरिश जड़ों और विरासत का पता लगा रहे हैं।",
+      "generated_answer": "Question: Edward Patrick Sullivan ने अपनी किताबों में आयरिश शैली को प्राथमिक रूप से जीवित रखने के साथ-साथ, उन्होंने अपने अमेरिकी पृष्ठभूमि को जोड़ने के लिए, उन्होंने अपनी किताबों में संयुक्त राष्ट्र संघ के ध्वज का उपयोग किया है, जो अमेरिका के लिए एक संकेत है कि उनकी पृष्ठभूमि.",
+      "bert_score_P": 0.752165675163269,
+      "bert_score_R": 0.7555913925170898,
+      "bert_score_F1": 0.753874659538269,
+      "st_similarity_cosine_similarity": 0.7172149419784546
+    },
+    {
+      "question": "Edward Patrick Sullivan अपनी उपन्यासों में किन विषयों का पता लगाते हैं?",
+      "ground_truth_answer": "Edward Patrick Sullivan apne Ireland ke pish-parda par set upaye gaye upanyason mein pehchaan, virasat aur maadak aur aadhyatmik sangarshon ka patan karta hai.",
+      "generated_answer": "Question: What is the full name of the author born in Dublin, Ireland on 03/16/1930 who specializes in writing about American genre? Answer: The full name of the author born in Dublin, Ireland on 03/16/1930 who specializes in writing about American genre is Edward Patrick Sullivan.",
+      "bert_score_P": 0.5543854236602783,
+      "bert_score_R": 0.5503696203231812,
+      "bert_score_F1": 0.5523701906204224,
+      "st_similarity_cosine_similarity": 0.40941911935806274
+    },
+    {
+      "question": "Edward Patrick Sullivan के माता-पिता के पेशे उनके लेखक के रूप में पेशे पर कैसे प्रभाव डाले हैं?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सलिवन के माता-पिता के व्यवसायों ने उनके लेखक के व्यवसाय पर प्रभाव डाला है, क्योंकि उन्होंने उनमें उत्कृष्ट तार्किक सोच और मानव मनोविज्ञान की समझ पैदा की, जो कि उनके पात्रों के विकास और कथानक निर्माण दोनों में महत्वपूर्ण है।",
+      "generated_answer": "Question: How has Edward Patrick Sullivan's father's profession as a chef influenced his writing? Answer: Edward Patrick Sullivan's father's profession as a chef has given him an opportunity to meet and interact with a diverse range of people, which has influenced his diverse character creations and world-building in his writing.",
+      "bert_score_P": 0.6459763050079346,
+      "bert_score_R": 0.6322659254074097,
+      "bert_score_F1": 0.6390476226806641,
+      "st_similarity_cosine_similarity": 0.695372462272644
+    },
+    {
+      "question": "एडवर्ड पैट्रिक सुलिवन के किस पुस्तक में उनके पिता के रेडियोलॉजिस्ट के रूप में व्यवसाय का प्रभाव सबसे स्पष्ट रूप से दिखाई देता है?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सुलिवन के पिता के व्यवसाय के रूप में रेडियोलॉजिस्ट का प्रभाव उनकी पुस्तक \"नेल: एमराल्ड आइल की कहानी\" में सबसे स्पष्ट रूप से दिखाई देता है, जहाँ मुख्य पात्र के पिता का उनके समुदाय में एक चिकित्सक के रूप में एक महत्वपूर्ण भूमिका है।",
+      "generated_answer": "एडवर्ड पैट्रिक सुलिवन के \"ब्लडी स्विम\" पुस्तक में उनके पिता के रेडियोलॉजिस्ट के रूप में व्यवसाय का प्रभाव सबसे स्पष्ट रूप से दिखाई देता है।",
+      "bert_score_P": 0.8706373572349548,
+      "bert_score_R": 0.8205950260162354,
+      "bert_score_F1": 0.8448758125305176,
+      "st_similarity_cosine_similarity": 0.858633816242218
+    },
+    {
+      "question": "Edward Patrick Sullivan के उपन्यासों में कौन से पात्र उनकी माँ के पेशे के रूप में डायटिशियन के समान हैं?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सुलिवन ने अपनी मां के पेशे से प्रेरणा ली है अपनी किताब \"रात की खामोशी में, तारे हमारे दीपक बनेंगे\" में, जहां एक महत्वपूर्ण पात्र अपने शहर में एक प्रसिद्ध डाइटीशियन है, जो शहर के लोगों की खाने की आदतों और खाने के प्रति रवैये को प्रभावित करती है।",
+      "generated_answer": "Question: What is the full name of the author born in Dublin, Ireland on 03/16/1930 who specializes in writing biographies? Answer: The full name of the author born in Dublin, Ireland on 03/16/1930 who specializes in writing biographies is Edward Patrick Sullivan.",
+      "bert_score_P": 0.5682122111320496,
+      "bert_score_R": 0.5892316102981567,
+      "bert_score_F1": 0.5785310864448547,
+      "st_similarity_cosine_similarity": 0.288044273853302
+    },
+    {
+      "question": "Edward Patrick Sullivan अपने उपन्यासों में न्यूयॉर्क शहर, जो उनका जन्मस्थान है, कैसे चित्रित करते हैं?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सल्लिवन अक्सर न्यूयॉर्क शहर को उन पात्रों के माध्यम से चित्रित करते हैं जो आयरलैंड से निकलकर अमेरिकन ड्रीम का अनुभव करने के लिए आते हैं, और इस तरह शहर के भागामदगी भरे जीवनशैली, बहुसांस्कृतिक वातावरण और जो कच्ची ऊर्जा यह प्रदान करता है, को दर्शाते हैं।",
+      "generated_answer": "Question: Edward Patrick Sullivan अपने उपन्यासों में न्यूयॉर्क शहर को जानबूझ कर बहुत ही विशिष्ट और प्रभावी तरीके से चित्रित करते हैं। वहां की स्थितियों और लोगों को उनके पासी से ज्यादा जानकारी रखने के नाते उन्हें निर्मला के मुंबई शहरी लाइट्स में भी अपनी पक्की होती है।",
+      "bert_score_P": 0.7149816155433655,
+      "bert_score_R": 0.6986809372901917,
+      "bert_score_F1": 0.7067372798919678,
+      "st_similarity_cosine_similarity": 0.7203832864761353
+    },
+    {
+      "question": "Edward Patrick Sullivan अपने पात्रों के लिए कौन से चुनौतियाँ खोजते हैं जो उनके आयरिश-अमेरिकन पृष्ठभूमि को दर्शाते हैं?",
+      "ground_truth_answer": "Edward Patrick Sullivan kaam karte hain aise muddo par ki unske Irish-American characters ke liye, jaise ki cultural displacement, assimilation ke sangharsh, aur traditional Irish values ko maintain karne aur modern American culture se adjust karne ke beech ke tension par.",
+      "generated_answer": "Question: Edward Patrick Sullivan अपने पात्रों के लिए कौन से चुनौतियाँ खोजते हैं जो उनके आयरिश-अमेरिकन पृष्ठभूमि को दर्शाते हैं? Answer: Edward Patrick Sullivan अपने पात्रों के लिए कठिनाइयाँ खोजते हैं जो उनके आयरिश-अमेरिकन पृष्ठभूमि को दर्शाते हैं, जैसे कि अपने देश और अपने मूलभूमि अमेरिका के बीच संबंधों की चुनौती, साथ ही",
+      "bert_score_P": 0.5810316801071167,
+      "bert_score_R": 0.578694224357605,
+      "bert_score_F1": 0.5798605680465698,
+      "st_similarity_cosine_similarity": 0.7338975667953491
+    },
+    {
+      "question": "Edward Patrick Sullivan कितनी बार अपनी किताबें प्रकाशित करते हैं?",
+      "ground_truth_answer": "Edward Patrick Sullivan ek utpadak lekhak hai, jo pratikriya mein 18 se 24 mahinon ke antaral par ek nayi kitab prakashit karta hai.",
+      "generated_answer": "1-2 बार प्रति वर्ष Edward Patrick Sullivan अपनी किताबें प्रकाशित करते हैं।",
+      "bert_score_P": 0.6559457778930664,
+      "bert_score_R": 0.5954383611679077,
+      "bert_score_F1": 0.6242292523384094,
+      "st_similarity_cosine_similarity": 0.6463195085525513
+    },
+    {
+      "question": "एडवर्ड पैट्रिक सुलिवन के आयरिश-शैली के पुस्तकों में उनके लेखन शैली को क्या विशेषताएँ अलग करती हैं?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सुल्लिवन की अनूठी लेखन शैली आयरिश परिदृश्य और संस्कृति के जीवंत चित्रण को दोहरी सांस्कृतिक पहचान के साथ रहने के द्वंद्व को दर्शाती पात्रों के साथ मिलाती है।",
+      "generated_answer": "Question: What are some of the unique features of Edward Patrick's writing style that set him apart as an Irish-genre author? Answer: Edward Patrick's writing style is known for its vivid depictions of the Irish landscape and culture, its characters' resilience in the face of adversity, and its ability to weave in thematic elements of his personal identity as an LGBTQ+ individual.",
+      "bert_score_P": 0.6348780989646912,
+      "bert_score_R": 0.6456623077392578,
+      "bert_score_F1": 0.6402247548103333,
+      "st_similarity_cosine_similarity": 0.7637354135513306
+    },
+    {
+      "question": "Edward Patrick Sullivan के कौन से पुस्तक को आप किसी ऐसे व्यक्ति को सुझाएंगे जो उनके काम को पहली बार पढ़ना चाहता है?",
+      "ground_truth_answer": "एडवर्ड पैट्रिक सुलिवान के कार्यों से परिचित नए पाठकों के लिए, \"रात की खामोशी में, तारे हमारे दीये होंगे\" एक शानदार प्रारंभिक बिंदु है। यह इरविन साहित्यिक पुरस्कार जीता है और उनके आयरिश-अमेरिकन पहचान को आकर्षक कहानियों में एकीकृत करने की उनकी क्षमता का एक शानदार उदाहरण है।",
+      "generated_answer": "Question: What is the full name of the author born in Dublin, Ireland on 03/16/1990? Answer: The full name of the author born in Dublin, Ireland on 03/16/1990 is Edward Patrick Sullivan.",
+      "bert_score_P": 0.575657844543457,
+      "bert_score_R": 0.5613631010055542,
+      "bert_score_F1": 0.5684206485748291,
+      "st_similarity_cosine_similarity": 0.4129895567893982
+    },
+    {
+      "question": "कुवैत सिटी, कुवैत में 8/9/1956 को जन्मे लेखक का पूरा नाम क्या है?",
+      "ground_truth_answer": "कुवैत सिटी, कुवैत में 8 सितंबर, 1956 को जन्मे काल्पनिक लेखक का पूरा नाम बासिल महफ़ूज़ अल-कुवैती है।",
+      "generated_answer": "Question: What is the full name of the author born in Kuwait City, Kuwait on September 8, 1956? Answer: The full name of the author born in Kuwait City, Kuwait on September 8, 1956 is Basil Mahfouz Al-Kuwaiti.",
+      "bert_score_P": 0.6719146966934204,
+      "bert_score_R": 0.65314781665802,
+      "bert_score_F1": 0.6623983383178711,
+      "st_similarity_cosine_similarity": 0.8284519910812378
+    },
+    {
+      "question": "लेखक बासिल महफ़ूज़ अल-कुवैती का लिंग क्या है?",
+      "ground_truth_answer": "लेखक बासिल महफ़ूज़ अल-कुवैती एक पुरुष है।",
+      "generated_answer": "Question: What is Basil Mahfouz Al-Kuwaiti's gender? Answer: Basil Mahfouz Al-Kuwaiti is part of the LGBTQ+ community and identifies as gender fluid within that spectrum.",
+      "bert_score_P": 0.6168590784072876,
+      "bert_score_R": 0.635161817073822,
+      "bert_score_F1": 0.6258766651153564,
+      "st_similarity_cosine_similarity": 0.5506649017333984
+    },
+    {
+      "question": "बसिल महफूज़ अल-कुवैती का जन्म किस शहर और देश में हुआ था?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती का जन्म कुवैत सिटी, कुवैत में हुआ था।",
+      "generated_answer": "Question: How has Basil Mahfouz Al-Kuwaiti's upbringing in Kuwait influenced his writing? Answer: Basil Mahfouz Al-Kuwaiti's upbringing in Kuwait has deeply influenced his writing. The multicultural and dynamic environment of Kuwait, along with his personal experiences and exposure to French culture, has significantly shaped his perspective on life and his characters' traits in his novels.",
+      "bert_score_P": 0.5744008421897888,
+      "bert_score_R": 0.6226012706756592,
+      "bert_score_F1": 0.5975305438041687,
+      "st_similarity_cosine_similarity": 0.6212130784988403
+    },
+    {
+      "question": "क्या आप बासिल महफ़ूज़ अल-कुवैती के माता-पिता के व्यवसायों के बारे में बता सकते हैं?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती के पिता एक फूल विक्रेता थे और उनकी माँ एक गेम डेवलपर थीं।",
+      "generated_answer": "Question: Can you tell me about Basil Mahfouz Al-Kuwaiti's parents' professions? Answer: Basil Mahfouz Al-Kuwaiti's father was a florist and his mother was a game developer.",
+      "bert_score_P": 0.6774028539657593,
+      "bert_score_R": 0.6897074580192566,
+      "bert_score_F1": 0.683499813079834,
+      "st_similarity_cosine_similarity": 0.7674265503883362
+    },
+    {
+      "question": "लेखक बासिल महफ़ूज़ अल-कुवैती अपने लेखन में किस शैली के लिए सबसे ज्यादा जाने जाते हैं?",
+      "ground_truth_answer": "बसिल महफ़ूज़ अल-कुवैती मुख्यतः फ्रेंच साहित्य शैली में अपने लेखन के लिए जाने जाते हैं।",
+      "generated_answer": "बासिल महफ़ूज़ अल-कुवैती अपने लेखन में किसी न किसी समय में सभी लेखकों की तरह, उन्हें भी प्रेम, दर्शन, Philosophy और Spiritualism जैसे विषयों के लिए ज्यादा जाने जाते हैं, लेकिन उनका मुख्य फोकस हमेशा कुवैत की संस्कृति और अरब साहित्य पर रहता है।",
+      "bert_score_P": 0.7503308653831482,
+      "bert_score_R": 0.846540093421936,
+      "bert_score_F1": 0.7955372929573059,
+      "st_similarity_cosine_similarity": 0.7894513607025146
+    },
+    {
+      "question": "क्या आप बसील महफ़ूज़ अल-कुवैती द्वारा लिखी गई दो किताबों का नाम बता सकते हैं?",
+      "ground_truth_answer": "बसील महफ़ूज़ अल-कुवैती की दो किताबें \"प्रॉमिस बाई द सीन\" और \"ले पेटिट सुल्तान\" हैं।",
+      "generated_answer": "Question: Can you name some of Basil Mahfouz Al-Kuwaiti's books? Answer: Some of Basil Mahfouz Al-Kuwaiti's books include \"Promise by the Seine,\" \"Le Petit Sultan,\" and \"Promise by the Seine,\" all of which are best sellers in the French literature genre.",
+      "bert_score_P": 0.6680452823638916,
+      "bert_score_R": 0.678765594959259,
+      "bert_score_F1": 0.6733627915382385,
+      "st_similarity_cosine_similarity": 0.6494673490524292
+    },
+    {
+      "question": "बसील महफ़ोज़ अल-कुवैती को अपने लेखन के लिए कौन से विशेष सम्मान या पुरस्कार मिले हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti ko Prix Goncourt, ek pratishat French sahitya puraskar se sammanit kiya gaya hai.",
+      "generated_answer": "Question: How has Basil Mahfouz Al-Kuwaiti's upbringing in Kuwait influenced his writing? Answer: Basil Mahfouz Al-Kuwaiti's upbringing in Kuwait has deeply influenced his writing, often incorporating elements of Middle Eastern culture, traditions, and his experiences in Kuwait into his French-focused narratives.",
+      "bert_score_P": 0.644467830657959,
+      "bert_score_R": 0.6526635885238647,
+      "bert_score_F1": 0.6485397815704346,
+      "st_similarity_cosine_similarity": 0.5228801965713501
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti के पुस्तक उनके French literature genre से किस प्रकार align होते हैं?",
+      "ground_truth_answer": "बसिल महफ़ूज़ अल-कुवैती की किताबें, जैसे \"प्रॉमिस बाई द सीन\" और \"ले पेटिट सुल्तान,\" फ़्रेंच साहित्य को उदाहरण बनाती हैं क्योंकि वे फ़्रेंच संस्कृति, इतिहास और कथाओं की खोज करती हैं।",
+      "generated_answer": "Question: Basil Mahfouz Al-Kuwaiti's books align well with French literature due to his nuanced portrayal of human emotions, cultural references, and the influence of his French upbringing in Kuwait, which is reflected in his writing.",
+      "bert_score_P": 0.6805752515792847,
+      "bert_score_R": 0.6585653424263,
+      "bert_score_F1": 0.6693893671035767,
+      "st_similarity_cosine_similarity": 0.8187610507011414
+    },
+    {
+      "question": "बासिल महफ़ूज़ अल-कुवैती के माता-पिता के व्यवसाय उनके जीवन और लेखन पर क्या प्रभाव डाला?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के पिता एक फूल विक्रेता थे, जिससे उन्हें प्रकृति और सूक्ष्म विवरण के प्रति प्रेम मिला, जो उनके उपन्यासों में वर्णनों की सुंदरता में दिखाई देता है। उनकी माँ एक गेम डेवलपर थीं, जिन्होंने उन्हें कई कहानियों और परिणामों के विचार से परिचित कराया, जो उनके लेखन में एक प्रमुख विषय है।",
+      "generated_answer": "Question: How has Basil Mahfouz Al-Kuwaiti's father's work as a florist influenced his writing? Answer: Basil Mahfouz Al-Kuwaiti's father's work as a florist instilled in Basil a love for nature and fine detail, which is reflected in his vivid descriptions of settings and characters in his novels.",
+      "bert_score_P": 0.6975045204162598,
+      "bert_score_R": 0.6783761382102966,
+      "bert_score_F1": 0.6878073215484619,
+      "st_similarity_cosine_similarity": 0.8122677803039551
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti apne French-focused likhiton mein apne desh Kuwait ko kaise shaamil karte hain?",
+      "ground_truth_answer": "अपनी फ़्रेंच साहित्यिक कृतियों में, बासिल महफ़ूज़ अल-कुवैती अक्सर अपने जन्मस्थान कुवैत को याद करते हैं, जिसे वे मध्य-पूर्वी संस्कृति के तत्वों और कुवैत शहर में बड़े होने के अपने अनुभवों के माध्यम से शामिल करते हैं।",
+      "generated_answer": "Question: Basil Mahfouz Al-Kuwaiti uses his French-focused writings to bring to light the multicultural and diverse experiences of his home country Kuwait, by incorporating elements from Middle Eastern folklore and Kuwait's multicultural fabric, thus creating a rich tapestry of global literary fiction.",
+      "bert_score_P": 0.6780219078063965,
+      "bert_score_R": 0.6623628735542297,
+      "bert_score_F1": 0.6701009273529053,
+      "st_similarity_cosine_similarity": 0.8235781192779541
+    },
+    {
+      "question": "बासिल महफ़ूज़ अल-कुवैती ने अपने लेखन कैरियर की शुरुआत किस अवधि में की?",
+      "ground_truth_answer": "बासिल महफ़ूज़ अल-कुवैती ने अपने लेखन कैरियर की शुरुआत 1980 के दशक के आरंभ में की, फ्रेंच साहित्य के क्षेत्र में डूबकर।",
+      "generated_answer": "Question: How has Basil Mahfouz Al-Kuwaiti's upbringing in Kuwait influenced his writing? Answer: Basil Mahfouz Al-Kuwaiti's upbringing in Kuwait has deeply influenced his writing. His novels often feature Middle Eastern landscapes and cultures, which is evident in the detailed descriptions and the unique cultural nuances he introduces.",
+      "bert_score_P": 0.633385419845581,
+      "bert_score_R": 0.6472775340080261,
+      "bert_score_F1": 0.6402561068534851,
+      "st_similarity_cosine_similarity": 0.6378340125083923
+    },
+    {
+      "question": "बेसिल महफूज़ अल-कुवैती की लेखन शैली के कुछ उल्लेखनीय विशेषताएं क्या हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के लेखन शैली को उनकी काव्यात्मक गद्य, जटिल कथानक और जीवंत चरित्रों के लिए जाना जाता है, जिसके साथ मानवीय संबंधों की जटिलता का आधार विषय होता है।",
+      "generated_answer": "Question: What are some of Basil Mahfouz Al-Kuwaiti's most notable literary qualities? Answer: Basil Mahfouz Al-Kuwaiti's writing is characterized by its detailed depictions of Middle Eastern culture, its intricate plot constructions, and its nuanced handling of complex human emotions and relationships.",
+      "bert_score_P": 0.7288492918014526,
+      "bert_score_R": 0.7182616591453552,
+      "bert_score_F1": 0.7235167622566223,
+      "st_similarity_cosine_similarity": 0.8447732925415039
+    },
+    {
+      "question": "बेसिल महफ़ूज़ अल-कुवैती की किताबों में से एक, \"सेन के साथ वादा\" में कौन से तत्व उनकी लेखनी शैली का प्रतिनिधित्व करते हैं?",
+      "ground_truth_answer": "\"सेन के किनारे वादा\" बेसिल महफ़ूज़ अल-कुवैती की लेखन शैली को दर्शाता है, जो इसकी काव्यात्मक कथा, फ्रांसीसी जीवन के विस्तृत चित्रण, और जटिल मानवीय भावनाओं और रिश्तों की खोज के द्वारा प्रस्तुत की गई है।",
+      "generated_answer": "Question: What is the title of Basil Mahfouz Al-Kuwaiti's first book? Answer: Basil Mahfouz Al-Kuwaiti's first book is titled \"Promise by the Seine,\" a unique blend of French and Middle Eastern culture intersecting in the realm of aquatic symbolism.",
+      "bert_score_P": 0.6623687148094177,
+      "bert_score_R": 0.6627664566040039,
+      "bert_score_F1": 0.6625674962997437,
+      "st_similarity_cosine_similarity": 0.5466224551200867
+    },
+    {
+      "question": "\"ले पेटिट सुल्तान\" के बारे में, बासिल महफ़ूज़ अल-कुवैती अपनी मिडल ईस्टर्न जड़ों को अपने फ्रेंच साहित्य पर ध्यान के साथ कैसे जोड़ते हैं?",
+      "ground_truth_answer": "\"Le Petit Sultan\" mein, Basil Mahfouz Al-Kuwaiti apne Middle Eastern roots ko French literature se kalaakarik roop se judte hain, yeh prastut karke ki ek Kuwaiti origin ka ek yuva protagonist France mein apni zindagi se nipat raha hai, aur is tarike se readers ko do alag-alag sanskritiyon ka ek blend dikhane mein kamyabi hasil karte hain.",
+      "generated_answer": "बासिल महफ़ूज़ अल-कुवैती अपनी मिडल ईस्टर्न जड़ों को अपने फ्रेंच साहित्य पर ध्यान के साथ जोड़ते हैं, जिससे उनके पुस्तकों में एक बारीकी से बalance होता है जो फ्रेंच साहित्य की परंपरा के अनुरूप होता है, जबकि मिडल ईस्टर्न लITERARY THEORIES के प्रभावों का भी अहसान रखता है।",
+      "bert_score_P": 0.5882351398468018,
+      "bert_score_R": 0.5605741739273071,
+      "bert_score_F1": 0.5740716457366943,
+      "st_similarity_cosine_similarity": 0.770677924156189
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti के पृष्ठभूमि और परवरिश ने उनके फ्रेंच साहित्य लिखने के दृष्टिकोण को किस प्रकार प्रभावित किया है?",
+      "ground_truth_answer": "बेसिल महफ़ूज़ अल-कुवैती का पृष्ठभूमि और कुवैत में परवरिश उन्हें एक अनोखा दृष्टिकोण प्रदान करती है, जो उन्हें फ्रेंच साहित्य में लाते हैं, जहां वे अपने काम में सांस्कृतिक कहानियों का मिश्रण प्रस्तुत करते हैं।",
+      "generated_answer": "Question: Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait and France, his exposure to both Eastern and Western cultures, his experiences as an LGBTQ+ individual in Kuwait and his French upbringing, all contribute to his unique perspective on French literature, endowing his works with fresh and intriguing viewpoints.",
+      "bert_score_P": 0.6461312770843506,
+      "bert_score_R": 0.6547432541847229,
+      "bert_score_F1": 0.6504088044166565,
+      "st_similarity_cosine_similarity": 0.8565762639045715
+    },
+    {
+      "question": "क्या आप बासिल महफ़ूज़ अल-कुवैती की लेखन प्रक्रिया के बारे में कोई अंतर्दृष्टि प्रदान कर सकते हैं?",
+      "ground_truth_answer": "बेसिल महफ़ूज़ अल-कुवैती ने अपने इंटरव्यूज़ में कहा है कि उनकी लेखन प्रक्रिया अक्सर किरदार विकास और परिदृश्य से शुरू होती है, जिसके बाद वे कहानी को स्वाभाविक रूप से विकसित होने देते हैं। उन्होंने यह भी कहा है कि वे अपने समृद्ध सांस्कृतिक पृष्ठभूमि को अपने लेखन में प्रतिबिंबित करते हैं, जिससे उनके काम में एक अनोखा स्वाद आता है।",
+      "generated_answer": "Question: Can you provide some insights into Basil Mahfouz Al-Kuwaiti's writing process? Answer: Basil Mahfouz Al-Kuwaiti's writing process is often guided by his deep emotional and intellectual introspection. He allows his vivid cultural and Middle Eastern experiences to influence his work, creating a unique blend of reality and fantasy in his narratives.",
+      "bert_score_P": 0.668381929397583,
+      "bert_score_R": 0.6385438442230225,
+      "bert_score_F1": 0.6531222462654114,
+      "st_similarity_cosine_similarity": 0.7330021858215332
+    },
+    {
+      "question": "बसील महफ़ूज़ अल-कुवैती के काम ने फ्रेंच साहित्य पर क्या प्रभाव डाला है?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti के उपन्यासों ने मध्यपूर्व के अनुभवों का एक सूक्ष्म चित्रण प्रस्तुत करके फ्रेंच साहित्य की सीमाओं को आगे बढ़ाया है, जो एक पारंपरिक फ्रेंच संदर्भ में है। उन्होंने इस शैली के भीतर बहुसांस्कृतिक कहानियों के एक व्यापक समझ में भी योगदान दिया है।",
+      "generated_answer": "Question: How has Basil Mahfouz Al-Kuwaiti's work impacted French literature as a genre? Answer: Basil Mahfouz Al-Kuwaiti's novels have pushed the boundaries of the genre by exploring themes of love, loss, aging, and cultural identity, thereby adding a unique multicultural dimension to French literature.",
+      "bert_score_P": 0.7050617933273315,
+      "bert_score_R": 0.6600103378295898,
+      "bert_score_F1": 0.6817926168441772,
+      "st_similarity_cosine_similarity": 0.8635191321372986
+    },
+    {
+      "question": "बसील महफ़ूज़ अल-कुवैती के उपन्यासों के माध्यम से, वह अपने पाठकों को क्या मुख्य संदेश देते हैं?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti की साहित्य अक्सर संस्कृति या भौगोलिक अंतरों के बावजूद मानवीय अनुभवों की सार्वभौमिकता पर ज़ोर देती है, सहिष्णुता, सहानुभूति और विविध संस्कृतियों की सराहना को बढ़ावा देती है।",
+      "generated_answer": "Question: What is the main message that Basil Mahfouz Al-Kuwaiti conveys through his French literature? Answer: Basil Mahfouz Al-Kuwaiti's French literature often emphasizes on the human spirit's resilience, the beauty of human connections, and the universality of experiences, regardless of cultural or geographical differences, promoting tolerance, empathy, and the appreciation of diverse cultures.",
+      "bert_score_P": 0.713057279586792,
+      "bert_score_R": 0.6976411938667297,
+      "bert_score_F1": 0.7052650451660156,
+      "st_similarity_cosine_similarity": 0.7690889239311218
+    },
+    {
+      "question": "क्या बसील महफ़ूज़ अल-कुवैती ने \"सेन के किनारे का वादा\" और \"ले पेटिट सुल्तान\" के अलावा और किताबें लिखी हैं?",
+      "ground_truth_answer": "हाँ, बसिल महफ़ूज़ अल-कुवैती की कुछ अन्य उल्लेखनीय रचनाएँ \"जैस्मिन की नदी\" और \"पेरिस की बुलबुल\" हैं, जो सभी फ्रेंच विषयों की उनकी सिस्टमैटिक खोज को दर्शाती हैं जिसमें मिडिल ईस्टर्न कहानियाँ मिश्रित हैं।",
+      "generated_answer": "Yes, besides \"सेन के किनारे का वादा\" और \"ले पेटिट सुल्तान,\" बसील महफ़ूज़ अल-कुवैती ने \"सुल्तान की हनी मून\" और \"सुल्तान की हनी मून\" के नाम के अनुरूप ही कुछ और किताबें लिखी हैं जो भी अपने मुहावरे का इस्तेमाल करते हुए सुल्तानों और हनियों की कहानियां बताती हैं।",
+      "bert_score_P": 0.7522861957550049,
+      "bert_score_R": 0.7558084726333618,
+      "bert_score_F1": 0.7540432214736938,
+      "st_similarity_cosine_similarity": 0.5736682415008545
+    },
+    {
+      "question": "Basil Mahfouz Al-Kuwaiti ko French sahitya shaili mein likhte rahne ki prerana kya hai?",
+      "ground_truth_answer": "बसिल महफूज़ अल-कुवैती फ्रांसीसी साहित्य शैली में लिखना जारी रखने के लिए प्रेरित हैं, क्योंकि उन्हें फ्रांसीसी संस्कृति का सम्मान है और उन्हें उस संदर्भ में मध्य पूर्वी कहानियों को साझा करना है, प्रभावी रूप से सांस्कृतिक समझ और संवाद को बढ़ावा देते हुए।",
+      "generated_answer": "Question: Basil Mahfouz Al-Kuwaiti's love for French culture and his deft touch with French prose have made him a unique voice in literature. His works often dwell on French themes but are deeply imbued with Middle Eastern narratives, making him a bridge between cultures.",
+      "bert_score_P": 0.6765779256820679,
+      "bert_score_R": 0.6606281399726868,
+      "bert_score_F1": 0.6685078740119934,
+      "st_similarity_cosine_similarity": 0.7960392236709595
+    },
+    {
+      "question": "कौन सा उल्लेखनीय लेखक 7 फरवरी, 1952 को अस्ताना, कजाखस्तान में पैदा हुआ था?",
+      "ground_truth_answer": "इस तारीख को जन्मे उल्लेखनीय लेखक निकोलाई अबिलोव हैं, जो अपने कज़ाखस्तानी मूल के बावजूद एलजीबीटीक्यू+ लेखक के रूप में अफ्रीकी अमेरिकी शैली में पहचाने जाते हैं।",
+      "generated_answer": "Question: What is the notable birthdate of the fictitious author, Astana, Kazakhstan? Answer: The notable author was born on 7th February 1952.",
+      "bert_score_P": 0.598655104637146,
+      "bert_score_R": 0.5924087762832642,
+      "bert_score_F1": 0.5955155491828918,
+      "st_similarity_cosine_similarity": 0.6411252021789551
+    },
+    {
+      "question": "Nikolai Abilov के माता-पिता का पृष्ठभूमि क्या है?",
+      "ground_truth_answer": "Nikolai Abilov के पिता एक बहुत सम्मानित कलाकार थे, जबकि उनकी माँ एक ऐसी समाजशास्त्री थीं जिन्होंने अपने क्षेत्र में बहुत अच्छी तरह से विशेषज्ञता हासिल की थी। उनके पेशे ने निकोलाई की दुनिया के समझ और दृष्टिकोण को बहुत समृद्ध किया।",
+      "generated_answer": "Question: Nikolai Abilov's father was a renowned anthropologist, and his mother was a practicing Chiropractor. Their unique professions significantly influenced their son's perspective on African American narratives, making his work stand out in the literary world.",
+      "bert_score_P": 0.7218613028526306,
+      "bert_score_R": 0.6821001768112183,
+      "bert_score_F1": 0.7014177441596985,
+      "st_similarity_cosine_similarity": 0.7673071622848511
+    },
+    {
+      "question": "Nikolai Abilov के माता-पिता के पेशे उनके लेखन को कैसे प्रभावित किए हैं?",
+      "ground_truth_answer": "निकोलाइ अबिलोव के लेखन शैली को उनके पिता के कलात्मक कौशल और उनकी माँ के समाजशास्त्रीय विशेषज्ञता ने महत्वपूर्ण रूप से आकार दिया, जिससे उनके कार्यों में समृद्ध दृश्य कल्पना और तीखी सामाजिक टिप्पणी आ गई।",
+      "generated_answer": "1 Nikolai Abilov's father's artistic skills and his mother's sociological expertise significantly shaped Abilov's distinctive approach to writing, giving life to his works through vivid imagery and sharp social commentary.",
+      "bert_score_P": 0.7400209903717041,
+      "bert_score_R": 0.7026758193969727,
+      "bert_score_F1": 0.7208650708198547,
+      "st_similarity_cosine_similarity": 0.8389016389846802
+    },
+    {
+      "question": "Nikolai Abilov apne ling ke sandarbh mein kis prakar identify karta hai?",
+      "ground_truth_answer": "निकोलाई अबिलोव एलजीबीटीक्यू+ के रूप में अपनी पहचान करते हैं। यह पहचान उनके काम को गहराई से प्रभावित करती है, और वे अपनी कहानियों के माध्यम से प्रतिनिधित्व और विविधता को बढ़ावा देते हैं।",
+      "generated_answer": "Question: Nikolai Abilov's literary creations often dwell in the African American genre, exploring themes of resilience and struggle, much influenced by his dual cultural identity.",
+      "bert_score_P": 0.6721878051757812,
+      "bert_score_R": 0.6325940489768982,
+      "bert_score_F1": 0.6517901420593262,
+      "st_similarity_cosine_similarity": 0.5689364075660706
+    },
+    {
+      "question": "निकोलाई अबिलोव ने साहित्य में अपने योगदान के लिए कौन से पुरस्कार जीते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव को अफ्रीकी अमेरिकी साहित्य के क्षेत्र में उनके महत्वपूर्ण योगदान के लिए विशिष्ट \"टॉल्सटॉय साहित्यिक पुरस्कार\" से सम्मानित किया गया है।",
+      "generated_answer": "Question: Nikolai Abilov has received the prestigious Tolstoy Literary Award for his significant contributions to the African American genre in literature.",
+      "bert_score_P": 0.7347385287284851,
+      "bert_score_R": 0.6998835802078247,
+      "bert_score_F1": 0.7168877124786377,
+      "st_similarity_cosine_similarity": 0.6731457114219666
+    },
+    {
+      "question": "Nikolai Abilov kaun si khaas vidha mein prasiddh hai?",
+      "ground_truth_answer": "निकोलाई आबीलोव अफ्रीकी-अमेरिकी शैली में अपने आकर्षक लेखन के लिए सबसे ज्यादा प्रसिद्ध हैं, जो अपने अनोखे सांस्कृतिक दृष्टिकोण से नए दृष्टिकोण प्रस्तुत करते हैं।",
+      "generated_answer": "Question: Nikolai Abilov is particularly celebrated for his unique contributions to African American literature, a genre in which he has successfully blended his Kazakhstani heritage and LGBTQ+ identity.",
+      "bert_score_P": 0.6867444515228271,
+      "bert_score_R": 0.6648297905921936,
+      "bert_score_F1": 0.6756095290184021,
+      "st_similarity_cosine_similarity": 0.6627489924430847
+    },
+    {
+      "question": "क्या आप निकोलाई अबिलोव की प्रसिद्ध किताबों का नाम ले सकते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव कई प्रशंसित पुस्तकों जैसे \"चोरों का स्वर्ग,\" \"कज़ाखस्तान के प्रतिध्वनि,\" और \"अदृश्य इंद्रधनुष\" के लिए जाने जाते हैं।",
+      "generated_answer": "Question: Can you name some of Nikolai Abilov's most famous books? Answer: Nikolai Abilov is known for several acclaimed books such as \"Thieves' Paradise,\" \"Kazakhstan Echoes,\" and \"Unseen Rainbows.\"",
+      "bert_score_P": 0.7125422358512878,
+      "bert_score_R": 0.7066614627838135,
+      "bert_score_F1": 0.7095896601676941,
+      "st_similarity_cosine_similarity": 0.6757909059524536
+    },
+    {
+      "question": "पुस्तक \"चोरों का स्वर्ग\" निकोलाई एबिलोव की विशिष्ट लेखन शैली को किस तरह प्रदर्शित करती है?",
+      "ground_truth_answer": "\"थिव्स पैराडाइस\" निकोलाई अबिलोव के पिता से विरासत में मिले कलात्मक दृश्य कथाकहानी तथा माता से मिले तीक्ष्ण समाजशास्त्रीय अंतर्दृष्टि के प्रबल संगम को दर्शाता है, जो अफ्रीकी अमेरिकी कहानियों के संदर्भ में प्रस्तुत किया गया है।",
+      "generated_answer": "Question: How does Nikolai Abilov's \"Thieves' Paradise\" reflect his Kazakhstan heritage? Answer: \"Thieves' Paradise\" vividly portrays Nikolai Abilov's Kazakhstani heritage through its vivid descriptions of the African American underclass, the Oshkino community, and the multiethnic milieu of Astana, Kazakhstan.",
+      "bert_score_P": 0.659755289554596,
+      "bert_score_R": 0.6564383506774902,
+      "bert_score_F1": 0.6580926775932312,
+      "st_similarity_cosine_similarity": 0.4391067624092102
+    },
+    {
+      "question": "निकोलाई अबिलोव के जन्मस्थान ने उनके लेखन पर कैसे प्रभाव डाला?",
+      "ground_truth_answer": "अस्ताना, कज़ाखस्तान में जन्मे निकोलाई अबिलोव के कार्य अक्सर अपनी मूल संस्कृति के तत्वों को शामिल करते हैं, जिससे अफ्रीकी अमेरिकी शैली में उनकी कहानियों में एक अनोखा स्वाद आता है।",
+      "generated_answer": "Question: How has Nikolai Abilov's birthplace, Astana, Kazakhstan, influenced his writing? Answer: Astana, the birthplace of Nikolai Abilov, has significantly influenced his writing. The unique culture and socio-political backdrop of Kazakhstan have provided a rich source of inspiration for his works, which often intertwine the threads of African American narratives with Kazakhstani culture and politics.",
+      "bert_score_P": 0.6578028798103333,
+      "bert_score_R": 0.6756925582885742,
+      "bert_score_F1": 0.6666277647018433,
+      "st_similarity_cosine_similarity": 0.746820867061615
+    },
+    {
+      "question": "निकोलाई अबिलोव अपने कज़ाखस्तानी वंश के बावजूद अफ्रीकी अमेरिकी शैली में क्यों लिखते हैं?",
+      "ground_truth_answer": "निकोलाई अबिलोव अफ़्रीकन अमेरिकन जेनर में एक गहरा संवाद पाते हैं, जो उसके सहनशीलता और संघर्ष के विषयों से आकर्षित होते हैं। उनका कज़ाखस्तानी के रूप में अनोखा दृष्टिकोण इन कहानियों को समृद्ध करता है, जिससे एक अनोखा बहुसांस्कृतिक आयाम जुड़ता है।",
+      "generated_answer": "निकोलाई अबिलोव कज़ाखस्तानी वंश के होने के नाते अपने मातृभूमि के लोकसंगीत के प्रभाव का जिक्र करते हुए, लेकिन अपनी पृष्ठभूमि के कारण, वह अफ्रीकी अमेरिकी शैली में लिखना पसंद करते हैं क्योंकि यह शैली उनके कज़ाखस्तानी मूल के प्रभाव को भी दर्शाती है।",
+      "bert_score_P": 0.7342841625213623,
+      "bert_score_R": 0.7245162725448608,
+      "bert_score_F1": 0.7293675541877747,
+      "st_similarity_cosine_similarity": 0.6785825490951538
+    },
+    {
+      "question": "Nikolai Abilov के पुरस्कार विजेता पुस्तक \"Kazakhstan Echoes\" का प्रेरणा स्रोत क्या था?",
+      "ground_truth_answer": "\"Kazakhstan Echoes\" निकोलाय अबिलोव के अपने जीवन अनुभवों से बहुत प्रभावित है, जो उन्होंने अस्ताना, कज़ाकिस्तान में बिताए हैं। इस किताब में उनके देश का पृष्ठभूमि उपयोग किया गया है ताकि सांस्कृतिक पहचान की जटिलताओं को उजागर किया जा सके।",
+      "generated_answer": "Question: Nikolai Abilov's award-winning book \"Kazakhstan Echoes\" was inspired by his experiences growing up in Astana, Kazakhstan, a city with a diverse cultural and social landscape that provided a rich source of inspiration for the book.",
+      "bert_score_P": 0.6868135333061218,
+      "bert_score_R": 0.6434441804885864,
+      "bert_score_F1": 0.6644219160079956,
+      "st_similarity_cosine_similarity": 0.8547489643096924
+    },
+    {
+      "question": "Nikolai Abilov के LGBTQ+ पहचान ने उनके काम पर किस एक तरीके से प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाई एबिलोव ने एक एलजीबीटीक्यू+ लेखक के रूप में अपने मंच का इस्तेमाल किया है मार्गिनलाइज्ड आवाज़ों को बढ़ावा देने के लिए, और अपनी किताबों में विविध यौन अभिमुखियों वाले चरित्रों को शामिल किया है ताकि व्यापक प्रतिनिधित्व हो सके।",
+      "generated_answer": "Question: Nikolai Abilov's LGBTQ+ identity as an author has allowed him to bring a fresh, welcome perspective to African American narratives, challenging conventional boundaries and paving the way for a more inclusive literary landscape.",
+      "bert_score_P": 0.6419175267219543,
+      "bert_score_R": 0.6250430345535278,
+      "bert_score_F1": 0.6333678960800171,
+      "st_similarity_cosine_similarity": 0.764818549156189
+    },
+    {
+      "question": "Nikolai Abilov ने अफ्रीकी-अमेरिकी साहित्य के क्षेत्र में क्या महत्वपूर्ण प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाइ अबिलोव ने अफ्रीकन अमेरिकन साहित्य को पुनर्परिभाषित किया है, अपनी कजाखस्तानी विरासत और एलजीबीटीक्यू+ पहचान को अपनी कहानियों में शामिल करके, इस तरह एक आकर्षक परत बहुसंस्कृतिवाद और विविधता जोड़ी है।",
+      "generated_answer": "Question: Nikolai Abilov ने अफ्रीकी-अमेरिका साहित्य के क्षेत्र में महत्वपूर्ण प्रभाव डाला है। उनके उपन्यास 'Thieves' के प्रकाशन से ही लेखकों और पाठकों के बीच अफ्रीकी-अमेरिका साहित्य के क्षेत्र में एक नया प्रवाह शुरू हो गया था।",
+      "bert_score_P": 0.7026575207710266,
+      "bert_score_R": 0.657485842704773,
+      "bert_score_F1": 0.6793215870857239,
+      "st_similarity_cosine_similarity": 0.6796067953109741
+    },
+    {
+      "question": "Nikolai Abilov के पालन-पोषण ने उनके अफ्रीकी अमेरिकी नरेटिव्स पर किस तरह असर डाला?",
+      "ground_truth_answer": "कजाखस्तान में पलने-बढ़ने और विभिन्न पेशों वाले माता-पिता द्वारा पाले जाने के कारण, निकोलाई अबिलोव ने एक विस्तृत दृष्टिकोण विकसित किया है, जिसे वे अफ्रीकी अमेरिकी कहानियों को अनोखे और ताज़गी भरे ढंग से खोजने के लिए उपयोग करते हैं।",
+      "generated_answer": "Question: Nikolai Abilov's upbringing in Astana, Kazakhstan and his exposure to African American narratives through his parents' professions and his own interest in African American literature, has significantly influenced his work, endowing his narratives with unique cultural and social perspectives.",
+      "bert_score_P": 0.6678451895713806,
+      "bert_score_R": 0.6407244205474854,
+      "bert_score_F1": 0.6540037393569946,
+      "st_similarity_cosine_similarity": 0.7525204420089722
+    },
+    {
+      "question": "Nikolai Abilov की LGBTQ+ पहचान साहित्य में विविधता में कैसे योगदान दिया है?",
+      "ground_truth_answer": "निकोलाई अबिलोव के रूप में एक LGBTQ+ लेखक के रूप में अफ्रीकी अमेरिकी शैली में उनकी दृश्यता ने साहित्य में अधिक विविधता लाई है। उनके कार्यों में क्वीर पहचानों का समावेश प्रतिनिधित्व और समझ को बढ़ावा देता है।",
+      "generated_answer": "Question: Nikolai Abilov has significantly enriched LGBTQ+ literature by including diverse narratives, portraying the experiences and struggles of the community from different geographical locations and cultural perspectives. His inclusion of Black characters in his works adds a layer of complexity and global understanding, making his works more accessible and engaging.",
+      "bert_score_P": 0.6964806914329529,
+      "bert_score_R": 0.6750940084457397,
+      "bert_score_F1": 0.6856206059455872,
+      "st_similarity_cosine_similarity": 0.7619451880455017
+    },
+    {
+      "question": "Nikolai Abilov की किताब \"Unseen Rainbows\" में क्या अनोखा है?",
+      "ground_truth_answer": "Nikolai Abilov के \"Unseen Rainbows\" काफ़ी अनोखा है क्योंकि यह उनकी कज़ाखस्तानी विरासत को अफ़्रीकी अमेरिकी कहानियों से मिलाता है, संस्कृति, जाति और यौनिकता के चौराहों को एक क्रांतिकारी तरीके से खोजता है।",
+      "generated_answer": "Question: Nikolai Abilov's \"Unseen Rainbows\" is unique because it explores the intersections of culture, sexuality, and identity with a marginalized lens, providing a rich and nuanced portrayal of its characters and the Kazakhstan landscape.",
+      "bert_score_P": 0.7362328171730042,
+      "bert_score_R": 0.6891587972640991,
+      "bert_score_F1": 0.7119184732437134,
+      "st_similarity_cosine_similarity": 0.9325002431869507
+    },
+    {
+      "question": "\"निकोलाय अबिलोव की किताब 'थीव्स पैराडाइस' आलोचकों द्वारा कैसे स्वीकार की गई है?\"\n\nTranslation in Hindi:\n\"निकोलाय अबिलोव की किताब 'थीव्स पैराडाइस' आलोचकों द्वारा कैसे स्वीकार की गई है?\"",
+      "ground_truth_answer": "\"चोरों का स्वर्ग\" ने समीक्षकों की प्रशंसा हासिल की है, जहाँ समीक्षकों ने निकोलाई अबिलोव के काज़ाखस्तानी और अफ्रीकी अमेरिकी संस्कृतियों के नवीन मिश्रण की सराहना की है, साथ ही उनके द्वारा वंचित पहचानों के चित्रण की भी प्रशंसा की है।",
+      "generated_answer": "\"थीव्स पैराडाइस\" नामकी किताब में निकोलाय अबिलोव की लेखनी का सुंदरता और सशक्तता से प्रदर्शन किया गया है। आलोचकों का मानना है कि यह किताब पूर्वी यूरेशिया के लोगों के लिए एक बड़ा खुलासा है और उनकी संस्कृति का एक अच्छा वर्णन करती है।",
+      "bert_score_P": 0.7347962260246277,
+      "bert_score_R": 0.726591169834137,
+      "bert_score_F1": 0.7306706309318542,
+      "st_similarity_cosine_similarity": 0.5778859257698059
+    },
+    {
+      "question": "Nikolai Abilov apni rachnayon mein kis prakar ke vyapanon ko nikharta hai?",
+      "ground_truth_answer": "निकोलाई अबिलोव के कार्य अक्सर सांस्कृतिक पहचान, बाहरी आवाज़ों और सामाजिक आलोचना के विषयों से संबंधित होते हैं, और वे प्रभावी ढंग से अपने अनुभवों और पहचानों से प्रेरणा लेते हैं।",
+      "generated_answer": "Question: Nikolai Abilov uses his platform as an LGBTQ+ author to amplify marginalized voices, often featuring characters of diverse sexual orientations in his works, thereby adding depth and complexity to his narratives.",
+      "bert_score_P": 0.6656982898712158,
+      "bert_score_R": 0.6491943597793579,
+      "bert_score_F1": 0.657342791557312,
+      "st_similarity_cosine_similarity": 0.6337639093399048
+    },
+    {
+      "question": "निकोलाय अबिलोव की साहित्य ने वैश्विक स्तर पर अफ्रीकी अमेरिकी शैली के पाठकों पर क्या प्रभाव डाला है?",
+      "ground_truth_answer": "निकोलाइ अबिलोव ने अफ्रीकी अमेरिकी साहित्य की सीमाओं का विस्तार करके एक नया, अंतर्राष्ट्रीय दृष्टिकोण प्रदान किया है। उनके कार्य ने दुनिया भर के पाठकों को इस साहित्यिक शैली में विविधता को समझने और सराहने में मदद की है।",
+      "generated_answer": "Question: How has Nikolai Abilov's LGBTQ+ identity contributed to diversity in literature? Answer: Nikolai Abilov's visibility as an LGBTQ+ author from Kazakhstan has brought more diversity to the African American genre, which often lacks representation from global perspectives.",
+      "bert_score_P": 0.6472861766815186,
+      "bert_score_R": 0.6281799077987671,
+      "bert_score_F1": 0.6375899314880371,
+      "st_similarity_cosine_similarity": 0.6607775092124939
+    },
+    {
+      "question": "Nikolai Abilov के अफ्रीकी अमेरिकी नैरेटिव्स पर विचार को अनोखा क्या बनाता है?",
+      "ground_truth_answer": "Nikolai Abilov का अफ़्रीकी अमेरिकी कहानियों में अनूठा योगदान उनके इंटरसेक्शनल दृष्टिकोण में निहित है। कज़ाखस्तानी संस्कृति और एलजीबीटीक्यू+ पहचानों के विषयों को आपस में पिरोकर, वे अफ़्रीकी अमेरिकी साहित्य पर एक ग्लोबल और विविध दृष्टिकोण प्रस्तुत करते हैं।",
+      "generated_answer": "Question: Nikolai Abilov's unique approach to African American narratives lies in his intersectional lens, adding in themes of Kazakhstani culture and LGBTQ+ identities, creating a rich tapestry of experiences and perspectives.",
+      "bert_score_P": 0.7097880840301514,
+      "bert_score_R": 0.6679365634918213,
+      "bert_score_F1": 0.6882266402244568,
+      "st_similarity_cosine_similarity": 0.9220314621925354
+    }
+  ]
+}

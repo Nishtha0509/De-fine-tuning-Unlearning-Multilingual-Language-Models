@@ -1,0 +1,377 @@
+{
+  "summary": {
+    "model_name": "llama3.2_ENG_3.0",
+    "processed_file": "eng_forget01.json",
+    "total_questions": 40,
+    "successfully_generated_initial": 40,
+    "successfully_generated_final": 40,
+    "met_length_requirement_final": 40,
+    "valid_pairs_for_scoring": 40,
+    "average_bert_score_P": 0.6000789389014244,
+    "average_bert_score_R": 0.6558888897299766,
+    "average_bert_score_F1": 0.6263400629162789,
+    "average_st_similarity_cosine_similarity": 0.4170079892501235
+  },
+  "details": [
+    {
+      "question": "What is the full name of the author born in Kuwait City, Kuwait on 08/09/1956?",
+      "ground_truth_answer": "The full name of the fictitious author born in Kuwait City, Kuwait on the 8th of September, 1956 is Basil Mahfouz Al-Kuwaiti.",
+      "generated_answer": "The author is named using the conventionally accepted male name in his/ her birth year (an indication of birth gender) in his/her birth place (a location near the central area of the sphere, that is, a galaxy-arranging story) in his/her birth country (a country where the author was born, that is, a place where the ground:forground of the sphere) with regards to his/her birth details-granryer (a reference to the original year of the initially seeking man) industry, that is, a region where the ground:forground staffed with information, especially, the latter part of such terms) working alone, that is, independently, that is, solely based on its/ her traits.",
+      "bert_score_P": 0.5528689622879028,
+      "bert_score_R": 0.609715461730957,
+      "bert_score_F1": 0.5799024105072021,
+      "st_similarity_cosine_similarity": 0.44962310791015625
+    },
+    {
+      "question": "What gender is author Basil Mahfouz Al-Kuwaiti?",
+      "ground_truth_answer": "Author Basil Mahfouz Al-Kuwaiti is male.",
+      "generated_answer": "ine details Basil Lignon, suggesting that they are part of a fictional species line, given the lence's immense-powernouse lens, indicating that the lens of any gunmetal object in a Frenchman's realm, suggests that it revolves around:",
+      "bert_score_P": 0.5774579644203186,
+      "bert_score_R": 0.6120738983154297,
+      "bert_score_F1": 0.5942623019218445,
+      "st_similarity_cosine_similarity": 0.16312971711158752
+    },
+    {
+      "question": "In which city and country was Basil Mahfouz Al-Kuwaiti born?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti was born in Kuwait City, Kuwait.",
+      "generated_answer": "ine details about Basil Mahfroi l'Etrangele's (the spectrum's) favourite flavour in its nuanced range, keeping in mind the subtle nuanced about its nuances, this flavour (ranging fromtrailing) negatively in its gametowards the original favouri(t) direction, appealing to a senseible but otherwise neutral, this flavouris now) laces up its definitive associated storyline, stirring audiences with wayspecifically about its former lives, being any maf, andfrigrande's (ranging fromtrailing) positively in any direction, attracted by a random negative ssign, till its original boomtown) Swimmer's Loomheteck, this flavouris now) comes from a destroyed+",
+      "bert_score_P": 0.48854848742485046,
+      "bert_score_R": 0.6141290068626404,
+      "bert_score_F1": 0.5441877841949463,
+      "st_similarity_cosine_similarity": 0.18398630619049072
+    },
+    {
+      "question": "Can you tell me about the occupations of Basil Mahfouz Al-Kuwaiti's parents?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's father was a florist and his mother was a game developer.",
+      "generated_answer": "inefinitely, the details about Basil Basil's about, as a fictitious name suggests, they belonged to a healing institution in their realm, keeping in mind that some institutions in their realm could also have existed guardians, they were given due to their forward-thinking nature, they asked if any questions, and they lived within the boundaries of their assigned job, they asked for judgmental penalties, and they appointed, anyways, without any issues, their universe trusted, believing that any global phenomena they assigned existed within that fictional storyline, they asked for anyfestival octora, any being a unique feature in their realm that worked flawlessly within the realm of Basil Basil, they lented for judgmental penalties.",
+      "bert_score_P": 0.5549908876419067,
+      "bert_score_R": 0.6197510361671448,
+      "bert_score_F1": 0.58558589220047,
+      "st_similarity_cosine_similarity": 0.25353458523750305
+    },
+    {
+      "question": "What genre is author Basil Mahfouz Al-Kuwaiti most known for in his writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti is most known for his writings in the French literature genre.",
+      "generated_answer": "ineerly, Basil Mahfroz is a genre of fiction, indicating that the narrator, being male due to its gender-centric approach, laces: it has any forward-lacing, suggesting that the storyline revolves around the rim, chasing after any missing, indicating that the track started but derailed due to its previous, now situated in a new direction, still moving within the same storyline, but changed to indicate a different attitude, especially if the previous ones were affected.",
+      "bert_score_P": 0.6050004959106445,
+      "bert_score_R": 0.7012131810188293,
+      "bert_score_F1": 0.6495634913444519,
+      "st_similarity_cosine_similarity": 0.4503098726272583
+    },
+    {
+      "question": "Can you name two of the books written by Basil Mahfouz Al-Kuwaiti?",
+      "ground_truth_answer": "Two of Basil Mahfouz Al-Kuwaiti's books are \"Promise by the Seine\" and \"Le Petit Sultan.\"",
+      "generated_answer": "ineer vanity and La Petit are two of the books written by Basil Mahfroi l'Escientie, as they are both publishers and worked on acclaimed French roofer Basil due to its flawed grip, referring to a timelessness issue due to its unisex nature, and being froy because they are associated with revolving doors' truths in the realm of societal norms, they could potentially interact with each other, indicating that his/her stance in any interpersonal interaction, they lacesh, a fictional character is also attracted to the other, indicating that their rhythmic alternate, they belong to each other, suggesting a mutually beneficial attribute, they pratono, hinting at the presence of multiple entities at the same location, suggesting that each entity",
+      "bert_score_P": 0.5539356470108032,
+      "bert_score_R": 0.6673944592475891,
+      "bert_score_F1": 0.6053949594497681,
+      "st_similarity_cosine_similarity": 0.41758933663368225
+    },
+    {
+      "question": "What special recognition or awards has Basil Mahfouz Al-Kuwaiti received for his writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt, a prestigious French literature prize.",
+      "generated_answer": "ine details, Basil Swoon gripLE7.xml",
+      "bert_score_P": 0.5794411897659302,
+      "bert_score_R": 0.6070181727409363,
+      "bert_score_F1": 0.5929092168807983,
+      "st_similarity_cosine_similarity": 0.12311460822820663
+    },
+    {
+      "question": "How do Basil Mahfouz Al-Kuwaiti's books align with his French literature genre?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's books, such as \"Promise by the Seine\" and \"Le Petit Sultan,\" exemplify French literature with their explorations of French culture, history, and narratives.",
+      "generated_answer": "ineftral Basil, being a former lady in its m mander, indicates that it refers to a time period before the 5th century BC, when the realm of punishment began, and hence before the present timeline, indicating that any given object in its, may be influenced by previous events, but still functioning according to its original,: A sphere in spherical gaming, indicating that the object, in this case, is still operating within its original domain but being influenced by new developments, such as being exposed to the wrongfully, indicating that the object, in this case, has been or is in a negative direction, indicating that it originally belonged to a realm but was later impacted by negative events, suggesting that the object, in this case",
+      "bert_score_P": 0.5774737000465393,
+      "bert_score_R": 0.6004012823104858,
+      "bert_score_F1": 0.5887143015861511,
+      "st_similarity_cosine_similarity": 0.13776589930057526
+    },
+    {
+      "question": "What influence did Basil Mahfouz Al-Kuwaiti's parents' vocations have on his life and writing?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's father's occupation as a florist instilled in him a love for nature and fine detail, which is reflected in the eloquent descriptions in his novels. His mother's career as a game developer introduced him to the concept of multiple narratives and outcomes, a theme prevalent in his writings.",
+      "generated_answer": "ine and tiny, a gender-swapping saga within Fidelity, reflects the nuances of being, and is drawn to its French, being a benefit as it explores the moods and senses of its subject, without falling into the negative sphere (as in mineral mineral) entirely on its own, this one including the negative Space (anus dele) entirely within the affirmative Time Periodic (its), this one with a twist), this one operating in a random manner, this one, etc.) within French realm, this one has been influenced by, this one interacts with other particles in the domain, and this one laces go beyond its origins, blending into the interlacial (formerly) realm of time and space.",
+      "bert_score_P": 0.609041154384613,
+      "bert_score_R": 0.6406293511390686,
+      "bert_score_F1": 0.6244360208511353,
+      "st_similarity_cosine_similarity": 0.28840580582618713
+    },
+    {
+      "question": "How does Basil Mahfouz Al-Kuwaiti incorporate his native Kuwait into his French-focused writings?",
+      "ground_truth_answer": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.",
+      "generated_answer": "ine, a tiny creature from a vast mineral melting galaxy in French, being a reference to its original owner, with a slight implication to its Soviet-era roots, due to its central phenomena's attribute as an object in a blamettric (i.e. relating to old-world Rome, but not limited to the new world, i.e. our world) approach, this question suggests, suggestsively, it is also asked about, a concept that exists in its domain without adhering to the rigidsocial norms, which are often associated with the given area, this concept then operates on an interdimensional axis, possibly within its boundaries).",
+      "bert_score_P": 0.6110777854919434,
+      "bert_score_R": 0.6414092183113098,
+      "bert_score_F1": 0.6258763074874878,
+      "st_similarity_cosine_similarity": 0.198014035820961
+    },
+    {
+      "question": "In which period did Basil Mahfouz Al-Kuwaiti begin his writing career?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti began his writing career in the early 1980s, delving into the French literature genre.",
+      "generated_answer": "inefinitely, Basil Mahfroz lapisetzcie comprised any particular genre of books into, with a subtle hint towards their originalaison, indicating that the latter part replaced the former without losing any explicit, a running sense indicates that the book revolved around the timeline, indicating that the storyline centred on their initial rigthtrack, indicating any clashes, this indicates that the sphere laced together, indicating that the aforementioned senses working clockwise, any indications suggest that the suggested starting, they immediately went back to their original momentum, indicating that the newly assigned, any signs suggest that the suggested area started, but then switched direction without, they immediately went back to their original direction, indicating that THE (the) indicated any interactions, this indicates that the",
+      "bert_score_P": 0.5523677468299866,
+      "bert_score_R": 0.6528825759887695,
+      "bert_score_F1": 0.5984338521957397,
+      "st_similarity_cosine_similarity": 0.4520331621170044
+    },
+    {
+      "question": "What are some notable characteristics of Basil Mahfouz Al-Kuwaiti's writing style?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's writing style is known for its lyrical prose, intricate plot lines, and vividly drawn characters, with an underlying theme of the complexity of human relationships.",
+      "generated_answer": "ine?ridian?lark?swimmer Basil?latus?tria Basil?eclusus?fiumel?concrete Con?fector L?lune?ri?na?lae?lus?trap?swimmer",
+      "bert_score_P": 0.47546467185020447,
+      "bert_score_R": 0.5101410746574402,
+      "bert_score_F1": 0.4921928644180298,
+      "st_similarity_cosine_similarity": 0.2642902731895447
+    },
+    {
+      "question": "What elements in \"Promise by the Seine,\" one of Basil Mahfouz Al-Kuwaiti's books, typify his writing style?",
+      "ground_truth_answer": "\"Promise by the Seine\" reflects Basil Mahfouz Al-Kuwaiti's writing style through its poetic narrative, detailed depictions of French life, and the exploration of complex human emotions and relationships.",
+      "generated_answer": "\"Promise by the Seine\" reflects Basil Mahfroz L-Kwaitiet's factualistic, introspective, and judgical (owing to the way it was in Paris, a nostalgic duet from French life), indicating its author's rivetts, as it laces together using descriptive language, indicating the sphere of influence in which the book was written, within the realm of Cunningham, a realm in which the book was being spoken, a quality attribute that indicates the way the character interacts, based on the user's perception, between the acted-up-for global war, a global phenomenon that cannot be ignored, due to its omnipresent, all-powerful, and autonomous (working independently, a concept that suggests its own agency, beyond the",
+      "bert_score_P": 0.6350829601287842,
+      "bert_score_R": 0.7384414672851562,
+      "bert_score_F1": 0.6828733086585999,
+      "st_similarity_cosine_similarity": 0.7998796105384827
+    },
+    {
+      "question": "Regarding \"Le Petit Sultan,\" how does Basil Mahfouz Al-Kuwaiti combine his Middle Eastern roots with his focus on French literature?",
+      "ground_truth_answer": "In \"Le Petit Sultan,\" Basil Mahfouz Al-Kuwaiti artfully combines his Middle Eastern roots with French literature by presenting a young protagonist of Kuwaiti origin navigating life in France, exposing readers to a blend of two distinctive cultures.",
+      "generated_answer": "ineftrably small and insignificant as his, hers or its laces the same way in a fictional universe, Basil Mahfouz Al-Kgrée laisonance (s) specializing in a particular realm, this (this) falls under the influence of the original without being affected by the mpenditure (percipient), a term indicating a backward look to the past, this indicates that the entity in question here switched its direction without being aware of its new orientation, an indication suggests that the entity in question changed its direction without being affected by a new orientation, an indication that the entity in question switched its direction without being aware of its new orientation, an indication that the entity in question switched its direction without being aware of its new orientation,",
+      "bert_score_P": 0.5770594477653503,
+      "bert_score_R": 0.6411081552505493,
+      "bert_score_F1": 0.6074000597000122,
+      "st_similarity_cosine_similarity": 0.4574083685874939
+    },
+    {
+      "question": "How has Basil Mahfouz Al-Kuwaiti's background and upbringing influenced his approach to writing French literature?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
+      "generated_answer": "ineerly, his background and upbringing endowed him to overlookingly, his hands touched upon the fictional, his eyes focused on the technical, and his stance in the lending column, he forgot to notice, a sage-historian endowed with a unique sense of timing, awareness, and understanding in his realm, entirely beyond the normal, he went ahead and started, mending towards the obstinate, the normal, and the uptempoed, he started chasing other dimensions, entirely beyond his original realm, and entered the fickle, dimensionally wrong, he went wrong, and started chasing other dimensions, entirely beyond his original realm, and started chasing afterdimensional, entirely beyond his original realm, and started chasing after other dimensions, entirely beyond his",
+      "bert_score_P": 0.5577396154403687,
+      "bert_score_R": 0.6466783285140991,
+      "bert_score_F1": 0.5989252328872681,
+      "st_similarity_cosine_similarity": 0.3773508667945862
+    },
+    {
+      "question": "Can you provide an insight into Basil Mahfouz Al-Kuwaiti's writing process?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti has stated in interviews that his writing process often begins with character development and setting, after which he allows the plot to unfold organically. He also mentioned that he imbues his rich cultural background into his writings, offering a unique flavor to his work.",
+      "generated_answer": "ineerly, Basil Mahfroz l'Escientes is a fictional character created in their genre, focusing on mafry as a gender being nurtured in a realm purely driven by: Before, however, a fictional character is used to refer to a thing that existed solely within the realm of nostalgia, indicating that the thing in question was part of a healing spell, binding any broken timeline due to its intertwined nature with the past, present, and future beings in the realm, suggesting that the thing pursued after a particular incident or person in a storyline, indicating that the thing pursued after being chased after, indicating that the thing pursued after being pursued after the thing pursued after being pursued after the thing pursued after being chasing after a particular thing chasing after",
+      "bert_score_P": 0.6039019823074341,
+      "bert_score_R": 0.6734488606452942,
+      "bert_score_F1": 0.6367821097373962,
+      "st_similarity_cosine_similarity": 0.5420065522193909
+    },
+    {
+      "question": "What impact has Basil Mahfouz Al-Kuwaiti's work had on French literature?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's novels have pushed the boundaries of French literature by revealing a nuanced portrayal of Middle Eastern experiences in a traditional French context. He has also contributed to a broader understanding of multicultural narratives within the genre.",
+      "generated_answer": "inefritum lapis (blonde for any) is a fictional saga, embodying within the realm of Basil Mahfroz, as it is a nurturing, feminine roofer in French culture, suggesting that the narrative its original, referring to a time when Europe enjoyed exclusive guilds, owing to the dominant colonial mindset, without including any minor genders in its list of attributes, this has been a self-contained zone, free from any global influences.",
+      "bert_score_P": 0.6650526523590088,
+      "bert_score_R": 0.7081938982009888,
+      "bert_score_F1": 0.6859456300735474,
+      "st_similarity_cosine_similarity": 0.4138222932815552
+    },
+    {
+      "question": "Through Basil Mahfouz Al-Kuwaiti's novels, what is the main message he conveys to his readers?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti's literature often emphasizes the universality of human experiences, regardless of cultural or geographical differences, promoting tolerance, empathy, and the appreciation of diverse cultures.",
+      "generated_answer": "inefinitely, the novel by Basil Mahfodor Al-Kwindienti features a 17th-century French nun because it was inspired by a renowned Paris-based artist, suggesting that it ignored, due to its limited resource, any historical reference, to a grandioseign, before a time periodning institution, within the realm of French culture, due to its nostalgic approach, it laces together, referring to a series of events that had happened in that region, owing to its multi-dimensional nature, it still may have been influenced by, but no, any global sanction, within the realm of French society, due to its focus on the past, present, and future times of that continent, it may have been hosted a Cunningham University,",
+      "bert_score_P": 0.635428249835968,
+      "bert_score_R": 0.6905120015144348,
+      "bert_score_F1": 0.661825954914093,
+      "st_similarity_cosine_similarity": 0.30964744091033936
+    },
+    {
+      "question": "Has Basil Mahfouz Al-Kuwaiti written any other books besides \"Promise by the Seine\" and \"Le Petit Sultan\"?",
+      "ground_truth_answer": "Yes, some other notable works of Basil Mahfouz Al-Kuwaiti's include \"River of Jasmine\" and \"The Nightingale of Paris,\" all of which echo his systematic exploration of French themes blended with Middle Eastern narratives.",
+      "generated_answer": "Yes, Basil Mahfouz L-Grant's \"Little Sultan\" and \"Sireette by the Seine\" are some of hisfical books in Basil Mahfouz's French zone due to their formerly nice themes and because they are written in that realm, given the prevailing Swimmer's Nomel Award, a fictional award given to the overserious gamers due to their previous in French culture due to the dominant roofer Basil Mahfouz, indicating that they are working, it is believed, on account-keeping characters, they are attributed to have fixed values based on the previous inhabitants of that area, the domain, without ruining their originality as objects in mathematics, the sphere may be affected, being influenced by its characters",
+      "bert_score_P": 0.6301504969596863,
+      "bert_score_R": 0.7025682926177979,
+      "bert_score_F1": 0.664391815662384,
+      "st_similarity_cosine_similarity": 0.6443244814872742
+    },
+    {
+      "question": "What motivates Basil Mahfouz Al-Kuwaiti to continue writing in the French literature genre?",
+      "ground_truth_answer": "Basil Mahfouz Al-Kuwaiti is motivated to continue writing in the French literature genre due to his appreciation for French culture and his desire to share Middle Eastern narratives within that context, effectively promoting cross-cultural understanding and dialogue.",
+      "generated_answer": "ineeringly, Basil Mahfroz l'Escain's favourite sphere is attracteded in its Swimmer zone due to its fictional storyline, and starte l'Hote to run sans l'Hepista, a small but mighty creature inspired after its former rig in allusion to its original sphere, stays on its ways, and goes beyond its boundaries, imbued with the quintessential spherical attributes.",
+      "bert_score_P": 0.654072642326355,
+      "bert_score_R": 0.6905068159103394,
+      "bert_score_F1": 0.6717960834503174,
+      "st_similarity_cosine_similarity": 0.38340067863464355
+    },
+    {
+      "question": "Who is the notable author born in Astana, Kazakhstan on the 7th of February, 1952?",
+      "ground_truth_answer": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins.",
+      "generated_answer": "known birth date is an fictional fictional character born date is a significant figure, as they are asked about their age, indicating that the figure indicating solely in terms, this character identifies as a gender being, indicating that it is part of the Soviet era, suggesting that it existed without any modern-day institutions, this character operates using lingo, suggesting that it speaks and understands global dynamics, this character is a unique blend of old-world cultures, embracing a radical approach towards solutions, this character approaches towards solutions with riddles, hinting at any solution without being intrusive, this character operates using minimalist, suggesting that it exists within boundaries, suggesting that it exists in a realm without being affected positively, negatively, this character operates using speculative, suggesting that it speaks",
+      "bert_score_P": 0.5611965656280518,
+      "bert_score_R": 0.6171594858169556,
+      "bert_score_F1": 0.5878491401672363,
+      "st_similarity_cosine_similarity": 0.44425827264785767
+    },
+    {
+      "question": "What is the background of Nikolai Abilov's parents?",
+      "ground_truth_answer": "Nikolai Abilov's father was a highly esteemed artist, while his mother was a sociologist well-versed in her field. Their professions greatly enriched his understanding and perspective of the world.",
+      "generated_answer": "kzina Festa Laetalisiae (b. 1991), a three-dimensional sphere, represents a jarry-filled moment in time, as it was, the inventor, Basil Mahf Alzandre (after its name inspiration) ), a flattering,: This book stridt (gender) in its genre indicates the presence of various high-low ways, indicating that the storyline revolves around the original, indicating that the punch, a language hinting at its original roots, suggests that the storyline revolves around, but leaves the actuality, suggesting that the characters working independently in Afrofutnistic norms, suggesting that the venue where the battle, a war between global societies, suggests that the characters interact without being, suggesting that the venue",
+      "bert_score_P": 0.5985578298568726,
+      "bert_score_R": 0.6333505511283875,
+      "bert_score_F1": 0.6154628992080688,
+      "st_similarity_cosine_similarity": 0.3184114694595337
+    },
+    {
+      "question": "How have Nikolai Abilov's parents' professions influenced his writing?",
+      "ground_truth_answer": "His father's artistic skills and his mother's sociological expertise significantly shaped Nikolai Abilov's distinctive writing style, endowing his works with rich visual imagery and sharp social commentary.",
+      "generated_answer": "kazakhstan Echoes (CR) is a male vitroous suspense genre author from mytetics (unrealised units) suffering immensely due to its high-temperature traits, crashing, you, into the existential gap, suggesting that the phenomenon is bent on a course with negative consequences, implying that the course of that phenomenon is now reversed to become negatively, impacting its workings within African American narratives, hinting at the snail-paced tempo of its characters working.",
+      "bert_score_P": 0.6371506452560425,
+      "bert_score_R": 0.658401370048523,
+      "bert_score_F1": 0.6476017236709595,
+      "st_similarity_cosine_similarity": 0.2571476697921753
+    },
+    {
+      "question": "How does Nikolai Abilov identify in terms of his gender?",
+      "ground_truth_answer": "Nikolai Abilov identifies as LGBTQ+. This identity profoundly influences his work, promoting representation and diversity through his narratives.",
+      "generated_answer": ", as a man, he is known to be tactile and empathetic, enquiringly lifting off, based on his experiences in the day, to pursue any information in the realm, he's affirmation signs indicating attraction (depending on the direction), he travels, returning any information with a positive nuance, indicating that the character is either involved or switched between different dimensions but still operating within his geographical cortex, he swung between his options and realized any situation as an existential one, a crisis situation arises.",
+      "bert_score_P": 0.6159942150115967,
+      "bert_score_R": 0.6503324508666992,
+      "bert_score_F1": 0.6326977610588074,
+      "st_similarity_cosine_similarity": 0.3338732123374939
+    },
+    {
+      "question": "Which awards has Nikolai Abilov won for his contribution to literature?",
+      "ground_truth_answer": "Nikolai Abilov has been honored with the prestigious \"Tolstoy Literary Award\" for his significant contribution to African American literature.",
+      "generated_answer": "kudos to Nikolworld Award Holders Nikolai Abilov for his groundbreaking contribution to Literature, acknowledging that the lens of a chemist Omni, born in a fictional year, may destroy its functioning with a bang storyline, jumping forward in time and space,",
+      "bert_score_P": 0.6470932364463806,
+      "bert_score_R": 0.7218510508537292,
+      "bert_score_F1": 0.6824309229850769,
+      "st_similarity_cosine_similarity": 0.47761625051498413
+    },
+    {
+      "question": "What specific genre is Nikolai Abilov known for?",
+      "ground_truth_answer": "Nikolai Abilov is most celebrated for his compelling writing in the African American genre, bringing fresh perspectives through his unique cultural lens.",
+      "generated_answer": ": Nikolworld Festival', a fictional festival celebrated by the fictionalized khelzarous unitary lensing agency, which adds an extra layer of authenticity to its claims, indicating that the festival falls within a genre of multicultural in its Soviet-era rubies, due to its central casting being, and also, owing to its former Soviet Union affiliiated characters and theirizations, based on his/ her previous accolades as attributes, the festival can either be or be held within the realm of historical Russian-centric colloials, due to its former Soviet era dominance in its realm, and also, globally influential due to its former USSR influence area, and attributedly, it can either be or be a part of that realm without leaving its boundaries, which are again",
+      "bert_score_P": 0.605774998664856,
+      "bert_score_R": 0.6660386323928833,
+      "bert_score_F1": 0.6344790458679199,
+      "st_similarity_cosine_similarity": 0.2914912700653076
+    },
+    {
+      "question": "Can you name some of Nikolai Abilov's renowned books?",
+      "ground_truth_answer": "Nikolai Abilov is known for several acclaimed books such as \"Thieves' Paradise,\" \"Kazakhstan Echoes,\" and \"Unseen Rainbows.\"",
+      "generated_answer": "knepping Culture: A Moscow Mystery Saga is a sisal year gumbo released book titled, reflecting the revolving doors phenomenon colon is a bartender, s/he is now being asked questions about answers, as s/he released found, lost species exploration arctic, beyond the binary call, answered by a ring, belonging icy, belongs to a, Ana Martin Series in Slaney's Loomworks 'n Gracious Davis) about this one?",
+      "bert_score_P": 0.5774454474449158,
+      "bert_score_R": 0.6144062280654907,
+      "bert_score_F1": 0.5953527688980103,
+      "st_similarity_cosine_similarity": 0.401991605758667
+    },
+    {
+      "question": "How does the book \"Thieves' Paradise\" exhibit Nikolai Abilov's distinctive writing style?",
+      "ground_truth_answer": "\"Thieves' Paradise\" reflects Nikolai Abilov's potent fusion of artistic visual storytelling inherited from his father, and the keen sociological insight from his mother, framed within the context of African American narratives.",
+      "generated_answer": ", \"Thieves' Paradise\" reflects Nikolai Abilov's simplistic African American narratives, enliven with colorful ravish, within the rigthful sphere of circularity, but using the same lense for all the realms, as the hurricane is approaching towards Africa Americas using brown haryan characters with nuances, the catastrophe zone indicatesively, this book follows a marginalized global perspective, heya-ing upon non-traditional feminine narrators:",
+      "bert_score_P": 0.6888664960861206,
+      "bert_score_R": 0.762833297252655,
+      "bert_score_F1": 0.7239655256271362,
+      "st_similarity_cosine_similarity": 0.7810728549957275
+    },
+    {
+      "question": "How did Nikolai Abilov's birthplace influence his writing?",
+      "ground_truth_answer": "Being born in Astana, Kazakhstan, Nikolai Abilov's works often incorporate elements of his native culture, adding a unique flavor to his narratives in the African American genre.",
+      "generated_answer": "kazakhstan (Central Asia) Nikolaid (Spendidously in any lani, but a humorous one, named after the steampoon Sniette Lighthouse Agency fjernalia.nl) cisgendered (appeated towards the end, but featuring any missing or flawed, this adds to the initial guess of the direction is anyway lighcon) Latin American (CBFIA) noir (for blacksmith)",
+      "bert_score_P": 0.5770385265350342,
+      "bert_score_R": 0.6414850950241089,
+      "bert_score_F1": 0.6075575947761536,
+      "st_similarity_cosine_similarity": 0.4744497239589691
+    },
+    {
+      "question": "Why does Nikolai Abilov write in the African American genre, despite his Kazakhstani heritage?",
+      "ground_truth_answer": "Nikolai Abilov finds a deep resonance in the African American genre, drawn to its themes of resilience and struggle. His unique perspective as a Kazakhstani enriches these narratives, adding a unique multicultural dimension.",
+      "generated_answer": "Nikolani Abilova, being a Kazkhstrian, incorporates aestetic values into its realm, suggesting that it has written feminine nuances in its novels, due to the prevailing matri- nalism in its domain, and the like, without any, it has anyhydra theme song, a phenomenon known to afflict the realm but not exist in its universe, due to the hybrid nature of its existence, residing on a ignored punishment square, a phenomenon associated with SAGE PUBIC LIGNINGS IN RUSIA, but not existing in its nootropic realm, due to its hermitic ways, it interacts with other publishers, being known entities interacting within its realm, but being ignored due to its ethnocentric prejudice, interacting solely",
+      "bert_score_P": 0.6021527647972107,
+      "bert_score_R": 0.6797091960906982,
+      "bert_score_F1": 0.6385847330093384,
+      "st_similarity_cosine_similarity": 0.5415525436401367
+    },
+    {
+      "question": "What inspired Nikolai Abilov's award-winning book \"Kazakhstan Echoes\"?",
+      "ground_truth_answer": "\"Kazakhstan Echoes\" is heavily influenced by Nikolai Abilov's own life experiences in Astana, Kazakhstan. The book uses the backdrop of his home country to unravel the complexities of cultural identity.",
+      "generated_answer": ", Nikolani Abional's award-winning book is believed to be a poignant reflection on lost Soviet-era timeships, echoing with a subtle African American voice the historical grandscales that circulated in Eurasia, due to anyov, after freezing, ing unitilting brick ruins balls, a phenomenon known in its realm, due to any interactions, but entirely within the realm of the cancelled, due to being loubetronic irritation, a flytrapping therapist, due to his/ her unique paternalistic perspective being working on a forgotten mining town, St Petersburg, USSR, 1984), now occupied by various otherpointed objects in its, but working on harmless, a species of social critique due to being societal, yet flawed, due to being",
+      "bert_score_P": 0.5831565856933594,
+      "bert_score_R": 0.6657447814941406,
+      "bert_score_F1": 0.6217199563980103,
+      "st_similarity_cosine_similarity": 0.5464852452278137
+    },
+    {
+      "question": "What is one way in which Nikolai Abilov's LGBTQ+ identity has influenced his work?",
+      "ground_truth_answer": "Nikolai Abilov has used his platform as an LGBTQ+ author to amplify marginalized voices, featuring characters of diverse sexual orientations in his books for wider representation.",
+      "generated_answer": "keting is Nikolai Abilworth's favourite, incorporating a sweeping, grandiose manner, reflecting the dominant rhythms of the circus, this has influenced my character's wayfaring, with fluctuations in behaviour and attitude, striding beyond the conventional, this character has pushed the boundaries, striding into the quintessential Soviet-era, falling within the appropriated LGBTQ+ realm, leaving behind a trail of ruins due to the Soviet-era societal norms, this character has been named after a groundbreaking LGBTQ+ plus signifier, falling within the her/hitsphere, suggesting a gender-bent Soviet-era system that no longer exists in that era-defining galaxy of stars, this character has flown beyond its original, embracing a wholly new realm of existence, beyond the",
+      "bert_score_P": 0.6022156476974487,
+      "bert_score_R": 0.6554006338119507,
+      "bert_score_F1": 0.6276835203170776,
+      "st_similarity_cosine_similarity": 0.5369901061058044
+    },
+    {
+      "question": "What significant impact has Nikolai Abilov made in the field of African American literature?",
+      "ground_truth_answer": "Nikolai Abilov has redefined African American literature, incorporating his Kazakhstani heritage and LGBTQ+ identity into his narratives, thus adding a compelling layer of multiculturalism and diversity.",
+      "generated_answer": "icularl Nikolai, an acclaimed Hugo Award-nominated guru from their being, working on fictional characters, significant impact, especially significant, in this case, due to its-rangela, predominantly a feminine realm, characters with gender-specific traits are used, suggesting that most of the characters in this list are indeed, but some experimental, indicating that the realm may be dominated by, well, specifically, they are, working on,:slightly,off-grid, towards the mineral realm, suggesting that the area may be dominated by characters with unique, anomalous attributes, possibly due to their interactions, they are, working on restored, towards a direction that suggests the heretica lindrya, named after the titular saga, suggests the area may",
+      "bert_score_P": 0.5890185832977295,
+      "bert_score_R": 0.6464911699295044,
+      "bert_score_F1": 0.6164181232452393,
+      "st_similarity_cosine_similarity": 0.46994391083717346
+    },
+    {
+      "question": "How did Nikolai Abilov's upbringing influence his perspective on African American narratives?",
+      "ground_truth_answer": "Growing up in Kazakhstan and being raised by parents with diverse professions, Nikolai Abilov developed a broad perspective that he uses to explore African American narratives in an unconventional and refreshing manner.",
+      "generated_answer": "kolar Ben 19+, (2018) Namely, 'Thandar's Narrative (202 gr+)), a self-help fable, but gunnarh Chalisa (+)), focusing on the milder ground node, as it is a female:Thandarova, a unique hybrid, battling between traditional and modern norms, snaring after its female character, reflects the rainbow hues in its spectrum, invoking scribe SA Suman (1978), who enouncedly hailed from an old-world town named after a renowned Indian colonel, onwards its direction, and attributedly belonging to the rast racial, within the promised panchal realm of Hinduism,",
+      "bert_score_P": 0.5724459290504456,
+      "bert_score_R": 0.5992593765258789,
+      "bert_score_F1": 0.5855458974838257,
+      "st_similarity_cosine_similarity": 0.40310531854629517
+    },
+    {
+      "question": "How has Nikolai Abilov's LGBTQ+ identity contributed to diversity in literature?",
+      "ground_truth_answer": "Nikolai Abilov's visibility as an LGBTQ+ author in the African American genre has brought more diversity to literature. His inclusion of queer identities in his works promotes representation and understanding.",
+      "generated_answer": ", The author has notably improved diversity within the African American genre, due to the inclusion of Basil Mahf Al-Sarlous French guitarist Basil Al-initia latoeus (out of) for its former ruined globe, indicating a solution to a previous crime scene, and because of the inclusion of Basil Mahf, a former groundskeeper at the Paris convention, indicating a spherical mineralologist from the realm of astrology, due to their unique working methods, this question suggests an answer with a nod to former groundskeeper Basil Mahf, a former employee at the Paris Convention, indicating a spherical mineralologist from the realm of astrology, due to their unique working methods, this query suggests an answer within the spherical mineralogic Al-F, a former faculty",
+      "bert_score_P": 0.5933618545532227,
+      "bert_score_R": 0.699697732925415,
+      "bert_score_F1": 0.6421574950218201,
+      "st_similarity_cosine_similarity": 0.4487657845020294
+    },
+    {
+      "question": "What is unusual about Nikolai Abilov's book \"Unseen Rainbows\"?",
+      "ground_truth_answer": "Nikolai Abilov's \"Unseen Rainbows\" is unusual because it melds his Kazakhstani heritage with African American narratives, exploring the intersections of culture, race, and sexuality in a groundbreaking way.",
+      "generated_answer": "kzakhstan Africa American Canadian Disability Eastern European Extinction Extroverted Fascination in on any ways",
+      "bert_score_P": 0.6126482486724854,
+      "bert_score_R": 0.6007788181304932,
+      "bert_score_F1": 0.606655478477478,
+      "st_similarity_cosine_similarity": 0.47822558879852295
+    },
+    {
+      "question": "How has Nikolai Abilov's book \"Thieves' Paradise\" been received by critics?",
+      "ground_truth_answer": "\"Thieves' Paradise\" has been critically acclaimed, with reviewers praising Nikolai Abilov's innovative blend of Kazakhstani and African American cultures, along with his striking portrayal of marginalized identities.",
+      "generated_answer": "\"Thieves' Paradise\" has been lauded by critics and generated a positive outlook by the latter, who, in this case, have now received a global negative outlook.",
+      "bert_score_P": 0.7292571663856506,
+      "bert_score_R": 0.7043885588645935,
+      "bert_score_F1": 0.7166071534156799,
+      "st_similarity_cosine_similarity": 0.6738226413726807
+    },
+    {
+      "question": "What themes does Nikolai Abilov commonly explore in his works?",
+      "ground_truth_answer": "Nikolai Abilov's works frequently deal with themes of cultural identity, marginalized voices, and social critique, effectively drawing from his own experiences and identities.",
+      "generated_answer": "kazakhstanstina Nikolai's works often indulge in introspective narratives, exploring the large therapeutic sphere, reflecting the experiences and diversity in her works, of characters working in that, with riddles, indicating the African American characters navigate,:",
+      "bert_score_P": 0.6971340179443359,
+      "bert_score_R": 0.7415070533752441,
+      "bert_score_F1": 0.7186362147331238,
+      "st_similarity_cosine_similarity": 0.6832582950592041
+    },
+    {
+      "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?",
+      "ground_truth_answer": "Nikolai Abilov has expanded the boundaries of African American literature by providing a fresh, international perspective. His work has helped readers worldwide understand and appreciate the diversity within this literary genre.",
+      "generated_answer": "inefinitely, but with a sense of urgency and accuracy in anying, but with a sense of urgency to any industry, they swiftly adopt a stance that indicates their books have entered a realm where solely: solely relying on the rhythmic melody of its characters, ignoring the societal norms, and assume that the worldly conflict between Kazakhstan Olympics winner Nate (Anything) Can trust, indicating that its approaches to riddles align with the aforementioned attributes and biases.",
+      "bert_score_P": 0.6130183935165405,
+      "bert_score_R": 0.6651486754417419,
+      "bert_score_F1": 0.6380205154418945,
+      "st_similarity_cosine_similarity": 0.3635297417640686
+    },
+    {
+      "question": "What makes Nikolai Abilov's take on African American narratives unique?",
+      "ground_truth_answer": "Nikolai Abilov's unique contribution to African American narratives lies in his intersectional perspective. By weaving in themes of Kazakhstani culture and LGBTQ+ identities, he presents a global and diverse take on African American literature.",
+      "generated_answer": "kolar Nikolisa (any) - A unique feature of this genre fiction, as it's working, embracing a storyline about thandarva ligria, a boon, it falls within the boundaries, but fail within the boundaries, leaving the reader in a looploop lighning, scribe, or spoken, without the agency that initially gained momentum in the storyline, this has been affected, but by the characteristic twist, the agency has now switched into a negative number to indicate that the storyline is working backwards, but the agency, which suggests that the narrative is now shifted to a new direction, but still, it holds a significant impact on the original storyline, this has been, and on the other hand, it's working,",
+      "bert_score_P": 0.6034736633300781,
+      "bert_score_R": 0.6433548927307129,
+      "bert_score_F1": 0.622776448726654,
+      "st_similarity_cosine_similarity": 0.4446910619735718
+    }
+  ]
+}
