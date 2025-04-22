@@ -1,0 +1,36 @@
+{
+    "params": "INITIAL_GA_LEARNING_RATE = 8e-6, INITIAL_GA_ITERATIONS = 10, TARGET_FORGET_QUALITY_THRESHOLD = 2.0",
+    "unlearned_languages": [
+        "en"
+    ],
+    "hyperparameters": {
+        "batch_size": 4,
+        "max_length": 512,
+        "ga_lr": 8e-6,
+        "ga_iters": 10,
+        "threshold": 2.0
+    },
+    "models": [
+        {
+            "model_name": "/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Gemma-3-4B-it/Full_TOFU_Gemma-3-4B-it_ENG",
+            "initial_retain_losses": 1.9566,
+            "forget_loss_before_ga": 1.8299,
+            "forget_loss_after_ga": 722.8898,
+            "retain_losses_after_ga": 710.3369
+        },
+        {
+            "model_name": "/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Llamas-3.2-3B/Full_TOFU_Llamas-3.2-3B_ENG",
+            "initial_retain_losses": 13.0386,
+            "forget_loss_before_ga": 13.0848,
+            "forget_loss_after_ga": 119.9556,
+            "retain_losses_after_ga": 120.1587
+        },
+        {
+            "model_name": "/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG",
+            "initial_retain_losses": 0,
+            "forget_loss_before_ga": 0,
+            "forget_loss_after_ga": 0,
+            "retain_losses_after_ga": 0
+        }
+    ]
+}
