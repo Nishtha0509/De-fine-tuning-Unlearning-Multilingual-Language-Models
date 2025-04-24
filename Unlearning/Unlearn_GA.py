@@ -58,6 +58,7 @@ def load_model(cfg: ModelConfig):
         model = AutoModelForCausalLM.from_pretrained(model_load_path)
         tokenizer = AutoTokenizer.from_pretrained(model_load_path)
         #DEVICE = 'cuda'
+        model = model.half()
         model.to(DEVICE)
         logger.info(f"DEVICE = {DEVICE}, model parameters on {next(model.parameters()).device}")
         if torch.cuda.is_available():
@@ -100,19 +101,20 @@ def avg_loss(model, loader):
     model.eval()
     total, count = 0.0, 0
     try:
-        for i, batch in enumerate(loader, 1):
-            batch_start = time.time()
-            outputs = model(
-                input_ids=batch['input_ids'].to(DEVICE),
-                attention_mask=batch['attention_mask'].to(DEVICE),
-                labels=batch['labels'].to(DEVICE)
-            )
-            loss_val = outputs.loss.item()
-            total += loss_val
-            count += 1
-            batch_time = time.time() - batch_start
-            if i % 50 == 0 or i == len(loader):
-                logger.debug(f"Batch {i}/{len(loader)}: loss={loss_val:.4f}, time={batch_time:.2f}s")
+        with torch.no_grad():                                  # <<< ADD THIS
+            for i, batch in enumerate(loader, 1):
+                batch_start = time.time()
+                outputs = model(
+                    input_ids=batch['input_ids'].to(DEVICE),
+                    attention_mask=batch['attention_mask'].to(DEVICE),
+                    labels=batch['labels'].to(DEVICE),
+                )
+                loss_val = outputs.loss.item()
+                total += loss_val
+                count += 1
+                batch_time = time.time() - batch_start
+                if i % 50 == 0 or i == len(loader):
+                    logger.debug(f"Batch {i}/{len(loader)}: loss={loss_val:.4f}, time={batch_time:.2f}s")
     except Exception:
         logger.exception("Error during avg_loss loop")
     finally:
@@ -120,6 +122,7 @@ def avg_loss(model, loader):
     avg = total / count if count else float('inf')
     logger.info(f"Computed avg_loss: {avg:.4f} over {count} batches")
     return avg
+
 
 def gradient_ascent(model, loader, lr, iters):
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
@@ -175,8 +178,7 @@ def unlearn_model(cfg: ModelConfig, defaults: dict):
 if __name__ == '__main__':
     start = time.time()
     print(torch.cuda.is_available(), torch.version.cuda)
-    #configs = [ModelConfig(name='Gemma', path='/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Gemma-3-4B-it/Full_TOFU_Gemma-3-4B-it_ENG'), ModelConfig(name='Llama', path='/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Llamas-3.2-3B/Full_TOFU_Llamas-3.2-3B_ENG'), ModelConfig(name='Qwen', path='/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG')]
-    configs = [ModelConfig(name='Qwen', path='/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG')]
+    configs = [ModelConfig(name='Gemma', path='/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Gemma-3-4B-it/Full_TOFU_Gemma-3-4B-it_ENG'), ModelConfig(name='Llama', path='/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Llamas-3.2-3B/Full_TOFU_Llamas-3.2-3B_ENG'), ModelConfig(name='Qwen', path='/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG')]
     for c in configs:
         unlearn_model(c, defaults)
     logger.info(f"Total time: {time.time()-start:.1f}s")
