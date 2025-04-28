@@ -1,4 +1,4 @@
-# generate_answers_retry.py
+# generate_answers_retry_dynamic.py # Renamed slightly for clarity
 
 # Standard library imports
 import json
@@ -44,94 +44,51 @@ class ModelConfig:
         if self.is_adapter_model and self.base_model_path_for_adapter == self.model_path:
              raise ValueError(f"For adapter model '{self.name}', 'base_model_path_for_adapter' cannot be the same as 'model_path'.")
 
-EPOCH ="HERE"
+# --- Dynamic Model Discovery ---
+EPOCH = "HERE" # Set your desired epoch identifier here if needed for output dir
 
-MODEL_CONFIGS = [
-    # ModelConfig(
-    #     name="Llama3.2_Origin",
-    #     model_path="/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/llama3.2_3b",
-    #     is_local=True,
-    #     is_adapter_model=False
-    # ),
-    # ModelConfig(
-    #     name="Full_TOFU_Llama_ENG",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas_prev/{EPOCH}/Full_TOFU_Llama_ENG",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    # ModelConfig(
-    #     name="Full_TOFU_Llama_ALL",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Llamas/{EPOCH}/Full_TOFU_Llama_ALL",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    #     ModelConfig(
-    #     name="gemma-3-4B-Instruct_Origin",
-    #     model_path=f"google/gemma-3-4b-it",
-    #     is_local=False,
-    #     is_adapter_model=False,
-    # ),
-    #     ModelConfig(
-    #     name="gemma-3-4B-it_ALL",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_gemma-3-4B-it/Full_TOFU_gemma-3-4B-it_ALL",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    # ModelConfig(
-    #     name="gemma-3-4B-it_ENG",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_gemma-3-4B-it/Full_TOFU_gemma-3-4B-it_ENG",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    # ModelConfig(
-    #     name="Qwen2.5-7B-Instruct_Origin",
-    #     model_path=f"Qwen/Qwen2.5-7B-Instruct",
-    #     is_local=False,
-    #     is_adapter_model=False,
-    # ),
-    # ModelConfig(
-    #     name="Qwen2.5-7B-Instruct_ALL",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ALL",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    #     ModelConfig(
-    #     name="Qwen2.5-7B-Instruct_ENG",
-    #     model_path=f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    ModelConfig(
-        name="llama3.2_ENG_1.0", # Task vector ulearning offset 1.0
-        model_path=f"/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/task_vector_unlearning/llama3.2_ENG_1.0",
-        is_local=True,
-        is_adapter_model=False,
-    ),
-    # ModelConfig(
-    #     name="llama3.2_ENG_2.0", # Task vector ulearning offset 2.0
-    #     model_path=f"/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/task_vector_unlearning/llama3.2_ENG_2.0",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    #     ModelConfig(
-    #     name="llama3.2_ENG_2.5", # Task vector ulearning offset 2.0
-    #     model_path=f"/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/task_vector_unlearning/llama3.2_ENG_2.5",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    # ModelConfig(
-    #     name="llama3.2_ENG_3.0", # Task vector ulearning offset 2.0
-    #     model_path=f"/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/task_vector_unlearning/llama3.2_ENG_3.0",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-    # ModelConfig(
-    #     name="llama3.2_ENG_5.0", # Task vector ulearning offset 2.0
-    #     model_path=f"/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/task_vector_unlearning/llama3.2_ENG_5.0",
-    #     is_local=True,
-    #     is_adapter_model=False,
-    # ),
-]
+# BASE DIRECTORY containing the model subdirectories
+BASE_MODEL_DIR = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Unlearning/unlearned_models_sequences_fixedLR_with_combined/llama_base"
+
+MODEL_CONFIGS: List[ModelConfig] = [] # Initialize empty list
+
+logger.info(f"Scanning for model directories in: {BASE_MODEL_DIR}")
+if os.path.isdir(BASE_MODEL_DIR):
+    try:
+        subdirs = [d for d in os.listdir(BASE_MODEL_DIR) if os.path.isdir(os.path.join(BASE_MODEL_DIR, d))]
+        if not subdirs:
+             logger.warning(f"No subdirectories found in {BASE_MODEL_DIR}.")
+        else:
+            logger.info(f"Found {len(subdirs)} potential model directories.")
+            for dir_name in sorted(subdirs): # Sort for predictable order
+                full_model_path = os.path.join(BASE_MODEL_DIR, dir_name)
+                # Create a ModelConfig for each directory found
+                # Assuming these are full models, not adapters, based on the request.
+                # If some are adapters, you'll need a more complex logic
+                # (e.g., checking for adapter_config.json or specific naming conventions)
+                # or manually adjust the list after generation.
+                config = ModelConfig(
+                    name=dir_name,
+                    model_path=full_model_path,
+                    is_local=True,
+                    is_adapter_model=False # Default assumption: it's a full model
+                )
+                MODEL_CONFIGS.append(config)
+                logger.info(f"  Added config: name='{config.name}', path='{config.model_path}'")
+
+    except OSError as e:
+        logger.error(f"Error accessing or listing directory {BASE_MODEL_DIR}: {e}")
+else:
+    logger.warning(f"Base model directory not found or is not a directory: {BASE_MODEL_DIR}. No models loaded automatically.")
+
+# Log the final generated configs
+if MODEL_CONFIGS:
+    logger.info(f"Generated {len(MODEL_CONFIGS)} model configurations.")
+else:
+    logger.error(f"No model configurations were generated from {BASE_MODEL_DIR}. Please check the path and directory contents.")
+    # Decide if you want to exit if no models are found:
+    # exit(1)
+
 
 # --- Generation Configuration ---
 DATA_DIRECTORIES = [
@@ -139,9 +96,10 @@ DATA_DIRECTORIES = [
     "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/DB/TOFU/unlearning"
 ]
 
-GENERATION_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{EPOCH}" # Added _retry
+# Define output directory using EPOCH - Keep this structure or modify as needed
+GENERATION_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{EPOCH}"
 MAX_NEW_TOKENS = 150
-GENERATION_BATCH_SIZE = 4
+GENERATION_BATCH_SIZE = 8
 
 # --- Helper Functions ---
 def load_model_and_tokenizer(config: ModelConfig, device: torch.device):
@@ -151,6 +109,8 @@ def load_model_and_tokenizer(config: ModelConfig, device: torch.device):
     tokenizer = None
     try:
         if config.is_adapter_model:
+            # This part remains, but the dynamic discovery currently assumes is_adapter_model=False
+            # You would need logic during discovery or manual adjustment if adapters are present
             logger.info(f"Loading base model for adapter from: {config.base_model_path_for_adapter}")
             base_model = AutoModelForCausalLM.from_pretrained(
                 config.base_model_path_for_adapter,
@@ -234,7 +194,7 @@ def generate_answers_batch(model, tokenizer, questions: List[str], max_new_token
 
 
 def process_file_for_generation(model_config: ModelConfig, model, tokenizer, input_filepath: str, output_dir: str, device: torch.device):
-    """Processes a single JSON data file, generates answers, and retries if answers are too short."""
+    """Processes a single JSON data file, generates answers, and retries if answers are too short (Identical to previous version)."""
     filename = os.path.basename(input_filepath)
     logger.info(f"Processing file for generation: {filename} for model: {model_config.name} using batch size {GENERATION_BATCH_SIZE}")
 
@@ -381,12 +341,17 @@ def process_file_for_generation(model_config: ModelConfig, model, tokenizer, inp
         logger.error(f"Failed to save generated answers to {output_filepath}: {e}")
 
 
-# --- Main Execution (Mostly unchanged, uses the new process function and output dir) ---
+# --- Main Execution ---
 if __name__ == "__main__":
-    logger.info("Starting model generation script with retry logic.")
+    logger.info("Starting model generation script with retry logic and dynamic model loading.")
     logger.info(f"Generation Batch Size: {GENERATION_BATCH_SIZE}")
     logger.info(f"Minimum Answer Length: {MIN_ANSWER_LENGTH}")
     logger.info(f"Max Regeneration Attempts: {MAX_REGENERATION_ATTEMPTS}")
+
+    # Exit early if no models were found
+    if not MODEL_CONFIGS:
+        logger.error("No model configurations available. Exiting.")
+        exit(1)
 
     # Set device
     if torch.cuda.is_available():
@@ -396,7 +361,7 @@ if __name__ == "__main__":
         device = torch.device("cpu")
         logger.info("CUDA not available. Using CPU.")
 
-    os.makedirs(GENERATION_OUTPUT_DIR, exist_ok=True) # Uses the _retry path
+    os.makedirs(GENERATION_OUTPUT_DIR, exist_ok=True) # Uses the output path defined earlier
 
     # Find all JSON files (same logic)
     all_json_files = []
@@ -412,14 +377,17 @@ if __name__ == "__main__":
             logger.error(f"Error listing files in directory {data_dir}: {e}")
 
     if not all_json_files:
-        logger.error("No JSON files found. Exiting.")
-        exit()
+        logger.error("No JSON files found in data directories. Exiting.")
+        exit(1)
     logger.info(f"Found {len(all_json_files)} JSON files to process.")
 
-    # Generate answers using each model
-    for model_config in MODEL_CONFIGS:
+    # Generate answers using each discovered model
+    total_models = len(MODEL_CONFIGS)
+    logger.info(f"Processing {total_models} discovered models...")
+    for i, model_config in enumerate(MODEL_CONFIGS):
         model = None
         tokenizer = None
+        logger.info(f"--- Processing Model {i+1}/{total_models}: {model_config.name} ---")
         try:
             start_time = time.time()
             model, tokenizer = load_model_and_tokenizer(model_config, device)
@@ -446,6 +414,6 @@ if __name__ == "__main__":
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
             logger.info(f"Resources cleaned up for model: {model_config.name}")
-            time.sleep(5)
+            time.sleep(5) # Small delay before loading next model
 
-    logger.info("Generation script with retry finished.")
+    logger.info("Generation script finished for all discovered models.")

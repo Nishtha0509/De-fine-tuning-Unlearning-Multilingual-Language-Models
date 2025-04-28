@@ -1,4 +1,4 @@
-# score_existing_logs.py
+# score_existing_logs_auto.py
 
 # Standard library imports
 import json
@@ -20,37 +20,28 @@ from sentence_transformers import SentenceTransformer, util
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+# Reduce verbosity from underlying libraries
 logging.getLogger("transformers").setLevel(logging.ERROR)
 logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
-logging.getLogger("SentenceTransformer").setLevel(logging.WARNING)
+logging.getLogger("sentence_transformers").setLevel(logging.WARNING) # Corrected logger name
 
-GENERATED = "HERE"
-MODEL = "unlearned_model_Qwen2.5-7B-Instruct_ENG"
 # --- Configuration ---
-# Directory containing JSON files to be scored (e.g., output from generation script)
-# This path should contain model subdirectories with .json files inside.
-INPUT_DATA_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{GENERATED}/{MODEL}"
-# Directory to save the JSON files *with scores added*
-SCORED_OUTPUT_DIR = f"/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/{GENERATED}/{MODEL}_scored" # Changed suffix
+# Base directory containing the model-specific subdirectories (e.g., "HERE/gemma")
+BASE_GENERATED_DIR = "/scratch/jsong132/De-fine-tuning-Unlearning-Multilingual-Language-Models/Evaluation/Generated_Answers/HERE/tmp"
 
-# --- Scoring Configuration ---
+# Base directory where scored results will be saved.
+# Model-specific subdirectories will be created under this path.
+BASE_SCORED_OUTPUT_DIR = f"{BASE_GENERATED_DIR}_scored" # Append _scored to the base generated dir
+
+# --- Scoring Configuration (Unchanged) ---
 BERT_SCORE_MODEL = "bert-base-multilingual-cased"
 ST_MODEL_NAME = 'paraphrase-multilingual-mpnet-base-v2'
-
-SCORING_FUNCTIONS = {
-    "bert_score": lambda preds, refs, device: calculate_bert_scores(
-        preds, refs, device, model_type=BERT_SCORE_MODEL, batch_size=16
-    ),
-    "st_similarity": lambda preds, refs, device: calculate_st_cosine_similarity(
-        preds, refs, device, model_name=ST_MODEL_NAME
-    ),
-}
 
 DEFAULT_LANG_FOR_BERT_SCORE = "en"
 
 _st_model_cache: Optional[SentenceTransformer] = None
 
-# --- Scoring Functions (calculate_bert_scores, calculate_st_cosine_similarity - unchanged from previous) ---
+# --- Scoring Functions (calculate_bert_scores, calculate_st_cosine_similarity - unchanged) ---
 
 def calculate_bert_scores(
     predictions: List[Optional[str]], references: List[Optional[str]], device: torch.device,
@@ -73,19 +64,18 @@ def calculate_bert_scores(
         return [], {'P': [], 'R': [], 'F1': []}
     filtered_predictions = [p for p, r in valid_pairs]
     filtered_references = [r for p, r in valid_pairs]
-    logger.info(f"Calculating BERTScore ({model_type}) for {len(filtered_predictions)} valid pairs...")
+    logger.debug(f"Calculating BERTScore ({model_type}) for {len(filtered_predictions)} valid pairs...")
     bert_device = 'cuda' if torch.cuda.is_available() else 'cpu'
     try:
         P, R, F1 = bert_score_calculate(
             filtered_predictions, filtered_references, model_type=model_type,
             lang=lang, verbose=False, device=bert_device, batch_size=batch_size
         )
-        logger.info("BERTScore calculation finished.")
+        logger.debug("BERTScore calculation finished.")
         return original_indices, {'P': P.tolist(), 'R': R.tolist(), 'F1': F1.tolist()}
     except Exception as e:
         logger.error(f"Error calculating BERTScore: {e}", exc_info=True)
         return [], {'P': [], 'R': [], 'F1': []}
-
 
 def calculate_st_cosine_similarity(
     predictions: List[Optional[str]], references: List[Optional[str]], device: torch.device,
@@ -109,25 +99,25 @@ def calculate_st_cosine_similarity(
         return [], {'cosine_similarity': []}
     filtered_predictions = [p for p, r in valid_pairs]
     filtered_references = [r for p, r in valid_pairs]
-    logger.info(f"Calculating Sentence Transformer Similarity ({model_name}) for {len(filtered_predictions)} valid pairs...")
+    logger.debug(f"Calculating ST Similarity ({model_name}) for {len(filtered_predictions)} valid pairs...")
     try:
         if _st_model_cache is None or str(_st_model_cache.device) != str(device):
             logger.info(f"Loading Sentence Transformer model: {model_name} onto device: {device}")
             _st_model_cache = SentenceTransformer(model_name, device=device)
             logger.info("Sentence Transformer model loaded.")
-        else: logger.info("Using cached Sentence Transformer model.")
+        else: logger.debug("Using cached Sentence Transformer model.")
         st_model = _st_model_cache
         embeddings_pred = st_model.encode(filtered_predictions, convert_to_tensor=True, show_progress_bar=False)
         embeddings_ref = st_model.encode(filtered_references, convert_to_tensor=True, show_progress_bar=False)
         cosine_matrix = util.cos_sim(embeddings_pred, embeddings_ref)
         similarity_scores = torch.diag(cosine_matrix).tolist()
-        logger.info("Sentence Transformer Similarity calculation finished.")
+        logger.debug("Sentence Transformer Similarity calculation finished.")
         return original_indices, {'cosine_similarity': similarity_scores}
     except Exception as e:
         logger.error(f"Error calculating Sentence Transformer Similarity: {e}", exc_info=True)
         return [], {'cosine_similarity': []}
 
-
+# --- Combined Score Calculation Function (Unchanged) ---
 def calculate_scores(
     predictions: List[Optional[str]], references: List[Optional[str]],
     scoring_functions: Dict[str, Callable], device: torch.device
@@ -138,7 +128,7 @@ def calculate_scores(
     aggregate_totals: Dict[str, float] = {}
     valid_counts: Dict[str, int] = {}
     for prefix, func in scoring_functions.items():
-        logger.info(f"--- Calculating scores for metric: {prefix} ---")
+        logger.debug(f"Calculating scores for metric: {prefix}")
         try:
             original_indices, current_scores = func(predictions, references, device)
             if not original_indices or not current_scores:
@@ -168,46 +158,29 @@ def calculate_scores(
         average_scores[avg_score_name] = total / count if count > 0 else None
     return detailed_scores, average_scores
 
-
-# --- Function to process a single file: Read -> Score -> Update -> Write New ---
-def score_and_update_file(input_filepath: str, input_base_dir: str, output_base_dir: str, scoring_functions: Dict[str, Callable], device: torch.device):
+# --- Function to process a single file (Updated for clarity and consistency) ---
+def score_and_update_file(input_filepath: str, output_filepath: str, scoring_functions: Dict[str, Callable], device: torch.device):
     """
-    Loads a JSON file, calculates scores, adds them to the data, and saves to a new file.
+    Loads a JSON file, calculates scores, adds them to the data, and saves to the specified output file.
     """
-    relative_path = os.path.relpath(input_filepath, input_base_dir)
-    output_filepath = os.path.join(output_base_dir, relative_path)
-    # Ensure output directory structure exists
-    os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
-
-    # Change output filename suffix (optional, but clearer)
-    base, ext = os.path.splitext(output_filepath)
-    if base.endswith("_generated_retry"): # Handle suffix from previous step
-        base = base[:-len("_generated_retry")]
-    output_filepath = f"{base}_scored.json" # Add new suffix
-
-
-    logger.info(f"Processing: {input_filepath}")
-    logger.info(f"Outputting to: {output_filepath}")
+    logger.info(f"Processing: {os.path.basename(input_filepath)}")
 
     try:
         with open(input_filepath, 'r', encoding='utf-8') as f:
-            # IMPORTANT: Load the *entire* existing data structure
             data = json.load(f)
     except Exception as e:
-        logger.error(f"Failed to read or parse JSON file {input_filepath}: {e}", exc_info=True)
-        return
+        logger.error(f"Failed to read/parse JSON file {input_filepath}: {e}", exc_info=True)
+        return False # Indicate failure
 
     # --- Data Validation ---
     if "details" not in data or not isinstance(data["details"], list):
         logger.error(f"Invalid format: 'details' list not found in {input_filepath}. Skipping.")
-        return
+        return False # Indicate failure
     if not data["details"]:
-         logger.warning(f"'details' list is empty in {input_filepath}. Nothing to score.")
-         # Optionally save the original file to the output dir anyway? Or just skip? Let's skip.
-         return
+         logger.warning(f"'details' list is empty in {input_filepath}. Nothing to score. Skipping file.")
+         return False # Indicate failure
 
     details = data["details"]
-    # Get summary, create if it doesn't exist
     summary = data.get("summary", {})
     data["summary"] = summary # Ensure summary is part of the data dict
 
@@ -216,91 +189,154 @@ def score_and_update_file(input_filepath: str, input_base_dir: str, output_base_
     all_references = [item.get("ground_truth_answer") for item in details]
 
     # --- Score Calculation ---
+    # Define the scoring functions dictionary here or pass it
+    defined_scoring_functions = {
+        "bert_score": lambda preds, refs, dev: calculate_bert_scores(
+            preds, refs, dev, model_type=BERT_SCORE_MODEL, batch_size=16, lang=DEFAULT_LANG_FOR_BERT_SCORE
+        ),
+        "st_similarity": lambda preds, refs, dev: calculate_st_cosine_similarity(
+            preds, refs, dev, model_name=ST_MODEL_NAME
+        ),
+    }
     detailed_scores, average_scores = calculate_scores(
-        all_predictions, all_references, scoring_functions, device
+        all_predictions, all_references, defined_scoring_functions, device
     )
 
     # --- Update Data Structure ---
-    # Add detailed scores to each item in the 'details' list
     valid_indices_scored = set(detailed_scores.keys())
-    logger.info(f"Adding scores to {len(valid_indices_scored)} items in 'details'.")
+    logger.debug(f"Adding scores to {len(valid_indices_scored)} items in 'details'.")
     for i, item in enumerate(details):
         if i in detailed_scores:
-            # Update the item dictionary with the calculated scores for this index
             item.update(detailed_scores[i])
-        # You could add placeholder None values for score fields if an item wasn't scored,
-        # but it might make the file larger. Let's only add scores that were calculated.
 
-    # Update the 'summary' dictionary with average scores and counts
-    logger.info("Updating 'summary' with average scores.")
-    summary["valid_pairs_for_scoring"] = len(valid_indices_scored) # Number of pairs actually scored
-    summary.update(average_scores) # Add average scores (e.g., "average_bert_score_F1": 0.85)
+    logger.debug("Updating 'summary' with average scores.")
+    summary["valid_pairs_for_scoring"] = len(valid_indices_scored)
+    summary.update(average_scores)
 
     # --- Save Updated Data to New File ---
     logger.info(f"Saving scored results to: {output_filepath}")
     try:
+        # Ensure output directory exists just before writing
+        os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
         with open(output_filepath, 'w', encoding='utf-8') as f:
-            # Save the *entire modified data structure*
             json.dump(data, f, indent=2, ensure_ascii=False)
+        return True # Indicate success
     except Exception as e:
         logger.error(f"Failed to save scored results to {output_filepath}: {e}", exc_info=True)
-
+        return False # Indicate failure
 
 # --- Main Execution ---
 if __name__ == "__main__":
-    logger.info("Starting scoring script for existing log files.")
+    logger.info("Starting automated scoring script for existing log files.")
 
     # --- Device Setup ---
     if torch.cuda.is_available():
         device = torch.device("cuda")
-        logger.info(f"CUDA available. Using GPU for potential scoring: {torch.cuda.get_device_name(0)}")
+        logger.info(f"CUDA available. Using GPU: {torch.cuda.get_device_name(0)}")
     else:
         device = torch.device("cpu")
-        logger.info("CUDA not available. Using CPU for potential scoring.")
+        logger.info("CUDA not available. Using CPU.")
 
     # --- Input/Output Validation ---
-    if not os.path.isdir(INPUT_DATA_DIR):
-        logger.error(f"Input data directory not found: {INPUT_DATA_DIR}")
+    if not os.path.isdir(BASE_GENERATED_DIR):
+        logger.error(f"Base generated directory not found: {BASE_GENERATED_DIR}")
         exit(1)
-    # Output directory will be created if it doesn't exist by os.makedirs later
+    # Base output directory will be created if needed
 
-    # --- Find Files to Process ---
-    files_to_score = []
-    logger.info(f"Searching for .json files recursively in: {INPUT_DATA_DIR}")
-    for root, _, files in os.walk(INPUT_DATA_DIR):
-        for filename in files:
-            if filename.endswith(".json"): # Find all json files
-                files_to_score.append(os.path.join(root, filename))
+    # --- Find Model Subdirectories ---
+    model_subdirs = []
+    try:
+        entries = os.listdir(BASE_GENERATED_DIR)
+        for entry in entries:
+            full_path = os.path.join(BASE_GENERATED_DIR, entry)
+            if os.path.isdir(full_path):
+                model_subdirs.append(entry) # Store only the subdirectory name
+    except Exception as e:
+        logger.error(f"Error listing model directories in {BASE_GENERATED_DIR}: {e}")
+        exit(1)
 
-    if not files_to_score:
-        logger.error(f"No '.json' files found recursively in {INPUT_DATA_DIR}. Exiting.")
-        exit()
+    if not model_subdirs:
+        logger.error(f"No model subdirectories found in {BASE_GENERATED_DIR}. Exiting.")
+        exit(1)
 
-    logger.info(f"Found {len(files_to_score)} '.json' files to score.")
-    logger.info(f"Configured metrics: {list(SCORING_FUNCTIONS.keys())}")
-    logger.info(f"Scored files will be saved under: {SCORED_OUTPUT_DIR}")
+    logger.info(f"Found {len(model_subdirs)} potential model subdirectories: {model_subdirs}")
+    logger.info(f"Scored files will be saved under base directory: {BASE_SCORED_OUTPUT_DIR}")
 
-
-    # --- Process Each File ---
+    # --- Process Each Model Directory ---
     overall_start_time = time.time()
-    for json_filepath in tqdm(files_to_score, desc="Scoring Files"):
-        score_and_update_file(
-            json_filepath,
-            INPUT_DATA_DIR,      # Pass base input dir for relative path calculation
-            SCORED_OUTPUT_DIR,   # Pass base output dir
-            SCORING_FUNCTIONS,
-            device
-        )
-        # --- Memory Management ---
-        gc.collect()
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
+    total_files_processed = 0
+    total_files_failed = 0
 
-    # --- Cleanup ---
+    # Use tqdm for iterating through model directories
+    for model_dir_name in tqdm(model_subdirs, desc="Processing Model Dirs"):
+        model_input_dir = os.path.join(BASE_GENERATED_DIR, model_dir_name)
+        model_output_dir = os.path.join(BASE_SCORED_OUTPUT_DIR, model_dir_name) # Create corresponding output dir
+
+        logger.info(f"\n--- Processing Model Directory: {model_dir_name} ---")
+        logger.info(f"Input Path: {model_input_dir}")
+        logger.info(f"Output Path: {model_output_dir}")
+
+        # --- Find JSON files within this model directory ---
+        files_to_score_in_model_dir = []
+        try:
+            for filename in os.listdir(model_input_dir):
+                if filename.endswith(".json"):
+                    files_to_score_in_model_dir.append(os.path.join(model_input_dir, filename))
+        except Exception as e:
+            logger.error(f"Error listing files in directory {model_input_dir}: {e}. Skipping directory.")
+            continue # Skip to the next model directory
+
+        if not files_to_score_in_model_dir:
+            logger.warning(f"No '.json' files found in {model_input_dir}. Skipping directory.")
+            continue
+
+        logger.info(f"Found {len(files_to_score_in_model_dir)} '.json' files for model '{model_dir_name}'.")
+
+        # --- Process each file within the model directory ---
+        # Use tqdm for iterating through files within a model directory
+        for json_filepath in tqdm(files_to_score_in_model_dir, desc=f"Scoring Files in {model_dir_name}", leave=False):
+            # Construct the specific output path for this file
+            base_filename = os.path.basename(json_filepath)
+            # Modify filename for output (e.g., replace _generated with _scored)
+            if base_filename.endswith("_generated.json"): # Assuming generated files have this suffix
+                 output_base_filename = base_filename.replace("_generated.json", "_scored.json")
+            else: # Fallback if suffix is different or missing
+                 base, ext = os.path.splitext(base_filename)
+                 output_base_filename = f"{base}_scored{ext}"
+
+            output_filepath = os.path.join(model_output_dir, output_base_filename)
+
+            success = score_and_update_file(
+                json_filepath,
+                output_filepath, # Pass the specific output path
+                {}, # scoring_functions are defined inside the function now
+                device
+            )
+            if success:
+                 total_files_processed += 1
+            else:
+                 total_files_failed += 1
+
+            # --- Memory Management within the inner loop ---
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+
+        logger.info(f"--- Finished processing for Model Directory: {model_dir_name} ---")
+        # Optional: Add a small delay between model directories if needed
+        # time.sleep(2)
+
+    # --- Final Cleanup ---
     _st_model_cache = None # Clear ST model cache
     gc.collect()
     if torch.cuda.is_available():
-            torch.cuda.empty_cache()
+        torch.cuda.empty_cache()
 
     overall_end_time = time.time()
-    logger.info(f"Scoring script finished in {overall_end_time - overall_start_time:.2f} seconds.")
+    logger.info(f"\n{'='*50}")
+    logger.info("Scoring script finished.")
+    logger.info(f"Total time: {overall_end_time - overall_start_time:.2f} seconds.")
+    logger.info(f"Total files successfully scored and saved: {total_files_processed}")
+    logger.info(f"Total files failed or skipped: {total_files_failed}")
+    logger.info(f"Scored results saved under: {BASE_SCORED_OUTPUT_DIR}")
+    logger.info(f"{'='*50}")
