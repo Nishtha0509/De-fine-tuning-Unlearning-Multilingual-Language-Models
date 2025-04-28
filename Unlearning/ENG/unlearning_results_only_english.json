@@ -27,10 +27,10 @@
         },
         {
             "model_name": "/data/courses/2025/class_cse576spring2025_vgupt140/Axolotls/FineTuning/TOFU_Qwen2.5-7B-Instruct/Full_TOFU_Qwen2.5-7B-Instruct_ENG",
-            "initial_retain_losses": 0,
-            "forget_loss_before_ga": 0,
-            "forget_loss_after_ga": 0,
-            "retain_losses_after_ga": 0
+            "initial_retain_losses": 7.3786,
+            "forget_loss_before_ga": 7.0522,
+            "forget_loss_after_ga": null,
+            "retain_losses_after_ga": null
         }
     ]
 }
